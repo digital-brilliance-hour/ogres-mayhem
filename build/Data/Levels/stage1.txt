@@ -1,0 +1,97 @@
+music		data/music/stage1.ogg 3327093
+bossmusic data/music/boss.ogg 3149234
+panel data/bgs/stage-1/n.gif none none
+order a
+
+spawn1 110 20
+spawn2 120 40
+
+stagenumber 1
+
+spawn ready
+	coords 240 136
+	at 0
+	
+spawn Android
+coords	480 215
+at 310
+
+spawn Android
+coords	480 230
+at 310
+
+spawn Android
+coords	-30 220
+at 310
+
+spawn Android
+coords	-30 230
+at 310
+
+wait
+at      310
+
+spawn mp_twentyfive
+coords 600 220
+at 320
+
+spawn Ninja
+coords	480 215
+at 1425
+
+spawn Ninja
+coords	480 230
+at 1425
+
+spawn Ninja
+coords	-30 220
+at 1425
+
+spawn Ninja
+coords	-30 230
+at 1425
+
+wait
+at      1425
+
+spawn Marine
+coords	480 215
+at      2058
+
+spawn Marine
+coords	480 230
+at 2058
+
+spawn Marine
+coords	-30 220
+at 2058
+
+spawn Marine
+coords	-30 230
+at 2058
+
+wait
+at      2058
+
+spawn hp_hundred
+coords 600 220
+at 2270
+
+spawn	warning
+	coords 240 136
+flip    1
+at      2919
+
+spawn Story
+alias sasukedialog
+at 2920
+
+
+spawn sasuke_e
+boss 1
+alias  Sasuke
+coords	450 200
+at 2921
+
+wait
+at      2921

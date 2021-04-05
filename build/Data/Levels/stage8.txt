@@ -1,0 +1,28 @@
+music data/music/stage8.ogg 3742856
+background data/bgs/stage-8/back.gif
+frontpanel data/bgs/stage-8/f01.gif
+panel data/bgs/stage-8/back.gif none none
+order a
+
+stagenumber 8
+
+spawn	warning
+	coords 240 136
+flip    1
+at      0
+
+spawn Story
+alias brolydialog
+at 0
+
+spawn brolye
+boss 1
+health 2000
+2phealth 2500
+3phealth 3000
+4phealth 4000
+coords 480 200
+at 0
+
+wait
+at 0

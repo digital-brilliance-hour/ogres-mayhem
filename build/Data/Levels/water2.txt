@@ -13,7 +13,8 @@ order	abababababababababababab
 
 #---------------------
 
-spawn	Angel
+spawn wolf
+boss 1
 coords	380 160
 at	800
 

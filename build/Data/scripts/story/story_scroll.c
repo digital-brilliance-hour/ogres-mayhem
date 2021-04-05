@@ -101,7 +101,7 @@ void addLine(int cr)
 				{
 					x=res_x*0.25;
 				}else{
-					x=res_x*0.39;
+					x=res_x*0.10;
 				}
 			}
 			if (font==-1)
@@ -138,12 +138,12 @@ void drawLine(int cr,float ll_offset)
 	long scr=getglobalvar("scr");
 	void back=getindexedvar(story_back);
 	clearscreen(scr);
-	if(!back)
+	/*if(!back)
 	{
 		drawboxtoscreen(scr,0,0,res_x,res_y,0,0);
 	}else{
 		drawspritetoscreen(back,scr,0,0);
-	}
+	}*/
 	
 	for (i=0;i<line;i++)
 	{

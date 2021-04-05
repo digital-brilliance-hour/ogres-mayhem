@@ -1,0 +1,22 @@
+name	h_card
+speed   50
+type 	none
+shadow	0
+remove 0
+
+anim	idle
+	attack	2 2 9 7 20 1 1 0 0 0
+	loop	0
+	offset	6 5
+	frame	data/chars/Hisoka/200.gif
+	offset	1 9
+	frame	data/chars/Hisoka/201.gif
+	attack	2 2 9 7 20 1 0 1 0 0
+	offset	2 9
+	frame	data/chars/Hisoka/202.gif
+	attack	2 2 9 7 20 1 1 0 0 0
+	offset	2 9
+	frame	data/chars/Hisoka/203.gif
+		
+#|edited by openBor Stats v 0.67
+		

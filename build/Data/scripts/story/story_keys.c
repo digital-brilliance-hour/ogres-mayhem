@@ -3,7 +3,7 @@
 void storyKeys()
 {
 	//for scrolling
-	if(getglobalvar("scr") && getindexedvar(story_backfile)!=NULL() && (playerkeys(0, 1, "start")))
+	if(getindexedvar(story_back)!=NULL() && (playerkeys(0, 1, "start") || playerkeys(1, 1, "start") || playerkeys(2, 1, "start") || playerkeys(3, 1, "start")))
 	{
 		jumptobranch("",1);
 	}
@@ -19,7 +19,7 @@ void dialogSkip()
 		void noskip=getindexedvar(story_isDialogSkip);
 		if(ent)
 		{
-			if(playerkeys(0,0,"attack") || playerkeys(0,0,"attack2")){
+			if(playerkeys(0,0,"attack") || playerkeys(0,0,"attack2") || playerkeys(1,0,"attack") || playerkeys(1,0,"attack2") || playerkeys(2,0,"attack") || playerkeys(2,0,"attack2") || playerkeys(3,0,"attack") || playerkeys(3,0,"attack2")){
 				if (!getindexedvar(story_typing)){             
 					setindexedvar(story_isDisplayDialog, 0);
 					updateframe(ent,0);

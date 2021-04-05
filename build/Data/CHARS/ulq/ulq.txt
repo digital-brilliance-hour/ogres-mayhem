@@ -1,0 +1,94 @@
+name	Ulquiorra
+health	300
+speed	20
+type	enemy
+subtype chase
+shadow 3
+cantgrab 1
+riseinv 2 0
+makeinv 2 0
+aimove chase
+escapehits 1
+candamage player npc obstacle
+hostile npc player
+lifebarstatus 380 5 0 1 0 0 0 0 0
+lifeposition 50 235
+nameposition 60 225
+iconposition 50 360
+ondeathscript data/scripts/bossdeath.c
+
+
+anim	attack1
+	loop	0
+	delay	7
+	offset	60 116
+	bbox	45 60 30 56
+	sound	data/sounds/Att.wav
+	frame	data/chars/Ulq/Att1.gif
+	attack	70 62 35 53 20
+	frame	data/chars/Ulq/Att2.gif
+	frame	data/chars/Ulq/Att3.gif
+	frame	data/chars/Ulq/Att4.gif
+		
+anim	attack2
+	loop	0
+	offset	60 116
+	bbox	45 60 30 56
+	delay	5
+	frame	data/chars/Ulq/Free4.gif
+	frame	data/chars/Ulq/Free4.gif
+	frame	data/chars/Ulq/Free4.gif
+	sound	data/sounds/Att.wav
+	frame	data/chars/Ulq/Free5.gif
+	attack	40 9 507 107 30
+	frame	data/chars/Ulq/Free6.gif
+	frame	data/chars/Ulq/Free7.gif
+	attack	0 0 0 0 0
+	frame	data/chars/Ulq/Idle1.gif
+	frame	data/chars/Ulq/Idle1.gif
+	frame	data/chars/Ulq/Idle1.gif
+	frame	data/chars/Ulq/Idle1.gif
+	frame	data/chars/Ulq/Idle1.gif
+		
+anim	fall
+	loop	0
+	offset	60 116
+	delay	30
+	frame	data/chars/Ulq/Fall1.gif
+		
+anim	idle
+	loop	1
+	delay	15
+	offset	60 116
+	bbox	45 60 30 56
+	frame	data/chars/Ulq/Idle1.gif
+		
+anim	land
+	loop	0
+	offset	60 116
+	delay	10
+	frame	data/chars/Ulq/Idle1.gif
+		
+anim	pain
+	loop	0
+	offset	60 116
+	delay	30
+	frame	data/chars/Ulq/Hurt1.gif
+		
+anim	rise
+	loop	0
+	offset	60 116
+	delay	10
+	frame	data/chars/Ulq/Idle1.gif
+		
+anim	walk
+	loop	0
+	delay	30
+	offset	60 116
+	bbox	45 60 30 56
+	frame	data/chars/Ulq/walk1.gif
+	frame	data/chars/Ulq/walk2.gif
+	frame	data/chars/Ulq/walk3.gif
+		
+#|edited by openBor Stats v 0.67
+		

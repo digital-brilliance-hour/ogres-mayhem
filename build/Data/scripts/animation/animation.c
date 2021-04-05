@@ -764,6 +764,41 @@ void spawn04(void vName, float fX, float fY, float fZ)
 	return vSpawn; //Return spawn.
 }
 
+void spawn08(void vName, float fX, float fY, float fZ)
+{	//spawn01 (Generic spawner)
+	//Damon Vaughn Caskey
+	//07/06/2007
+	//
+	//Spawns entity next to caller.
+	//
+	//vName: Model name of entity to be spawned in.
+	//fX: X location adjustment.
+	//fZ: Y location adjustment.
+    //fY: Z location adjustment.
+
+	void self 		= getlocalvar("self"); //Get calling entity.
+	void vSpawn; //Spawn object.
+	int  iDirection = getentityproperty(self, "direction");
+
+	clearspawnentry(); //Clear current spawn entry.
+    setspawnentry("name", vName); //Acquire spawn entity by name.
+
+	if(iDirection == 0){ //Is entity facing left?                  
+        fX = -fX; //Reverse X direction to match facing.
+	}
+
+	
+    fX = fX; //Get X location and add adjustment.
+    fY = fY; //Get Y location and add adjustment.
+    fZ = fZ; //Get Z location and add adjustment.
+	
+	vSpawn = spawn(); //Spawn in entity.
+
+	changeentityproperty(vSpawn, "position", fX, fZ, fY); //Set spawn location.
+	changeentityproperty(vSpawn, "direction", iDirection); //Set direction.
+    return vSpawn; //Return spawn.
+}
+
 void spawner2(void vName, float fX, float fY, float fZ, float count)
 {	//Spawns entity next to caller with same remap as spawner's. (ALL DODGE ENTITY SHADOWS)
 	//vName: Model name of entity to be spawned in.
@@ -1013,7 +1048,7 @@ void spawnscreen(void Name, float fX, float fY, float fZ)
     fX = fX + XPos; // Changes position relative to XPos
 	fY = fY + YPos; // Changes position relative to YPos
 	
-	vSpawn = spawn01(Name, 0, 0, 0);
+	vSpawn = spawn08(Name, 0, 0, 0);
 	
 	changeentityproperty(vSpawn, "position", fX, fZ, fY); //Set spawn location.
     
@@ -1027,6 +1062,20 @@ void spawnparent(void Name, float dx, float dy, float dz)
 
 	vSpawn = spawn01(Name, dx, dy, dz);
 	changeentityproperty(vSpawn, "parent", self); //Set caller as parent.
+	changeentityproperty(vSpawn, "velocity", 0,0,0);
+	changeentityproperty(vSpawn, "speed", 0);
+
+	return vSpawn; //Return vSpawn.
+}
+
+void spawnplace(void Name, float dx, float dy, float dz)
+{// Spawn and set to Parent
+	void self = getlocalvar("self");
+	void vSpawn;
+
+	vSpawn = spawn01(Name, dx, dy, dz);
+	changeentityproperty(vSpawn, "parent", self); //Set caller as parent.
+	//changeentityproperty(vSpawn, "position", dx, dz, dy);
 
 	return vSpawn; //Return vSpawn.
 }
@@ -1410,6 +1459,75 @@ void cancel(int RxMin, int RxMax, int RyMin, int RyMax, int RzMin, int RzMax, vo
 			executeanimation(self, openborconstant(Ani), 1); //Change the animation
 		}
 	}
+}
+
+void enoughmp() {
+	void self 	= getlocalvar("self");
+	void AniID = getani();
+	int mp		= getentityproperty(self, "mp"); //Get entity's MP
+	int maxmp	= getentityproperty(self, "maxmp"); //Get entity's Max MP
+	changeentityproperty(self,"energycost",0, 1, 0);
+	int specialcount = numspecials(self);
+	if(mp < maxmp) {
+		anichange(openborconstant("ANI_SPAWN"));
+		setidle(self, openborconstant("ANI_SPAWN"));
+		mpcost(0);
+	}
+	else {
+		if(AniID == openborconstant("ANI_FREESPECIAL") && maxmp >= 200)
+		{
+			changeentityproperty(self, "mp", 0);
+		}
+		else if(AniID == openborconstant("ANI_FREESPECIAL2") && maxmp >= 400)
+		{
+			changeentityproperty(self, "mp", 0);
+		}
+		else if(AniID == openborconstant("ANI_FREESPECIAL3") && maxmp >= 600)
+		{
+			changeentityproperty(self, "mp", 0);
+		}
+		else if(AniID == openborconstant("ANI_SPECIAL") && maxmp >= 800)
+		{
+			changeentityproperty(self, "mp", 0);
+		}
+		else if(AniID == openborconstant("ANI_FREESPECIAL4") && maxmp >= 1000)
+		{
+			changeentityproperty(self, "mp", 0);
+		}
+		else 
+		{
+			anichange(openborconstant("ANI_SPAWN"));
+			setidle(self, openborconstant("ANI_SPAWN"));
+			mpcost(0);
+		}
+	}
+}
+
+int numspecials(void player) {
+	void AniID = getani();
+	int count = 0; 
+	int i;
+	//set your array
+	void items = array(6);
+	set(items,0,openborconstant("ANI_SPECIAL"));
+	set(items,1,openborconstant("ANI_FREESPECIAL"));
+	set(items,2,openborconstant("ANI_FREESPECIAL2"));
+	set(items,3,openborconstant("ANI_FREESPECIAL3"));
+	set(items,4,openborconstant("ANI_FREESPECIAL4"));
+	for(i=0; i<size(items); i++) 
+	{
+		if (getentityproperty(player, "animvalid", get(items, i)))          //Animation valid?
+		{
+			count++;
+		}	
+	}
+   return count-1;
+}
+
+void getani()
+{
+	void ent = getlocalvar("self");
+	return getentityproperty(ent,"animationID");
 }
 
 void cancelmp(int RxMin, int RxMax, int RyMin, int RyMax, int Limit, void Ani)

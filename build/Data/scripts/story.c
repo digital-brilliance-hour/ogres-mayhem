@@ -143,13 +143,13 @@ void storySystem()
 			//other aspect ratios.
 			if ((ar_x == 4) && (ar_y == 3)){
 				frame_x = res_x*0.02;
-				frame_y = res_y*0.73;
+				frame_y = res_y*0.45;
 				frame_w = res_x - ((frame_x*2)-1);
 				frame_h = 60;
 			}
 			else{ 
 				frame_x = res_x*0.2;
-				frame_y = res_y*0.73;
+				frame_y = res_y*0.45;
 				frame_w = res_x - ((frame_x*2)-1);
 				frame_h = 60;
 			}
@@ -345,8 +345,43 @@ void storySystem()
 								playSound("data/sounds/blipmale.wav");
 							}
 						}
-						fin = getindexedvar(story_text) + getchar(current_msg,getindexedvar(story_charlength));
-						if (getindexedvar(story_state)==0){
+						if (getchar(current_msg,getindexedvar(story_charlength)) != "_") {}
+						switch(getchar(current_msg,getindexedvar(story_charlength)))
+						{
+							//left
+							case "<":
+								break;
+							//right
+							case ">":
+								break;
+							//up
+							case "{":
+								break;
+							//down
+							case "}":
+								break;
+							//attack
+							case "|":
+								break;
+							//freespecial
+							case "$":
+								break;
+							//jump
+							case "~":
+								break;
+							//special
+							case "@":
+								break;
+							//freespecial2
+							case "&":
+								break;
+							//freespecial3
+							case "^":
+								break;
+							default:
+								fin = getindexedvar(story_text) + getchar(current_msg,getindexedvar(story_charlength));
+								break;
+						}if (getindexedvar(story_state)==0){
 							settextobj(txt_msg1,frame_x+15,frame_y+20,0,1300,getindexedvar(story_text));
 						}
 						else if (getindexedvar(story_state)==1){

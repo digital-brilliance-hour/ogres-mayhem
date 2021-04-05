@@ -1,0 +1,107 @@
+music data/music/stage3-slow.ogg 1412573
+background data/bgs/stage-7/back.gif
+panel data/bgs/stage-7/n01.gif none none
+order a
+
+stagenumber 3
+
+spawn ready
+	coords 240 136
+	at 0
+	
+spawn   boar2
+coords	200 220
+at	0
+
+spawn   boar
+coords	480 200
+at      0
+
+spawn   dino
+coords	300 270
+at      0
+
+
+wait
+at      500
+
+spawn   facce
+coords	100 270
+at      1000
+
+spawn   facce
+coords	175 215
+at      1000
+
+spawn   facce
+coords	170 225
+at      1200
+
+spawn   facce
+coords	170 270
+at      1200
+
+
+wait
+at      1700
+
+spawn   buggy
+item hp_hundred
+coords	300 240
+at      1900
+
+spawn   gunner
+item hp_hundred
+coords	350 230
+at      1700
+
+2pspawn   gunner
+item mp_hundred
+coords	450 230
+at      1700
+
+3pspawn   gunner
+item hp_hundred
+coords	350 250
+at      1700
+
+4pspawn   gunner
+item mp_hundred
+coords	350 230
+at      1700
+
+
+wait
+at      2100
+
+spawn	warning
+	coords 240 136
+flip    1
+at      2398
+
+spawn Story
+alias kingpiccolodialog
+at 2399
+
+spawn   KPiccoloE
+alias King_Piccolo
+boss 1
+health  500
+3phealth 1000
+4phealth 1500
+coords  300 200
+at      2400
+
+spawn   kizaru
+aggression  10
+health  200
+coords  300 270
+at      2400
+
+spawn   wolf
+coords  300 270
+at      2300
+
+spawn   wolf
+coords  300 270
+at      2500

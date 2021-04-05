@@ -1,0 +1,240 @@
+name	Ichigo
+health	100
+mp	100
+speed	15
+type	player
+shadow 3
+cantgrab 1
+animationscript data/scripts/spawns.c
+com a2 freespecial
+script data/scripts/playerscript.c
+
+parrow data/chars/misc/picon/1picon.gif -18 -100
+parrow2 data/chars/misc/picon/2picon.gif -18 -100
+parrow3 data/chars/misc/picon/3picon.gif -18 -100
+parrow4 data/chars/misc/picon/4picon.gif -18 -100
+makeinv 4
+
+
+
+
+
+
+
+
+
+
+anim	attack1
+	loop	0
+	delay	7
+	offset	58 116
+	sound	data/sounds/Att.wav
+	frame	data/chars/Ichigo/Att1.gif
+	attack	80 46 50 70 6 0 0 0 0 0
+	frame	data/chars/Ichigo/Att2.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/Ichigo/Att3.gif
+	frame	data/chars/Ichigo/Att4.gif
+		
+anim	attack2
+	loop	0
+	delay	7
+	offset	58 116
+	sound	data/sounds/Att.wav
+	frame	data/chars/Ichigo/2Att1.gif
+	attack	80 46 50 70 8 0 0 0 0 0
+	frame	data/chars/Ichigo/2Att2.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/Ichigo/2Att3.gif
+	frame	data/chars/Ichigo/2Att4.gif
+		
+anim	attack3
+	loop	0
+	delay	7
+	offset	58 116
+	sound	data/sounds/Att.wav
+	frame	data/chars/Ichigo/3Att1.gif
+	attack	80 46 50 70 10 1 0 0 0 0
+	frame	data/chars/Ichigo/3Att2.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/Ichigo/3Att3.gif
+	frame	data/chars/Ichigo/3Att4.gif
+		
+anim	fall
+	loop	0
+	offset	58 116
+	frame	data/chars/Ichigo/Fall1.gif
+		
+anim	freespecial
+	energycost	0
+	mponly	1
+	@cmd	enoughmp
+	loop	0
+	offset	58 116
+	delay	30
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnscreen "Screen_wind" 0 0
+	@cmd	changeopenborvariant "slowmotion" 1
+	frame	data/chars/Ichigo/Free1.gif
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 0
+	delay	5
+	frame	data/chars/Ichigo/Free2.gif
+	frame	data/chars/Ichigo/Free3.gif
+	frame	data/chars/Ichigo/Free4.gif
+	@cmd	spawnparent "pdust" -10 0 -20
+	attack	70 60 230 56 30 1 0 0 0 0
+	frame	data/chars/Ichigo/Free5.gif
+	frame	data/chars/Ichigo/Free6.gif
+	frame	data/chars/Ichigo/Free7.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/Ichigo/Duck1.gif
+		
+anim	get
+	loop	0
+	offset	58 116
+	delay	10
+	frame	data/chars/Ichigo/Duck1.gif
+		
+anim	idle
+	loop	1
+	delay	15
+	offset	58 116
+	bbox	45 70 30 46
+	frame	data/chars/Ichigo/Idle1.gif
+	frame	data/chars/Ichigo/Idle2.gif
+	frame	data/chars/Ichigo/Idle3.gif
+	frame	data/chars/Ichigo/Idle4.gif
+	frame	data/chars/Ichigo/Idle3.gif
+	frame	data/chars/Ichigo/Idle2.gif
+		
+anim	jump
+	offset	58 116
+	delay	20
+	bbox	45 70 30 46
+	@cmd	spawnparent "pdust" -10 0 -20
+	frame	data/chars/Ichigo/jump1.gif
+		
+anim	jumpattack
+	loop	0
+	delay	7
+	offset	58 116
+	bbox	45 70 30 46
+	sound	data/sounds/Att.wav
+	attack	69 32 50 86 10 1
+	frame	data/chars/Ichigo/Att1.gif
+	attack	69 32 50 86 10 1 0 0 0 0
+	frame	data/chars/Ichigo/Att2.gif
+	attack	69 32 50 86 10 1 0 0 0 0
+	frame	data/chars/Ichigo/Att2J.gif
+		
+anim	land
+	loop	0
+	offset	58 116
+	delay	10
+	frame	data/chars/Ichigo/Duck1.gif
+		
+anim	pain
+	loop	0
+	offset	58 116
+	delay	30
+	frame	data/chars/Ichigo/Free1.gif
+		
+anim	rise
+	loop	0
+	offset	58 116
+	delay	10
+	frame	data/chars/Ichigo/Duck1.gif
+		
+anim	select
+	loop	0
+	delay	20
+	offset	120 160
+	frame	data/chars/Ichigo/Select1.gif
+	frame	data/chars/Ichigo/Select2.gif
+	frame	data/chars/Ichigo/Select2.gif
+	frame	data/chars/Ichigo/Select2.gif
+	frame	data/chars/Ichigo/Select2.gif
+	frame	data/chars/Ichigo/Select2.gif
+	frame	data/chars/Ichigo/Select2.gif
+	frame	data/chars/Ichigo/Select3.gif
+	frame	data/chars/Ichigo/Select4.gif
+	frame	data/chars/Ichigo/Select5.gif
+	frame	data/chars/Ichigo/Select6.gif
+	frame	data/chars/Ichigo/Select7.gif
+	frame	data/chars/Ichigo/Select7.gif
+	frame	data/chars/Ichigo/Select7.gif
+	frame	data/chars/Ichigo/Select7.gif
+	frame	data/chars/Ichigo/Select7.gif
+	frame	data/chars/Ichigo/Select7.gif
+		
+anim	spawn
+	offset	58 116
+	frame	data/chars/Ichigo/Idle1.gif
+		
+anim	special
+	energycost	0
+	mponly	1
+	@cmd	enoughmp
+	loop	0
+	offset	58 116
+	delay	30
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnscreen "Screen_wind" 0 0
+	@cmd	changeopenborvariant "slowmotion" 1
+	frame	data/chars/Ichigo/Spec1.gif
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 0
+	delay	10
+	frame	data/chars/Ichigo/Spec2.gif
+	frame	data/chars/Ichigo/Spec3.gif
+	frame	data/chars/Ichigo/Spec2.gif
+	frame	data/chars/Ichigo/Spec3.gif
+	frame	data/chars/Ichigo/Spec2.gif
+	frame	data/chars/Ichigo/Spec3.gif
+	frame	data/chars/Ichigo/Spec4.gif
+	sound	data/sounds/Att.wav
+	attack	6 40 114 75 15 0 0 0 0 0
+	frame	data/chars/Ichigo/Spec5.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/Ichigo/Spec5.gif
+	sound	data/sounds/Att.wav
+	attack	6 40 114 75 15 0 0 0 0 0
+	frame	data/chars/Ichigo/Spec6.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/Ichigo/Spec6.gif
+	sound	data/sounds/Att.wav
+	attack	6 40 114 75 15 0 0 0 0 0
+	frame	data/chars/Ichigo/Spec7.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/Ichigo/Spec7.gif
+	sound	data/sounds/Att.wav
+	attack	6 40 114 75 50 1 0 0 0 0
+	frame	data/chars/Ichigo/Spec8.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/Ichigo/Duck1.gif
+	frame	data/chars/Ichigo/Duck1.gif
+	frame	data/chars/Ichigo/Duck1.gif
+	frame	data/chars/Ichigo/Duck1.gif
+	frame	data/chars/Ichigo/Duck1.gif
+		
+anim	walk
+	loop	1
+	delay	7
+	offset	58 116
+	bbox	45 70 30 46
+	frame	data/chars/Ichigo/walk1.gif
+	frame	data/chars/Ichigo/walk2.gif
+	sound	data/sounds/walk.wav
+	frame	data/chars/Ichigo/walk3.gif
+	frame	data/chars/Ichigo/walk4.gif
+	frame	data/chars/Ichigo/walk5.gif
+	frame	data/chars/Ichigo/walk6.gif
+	sound	data/sounds/walk.wav
+	frame	data/chars/Ichigo/walk7.gif
+	frame	data/chars/Ichigo/walk8.gif
+		
+#|edited by openBor Stats v 0.67
+		
