@@ -4,6 +4,7 @@ type	enemy
 shadow	5
 icon	data/chars/lobster/icon.gif
 diesound data/sounds/alien.wav
+subject_to_screen 1
 
 
 remap	data/chars/lobster/stand1.gif data/chars/lobster/alt1.gif
@@ -12,8 +13,9 @@ remap	data/chars/lobster/stand1.gif data/chars/lobster/alt3.gif
 remap	data/chars/lobster/stand1.gif data/chars/lobster/alt4.gif
 remap	data/chars/lobster/stand1.gif data/chars/lobster/alt5.gif
 
-takedamagescript data/scripts/bosses.c
 animationscript data/scripts/spawns.c
+takedamagescript data/scripts/enemyhit.c
+
 
 
 anim	attack1
@@ -82,6 +84,7 @@ anim	attack2
 	frame	data/chars/lobster/slash10.gif
 		
 anim	fall
+	bbox	17 5 101 88
 	loop	0
 	delay	25
 	offset	54 92
@@ -124,11 +127,6 @@ anim	idle
 	frame	data/chars/lobster/stand4.gif
 	frame	data/chars/lobster/stand5.gif
 		
-anim	spawn
-	delay	75
-	@cmd	spawnparent "e_spawn" 0 0 0
-	frame	data/chars/misc/empty.gif
-		
 anim	pain
 	loop	0
 	offset	54 92
@@ -149,6 +147,11 @@ anim	rise
 	frame	data/chars/lobster/die04.gif
 	frame	data/chars/lobster/die03.gif
 	frame	data/chars/lobster/die02.gif
+		
+anim	spawn
+	delay	75
+	@cmd	spawnparent "e_spawn" 0 0 0
+	frame	data/chars/misc/empty.gif
 		
 anim	walk
 	loop	1

@@ -19,6 +19,7 @@ animationscript data/scripts/spawns.c
 ondeathscript data/scripts/bossdeath.c
 
 
+
 anim	attack1
 	loop	0
 	delay	10
@@ -83,7 +84,7 @@ anim	fall
 	loop	0
 	offset	50 78
 	delay	20
-	bbox	46 31 12 39
+	bbox	20 57 55 23
 	frame	data/chars/Cabaji/fall01.gif
 		
 anim	idle

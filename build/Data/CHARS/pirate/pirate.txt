@@ -15,6 +15,7 @@ takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 
 
+
 anim	attack1
 	loop	0
 	delay	5
@@ -55,6 +56,7 @@ anim	attack2
 	frame	data/chars/Pirate/cut05.gif
 		
 anim	fall
+	bbox	15 31 50 44
 	loop	0
 	offset	46 78
 	delay	10

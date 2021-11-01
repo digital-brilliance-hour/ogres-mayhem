@@ -2,6 +2,14 @@
 #	animation	[path] [x] [y]		# GIF animation to play
 #	silence					# Stop music
 
-music		data/music/remix.bor 1
-animation	data/scenes/end.gif 0 0
-animation	data/scenes/thanks.gif 0 0
+music 		data/music/ending.ogg 1
+animation	data/scenes/om-ending1.gif 0 0 1 0
+animation	data/scenes/om-ending2.gif 0 0 1 0
+animation	data/scenes/om-ending3.gif 0 0 1 0
+animation	data/scenes/om-ending4.gif 0 0 1 0
+animation	data/scenes/om-ending5.gif 0 0 1 0
+animation	data/scenes/om-ending6.gif 0 0 1 0
+animation	data/scenes/om-ending7.gif 0 0 1 0
+animation	data/scenes/om-ending8.gif 0 0 1 0
+animation	data/scenes/om-ending9.gif 0 0 1 0
+animation	data/scenes/om-ending10.gif 0 0 1 0

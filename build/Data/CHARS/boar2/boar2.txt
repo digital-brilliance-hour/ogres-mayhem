@@ -8,12 +8,14 @@ icon	data/chars/Boar2/icon.gif
 
 
 load	knife3
+subject_to_screen 1
 
 
 remap	data/chars/Boar2/idle00.gif data/chars/Boar2/map1.gif
 
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
+
 
 
 
@@ -41,10 +43,11 @@ anim	attack2
 	frame	data/chars/Boar2/shoot02.gif
 		
 anim	fall
+	bbox	2 38 69 40
 	loop	0
 	offset	38 77
 	delay	20
-	attack	41 36 24 22 4 1
+	attack	41 36 24 22 4 1 0 0 0 0
 	frame	data/chars/Boar2/fall00.gif
 	frame	data/chars/Boar2/fall00.gif
 	frame	data/chars/Boar2/fall01.gif

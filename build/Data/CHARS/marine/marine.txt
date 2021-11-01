@@ -14,6 +14,9 @@ remap	data/chars/Marine/idle01.gif data/chars/Marine/map1.gif
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 
+
+
+
 anim	attack1
 	loop	0
 	delay	10
@@ -29,6 +32,7 @@ anim	attack1
 	frame	data/chars/Marine/punch06.gif
 		
 anim	fall
+	bbox	20 26 51 51
 	loop	0
 	offset	43 77
 	delay	20
@@ -58,12 +62,9 @@ anim	rise
 	frame	data/chars/Marine/idle01.gif
 		
 anim	spawn
-	loop	0
-	delay	15
-	offset	43 77
-	bbox	39 34 21 37
-	frame	data/chars/Marine/idle01.gif
-	frame	data/chars/Marine/idle02.gif
+	delay	75
+	@cmd	spawnparent "e_spawn" 0 0 0
+	frame	data/chars/misc/empty.gif
 		
 anim	walk
 	loop	1

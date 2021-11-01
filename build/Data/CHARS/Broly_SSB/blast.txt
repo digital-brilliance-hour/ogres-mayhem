@@ -11,22 +11,23 @@ alpha 1
 
 
 
+
 anim	idle
 	sound	data/chars/broly_ssb/broly_5-58.wav
-	attack	12 5 134 122 35 1 1 0 0 0
+	attack	12 5 134 122 35 1 1 0 0 100
 	dropv	1 -25 0
 	delay	3
 	offset	10 69
 	frame	data/chars/Broly_SSB/381.gif
-	attack	12 5 134 122 35 1 0 1 0 0
+	attack	12 5 134 122 35 1 0 1 0 100
 	dropv	1 -25 0
 	offset	10 69
 	frame	data/chars/Broly_SSB/382.gif
-	attack	12 5 134 122 35 1 1 0 0 0
+	attack	12 5 134 122 35 1 1 0 0 100
 	dropv	1 -25 0
 	offset	10 69
 	frame	data/chars/Broly_SSB/383.gif
-	attack	12 5 134 122 35 1 0 1 0 0
+	attack	12 5 134 122 35 1 0 1 0 100
 	dropv	1 -25 0
 	offset	10 69
 	frame	data/chars/Broly_SSB/384.gif

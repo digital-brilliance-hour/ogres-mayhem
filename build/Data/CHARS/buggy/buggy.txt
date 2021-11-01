@@ -20,6 +20,7 @@ takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 ondeathscript data/scripts/bossdeath.c
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -65,6 +66,7 @@ anim	attack2
 	frame	data/chars/Buggy/rise03.gif
 		
 anim	fall
+	bbox	13 23 67 57
 	loop	0
 	offset	38 77
 	delay	20

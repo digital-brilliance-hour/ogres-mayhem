@@ -1,0 +1,106 @@
+
+name	DB_Theif
+health	40
+speed	5
+type	enemy
+shadow	3
+icon	data/chars/dragonball/Theif/icon.gif
+takedamagescript data/scripts/enemyhit.c
+animationscript data/scripts/spawns.c
+
+
+subject_to_screen 1
+
+
+anim	attack1
+	loop	0
+	delay	10
+	offset	82 133
+	frame	data/chars/dragonball/Theif/slash00.gif
+	frame	data/chars/dragonball/Theif/slash01.gif
+	frame	data/chars/dragonball/Theif/slash02.gif
+	frame	data/chars/dragonball/Theif/slash03.gif
+	attack	89 89 82 47 15 1
+	frame	data/chars/dragonball/Theif/slash04.gif
+	frame	data/chars/dragonball/Theif/slash05.gif
+	frame	data/chars/dragonball/Theif/slash06.gif
+		
+anim	attack2
+	loop	0
+	delay	10
+	offset	82 133
+	frame	data/chars/dragonball/Theif/power00.gif
+	frame	data/chars/dragonball/Theif/power01.gif
+	frame	data/chars/dragonball/Theif/power02.gif
+	frame	data/chars/dragonball/Theif/power03.gif
+	frame	data/chars/dragonball/Theif/power04.gif
+	frame	data/chars/dragonball/Theif/power05.gif
+	blast	99 114 48 24 30 1
+	frame	data/chars/dragonball/Theif/power06.gif
+	frame	data/chars/dragonball/Theif/power07.gif
+	frame	data/chars/dragonball/Theif/power08.gif
+	frame	data/chars/dragonball/Theif/power09.gif
+	frame	data/chars/dragonball/Theif/power10.gif
+	frame	data/chars/dragonball/Theif/power11.gif
+	frame	data/chars/dragonball/Theif/power12.gif
+	frame	data/chars/dragonball/Theif/power13.gif
+	frame	data/chars/dragonball/Theif/power14.gif
+	frame	data/chars/dragonball/Theif/power15.gif
+	frame	data/chars/dragonball/Theif/power16.gif
+	frame	data/chars/dragonball/Theif/power17.gif
+		
+anim	fall
+	bbox	51 46 67 64
+	loop	0
+	offset	82 133
+	delay	20
+	attack	0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/dragonball/Theif/fall00.gif
+	frame	data/chars/dragonball/Theif/fall00.gif
+	bbox	51 89 71 44
+	frame	data/chars/dragonball/Theif/fall01.gif
+		
+anim	idle
+	loop	1
+	delay	15
+	offset	82 133
+	bbox	50 70 63 63
+	frame	data/chars/dragonball/Theif/idle00.gif
+	frame	data/chars/dragonball/Theif/idle01.gif
+	frame	data/chars/dragonball/Theif/idle02.gif
+	frame	data/chars/dragonball/Theif/idle03.gif
+	frame	data/chars/dragonball/Theif/idle02.gif
+	frame	data/chars/dragonball/Theif/idle01.gif
+		
+anim	pain
+	loop	0
+	offset	82 133
+	bbox	50 70 63 63
+	delay	1
+	frame	data/chars/dragonball/Theif/pain.gif
+		
+anim	rise
+	loop	0
+	offset	82 133
+	delay	5
+	frame	data/chars/dragonball/Theif/pain.gif
+		
+anim	spawn
+	delay	75
+	@cmd	spawnparent "e_spawn" 0 0 0
+	frame	data/chars/misc/empty.gif
+		
+anim	walk
+	loop	1
+	delay	10
+	offset	82 133
+	bbox	50 70 63 63
+	frame	data/chars/dragonball/Theif/walk00.gif
+	frame	data/chars/dragonball/Theif/walk01.gif
+	frame	data/chars/dragonball/Theif/walk02.gif
+	frame	data/chars/dragonball/Theif/walk03.gif
+	frame	data/chars/dragonball/Theif/walk04.gif
+	frame	data/chars/dragonball/Theif/idle03.gif
+		
+#|edited by openBor Stats v 0.67
+		

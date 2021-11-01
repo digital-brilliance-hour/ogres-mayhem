@@ -15,6 +15,7 @@ takedamagescript data/scripts/enemyhit.c
 
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -29,6 +30,7 @@ anim	attack1
 	frame	data/chars/Dog/atk05.gif
 		
 anim	fall
+	bbox	29 41 38 38
 	loop	0
 	offset	45 72
 	delay	20

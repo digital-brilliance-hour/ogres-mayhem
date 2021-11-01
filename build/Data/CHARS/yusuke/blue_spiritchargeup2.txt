@@ -1,0 +1,68 @@
+name	blue_spiritchargeup2
+speed   15
+type 	none
+shadow	0
+setlayer 1000
+alpha 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	drawmethod	scale 0.8
+	delay	3
+	offset	123 165
+	frame	data/chars/yusuke/919.gif
+	offset	126 171
+	frame	data/chars/yusuke/920.gif
+	offset	132 171
+	frame	data/chars/yusuke/921.gif
+	offset	141 169
+	frame	data/chars/yusuke/922.gif
+	offset	133 183
+	frame	data/chars/yusuke/923.gif
+	offset	123 180
+	frame	data/chars/yusuke/924.gif
+	offset	133 185
+	frame	data/chars/yusuke/925.gif
+	offset	141 187
+	frame	data/chars/yusuke/926.gif
+	offset	132 167
+	frame	data/chars/yusuke/927.gif
+	offset	123 165
+	frame	data/chars/yusuke/928.gif
+	offset	133 163
+	frame	data/chars/yusuke/929.gif
+	offset	142 142
+	frame	data/chars/yusuke/930.gif
+	offset	132 150
+	frame	data/chars/yusuke/931.gif
+	offset	122 148
+	frame	data/chars/yusuke/932.gif
+	offset	133 139
+	frame	data/chars/yusuke/933.gif
+	offset	142 142
+	frame	data/chars/yusuke/934.gif
+	offset	133 133
+	frame	data/chars/yusuke/935.gif
+	offset	123 123
+	frame	data/chars/yusuke/936.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

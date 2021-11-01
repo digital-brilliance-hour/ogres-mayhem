@@ -1,5 +1,5 @@
 music		data/music/stage1.ogg 3327093
-bossmusic data/music/boss.ogg 3149234
+bossmusic data/music/stage1-boss.ogg
 panel data/bgs/stage-1/n.gif none none
 order a
 
@@ -11,20 +11,20 @@ stagenumber 1
 spawn ready
 	coords 240 136
 	at 0
-	
-spawn Android
+
+spawn Ninja
 coords	480 215
 at 310
 
-spawn Android
+spawn Ninja
 coords	480 230
 at 310
 
-spawn Android
+spawn Ninja
 coords	-30 220
 at 310
 
-spawn Android
+spawn Ninja
 coords	-30 230
 at 310
 
@@ -35,38 +35,38 @@ spawn mp_twentyfive
 coords 600 220
 at 320
 
-spawn Ninja
+spawn Marine
 coords	480 215
-at 1425
+at      1425
 
-spawn Ninja
+spawn Marine
 coords	480 230
 at 1425
 
-spawn Ninja
+spawn Marine
 coords	-30 220
 at 1425
 
-spawn Ninja
+spawn Marine
 coords	-30 230
 at 1425
 
 wait
 at      1425
 
-spawn Marine
+spawn lobster
 coords	480 215
-at      2058
+at 2058
 
-spawn Marine
+spawn lobster
 coords	480 230
 at 2058
 
-spawn Marine
+spawn lobster
 coords	-30 220
 at 2058
 
-spawn Marine
+spawn lobster
 coords	-30 230
 at 2058
 
@@ -95,3 +95,38 @@ at 2921
 
 wait
 at      2921
+#Boss help
+group 2 4
+at 2921
+
+spawn Ninja
+coords    480 215
+at 2921
+
+spawn Ninja
+coords    480 230
+at 2921
+
+spawn Ninja
+coords    -30 220
+at 2921
+
+spawn Ninja
+coords    -30 230
+at 2921
+
+spawn Ninja
+coords    480 215
+at 2921
+
+spawn Ninja
+coords    480 230
+at 2921
+
+spawn Ninja
+coords    -30 220
+at 2921
+
+spawn Ninja
+coords    -30 230
+at 2921

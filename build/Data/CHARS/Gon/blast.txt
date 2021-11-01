@@ -11,6 +11,7 @@ alpha 1
 
 
 
+
 anim	idle
 	delay	3
 	loop	0
@@ -18,8 +19,8 @@ anim	idle
 	offset	145 67
 	sound	data/chars/deku/gon_1-8.wav
 	frame	data/chars/Gon/244.gif
-	attack	30 4 226 112 30 1 1 0 0 0
-	dropv	1 -25 0
+	attack	30 4 236 112 30 1 1 0 0 50
+	dropv	2 10 0
 	offset	125 64
 	frame	data/chars/Gon/245.gif
 	offset	110 83

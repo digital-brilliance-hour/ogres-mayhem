@@ -1,4 +1,5 @@
-music data/music/stage2.ogg 3351360
+music data/music/stage2.ogg
+bossmusic data/music/stage2-boss.ogg 2899970
 background data/bgs/stage-2/b.gif
 panel data/bgs/stage-2/n.gif none none
 order a
@@ -21,6 +22,64 @@ alias Ikkaku
 coords	500 190
 at	0
 
+spawn ERenji
+alias Renji
+coords	300 190
+at	0
+
+spawn menos
+health 100
+coords 500 200
+at 0
+
+spawn gunner
+coords 500 250
+at 0
+
+wait
+at 20
+
+group 1 4
+at 20
+
+spawn menos
+coords    460 215
+at 20
+
+spawn grand_fisher
+health 100
+coords    460 230
+at 20
+
+spawn tsukaima
+health 100
+coords    20 220
+at 20
+
+spawn shrieker
+health 100
+coords    20 230
+at 20
+
+spawn menos
+coords    460 215
+at 20
+
+spawn grand_fisher
+health 100
+coords    460 230
+at 20
+
+spawn tsukaima
+health 100
+coords    20 220
+at 20
+
+spawn shrieker
+health 100
+coords    20 230
+at 20
+
 spawn	warning
 	coords 240 136
 flip    1
@@ -35,3 +94,47 @@ alias Kenpachi
 boss 1
 coords	450 220
 at      400
+
+wait
+at 400
+
+group 2 4
+at 400
+
+spawn menos
+coords    460 215
+at 400
+
+spawn grand_fisher
+health 100
+coords    460 230
+at 400
+
+spawn tsukaima
+health 100
+coords    20 220
+at 400
+
+spawn shrieker
+health 100
+coords    20 230
+at 400
+
+spawn menos
+coords    460 215
+at 400
+
+spawn grand_fisher
+health 100
+coords    460 230
+at 400
+
+spawn tsukaima
+health 100
+coords    20 220
+at 400
+
+spawn shrieker
+health 100
+coords    20 230
+at 400

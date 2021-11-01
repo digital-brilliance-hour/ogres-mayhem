@@ -5,6 +5,7 @@ speed	10
 type	enemy
 shadow	3
 icon	data/chars/Boar/icon.gif
+subject_to_screen 1
 
 
 remap	data/chars/Boar/idle00.gif data/chars/Boar/map1.gif
@@ -14,6 +15,7 @@ remap	data/chars/Boar/idle00.gif data/chars/Boar/map4.gif
 
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
+
 
 
 anim	attack1
@@ -33,10 +35,11 @@ anim	attack1
 	frame	data/chars/Boar/slash07.gif
 		
 anim	fall
+	bbox	1 38 71 41
 	loop	0
 	offset	38 77
 	delay	20
-	attack	41 36 24 22 4 1
+	attack	41 36 24 22 4 1 0 0 0 0
 	frame	data/chars/Boar/fall00.gif
 	frame	data/chars/Boar/fall00.gif
 	frame	data/chars/Boar/fall01.gif

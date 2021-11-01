@@ -11,18 +11,16 @@ riseinv 2 0
 load lay
 load stars
 candamage player npc obstacle shot
+subject_to_screen 1
 escapehits 1
 blockodds 1
 jumpmove 3 3
 star stars
 knife lay
 hostile npc player
+animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c
-ondeathscript data/scripts/bossdeath.c
-lifebarstatus 380 5 0 1 0 0 0 0 0
-lifeposition 50 235
-nameposition 60 225
-iconposition 50 360
+
 
 
 anim	attack1
@@ -88,6 +86,7 @@ anim	block
 	frame	data/chars/kizaru/pika06.gif
 		
 anim	fall
+	bbox	9 44 75 38
 	loop	0
 	offset	45 83
 	delay	15

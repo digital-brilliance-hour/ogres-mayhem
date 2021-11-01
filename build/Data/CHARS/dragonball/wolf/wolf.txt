@@ -1,0 +1,88 @@
+
+name	DB_Wolf
+health	30
+speed	10
+type	enemy
+shadow	3
+icon	data/chars/dragonball/Wolf/icon.gif
+
+subject_to_screen 1
+
+remap	data/chars/dragonball/Wolf/idle00.gif data/chars/dragonball/Wolf/map1.gif
+remap	data/chars/dragonball/Wolf/idle00.gif data/chars/dragonball/Wolf/map2.gif
+takedamagescript data/scripts/enemyhit.c
+animationscript data/scripts/spawns.c
+
+anim	attack1
+	loop	0
+	delay	7
+	offset	60 85
+	frame	data/chars/dragonball/Wolf/atk00.gif
+	frame	data/chars/dragonball/Wolf/atk01.gif
+	frame	data/chars/dragonball/Wolf/atk00.gif
+	move	20
+	attack	54 45 32 25 9 1
+	frame	data/chars/dragonball/Wolf/atk02.gif
+	attack	60 35 29 25 9 1
+	frame	data/chars/dragonball/Wolf/atk03.gif
+	frame	data/chars/dragonball/Wolf/atk04.gif
+	attack	58 40 25 29 9 1
+	frame	data/chars/dragonball/Wolf/atk05.gif
+	attack	58 50 25 28 9 1
+	frame	data/chars/dragonball/Wolf/atk06.gif
+		
+anim	fall
+	bbox	35 26 48 45
+	loop	0
+	offset	60 85
+	delay	20
+	attack	41 36 24 22 4 1 0 0 0 0
+	frame	data/chars/dragonball/Wolf/fall00.gif
+	frame	data/chars/dragonball/Wolf/fall00.gif
+	bbox	33 62 56 25
+	frame	data/chars/dragonball/Wolf/fall01.gif
+		
+anim	idle
+	loop	1
+	delay	15
+	offset	60 85
+	bbox	38 56 44 29
+	frame	data/chars/dragonball/Wolf/idle00.gif
+	frame	data/chars/dragonball/Wolf/idle01.gif
+	frame	data/chars/dragonball/Wolf/idle02.gif
+	frame	data/chars/dragonball/Wolf/idle03.gif
+	frame	data/chars/dragonball/Wolf/idle02.gif
+	frame	data/chars/dragonball/Wolf/idle01.gif
+		
+anim	pain
+	loop	0
+	offset	60 85
+	bbox	38 56 44 29
+	delay	20
+	frame	data/chars/dragonball/Wolf/pain.gif
+		
+anim	rise
+	loop	0
+	offset	60 85
+	delay	5
+	frame	data/chars/dragonball/Wolf/rise.gif
+		
+anim	spawn
+	delay	75
+	@cmd	spawnparent "e_spawn" 0 0 0
+	frame	data/chars/misc/empty.gif
+		
+anim	walk
+	loop	1
+	delay	15
+	offset	60 85
+	bbox	38 56 44 29
+	frame	data/chars/dragonball/Wolf/walk00.gif
+	frame	data/chars/dragonball/Wolf/walk01.gif
+	frame	data/chars/dragonball/Wolf/walk02.gif
+	frame	data/chars/dragonball/Wolf/walk03.gif
+	frame	data/chars/dragonball/Wolf/walk04.gif
+	frame	data/chars/dragonball/Wolf/walk05.gif
+		
+#|edited by openBor Stats v 0.67
+		

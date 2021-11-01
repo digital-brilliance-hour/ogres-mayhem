@@ -18,6 +18,7 @@ animationscript data/scripts/spawns.c
 
 
 
+
 anim	attack1
 	loop	0
 	delay	10
@@ -126,11 +127,13 @@ anim	burn
 	frame	data/chars/misc/burn3.gif
 		
 anim	fall
+	bbox	38 54 55 50
 	loop	0
 	delay	30
 	offset	60 110
-	attack	45 61 17 34 4 1
+	attack	45 61 17 34 4 1 0 0 0 0
 	frame	data/chars/Claw/fall00.gif
+	bbox	30 93 69 24
 	delay	20
 	frame	data/chars/Claw/fall01.gif
 		
@@ -143,11 +146,6 @@ anim	idle
 	frame	data/chars/Claw/idle01.gif
 	frame	data/chars/Claw/idle02.gif
 	frame	data/chars/Claw/idle01.gif
-		
-anim	spawn
-	delay	75
-	@cmd	spawnparent "e_spawn" 0 0 0
-	frame	data/chars/misc/empty.gif
 		
 anim	pain
 	loop	0
@@ -162,6 +160,11 @@ anim	rise
 	delay	10
 	offset	60 116
 	frame	data/chars/Claw/rise.gif
+		
+anim	spawn
+	delay	75
+	@cmd	spawnparent "e_spawn" 0 0 0
+	frame	data/chars/misc/empty.gif
 		
 anim	walk
 	loop	1

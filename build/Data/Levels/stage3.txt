@@ -1,7 +1,8 @@
-music data/music/stage3-slow.ogg 1412573
+music data/music/stage3.ogg 2297100
+bossmusic data/music/stage3-boss.ogg
 background data/bgs/stage-7/back.gif
 panel data/bgs/stage-7/n01.gif none none
-order a
+order aa
 
 stagenumber 3
 
@@ -9,99 +10,414 @@ spawn ready
 	coords 240 136
 	at 0
 	
-spawn   boar2
+spawn   db_wolf
+health 200
 coords	200 220
-at	0
+at	50
 
-spawn   boar
+spawn   db_wolf
+health 200
 coords	480 200
-at      0
+at      50
 
-spawn   dino
+spawn   db_dino
+health 225
 coords	300 270
-at      0
+at      50
+
+spawn db_boar
+coords 460 210
+item mp_hundred
+at 240
+
+spawn db_boar2
+coords 20 250
+item hp_hundred
+at 240
+
+2pspawn db_boar
+coords 460 210
+item mp_hundred
+at 240
+
+2pspawn db_boar2
+coords 20 250
+item hp_hundred
+at 240
+
+3pspawn db_boar
+coords 460 210
+item mp_hundred
+at 240
+
+3pspawn db_boar2
+coords 20 250
+item hp_hundred
+at 240
+
+4pspawn db_boar
+coords 460 210
+item mp_hundred
+at 240
+
+4pspawn db_boar2
+coords 20 250
+item hp_hundred
+at 240
 
 
 wait
 at      500
 
+group 4 4
+at 500
+
+spawn db_theif
+health 200
+coords 20 210
+at 500
+
+spawn db_dino
+map 3
+health 150
+coords 460 210
+at 500
+
+spawn db_dino
+map 2
+health 150
+coords 20 260
+at 500
+
+spawn db_theif
+health 200
+coords 460 260
+at 500
+
+spawn boar
+health 200
+coords 20 210
+at 500
+
+spawn dino
+health 150
+coords 460 210
+at 500
+
+spawn dino
+health 150
+coords 20 260
+at 500
+
+spawn boar2
+health 200
+coords 460 260
+at 500
+
 spawn   facce
 coords	100 270
-at      1000
+at      1300
 
 spawn   facce
 coords	175 215
-at      1000
+at      1300
 
 spawn   facce
 coords	170 225
-at      1200
+at      1300
 
 spawn   facce
 coords	170 270
-at      1200
+at      1300
 
 
 wait
-at      1700
+at      1600
+
+group 3 4
+at 1600
+
+spawn dino
+health 200
+coords 20 210
+at 1600
+
+spawn db_dino
+map 3
+health 150
+coords 460 210
+at 1600
+
+spawn db_dino
+map 2
+health 150
+coords 20 260
+at 1600
+
+spawn boar2
+health 200
+coords 460 260
+at 1600
+
+spawn pirate
+health 200
+coords 20 210
+at 1600
+
+spawn marine
+health 150
+coords 460 210
+at 1600
+
+spawn marine
+health 150
+coords 20 260
+at 1600
+
+spawn pirate
+health 200
+coords 460 260
+at 1600
+
+spawn db_boar
+coords 460 210
+item mp_hundred
+at 2100
+
+spawn db_boar2
+coords 20 250
+item hp_hundred
+at 2100
+
+2pspawn db_boar
+coords 460 210
+item mp_hundred
+at 2100
+
+2pspawn db_boar2
+coords 20 250
+item hp_hundred
+at 2100
+
+3pspawn db_boar
+coords 460 210
+item mp_hundred
+at 2100
+
+3pspawn db_boar2
+coords 20 250
+item hp_hundred
+at 2100
+
+4pspawn db_boar
+coords 460 210
+item mp_hundred
+at 2100
+
+4pspawn db_boar2
+coords 20 250
+item hp_hundred
+at 2100
 
 spawn   buggy
+health 400
 item hp_hundred
 coords	300 240
-at      1900
+at      2984
 
 spawn   gunner
 item hp_hundred
 coords	350 230
-at      1700
+at      2984
 
 2pspawn   gunner
 item mp_hundred
 coords	450 230
-at      1700
+at      2984
 
 3pspawn   gunner
 item hp_hundred
 coords	350 250
-at      1700
+at      2984
 
 4pspawn   gunner
 item mp_hundred
 coords	350 230
-at      1700
+at      2984
 
 
 wait
-at      2100
+at      2984
+
+group 1 4
+at 2984
+
+spawn pirate
+health 200
+coords 20 210
+at 2984
+
+spawn marine
+health 150
+coords 460 210
+at 2984
+
+spawn marine
+health 150
+coords 20 260
+at 2984
+
+spawn pirate
+health 200
+coords 460 260
+at 2984
+
+spawn pirate
+health 200
+coords 20 210
+at 2984
+
+spawn marine
+health 150
+coords 460 210
+at 2984
+
+spawn marine
+health 150
+coords 20 260
+at 2984
+
+spawn pirate
+health 200
+coords 460 260
+at 2984
+
+spawn db_boar
+coords 460 210
+item mp_hundred
+at 3800
+
+spawn db_boar2
+coords 20 250
+item hp_hundred
+at 3800
+
+2pspawn db_boar
+coords 460 210
+item mp_hundred
+at 3800
+
+2pspawn db_boar2
+coords 20 250
+item hp_hundred
+at 3800
+
+3pspawn db_boar
+coords 460 210
+item mp_hundred
+at 3800
+
+3pspawn db_boar2
+coords 20 250
+item hp_hundred
+at 3800
+
+4pspawn db_boar
+coords 460 210
+item mp_hundred
+at 3800
+
+4pspawn db_boar2
+coords 20 250
+item hp_hundred
+at 3800
 
 spawn	warning
 	coords 240 136
 flip    1
-at      2398
+at      5958
 
 spawn Story
 alias kingpiccolodialog
-at 2399
+at 5959
 
-spawn   KPiccoloE
+spawn   King_Piccolo2
 alias King_Piccolo
 boss 1
 health  500
 3phealth 1000
 4phealth 1500
 coords  300 200
-at      2400
+at      5960
 
 spawn   kizaru
 aggression  10
 health  200
 coords  300 270
-at      2400
+at      5960
+
+wait
+at 5960
+
+group 3 4
+at 5960
+
+spawn   dino
+health 100
+coords  20 210
+at      5960
 
 spawn   wolf
-coords  300 270
-at      2300
+health 100
+coords  460 270
+at      5960
+
+spawn   dino
+health 100
+coords  20 210
+at      5960
 
 spawn   wolf
-coords  300 270
-at      2500
+health 100
+coords  460 270
+at      5960
+
+spawn   db_theif
+health 100
+coords  20 210
+at      5960
+
+spawn   db_dino
+health 100
+coords  460 270
+at      5960
+
+spawn   marine
+health 100
+coords  20 210
+at      5960
+
+spawn   pirate
+health 100
+coords  460 270
+at      5960
+
+spawn   marine
+health 100
+coords  20 210
+at      5960
+
+spawn   db_theif
+health 100
+coords  460 270
+at      5960
+
+spawn   gunner
+health 100
+coords  20 210
+at      5960
+
+spawn   pirate
+health 100
+coords  460 270
+at      5960

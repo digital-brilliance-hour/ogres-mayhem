@@ -15,6 +15,7 @@ takedamagescript data/scripts/enemyhit.c
 
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -50,10 +51,11 @@ anim	burn
 	frame	data/chars/misc/burn6.gif
 		
 anim	fall
+	bbox	21 45 70 74
 	loop	0
 	offset	63 110
 	delay	30
-	attack	25 61 35 44 4 1
+	attack	25 61 35 44 4 1 0 0 0 0
 	frame	data/chars/Ninja_/fall00.gif
 	delay	20
 	frame	data/chars/Ninja_/fall01.gif

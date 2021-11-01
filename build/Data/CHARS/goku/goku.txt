@@ -1,24 +1,34 @@
-
-
 name	Goku_SSJ
 health	500
-speed	25
-type	player
+speed 20
+running 28 4 2 1 1
+type none
 shadow	2
 diesound data/chars/Naruto/die.wav
 icon	data/chars/Goku/icon.gif
 
+atchain 1 1 2 3
+
 
 remap	data/chars/Goku/stand00.gif data/chars/Goku/map1.gif
 animationscript data/scripts/spawns.c
-com a2 freespecial
+com a2 freespecial11
+com a3 freespecial4
+com u a3 freespecial3
+com s freespecial
+com u s freespecial2
 script data/scripts/playerscript.c
+weaploss 3
+modelflag 3
 
 parrow data/chars/misc/picon/1picon.gif -18 -100
 parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
+weaploss 3
+
+
 
 
 
@@ -29,33 +39,26 @@ makeinv 4
 
 
 anim	attack1
-	loop	0
 	shadowcoords	18 77
 	delay	7
-	bbox	35 55 17 20
-	offset	38 77
+	bbox	14 25 32 52
+	offset	25 77
 	sound	data/chars/Goku/ha.wav
 	frame	data/chars/Goku/punch00.gif
 	attack	51 58 15 6 8
 	frame	data/chars/Goku/punch01.gif
+	attack	40 30 49 40 16 0 1 0 0 0
 	frame	data/chars/Goku/punch02.gif
 		
 anim	attack2
-	loop	0
-	shadowcoords	18 77
-	offset	38 77
-	bbox	35 55 17 20
-	delay	7
-	frame	data/chars/Goku/punch00.gif
-	attack	51 55 13 9 8
-	frame	data/chars/Goku/punch02.gif
-	attack	0
-	frame	data/chars/Goku/punch03.gif
-	frame	data/chars/Goku/punch04.gif
+	fastattack	1
+	offset	25 77
+	bbox	9 26 37 50
+	delay	4
 	frame	data/chars/Goku/punch05.gif
-	attack	54 56 20 9 8
+	attack	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/Goku/punch06.gif
-	attack	0
+	attack	36 25 45 49 16 0 0 0 0 0
 	frame	data/chars/Goku/punch07.gif
 	frame	data/chars/Goku/punch08.gif
 	frame	data/chars/Goku/punch09.gif
@@ -66,39 +69,22 @@ anim	attack3
 	loop	0
 	shadowcoords	18 77
 	delay	3
-	offset	38 77
-	bbox	35 55 17 20
-	frame	data/chars/Goku/ppole00.gif
-	frame	data/chars/Goku/ppole01.gif
-	frame	data/chars/Goku/ppole02.gif
-	frame	data/chars/Goku/ppole03.gif
-	frame	data/chars/Goku/ppole04.gif
-	frame	data/chars/Goku/ppole05.gif
-	attack	54 38 42 32 8
-	frame	data/chars/Goku/ppole06.gif
+	offset	25 77
 	attack	0
 	frame	data/chars/Goku/ppole07.gif
+	attack	27 33 52 45 30 1 1 0 0 0
+	dropv	1 6 0
 	frame	data/chars/Goku/ppole08.gif
 	frame	data/chars/Goku/ppole09.gif
 	delay	7
 	frame	data/chars/Goku/ppole10.gif
-	frame	data/chars/Goku/ppole11.gif
-	frame	data/chars/Goku/ppole12.gif
-	frame	data/chars/Goku/ppole13.gif
-	@cmd	spawnparent "pdust" -10 0 -20
-	frame	data/chars/Goku/ppole14.gif
-	attack	61 51 44 14 10 1
-	frame	data/chars/Goku/ppole15.gif
-	attack	0
-	frame	data/chars/Goku/ppole16.gif
-	frame	data/chars/Goku/ppole17.gif
 		
 anim	fall
 	loop	0
 	shadowcoords	18 77
-	offset	38 77
+	offset	25 77
 	delay	20
-	attack	36 50 21 16 4 1
+	attack	36 50 21 16 4 1 0 0 0 0
 	frame	data/chars/Goku/fall00.gif
 	move	-4
 	frame	data/chars/Goku/fall01.gif
@@ -107,16 +93,16 @@ anim	fall
 	frame	data/chars/Goku/fall04.gif
 		
 anim	freespecial
+	@cmd	isavailable 7
 	energycost	0
 	mponly	1
-	@cmd	enoughmp
 	loop	0
 	shadowcoords	18 77
-	offset	38 77
+	offset	25 77
 	bbox	0 0 0 0
 	delay	10
+	frame	data/chars/Goku/kame00.gif
 	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnscreen "Screen_wind" 0 0
 	frame	data/chars/Goku/kame00.gif
 	frame	data/chars/Goku/kame01.gif
 	frame	data/chars/Goku/kame02.gif
@@ -136,173 +122,113 @@ anim	freespecial
 	sound	data/chars/Goku/wave.wav
 	attack	60 42 47 40 15 1
 	frame	data/chars/Goku/kame06.gif
-	attack	0 0 0 0 0 0
+	attack	60 42 112 40 45 1 0 0 0 0
 	delay	5
-	attack	60 42 112 40 15 1
+	attack	60 42 112 40 45 1 0 0 0 0
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Goku/kame07.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 192 40 15 1
+	attack	60 42 192 40 45 1 0 0 0 0
+	attack	60 42 192 40 45 1 0 0 0 0
 	frame	data/chars/Goku/kame08.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 286 40 15 1
+	attack	60 42 286 40 45 1 0 0 0 0
+	attack	60 42 286 40 45 1 0 0 0 0
 	frame	data/chars/Goku/kame09.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 383 40 15 1
+	attack	60 42 383 40 45 1 0 0 0 0
+	attack	60 42 383 40 45 1 0 0 0 0
 	frame	data/chars/Goku/kame10.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 480 40 15 1
+	attack	60 42 480 40 45 1 0 0 0 0
+	attack	60 42 480 40 45 1 0 0 0 0
 	frame	data/chars/Goku/kame11.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 45 1 0 0 0 0
+	attack	60 42 522 41 45 1 0 0 0 0
 	frame	data/chars/Goku/kame12.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 45 1 0 0 0 0
+	attack	60 42 522 41 45 1 0 0 0 0
 	frame	data/chars/Goku/kame13.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 45 1 0 0 0 0
+	attack	60 42 522 41 45 1 0 0 0 0
 	frame	data/chars/Goku/kame14.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 45 1 0 0 0 0
+	attack	60 42 522 41 45 1 0 0 0 0
 	frame	data/chars/Goku/kame15.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 45 1 0 0 0 0
+	attack	60 42 522 41 45 1 0 0 0 0
 	frame	data/chars/Goku/kame16.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 45 1 0 0 0 0
+	attack	60 42 522 41 45 1 0 0 0 0
 	frame	data/chars/Goku/kame17.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 45 1 0 0 0 0
+	attack	60 42 522 41 45 1 0 0 0 0
 	frame	data/chars/Goku/kame18.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 45 1 0 0 0 0
+	attack	60 42 522 41 45 1 0 0 0 0
 	frame	data/chars/Goku/kame19.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 45 1 0 0 0 0
+	attack	60 42 522 41 45 1 0 0 0 0
 	frame	data/chars/Goku/kame20.gif
-	attack	0 0 0 0 0 0
-	attack	60 46 520 32 15 1
+	attack	60 46 520 32 45 1 0 0 0 0
+	attack	60 46 520 32 45 1 0 0 0 0
 	frame	data/chars/Goku/kame21.gif
-	attack	0 0 0 0 0 0
-	attack	60 52 522 20 15 1
+	attack	60 52 522 20 45 1 0 0 0 0
+	attack	60 52 522 20 45 1 0 0 0 0
 	frame	data/chars/Goku/kame22.gif
-	attack	0 0 0 0 0 0
-	attack	60 58 522 6 15 1
+	attack	60 58 522 6 45 1 0 0 0 0
+	attack	60 58 522 6 45 1 0 0 0 0
 	frame	data/chars/Goku/kame23.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Goku/kame24.gif
 		
-anim	get
-	loop	0
-	shadowcoords	18 77
+anim	freespecial11
+	sound	data/chars/yusuke/broly_5-22.wav
 	delay	7
-	offset	38 77
-	frame	data/chars/Goku/rise05.gif
-	frame	data/chars/Goku/rise06.gif
+	offset	25 77
+	frame	data/chars/Goku/ppole06.gif
+	delay	2
+	@cmd	dasher 3 0 0
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	@cmd	stop
+	@cmd	dasher 7 0 0
+	delay	7
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	@cmd	stop
+	delay	7
+	offset	25 77
+	frame	data/chars/Goku/walk06.gif
 		
-		
-anim	idle
-	loop	1
-	shadowcoords	18 77
-	delay	15
-	offset	38 77
-	bbox	35 55 17 20
-	frame	data/chars/Goku/stand00.GIF
-	frame	data/chars/Goku/stand01.GIF
-	frame	data/chars/Goku/stand02.GIF
-	frame	data/chars/Goku/stand03.GIF
-	frame	data/chars/Goku/stand04.GIF
-	frame	data/chars/Goku/stand05.GIF
-	frame	data/chars/Goku/stand06.GIF
-	frame	data/chars/Goku/stand07.GIF
-		
-anim	jump
-	loop	0
-	offset	38 77
-	shadowcoords	18 77
-	delay	10
-	bbox	37 46 16 17
-	@cmd	spawnparent "pdust" -10 0 -20
-	frame	data/chars/Goku/jump00.gif
-	frame	data/chars/Goku/jump01.gif
-	frame	data/chars/Goku/jump02.gif
-	frame	data/chars/Goku/jump03.gif
-	frame	data/chars/Goku/jump04.gif
-	frame	data/chars/Goku/jump05.gif
-		
-anim	jumpattack
-	loop	0
-	shadowcoords	18 77
-	delay	10
-	bbox	37 46 16 17
-	offset	38 77
-	frame	data/chars/Goku/jatk00.gif
-	frame	data/chars/Goku/jatk01.gif
-	frame	data/chars/Goku/jatk02.gif
-	frame	data/chars/Goku/jatk03.gif
-	attack	48 46 38 21 8 1
-	frame	data/chars/Goku/jatk04.gif
-	frame	data/chars/Goku/jatk05.gif
-	frame	data/chars/Goku/jatk06.gif
-	frame	data/chars/Goku/jatk07.gif
-		
-anim	jumpattack2
-	loop	0
-	shadowcoords	18 77
-	delay	10
-	bbox	37 46 16 17
-	offset	38 77
-	frame	data/chars/Goku/jatk00.gif
-	frame	data/chars/Goku/jatk01.gif
-	frame	data/chars/Goku/jatk02.gif
-	frame	data/chars/Goku/jatk03.gif
-	attack	48 46 38 21 8 1
-	frame	data/chars/Goku/jatk04.gif
-	frame	data/chars/Goku/jatk05.gif
-	frame	data/chars/Goku/jatk06.gif
-	frame	data/chars/Goku/jatk07.gif
-		
-anim	land
-	loop	0
-	shadowcoords	18 77
-	offset	38 77
-	delay	25
-	frame	data/chars/Goku/rise05.gif
-	frame	data/chars/Goku/rise06.gif
-		
-anim	pain
-	loop	0
-	shadowcoords	18 77
-	offset	38 77
-	bbox	35 55 17 20
-	delay	20
-	sound	data/chars/Goku/ugh.wav
-	frame	data/chars/Goku/pain.gif
-		
-anim	rise
-	loop	0
-	shadowcoords	18 77
-	offset	38 77
-	delay	10
-	frame	data/chars/Goku/rise00.gif
-	frame	data/chars/Goku/rise01.gif
-	frame	data/chars/Goku/rise02.gif
-	frame	data/chars/Goku/rise03.gif
-	frame	data/chars/Goku/rise04.gif
-	frame	data/chars/Goku/rise05.gif
-	frame	data/chars/Goku/rise06.gif
-		
-anim	special
+anim	freespecial2
+	@cmd	isavailable 7
 	energycost	0
 	mponly	1
-	@cmd	enoughmp
 	loop	0
 	shadowcoords	18 77
-	offset	38 77
+	offset	25 77
 	bbox	0 0 0 0
 	delay	30
+	frame	data/chars/Goku/spec01.gif
 	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnscreen "Screen_wind" 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
 	frame	data/chars/Goku/spec01.gif
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
@@ -320,29 +246,33 @@ anim	special
 	blast	0 0 0 0 0 0
 	frame	data/chars/Goku/spec05.gif
 	sound	data/chars/Goku/wave.wav
-	blast	49 39 71 45 20 1
+	blast	49 39 71 45 80 1 0 0 0 0
 	frame	data/chars/Goku/spec06.gif
-	blast	0 0 0 0 0 0
-	blast	26 47 108 38 20 1
+	blast	26 47 108 38 80 1 0 0 0 0
+	blast	26 47 108 38 80 1 0 0 0 0
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Goku/spec07.gif
 	blast	0 0 0 0 0 0
 	frame	data/chars/Goku/spec08.gif
-	blast	49 39 71 45 20 1
+	blast	49 39 71 45 80 1 0 0 0 0
 	frame	data/chars/Goku/spec09.gif
-	blast	0 0 0 0 0 0
-	blast	26 47 108 38 20 1
+	blast	26 47 108 38 80 1 0 0 0 0
+	blast	26 47 108 38 80 1 0 0 0 0
 	frame	data/chars/Goku/spec10.gif
-	blast	0 0 0 0 0 0
+	attack	112 26 564 42 80 1 0 0 0 0
 	delay	5
 	frame	data/chars/Goku/spec11.gif
+	attack	154 26 564 42 80 1 0 0 0 0
 	frame	data/chars/Goku/spec12.gif
+	attack	154 26 564 42 80 1 0 0 0 0
 	frame	data/chars/Goku/spec13.gif
+	attack	154 26 564 42 80 1 0 0 0 0
 	frame	data/chars/Goku/spec14.gif
+	attack	154 26 564 42 80 1 0 0 0 0
 	frame	data/chars/Goku/spec15.gif
-	blast	92 60 73 29 20 1
+	blast	269 22 331 53 80 1 0 0 0 0
 	frame	data/chars/Goku/spec16.gif
-	blast	0 0 0 0 0 0
+	blast	269 22 331 53 80 1 0 0 0 0
 	frame	data/chars/Goku/spec17.gif
 	frame	data/chars/Goku/spec18.gif
 	frame	data/chars/Goku/spec19.gif
@@ -351,35 +281,222 @@ anim	special
 	blast	0 0 0 0 0 0
 	blast	46 72 34 12 20 1
 	frame	data/chars/Goku/spec21.gif
-	blast	0 0 0 0 0 0
 		
-anim	throw
+anim	freespecial3
+	energycost	20
+	mponly	1
 	loop	0
 	shadowcoords	18 77
-	offset	38 77
+	fastattack	1
+	delay	3
+	offset	25 77
+	frame	data/chars/Goku/ppole00.gif
+	frame	data/chars/Goku/ppole01.gif
+	frame	data/chars/Goku/ppole02.gif
+	frame	data/chars/Goku/ppole03.gif
+	frame	data/chars/Goku/ppole04.gif
+	frame	data/chars/Goku/ppole05.gif
+	attack	54 38 42 32 8
+	frame	data/chars/Goku/ppole06.gif
+	attack	0
+	frame	data/chars/Goku/ppole07.gif
+	attack	27 29 63 49 30 0 1 0 0 0
+	frame	data/chars/Goku/ppole08.gif
+	frame	data/chars/Goku/ppole09.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	delay	7
-	frame	data/chars/Goku/throw00.gif
-	frame	data/chars/Goku/throw01.gif
+	frame	data/chars/Goku/ppole10.gif
+	frame	data/chars/Goku/ppole11.gif
+	attack	39 32 44 39 30 0 1 0 0 0
+	frame	data/chars/Goku/ppole12.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/Goku/ppole13.gif
+	attack	31 6 51 70 30 1 1 0 0 0
+	dropv	4 0 0
+	frame	data/chars/Goku/ppole14.gif
 	@cmd	spawnparent "pdust" -10 0 -20
-	frame	data/chars/Goku/throw02.gif
-	frame	data/chars/Goku/throw03.gif
-	frame	data/chars/Goku/throw04.gif
-	frame	data/chars/Goku/throw05.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/Goku/ppole15.gif
+	attack	0
+	frame	data/chars/Goku/ppole16.gif
+	frame	data/chars/Goku/ppole17.gif
+	frame	data/chars/Goku/ppole00.gif
+	frame	data/chars/Goku/ppole01.gif
+	frame	data/chars/Goku/ppole02.gif
+	frame	data/chars/Goku/ppole03.gif
+	frame	data/chars/Goku/ppole04.gif
+	attack	0
+	frame	data/chars/Goku/ppole07.gif
+	attack	27 29 63 49 40 1 1 0 0 0
+	dropv	1 6 0
+	frame	data/chars/Goku/ppole08.gif
+	frame	data/chars/Goku/ppole09.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	delay	7
+	frame	data/chars/Goku/ppole10.gif
 		
-anim	walk
-	loop	1
+anim	freespecial4
+	energycost	15
+	mponly	1
+	delay	6
+	offset	25 77
+	frame	data/chars/Goku/ppole13.gif
+	attack	21 2 79 75 50 1 1 0 0 0
+	dropv	2 5 0
+	@cmd	leaper 0 3 0
+	@cmd	spawnparent "pdust" -10 0 -20
+	frame	data/chars/Goku/ppole14.gif
+	frame	data/chars/Goku/ppole15.gif
+	attack	0
+	frame	data/chars/Goku/ppole16.gif
+	frame	data/chars/Goku/ppole17.gif
+		
+anim	get
+	loop	0
 	shadowcoords	18 77
 	delay	7
-	offset	38 77
+	offset	25 77
+	frame	data/chars/Goku/rise05.gif
+	frame	data/chars/Goku/rise06.gif
+		
+anim	idle
+	loop	1
+	shadowcoords	18 77
+	delay	15
+	offset	25 77
+	bbox	35 55 17 20
+	frame	data/chars/Goku/stand00.GIF
+	frame	data/chars/Goku/stand01.GIF
+	frame	data/chars/Goku/stand02.GIF
+	frame	data/chars/Goku/stand03.GIF
+	frame	data/chars/Goku/stand04.GIF
+	frame	data/chars/Goku/stand05.GIF
+	frame	data/chars/Goku/stand06.GIF
+	frame	data/chars/Goku/stand07.GIF
+		
+anim	jump
+	loop	0
+	offset	25 77
+	shadowcoords	18 77
+	delay	10
+	bbox	37 46 16 17
+	@cmd	spawnparent "pdust" -10 0 -20
+	frame	data/chars/Goku/jump00.gif
+	frame	data/chars/Goku/jump01.gif
+	frame	data/chars/Goku/jump02.gif
+	frame	data/chars/Goku/jump03.gif
+	frame	data/chars/Goku/jump04.gif
+	frame	data/chars/Goku/jump05.gif
+		
+anim	jumpattack
+	loop	0
+	shadowcoords	18 77
+	delay	10
+	bbox	37 46 16 17
+	offset	25 77
+	frame	data/chars/Goku/jatk00.gif
+	frame	data/chars/Goku/jatk01.gif
+	frame	data/chars/Goku/jatk02.gif
+	frame	data/chars/Goku/jatk03.gif
+	attack	48 46 38 21 8 1
+	frame	data/chars/Goku/jatk04.gif
+	frame	data/chars/Goku/jatk05.gif
+	frame	data/chars/Goku/jatk06.gif
+	frame	data/chars/Goku/jatk07.gif
+		
+anim	jumpattack2
+	loop	0
+	shadowcoords	18 77
+	delay	10
+	bbox	37 46 16 17
+	offset	25 77
+	frame	data/chars/Goku/jatk00.gif
+	frame	data/chars/Goku/jatk01.gif
+	frame	data/chars/Goku/jatk02.gif
+	frame	data/chars/Goku/jatk03.gif
+	attack	48 46 38 21 8 1
+	frame	data/chars/Goku/jatk04.gif
+	frame	data/chars/Goku/jatk05.gif
+	frame	data/chars/Goku/jatk06.gif
+	frame	data/chars/Goku/jatk07.gif
+		
+anim	land
+	loop	0
+	shadowcoords	18 77
+	offset	25 77
+	delay	25
+	frame	data/chars/Goku/rise05.gif
+	frame	data/chars/Goku/rise06.gif
+		
+anim	pain
+	loop	0
+	shadowcoords	18 77
+	offset	25 77
+	bbox	35 55 17 20
+	delay	20
+	sound	data/chars/Goku/ugh.wav
+	frame	data/chars/Goku/pain.gif
+		
+anim	rise
+	loop	0
+	shadowcoords	18 77
+	offset	25 77
+	delay	10
+	frame	data/chars/Goku/rise00.gif
+	frame	data/chars/Goku/rise01.gif
+	frame	data/chars/Goku/rise02.gif
+	frame	data/chars/Goku/rise03.gif
+	frame	data/chars/Goku/rise04.gif
+	frame	data/chars/Goku/rise05.gif
+	frame	data/chars/Goku/rise06.gif
+		
+anim	run
+	loop	1
+	shadowcoords	18 77
+	delay	5
+	offset	25 77
 	bbox	35 55 17 20
 	frame	data/chars/Goku/walk00.gif
 	frame	data/chars/Goku/walk01.gif
 	frame	data/chars/Goku/walk02.gif
 	frame	data/chars/Goku/walk03.gif
+	frame	data/chars/Goku/walk00.gif
 	frame	data/chars/Goku/walk04.gif
 	frame	data/chars/Goku/walk05.gif
 	frame	data/chars/Goku/walk06.gif
-	frame	data/chars/Goku/walk07.gif
+		
+anim	runattack
+	delay	6
+	offset	25 77
+	@cmd	dasher 2 0 0
+	frame	data/chars/Goku/ppole05.gif
+	attack	54 38 42 32 8
+	frame	data/chars/Goku/ppole06.gif
+	attack	0
+	frame	data/chars/Goku/ppole07.gif
+	attack	13 29 67 48 20 1 1 0 0 0
+	dropv	1 4 0
+	@cmd	dasher 1 0 0
+	frame	data/chars/Goku/ppole08.gif
+	frame	data/chars/Goku/ppole09.gif
+	delay	7
+	@cmd	stop
+	frame	data/chars/Goku/ppole10.gif
+		
+anim	walk
+	loop	1
+	shadowcoords	18 77
+	delay	7
+	offset	25 77
+	bbox	35 55 17 20
+	frame	data/chars/Goku/walk00.gif
+	frame	data/chars/Goku/walk01.gif
+	frame	data/chars/Goku/walk02.gif
+	frame	data/chars/Goku/walk03.gif
+	frame	data/chars/Goku/walk00.gif
+	frame	data/chars/Goku/walk04.gif
+	frame	data/chars/Goku/walk05.gif
+	frame	data/chars/Goku/walk06.gif
 		
 #|edited by openBor Stats v 0.67
 		

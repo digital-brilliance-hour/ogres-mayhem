@@ -143,6 +143,9 @@ void main()
      setglobalvar("punt_ant_4P", 0);
     }
     if (openborvariant("in_level") && openborvariant("current_stage") < 12) {
+      // settextobj(150, 102, 50, 4, 99999999,  "Player 1 Has Reached Level 1!!", openborvariant("elapsed_time")+400);
+      // settextobj(151, 27, 200, 4, 99999999,  "New Move Unlocked! Down Down Action to Use", openborvariant("elapsed_time")+400);
+      // settextobj(152, 177, 225, 4, 99999999,  "Drains All MP", openborvariant("elapsed_time")+400);
        void p;
        int i, hp, mp, lv, num;
        for(i=0; i<4; i++){

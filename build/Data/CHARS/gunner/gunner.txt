@@ -15,6 +15,7 @@ takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 
 
+
 anim	attack1
 	loop	0
 	delay	10
@@ -28,6 +29,7 @@ anim	attack1
 	frame	data/chars/Gunner/shot04.gif
 		
 anim	fall
+	bbox	18 26 55 52
 	loop	0
 	offset	43 77
 	delay	20

@@ -25,6 +25,7 @@ void spawnLvup(void ent)
 	float fY = getentityproperty(ent, "a");
 	float fZ = getentityproperty(ent, "z");
 	changeentityproperty(vSpawn, "position", fX, fZ, fY + 70);
+	changeentityproperty(vSpawn, "parent", ent); //Set caller as parent.
 }
 void setLevel()
 {

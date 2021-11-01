@@ -1,0 +1,87 @@
+
+name	DB_Boar
+health	40
+speed	10
+type	enemy
+shadow	3
+icon	data/chars/dragonball/Boar/icon.gif
+
+subject_to_screen 1
+
+remap	data/chars/dragonball/Boar/idle02.gif data/chars/dragonball/Boar/map1.gif
+remap	data/chars/dragonball/Boar/idle02.gif data/chars/dragonball/Boar/map2.gif
+remap	data/chars/dragonball/Boar/idle02.gif data/chars/dragonball/Boar/map3.gif
+remap	data/chars/dragonball/Boar/idle02.gif data/chars/dragonball/Boar/map4.gif
+takedamagescript data/scripts/enemyhit.c
+animationscript data/scripts/spawns.c
+
+
+anim	attack1
+	loop	0
+	delay	10
+	bbox	50 56 22 24
+	offset	60 85
+	frame	data/chars/dragonball/Boar/slash00.gif
+	frame	data/chars/dragonball/Boar/slash01.gif
+	frame	data/chars/dragonball/Boar/slash02.gif
+	frame	data/chars/dragonball/Boar/slash03.gif
+	frame	data/chars/dragonball/Boar/slash04.gif
+	sound	data/chars/dragonball/Boar/sword.wav
+	attack	65 65 36 29 8 1
+	frame	data/chars/dragonball/Boar/slash05.gif
+	frame	data/chars/dragonball/Boar/slash06.gif
+	frame	data/chars/dragonball/Boar/slash07.gif
+		
+anim	fall
+	bbox	32 30 46 43
+	loop	0
+	offset	60 85
+	delay	20
+	attack	41 36 24 22 4 1 0 0 0 0
+	frame	data/chars/dragonball/Boar/fall00.gif
+	frame	data/chars/dragonball/Boar/fall00.gif
+	bbox	31 59 56 27
+	frame	data/chars/dragonball/Boar/fall01.gif
+		
+anim	idle
+	loop	1
+	delay	15
+	offset	60 85
+	bbox	50 56 22 24
+	frame	data/chars/dragonball/Boar/idle00.gif
+	frame	data/chars/dragonball/Boar/idle01.gif
+	frame	data/chars/dragonball/Boar/idle02.gif
+	frame	data/chars/dragonball/Boar/idle01.gif
+		
+anim	pain
+	loop	0
+	offset	60 85
+	bbox	50 56 22 24
+	delay	20
+	frame	data/chars/dragonball/Boar/pain.gif
+		
+anim	rise
+	loop	0
+	offset	60 85
+	delay	5
+	frame	data/chars/dragonball/Boar/rise.gif
+		
+anim	spawn
+	delay	75
+	@cmd	spawnparent "e_spawn" 0 0 0
+	frame	data/chars/misc/empty.gif
+		
+anim	walk
+	loop	1
+	delay	10
+	offset	60 85
+	bbox	50 56 22 24
+	frame	data/chars/dragonball/Boar/walk00.gif
+	frame	data/chars/dragonball/Boar/walk01.gif
+	frame	data/chars/dragonball/Boar/walk02.gif
+	frame	data/chars/dragonball/Boar/walk03.gif
+	frame	data/chars/dragonball/Boar/walk04.gif
+	frame	data/chars/dragonball/Boar/walk05.gif
+		
+#|edited by openBor Stats v 0.67
+		
