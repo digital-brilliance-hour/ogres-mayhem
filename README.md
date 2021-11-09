@@ -1,2 +1,2 @@
-# main-openbor
-Main Base OpenBor Build
+# ogres-mayhem
+Ogre's Mayhem Build
