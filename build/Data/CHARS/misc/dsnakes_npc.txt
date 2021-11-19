@@ -1,0 +1,31 @@
+name	dsnakes_npc
+health	1
+speed   8
+type	npc
+candamage  enemy
+shadow	0
+icon	data/chars/misc/Kunai_.gif
+anim idle
+	loop	1
+	delay	10
+	offset	60 -10
+        attack  0 0 25 23 18 0
+        hitflash flash
+	frame  data/chars/anko/229.gif
+		attack1  0  0  34  32  18  0
+	frame  data/chars/anko/230.gif
+		attack1  0  0  36  39  18  0
+	frame  data/chars/anko/231.gif
+		attack1  0  0  42  43  18  0
+	frame  data/chars/anko/232.gif
+		attack1  0  0  55  52  18  0
+	frame  data/chars/anko/233.gif
+	frame  data/chars/anko/234.gif
+
+
+
+
+
+
+
+
