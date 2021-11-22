@@ -241,3 +241,5 @@ know	Kunai		data/chars/misc/Kunai.txt
 know	Kunai_		data/chars/misc/Kunai_.txt
 Load Levelup data/chars/Misc/levelup/levelup.txt
 #know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
+know	NarutoClone		data/chars/Naruto/narutoclone.txt
+
