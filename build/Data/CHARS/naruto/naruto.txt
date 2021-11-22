@@ -39,6 +39,8 @@ makeinv 4
 
 
 
+
+
 anim	attack1
 	loop	0
 	delay	3
@@ -112,63 +114,6 @@ anim	fall
 	frame	data/chars/Naruto/fall00.png
 	delay	20
 	frame	data/chars/Naruto/fall01.png
-		
-anim	follow1
-	delay	7
-	offset	12 45
-	frame	data/chars/Naruto/9.gif
-	offset	11 46
-	frame	data/chars/Naruto/10.gif
-	offset	11 45
-	frame	data/chars/Naruto/11.gif
-	offset	12 45
-	frame	data/chars/Naruto/12.gif
-		
-anim	follow3
-	delay	7
-	offset	12 37
-	frame	data/chars/Naruto/170.gif
-	offset	13 39
-	frame	data/chars/Naruto/171.gif
-	offset	21 39
-	frame	data/chars/Naruto/172.gif
-	offset	27 39
-	frame	data/chars/Naruto/173.gif
-	offset	24 42
-	frame	data/chars/Naruto/174.gif
-	offset	24 45
-	frame	data/chars/Naruto/175.gif
-	offset	25 44
-	frame	data/chars/Naruto/176.gif
-	offset	29 50
-	frame	data/chars/Naruto/177.gif
-	offset	36 57
-	frame	data/chars/Naruto/178.gif
-	offset	45 55
-	frame	data/chars/Naruto/179.gif
-	offset	36 59
-	frame	data/chars/Naruto/180.gif
-	offset	31 59
-	frame	data/chars/Naruto/181.gif
-	offset	30 58
-	frame	data/chars/Naruto/182.gif
-	offset	31 54
-	frame	data/chars/Naruto/183.gif
-		
-anim	follow4
-	delay	7
-	offset	24 38
-	frame	data/chars/Naruto/naruto_0.png
-	offset	24 37
-	frame	data/chars/Naruto/naruto_1.png
-	offset	24 38
-	frame	data/chars/Naruto/naruto_2.png
-	offset	24 38
-	frame	data/chars/Naruto/naruto_3.png
-	offset	24 40
-	frame	data/chars/Naruto/naruto_4.png
-	offset	24 42
-	frame	data/chars/Naruto/naruto_5.png
 		
 anim	freespecial
 	@cmd	isavailable 2
@@ -293,11 +238,6 @@ anim	freespecial2
 	dropv	-3 2 0
 	sound	data/chars/Naruto/ha2.wav
 	frame	data/chars/Naruto/jatk01.png
-	@script
-
-performattack(getlocalvar("self"), openborconstant("ANI_FOLLOW3"));
-
-	@end_script	
 	frame	data/chars/Naruto/jatk02.png
 		
 anim	freespecial3
@@ -306,6 +246,12 @@ anim	freespecial3
 	frame	data/chars/Naruto/5.gif
 	offset	18 46
 	frame	data/chars/Naruto/6.gif
+	offset	24 38
+	frame	data/chars/Naruto/naruto_0.png
+	offset	24 37
+	frame	data/chars/Naruto/naruto_1.png
+	offset	24 38
+	frame	data/chars/Naruto/naruto_2.png
 	offset	17 41
 	frame	data/chars/Naruto/7.gif
 	offset	17 42
@@ -319,73 +265,56 @@ anim	freespecial4
 	delay	10
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
-	offset	60 116
-	frame	data/chars/Naruto/jab03.png
-	attack	64 65 51 42 8 0 1 0 0 0
+	offset	12 37
+	frame	data/chars/Naruto/170.gif
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomout" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 0
 	delay	7
-	sound	data/chars/Naruto/ha.wav
-	frame	data/chars/Naruto/jab00.png
-	attack	0 0 0 0 0 0 0 0 0 0
-	frame	data/chars/Naruto/jab01.png
-	attack	73 62 42 48 8 0 1 0 0 0
-	frame	data/chars/Naruto/jab02.png
-	attack	0
-	frame	data/chars/Naruto/jab03.png
-	attack	0 0 0 0 0 0 0 0 0 0
-	loop	0
-	delay	4
-	offset	60 116
-	frame	data/chars/Naruto/head00.png
-	frame	data/chars/Naruto/head01.png
-	attack	71 70 45 44 14 0 0 0 0 0
-	frame	data/chars/Naruto/head02.png
-	attack	0 0 0 0 0 0 0 0 0 0
-	frame	data/chars/Naruto/head03.png
-	attack	67 66 43 43 10 0 0 0 0 0
-	loop	0
-	delay	4
-	offset	60 116
-	sound	data/chars/Naruto/ha.wav
-	frame	data/chars/Naruto/jab00.png
-	attack	0 0 0 0 0 0 0 0 0 0
-	frame	data/chars/Naruto/jab01.png
-	attack	73 70 41 42 10 0 1 0 0 0
-	frame	data/chars/Naruto/jab02.png
-	attack	0 0 0 0 0 0 0 0 0 0
-	frame	data/chars/Naruto/jab03.png
-	attack	0 0 0 0 0 0 0 0 0 0
-	delay	4
-	offset	60 116
-	bbox	0 0 0 0
-	frame	data/chars/Naruto/head00.png
-	frame	data/chars/Naruto/head01.png
-	attack	74 73 39 40 14 0 0 0 0 0
-	frame	data/chars/Naruto/head02.png
-	frame	data/chars/Naruto/head03.png
-	attack	0 0 0 0 0 0 0 0 0 0
-	delay	4
-	offset	60 116
-	frame	data/chars/Naruto/punch00.png
-	frame	data/chars/Naruto/punch01.png
-	attack	70 71 45 42 18 0 0 0 0 0
-	frame	data/chars/Naruto/punch02.png
-	frame	data/chars/Naruto/punch03.png
-	attack	0
-	frame	data/chars/Naruto/punch04.png
-	attack	0 0 0 0 0 0 0 0 0 0
-	loop	0
-	offset	60 116
-	delay	7
-	frame	data/chars/Naruto/upper00.png
-	frame	data/chars/Naruto/upper01.png
-	attack	19 44 86 72 18 1 0 0 0 0
-	dropv	4 0 -2
-	frame	data/chars/Naruto/upper02.png
-	delay	30
-	frame	data/chars/Naruto/upper03.png
+	offset	13 39
+	frame	data/chars/Naruto/171.gif
+	offset	21 39
+	frame	data/chars/Naruto/172.gif
+	offset	27 39
+	frame	data/chars/Naruto/173.gif
+	offset	24 42
+	frame	data/chars/Naruto/174.gif
+	offset	24 45
+	frame	data/chars/Naruto/175.gif
+	offset	25 44
+	frame	data/chars/Naruto/176.gif
+	offset	29 50
+	frame	data/chars/Naruto/177.gif
+	offset	36 57
+	frame	data/chars/Naruto/178.gif
+	offset	45 55
+	frame	data/chars/Naruto/179.gif
+	offset	36 59
+	frame	data/chars/Naruto/180.gif
+	offset	31 59
+	frame	data/chars/Naruto/181.gif
+	offset	30 58
+	frame	data/chars/Naruto/182.gif
+	offset	31 54
+	frame	data/chars/Naruto/183.gif
+	offset	48 54
+	frame	data/chars/Naruto/228.gif
+	offset	38 59
+	frame	data/chars/Naruto/229.gif
+	offset	32 62
+	frame	data/chars/Naruto/230.gif
+	offset	35 63
+	frame	data/chars/Naruto/231.gif
+	offset	35 64
+	frame	data/chars/Naruto/232.gif
+	offset	46 62
+	frame	data/chars/Naruto/233.gif
+	offset	38 61
+	frame	data/chars/Naruto/234.gif
+	offset	29 62
+	frame	data/chars/Naruto/235.gif
+	offset	35 66
+	frame	data/chars/Naruto/236.gif
 		
 anim	freespecial5
 	delay	3
