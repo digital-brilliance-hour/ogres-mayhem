@@ -1,0 +1,195 @@
+name	Ninja_Scythe
+health  100
+speed	1
+type	enemy
+hostile npc player
+candamage   npc player
+shadow	2
+diesound data/sounds/die2.wav
+icon	data/chars/ninja_scythe/icon.png
+bflash  bflash
+dust	 dust
+jumpheight 4
+
+load scythe_enemy
+knife  scythe_enemy
+
+blockodds 1
+
+anim	attack1
+	loop	0
+	offset	13 40
+	delay	3
+	frame	data/chars/ninja_scythe/7.png
+	offset	9 37
+	delay	1
+	sound	data/sounds/attack33.wav
+	frame	data/chars/ninja_scythe/10.png
+	frame	data/chars/ninja_scythe/9.png
+	offset	14 38
+	attack1	-2 0 57 43 22
+	frame	data/chars/ninja_scythe/8.png
+	offset	13 40
+	frame	data/chars/ninja_scythe/6.png
+		
+anim	attack2
+	loop	0
+	sound	data/sounds/attack32.wav
+	offset	9 37
+	delay	7
+	frame	data/chars/ninja_scythe/10.png
+	frame	data/chars/ninja_scythe/9.png
+	offset	14 38
+	attack1	0 0 54 39 55 1
+	frame	data/chars/ninja_scythe/8.png
+	offset	13 40
+	Attack1	0
+	frame	data/chars/ninja_scythe/7.png
+	frame	data/chars/ninja_scythe/6.png
+		
+anim	block
+	loop	0
+	delay	20
+	offset	14 35
+	bbox	5 -3 37 55
+	frame	data/chars/ninja_scythe/10.png
+		
+anim	burn
+	loop	1
+	delay	3
+	offset	60 116
+	frame	data/chars/misc/burn1.gif
+	frame	data/chars/misc/burn2.gif
+	frame	data/chars/misc/burn3.gif
+		
+anim	fall
+	loop	0
+	delay	15
+	attack	45 61 17 34 4 1
+	offset	27 29
+	frame	data/chars/ninja_scythe/86.png
+	delay	30
+	offset	21 45
+	frame	data/chars/ninja_scythe/84.png
+	offset	27 19
+	frame	data/chars/ninja_scythe/87.png
+	offset	28 19
+	frame	data/chars/ninja_scythe/88.png
+		
+anim	freespecial
+	loop	0
+	range	70 300
+	throwframe	2
+	offset	9 37
+	delay	120
+	bbox	0 0 38 40
+	frame	data/chars/ninja_scythe/10.png
+	delay	14
+	sound	data/sounds/attack3.wav
+	frame	data/chars/ninja_scythe/9.png
+	offset	14 38
+	attack1	0
+	delay	7
+	frame	data/chars/ninja_scythe/8.png
+	offset	13 40
+	frame	data/chars/ninja_scythe/7.png
+	frame	data/chars/ninja_scythe/6.png
+		
+anim	freespecial2
+	loop	0
+	range	50 300
+	delay	10
+	offset	21 50
+	bbox	3 2 32 52
+	sound	data/sounds/explosion1.wav
+	frame	data/chars/ninja_scythe/16.png
+	frame	data/chars/ninja_scythe/15.png
+	offset	25 30
+	frame	data/chars/ninja_scythe/17.png
+	delay	5
+	offset	27 49
+	move	20
+	bbox	0
+	frame	data/chars/ninja_scythe/137.png
+	frame	data/chars/ninja_scythe/137.png
+	offset	27 50
+	frame	data/chars/ninja_scythe/137.png
+	offset	27 49
+	frame	data/chars/ninja_scythe/137.png
+	frame	data/chars/ninja_scythe/137.png
+	delay	10
+	offset	27 45
+	move	0
+	sound	data/sounds/explosion1.wav
+	frame	data/chars/ninja_scythe/57.png
+	offset	29 45
+	bbox	12 0 38 46
+	frame	data/chars/ninja_scythe/62.png
+	offset	31 47
+	frame	data/chars/ninja_scythe/58.png
+	offset	36 47
+	frame	data/chars/ninja_scythe/59.png
+	offset	19 47
+	bbox	1 0 35 52
+	frame	data/chars/ninja_scythe/60.png
+		
+anim	idle
+	loop	1
+	delay	14
+	bbox	-1 0 35 62
+	offset	19 47
+	frame	data/chars/ninja_scythe/0.png
+	offset	19 46
+	frame	data/chars/ninja_scythe/1.png
+	offset	18 46
+	frame	data/chars/ninja_scythe/2.png
+	offset	18 45
+	frame	data/chars/ninja_scythe/3.png
+	offset	18 46
+	frame	data/chars/ninja_scythe/2.png
+	offset	19 46
+	frame	data/chars/ninja_scythe/1.png
+	offset	19 47
+	frame	data/chars/ninja_scythe/0.png
+		
+anim	jump
+	loop	0
+	delay	10
+	offset	15 59
+	bbox	3 2 32 52
+	frame	data/chars/ninja_scythe/5.png
+	frame	data/chars/ninja_scythe/6.png
+	frame	data/chars/ninja_scythe/7.png
+	frame	data/chars/ninja_scythe/78.png
+	frame	data/chars/ninja_scythe/79.png
+		
+anim	land
+	loop	0
+	delay	5
+	offset	19 42
+	bbox	3 2 32 52
+	frame	data/chars/ninja_scythe/5.png
+	offset	15 33
+	frame	data/chars/ninja_scythe/81.png
+	delay	5
+	offset	15 35
+	bbox	3 2 32 52
+	frame	data/chars/ninja_scythe/80.png
+		
+anim	pain
+	loop	0
+	delay	15
+	bbox	-1 -2 42 70
+	offset	19 52
+	frame	data/chars/ninja_scythe/82.png
+	offset	19 48
+	frame	data/chars/ninja_scythe/83.png
+		
+anim	rise
+	loop	0
+	delay	10
+	offset	18 34
+	frame	data/chars/ninja_scythe/81.png
+		
+#|edited by openBor Stats v 0.67
+		

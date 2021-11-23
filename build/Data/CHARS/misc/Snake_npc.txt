@@ -1,0 +1,32 @@
+name	Snake_npc
+health	1
+speed   0
+type	npc
+candamage    enemy
+shadow	0
+icon	data/chars/misc/366.gif
+anim idle
+ delay 7
+ offset 41 80
+		attack1  8  1  71  75  40
+ frame data/chars/misc/363.gif
+ offset 41 115
+		attack1  2  12  80  102  40
+ frame data/chars/misc/364.gif
+ offset 32 168
+		attack1  0  67  68  97  40
+ frame data/chars/misc/365.gif
+ offset 29 161
+ frame data/chars/misc/366.gif
+ offset 31 160
+		delay  50
+ frame data/chars/misc/367.gif
+		offset  32  168
+		delay  25
+	frame  data/chars/misc/365.gif
+		offset  41  115
+		delay  7
+	frame  data/chars/misc/364.gif
+		offset  41  80
+	frame  data/chars/misc/363.gif
+

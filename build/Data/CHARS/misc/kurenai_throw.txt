@@ -1,0 +1,111 @@
+name	kurenai_throw
+health	5
+speed   7
+type	obstacle
+candamage    enemy
+shadow	0
+icon	data/chars/misc/ku.png
+anim idle
+	loop	1
+	delay	1
+        attack9  0 0 100 65 35
+        hitflash flash
+		offset  50  32
+	frame	data/chars/misc/ku.png
+		hitflash  flash
+		Attack1  0
+	frame  data/chars/misc/ku.png
+		attack9  0  0  89  65  35
+		hitflash  flash
+	frame  data/chars/misc/ku.png
+	        attack9  0 0 100 65 35
+        hitflash flash
+		offset  50  32
+	frame	data/chars/misc/ku.png
+		hitflash  flash
+		Attack1  0
+	frame  data/chars/misc/ku.png
+		attack9  0  0  89  65  35
+		hitflash  flash
+	frame  data/chars/misc/ku.png
+	        attack9  0 0 100 65 35
+        hitflash flash
+		offset  50  32
+	frame	data/chars/misc/ku.png
+		hitflash  flash
+		Attack1  0
+	frame  data/chars/misc/ku.png
+		attack9  0  0  89  65  35
+		hitflash  flash
+	frame  data/chars/misc/ku.png
+	        attack9  0 0 100 65 35
+        hitflash flash
+		offset  50  32
+	frame	data/chars/misc/ku.png
+		hitflash  flash
+		Attack1  0
+	frame  data/chars/misc/ku.png
+		attack9  0  0  89  65  35
+		hitflash  flash
+	frame  data/chars/misc/ku.png
+	        attack9  0 0 100 65 35
+        hitflash flash
+		offset  50  32
+	frame	data/chars/misc/ku.png
+		hitflash  flash
+		Attack1  0
+	frame  data/chars/misc/ku.png
+		attack9  0  0  89  65  35
+		hitflash  flash
+	frame  data/chars/misc/ku.png
+	        attack9  0 0 100 65 35
+        hitflash flash
+		offset  50  32
+	frame	data/chars/misc/ku.png
+		hitflash  flash
+		Attack1  0
+	frame  data/chars/misc/ku.png
+		attack9  0  0  89  65  35
+		hitflash  flash
+	frame  data/chars/misc/ku.png
+	        attack9  0 0 100 65 35
+        hitflash flash
+		offset  50  32
+	frame	data/chars/misc/ku.png
+		hitflash  flash
+		Attack1  0
+	frame  data/chars/misc/ku.png
+		attack9  0  0  89  65  35
+		hitflash  flash
+	frame  data/chars/misc/ku.png
+	        attack9  0 0 100 65 35
+        hitflash flash
+		offset  50  32
+	frame	data/chars/misc/ku.png
+		hitflash  flash
+		Attack1  0
+	frame  data/chars/misc/ku.png
+		attack9  0  0  89  65  35
+		hitflash  flash
+	frame  data/chars/misc/ku.png
+	        attack9  0 0 100 65 35
+        hitflash flash
+		offset  50  32
+	frame	data/chars/misc/ku.png
+		hitflash  flash
+		Attack1  0
+	frame  data/chars/misc/ku.png
+		attack9  0  0  89  65  35
+		hitflash  flash
+	frame  data/chars/misc/ku.png
+	        attack9  0 0 100 65 35
+        hitflash flash
+		offset  50  32
+	frame	data/chars/misc/ku.png
+		hitflash  flash
+		Attack1  0
+	frame  data/chars/misc/ku.png
+		attack9  0  0  89  65  35
+		hitflash  flash
+	frame  data/chars/misc/ku.png
+

@@ -1,0 +1,585 @@
+name	Orochimaru
+health	750
+speed	14
+type	enemy
+candamage     npc player
+hostile       npc player
+shadow	2
+diesound data/sounds/die2.wav
+bflash  bflash
+dust	 dust
+jumpheight 5
+atchain	1 2 3
+subtype		chase
+aggression 	53
+running	15	3	2	1
+blockodds 1
+
+subtype		chase
+
+anim	attack1
+	range	0 50
+	loop	0
+	offset	22 65
+	delay	7
+	bbox	0 0 43 69
+	frame	data/chars/orochimaru/26.png
+	offset	22 59
+	attack1	27 0 34 59
+	frame	data/chars/orochimaru/27.png
+	offset	22 48
+	delay	7
+	frame	data/chars/orochimaru/33.png
+		
+anim	attack2
+	range	0 50
+	loop	0
+	offset	18 48
+	attack1	9 0 37 51 25
+	delay	7
+	frame	data/chars/orochimaru/33.png
+		
+anim	attack3
+	range	0 50
+	loop	0
+	delay	9
+	offset	39 50
+	bbox	7 0 50 51
+	frame	data/chars/orochimaru/32.png
+	offset	21 50
+	frame	data/chars/orochimaru/31.png
+	offset	21 54
+	frame	data/chars/orochimaru/29.png
+	delay	1
+	attack1	39 1 38 37 8
+	frame	data/chars/orochimaru/29.png
+	offset	21 57
+	Attack1	0
+	frame	data/chars/orochimaru/28.png
+	attack1	42 -1 43 43 8
+	frame	data/chars/orochimaru/28.png
+	offset	21 54
+	Attack1	0
+	frame	data/chars/orochimaru/38.png
+	attack1	45 0 40 43 8
+	frame	data/chars/orochimaru/38.png
+	offset	21 49
+	Attack1	0
+	frame	data/chars/orochimaru/39.png
+	attack1	42 -1 42 37 9
+	frame	data/chars/orochimaru/39.png
+	offset	21 57
+	Attack1	0
+	frame	data/chars/orochimaru/28.png
+	attack1	42 -1 43 43 8
+	frame	data/chars/orochimaru/28.png
+	offset	21 54
+	Attack1	0
+	frame	data/chars/orochimaru/38.png
+	attack1	45 0 40 43 8
+	frame	data/chars/orochimaru/38.png
+	offset	21 49
+	Attack1	0
+	frame	data/chars/orochimaru/39.png
+	attack1	42 -1 42 37 9
+	frame	data/chars/orochimaru/39.png
+	offset	21 57
+	Attack1	0
+	frame	data/chars/orochimaru/28.png
+	attack1	42 -1 43 43 8
+	frame	data/chars/orochimaru/28.png
+	offset	21 54
+	Attack1	0
+	frame	data/chars/orochimaru/38.png
+	attack1	45 0 40 43 8
+	frame	data/chars/orochimaru/38.png
+	offset	21 49
+	Attack1	0
+	frame	data/chars/orochimaru/39.png
+	attack1	42 -1 42 37 9
+	frame	data/chars/orochimaru/39.png
+	offset	21 57
+	Attack1	0
+	frame	data/chars/orochimaru/28.png
+	attack1	42 -1 43 43 8
+	frame	data/chars/orochimaru/28.png
+	offset	21 54
+	Attack1	0
+	frame	data/chars/orochimaru/38.png
+	attack1	45 0 40 43 8
+	frame	data/chars/orochimaru/38.png
+	offset	21 49
+	Attack1	0
+	frame	data/chars/orochimaru/39.png
+	attack1	42 -1 42 37 9
+	frame	data/chars/orochimaru/39.png
+	offset	21 57
+	Attack1	0
+	frame	data/chars/orochimaru/28.png
+	attack1	42 -1 43 43 8
+	frame	data/chars/orochimaru/28.png
+	offset	21 54
+	Attack1	0
+	frame	data/chars/orochimaru/38.png
+	attack1	45 0 40 43 8
+	frame	data/chars/orochimaru/38.png
+	offset	21 49
+	Attack1	0
+	frame	data/chars/orochimaru/39.png
+	attack1	42 -1 42 37 9
+	frame	data/chars/orochimaru/39.png
+	offset	21 57
+	Attack1	0
+	frame	data/chars/orochimaru/28.png
+	attack1	42 -1 43 43 8
+	frame	data/chars/orochimaru/28.png
+	offset	21 54
+	Attack1	0
+	frame	data/chars/orochimaru/38.png
+	attack1	45 0 40 43 8
+	frame	data/chars/orochimaru/38.png
+	offset	21 49
+	Attack1	0
+	frame	data/chars/orochimaru/39.png
+	attack1	42 -1 42 37 9 1
+	frame	data/chars/orochimaru/39.png
+		
+anim	block
+	loop	0
+	offset	13 64
+	bbox	1 0 34 65
+	attack1	9 -1 35 67 36
+	frame	data/chars/orochimaru/4.png
+		
+anim	burn
+	loop	1
+	offset	60 116
+	delay	3
+	frame	data/chars/misc/burn1.gif
+	frame	data/chars/misc/burn2.gif
+	frame	data/chars/misc/burn3.gif
+		
+anim	duck
+	loop	0
+	delay	10
+	bbox	2 18 44 20
+	offset	23 35
+	frame	data/chars/orochimaru/239.png
+		
+anim	fall
+	loop	0
+	offset	32 62
+	delay	6
+	bbox	0 0 45 64
+	frame	data/chars/orochimaru/236.png
+	offset	21 57
+	bbox	1 0 37 57
+	frame	data/chars/orochimaru/237.png
+	offset	27 32
+	bbox	0 0 60 46
+	frame	data/chars/orochimaru/238.png
+	offset	26 25
+	bbox	0 0 50 32
+	frame	data/chars/orochimaru/241.png
+	offset	37 21
+	delay	3
+	bbox	0 -1 67 28
+	frame	data/chars/orochimaru/242.png
+		
+anim	freespecial
+	range	0	80
+	loop	0
+	offset	19 58
+	delay	20
+	bbox	0 0 33 62
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	frame	data/chars/orochimaru/37.png
+	delay	3
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	frame	data/chars/orochimaru/36.png
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	offset	28 59
+	blast	42 -1 44 59 45
+	frame	data/chars/orochimaru/44.png
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	offset	26 60
+	frame	data/chars/orochimaru/42.png
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	offset	25 63
+	blast	59 1 76 68 45
+	frame	data/chars/orochimaru/246.png
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	offset	26 60
+	frame	data/chars/orochimaru/247.png
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	offset	25 63
+	blast	59 0 92 69 45
+	frame	data/chars/orochimaru/245.png
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	offset	26 75
+	frame	data/chars/orochimaru/248.png
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	offset	26 72
+	frame	data/chars/orochimaru/249.png
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	offset	28 72
+	frame	data/chars/orochimaru/250.png
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	offset	28 59
+	frame	data/chars/orochimaru/251.png
+	offset	25 75
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	frame	data/chars/orochimaru/252.png
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	offset	25 80
+	frame	data/chars/orochimaru/253.png
+	delay	22
+	throwframe	0
+	throwframe	2
+	throwframe	4
+	offset	19 80
+	frame	data/chars/orochimaru/254.png
+		
+anim	get
+	loop	0
+	delay	10
+	offset	9 39
+	bbox	-2 1 36 42
+	frame	data/chars/orochimaru/239.png
+		
+anim	grab
+	loop	0
+	delay	1000
+	bbox	3 -1 31 61
+	offset	14 65
+	frame	data/chars/orochimaru/4.png
+		
+anim	grabattack
+	range	0 50
+	loop	0
+	offset	22 65
+	delay	7
+	frame	data/chars/orochimaru/26.png
+	offset	22 59
+	attack1	24 -1 41 64 15
+	frame	data/chars/orochimaru/27.png
+	offset	22 48
+	delay	1
+	Attack1	0
+	frame	data/chars/orochimaru/33.png
+		
+anim	grabattack2
+	range	0 50
+	loop	0
+	delay	9
+	offset	39 50
+	frame	data/chars/orochimaru/32.png
+	offset	21 50
+	frame	data/chars/orochimaru/31.png
+	offset	21 54
+	frame	data/chars/orochimaru/29.png
+	delay	1
+	attack1	39 1 38 37 8
+	frame	data/chars/orochimaru/29.png
+	offset	21 57
+	Attack1	0
+	frame	data/chars/orochimaru/28.png
+	attack1	42 -1 43 43 8
+	frame	data/chars/orochimaru/28.png
+	offset	21 54
+	Attack1	0
+	frame	data/chars/orochimaru/38.png
+	attack1	45 0 40 43 8
+	frame	data/chars/orochimaru/38.png
+	offset	21 49
+	Attack1	0
+	frame	data/chars/orochimaru/39.png
+	attack1	42 -1 42 37 9
+	frame	data/chars/orochimaru/39.png
+	offset	21 57
+	Attack1	0
+	frame	data/chars/orochimaru/28.png
+	attack1	42 -1 43 43 8
+	frame	data/chars/orochimaru/28.png
+	offset	21 54
+	Attack1	0
+	frame	data/chars/orochimaru/38.png
+	attack1	45 0 40 43 8
+	frame	data/chars/orochimaru/38.png
+	offset	21 49
+	Attack1	0
+	frame	data/chars/orochimaru/39.png
+	attack1	42 -1 42 37 9
+	frame	data/chars/orochimaru/39.png
+	offset	21 57
+	Attack1	0
+	frame	data/chars/orochimaru/28.png
+	attack1	42 -1 43 43 8
+	frame	data/chars/orochimaru/28.png
+	offset	21 54
+	Attack1	0
+	frame	data/chars/orochimaru/38.png
+	attack1	45 0 40 43 8
+	frame	data/chars/orochimaru/38.png
+	offset	21 49
+	Attack1	0
+	frame	data/chars/orochimaru/39.png
+	attack1	42 -1 42 37 9
+	frame	data/chars/orochimaru/39.png
+	offset	21 57
+	Attack1	0
+	frame	data/chars/orochimaru/28.png
+	attack1	42 -1 43 43 8
+	frame	data/chars/orochimaru/28.png
+	offset	21 54
+	Attack1	0
+	frame	data/chars/orochimaru/38.png
+	attack1	45 0 40 43 8
+	frame	data/chars/orochimaru/38.png
+	offset	21 49
+	Attack1	0
+	frame	data/chars/orochimaru/39.png
+	attack1	42 -1 42 37 9
+	frame	data/chars/orochimaru/39.png
+	offset	21 57
+	Attack1	0
+	frame	data/chars/orochimaru/28.png
+	attack1	42 -1 43 43 8
+	frame	data/chars/orochimaru/28.png
+	offset	21 54
+	Attack1	0
+	frame	data/chars/orochimaru/38.png
+	attack1	45 0 40 43 8
+	frame	data/chars/orochimaru/38.png
+	offset	21 49
+	Attack1	0
+	frame	data/chars/orochimaru/39.png
+	attack1	42 -1 42 37 9
+	frame	data/chars/orochimaru/39.png
+	offset	21 57
+	Attack1	0
+	frame	data/chars/orochimaru/28.png
+	attack1	42 -1 43 43 8
+	frame	data/chars/orochimaru/28.png
+	offset	21 54
+	Attack1	0
+	frame	data/chars/orochimaru/38.png
+	attack1	45 0 40 43 8
+	frame	data/chars/orochimaru/38.png
+	offset	21 49
+	Attack1	0
+	frame	data/chars/orochimaru/39.png
+	attack1	42 -1 42 37 9
+	frame	data/chars/orochimaru/39.png
+		
+anim	grabbed
+	loop	0
+	offset	16 65
+	delay	4
+	frame	data/chars/orochimaru/75.png
+	frame	data/chars/orochimaru/76.png
+	offset	14 64
+	frame	data/chars/orochimaru/77.png
+	frame	data/chars/orochimaru/78.png
+	offset	13 62
+	frame	data/chars/orochimaru/79.png
+	frame	data/chars/orochimaru/80.png
+	frame	data/chars/orochimaru/81.png
+	offset	14 62
+	frame	data/chars/orochimaru/82.png
+	offset	13 62
+	frame	data/chars/orochimaru/83.png
+	offset	16 65
+	attack1	26 0 76 68 90 1 1
+	frame	data/chars/orochimaru/90.png
+	offset	16 73
+	frame	data/chars/orochimaru/88.png
+	frame	data/chars/orochimaru/89.png
+	offset	16 81
+	attack1	22 -1 104 88 90 1 1
+	frame	data/chars/orochimaru/87.png
+	attack1	20 0 107 87 90 1 1
+	frame	data/chars/orochimaru/86.png
+	offset	16 116
+	attack1	29 1 113 122 90 1 1
+	frame	data/chars/orochimaru/93.png
+	attack1	27 1 116 118 90 1 1
+	frame	data/chars/orochimaru/91.png
+	offset	16 112
+	frame	data/chars/orochimaru/92.png
+	offset	16 111
+	Attack1	0
+	frame	data/chars/orochimaru/95.png
+	offset	16 75
+	frame	data/chars/orochimaru/100.png
+	offset	18 105
+	frame	data/chars/orochimaru/257.png
+	frame	data/chars/orochimaru/258.png
+	offset	16 65
+	frame	data/chars/orochimaru/255.png
+	frame	data/chars/orochimaru/256.png
+		
+anim	idle
+	loop	1
+	loop	
+	loop	1
+	loop	
+	offset	18 66
+	delay	7
+	bbox	0 0 27 50
+	loop	
+	loop	1
+	frame	data/chars/orochimaru/0.png
+	frame	data/chars/orochimaru/1.png
+	frame	data/chars/orochimaru/2.png
+	frame	data/chars/orochimaru/3.png
+		
+anim	jump
+	loop	0
+	delay	14
+	offset	10 67
+	bbox	0 1 20 66
+	frame	data/chars/orochimaru/21.png
+	frame	data/chars/orochimaru/22.png
+	frame	data/chars/orochimaru/19.png
+	frame	data/chars/orochimaru/20.png
+		
+anim	land
+	loop	0
+	delay	15
+	offset	19 51
+	bbox	-2 1 36 42
+	frame	data/chars/orochimaru/30.png
+		
+anim	pain
+	loop	0
+	offset	32 60
+	delay	15
+	bbox	0 -2 44 67
+	frame	data/chars/orochimaru/236.png
+	offset	31 54
+	frame	data/chars/orochimaru/237.png
+		
+anim	rise
+	loop	0
+	offset	23 33
+	delay	10
+	frame	data/chars/orochimaru/239.png
+		
+anim	run
+	loop	1
+	delay	7
+	offset	27 49
+	bbox	7 3 54 47
+	frame	data/chars/orochimaru/11.png
+	offset	27 47
+	frame	data/chars/orochimaru/12.png
+	frame	data/chars/orochimaru/13.png
+	offset	27 45
+	frame	data/chars/orochimaru/14.png
+	frame	data/chars/orochimaru/15.png
+	offset	27 44
+	frame	data/chars/orochimaru/16.png
+		
+anim	runattack
+	loop	0
+	offset	16 65
+	delay	4
+	frame	data/chars/orochimaru/75.png
+	frame	data/chars/orochimaru/76.png
+	offset	14 64
+	frame	data/chars/orochimaru/77.png
+	frame	data/chars/orochimaru/78.png
+	offset	13 62
+	frame	data/chars/orochimaru/79.png
+	frame	data/chars/orochimaru/80.png
+	frame	data/chars/orochimaru/81.png
+	offset	14 62
+	frame	data/chars/orochimaru/82.png
+	offset	13 62
+	frame	data/chars/orochimaru/83.png
+	offset	16 65
+	attack1	29 0 75 73 350 1
+	frame	data/chars/orochimaru/90.png
+	offset	16 73
+	frame	data/chars/orochimaru/88.png
+	frame	data/chars/orochimaru/89.png
+	offset	16 81
+	attack1	27 -2 101 91 350 1
+	frame	data/chars/orochimaru/87.png
+	attack1	29 0 95 87 350 1
+	frame	data/chars/orochimaru/86.png
+	offset	16 116
+	attack1	37 0 110 128 369 1
+	frame	data/chars/orochimaru/93.png
+	attack1	31 0 116 121 360 1
+	frame	data/chars/orochimaru/91.png
+	offset	16 112
+	frame	data/chars/orochimaru/92.png
+	offset	16 111
+	Attack1	0
+	frame	data/chars/orochimaru/95.png
+	offset	16 75
+	frame	data/chars/orochimaru/100.png
+	offset	18 105
+	frame	data/chars/orochimaru/257.png
+	frame	data/chars/orochimaru/258.png
+	offset	16 65
+	frame	data/chars/orochimaru/255.png
+	frame	data/chars/orochimaru/256.png
+		
+anim	throw
+	loop	0
+	flipframe	1
+	offset	28 65
+	delay	7
+	frame	data/chars/orochimaru/26.png
+	offset	28 59
+	attack1	10 1 51 62 24 1
+	frame	data/chars/orochimaru/27.png
+	offset	28 48
+	frame	data/chars/orochimaru/33.png
+		
+anim	walk
+	loop	1
+	delay	7
+	offset	27 49
+	bbox	7 3 54 47
+	frame	data/chars/orochimaru/11.png
+	offset	27 47
+	frame	data/chars/orochimaru/12.png
+	frame	data/chars/orochimaru/13.png
+	offset	27 45
+	frame	data/chars/orochimaru/14.png
+	frame	data/chars/orochimaru/15.png
+	offset	27 44
+	frame	data/chars/orochimaru/16.png
+		
+#|edited by openBor Stats v 0.67
+		
