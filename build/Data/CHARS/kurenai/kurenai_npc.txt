@@ -1,0 +1,268 @@
+name	Kurenai_Npc
+health	250
+type	npc
+candamage obstacle enemy
+projectilehit obstacle enemy
+speed	7
+running	15	3	2	1
+shadow	2
+grabdistance 23
+icon	data/chars/kurenai/icon.png
+bflash  bflash
+dust	 dust
+jumpheight 5
+atchain	1 2 3
+subtype     chase
+aggression    54
+
+
+
+blockodds 1
+
+load          kurenai_throw
+knife         kurenai_throw
+
+anim	attack1
+	range	0 50
+	loop	0
+	delay	7
+	offset	16 53
+	bbox	2 0 27 54
+	frame	data/chars/kurenai/113.png
+	attack1	8
+	offset	21 44
+	frame	data/chars/Kurenai/115.png
+	attack1	21 2 29 40 5
+	frame	data/chars/Kurenai/116.png
+		
+anim	attack2
+	range	0 50
+	loop	0
+	delay	7
+	offset	16 53
+	bbox	2 0 27 54
+	frame	data/chars/kurenai/113.png
+	attack1	8
+	offset	21 44
+	frame	data/chars/Kurenai/115.png
+	attack1	23 0 27 46 5
+	frame	data/chars/Kurenai/116.png
+		
+anim	attack3
+	range	0 50
+	loop	0
+	delay	7
+	offset	16 53
+	bbox	2 0 27 54
+	frame	data/chars/kurenai/113.png
+	attack1	8
+	offset	21 44
+	frame	data/chars/Kurenai/115.png
+	attack1	27 0 23 46 25 1
+	frame	data/chars/Kurenai/116.png
+		
+anim	block
+	loop	0
+	delay	30
+	offset	21 48
+	bbox	4 1 39 46
+	frame	data/chars/kurenai/113.png
+		
+anim	burn
+	loop	1
+	offset	60 116
+	delay	3
+	frame	data/chars/misc/burn1.gif
+	frame	data/chars/misc/burn2.gif
+	frame	data/chars/misc/burn3.gif
+		
+anim	duck
+	loop	0
+	delay	10
+	bbox	-1 24 37 21
+	offset	17 41
+	frame	data/chars/kurenai/54.png
+		
+anim	fall
+	loop	0
+	offset	28 53
+	delay	30
+	attack	1 0 32 51 4 1
+	frame	data/chars/kurenai/60.png
+	frame	data/chars/kurenai/52.png
+	offset	28 27
+	frame	data/chars/kurenai/63.png
+	offset	28 14
+	frame	data/chars/kurenai/64.png
+		
+anim	get
+	loop	0
+	delay	10
+	offset	14 36
+	bbox	-2 1 36 42
+	frame	data/chars/kurenai/62.png
+		
+anim	grab
+	loop	0
+	offset	18 56
+	delay	1000
+	bbox	1 0 34 53
+	frame	data/chars/kurenai/113.png
+		
+anim	grabattack
+	loop	0
+	delay	7
+	offset	16 53
+	bbox	2 0 27 54
+	frame	data/chars/kurenai/113.png
+	attack1	8
+	offset	21 44
+	frame	data/chars/Kurenai/115.png
+	attack1	23 0 27 45 15
+	frame	data/chars/Kurenai/116.png
+		
+anim	grabattack2
+	loop	0
+	delay	7
+	offset	16 53
+	bbox	2 0 27 54
+	frame	data/chars/kurenai/113.png
+	attack1	8
+	offset	21 44
+	frame	data/chars/Kurenai/115.png
+	attack1	28 0 23 45 15
+	frame	data/chars/Kurenai/116.png
+		
+anim	idle
+	loop	1
+	delay	20
+	offset	12 61
+	bbox	0 0 25 62
+	frame	data/chars/kurenai/5.png
+	frame	data/chars/Kurenai/6.png
+	frame	data/chars/Kurenai/7.png
+	frame	data/chars/Kurenai/8.png
+	frame	data/chars/Kurenai/6.png
+		
+anim	jump
+	loop	0
+	offset	12 58
+	delay	20
+	bbox	-1 2 34 56
+	frame	data/chars/kurenai/51.png
+		
+anim	jumpattack
+	loop	0
+	delay	7
+	offset	16 53
+	bbox	2 0 27 54
+	frame	data/chars/kurenai/113.png
+	attack1	8 0 45 45 35
+	offset	21 44
+	frame	data/chars/Kurenai/115.png
+	attack1	12 0 38 45 19 1
+	frame	data/chars/Kurenai/116.png
+		
+anim	jumpattack2
+	loop	0
+	delay	7
+	offset	16 53
+	bbox	2 0 27 54
+	frame	data/chars/kurenai/113.png
+	attack1	8
+	offset	21 44
+	frame	data/chars/Kurenai/115.png
+	attack1	12
+	frame	data/chars/Kurenai/116.png
+		
+anim	land
+	loop	0
+	delay	10
+	offset	18 38
+	bbox	-2 1 36 42
+	frame	data/chars/kurenai/20.png
+		
+anim	pain
+	loop	0
+	offset	18 54
+	delay	30
+	frame	data/chars/kurenai/60.png
+		
+anim	rise
+	loop	0
+	offset	15 44
+	delay	10
+	frame	data/chars/kurenai/19.png
+		
+anim	run
+	loop	1
+	offset	19 49
+	delay	7
+	bbox	3 -1 41 51
+	frame	data/chars/kurenai/55.png
+	frame	data/chars/kurenai/56.png
+	offset	21 47
+	frame	data/chars/kurenai/57.png
+	offset	28 45
+	frame	data/chars/kurenai/58.png
+	offset	23 45
+	frame	data/chars/kurenai/59.png
+		
+anim	runattack
+	loop	0
+	offset	16 63
+	Attack1	0
+	delay	14
+	throwframe	
+	throwframe	3
+	frame	data/chars/kurenai/204.png
+	offset	13 60
+	frame	data/chars/kurenai/206.png
+	throwframe	
+	throwframe	3
+	throwframe	2
+	delay	40
+	frame	data/chars/kurenai/205.png
+		
+anim	throw
+	loop	0
+	offset	18 47
+	delay	15
+	frame	data/chars/kurenai/117.png
+	frame	data/chars/kurenai/94.png
+	offset	32 44
+	frame	data/chars/kurenai/93.png
+	frame	data/chars/kurenai/92.png
+		
+anim	waiting
+	loop	1
+	delay	20
+	offset	9 61
+	bbox	0 0 25 62
+	frame	data/chars/kurenai/277.png
+	offset	15 64
+	frame	data/chars/Kurenai/279.png
+	offset	16 60
+	frame	data/chars/Kurenai/285.png
+	offset	12 61
+	delay	200
+	frame	data/chars/Kurenai/8.png
+		
+anim	walk
+	loop	1
+	offset	8 62
+	delay	25
+	bbox	0 0 18 61
+	frame	data/chars/Kurenai/13.png
+	offset	12 61
+	frame	data/chars/Kurenai/10.png
+	offset	12 62
+	frame	data/chars/Kurenai/11.png
+	offset	8 62
+	frame	data/chars/Kurenai/12.png
+	offset	14 63
+	delay	18
+	frame	data/chars/kurenai/9.png
+		
+#|edited by openBor Stats v 0.67
+		

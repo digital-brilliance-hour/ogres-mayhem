@@ -1,0 +1,28 @@
+name	scythe_enemy
+health	1
+speed   7
+type	enemy
+candamage    player npc obstacle
+shadow	0
+subject_to_platform		1
+icon	data/chars/misc/kunai.gif
+anim idle
+	loop	1
+	delay	6
+	offset	12 -11
+        attack  1 12 21 14 50
+        hitflash flash
+	frame	data/chars/misc/11.png
+		offset  12  -10
+		attack  -1  0  10  22  50
+		hitflash  flash
+	frame  data/chars/misc/14.png
+		offset  12  -13
+		attack  -1  0  23  10  50
+		hitflash  flash
+	frame  data/chars/misc/12.png
+		offset  13  -11
+		attack  16  0  11  23  50
+		hitflash  flash
+	frame  data/chars/misc/13.png
+
