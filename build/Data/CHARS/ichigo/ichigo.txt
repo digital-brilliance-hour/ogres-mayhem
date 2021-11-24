@@ -19,6 +19,8 @@ load regTensho
 load lgTensho
 load windTwirl
 
+diesound data/chars/Ichigo/ichigo_38-0.wav
+
 parrow data/chars/misc/picon/1picon.gif -18 -100
 parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
@@ -53,9 +55,11 @@ makeinv 4
 
 
 
+
 anim	attack1
 	delay	4
 	offset	17 44
+	sound	data/sounds/Att.wav
 	frame	data/chars/Ichigo/93.gif
 	offset	18 45
 	frame	data/chars/Ichigo/94.gif
@@ -127,6 +131,7 @@ anim	freespecial
 	delay	4
 	fastattack	1
 	offset	17 44
+	sound	data/chars/Ichigo/ichigo_53-0.wav
 	frame	data/chars/Ichigo/93.gif
 	offset	18 45
 	frame	data/chars/Ichigo/94.gif
@@ -276,6 +281,7 @@ anim	freespecial2
 	offset	50 47
 	frame	data/chars/Ichigo/143.gif
 	@cmd	spawnbind "zoomin" 0 0 0
+	sound	data/chars/Ichigo/ichigo_51-0.wav
 	offset	64 44
 	frame	data/chars/Ichigo/144.gif
 	offset	64 44
@@ -330,6 +336,7 @@ anim	freespecial3
 	mponly	1
 	loop	0
 	offset	58 116
+	sound	data/chars/Ichigo/ichigo_33-0.wav
 	delay	30
 	@cmd	pause_all 1 80
 	@cmd	spawnbind "zoomin" 0 0 0
@@ -375,6 +382,7 @@ anim	freespecial5
 	offset	55 66
 	frame	data/chars/Ichigo/168.gif
 	@cmd	spawnbind "windTwirl" 0 0 0
+	sound	data/chars/Ichigo/ichigo_52-0.wav
 	attack	-13 0 137 67 20 1 0 1 0 0
 	offset	65 65
 	frame	data/chars/Ichigo/169.gif
@@ -414,7 +422,7 @@ anim	freespecial5
 		
 anim	freespecial6
 	delay	10
-	@cmd	pause_all 1 200
+	@cmd	pause_all 1 230
 	@cmd	spawnbind "zoomin" 0 0 0
 	offset	18 45
 	frame	data/chars/Ichigo/199.gif
@@ -424,26 +432,31 @@ anim	freespecial6
 	frame	data/chars/Ichigo/201.gif
 	offset	17 99
 	frame	data/chars/Ichigo/202.gif
+	sound	data/chars/Ichigo/ichigo_41-0.wav
 	offset	38 99
 	frame	data/chars/Ichigo/203.gif
+	@cmd	spawn01 "quake" 0 0 2
 	offset	38 99
 	frame	data/chars/Ichigo/204.gif
 	offset	37 99
 	frame	data/chars/Ichigo/205.gif
+	@cmd	spawn01 "quake" 0 0 2
 	offset	37 99
 	frame	data/chars/Ichigo/206.gif
 	offset	48 99
 	frame	data/chars/Ichigo/207.gif
+	@cmd	spawn01 "quake" 0 0 2
 	offset	48 99
 	frame	data/chars/Ichigo/208.gif
 	offset	49 99
 	frame	data/chars/Ichigo/209.gif
+	@cmd	spawn01 "quake" 0 0 2
 	offset	49 99
 	frame	data/chars/Ichigo/210.gif
 	offset	37 99
 	frame	data/chars/Ichigo/211.gif
 	@cmd	spawnbind "zoomout" 0 0 0
-	delay	4
+	delay	3
 	offset	38 69
 	frame	data/chars/Ichigo/212.gif
 	offset	38 93
@@ -452,6 +465,7 @@ anim	freespecial6
 	frame	data/chars/Ichigo/214.gif
 	@cmd	spawnparent "pdust" -10 0 -20
 	@cmd	projectile 1 "lgTensho" 55 5 0 1 0
+	@cmd	sampleplay "data/chars/Ichigo/ichigo_1-0.wav" 0
 	offset	37 55
 	frame	data/chars/Ichigo/215.gif
 	offset	37 54
@@ -543,6 +557,7 @@ anim	land
 anim	pain
 	loop	0
 	delay	7
+	sound	data/chars/Ichigo/ichigo_39-0.wav
 	offset	34 45
 	frame	data/chars/Ichigo/328.gif
 	offset	24 46
@@ -601,6 +616,7 @@ anim	runattack
 anim	select
 	delay	8
 	loop	1 4
+	sound	data/chars/Ichigo/ichigo_37-0.wav
 	offset	20 46
 	frame	data/chars/Ichigo/64.gif
 	offset	41 46

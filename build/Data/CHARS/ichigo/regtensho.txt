@@ -23,7 +23,7 @@ alpha 1
 
 
 anim	idle
-	attack	3 3 54 124 20 1 1 0 0 10
+	attack	3 3 54 124 20 1 1 0 0 50
 	drawmethod	scale 0.5
 	loop	1
 	delay	3
