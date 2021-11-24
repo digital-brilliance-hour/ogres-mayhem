@@ -3,7 +3,7 @@ health	100
 mp	100
 speed	15
 running	27	3	2	1    1
-type	player
+type    player
 shadow 3
 cantgrab 1
 animationscript data/scripts/spawns.c

@@ -96,6 +96,8 @@ know Hisoka data/chars/Hisoka/Hisoka.txt
 know Shrek data/chars/Shrek/Shrek.txt
 load Lee data/chars/Lee/Lee.txt
 know Broly data/chars/Broly_SSB/Broly_SSB.txt
+#know	IchigoBankai		data/chars/Ichigo/Ichigobankai.txt
+#Know    IchigoTransformOLD		    data/chars/Ichigo/Ichigotransform-old.txt
 
 # Items and other objects can be loaded when needed.
 know 	hp_twentyfive		data/chars/misc/candy.txt
@@ -241,3 +243,5 @@ know	Kunai		data/chars/misc/Kunai.txt
 know	Kunai_		data/chars/misc/Kunai_.txt
 Load Levelup data/chars/Misc/levelup/levelup.txt
 #know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
+know ichigoTransfomation data/chars/Ichigo_Bankai/Ichigo_Bankai.txt
+know ichigoTransfomationOLD data/chars/Ichigo_Bankai/Ichigo_Bankai-old.txt
