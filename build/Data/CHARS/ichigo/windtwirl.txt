@@ -1,0 +1,48 @@
+name	windTwirl
+speed   10
+type 	none
+shadow	0
+remove 0
+alpha 1
+candamage enemy obstacle
+
+anim	idle
+	delay	7
+	attack	7 5 132 92 15 1 1 0 0 10
+	dropv	3 2 0
+	offset	66 83
+	frame	data/chars/Ichigo/281.gif
+	offset	70 92
+	frame	data/chars/Ichigo/282.gif
+	attack	1 5 178 108 15 1 0 1 0 10
+	dropv	3 2 0
+	offset	78 104
+	frame	data/chars/Ichigo/283.gif
+	offset	101 106
+	frame	data/chars/Ichigo/284.gif
+	attack	1 5 251 129 15 1 1 0 0 10
+	dropv	3 2 0
+	offset	119 128
+	frame	data/chars/Ichigo/285.gif
+	offset	125 137
+	frame	data/chars/Ichigo/286.gif
+	attack	1 5 273 148 10 1 0 1 0 10
+	dropv	3 2 0
+	offset	125 148
+	frame	data/chars/Ichigo/287.gif
+	offset	132 154
+	frame	data/chars/Ichigo/288.gif
+	offset	125 156
+	frame	data/chars/Ichigo/289.gif
+	offset	135 83
+	frame	data/chars/Ichigo/290.gif
+	offset	133 66
+	frame	data/chars/Ichigo/291.gif
+	offset	127 46
+	frame	data/chars/Ichigo/292.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

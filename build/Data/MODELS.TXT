@@ -279,3 +279,6 @@ know	Kunai_		data/chars/misc/Kunai_.txt
 Load Levelup data/chars/Misc/levelup/levelup.txt
 know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
 know 	YusukeTransform data/chars/yusuke/yusuke-transform.txt
+load   regTensho data/chars/ichigo/regtensho.txt
+load   lgTensho data/chars/ichigo/lgtensho.txt
+load   windTwirl data/chars/ichigo/windtwirl.txt
