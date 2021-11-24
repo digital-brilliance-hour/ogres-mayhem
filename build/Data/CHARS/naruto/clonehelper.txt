@@ -1,0 +1,60 @@
+name	cloneHelper
+speed   15
+type 	none
+shadow	0
+setlayer 1000
+alpha 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	drawmethod	scale 0.8
+	delay	3
+	offset	28 64
+	frame	data/chars/Naruto/545.gif
+	offset	29 64
+	frame	data/chars/Naruto/546.gif
+	offset	33 65
+	frame	data/chars/Naruto/547.gif
+	offset	38 64
+	frame	data/chars/Naruto/548.gif
+	offset	44 64
+	frame	data/chars/Naruto/549.gif
+	offset	12 45
+	frame	data/chars/Naruto/9.gif
+	offset	11 46
+	frame	data/chars/Naruto/10.gif
+	offset	11 45
+	frame	data/chars/Naruto/11.gif
+	offset	12 45
+	frame	data/chars/Naruto/12.gif
+	offset	28 64
+	frame	data/chars/Naruto/545.gif
+	offset	29 64
+	frame	data/chars/Naruto/546.gif
+	offset	33 65
+	frame	data/chars/Naruto/547.gif
+	offset	38 64
+	frame	data/chars/Naruto/548.gif
+	offset	44 64
+	frame	data/chars/Naruto/549.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

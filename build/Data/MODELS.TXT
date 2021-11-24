@@ -277,5 +277,7 @@ know	Pillar		data/chars/misc/Pillar.txt
 know	Kunai		data/chars/misc/Kunai.txt
 know	Kunai_		data/chars/misc/Kunai_.txt
 Load Levelup data/chars/Misc/levelup/levelup.txt
+know kyuubiNaruto data/chars/kyuubiNaruto/kyuubiNaruto.txt
+know NarutoTransformOLD data/chars/kyuubiNaruto/narutotransform-old.txt
 know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
 know 	YusukeTransform data/chars/yusuke/yusuke-transform.txt
