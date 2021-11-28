@@ -1,0 +1,22 @@
+name	Field
+health	1
+speed   4
+type	npc
+candamage    enemy
+shadow	0
+
+anim idle
+	loop	1
+	delay	6
+	offset	-21 -9
+        attack  22 14 12 40 14 1
+        hitflash break
+	frame	data/chars/misc/kunai.gif
+
+
+
+
+
+
+
+

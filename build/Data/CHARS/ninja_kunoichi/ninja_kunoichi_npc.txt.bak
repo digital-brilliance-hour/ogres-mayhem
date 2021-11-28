@@ -1,0 +1,281 @@
+name	Ninja_Kunoichi_Npc
+health	250
+speed	7
+type	npc
+shadow	2
+diesound data/sounds/die2.wav
+icon	data/chars/Ninja_Kunoichi/icon.png
+bflash  bflash
+dust	 dust
+jumpheight 3
+
+subtype		chase
+aggression 	53
+
+load          shuri_npc
+knife         shuri_npc
+star          shuri_npc
+
+anim idle
+	loop	1
+	delay	20
+	offset	21 55
+        bbox    8 2 37 52
+		loop
+			loop  1
+	frame	data/chars/ninja_kunoichi/0.png
+		offset  21  53
+  	frame	data/chars/ninja_kunoichi/1.png
+  	  	frame	data/chars/ninja_kunoichi/2.png
+	frame  data/chars/ninja_kunoichi/1.png
+		loop
+			loop  1
+		offset  21  55
+	frame  data/chars/ninja_kunoichi/0.png
+		loop
+
+
+anim run
+        loop    1
+		offset  24  36
+		delay  7
+		bbox  3  -1  41  51
+        frame   data/chars/ninja_kunoichi/3.png
+	frame  data/chars/ninja_kunoichi/4.png
+
+
+anim duck
+	loop	0
+	delay	10
+        bbox    2 18 44 20
+		offset  26  35
+	frame	data/chars/ninja_kunoichi/15.png
+
+
+
+anim runattack
+range 	0 	80
+	loop	0
+		offset  22  55
+		delay  2
+		#throw
+			#throw  3
+		move  40
+		bbox  2  0  43  54
+		Attack1  0
+	frame  data/chars/ninja_kunoichi/0.png
+		offset  19  73
+		Attack1  1
+		delay  15
+		#throw
+		#throw  3
+		bbox  0
+	frame  data/chars/ninja_kunoichi/29.png
+		#throw
+		#throw  3
+		move  0
+		Attack1  0
+	frame  data/chars/ninja_kunoichi/29.png
+		Attack1  1
+		#throw
+		#throw  3
+	frame  data/chars/ninja_kunoichi/29.png
+		#throw
+		#throw  3
+		Attack1  0
+	frame  data/chars/ninja_kunoichi/29.png
+		Attack1  1
+		#throw
+		#throw  3
+	frame  data/chars/ninja_kunoichi/29.png
+		offset  23  64
+		Attack1  0
+		#throw
+		#throw  3
+	frame  data/chars/ninja_kunoichi/30.png
+		offset  24  35
+		delay  40
+		#throw
+		#throw  3
+	frame  data/chars/ninja_kunoichi/31.png
+
+
+
+
+anim jump
+	loop	0
+	jumpframe  0  2  0  0
+	offset	12 72
+	delay	20
+        bbox    -1 2 34 56
+	frame	data/chars/ninja_kunoichi/11.png
+		offset  15  80
+	frame  data/chars/ninja_kunoichi/5.png
+
+
+anim jumpattack
+	loop	0
+		delay  7
+		offset  14  59
+		bbox  2  0  27  54
+	frame	data/chars/ninja_kunoichi/6.png
+		offset  15  56
+		Attack1  0
+		throwframe
+			throwframe  1
+	frame  data/chars/ninja_kunoichi/7.png
+
+
+
+anim grab
+	loop	0
+        offset  16 79
+	delay	1000
+        bbox    2 -1 27 81
+	frame	data/chars/ninja_kunoichi/5.png
+
+
+anim throw
+	loop	0
+	flipframe  1
+		offset  23  56
+		delay  15
+	frame  data/chars/ninja_kunoichi/17.png
+	frame  data/chars/ninja_kunoichi/17.png
+
+
+anim pain
+	loop	0
+        offset  18 54
+	delay	30
+	frame   data/chars/ninja_kunoichi/23.png
+	frame  data/chars/ninja_kunoichi/24.png
+
+
+anim fall
+	loop	0
+        offset  28 53
+	delay	30
+        attack	1 0 32 51 4 1
+	frame   data/chars/ninja_kunoichi/25.png
+	frame  data/chars/ninja_kunoichi/26.png
+		offset  28  27
+	frame  data/chars/ninja_kunoichi/27.png
+		offset  28  14
+	frame  data/chars/ninja_kunoichi/28.png
+
+
+
+anim rise
+	loop	0
+	offset	22 36
+	delay	10
+        frame   data/chars/ninja_kunoichi/15.png
+
+
+anim land
+	loop	0
+	delay	10
+	offset	18 38
+		bbox  -2  1  36  42
+	frame	data/chars/ninja_kunoichi/15.png
+
+
+
+anim block
+        loop	0
+	delay	30
+	offset	22 52
+        bbox    4 1 39 46
+	frame	data/chars/ninja_kunoichi/21.png
+
+
+anim burn
+	loop	1
+	offset	60 116
+	delay	3
+	frame	data/chars/misc/burn1.gif
+	frame	data/chars/misc/burn2.gif
+	frame	data/chars/misc/burn3.gif
+anim  get
+	loop  0
+		delay  10
+		offset  25  35
+		bbox  -2  1  36  42
+	frame  data/chars/ninja_kunoichi/15.png
+anim  attack1
+range 0 50
+	loop  0
+		delay  7
+		offset  16  53
+		bbox  14  -2  29  57
+		attack1  32  -2  33  57  7
+	frame  data/chars/ninja_kunoichi/16.png
+		bbox  9  -1  33  58
+	frame  data/chars/ninja_kunoichi/17.png
+anim  attack2
+	range  0  50
+	loop  0
+		delay  7
+		offset  16  53
+		bbox  14  -2  29  57
+		attack1  32  -1  34  58  8
+	frame  data/chars/ninja_kunoichi/16.png
+		bbox  9  -1  33  58
+	frame  data/chars/ninja_kunoichi/17.png
+anim  attack3
+	range  0  50
+	loop  0
+		offset  15  71
+		movez  -15
+		bbox  6  6  27  63
+	frame  data/chars/ninja_kunoichi/11.png
+	frame  data/chars/ninja_kunoichi/11.png
+	frame  data/chars/ninja_kunoichi/11.png
+	frame  data/chars/ninja_kunoichi/11.png
+	frame  data/chars/ninja_kunoichi/11.png
+		movez  15
+	frame  data/chars/ninja_kunoichi/5.png
+	frame  data/chars/ninja_kunoichi/7.png
+		attack1  17  -2  29  63  15
+		bbox  0
+	frame  data/chars/ninja_kunoichi/6.png
+	frame  data/chars/ninja_kunoichi/6.png
+anim  grabattack
+	range  0  50
+	loop  0
+		delay  7
+		offset  16  53
+		bbox  14  -2  29  57
+		attack1  31  -1  34  58  12
+	frame  data/chars/ninja_kunoichi/16.png
+		bbox  9  -1  33  58
+	frame  data/chars/ninja_kunoichi/17.png
+anim  grabattack2
+	range  0  50
+	loop  0
+		delay  7
+		offset  16  53
+		bbox  14  -2  29  57
+		attack1  32  0  33  57  12
+	frame  data/chars/ninja_kunoichi/16.png
+		bbox  9  -1  33  58
+	frame  data/chars/ninja_kunoichi/17.png
+anim  jumpattack2
+	loop  0
+		delay  7
+		offset  14  59
+		bbox  2  0  27  54
+		attack1  2  -1  43  63  15
+	frame  data/chars/ninja_kunoichi/6.png
+		offset  15  56
+		Attack1  0
+	frame  data/chars/ninja_kunoichi/7.png
+anim  walk
+	loop  1
+		offset  24  36
+		delay  7
+		bbox  3  -1  41  51
+	frame  data/chars/ninja_kunoichi/3.png
+	frame  data/chars/ninja_kunoichi/4.png
+

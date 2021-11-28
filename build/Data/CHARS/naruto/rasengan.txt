@@ -1,0 +1,150 @@
+name	cloneHelper
+speed   15
+type 	none
+shadow	0
+setlayer 1000
+alpha 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	drawmethod	scale 0.8
+	delay	3
+	offset	21 20
+	frame	data/chars/Naruto/591.gif
+	offset	23 20
+	frame	data/chars/Naruto/592.gif
+	offset	23 20
+	frame	data/chars/Naruto/593.gif
+	offset	26 20
+	frame	data/chars/Naruto/594.gif
+	offset	38 29
+	frame	data/chars/Naruto/595.gif
+	offset	50 44
+	frame	data/chars/Naruto/596.gif
+	offset	52 57
+	frame	data/chars/Naruto/597.gif
+	offset	46 67
+	frame	data/chars/Naruto/598.gif
+	offset	54 64
+	frame	data/chars/Naruto/599.gif
+	offset	61 59
+	frame	data/chars/Naruto/600.gif
+	offset	61 59
+	frame	data/chars/Naruto/601.gif
+	offset	60 62
+	frame	data/chars/Naruto/602.gif
+	offset	62 76
+	frame	data/chars/Naruto/603.gif
+	offset	60 81
+	frame	data/chars/Naruto/604.gif
+	offset	66 79
+	frame	data/chars/Naruto/605.gif
+	offset	84 66
+	frame	data/chars/Naruto/606.gif
+	offset	91 56
+	frame	data/chars/Naruto/607.gif
+	offset	91 66
+	frame	data/chars/Naruto/608.gif
+	offset	76 72
+	frame	data/chars/Naruto/609.gif
+	offset	58 73
+	frame	data/chars/Naruto/610.gif
+	offset	59 64
+	frame	data/chars/Naruto/611.gif
+	offset	60 59
+	frame	data/chars/Naruto/612.gif
+	offset	63 59
+	frame	data/chars/Naruto/613.gif
+	offset	60 66
+	frame	data/chars/Naruto/614.gif
+	offset	62 81
+	frame	data/chars/Naruto/615.gif
+	offset	60 88
+	frame	data/chars/Naruto/616.gif
+	offset	64 86
+	frame	data/chars/Naruto/617.gif
+	offset	78 73
+	frame	data/chars/Naruto/618.gif
+	offset	83 59
+	frame	data/chars/Naruto/619.gif
+	offset	79 59
+	frame	data/chars/Naruto/620.gif
+	offset	62 62
+	frame	data/chars/Naruto/621.gif
+	offset	63 58
+	frame	data/chars/Naruto/622.gif
+	offset	76 59
+	frame	data/chars/Naruto/623.gif
+	offset	81 59
+	frame	data/chars/Naruto/624.gif
+	offset	81 80
+	frame	data/chars/Naruto/625.gif
+	offset	88 87
+	frame	data/chars/Naruto/626.gif
+	offset	117 97
+	frame	data/chars/Naruto/627.gif
+	offset	99 94
+	frame	data/chars/Naruto/628.gif
+	offset	81 97
+	frame	data/chars/Naruto/629.gif
+	offset	75 97
+	frame	data/chars/Naruto/630.gif
+	offset	76 93
+	frame	data/chars/Naruto/631.gif
+	offset	76 93
+	frame	data/chars/Naruto/632.gif
+	offset	78 92
+	frame	data/chars/Naruto/633.gif
+	offset	78 89
+	frame	data/chars/Naruto/634.gif
+	offset	81 81
+	frame	data/chars/Naruto/635.gif
+	offset	84 79
+	frame	data/chars/Naruto/636.gif
+	offset	86 75
+	frame	data/chars/Naruto/637.gif
+	offset	85 73
+	frame	data/chars/Naruto/638.gif
+	offset	86 73
+	frame	data/chars/Naruto/639.gif
+	offset	86 76
+	frame	data/chars/Naruto/640.gif
+	offset	85 78
+	frame	data/chars/Naruto/641.gif
+	offset	85 80
+	frame	data/chars/Naruto/642.gif
+	offset	85 81
+	frame	data/chars/Naruto/643.gif
+	offset	84 82
+	frame	data/chars/Naruto/644.gif
+	offset	83 75
+	frame	data/chars/Naruto/645.gif
+	offset	80 72
+	frame	data/chars/Naruto/646.gif
+	offset	73 72
+	frame	data/chars/Naruto/647.gif
+	offset	12 56
+	frame	data/chars/Naruto/648.gif
+	offset	12 56
+	frame	data/chars/Naruto/649.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

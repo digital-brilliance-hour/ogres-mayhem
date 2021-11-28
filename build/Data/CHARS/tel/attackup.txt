@@ -1,0 +1,21 @@
+anim  attackup
+	jumpframe  1  2  0  0
+		offset  22  53
+		bbox  1  1  44  51
+		delay  15
+	frame  data/chars/zaji/8.png
+		movez  0
+		sound  data/sounds/explosion1.wav
+	frame  data/chars/tel/1.png
+	frame  data/chars/tel/2.png
+		movez  -60
+	frame  data/chars/tel/3.png
+	frame  data/chars/tel/3.png
+	frame  data/chars/tel/3.png
+	frame  data/chars/tel/3.png
+	frame  data/chars/tel/3.png
+	frame  data/chars/tel/2.png
+		movez  0
+		sound  data/sounds/explosion1.wav
+	frame  data/chars/tel/1.png
+	frame  data/chars/tel/4.png
