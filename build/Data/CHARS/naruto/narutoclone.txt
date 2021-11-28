@@ -2,7 +2,7 @@ name	NarutoClone
 health	10
 speed 10
 running	16	3	2	1    1
-type	none
+type	npc
 shadow	2
 grabdistance 23
 diesound data/chars/Naruto/die.wav
