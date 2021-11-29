@@ -88,8 +88,8 @@ file	data/levels/stage3.txt
 next
 scene data/scenes/ending.txt
 
-
-
+set Training_area
+file data/levels/tutorial.txt
 
 #z 229 272 50
 #file	data/levels/stage4.txt
