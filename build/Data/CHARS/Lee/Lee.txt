@@ -55,6 +55,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	delay	4
 	offset	13 44
@@ -430,6 +431,44 @@ anim	jumpattack2
 	attack	25 13 31 38 10 1 1 0 0 0
 	offset	19 38
 	frame	data/chars/Lee/94.gif
+		
+anim	dodge
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	7
+	offset	8 41
+	frame	data/chars/Lee/160.gif
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	drawmethod	rotate 90
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	delay	7
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	drawmethod	rotate 0
+	fshadow	3
+	delay	7
+	offset	8 41
+	frame	data/chars/Lee/160.gif
 		
 anim	pain
 	delay	7
