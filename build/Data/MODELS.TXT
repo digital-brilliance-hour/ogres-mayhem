@@ -6,6 +6,7 @@
 
 maxattacks 8
 maxfreespecials 25
+maxfollows 8
 
 # Required objects. These must always be loaded.
 load	Flash		data/chars/misc/flash.txt
@@ -61,6 +62,13 @@ load blue_powerball data/chars/yusuke/blue_powerball.txt
 load red_powerball data/chars/yusuke/red_powerball.txt
 load blue_spiritchargeup1 data/chars/yusuke/blue_spiritchargeup1.txt
 load blue_spiritchargeup2 data/chars/yusuke/blue_spiritchargeup2.txt
+load	angerExplosion		data/chars/Naruto/angerexplosion.txt
+load	buntaToad		data/chars/Naruto/buntatoad.txt
+load	cloneHelper		data/chars/Naruto/clonehelper.txt
+load	cloneSmoke		data/chars/Naruto/clonesmoke.txt
+load	rasengan		data/chars/Naruto/rasengan.txt
+load	rasenganWind		data/chars/Naruto/rasenganWind.txt
+load	regExplosion		data/chars/Naruto/regExplosion.txt
 
 # Players must also be loaded.
 Load Deku data/chars/Deku/Deku.txt
@@ -96,8 +104,23 @@ know Hisoka data/chars/Hisoka/Hisoka.txt
 know Shrek data/chars/Shrek/Shrek.txt
 load Lee data/chars/Lee/Lee.txt
 know Broly data/chars/Broly_SSB/Broly_SSB.txt
-#know	IchigoBankai		data/chars/Ichigo/Ichigobankai.txt
-#Know    IchigoTransformOLD		    data/chars/Ichigo/Ichigotransform-old.txt
+
+load 	Asuma 		data/chars/asuma/asuma.txt
+load	Yugao		data/chars/yugao/yugao.txt
+load	Omoi		data/chars/omoi/omoi.txt
+load	Kurenai		data/chars/kurenai/kurenai.txt
+load  Ninja_Kunoichi_Player     data/chars/ninja_kunoichi/ninja_kunoichi_player.txt
+load  Zaji_Player               data/chars/zaji/zaji.txt
+load  Yugao_Unmasked               data/chars/yugao/yugao_unmasked.txt
+
+# NPCs
+know	Kurenai_npc		data/chars/kurenai/kurenai_npc.txt
+know	Naruto_npc		data/chars/Naruto/Narutonpc.txt
+know	Sasuke_npc		data/chars/Sasuke/Sasukenpc.txt
+know	Zaji_npc		data/chars/zaji/zaji_npc.txt
+know 	Asuma_npc 		data/chars/asuma/asumanpc.txt
+know 	Omoi_npc 		data/chars/omoi/omoi_npc.txt
+know  Ninja_Kunoichi_Npc     data/chars/ninja_kunoichi/ninja_kunoichi_npc.txt
 
 # Items and other objects can be loaded when needed.
 know 	hp_twentyfive		data/chars/misc/candy.txt
@@ -158,6 +181,14 @@ know	Ninja	       data/chars/Ninja/Ninja.txt
 know	Ninja_         data/chars/Ninja_/Ninja_.txt
 know	Ninja__        data/chars/Ninja__/Ninja__.txt
 know	Claw           data/chars/Claw/Claw.txt
+know	Ninja_Chain    data/chars/ninja_chain/ninja_chain.txt
+know	Ninja_Kunoichi   data/chars/Ninja_Kunoichi/Ninja_Kunoichi.txt
+know	Zetsu   data/chars/zetsu/zetsu.txt
+know	Ninja_Genin   data/chars/Ninja_Genin/Ninja_Genin.txt
+know	Orochimaru   data/chars/orochimaru/orochimaru.txt
+know	Orochimaru_Sword   data/chars/orochimaru/orochimarusword.txt
+know	Ninja_Scythe   data/chars/ninja_scythe/ninja_scythe.txt
+know 	Reanimated_Asuma 		data/chars/asuma/asumae.txt
 know	Quincy		data/chars/Quincy/Quincy.txt
 know 	Facce		data/chars/facce/facce.txt
 know	Dog	        data/chars/Dog/Dog.txt
@@ -199,6 +230,19 @@ know DB_Boar2 		data/chars/dragonball/boar2/boar2.txt
 know DB_Dino		data/chars/dragonball/dino/dino.txt
 know DB_Theif 		data/chars/dragonball/theif/theif.txt
 know DB_Wolf 		data/chars/dragonball/wolf/wolf.txt
+know	kunai_npc	data/chars/misc/kunai_npc.txt
+know	kunai_enemy	data/chars/misc/kunai_enemy.txt
+know	dkunai_npc	data/chars/misc/dkunai_npc.txt
+know	Kunai_		data/chars/misc/Kunai_.txt
+know	shuri_npc		data/chars/misc/shuri_npc.txt
+know	shuri		data/chars/misc/shuri.txt
+know	Snake_npc	data/chars/misc/Snake_npc.txt
+know	freezesnake_npc	data/chars/misc/freezesnake_npc.txt
+know	freezesnake_enemy	data/chars/misc/freezesnake_enemy.txt
+know	dsnakes_npc	data/chars/misc/dsnakes_npc.txt
+know	kurenai_throw	data/chars/misc/kurenai_throw.txt
+know	dsnakes_enemy	data/chars/misc/dsnakes_enemy.txt
+know	scythe_enemy	data/chars/misc/scythe_enemy.txt
 
 # Not a real enemy... ;)
 know	Ramon		data/chars/ramon/ramon.txt
@@ -242,6 +286,16 @@ know	Pillar		data/chars/misc/Pillar.txt
 know	Kunai		data/chars/misc/Kunai.txt
 know	Kunai_		data/chars/misc/Kunai_.txt
 Load Levelup data/chars/Misc/levelup/levelup.txt
+
 #know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
 know ichigoTransfomation data/chars/Ichigo_Bankai/Ichigo_Bankai.txt
 know ichigoTransfomationOLD data/chars/Ichigo_Bankai/Ichigo_Bankai-old.txt
+load kyuubiNaruto data/chars/kyuubiNaruto/kyuubiNaruto.txt
+know NarutoTransformOLD data/chars/kyuubiNaruto/narutotransform-old.txt
+know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
+know 	YusukeTransform data/chars/yusuke/yusuke-transform.txt
+know kyuubiRasengan data/chars/kyuubiNaruto/kyuubirasengan.txt
+know kyuubiBomb data/chars/kyuubiNaruto/kyuubibomb.txt
+know rasenganBall data/chars/Naruto/rasenganball.txt
+know toadSmoke data/chars/Naruto/toadsmoke.txt
+

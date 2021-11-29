@@ -1,0 +1,31 @@
+name	scythe_enemy
+health	1
+speed   7
+type	obstacle
+candamage    player npc 
+shadow	0
+subject_to_platform		1
+icon	data/chars/misc/11.png
+
+anim	idle
+	loop	1
+	delay	6
+	offset	12 -31
+	attack	1 12 21 14 50
+	hitflash	flash
+	frame	data/chars/misc/11.png
+	offset	12 -30
+	attack	-1 0 10 22 50
+	hitflash	flash
+	frame	data/chars/misc/14.png
+	offset	12 -33
+	attack	-1 0 23 10 50
+	hitflash	flash
+	frame	data/chars/misc/12.png
+	offset	13 -31
+	attack	16 0 11 23 50
+	hitflash	flash
+	frame	data/chars/misc/13.png
+		
+#|edited by openBor Stats v 0.67
+		

@@ -1,6 +1,7 @@
 name Yusuke-original
 speed 9
-type player
+type none
+health 100
 shadow 3
 
 
