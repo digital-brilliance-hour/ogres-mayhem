@@ -6,6 +6,7 @@ shadow 3
 
 
 
+
 anim	0006
 	delay	7
 	offset	27 44
