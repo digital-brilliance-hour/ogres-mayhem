@@ -1,9 +1,13 @@
-name	cloneHelper
+name rasengan
 speed   15
 type 	none
 shadow	0
-setlayer 1000
+
 alpha 1
+
+candamage enemy obstacle
+
+
 
 
 
@@ -22,126 +26,297 @@ alpha 1
 
 
 anim	idle
-	drawmethod	scale 0.8
-	delay	3
-	offset	21 20
-	frame	data/chars/Naruto/591.gif
-	offset	23 20
-	frame	data/chars/Naruto/592.gif
-	offset	23 20
-	frame	data/chars/Naruto/593.gif
-	offset	26 20
-	frame	data/chars/Naruto/594.gif
-	offset	38 29
-	frame	data/chars/Naruto/595.gif
-	offset	50 44
-	frame	data/chars/Naruto/596.gif
-	offset	52 57
-	frame	data/chars/Naruto/597.gif
-	offset	46 67
-	frame	data/chars/Naruto/598.gif
-	offset	54 64
-	frame	data/chars/Naruto/599.gif
-	offset	61 59
-	frame	data/chars/Naruto/600.gif
-	offset	61 59
-	frame	data/chars/Naruto/601.gif
-	offset	60 62
-	frame	data/chars/Naruto/602.gif
-	offset	62 76
-	frame	data/chars/Naruto/603.gif
-	offset	60 81
-	frame	data/chars/Naruto/604.gif
-	offset	66 79
-	frame	data/chars/Naruto/605.gif
-	offset	84 66
-	frame	data/chars/Naruto/606.gif
-	offset	91 56
-	frame	data/chars/Naruto/607.gif
-	offset	91 66
-	frame	data/chars/Naruto/608.gif
-	offset	76 72
-	frame	data/chars/Naruto/609.gif
-	offset	58 73
-	frame	data/chars/Naruto/610.gif
-	offset	59 64
-	frame	data/chars/Naruto/611.gif
-	offset	60 59
-	frame	data/chars/Naruto/612.gif
-	offset	63 59
-	frame	data/chars/Naruto/613.gif
-	offset	60 66
-	frame	data/chars/Naruto/614.gif
-	offset	62 81
-	frame	data/chars/Naruto/615.gif
-	offset	60 88
-	frame	data/chars/Naruto/616.gif
-	offset	64 86
-	frame	data/chars/Naruto/617.gif
-	offset	78 73
-	frame	data/chars/Naruto/618.gif
-	offset	83 59
-	frame	data/chars/Naruto/619.gif
-	offset	79 59
-	frame	data/chars/Naruto/620.gif
-	offset	62 62
-	frame	data/chars/Naruto/621.gif
-	offset	63 58
-	frame	data/chars/Naruto/622.gif
-	offset	76 59
-	frame	data/chars/Naruto/623.gif
-	offset	81 59
-	frame	data/chars/Naruto/624.gif
-	offset	81 80
-	frame	data/chars/Naruto/625.gif
-	offset	88 87
-	frame	data/chars/Naruto/626.gif
-	offset	117 97
-	frame	data/chars/Naruto/627.gif
-	offset	99 94
-	frame	data/chars/Naruto/628.gif
-	offset	81 97
-	frame	data/chars/Naruto/629.gif
-	offset	75 97
-	frame	data/chars/Naruto/630.gif
-	offset	76 93
-	frame	data/chars/Naruto/631.gif
-	offset	76 93
-	frame	data/chars/Naruto/632.gif
-	offset	78 92
-	frame	data/chars/Naruto/633.gif
-	offset	78 89
-	frame	data/chars/Naruto/634.gif
-	offset	81 81
-	frame	data/chars/Naruto/635.gif
-	offset	84 79
-	frame	data/chars/Naruto/636.gif
-	offset	86 75
-	frame	data/chars/Naruto/637.gif
-	offset	85 73
-	frame	data/chars/Naruto/638.gif
-	offset	86 73
-	frame	data/chars/Naruto/639.gif
-	offset	86 76
-	frame	data/chars/Naruto/640.gif
-	offset	85 78
-	frame	data/chars/Naruto/641.gif
-	offset	85 80
-	frame	data/chars/Naruto/642.gif
-	offset	85 81
-	frame	data/chars/Naruto/643.gif
-	offset	84 82
-	frame	data/chars/Naruto/644.gif
-	offset	83 75
-	frame	data/chars/Naruto/645.gif
-	offset	80 72
-	frame	data/chars/Naruto/646.gif
-	offset	73 72
-	frame	data/chars/Naruto/647.gif
-	offset	12 56
-	frame	data/chars/Naruto/648.gif
-	offset	12 56
-	frame	data/chars/Naruto/649.gif
+	drawmethod	scale 0.3
+	delay	1
+	sound	data/chars/Naruto/Rasengan.wav
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/664.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/665.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/666.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/667.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/668.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/669.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/670.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/671.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/672.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/673.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/674.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/675.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/676.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/677.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/678.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/679.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/680.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/681.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/682.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/683.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/684.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/685.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/686.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/687.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/688.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/689.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/690.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/691.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/692.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/693.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/694.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/695.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/696.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/697.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/698.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/699.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/700.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/701.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/702.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/703.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/704.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/705.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/706.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/707.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/708.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/709.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/710.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/711.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/712.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/713.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/714.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/715.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/716.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/717.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/718.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/719.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/720.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/721.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/722.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/723.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/724.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/725.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/726.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/727.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/728.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/729.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/730.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/731.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/732.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/733.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/734.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/735.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/736.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/737.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/738.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/739.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/740.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/741.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/742.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/743.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/744.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/745.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/746.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/747.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/748.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/749.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/750.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/751.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/752.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/753.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/754.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/755.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/756.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/757.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/758.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/759.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/760.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/761.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/762.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/763.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/764.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/765.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/766.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/767.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/768.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/769.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/770.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/771.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/772.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/773.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/774.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/775.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/776.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/777.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/778.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/779.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/780.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/781.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/782.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/783.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/776.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/777.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/778.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/779.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/780.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/781.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/782.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/783.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/776.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/777.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/778.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/779.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/780.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/781.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/782.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/783.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/776.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/777.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/778.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/779.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/780.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/781.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/782.gif
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/783.gif
 	frame	data/chars/misc/empty.gif
 	@cmd	killentity getlocalvar("self")
 	frame	data/chars/misc/empty.gif

@@ -1,0 +1,175 @@
+name	rasenganBall
+speed   25
+type 	none
+shadow	0
+remove 0
+alpha 1
+
+animationscript data/scripts/spawns.c
+
+
+
+
+
+
+
+
+anim	idle
+	attack	252 113 193 153 5 0 1 0 0 30
+	drawmethod	scale 0.3
+	delay	1
+	loop	0
+	fastattack	1
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/776.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/777.gif
+	attack	252 113 80 85 5 0 0 1 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/778.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/779.gif
+	attack	252 113 80 85 5 0 1 0 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/780.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/781.gif
+	attack	252 113 80 85 5 0 0 1 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/782.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/783.gif
+	attack	252 113 80 85 5 0 1 0 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/776.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/777.gif
+	attack	252 113 80 85 5 0 0 1 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/778.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/779.gif
+	attack	252 113 80 85 5 0 1 0 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/780.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/781.gif
+	attack	252 113 80 85 5 0 0 1 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/782.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/783.gif
+	attack	252 113 80 85 5 0 1 0 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/776.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/777.gif
+	attack	252 113 80 85 5 0 0 1 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/778.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/779.gif
+	attack	252 113 80 85 5 0 1 0 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/780.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/781.gif
+	attack	252 113 80 85 5 0 0 1 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/782.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/783.gif
+	attack	252 113 80 85 5 0 1 0 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/776.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/777.gif
+	attack	252 113 80 85 5 0 0 1 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/778.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/779.gif
+	attack	252 113 80 85 5 0 1 0 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/780.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/781.gif
+	attack	252 113 80 85 5 0 0 1 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/782.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/783.gif
+	attack	252 113 80 85 5 0 1 0 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/776.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/777.gif
+	attack	252 113 80 85 5 0 0 1 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/778.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/779.gif
+	attack	252 113 80 85 5 0 1 0 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/780.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/781.gif
+	attack	252 113 80 85 5 0 0 1 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/782.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/783.gif
+	attack	252 113 80 85 5 0 1 0 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/776.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/777.gif
+	attack	252 113 80 85 5 0 0 1 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/778.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/779.gif
+	attack	252 113 80 85 5 0 1 0 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/780.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/781.gif
+	attack	252 113 80 85 5 0 0 1 0 30
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/782.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/783.gif
+	attack	252 113 80 85 5 1 1 0 0 30
+	dropv	2 5 0
+	offset	320 240
+	frame	data/chars/Naruto/rasengan/776.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		
