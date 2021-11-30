@@ -293,3 +293,7 @@ know kyuubiRasengan data/chars/kyuubiNaruto/kyuubirasengan.txt
 know kyuubiBomb data/chars/kyuubiNaruto/kyuubibomb.txt
 know rasenganBall data/chars/Naruto/rasenganball.txt
 know toadSmoke data/chars/Naruto/toadsmoke.txt
+know red_spiritchargeup1 data/chars/Yusuke/red_spiritchargeup1.txt
+know red_spiritchargeup2 data/chars/Yusuke/red_spiritchargeup2.txt
+know redPunch data/chars/Yusuke/redpunch.txt
+know redSpiritgun data/chars/Yusuke/redspiritgun.txt

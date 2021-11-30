@@ -146,9 +146,9 @@ void main()
       // settextobj(150, 102, 50, 4, 99999999,  "Player 1 Has Reached Level 1!!", openborvariant("elapsed_time")+400);
       // settextobj(151, 27, 200, 4, 99999999,  "New Move Unlocked! Down Down Action to Use", openborvariant("elapsed_time")+400);
       // settextobj(152, 177, 225, 4, 99999999,  "Drains All MP", openborvariant("elapsed_time")+400);
-       void p;
-       int i, hp, mp, lv, num;
-       for(i=0; i<4; i++){
+      void p;
+      int i, hp, mp, lv, num;
+      for(i=0; i<4; i++){
          p = getplayerproperty(i, "entity");
          num = i+1;
          if(p){
@@ -174,6 +174,35 @@ void main()
       }
       show_enemy_health();
     }
+
+
+    if (openborvariant("game_paused")) {
+      //will place code to add background soon. 
+      /*int ls = getglobalvar("blackpause");
+      void background = loadsprite("data/bgs/black.gif");
+      drawsprite(background, 0, 0, 8, 0);
+      setdrawmethod(NULL(), 0, 256, 256, 0, 0, 0, 1, 0);*/
+      //changedrawmethod(NULL(), "alpha", 1);
+      void p;
+      int i, hp, mp, lv, num;
+      for(i=0; i<4; i++){
+         p = getplayerproperty(i, "entity");
+         num = i+1;
+         if(p){
+           if("Travel"!=getentityproperty(p, "model")) {
+             drawstring(6+120*i, 33, 1, "attack", 10);
+             drawstring(6+120*i, 49, 1, "u,u or d,d", 10);
+             drawstring(6+120*i, 65, 1, "action", 10);
+             drawstring(6+120*i, 89, 1, "up,action", 10);
+             drawstring(6+120*i, 113, 1, "down,action", 10);
+             drawstring(6+120*i, 137, 1, "power", 10);
+             drawstring(6+120*i, 161, 1, "up,power", 10);
+             drawstring(6+120*i, 185, 1, "down,power", 10);
+           }
+         }
+      }
+    }
+
   afterImg();
 }
 
