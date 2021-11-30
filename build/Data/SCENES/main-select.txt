@@ -2,4 +2,4 @@ music data/music/select.ogg
 
 background data/bgs/select.gif
 
-allowselect deku gon luffy naruto yusuke goku_normal ichigo rock_lee
+allowselect deku gon luffy naruto yusuke goku_normal ichigo rock_lee ichigoTransfomation
