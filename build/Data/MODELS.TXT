@@ -291,6 +291,9 @@ load kyuubiNaruto data/chars/kyuubiNaruto/kyuubiNaruto.txt
 know NarutoTransformOLD data/chars/kyuubiNaruto/narutotransform-old.txt
 know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
 know 	YusukeTransform data/chars/yusuke/yusuke-transform.txt
+load   regTensho data/chars/ichigo/regtensho.txt
+load   lgTensho data/chars/ichigo/lgtensho.txt
+load   windTwirl data/chars/ichigo/windtwirl.txt
 know kyuubiRasengan data/chars/kyuubiNaruto/kyuubirasengan.txt
 know kyuubiBomb data/chars/kyuubiNaruto/kyuubibomb.txt
 know rasenganBall data/chars/Naruto/rasenganball.txt
