@@ -1,0 +1,23 @@
+name	kyuubiBomb
+speed   40
+type 	none
+shadow	0
+remove 0
+alpha 1
+
+
+
+
+
+
+
+anim	idle
+	attack	6 1 113 70 100 1 1 0 0 0
+	loop	1
+	offset	67 37
+	frame	data/chars/kyuubiNaruto/fillkyuubi/552.gif
+	offset	67 37
+	frame	data/chars/kyuubiNaruto/fillkyuubi/553.gif
+		
+#|edited by openBor Stats v 0.67
+		
