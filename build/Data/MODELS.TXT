@@ -104,6 +104,7 @@ know Hisoka data/chars/Hisoka/Hisoka.txt
 know Shrek data/chars/Shrek/Shrek.txt
 load Lee data/chars/Lee/Lee.txt
 know Broly data/chars/Broly_SSB/Broly_SSB.txt
+
 load 	Asuma 		data/chars/asuma/asuma.txt
 load	Yugao		data/chars/yugao/yugao.txt
 load	Omoi		data/chars/omoi/omoi.txt
@@ -286,6 +287,9 @@ know	Kunai		data/chars/misc/Kunai.txt
 know	Kunai_		data/chars/misc/Kunai_.txt
 Load Levelup data/chars/Misc/levelup/levelup.txt
 #know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
+load ichigoTransfomation data/chars/Ichigo_Bankai/Ichigo_Bankai.txt
+know ichigoTransfomationOLD data/chars/Ichigo_Bankai/Ichigo_Bankai-old.txt
+#know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
 know	NarutoClone		data/chars/Naruto/narutoclone.txt
 load kyuubiNaruto data/chars/kyuubiNaruto/kyuubiNaruto.txt
 know NarutoTransformOLD data/chars/kyuubiNaruto/narutotransform-old.txt
@@ -298,3 +302,4 @@ know kyuubiRasengan data/chars/kyuubiNaruto/kyuubirasengan.txt
 know kyuubiBomb data/chars/kyuubiNaruto/kyuubibomb.txt
 know rasenganBall data/chars/Naruto/rasenganball.txt
 know toadSmoke data/chars/Naruto/toadsmoke.txt
+
