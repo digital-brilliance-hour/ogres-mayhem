@@ -2,7 +2,6 @@ name	cloneSmoke
 speed   15
 type 	none
 shadow	0
-setlayer 1000
 alpha 1
 
 
@@ -21,9 +20,10 @@ alpha 1
 
 
 
+
 anim	idle
-	drawmethod	scale 0.8
 	delay	3
+	sound	data/chars/Naruto/naruto_190-0.wav
 	offset	28 64
 	frame	data/chars/Naruto/545.gif
 	offset	29 64

@@ -3,8 +3,9 @@ speed   15
 type 	none
 shadow	0
 setlayer 1000
-alpha 1
 
+load toadSmoke
+animationscript data/scripts/spawns.c
 
 
 
@@ -22,8 +23,8 @@ alpha 1
 
 
 anim	idle
-	drawmethod	scale 0.8
-	delay	3
+	drawmethod	scale 0.5
+	delay	20
 	offset	378 430
 	frame	data/chars/Naruto/820.gif
 	offset	378 430
@@ -34,16 +35,6 @@ anim	idle
 	frame	data/chars/Naruto/823.gif
 	offset	378 474
 	frame	data/chars/Naruto/824.gif
-	offset	378 526
-	frame	data/chars/Naruto/825.gif
-	offset	378 578
-	frame	data/chars/Naruto/826.gif
-	offset	378 596
-	frame	data/chars/Naruto/827.gif
-	offset	378 462
-	frame	data/chars/Naruto/828.gif
-	offset	378 462
-	frame	data/chars/Naruto/829.gif
 	frame	data/chars/misc/empty.gif
 	@cmd	killentity getlocalvar("self")
 	frame	data/chars/misc/empty.gif
