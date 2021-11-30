@@ -1,0 +1,44 @@
+name	biggestuga
+speed   15
+type 	none
+shadow	0
+setlayer 1000
+alpha 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	drawmethod	scale 0.8
+	delay	3
+	offset	148 199
+	frame	data/chars/Ichigo_Bankai/876.gif
+	offset	154 228
+	frame	data/chars/Ichigo_Bankai/877.gif
+	offset	178 257
+	frame	data/chars/Ichigo_Bankai/878.gif
+	offset	215 246
+	frame	data/chars/Ichigo_Bankai/879.gif
+	offset	251 238
+	frame	data/chars/Ichigo_Bankai/880.gif
+	offset	217 244
+	frame	data/chars/Ichigo_Bankai/881.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		
