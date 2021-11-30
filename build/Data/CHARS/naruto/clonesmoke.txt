@@ -1,0 +1,42 @@
+name	cloneSmoke
+speed   15
+type 	none
+shadow	0
+alpha 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	delay	3
+	sound	data/chars/Naruto/naruto_190-0.wav
+	offset	28 64
+	frame	data/chars/Naruto/545.gif
+	offset	29 64
+	frame	data/chars/Naruto/546.gif
+	offset	33 65
+	frame	data/chars/Naruto/547.gif
+	offset	38 64
+	frame	data/chars/Naruto/548.gif
+	offset	44 64
+	frame	data/chars/Naruto/549.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

@@ -1,0 +1,1649 @@
+name   kyuubiNaruto
+speed 12
+type none
+health 200
+shadow 3
+
+
+
+
+
+anim	0001
+	delay	7
+	offset	46 64
+	frame	data/chars/knaruto/2.gif
+	offset	48 62
+	frame	data/chars/knaruto/3.gif
+	offset	44 62
+	frame	data/chars/knaruto/4.gif
+	offset	40 64
+	frame	data/chars/knaruto/5.gif
+	offset	44 65
+	frame	data/chars/knaruto/6.gif
+	offset	47 65
+	frame	data/chars/knaruto/7.gif
+	offset	45 66
+	frame	data/chars/knaruto/8.gif
+	offset	50 67
+	frame	data/chars/knaruto/9.gif
+		
+anim	0003
+	delay	7
+	offset	24 58
+	frame	data/chars/knaruto/10.gif
+	offset	31 57
+	frame	data/chars/knaruto/11.gif
+	offset	22 56
+	frame	data/chars/knaruto/12.gif
+	offset	24 58
+	frame	data/chars/knaruto/13.gif
+	offset	27 53
+	frame	data/chars/knaruto/14.gif
+		
+anim	0006
+	delay	7
+	offset	52 58
+	frame	data/chars/knaruto/24.gif
+	offset	43 57
+	frame	data/chars/knaruto/25.gif
+	offset	41 58
+	frame	data/chars/knaruto/26.gif
+		
+anim	0007
+	delay	7
+	offset	46 63
+	frame	data/chars/knaruto/27.gif
+	offset	39 60
+	frame	data/chars/knaruto/28.gif
+	offset	45 60
+	frame	data/chars/knaruto/29.gif
+	offset	44 62
+	frame	data/chars/knaruto/30.gif
+		
+anim	0008
+	delay	7
+	offset	45 69
+	frame	data/chars/knaruto/31.gif
+	offset	51 63
+	frame	data/chars/knaruto/32.gif
+	offset	52 62
+	frame	data/chars/knaruto/33.gif
+	offset	51 62
+	frame	data/chars/knaruto/34.gif
+	offset	39 64
+	frame	data/chars/knaruto/35.gif
+		
+anim	0009
+	delay	7
+	offset	45 60
+	frame	data/chars/knaruto/36.gif
+	offset	39 60
+	frame	data/chars/knaruto/37.gif
+	offset	42 64
+	frame	data/chars/knaruto/38.gif
+	offset	40 64
+	frame	data/chars/knaruto/39.gif
+	offset	45 60
+	frame	data/chars/knaruto/40.gif
+	offset	39 60
+	frame	data/chars/knaruto/41.gif
+	offset	41 64
+	frame	data/chars/knaruto/42.gif
+	offset	22 57
+	frame	data/chars/knaruto/43.gif
+	offset	28 55
+	frame	data/chars/knaruto/44.gif
+	offset	32 56
+	frame	data/chars/knaruto/45.gif
+	offset	23 62
+	frame	data/chars/knaruto/46.gif
+	offset	26 64
+	frame	data/chars/knaruto/47.gif
+	offset	23 67
+	frame	data/chars/knaruto/48.gif
+	offset	30 76
+	frame	data/chars/knaruto/49.gif
+	offset	26 68
+	frame	data/chars/knaruto/50.gif
+	offset	30 73
+	frame	data/chars/knaruto/51.gif
+	offset	23 72
+	frame	data/chars/knaruto/52.gif
+	offset	29 79
+	frame	data/chars/knaruto/53.gif
+	offset	24 74
+	frame	data/chars/knaruto/54.gif
+		
+anim	0010
+	delay	7
+	offset	33 61
+	frame	data/chars/knaruto/55.gif
+	offset	23 64
+	frame	data/chars/knaruto/56.gif
+	offset	36 63
+	frame	data/chars/knaruto/57.gif
+	offset	36 61
+	frame	data/chars/knaruto/58.gif
+	offset	35 63
+	frame	data/chars/knaruto/59.gif
+	offset	33 64
+	frame	data/chars/knaruto/60.gif
+		
+anim	0011
+	delay	7
+	offset	27 45
+	frame	data/chars/knaruto/61.gif
+	offset	45 47
+	frame	data/chars/knaruto/62.gif
+	offset	58 52
+	frame	data/chars/knaruto/63.gif
+	offset	33 64
+	frame	data/chars/knaruto/64.gif
+	offset	25 60
+	frame	data/chars/knaruto/65.gif
+		
+anim	0012
+	delay	7
+	offset	25 60
+	frame	data/chars/knaruto/66.gif
+	offset	25 60
+	frame	data/chars/knaruto/67.gif
+	offset	25 60
+	frame	data/chars/knaruto/68.gif
+	offset	25 60
+	frame	data/chars/knaruto/69.gif
+		
+anim	0013
+	delay	7
+	offset	43 82
+	frame	data/chars/knaruto/70.gif
+	offset	39 82
+	frame	data/chars/knaruto/71.gif
+	offset	42 82
+	frame	data/chars/knaruto/72.gif
+	offset	46 82
+	frame	data/chars/knaruto/73.gif
+	offset	48 81
+	frame	data/chars/knaruto/74.gif
+		
+anim	0014
+	delay	7
+	offset	33 63
+	frame	data/chars/knaruto/75.gif
+	offset	24 62
+	frame	data/chars/knaruto/76.gif
+	offset	31 54
+	frame	data/chars/knaruto/77.gif
+	offset	42 50
+	frame	data/chars/knaruto/78.gif
+	offset	33 57
+	frame	data/chars/knaruto/79.gif
+		
+anim	0015
+	delay	7
+	offset	44 47
+	frame	data/chars/knaruto/80.gif
+		
+anim	0016
+	delay	7
+	offset	41 64
+	frame	data/chars/knaruto/81.gif
+	offset	37 66
+	frame	data/chars/knaruto/82.gif
+		
+anim	0017
+	delay	7
+	offset	45 68
+	frame	data/chars/knaruto/83.gif
+	offset	47 77
+	frame	data/chars/knaruto/84.gif
+	offset	41 77
+	frame	data/chars/knaruto/85.gif
+	offset	46 72
+	frame	data/chars/knaruto/86.gif
+		
+anim	0018
+	delay	7
+	offset	38 61
+	frame	data/chars/knaruto/87.gif
+	offset	36 65
+	frame	data/chars/knaruto/88.gif
+	offset	37 58
+	frame	data/chars/knaruto/89.gif
+	offset	37 61
+	frame	data/chars/knaruto/90.gif
+	offset	43 55
+	frame	data/chars/knaruto/91.gif
+	offset	49 41
+	frame	data/chars/knaruto/92.gif
+	offset	51 36
+	frame	data/chars/knaruto/93.gif
+	offset	37 66
+	frame	data/chars/knaruto/94.gif
+		
+anim	0019
+	delay	7
+	offset	44 63
+	frame	data/chars/knaruto/95.gif
+	offset	32 59
+	frame	data/chars/knaruto/96.gif
+	offset	30 60
+	frame	data/chars/knaruto/97.gif
+	offset	30 83
+	frame	data/chars/knaruto/98.gif
+	offset	20 89
+	frame	data/chars/knaruto/99.gif
+	offset	21 80
+	frame	data/chars/knaruto/100.gif
+	offset	35 65
+	frame	data/chars/knaruto/101.gif
+		
+anim	0022
+	delay	7
+	offset	28 64
+	frame	data/chars/knaruto/combo_0.gif
+	offset	35 66
+	frame	data/chars/knaruto/combo_1.gif
+	offset	38 66
+	frame	data/chars/knaruto/combo_2.gif
+	offset	51 69
+	frame	data/chars/knaruto/combo_3.gif
+	offset	36 65
+	frame	data/chars/knaruto/combo_4.gif
+	offset	29 63
+	frame	data/chars/knaruto/combo_5.gif
+	offset	37 68
+	frame	data/chars/knaruto/combo_6.gif
+	offset	36 68
+	frame	data/chars/knaruto/combo_7.gif
+	offset	28 64
+	frame	data/chars/knaruto/combo_8.gif
+	offset	35 66
+	frame	data/chars/knaruto/combo_9.gif
+	offset	38 66
+	frame	data/chars/knaruto/combo_10.gif
+	offset	51 69
+	frame	data/chars/knaruto/combo_11.gif
+	offset	36 65
+	frame	data/chars/knaruto/combo_12.gif
+	offset	29 63
+	frame	data/chars/knaruto/combo_13.gif
+	offset	37 68
+	frame	data/chars/knaruto/combo_14.gif
+	offset	36 68
+	frame	data/chars/knaruto/combo_15.gif
+	offset	37 68
+	frame	data/chars/knaruto/combo_16.gif
+	offset	36 68
+	frame	data/chars/knaruto/combo_17.gif
+		
+anim	0023
+	delay	7
+	offset	47 60
+	frame	data/chars/knaruto/143.gif
+	offset	39 60
+	frame	data/chars/knaruto/144.gif
+	offset	42 64
+	frame	data/chars/knaruto/145.gif
+	offset	45 60
+	frame	data/chars/knaruto/146.gif
+	offset	39 60
+	frame	data/chars/knaruto/147.gif
+	offset	42 64
+	frame	data/chars/knaruto/148.gif
+	offset	42 64
+	frame	data/chars/knaruto/149.gif
+	offset	45 60
+	frame	data/chars/knaruto/150.gif
+	offset	39 60
+	frame	data/chars/knaruto/151.gif
+	offset	45 60
+	frame	data/chars/knaruto/152.gif
+	offset	39 60
+	frame	data/chars/knaruto/153.gif
+	offset	42 64
+	frame	data/chars/knaruto/154.gif
+	offset	39 60
+	frame	data/chars/knaruto/155.gif
+	offset	45 60
+	frame	data/chars/knaruto/156.gif
+	offset	42 64
+	frame	data/chars/knaruto/157.gif
+	offset	45 60
+	frame	data/chars/knaruto/158.gif
+	offset	39 60
+	frame	data/chars/knaruto/159.gif
+	offset	41 64
+	frame	data/chars/knaruto/160.gif
+	offset	39 59
+	frame	data/chars/knaruto/161.gif
+	offset	42 60
+	frame	data/chars/knaruto/162.gif
+	offset	42 64
+	frame	data/chars/knaruto/163.gif
+	offset	45 60
+	frame	data/chars/knaruto/164.gif
+	offset	39 60
+	frame	data/chars/knaruto/165.gif
+	offset	42 64
+	frame	data/chars/knaruto/166.gif
+	offset	40 64
+	frame	data/chars/knaruto/167.gif
+	offset	45 60
+	frame	data/chars/knaruto/168.gif
+	offset	39 60
+	frame	data/chars/knaruto/169.gif
+	offset	41 64
+	frame	data/chars/knaruto/170.gif
+		
+anim	0024
+	delay	7
+	offset	1 0
+	frame	data/chars/knaruto/171.gif
+	offset	1 0
+	frame	data/chars/knaruto/172.gif
+		
+anim	0025
+	delay	7
+	offset	65 49
+	frame	data/chars/knaruto/173.gif
+	offset	66 57
+	frame	data/chars/knaruto/174.gif
+	offset	66 57
+	frame	data/chars/knaruto/175.gif
+	offset	59 58
+	frame	data/chars/knaruto/176.gif
+	offset	61 58
+	frame	data/chars/knaruto/177.gif
+	offset	61 58
+	frame	data/chars/knaruto/178.gif
+	offset	59 61
+	frame	data/chars/knaruto/179.gif
+	offset	62 62
+	frame	data/chars/knaruto/180.gif
+	offset	59 63
+	frame	data/chars/knaruto/181.gif
+	offset	58 58
+	frame	data/chars/knaruto/182.gif
+	offset	59 62
+	frame	data/chars/knaruto/183.gif
+	offset	46 70
+	frame	data/chars/knaruto/184.gif
+	offset	39 71
+	frame	data/chars/knaruto/185.gif
+		
+anim	0026
+	delay	7
+	offset	32 61
+	frame	data/chars/knaruto/186.gif
+	offset	42 83
+	frame	data/chars/knaruto/specialkick_1.gif
+	offset	50 92
+	frame	data/chars/knaruto/specialkick_2.gif
+	offset	47 78
+	frame	data/chars/knaruto/specialkick_3.gif
+	offset	34 75
+	frame	data/chars/knaruto/specialkick_4.gif
+	offset	18 73
+	frame	data/chars/knaruto/specialkick_5.gif
+	offset	22 84
+	frame	data/chars/knaruto/specialkick_6.gif
+	offset	23 73
+	frame	data/chars/knaruto/specialkick_7.gif
+	offset	32 54
+	frame	data/chars/knaruto/specialkick_8.gif
+	offset	24 62
+	frame	data/chars/knaruto/specialkick_9.gif
+		
+anim	0027
+	delay	7
+	offset	118 80
+	frame	data/chars/knaruto/196.gif
+		
+anim	0028
+	delay	7
+	offset	19 55
+	frame	data/chars/knaruto/197.gif
+	offset	19 60
+	frame	data/chars/knaruto/198.gif
+		
+anim	0029
+	delay	7
+	offset	34 67
+	frame	data/chars/knaruto/199.gif
+	offset	39 61
+	frame	data/chars/knaruto/200.gif
+	offset	43 67
+	frame	data/chars/knaruto/201.gif
+		
+anim	0030
+	delay	7
+	offset	40 65
+	frame	data/chars/knaruto/202.gif
+	offset	43 65
+	frame	data/chars/knaruto/dragging_1.gif
+	offset	41 65
+	frame	data/chars/knaruto/dragging_2.gif
+	offset	61 60
+	frame	data/chars/knaruto/dragging_3.gif
+	offset	65 56
+	frame	data/chars/knaruto/dragging_4.gif
+	offset	66 58
+	frame	data/chars/knaruto/dragging_5.gif
+	offset	37 68
+	frame	data/chars/knaruto/dragging_6.gif
+	offset	40 60
+	frame	data/chars/knaruto/dragging_7.gif
+	offset	40 61
+	frame	data/chars/knaruto/dragging_8.gif
+	offset	40 63
+	frame	data/chars/knaruto/dragging_9.gif
+	offset	37 66
+	frame	data/chars/knaruto/dragging_10.gif
+		
+anim	0031
+	delay	7
+	offset	31 53
+	frame	data/chars/knaruto/213.gif
+	offset	32 56
+	frame	data/chars/knaruto/redball_1.gif
+	offset	36 55
+	frame	data/chars/knaruto/redball_2.gif
+		
+anim	0032
+	delay	7
+	offset	32 68
+	frame	data/chars/knaruto/216.gif
+	offset	32 66
+	frame	data/chars/knaruto/lrasengan_1.gif
+	offset	32 68
+	frame	data/chars/knaruto/lrasengan_2.gif
+	offset	32 70
+	frame	data/chars/knaruto/lrasengan_3.gif
+	offset	35 70
+	frame	data/chars/knaruto/lrasengan_4.gif
+	offset	33 67
+	frame	data/chars/knaruto/lrasengan_5.gif
+	offset	33 71
+	frame	data/chars/knaruto/lrasengan_6.gif
+	offset	31 73
+	frame	data/chars/knaruto/lrasengan_7.gif
+	offset	25 58
+	frame	data/chars/knaruto/lrasengan_8.gif
+	offset	40 57
+	frame	data/chars/knaruto/lrasengan_9.gif
+	offset	40 59
+	frame	data/chars/knaruto/lrasengan_10.gif
+	offset	40 66
+	frame	data/chars/knaruto/lrasengan_11.gif
+	offset	37 70
+	frame	data/chars/knaruto/lrasengan_12.gif
+	offset	43 70
+	frame	data/chars/knaruto/lrasengan_13.gif
+	offset	40 67
+	frame	data/chars/knaruto/lrasengan_14.gif
+	offset	30 79
+	frame	data/chars/knaruto/lrasengan_15.gif
+	offset	43 115
+	frame	data/chars/knaruto/lrasengan_16.gif
+	offset	40 121
+	frame	data/chars/knaruto/lrasengan_17.gif
+	offset	30 127
+	frame	data/chars/knaruto/lrasengan_18.gif
+	offset	44 127
+	frame	data/chars/knaruto/lrasengan_19.gif
+	offset	44 127
+	frame	data/chars/knaruto/lrasengan_20.gif
+	offset	45 126
+	frame	data/chars/knaruto/lrasengan_21.gif
+	offset	44 128
+	frame	data/chars/knaruto/lrasengan_22.gif
+	offset	44 128
+	frame	data/chars/knaruto/lrasengan_24.gif
+	offset	45 128
+	frame	data/chars/knaruto/lrasengan_25.gif
+	offset	43 114
+	frame	data/chars/knaruto/lrasengan_26.gif
+	offset	40 120
+	frame	data/chars/knaruto/lrasengan_27.gif
+	offset	29 138
+	frame	data/chars/knaruto/lrasengan_28.gif
+	offset	43 136
+	frame	data/chars/knaruto/lrasengan_29.gif
+	offset	30 135
+	frame	data/chars/knaruto/lrasengan_30.gif
+	offset	30 62
+	frame	data/chars/knaruto/lrasengan_31.gif
+	offset	43 60
+	frame	data/chars/knaruto/lrasengan_32.gif
+	offset	33 60
+	frame	data/chars/knaruto/lrasengan_33.gif
+	offset	42 60
+	frame	data/chars/knaruto/lrasengan_33.gif
+		
+anim	0033
+	delay	7
+	offset	264 518
+	frame	data/chars/knaruto/250.gif
+	offset	287 399
+	frame	data/chars/knaruto/251.gif
+	offset	284 413
+	frame	data/chars/knaruto/252.gif
+	offset	273 436
+	frame	data/chars/knaruto/253.gif
+	offset	279 435
+	frame	data/chars/knaruto/254.gif
+	offset	256 444
+	frame	data/chars/knaruto/255.gif
+	offset	230 456
+	frame	data/chars/knaruto/256.gif
+	offset	245 442
+	frame	data/chars/knaruto/257.gif
+	offset	269 364
+	frame	data/chars/knaruto/258.gif
+		
+anim	0034
+	delay	7
+	offset	54 108
+	frame	data/chars/knaruto/259.gif
+	offset	63 143
+	frame	data/chars/knaruto/260.gif
+	offset	68 134
+	frame	data/chars/knaruto/261.gif
+	offset	77 141
+	frame	data/chars/knaruto/262.gif
+	offset	71 146
+	frame	data/chars/knaruto/263.gif
+	offset	70 146
+	frame	data/chars/knaruto/264.gif
+	offset	68 153
+	frame	data/chars/knaruto/265.gif
+	offset	66 145
+	frame	data/chars/knaruto/266.gif
+	offset	66 135
+	frame	data/chars/knaruto/267.gif
+	offset	62 117
+	frame	data/chars/knaruto/268.gif
+	offset	64 121
+	frame	data/chars/knaruto/269.gif
+		
+anim	0035
+	delay	7
+	offset	44 6
+	frame	data/chars/knaruto/270.gif
+	offset	46 19
+	frame	data/chars/knaruto/271.gif
+	offset	61 24
+	frame	data/chars/knaruto/272.gif
+	offset	70 18
+	frame	data/chars/knaruto/273.gif
+	offset	73 15
+	frame	data/chars/knaruto/274.gif
+	offset	76 27
+	frame	data/chars/knaruto/275.gif
+	offset	92 30
+	frame	data/chars/knaruto/276.gif
+	offset	65 53
+	frame	data/chars/knaruto/277.gif
+	offset	35 78
+	frame	data/chars/knaruto/278.gif
+	offset	50 121
+	frame	data/chars/knaruto/279.gif
+	offset	53 140
+	frame	data/chars/knaruto/280.gif
+	offset	55 136
+	frame	data/chars/knaruto/281.gif
+	offset	63 124
+	frame	data/chars/knaruto/282.gif
+	offset	65 108
+	frame	data/chars/knaruto/283.gif
+	offset	62 129
+	frame	data/chars/knaruto/284.gif
+	offset	61 132
+	frame	data/chars/knaruto/285.gif
+	offset	57 133
+	frame	data/chars/knaruto/286.gif
+	offset	50 135
+	frame	data/chars/knaruto/287.gif
+	offset	55 139
+	frame	data/chars/knaruto/288.gif
+	offset	57 39
+	frame	data/chars/knaruto/289.gif
+	offset	57 39
+	frame	data/chars/knaruto/290.gif
+	offset	57 40
+	frame	data/chars/knaruto/291.gif
+	offset	56 35
+	frame	data/chars/knaruto/292.gif
+		
+anim	0036
+	delay	7
+	offset	36 68
+	frame	data/chars/knaruto/127.gif
+		
+anim	0037
+	delay	7
+	offset	-5 29
+	frame	data/chars/knaruto/301.gif
+	offset	-5 29
+	frame	data/chars/knaruto/302.gif
+	offset	-5 29
+	frame	data/chars/knaruto/303.gif
+	offset	-5 29
+	frame	data/chars/knaruto/304.gif
+	offset	-5 29
+	frame	data/chars/knaruto/305.gif
+	offset	-5 29
+	frame	data/chars/knaruto/306.gif
+		
+anim	0038
+	delay	7
+	offset	-4 28
+	frame	data/chars/knaruto/307.gif
+	offset	-4 28
+	frame	data/chars/knaruto/308.gif
+	offset	-4 28
+	frame	data/chars/knaruto/309.gif
+	offset	-4 28
+	frame	data/chars/knaruto/310.gif
+	offset	-4 28
+	frame	data/chars/knaruto/311.gif
+		
+anim	0039
+	delay	7
+	offset	-4 28
+	frame	data/chars/knaruto/312.gif
+	offset	-4 28
+	frame	data/chars/knaruto/313.gif
+	offset	-4 28
+	frame	data/chars/knaruto/314.gif
+	offset	-4 28
+	frame	data/chars/knaruto/315.gif
+	offset	-4 28
+	frame	data/chars/knaruto/316.gif
+	offset	-4 28
+	frame	data/chars/knaruto/317.gif
+		
+anim	0040
+	delay	7
+	offset	48 121
+	frame	data/chars/knaruto/318.gif
+	offset	45 116
+	frame	data/chars/knaruto/319.gif
+	offset	45 112
+	frame	data/chars/knaruto/320.gif
+	offset	43 109
+	frame	data/chars/knaruto/321.gif
+	offset	47 112
+	frame	data/chars/knaruto/322.gif
+	offset	45 114
+	frame	data/chars/knaruto/323.gif
+		
+anim	0043
+	delay	7
+	offset	42 64
+	frame	data/chars/knaruto/336.gif
+	offset	34 64
+	frame	data/chars/knaruto/337.gif
+	offset	29 62
+	frame	data/chars/knaruto/338.gif
+	offset	26 63
+	frame	data/chars/knaruto/339.gif
+	offset	26 63
+	frame	data/chars/knaruto/340.gif
+	offset	32 65
+	frame	data/chars/knaruto/341.gif
+		
+anim	0044
+	delay	7
+	offset	41 72
+	frame	data/chars/knaruto/342.gif
+	offset	42 72
+	frame	data/chars/knaruto/343.gif
+	offset	39 80
+	frame	data/chars/knaruto/344.gif
+	offset	39 70
+	frame	data/chars/knaruto/345.gif
+	offset	41 70
+	frame	data/chars/knaruto/346.gif
+	offset	35 67
+	frame	data/chars/knaruto/347.gif
+	offset	34 67
+	frame	data/chars/knaruto/348.gif
+	offset	34 67
+	frame	data/chars/knaruto/349.gif
+	offset	35 67
+	frame	data/chars/knaruto/350.gif
+	offset	41 70
+	frame	data/chars/knaruto/351.gif
+	offset	39 70
+	frame	data/chars/knaruto/352.gif
+	offset	34 67
+	frame	data/chars/knaruto/353.gif
+	offset	33 73
+	frame	data/chars/knaruto/354.gif
+	offset	34 73
+	frame	data/chars/knaruto/355.gif
+	offset	39 70
+	frame	data/chars/knaruto/356.gif
+	offset	41 70
+	frame	data/chars/knaruto/357.gif
+	offset	40 66
+	frame	data/chars/knaruto/358.gif
+	offset	37 71
+	frame	data/chars/knaruto/359.gif
+	offset	44 68
+	frame	data/chars/knaruto/360.gif
+	offset	40 69
+	frame	data/chars/knaruto/361.gif
+	offset	30 79
+	frame	data/chars/knaruto/362.gif
+	offset	40 121
+	frame	data/chars/knaruto/363.gif
+	offset	44 127
+	frame	data/chars/knaruto/364.gif
+	offset	45 123
+	frame	data/chars/knaruto/365.gif
+	offset	46 106
+	frame	data/chars/knaruto/366.gif
+	offset	46 106
+	frame	data/chars/knaruto/367.gif
+	offset	39 123
+	frame	data/chars/knaruto/368.gif
+	offset	30 138
+	frame	data/chars/knaruto/369.gif
+	offset	40 136
+	frame	data/chars/knaruto/370.gif
+	offset	30 135
+	frame	data/chars/knaruto/371.gif
+	offset	30 69
+	frame	data/chars/knaruto/372.gif
+	offset	43 68
+	frame	data/chars/knaruto/373.gif
+		
+anim	0045
+	delay	7
+	offset	34 64
+	frame	data/chars/knaruto/374.gif
+	offset	34 64
+	frame	data/chars/knaruto/375.gif
+	offset	34 64
+	frame	data/chars/knaruto/376.gif
+	offset	34 64
+	frame	data/chars/knaruto/377.gif
+	offset	34 64
+	frame	data/chars/knaruto/378.gif
+	offset	34 64
+	frame	data/chars/knaruto/379.gif
+	offset	34 71
+	frame	data/chars/knaruto/380.gif
+	offset	34 89
+	frame	data/chars/knaruto/381.gif
+	offset	34 107
+	frame	data/chars/knaruto/382.gif
+	offset	34 96
+	frame	data/chars/knaruto/383.gif
+		
+anim	0046
+	delay	7
+	offset	48 87
+	frame	data/chars/knaruto/384.gif
+	offset	49 88
+	frame	data/chars/knaruto/385.gif
+	offset	36 101
+	frame	data/chars/knaruto/386.gif
+	offset	44 101
+	frame	data/chars/knaruto/387.gif
+	offset	44 69
+	frame	data/chars/knaruto/388.gif
+	offset	36 61
+	frame	data/chars/knaruto/389.gif
+	offset	36 65
+	frame	data/chars/knaruto/390.gif
+	offset	33 61
+	frame	data/chars/knaruto/391.gif
+		
+anim	0048
+	delay	7
+	offset	-6 29
+	frame	data/chars/knaruto/403.gif
+	offset	30 62
+	frame	data/chars/knaruto/404.gif
+	offset	43 60
+	frame	data/chars/knaruto/405.gif
+	offset	40 75
+	frame	data/chars/knaruto/406.gif
+	offset	48 71
+	frame	data/chars/knaruto/407.gif
+	offset	45 67
+	frame	data/chars/knaruto/408.gif
+	offset	27 64
+	frame	data/chars/knaruto/409.gif
+	offset	35 66
+	frame	data/chars/knaruto/410.gif
+	offset	38 66
+	frame	data/chars/knaruto/411.gif
+		
+anim	0049
+	delay	7
+	offset	32 60
+	frame	data/chars/knaruto/412.gif
+	offset	32 60
+	frame	data/chars/knaruto/413.gif
+	offset	31 59
+	frame	data/chars/knaruto/414.gif
+	offset	32 60
+	frame	data/chars/knaruto/415.gif
+	offset	32 60
+	frame	data/chars/knaruto/416.gif
+	offset	26 48
+	frame	data/chars/knaruto/417.gif
+	offset	25 47
+	frame	data/chars/knaruto/418.gif
+	offset	14 63
+	frame	data/chars/knaruto/419.gif
+	offset	-2 -1
+	frame	data/chars/knaruto/420.gif
+	offset	9 17
+	frame	data/chars/knaruto/421.gif
+	offset	-1 17
+	frame	data/chars/knaruto/422.gif
+	offset	20 30
+	frame	data/chars/knaruto/423.gif
+	offset	18 25
+	frame	data/chars/knaruto/424.gif
+	offset	20 29
+	frame	data/chars/knaruto/425.gif
+	offset	20 30
+	frame	data/chars/knaruto/426.gif
+	offset	15 16
+	frame	data/chars/knaruto/427.gif
+	offset	41 20
+	frame	data/chars/knaruto/428.gif
+	offset	32 16
+	frame	data/chars/knaruto/429.gif
+	offset	15 19
+	frame	data/chars/knaruto/430.gif
+	offset	39 28
+	frame	data/chars/knaruto/431.gif
+	offset	30 16
+	frame	data/chars/knaruto/432.gif
+	offset	27 18
+	frame	data/chars/knaruto/433.gif
+	offset	19 19
+	frame	data/chars/knaruto/434.gif
+	offset	18 24
+	frame	data/chars/knaruto/435.gif
+	offset	15 24
+	frame	data/chars/knaruto/436.gif
+		
+anim	0050
+	delay	7
+	offset	57 121
+	frame	data/chars/knaruto/437.gif
+	offset	56 121
+	frame	data/chars/knaruto/438.gif
+	offset	55 121
+	frame	data/chars/knaruto/439.gif
+		
+anim	0051
+	delay	7
+	offset	55 121
+	frame	data/chars/knaruto/440.gif
+	offset	55 121
+	frame	data/chars/knaruto/441.gif
+	offset	55 121
+	frame	data/chars/knaruto/442.gif
+	offset	55 121
+	frame	data/chars/knaruto/443.gif
+	offset	55 121
+	frame	data/chars/knaruto/444.gif
+	offset	55 121
+	frame	data/chars/knaruto/445.gif
+	offset	55 121
+	frame	data/chars/knaruto/446.gif
+	offset	55 121
+	frame	data/chars/knaruto/447.gif
+	offset	55 121
+	frame	data/chars/knaruto/448.gif
+	offset	55 121
+	frame	data/chars/knaruto/449.gif
+	offset	55 121
+	frame	data/chars/knaruto/450.gif
+	offset	55 121
+	frame	data/chars/knaruto/451.gif
+	offset	55 121
+	frame	data/chars/knaruto/452.gif
+		
+anim	0052
+	delay	7
+	offset	34 95
+	frame	data/chars/knaruto/453.gif
+	offset	53 107
+	frame	data/chars/knaruto/454.gif
+	offset	48 91
+	frame	data/chars/knaruto/455.gif
+		
+anim	0053
+	delay	7
+	offset	48 91
+	frame	data/chars/knaruto/456.gif
+	offset	48 91
+	frame	data/chars/knaruto/457.gif
+	offset	48 91
+	frame	data/chars/knaruto/458.gif
+	offset	48 91
+	frame	data/chars/knaruto/459.gif
+	offset	48 91
+	frame	data/chars/knaruto/460.gif
+	offset	48 91
+	frame	data/chars/knaruto/461.gif
+	offset	48 91
+	frame	data/chars/knaruto/462.gif
+	offset	48 91
+	frame	data/chars/knaruto/463.gif
+	offset	48 91
+	frame	data/chars/knaruto/464.gif
+	offset	48 91
+	frame	data/chars/knaruto/465.gif
+	offset	48 91
+	frame	data/chars/knaruto/466.gif
+	offset	48 91
+	frame	data/chars/knaruto/467.gif
+	offset	48 91
+	frame	data/chars/knaruto/468.gif
+	offset	48 91
+	frame	data/chars/knaruto/469.gif
+	offset	48 91
+	frame	data/chars/knaruto/470.gif
+	offset	48 91
+	frame	data/chars/knaruto/471.gif
+	offset	48 91
+	frame	data/chars/knaruto/472.gif
+	offset	48 91
+	frame	data/chars/knaruto/473.gif
+	offset	48 91
+	frame	data/chars/knaruto/474.gif
+	offset	48 91
+	frame	data/chars/knaruto/475.gif
+	offset	48 91
+	frame	data/chars/knaruto/476.gif
+	offset	48 91
+	frame	data/chars/knaruto/477.gif
+	offset	48 91
+	frame	data/chars/knaruto/478.gif
+	offset	48 91
+	frame	data/chars/knaruto/479.gif
+	offset	48 91
+	frame	data/chars/knaruto/480.gif
+	offset	48 91
+	frame	data/chars/knaruto/481.gif
+	offset	48 91
+	frame	data/chars/knaruto/482.gif
+	offset	48 91
+	frame	data/chars/knaruto/483.gif
+	offset	48 91
+	frame	data/chars/knaruto/484.gif
+	offset	48 91
+	frame	data/chars/knaruto/485.gif
+	offset	48 91
+	frame	data/chars/knaruto/486.gif
+	offset	48 91
+	frame	data/chars/knaruto/487.gif
+	offset	48 91
+	frame	data/chars/knaruto/488.gif
+	offset	48 91
+	frame	data/chars/knaruto/489.gif
+	offset	48 91
+	frame	data/chars/knaruto/490.gif
+	offset	48 91
+	frame	data/chars/knaruto/491.gif
+	offset	48 91
+	frame	data/chars/knaruto/492.gif
+	offset	48 91
+	frame	data/chars/knaruto/493.gif
+	offset	48 91
+	frame	data/chars/knaruto/494.gif
+		
+anim	0054
+	delay	7
+	offset	31 68
+	frame	data/chars/knaruto/495.gif
+	offset	37 68
+	frame	data/chars/knaruto/496.gif
+	offset	37 68
+	frame	data/chars/knaruto/497.gif
+	offset	37 68
+	frame	data/chars/knaruto/498.gif
+	offset	37 68
+	frame	data/chars/knaruto/499.gif
+	offset	37 68
+	frame	data/chars/knaruto/500.gif
+	offset	37 68
+	frame	data/chars/knaruto/501.gif
+	offset	37 68
+	frame	data/chars/knaruto/502.gif
+	offset	37 68
+	frame	data/chars/knaruto/503.gif
+	offset	37 68
+	frame	data/chars/knaruto/504.gif
+	offset	54 62
+	frame	data/chars/knaruto/505.gif
+	offset	54 62
+	frame	data/chars/knaruto/506.gif
+	offset	52 51
+	frame	data/chars/knaruto/507.gif
+		
+anim	0055
+	delay	7
+	offset	52 51
+	frame	data/chars/knaruto/508.gif
+	offset	52 53
+	frame	data/chars/knaruto/509.gif
+	offset	51 52
+	frame	data/chars/knaruto/510.gif
+	offset	51 48
+	frame	data/chars/knaruto/511.gif
+		
+anim	0056
+	delay	7
+	offset	55 41
+	frame	data/chars/knaruto/512.gif
+	offset	56 51
+	frame	data/chars/knaruto/513.gif
+	offset	57 42
+	frame	data/chars/knaruto/514.gif
+	offset	59 51
+	frame	data/chars/knaruto/515.gif
+		
+anim	0057
+	delay	7
+	offset	61 59
+	frame	data/chars/knaruto/516.gif
+	offset	28 45
+	frame	data/chars/knaruto/517.gif
+	offset	56 58
+	frame	data/chars/knaruto/518.gif
+		
+anim	0058
+	delay	7
+	offset	62 64
+	frame	data/chars/knaruto/519.gif
+	offset	67 37
+	frame	data/chars/knaruto/520.gif
+		
+anim	0059
+	delay	7
+	offset	53 72
+	frame	data/chars/knaruto/521.gif
+	offset	53 72
+	frame	data/chars/knaruto/522.gif
+	offset	52 63
+	frame	data/chars/knaruto/523.gif
+	offset	45 68
+	frame	data/chars/knaruto/524.gif
+	offset	45 62
+	frame	data/chars/knaruto/525.gif
+	offset	45 63
+	frame	data/chars/knaruto/526.gif
+	offset	45 60
+	frame	data/chars/knaruto/527.gif
+	offset	45 60
+	frame	data/chars/knaruto/528.gif
+	offset	45 60
+	frame	data/chars/knaruto/529.gif
+	offset	45 60
+	frame	data/chars/knaruto/530.gif
+	offset	45 60
+	frame	data/chars/knaruto/531.gif
+	offset	45 60
+	frame	data/chars/knaruto/532.gif
+	offset	45 60
+	frame	data/chars/knaruto/533.gif
+	offset	45 60
+	frame	data/chars/knaruto/534.gif
+	offset	62 64
+	frame	data/chars/knaruto/535.gif
+	offset	65 61
+	frame	data/chars/knaruto/536.gif
+	offset	67 64
+	frame	data/chars/knaruto/537.gif
+	offset	70 64
+	frame	data/chars/knaruto/538.gif
+	offset	67 64
+	frame	data/chars/knaruto/539.gif
+	offset	70 64
+	frame	data/chars/knaruto/540.gif
+	offset	63 59
+	frame	data/chars/knaruto/541.gif
+	offset	63 59
+	frame	data/chars/knaruto/542.gif
+	offset	73 48
+	frame	data/chars/knaruto/543.gif
+	offset	72 49
+	frame	data/chars/knaruto/544.gif
+	offset	71 49
+	frame	data/chars/knaruto/545.gif
+	offset	73 48
+	frame	data/chars/knaruto/546.gif
+	offset	71 48
+	frame	data/chars/knaruto/547.gif
+	offset	73 48
+	frame	data/chars/knaruto/548.gif
+	offset	73 48
+	frame	data/chars/knaruto/549.gif
+	offset	71 48
+	frame	data/chars/knaruto/550.gif
+	offset	62 64
+	frame	data/chars/knaruto/551.gif
+	offset	67 37
+	frame	data/chars/knaruto/552.gif
+	offset	67 37
+	frame	data/chars/knaruto/553.gif
+		
+anim	0060
+	delay	7
+	offset	53 72
+	frame	data/chars/knaruto/554.gif
+	offset	53 72
+	frame	data/chars/knaruto/555.gif
+	offset	50 70
+	frame	data/chars/knaruto/556.gif
+	offset	54 64
+	frame	data/chars/knaruto/557.gif
+	offset	54 57
+	frame	data/chars/knaruto/558.gif
+	offset	54 66
+	frame	data/chars/knaruto/559.gif
+	offset	55 69
+	frame	data/chars/knaruto/560.gif
+	offset	54 72
+	frame	data/chars/knaruto/561.gif
+	offset	49 72
+	frame	data/chars/knaruto/562.gif
+	offset	32 78
+	frame	data/chars/knaruto/563.gif
+	offset	35 79
+	frame	data/chars/knaruto/564.gif
+	offset	35 79
+	frame	data/chars/knaruto/565.gif
+	offset	37 79
+	frame	data/chars/knaruto/566.gif
+	offset	35 79
+	frame	data/chars/knaruto/567.gif
+	offset	37 79
+	frame	data/chars/knaruto/568.gif
+	offset	35 79
+	frame	data/chars/knaruto/569.gif
+	offset	49 72
+	frame	data/chars/knaruto/570.gif
+	offset	53 72
+	frame	data/chars/knaruto/571.gif
+	offset	55 55
+	frame	data/chars/knaruto/572.gif
+	offset	54 79
+	frame	data/chars/knaruto/573.gif
+	offset	55 112
+	frame	data/chars/knaruto/574.gif
+	offset	55 143
+	frame	data/chars/knaruto/575.gif
+	offset	53 143
+	frame	data/chars/knaruto/576.gif
+	offset	54 143
+	frame	data/chars/knaruto/577.gif
+	offset	51 142
+	frame	data/chars/knaruto/578.gif
+	offset	52 111
+	frame	data/chars/knaruto/579.gif
+	offset	51 77
+	frame	data/chars/knaruto/580.gif
+	offset	51 49
+	frame	data/chars/knaruto/581.gif
+		
+anim	0061
+	delay	7
+	offset	-7 7
+	frame	data/chars/knaruto/582.gif
+	offset	-7 13
+	frame	data/chars/knaruto/583.gif
+	offset	-7 36
+	frame	data/chars/knaruto/584.gif
+	offset	-7 53
+	frame	data/chars/knaruto/585.gif
+	offset	-7 57
+	frame	data/chars/knaruto/586.gif
+	offset	-5 67
+	frame	data/chars/knaruto/587.gif
+	offset	-5 73
+	frame	data/chars/knaruto/588.gif
+	offset	-7 79
+	frame	data/chars/knaruto/589.gif
+	offset	-6 89
+	frame	data/chars/knaruto/590.gif
+	offset	-6 82
+	frame	data/chars/knaruto/591.gif
+	offset	-7 76
+	frame	data/chars/knaruto/592.gif
+	offset	-7 72
+	frame	data/chars/knaruto/593.gif
+		
+anim	7630
+	delay	7
+	offset	145 320
+	frame	data/chars/knaruto/595.gif
+	offset	145 320
+	frame	data/chars/knaruto/596.gif
+	offset	145 320
+	frame	data/chars/knaruto/597.gif
+	offset	145 320
+	frame	data/chars/knaruto/598.gif
+	offset	145 320
+	frame	data/chars/knaruto/599.gif
+	offset	145 320
+	frame	data/chars/knaruto/600.gif
+	offset	145 320
+	frame	data/chars/knaruto/601.gif
+	offset	145 320
+	frame	data/chars/knaruto/602.gif
+		
+anim	7631
+	delay	7
+	offset	100 190
+	frame	data/chars/knaruto/603.gif
+	offset	100 190
+	frame	data/chars/knaruto/604.gif
+	offset	100 190
+	frame	data/chars/knaruto/605.gif
+	offset	100 190
+	frame	data/chars/knaruto/606.gif
+	offset	100 190
+	frame	data/chars/knaruto/607.gif
+	offset	100 190
+	frame	data/chars/knaruto/608.gif
+		
+anim	7632
+	delay	7
+	offset	37 37
+	frame	data/chars/knaruto/609.gif
+	offset	37 37
+	frame	data/chars/knaruto/610.gif
+	offset	37 37
+	frame	data/chars/knaruto/611.gif
+	offset	37 37
+	frame	data/chars/knaruto/612.gif
+		
+anim	7633
+	delay	7
+	offset	23 5
+	frame	data/chars/knaruto/613.gif
+	offset	37 6
+	frame	data/chars/knaruto/614.gif
+	offset	75 9
+	frame	data/chars/knaruto/615.gif
+	offset	23 2
+	frame	data/chars/knaruto/616.gif
+		
+anim	7634
+	delay	7
+	offset	5 23
+	frame	data/chars/knaruto/617.gif
+	offset	6 37
+	frame	data/chars/knaruto/618.gif
+	offset	9 75
+	frame	data/chars/knaruto/619.gif
+	offset	2 23
+	frame	data/chars/knaruto/620.gif
+		
+anim	7635
+	delay	7
+	offset	100 100
+	frame	data/chars/knaruto/621.gif
+	offset	100 100
+	frame	data/chars/knaruto/622.gif
+	offset	100 100
+	frame	data/chars/knaruto/623.gif
+	offset	100 100
+	frame	data/chars/knaruto/624.gif
+	offset	100 100
+	frame	data/chars/knaruto/625.gif
+		
+anim	7636
+	delay	7
+	offset	100 100
+	frame	data/chars/knaruto/626.gif
+	offset	100 100
+	frame	data/chars/knaruto/627.gif
+	offset	100 100
+	frame	data/chars/knaruto/628.gif
+	offset	100 100
+	frame	data/chars/knaruto/629.gif
+	offset	100 100
+	frame	data/chars/knaruto/630.gif
+	offset	100 100
+	frame	data/chars/knaruto/631.gif
+	offset	100 100
+	frame	data/chars/knaruto/632.gif
+	offset	100 100
+	frame	data/chars/knaruto/633.gif
+	offset	100 100
+	frame	data/chars/knaruto/634.gif
+	offset	100 100
+	frame	data/chars/knaruto/635.gif
+	offset	100 100
+	frame	data/chars/knaruto/636.gif
+	offset	100 100
+	frame	data/chars/knaruto/637.gif
+	offset	100 100
+	frame	data/chars/knaruto/638.gif
+	offset	100 100
+	frame	data/chars/knaruto/639.gif
+	offset	100 100
+	frame	data/chars/knaruto/640.gif
+		
+anim	7637
+	delay	7
+	offset	295 295
+	frame	data/chars/knaruto/641.gif
+		
+anim	7638
+	delay	7
+	offset	128 52
+	frame	data/chars/knaruto/642.gif
+	offset	161 127
+	frame	data/chars/knaruto/643.gif
+	offset	161 127
+	frame	data/chars/knaruto/644.gif
+	offset	154 210
+	frame	data/chars/knaruto/645.gif
+	offset	154 210
+	frame	data/chars/knaruto/646.gif
+	offset	160 280
+	frame	data/chars/knaruto/647.gif
+	offset	160 280
+	frame	data/chars/knaruto/648.gif
+		
+anim	7639
+	delay	7
+	offset	100 100
+	frame	data/chars/knaruto/649.gif
+	offset	100 100
+	frame	data/chars/knaruto/650.gif
+	offset	100 100
+	frame	data/chars/knaruto/651.gif
+	offset	100 100
+	frame	data/chars/knaruto/652.gif
+	offset	100 100
+	frame	data/chars/knaruto/653.gif
+	offset	100 100
+	frame	data/chars/knaruto/654.gif
+	offset	100 100
+	frame	data/chars/knaruto/655.gif
+	offset	100 100
+	frame	data/chars/knaruto/656.gif
+	offset	100 100
+	frame	data/chars/knaruto/657.gif
+	offset	100 100
+	frame	data/chars/knaruto/658.gif
+	offset	100 100
+	frame	data/chars/knaruto/659.gif
+	offset	100 100
+	frame	data/chars/knaruto/660.gif
+		
+anim	7640
+	delay	7
+	offset	51 35
+	frame	data/chars/knaruto/661.gif
+	offset	65 42
+	frame	data/chars/knaruto/662.gif
+	offset	73 44
+	frame	data/chars/knaruto/663.gif
+	offset	89 58
+	frame	data/chars/knaruto/664.gif
+	offset	106 75
+	frame	data/chars/knaruto/665.gif
+	offset	114 81
+	frame	data/chars/knaruto/666.gif
+		
+anim	7641
+	delay	7
+	offset	100 200
+	frame	data/chars/knaruto/667.gif
+	offset	100 200
+	frame	data/chars/knaruto/668.gif
+	offset	100 200
+	frame	data/chars/knaruto/669.gif
+	offset	100 200
+	frame	data/chars/knaruto/670.gif
+	offset	100 200
+	frame	data/chars/knaruto/671.gif
+	offset	100 200
+	frame	data/chars/knaruto/672.gif
+	offset	100 200
+	frame	data/chars/knaruto/673.gif
+	offset	100 200
+	frame	data/chars/knaruto/674.gif
+		
+anim	7642
+	delay	7
+	offset	96 96
+	frame	data/chars/knaruto/675.gif
+	offset	98 98
+	frame	data/chars/knaruto/676.gif
+	offset	100 99
+	frame	data/chars/knaruto/677.gif
+	offset	100 102
+	frame	data/chars/knaruto/678.gif
+	offset	100 100
+	frame	data/chars/knaruto/679.gif
+	offset	100 100
+	frame	data/chars/knaruto/680.gif
+		
+anim	7643
+	delay	7
+	offset	137 137
+	frame	data/chars/knaruto/681.gif
+	offset	137 137
+	frame	data/chars/knaruto/682.gif
+	offset	137 137
+	frame	data/chars/knaruto/683.gif
+	offset	137 137
+	frame	data/chars/knaruto/684.gif
+	offset	137 137
+	frame	data/chars/knaruto/685.gif
+	offset	137 137
+	frame	data/chars/knaruto/686.gif
+	offset	137 137
+	frame	data/chars/knaruto/687.gif
+	offset	137 137
+	frame	data/chars/knaruto/688.gif
+		
+anim	7644
+	delay	7
+	offset	64 41
+	frame	data/chars/knaruto/689.gif
+	offset	69 62
+	frame	data/chars/knaruto/690.gif
+	offset	89 75
+	frame	data/chars/knaruto/691.gif
+	offset	107 105
+	frame	data/chars/knaruto/692.gif
+	offset	130 125
+	frame	data/chars/knaruto/693.gif
+		
+anim	8181
+	delay	7
+	offset	0 21
+	frame	data/chars/knaruto/704.gif
+	offset	0 29
+	frame	data/chars/knaruto/705.gif
+	offset	0 29
+	frame	data/chars/knaruto/706.gif
+	offset	0 29
+	frame	data/chars/knaruto/707.gif
+	offset	0 31
+	frame	data/chars/knaruto/708.gif
+	offset	0 35
+	frame	data/chars/knaruto/709.gif
+	offset	0 34
+	frame	data/chars/knaruto/710.gif
+	offset	0 29
+	frame	data/chars/knaruto/711.gif
+	offset	0 29
+	frame	data/chars/knaruto/712.gif
+	offset	0 25
+	frame	data/chars/knaruto/713.gif
+		
+anim	8950
+	delay	7
+	offset	25 59
+	frame	data/chars/knaruto/694.gif
+	offset	28 73
+	frame	data/chars/knaruto/695.gif
+	offset	42 81
+	frame	data/chars/knaruto/696.gif
+		
+anim	9000
+	delay	7
+	offset	-2 -1
+	frame	data/chars/knaruto/0.gif
+	offset	-2 46
+	frame	data/chars/knaruto/1.gif
+		
+anim	backwalk
+	delay	7
+	offset	44 57
+	frame	data/chars/knaruto/107.gif
+	offset	34 62
+	frame	data/chars/knaruto/108.gif
+	offset	28 65
+	frame	data/chars/knaruto/109.gif
+	offset	31 66
+	frame	data/chars/knaruto/110.gif
+	offset	36 67
+	frame	data/chars/knaruto/111.gif
+	offset	42 101
+	frame	data/chars/knaruto/112.gif
+	offset	40 116
+	frame	data/chars/knaruto/113.gif
+	offset	43 115
+	frame	data/chars/knaruto/114.gif
+	offset	31 113
+	frame	data/chars/knaruto/115.gif
+	offset	42 111
+	frame	data/chars/knaruto/116.gif
+	offset	33 64
+	frame	data/chars/knaruto/117.gif
+	offset	25 65
+	frame	data/chars/knaruto/118.gif
+		
+anim	freespecial2280
+	delay	7
+	offset	70 3
+	frame	data/chars/knaruto/697.gif
+	offset	50 3
+	frame	data/chars/knaruto/698.gif
+	offset	15 3
+	frame	data/chars/knaruto/699.gif
+	offset	15 3
+	frame	data/chars/knaruto/700.gif
+		
+anim	freespecial2281
+	delay	7
+	offset	24 24
+	frame	data/chars/knaruto/701.gif
+	offset	24 24
+	frame	data/chars/knaruto/702.gif
+	offset	24 24
+	frame	data/chars/knaruto/703.gif
+		
+anim	jump
+	delay	7
+	offset	28 64
+	frame	data/chars/knaruto/324.gif
+	offset	35 66
+	frame	data/chars/knaruto/325.gif
+	offset	38 66
+	frame	data/chars/knaruto/326.gif
+	offset	33 66
+	frame	data/chars/knaruto/327.gif
+	offset	33 66
+	frame	data/chars/knaruto/328.gif
+	offset	33 66
+	frame	data/chars/knaruto/329.gif
+	offset	33 66
+	frame	data/chars/knaruto/330.gif
+	offset	33 66
+	frame	data/chars/knaruto/331.gif
+	offset	33 66
+	frame	data/chars/knaruto/332.gif
+		
+anim	jumpforward
+	delay	7
+	offset	33 66
+	frame	data/chars/knaruto/333.gif
+	offset	35 66
+	frame	data/chars/knaruto/334.gif
+	offset	28 64
+	frame	data/chars/knaruto/335.gif
+		
+anim	jumpland
+	delay	7
+	offset	32 73
+	frame	data/chars/knaruto/392.gif
+	offset	33 67
+	frame	data/chars/knaruto/393.gif
+	offset	32 73
+	frame	data/chars/knaruto/394.gif
+	offset	32 73
+	frame	data/chars/knaruto/395.gif
+	offset	40 66
+	frame	data/chars/knaruto/396.gif
+	offset	37 70
+	frame	data/chars/knaruto/397.gif
+	offset	50 60
+	frame	data/chars/knaruto/398.gif
+	offset	28 62
+	frame	data/chars/knaruto/399.gif
+	offset	42 60
+	frame	data/chars/knaruto/400.gif
+	offset	40 60
+	frame	data/chars/knaruto/401.gif
+	offset	-6 29
+	frame	data/chars/knaruto/402.gif
+		
+anim	turn
+	delay	7
+	offset	15 43
+	frame	data/chars/knaruto/15.gif
+	offset	15 42
+	frame	data/chars/knaruto/16.gif
+	offset	18 44
+	frame	data/chars/knaruto/17.gif
+	offset	22 46
+	frame	data/chars/knaruto/18.gif
+	offset	22 46
+	frame	data/chars/knaruto/19.gif
+	offset	23 47
+	frame	data/chars/knaruto/20.gif
+	offset	34 54
+	frame	data/chars/knaruto/21.gif
+	offset	41 55
+	frame	data/chars/knaruto/22.gif
+	offset	41 66
+	frame	data/chars/knaruto/23.gif
+		
+anim	walk
+	delay	7
+	offset	27 75
+	frame	data/chars/knaruto/102.gif
+	offset	41 73
+	frame	data/chars/knaruto/103.gif
+	offset	29 65
+	frame	data/chars/knaruto/104.gif
+	offset	31 66
+	frame	data/chars/knaruto/105.gif
+	offset	32 67
+	frame	data/chars/knaruto/106.gif
+		
+#|edited by openBor Stats v 0.67
+		

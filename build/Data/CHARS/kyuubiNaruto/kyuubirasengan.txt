@@ -1,0 +1,22 @@
+name	kyuubiRasengan
+speed   30
+type 	none
+shadow	0
+remove 0
+alpha 1
+
+
+
+
+
+
+
+
+anim	idle
+	attack	1 1 16 16 35 1 1 0 0 0
+	loop	1
+	offset	-6 29
+	frame	data/chars/kyuubiNaruto/fillkyuubi/402.gif
+		
+#|edited by openBor Stats v 0.67
+		
