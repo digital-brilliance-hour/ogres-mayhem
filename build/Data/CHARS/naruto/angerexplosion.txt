@@ -1,0 +1,50 @@
+name	angerExplosion
+speed   15
+type 	none
+shadow	0
+setlayer 1000
+alpha 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	drawmethod	scale 0.8
+	delay	3
+	offset	264 518
+	frame	data/chars/Naruto/fillkyuubi/250.gif
+	offset	287 399
+	frame	data/chars/Naruto/fillkyuubi/251.gif
+	offset	284 413
+	frame	data/chars/Naruto/fillkyuubi/252.gif
+	offset	273 436
+	frame	data/chars/Naruto/fillkyuubi/253.gif
+	offset	279 435
+	frame	data/chars/Naruto/fillkyuubi/254.gif
+	offset	256 444
+	frame	data/chars/Naruto/fillkyuubi/255.gif
+	offset	230 456
+	frame	data/chars/Naruto/fillkyuubi/256.gif
+	offset	245 442
+	frame	data/chars/Naruto/fillkyuubi/257.gif
+	offset	269 364
+	frame	data/chars/Naruto/fillkyuubi/258.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

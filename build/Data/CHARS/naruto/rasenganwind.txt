@@ -1,0 +1,57 @@
+name rasenganWind
+speed   15
+type 	none
+shadow	0
+
+alpha 1
+
+candamage enemy obstacle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	drawmethod	scale 0.3
+	delay	1
+	offset	81 82
+	frame	data/chars/Naruto/753.gif
+	offset	87 90
+	frame	data/chars/Naruto/754.gif
+	offset	90 93
+	frame	data/chars/Naruto/755.gif
+	offset	86 87
+	frame	data/chars/Naruto/756.gif
+	offset	88 86
+	frame	data/chars/Naruto/757.gif
+	offset	95 96
+	frame	data/chars/Naruto/758.gif
+	offset	90 99
+	frame	data/chars/Naruto/759.gif
+	offset	90 98
+	frame	data/chars/Naruto/760.gif
+	offset	96 98
+	frame	data/chars/Naruto/761.gif
+	offset	93 98
+	frame	data/chars/Naruto/762.gif
+	offset	90 100
+	frame	data/chars/Naruto/763.gif
+	offset	70 61
+	frame	data/chars/Naruto/764.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

@@ -1,0 +1,215 @@
+name	Ninja_Chain
+health	100
+	health  200
+speed	7
+type	enemy
+hostile npc player
+candamage   npc player
+shadow	2
+diesound data/sounds/die2.wav
+icon	data/chars/ninja_chain/icon.png
+bflash  bflash
+dust	 dust
+jumpheight 4
+
+
+
+
+
+
+
+anim	attack1
+	loop	0
+	range	15 100
+	offset	31 56
+	delay	5
+	frame	data/chars/ninja_chain/13.png
+	frame	data/chars/ninja_chain/14.png
+	offset	26 57
+	frame	data/chars/ninja_chain/11.png
+	offset	19 57
+	frame	data/chars/ninja_chain/12.png
+	offset	30 56
+	frame	data/chars/ninja_chain/15.png
+	frame	data/chars/ninja_chain/16.png
+	offset	38 74
+	frame	data/chars/ninja_chain/20.png
+	offset	30 54
+	frame	data/chars/ninja_chain/30.png
+	bbox	19 2 28 44
+	offset	22 54
+	frame	data/chars/ninja_chain/39.png
+	offset	12 54
+	frame	data/chars/ninja_chain/40.png
+	offset	13 49
+	blast	36 5 23 18 25
+	frame	data/chars/ninja_chain/41.png
+	blast	62 4 19 16 18
+	frame	data/chars/ninja_chain/122.png
+	blast	84 2 23 20 18
+	frame	data/chars/ninja_chain/116.png
+	offset	13 51
+	blast	84 2 23 20 25
+	frame	data/chars/ninja_chain/112.png
+	offset	13 50
+	blast	100 0 29 24 25
+	frame	data/chars/ninja_chain/115.png
+	offset	13 52
+	frame	data/chars/ninja_chain/113.png
+	offset	13 51
+	frame	data/chars/ninja_chain/114.png
+	offset	13 52
+	frame	data/chars/ninja_chain/117.png
+	offset	13 50
+	frame	data/chars/ninja_chain/118.png
+	offset	13 52
+	frame	data/chars/ninja_chain/119.png
+	offset	13 51
+	frame	data/chars/ninja_chain/120.png
+	offset	13 52
+	frame	data/chars/ninja_chain/121.png
+	offset	13 51
+	frame	data/chars/ninja_chain/120.png
+	offset	13 52
+	frame	data/chars/ninja_chain/121.png
+	offset	13 51
+	frame	data/chars/ninja_chain/120.png
+	offset	13 52
+	frame	data/chars/ninja_chain/133.png
+	offset	13 56
+	frame	data/chars/ninja_chain/132.png
+	offset	13 60
+	attack1	85 -1 22 23 18
+	frame	data/chars/ninja_chain/131.png
+	offset	13 67
+	frame	data/chars/ninja_chain/130.png
+	offset	13 74
+	frame	data/chars/ninja_chain/135.png
+	offset	13 80
+	frame	data/chars/ninja_chain/136.png
+	offset	13 86
+	frame	data/chars/ninja_chain/137.png
+	offset	13 84
+	Attack1	0
+	frame	data/chars/ninja_chain/138.png
+	frame	data/chars/ninja_chain/139.png
+	offset	13 83
+	frame	data/chars/ninja_chain/90.png
+	offset	13 76
+	frame	data/chars/ninja_chain/92.png
+	offset	13 72
+	frame	data/chars/ninja_chain/94.png
+	offset	13 66
+	frame	data/chars/ninja_chain/95.png
+	offset	13 63
+	frame	data/chars/ninja_chain/96.png
+	delay	45
+	frame	data/chars/ninja_chain/96.png
+		
+anim	attack2
+	loop	0
+	delay	10
+	range	0 100
+	offset	14 62
+	bbox	1 1 39 61
+	frame	data/chars/ninja_chain/78.png
+	delay	30
+	frame	data/chars/ninja_chain/78.png
+	move	5
+	delay	3
+	attack1	23 1 36 32 14
+	offset	14 50
+	frame	data/chars/ninja_chain/61.png
+	frame	data/chars/ninja_chain/62.png
+	frame	data/chars/ninja_chain/63.png
+	frame	data/chars/ninja_chain/64.png
+	frame	data/chars/ninja_chain/65.png
+	frame	data/chars/ninja_chain/61.png
+	frame	data/chars/ninja_chain/62.png
+	frame	data/chars/ninja_chain/63.png
+	frame	data/chars/ninja_chain/64.png
+	frame	data/chars/ninja_chain/65.png
+	frame	data/chars/ninja_chain/61.png
+	frame	data/chars/ninja_chain/62.png
+	frame	data/chars/ninja_chain/63.png
+	frame	data/chars/ninja_chain/64.png
+	frame	data/chars/ninja_chain/65.png
+	move	0
+	attack	0
+	delay	30
+	frame	data/chars/ninja_chain/78.png
+		
+anim	block
+	loop	0
+	jumpframe	0 2 0 0
+	delay	20
+	offset	15 59
+	bbox	5 -3 37 55
+	frame	data/chars/ninja_chain/41.png
+		
+anim	burn
+	loop	1
+	delay	3
+	offset	60 116
+	frame	data/chars/misc/burn1.gif
+	frame	data/chars/misc/burn2.gif
+	frame	data/chars/misc/burn3.gif
+		
+anim	fall
+	loop	0
+	delay	30
+	attack	45 61 17 34 4 1
+	offset	25 50
+	frame	data/chars/ninja_chain/fall00.png
+	delay	20
+	offset	34 21
+	frame	data/chars/ninja_chain/fall01.png
+	frame	data/chars/ninja_chain/fall01.png
+		
+anim	idle
+	loop	1
+	delay	30
+	bbox	-1 0 35 62
+	offset	16 62
+	frame	data/chars/ninja_chain/0.png
+	offset	15 61
+	frame	data/chars/ninja_chain/2.png
+	offset	15 60
+	frame	data/chars/ninja_chain/3.png
+	frame	data/chars/ninja_chain/4.png
+	offset	15 59
+	frame	data/chars/ninja_chain/5.png
+	offset	15 58
+	frame	data/chars/ninja_chain/6.png
+		
+anim	jump
+	loop	0
+	delay	10
+	offset	15 59
+	bbox	3 2 32 52
+	frame	data/chars/ninja_chain/97.png
+	offset	15 62
+	frame	data/chars/ninja_chain/pain.png
+		
+anim	pain
+	loop	0
+	delay	30
+	bbox	-1 -2 42 70
+	offset	19 62
+	frame	data/chars/ninja_chain/pain.png
+		
+anim	rise
+	loop	0
+	delay	10
+	offset	18 46
+	frame	data/chars/ninja_chain/rise.png
+		
+anim	walk
+	loop	0
+	delay	10
+	offset	15 59
+	bbox	3 2 32 52
+	frame	data/chars/ninja_chain/97.png
+		
+#|edited by openBor Stats v 0.67
+		

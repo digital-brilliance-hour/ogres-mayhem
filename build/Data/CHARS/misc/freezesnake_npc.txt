@@ -1,0 +1,20 @@
+name	freezesnake_npc
+health	1
+speed   0
+type	npc
+candamage    enemy
+shadow	0
+icon	data/chars/misc/474.gif
+anim idle
+ delay 25
+ offset 42 83
+		freeze  -53  -1  190  86  0  0  0  0  220
+		move  5
+ frame data/chars/misc/474.gif
+		Attack1  0
+	frame  data/chars/misc/474.gif
+	frame  data/chars/misc/474.gif
+	frame  data/chars/misc/474.gif
+	frame  data/chars/misc/474.gif
+	frame  data/chars/misc/474.gif
+

@@ -1,0 +1,159 @@
+name	Zetsu
+health	100
+speed	9
+type	enemy
+hostile npc player
+candamage     npc player
+shadow	2
+diesound data/sounds/die2.wav
+bflash  bflash
+dust	 dust
+jumpheight 6
+icon	data/chars/zetsu/icon.png
+
+blockodds 50
+
+
+
+
+anim	attack1
+	range	0 60
+	loop	0
+	offset	18 72
+	delay	7
+	bbox	2 0 37 70
+	frame	data/chars/zetsu/109.png
+	frame	data/chars/zetsu/110.png
+	attack1	35 0 41 42 15
+	frame	data/chars/zetsu/111.png
+		
+anim	block
+	loop	0
+	delay	7
+	offset	25 64
+	attack1	28 0 31 63 20 1 1
+	bbox	3 1 47 64
+	frame	data/chars/zetsu/143.png
+	Attack1	0
+	frame	data/chars/zetsu/144.png
+	attack1	29 0 27 54 20 1
+	frame	data/chars/zetsu/144.png
+	Attack1	0
+	frame	data/chars/zetsu/145.png
+	attack1	27 0 27 66 20 1
+	frame	data/chars/zetsu/145.png
+	Attack1	0
+	frame	data/chars/zetsu/142.png
+	Attack1	26 0 38 66 20 1
+	frame	data/chars/zetsu/142.png
+	Attack1	0
+	frame	data/chars/zetsu/146.png
+	attack1	33 0 30 66 20 1
+	frame	data/chars/zetsu/146.png
+		
+anim	burn
+	loop	1
+	offset	60 116
+	delay	3
+	frame	data/chars/misc/burn1.gif
+	frame	data/chars/misc/burn2.gif
+	frame	data/chars/misc/burn3.gif
+		
+anim	fall
+	loop	0
+	offset	21 59
+	delay	15
+	bbox	8 5 37 53
+	frame	data/chars/zetsu/81.png
+	offset	29 46
+	frame	data/chars/zetsu/82.png
+	frame	data/chars/zetsu/82.png
+	frame	data/chars/zetsu/82.png
+	offset	34 22
+	frame	data/chars/zetsu/83.png
+	bbox	1 2 80 20
+	frame	data/chars/zetsu/84.png
+		
+anim	idle
+	loop	1
+	offset	27 64
+	bbox	4 0 59 64
+	frame	data/chars/zetsu/50.png
+	offset	27 62
+	frame	data/chars/zetsu/55.png
+	frame	data/chars/zetsu/56.png
+	frame	data/chars/zetsu/57.png
+		
+anim	jump
+	offset	16 73
+	bbox	2 -2 33 71
+	delay	7
+	frame	data/chars/zetsu/31.png
+	frame	data/chars/zetsu/31.png
+	frame	data/chars/zetsu/31.png
+	frame	data/chars/zetsu/31.png
+		
+anim	jumpattack
+	offset	16 73
+	bbox	2 -2 33 71
+	delay	7
+	frame	data/chars/zetsu/31.png
+	frame	data/chars/zetsu/31.png
+	frame	data/chars/zetsu/31.png
+	frame	data/chars/zetsu/31.png
+		
+anim	pain
+	loop	0
+	offset	27 77
+	bbox	0 0 52 76
+	frame	data/chars/zetsu/79.png
+		
+anim	rise
+	loop	0
+	offset	21 48
+	bbox	0 0 51 47
+	frame	data/chars/zetsu/75.png
+		
+anim	special
+	loop	0
+	delay	7
+	offset	25 64
+	attack1	28
+	bbox	3 1 47 64
+	frame	data/chars/zetsu/143.png
+	Attack1	0
+	frame	data/chars/zetsu/144.png
+	attack1	29
+	frame	data/chars/zetsu/144.png
+	Attack1	0
+	frame	data/chars/zetsu/145.png
+	attack1	27
+	frame	data/chars/zetsu/145.png
+	Attack1	0
+	frame	data/chars/zetsu/142.png
+	Attack1	26
+	frame	data/chars/zetsu/142.png
+	Attack1	0
+	frame	data/chars/zetsu/146.png
+	attack1	33
+	frame	data/chars/zetsu/146.png
+		
+anim	walk
+	loop	1
+	offset	34 58
+	delay	7
+	bbox	0 0 61 57
+	frame	data/chars/zetsu/64.png
+	frame	data/chars/zetsu/67.png
+	offset	36 58
+	frame	data/chars/zetsu/65.png
+	offset	38 58
+	frame	data/chars/zetsu/63.png
+	offset	30 58
+	delay	7
+	frame	data/chars/zetsu/62.png
+	offset	27 58
+	frame	data/chars/zetsu/66.png
+		
+#|edited by openBor Stats v 0.67
+		

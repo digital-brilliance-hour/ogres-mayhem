@@ -1,0 +1,350 @@
+name	Zaji_Player
+health	250
+speed	7
+type	player
+shadow	2
+bflash  bflash
+running	15	3	2	1
+dust	 dust
+jumpheight 6
+
+remap	data/chars/zaji/8.png data/chars/zaji/alt1.png
+remap	data/chars/zaji/8.png data/chars/zaji/alt4.png
+com  d  f  a  freespecial
+load          shuri_npc
+knife         kunai_npc
+star          shuri_npc
+icon	data/chars/zaji/icon.png
+anim idle
+	loop	1
+		offset  22  53
+		bbox  1  1  44  51
+		delay  15
+	frame  data/chars/zaji/8.png
+	frame  data/chars/zaji/9.png
+		offset  22  51
+	frame  data/chars/zaji/10.png
+	frame  data/chars/zaji/11.png
+		offset  22  49
+	frame  data/chars/zaji/12.png
+		offset  22  51
+	frame  data/chars/zaji/11.png
+	frame  data/chars/zaji/10.png
+		offset  22  53
+	frame  data/chars/zaji/9.png
+
+
+anim duck
+	loop	0
+	delay	10
+        bbox    -2 13 38 17
+		offset  19  29
+	frame	data/chars/zaji/43.png
+
+
+
+anim runattack
+range	0	80
+	loop	0
+		offset  36  55
+		delay  7
+		move  4
+	frame  data/chars/zaji/67.png
+		offset  36  62
+	frame  data/chars/zaji/63.png
+		delay  5
+	frame  data/chars/zaji/63.png
+		delay  3
+	frame  data/chars/zaji/63.png
+		offset  26  61
+		delay  7
+		move  0
+		attack1  20  -1  26  62  15  0  1  1
+	frame  data/chars/zaji/65.png
+		Attack1  0
+	frame  data/chars/zaji/65.png
+		offset  17  60
+		attack1  17  -2  51  64  20  1
+	frame  data/chars/zaji/66.png
+		offset  25  62
+		Attack1  0
+	frame  data/chars/zaji/64.png
+		offset  36  62
+	frame  data/chars/zaji/63.png
+
+
+
+
+anim jump
+	loop	0
+		offset  16  64
+	frame  data/chars/zaji/33.png
+	frame  data/chars/zaji/34.png
+	frame  data/chars/zaji/34.png
+		offset  16  59
+	frame  data/chars/zaji/35.png
+	frame  data/chars/zaji/36.png
+
+
+anim jumpattack
+	loop	0
+		delay  7
+		offset  12  54
+		bbox  2  0  27  54
+	frame	data/chars/zaji/97.png
+	frame  data/chars/zaji/98.png
+		attack1  16  0  22  57  15  0
+	frame  data/chars/zaji/99.png
+		delay  3
+		Attack1  0
+	frame  data/chars/zaji/99.png
+		delay  7
+		attack1  26  0  23  56  25  1
+	frame  data/chars/zaji/100.png
+		Attack1  0
+	frame  data/chars/zaji/101.png
+
+
+
+anim grab
+	loop	0
+        offset  20 53
+	delay	1000
+        bbox    4 0 38 51
+	frame	data/chars/zaji/69.png
+
+
+anim throw
+	loop	0
+		offset  18  63
+		delay  7
+	frame  data/chars/zaji/119.png
+		offset  19  71
+	frame  data/chars/zaji/117.png
+		offset  34  68
+	frame  data/chars/zaji/118.png
+		offset  41  51
+	frame  data/chars/zaji/124.png
+		offset  36  51
+	frame  data/chars/zaji/125.png
+
+
+anim pain
+	loop	0
+		offset  19  47
+		delay  7
+		bbox  0  0  47  47
+	frame  data/chars/zaji/57.png
+		offset  21  52
+	frame  data/chars/zaji/55.png
+
+
+anim fall
+	loop	0
+        offset  25 46
+	delay	30
+		Attack1  0
+	frame   data/chars/zaji/57.png
+		offset  25  45
+	frame  data/chars/Zaji/58.png
+		offset  25  44
+		delay  7
+	frame  data/chars/Zaji/58.png
+		offset  28  27
+	frame  data/chars/Zaji/59.png
+		offset  28  24
+	frame  data/chars/Zaji/60.png
+
+
+
+anim rise
+	loop	0
+		delay  7
+		offset  17  48
+	frame  data/chars/zaji/56.png
+
+
+anim land
+	loop	0
+		offset  17  49
+	frame  data/chars/zaji/56.png
+
+
+
+anim block
+        loop	0
+	delay	30
+	offset	21 56
+        bbox    4 1 39 46
+	frame	data/chars/zaji/52.png
+
+
+anim burn
+	loop	1
+	offset	60 116
+	delay	3
+	frame	data/chars/misc/burn1.gif
+	frame	data/chars/misc/burn2.gif
+	frame	data/chars/misc/burn3.gif
+anim  get
+	loop  0
+		delay  10
+		offset  17  49
+	frame  data/chars/zaji/56.png
+anim  grabattack
+	range  0  50
+	loop  0
+		delay  3
+		offset  20  51
+		bbox  4  0  40  53
+	frame  data/chars/zaji/71.png
+		offset  19  51
+	frame  data/chars/zaji/72.png
+		offset  19  52
+		attack1  23  -2  31  56  7
+	frame  data/chars/zaji/70.png
+		Attack1  0
+	frame  data/chars/zaji/69.png
+anim  jumpattack2
+	loop  0
+		delay  7
+		offset  13  54
+		bbox  2  0  27  54
+		attack1  2  -1  43  63  15  1
+	frame  data/chars/zaji/102.png
+		offset  13  53
+	frame  data/chars/zaji/103.png
+		offset  13  46
+	frame  data/chars/zaji/105.png
+		offset  13  44
+		attack1  2
+	frame  data/chars/zaji/106.png
+anim  walk
+	loop  1
+		offset  16  64
+		delay  15
+	frame  data/chars/zaji/18.png
+		offset  10  66
+	frame  data/chars/zaji/17.png
+		offset  14  64
+	frame  data/chars/zaji/19.png
+		offset  17  65
+	frame  data/chars/zaji/16.png
+		delay  15
+		offset  9  65
+	frame  data/chars/zaji/15.png
+		offset  10  65
+	frame  data/chars/zaji/20.png
+anim  waiting
+	loop  1
+		offset  22  53
+		bbox  1  1  44  51
+		delay  7
+	frame  data/chars/zaji/8.png
+	frame  data/chars/zaji/9.png
+anim  run
+	range  0  80
+	loop  0
+		offset  36  59
+		delay  7
+		bbox  15  0  39  59
+		loop
+			loop  1
+	frame  data/chars/zaji/21.png
+		offset  30  58
+	frame  data/chars/zaji/22.png
+		offset  34  57
+	frame  data/chars/zaji/23.png
+		offset  36  56
+	frame  data/chars/zaji/24.png
+		offset  26  55
+		bbox  8  -1  33  54
+	frame  data/chars/zaji/25.png
+		offset  30  55
+	frame  data/chars/zaji/26.png
+anim  grabattack2
+	loop  0
+	jumpframe  0  2  0  0
+		delay  3
+		offset  12  54
+		bbox  2  0  27  54
+	frame  data/chars/zaji/33.png
+	frame  data/chars/zaji/34.png
+	frame  data/chars/zaji/97.png
+	frame  data/chars/zaji/98.png
+		attack1  21  -2  27  82  15
+	frame  data/chars/zaji/99.png
+		delay  3
+		Attack1  0
+	frame  data/chars/zaji/99.png
+		attack1  22  -1  28  59  15  2
+	frame  data/chars/zaji/100.png
+		Attack1  0
+	frame  data/chars/zaji/101.png
+anim  attack1
+	range  0  50
+	loop  0
+		delay  3
+		offset  20  51
+		bbox  4  0  40  53
+		platform  20  51  -11  -11  11  11  11  35
+	frame  data/chars/zaji/71.png
+		offset  19  51
+	frame  data/chars/zaji/72.png
+		offset  19  52
+		attack1  22  -1  29  55  7
+	frame  data/chars/zaji/70.png
+		Attack1  0
+	frame  data/chars/zaji/69.png
+anim  attack2
+	range  0  50
+	loop  0
+		delay  7
+		offset  20  51
+		bbox  4  0  40  53
+	frame  data/chars/zaji/73.png
+		offset  19  51
+	frame  data/chars/zaji/74.png
+		offset  19  52
+		attack1  33  1  32  54  15
+	frame  data/chars/zaji/75.png
+anim  attack3
+	range  0  50
+	loop  0
+		delay  7
+		offset  12  65
+		bbox  4  0  40  53
+	frame  data/chars/zaji/94.png
+		offset  19  63
+	frame  data/chars/zaji/96.png
+		offset  31  65
+		attack1  33  -2  22  70  15
+	frame  data/chars/zaji/95.png
+		offset  31  79
+		attack1  35
+	frame  data/chars/zaji/92.png
+		offset  30  73
+		attack1  28  -5  28  78  19  3
+	frame  data/chars/zaji/93.png
+anim  freespecial
+	range  0  50
+	loop  0
+		delay  7
+		offset  20  55
+		bbox  4  0  40  53
+		throwframe
+			throwframe  2
+	frame  data/chars/zaji/122.png
+		offset  19  60
+		attack1  33
+	frame  data/chars/zaji/120.png
+		offset  19  58
+	frame  data/chars/zaji/121.png
+anim  jumpattack3
+	loop  0
+		delay  7
+		offset  13  54
+		bbox  2  0  27  54
+		attack1  0  1  54  56  35  1
+	frame  data/chars/zaji/53.png
+
