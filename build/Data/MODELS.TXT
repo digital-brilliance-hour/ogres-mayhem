@@ -286,21 +286,20 @@ know	Pillar		data/chars/misc/Pillar.txt
 know	Kunai		data/chars/misc/Kunai.txt
 know	Kunai_		data/chars/misc/Kunai_.txt
 Load Levelup data/chars/Misc/levelup/levelup.txt
-
 #know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
-<<<<<<< HEAD
 load ichigoTransfomation data/chars/Ichigo_Bankai/Ichigo_Bankai.txt
 know ichigoTransfomationOLD data/chars/Ichigo_Bankai/Ichigo_Bankai-old.txt
-=======
-know ichigoTransfomation data/chars/Ichigo_Bankai/Ichigo_Bankai.txt
-know ichigoTransfomationOLD data/chars/Ichigo_Bankai/Ichigo_Bankai-old.txt
+#know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
+know	NarutoClone		data/chars/Naruto/narutoclone.txt
 load kyuubiNaruto data/chars/kyuubiNaruto/kyuubiNaruto.txt
 know NarutoTransformOLD data/chars/kyuubiNaruto/narutotransform-old.txt
 know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
 know 	YusukeTransform data/chars/yusuke/yusuke-transform.txt
+load   regTensho data/chars/ichigo/regtensho.txt
+load   lgTensho data/chars/ichigo/lgtensho.txt
+load   windTwirl data/chars/ichigo/windtwirl.txt
 know kyuubiRasengan data/chars/kyuubiNaruto/kyuubirasengan.txt
 know kyuubiBomb data/chars/kyuubiNaruto/kyuubibomb.txt
 know rasenganBall data/chars/Naruto/rasenganball.txt
 know toadSmoke data/chars/Naruto/toadsmoke.txt
 
->>>>>>> 8454f6689c52b09d71ab721758156438d33bd6cc
