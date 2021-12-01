@@ -1,0 +1,5904 @@
+name SonicOLD
+type none
+shadow 3
+health 100
+
+
+anim	0010
+	delay	7
+	offset	12 33
+	frame	data/chars/Sonic/13.gif
+		
+anim	0011
+	delay	7
+	offset	14 32
+	frame	data/chars/Sonic/14.gif
+		
+anim	0170
+	delay	7
+	offset	12 37
+	frame	data/chars/Sonic/42.gif
+	offset	14 36
+	frame	data/chars/Sonic/43.gif
+	offset	14 38
+	frame	data/chars/Sonic/44.gif
+	offset	14 35
+	frame	data/chars/Sonic/45.gif
+		
+anim	0180
+	delay	7
+	offset	11 44
+	frame	data/chars/Sonic/46.gif
+	offset	18 41
+	frame	data/chars/Sonic/47.gif
+	offset	13 44
+	frame	data/chars/Sonic/48.gif
+	offset	14 43
+	frame	data/chars/Sonic/49.gif
+	offset	13 43
+	frame	data/chars/Sonic/50.gif
+		
+anim	0197
+	delay	7
+	offset	3 7
+	frame	data/chars/Sonic/2718.gif
+	offset	4 8
+	frame	data/chars/Sonic/2719.gif
+	offset	6 10
+	frame	data/chars/Sonic/2720.gif
+	offset	10 14
+	frame	data/chars/Sonic/2721.gif
+	offset	18 22
+	frame	data/chars/Sonic/2722.gif
+	offset	34 38
+	frame	data/chars/Sonic/2723.gif
+		
+anim	11000
+	delay	7
+	offset	44 51
+	frame	data/chars/Sonic/669.gif
+	offset	44 51
+	frame	data/chars/Sonic/670.gif
+	offset	44 51
+	frame	data/chars/Sonic/671.gif
+	offset	44 51
+	frame	data/chars/Sonic/672.gif
+	offset	44 51
+	frame	data/chars/Sonic/673.gif
+	offset	44 51
+	frame	data/chars/Sonic/674.gif
+	offset	44 51
+	frame	data/chars/Sonic/675.gif
+	offset	44 51
+	frame	data/chars/Sonic/676.gif
+	offset	44 51
+	frame	data/chars/Sonic/677.gif
+	offset	44 53
+	frame	data/chars/Sonic/678.gif
+	offset	44 53
+	frame	data/chars/Sonic/679.gif
+	offset	44 53
+	frame	data/chars/Sonic/680.gif
+	offset	45 59
+	frame	data/chars/Sonic/681.gif
+	offset	45 59
+	frame	data/chars/Sonic/682.gif
+	offset	44 53
+	frame	data/chars/Sonic/683.gif
+	offset	44 53
+	frame	data/chars/Sonic/684.gif
+		
+anim	11050
+	delay	7
+	offset	44 53
+	frame	data/chars/Sonic/685.gif
+	offset	44 53
+	frame	data/chars/Sonic/686.gif
+	offset	44 53
+	frame	data/chars/Sonic/687.gif
+	offset	44 53
+	frame	data/chars/Sonic/688.gif
+	offset	44 53
+	frame	data/chars/Sonic/689.gif
+	offset	44 53
+	frame	data/chars/Sonic/690.gif
+	offset	44 53
+	frame	data/chars/Sonic/691.gif
+	offset	44 53
+	frame	data/chars/Sonic/692.gif
+	offset	44 53
+	frame	data/chars/Sonic/693.gif
+	offset	44 53
+	frame	data/chars/Sonic/694.gif
+	offset	44 53
+	frame	data/chars/Sonic/695.gif
+	offset	44 53
+	frame	data/chars/Sonic/696.gif
+	offset	44 53
+	frame	data/chars/Sonic/697.gif
+	offset	44 53
+	frame	data/chars/Sonic/698.gif
+	offset	44 53
+	frame	data/chars/Sonic/699.gif
+	offset	44 53
+	frame	data/chars/Sonic/700.gif
+	offset	44 53
+	frame	data/chars/Sonic/701.gif
+	offset	44 53
+	frame	data/chars/Sonic/702.gif
+	offset	44 53
+	frame	data/chars/Sonic/703.gif
+	offset	44 53
+	frame	data/chars/Sonic/704.gif
+	offset	44 53
+	frame	data/chars/Sonic/705.gif
+	offset	44 53
+	frame	data/chars/Sonic/706.gif
+	offset	44 53
+	frame	data/chars/Sonic/707.gif
+	offset	44 53
+	frame	data/chars/Sonic/708.gif
+	offset	44 53
+	frame	data/chars/Sonic/709.gif
+	offset	44 53
+	frame	data/chars/Sonic/710.gif
+	offset	44 53
+	frame	data/chars/Sonic/711.gif
+	offset	44 53
+	frame	data/chars/Sonic/712.gif
+	offset	44 53
+	frame	data/chars/Sonic/713.gif
+	offset	44 53
+	frame	data/chars/Sonic/714.gif
+	offset	44 53
+	frame	data/chars/Sonic/715.gif
+	offset	44 53
+	frame	data/chars/Sonic/716.gif
+	offset	44 53
+	frame	data/chars/Sonic/717.gif
+	offset	44 53
+	frame	data/chars/Sonic/718.gif
+	offset	44 53
+	frame	data/chars/Sonic/719.gif
+	offset	44 53
+	frame	data/chars/Sonic/720.gif
+	offset	44 53
+	frame	data/chars/Sonic/721.gif
+	offset	44 53
+	frame	data/chars/Sonic/722.gif
+	offset	44 53
+	frame	data/chars/Sonic/723.gif
+	offset	44 53
+	frame	data/chars/Sonic/724.gif
+	offset	44 53
+	frame	data/chars/Sonic/725.gif
+	offset	44 53
+	frame	data/chars/Sonic/726.gif
+	offset	44 53
+	frame	data/chars/Sonic/727.gif
+	offset	44 53
+	frame	data/chars/Sonic/728.gif
+	offset	44 53
+	frame	data/chars/Sonic/729.gif
+	offset	44 53
+	frame	data/chars/Sonic/730.gif
+	offset	44 53
+	frame	data/chars/Sonic/731.gif
+	offset	44 53
+	frame	data/chars/Sonic/732.gif
+	offset	44 53
+	frame	data/chars/Sonic/733.gif
+	offset	44 53
+	frame	data/chars/Sonic/734.gif
+	offset	44 53
+	frame	data/chars/Sonic/735.gif
+	offset	44 53
+	frame	data/chars/Sonic/736.gif
+	offset	44 53
+	frame	data/chars/Sonic/737.gif
+	offset	44 53
+	frame	data/chars/Sonic/738.gif
+	offset	44 53
+	frame	data/chars/Sonic/739.gif
+	offset	44 53
+	frame	data/chars/Sonic/740.gif
+	offset	44 53
+	frame	data/chars/Sonic/741.gif
+	offset	44 53
+	frame	data/chars/Sonic/742.gif
+	offset	44 53
+	frame	data/chars/Sonic/743.gif
+	offset	44 53
+	frame	data/chars/Sonic/744.gif
+	offset	44 53
+	frame	data/chars/Sonic/745.gif
+	offset	44 53
+	frame	data/chars/Sonic/746.gif
+	offset	44 53
+	frame	data/chars/Sonic/747.gif
+	offset	44 53
+	frame	data/chars/Sonic/748.gif
+	offset	44 53
+	frame	data/chars/Sonic/749.gif
+	offset	44 53
+	frame	data/chars/Sonic/750.gif
+	offset	44 53
+	frame	data/chars/Sonic/751.gif
+	offset	44 53
+	frame	data/chars/Sonic/752.gif
+	offset	44 53
+	frame	data/chars/Sonic/753.gif
+	offset	44 53
+	frame	data/chars/Sonic/754.gif
+	offset	44 53
+	frame	data/chars/Sonic/755.gif
+	offset	44 53
+	frame	data/chars/Sonic/756.gif
+	offset	44 53
+	frame	data/chars/Sonic/757.gif
+	offset	44 53
+	frame	data/chars/Sonic/758.gif
+	offset	44 53
+	frame	data/chars/Sonic/759.gif
+	offset	44 53
+	frame	data/chars/Sonic/760.gif
+	offset	44 53
+	frame	data/chars/Sonic/761.gif
+	offset	44 53
+	frame	data/chars/Sonic/762.gif
+	offset	44 53
+	frame	data/chars/Sonic/763.gif
+	offset	44 53
+	frame	data/chars/Sonic/764.gif
+	offset	44 53
+	frame	data/chars/Sonic/765.gif
+	offset	44 53
+	frame	data/chars/Sonic/766.gif
+	offset	44 53
+	frame	data/chars/Sonic/767.gif
+	offset	44 53
+	frame	data/chars/Sonic/768.gif
+	offset	44 53
+	frame	data/chars/Sonic/769.gif
+	offset	44 53
+	frame	data/chars/Sonic/770.gif
+	offset	44 53
+	frame	data/chars/Sonic/771.gif
+	offset	44 53
+	frame	data/chars/Sonic/772.gif
+	offset	44 53
+	frame	data/chars/Sonic/773.gif
+	offset	44 53
+	frame	data/chars/Sonic/774.gif
+	offset	44 53
+	frame	data/chars/Sonic/775.gif
+	offset	44 53
+	frame	data/chars/Sonic/776.gif
+	offset	44 53
+	frame	data/chars/Sonic/777.gif
+	offset	44 53
+	frame	data/chars/Sonic/778.gif
+	offset	44 53
+	frame	data/chars/Sonic/779.gif
+	offset	44 53
+	frame	data/chars/Sonic/780.gif
+	offset	44 53
+	frame	data/chars/Sonic/781.gif
+	offset	44 53
+	frame	data/chars/Sonic/782.gif
+	offset	44 53
+	frame	data/chars/Sonic/783.gif
+	offset	44 53
+	frame	data/chars/Sonic/784.gif
+	offset	44 53
+	frame	data/chars/Sonic/785.gif
+	offset	44 53
+	frame	data/chars/Sonic/786.gif
+	offset	44 53
+	frame	data/chars/Sonic/787.gif
+	offset	44 53
+	frame	data/chars/Sonic/788.gif
+	offset	44 53
+	frame	data/chars/Sonic/789.gif
+	offset	44 53
+	frame	data/chars/Sonic/790.gif
+	offset	44 53
+	frame	data/chars/Sonic/791.gif
+	offset	44 53
+	frame	data/chars/Sonic/792.gif
+	offset	44 53
+	frame	data/chars/Sonic/793.gif
+	offset	44 53
+	frame	data/chars/Sonic/794.gif
+	offset	44 53
+	frame	data/chars/Sonic/795.gif
+	offset	44 53
+	frame	data/chars/Sonic/796.gif
+	offset	44 53
+	frame	data/chars/Sonic/797.gif
+	offset	44 53
+	frame	data/chars/Sonic/798.gif
+	offset	44 53
+	frame	data/chars/Sonic/799.gif
+	offset	44 53
+	frame	data/chars/Sonic/800.gif
+	offset	44 53
+	frame	data/chars/Sonic/801.gif
+	offset	44 53
+	frame	data/chars/Sonic/802.gif
+	offset	44 53
+	frame	data/chars/Sonic/803.gif
+	offset	44 53
+	frame	data/chars/Sonic/804.gif
+	offset	44 53
+	frame	data/chars/Sonic/805.gif
+	offset	44 53
+	frame	data/chars/Sonic/806.gif
+	offset	44 53
+	frame	data/chars/Sonic/807.gif
+	offset	44 53
+	frame	data/chars/Sonic/808.gif
+	offset	44 53
+	frame	data/chars/Sonic/809.gif
+	offset	44 53
+	frame	data/chars/Sonic/810.gif
+	offset	44 53
+	frame	data/chars/Sonic/811.gif
+	offset	44 53
+	frame	data/chars/Sonic/812.gif
+	offset	44 53
+	frame	data/chars/Sonic/813.gif
+	offset	44 53
+	frame	data/chars/Sonic/814.gif
+	offset	44 53
+	frame	data/chars/Sonic/815.gif
+	offset	44 53
+	frame	data/chars/Sonic/816.gif
+	offset	44 53
+	frame	data/chars/Sonic/817.gif
+	offset	44 53
+	frame	data/chars/Sonic/818.gif
+	offset	44 53
+	frame	data/chars/Sonic/819.gif
+	offset	44 53
+	frame	data/chars/Sonic/820.gif
+	offset	44 53
+	frame	data/chars/Sonic/821.gif
+	offset	44 53
+	frame	data/chars/Sonic/822.gif
+	offset	44 53
+	frame	data/chars/Sonic/823.gif
+	offset	44 53
+	frame	data/chars/Sonic/824.gif
+	offset	44 53
+	frame	data/chars/Sonic/825.gif
+	offset	44 53
+	frame	data/chars/Sonic/826.gif
+	offset	44 53
+	frame	data/chars/Sonic/827.gif
+	offset	44 53
+	frame	data/chars/Sonic/828.gif
+	offset	44 53
+	frame	data/chars/Sonic/829.gif
+	offset	44 53
+	frame	data/chars/Sonic/830.gif
+	offset	44 53
+	frame	data/chars/Sonic/831.gif
+	offset	44 53
+	frame	data/chars/Sonic/832.gif
+	offset	44 53
+	frame	data/chars/Sonic/833.gif
+	offset	44 53
+	frame	data/chars/Sonic/834.gif
+	offset	44 53
+	frame	data/chars/Sonic/835.gif
+	offset	44 53
+	frame	data/chars/Sonic/836.gif
+	offset	44 53
+	frame	data/chars/Sonic/837.gif
+	offset	44 53
+	frame	data/chars/Sonic/838.gif
+	offset	44 53
+	frame	data/chars/Sonic/839.gif
+	offset	44 53
+	frame	data/chars/Sonic/840.gif
+	offset	44 53
+	frame	data/chars/Sonic/841.gif
+	offset	44 53
+	frame	data/chars/Sonic/842.gif
+	offset	44 53
+	frame	data/chars/Sonic/843.gif
+	offset	44 53
+	frame	data/chars/Sonic/844.gif
+	offset	44 53
+	frame	data/chars/Sonic/845.gif
+	offset	44 53
+	frame	data/chars/Sonic/846.gif
+	offset	44 53
+	frame	data/chars/Sonic/847.gif
+	offset	44 53
+	frame	data/chars/Sonic/848.gif
+	offset	44 53
+	frame	data/chars/Sonic/849.gif
+	offset	44 53
+	frame	data/chars/Sonic/850.gif
+	offset	44 53
+	frame	data/chars/Sonic/851.gif
+	offset	44 53
+	frame	data/chars/Sonic/852.gif
+	offset	44 53
+	frame	data/chars/Sonic/853.gif
+	offset	44 53
+	frame	data/chars/Sonic/854.gif
+	offset	44 53
+	frame	data/chars/Sonic/855.gif
+	offset	44 53
+	frame	data/chars/Sonic/856.gif
+	offset	44 53
+	frame	data/chars/Sonic/857.gif
+	offset	44 53
+	frame	data/chars/Sonic/858.gif
+	offset	44 53
+	frame	data/chars/Sonic/859.gif
+	offset	44 53
+	frame	data/chars/Sonic/860.gif
+	offset	44 53
+	frame	data/chars/Sonic/861.gif
+	offset	44 53
+	frame	data/chars/Sonic/862.gif
+	offset	44 53
+	frame	data/chars/Sonic/863.gif
+	offset	44 53
+	frame	data/chars/Sonic/864.gif
+	offset	44 53
+	frame	data/chars/Sonic/865.gif
+	offset	44 53
+	frame	data/chars/Sonic/866.gif
+	offset	44 53
+	frame	data/chars/Sonic/867.gif
+	offset	44 53
+	frame	data/chars/Sonic/868.gif
+	offset	44 53
+	frame	data/chars/Sonic/869.gif
+	offset	44 53
+	frame	data/chars/Sonic/870.gif
+	offset	44 53
+	frame	data/chars/Sonic/871.gif
+	offset	44 53
+	frame	data/chars/Sonic/872.gif
+	offset	44 53
+	frame	data/chars/Sonic/873.gif
+	offset	44 53
+	frame	data/chars/Sonic/874.gif
+	offset	44 53
+	frame	data/chars/Sonic/875.gif
+	offset	44 53
+	frame	data/chars/Sonic/876.gif
+	offset	44 53
+	frame	data/chars/Sonic/877.gif
+	offset	44 53
+	frame	data/chars/Sonic/878.gif
+	offset	44 53
+	frame	data/chars/Sonic/879.gif
+	offset	44 53
+	frame	data/chars/Sonic/880.gif
+	offset	44 53
+	frame	data/chars/Sonic/881.gif
+	offset	44 53
+	frame	data/chars/Sonic/882.gif
+	offset	44 53
+	frame	data/chars/Sonic/883.gif
+	offset	44 53
+	frame	data/chars/Sonic/884.gif
+	offset	44 53
+	frame	data/chars/Sonic/885.gif
+	offset	44 53
+	frame	data/chars/Sonic/886.gif
+	offset	44 53
+	frame	data/chars/Sonic/887.gif
+	offset	44 53
+	frame	data/chars/Sonic/888.gif
+	offset	44 53
+	frame	data/chars/Sonic/889.gif
+	offset	44 53
+	frame	data/chars/Sonic/890.gif
+	offset	44 53
+	frame	data/chars/Sonic/891.gif
+	offset	44 53
+	frame	data/chars/Sonic/892.gif
+	offset	44 53
+	frame	data/chars/Sonic/893.gif
+	offset	44 53
+	frame	data/chars/Sonic/894.gif
+	offset	44 53
+	frame	data/chars/Sonic/895.gif
+	offset	44 53
+	frame	data/chars/Sonic/896.gif
+	offset	44 53
+	frame	data/chars/Sonic/897.gif
+	offset	44 53
+	frame	data/chars/Sonic/898.gif
+	offset	44 53
+	frame	data/chars/Sonic/899.gif
+	offset	44 53
+	frame	data/chars/Sonic/900.gif
+	offset	44 53
+	frame	data/chars/Sonic/901.gif
+	offset	44 53
+	frame	data/chars/Sonic/902.gif
+	offset	44 53
+	frame	data/chars/Sonic/903.gif
+	offset	44 53
+	frame	data/chars/Sonic/904.gif
+	offset	44 53
+	frame	data/chars/Sonic/905.gif
+	offset	44 53
+	frame	data/chars/Sonic/906.gif
+	offset	44 53
+	frame	data/chars/Sonic/907.gif
+	offset	44 53
+	frame	data/chars/Sonic/908.gif
+	offset	44 53
+	frame	data/chars/Sonic/909.gif
+	offset	44 53
+	frame	data/chars/Sonic/910.gif
+	offset	44 53
+	frame	data/chars/Sonic/911.gif
+	offset	44 53
+	frame	data/chars/Sonic/912.gif
+	offset	44 53
+	frame	data/chars/Sonic/913.gif
+	offset	44 53
+	frame	data/chars/Sonic/914.gif
+	offset	44 53
+	frame	data/chars/Sonic/915.gif
+	offset	44 53
+	frame	data/chars/Sonic/916.gif
+	offset	44 53
+	frame	data/chars/Sonic/917.gif
+	offset	44 53
+	frame	data/chars/Sonic/918.gif
+	offset	44 53
+	frame	data/chars/Sonic/919.gif
+	offset	44 53
+	frame	data/chars/Sonic/920.gif
+	offset	44 53
+	frame	data/chars/Sonic/921.gif
+	offset	44 53
+	frame	data/chars/Sonic/922.gif
+	offset	44 53
+	frame	data/chars/Sonic/923.gif
+	offset	44 53
+	frame	data/chars/Sonic/924.gif
+	offset	44 53
+	frame	data/chars/Sonic/925.gif
+	offset	44 53
+	frame	data/chars/Sonic/926.gif
+	offset	44 53
+	frame	data/chars/Sonic/927.gif
+	offset	44 53
+	frame	data/chars/Sonic/928.gif
+	offset	44 53
+	frame	data/chars/Sonic/929.gif
+	offset	44 53
+	frame	data/chars/Sonic/930.gif
+	offset	44 53
+	frame	data/chars/Sonic/931.gif
+	offset	44 53
+	frame	data/chars/Sonic/932.gif
+	offset	44 53
+	frame	data/chars/Sonic/933.gif
+	offset	44 53
+	frame	data/chars/Sonic/934.gif
+	offset	44 53
+	frame	data/chars/Sonic/935.gif
+	offset	44 53
+	frame	data/chars/Sonic/936.gif
+	offset	44 53
+	frame	data/chars/Sonic/937.gif
+	offset	44 53
+	frame	data/chars/Sonic/938.gif
+	offset	44 53
+	frame	data/chars/Sonic/939.gif
+	offset	44 53
+	frame	data/chars/Sonic/940.gif
+	offset	44 53
+	frame	data/chars/Sonic/941.gif
+	offset	44 53
+	frame	data/chars/Sonic/942.gif
+	offset	44 53
+	frame	data/chars/Sonic/943.gif
+	offset	44 53
+	frame	data/chars/Sonic/944.gif
+	offset	44 53
+	frame	data/chars/Sonic/945.gif
+	offset	44 53
+	frame	data/chars/Sonic/946.gif
+	offset	44 53
+	frame	data/chars/Sonic/947.gif
+	offset	44 53
+	frame	data/chars/Sonic/948.gif
+	offset	44 53
+	frame	data/chars/Sonic/949.gif
+	offset	44 53
+	frame	data/chars/Sonic/950.gif
+	offset	44 53
+	frame	data/chars/Sonic/951.gif
+	offset	44 53
+	frame	data/chars/Sonic/952.gif
+	offset	44 53
+	frame	data/chars/Sonic/953.gif
+	offset	44 53
+	frame	data/chars/Sonic/954.gif
+	offset	44 53
+	frame	data/chars/Sonic/955.gif
+	offset	44 53
+	frame	data/chars/Sonic/956.gif
+	offset	44 53
+	frame	data/chars/Sonic/957.gif
+	offset	44 53
+	frame	data/chars/Sonic/958.gif
+	offset	44 53
+	frame	data/chars/Sonic/959.gif
+	offset	44 53
+	frame	data/chars/Sonic/960.gif
+	offset	44 53
+	frame	data/chars/Sonic/961.gif
+	offset	44 53
+	frame	data/chars/Sonic/962.gif
+	offset	44 53
+	frame	data/chars/Sonic/963.gif
+	offset	44 53
+	frame	data/chars/Sonic/964.gif
+	offset	44 53
+	frame	data/chars/Sonic/965.gif
+	offset	44 53
+	frame	data/chars/Sonic/966.gif
+	offset	44 53
+	frame	data/chars/Sonic/967.gif
+	offset	44 53
+	frame	data/chars/Sonic/968.gif
+	offset	44 53
+	frame	data/chars/Sonic/969.gif
+	offset	44 53
+	frame	data/chars/Sonic/970.gif
+	offset	44 53
+	frame	data/chars/Sonic/971.gif
+	offset	44 53
+	frame	data/chars/Sonic/972.gif
+	offset	44 53
+	frame	data/chars/Sonic/973.gif
+	offset	44 53
+	frame	data/chars/Sonic/974.gif
+	offset	44 53
+	frame	data/chars/Sonic/975.gif
+	offset	44 53
+	frame	data/chars/Sonic/976.gif
+	offset	44 53
+	frame	data/chars/Sonic/977.gif
+	offset	44 53
+	frame	data/chars/Sonic/978.gif
+	offset	44 53
+	frame	data/chars/Sonic/979.gif
+	offset	44 53
+	frame	data/chars/Sonic/980.gif
+	offset	44 53
+	frame	data/chars/Sonic/981.gif
+	offset	44 53
+	frame	data/chars/Sonic/982.gif
+	offset	44 53
+	frame	data/chars/Sonic/983.gif
+	offset	44 53
+	frame	data/chars/Sonic/984.gif
+	offset	44 53
+	frame	data/chars/Sonic/985.gif
+	offset	44 53
+	frame	data/chars/Sonic/986.gif
+	offset	44 53
+	frame	data/chars/Sonic/987.gif
+	offset	44 53
+	frame	data/chars/Sonic/988.gif
+	offset	44 53
+	frame	data/chars/Sonic/989.gif
+	offset	44 53
+	frame	data/chars/Sonic/990.gif
+	offset	44 53
+	frame	data/chars/Sonic/991.gif
+	offset	44 53
+	frame	data/chars/Sonic/992.gif
+	offset	44 53
+	frame	data/chars/Sonic/993.gif
+	offset	44 53
+	frame	data/chars/Sonic/994.gif
+	offset	44 53
+	frame	data/chars/Sonic/995.gif
+	offset	44 53
+	frame	data/chars/Sonic/996.gif
+	offset	44 53
+	frame	data/chars/Sonic/997.gif
+	offset	44 53
+	frame	data/chars/Sonic/998.gif
+	offset	44 53
+	frame	data/chars/Sonic/999.gif
+	offset	44 53
+	frame	data/chars/Sonic/1000.gif
+	offset	44 53
+	frame	data/chars/Sonic/1001.gif
+	offset	44 53
+	frame	data/chars/Sonic/1002.gif
+	offset	44 53
+	frame	data/chars/Sonic/1003.gif
+	offset	44 53
+	frame	data/chars/Sonic/1004.gif
+	offset	44 53
+	frame	data/chars/Sonic/1005.gif
+	offset	44 53
+	frame	data/chars/Sonic/1006.gif
+	offset	44 53
+	frame	data/chars/Sonic/1007.gif
+	offset	44 53
+	frame	data/chars/Sonic/1008.gif
+	offset	44 53
+	frame	data/chars/Sonic/1009.gif
+	offset	44 53
+	frame	data/chars/Sonic/1010.gif
+	offset	44 53
+	frame	data/chars/Sonic/1011.gif
+	offset	44 53
+	frame	data/chars/Sonic/1012.gif
+	offset	44 53
+	frame	data/chars/Sonic/1013.gif
+	offset	44 53
+	frame	data/chars/Sonic/1014.gif
+	offset	44 53
+	frame	data/chars/Sonic/1015.gif
+	offset	44 53
+	frame	data/chars/Sonic/1016.gif
+	offset	44 53
+	frame	data/chars/Sonic/1017.gif
+	offset	44 53
+	frame	data/chars/Sonic/1018.gif
+	offset	44 53
+	frame	data/chars/Sonic/1019.gif
+	offset	44 53
+	frame	data/chars/Sonic/1020.gif
+	offset	44 53
+	frame	data/chars/Sonic/1021.gif
+	offset	44 53
+	frame	data/chars/Sonic/1022.gif
+	offset	44 53
+	frame	data/chars/Sonic/1023.gif
+	offset	44 53
+	frame	data/chars/Sonic/1024.gif
+	offset	44 53
+	frame	data/chars/Sonic/1025.gif
+	offset	44 53
+	frame	data/chars/Sonic/1026.gif
+	offset	44 53
+	frame	data/chars/Sonic/1027.gif
+	offset	44 53
+	frame	data/chars/Sonic/1028.gif
+	offset	44 53
+	frame	data/chars/Sonic/1029.gif
+	offset	44 53
+	frame	data/chars/Sonic/1030.gif
+	offset	44 53
+	frame	data/chars/Sonic/1031.gif
+	offset	44 53
+	frame	data/chars/Sonic/1032.gif
+	offset	44 53
+	frame	data/chars/Sonic/1033.gif
+	offset	44 53
+	frame	data/chars/Sonic/1034.gif
+	offset	44 53
+	frame	data/chars/Sonic/1035.gif
+	offset	44 53
+	frame	data/chars/Sonic/1036.gif
+	offset	44 53
+	frame	data/chars/Sonic/1037.gif
+	offset	44 53
+	frame	data/chars/Sonic/1038.gif
+	offset	44 53
+	frame	data/chars/Sonic/1039.gif
+	offset	44 53
+	frame	data/chars/Sonic/1040.gif
+	offset	44 53
+	frame	data/chars/Sonic/1041.gif
+	offset	44 53
+	frame	data/chars/Sonic/1042.gif
+	offset	44 53
+	frame	data/chars/Sonic/1043.gif
+	offset	44 53
+	frame	data/chars/Sonic/1044.gif
+	offset	44 53
+	frame	data/chars/Sonic/1045.gif
+	offset	44 53
+	frame	data/chars/Sonic/1046.gif
+	offset	44 53
+	frame	data/chars/Sonic/1047.gif
+	offset	44 53
+	frame	data/chars/Sonic/1048.gif
+	offset	44 53
+	frame	data/chars/Sonic/1049.gif
+	offset	44 53
+	frame	data/chars/Sonic/1050.gif
+	offset	44 53
+	frame	data/chars/Sonic/1051.gif
+	offset	44 53
+	frame	data/chars/Sonic/1052.gif
+	offset	44 53
+	frame	data/chars/Sonic/1053.gif
+	offset	44 53
+	frame	data/chars/Sonic/1054.gif
+	offset	44 53
+	frame	data/chars/Sonic/1055.gif
+	offset	44 53
+	frame	data/chars/Sonic/1056.gif
+	offset	44 53
+	frame	data/chars/Sonic/1057.gif
+	offset	44 53
+	frame	data/chars/Sonic/1058.gif
+	offset	44 53
+	frame	data/chars/Sonic/1059.gif
+	offset	44 53
+	frame	data/chars/Sonic/1060.gif
+	offset	44 53
+	frame	data/chars/Sonic/1061.gif
+	offset	44 53
+	frame	data/chars/Sonic/1062.gif
+	offset	44 53
+	frame	data/chars/Sonic/1063.gif
+	offset	44 53
+	frame	data/chars/Sonic/1064.gif
+	offset	44 53
+	frame	data/chars/Sonic/1065.gif
+	offset	44 53
+	frame	data/chars/Sonic/1066.gif
+	offset	44 53
+	frame	data/chars/Sonic/1067.gif
+	offset	44 53
+	frame	data/chars/Sonic/1068.gif
+	offset	44 53
+	frame	data/chars/Sonic/1069.gif
+	offset	44 53
+	frame	data/chars/Sonic/1070.gif
+	offset	44 53
+	frame	data/chars/Sonic/1071.gif
+	offset	44 53
+	frame	data/chars/Sonic/1072.gif
+	offset	44 53
+	frame	data/chars/Sonic/1073.gif
+	offset	44 53
+	frame	data/chars/Sonic/1074.gif
+	offset	44 53
+	frame	data/chars/Sonic/1075.gif
+	offset	44 53
+	frame	data/chars/Sonic/1076.gif
+	offset	44 53
+	frame	data/chars/Sonic/1077.gif
+	offset	44 53
+	frame	data/chars/Sonic/1078.gif
+	offset	44 53
+	frame	data/chars/Sonic/1079.gif
+	offset	44 53
+	frame	data/chars/Sonic/1080.gif
+	offset	44 53
+	frame	data/chars/Sonic/1081.gif
+	offset	44 53
+	frame	data/chars/Sonic/1082.gif
+	offset	44 53
+	frame	data/chars/Sonic/1083.gif
+	offset	44 53
+	frame	data/chars/Sonic/1084.gif
+	offset	44 53
+	frame	data/chars/Sonic/1085.gif
+	offset	44 53
+	frame	data/chars/Sonic/1086.gif
+	offset	44 53
+	frame	data/chars/Sonic/1087.gif
+	offset	44 53
+	frame	data/chars/Sonic/1088.gif
+	offset	44 53
+	frame	data/chars/Sonic/1089.gif
+	offset	44 53
+	frame	data/chars/Sonic/1090.gif
+	offset	44 53
+	frame	data/chars/Sonic/1091.gif
+	offset	44 53
+	frame	data/chars/Sonic/1092.gif
+	offset	44 53
+	frame	data/chars/Sonic/1093.gif
+	offset	44 53
+	frame	data/chars/Sonic/1094.gif
+	offset	44 53
+	frame	data/chars/Sonic/1095.gif
+	offset	44 53
+	frame	data/chars/Sonic/1096.gif
+	offset	44 53
+	frame	data/chars/Sonic/1097.gif
+	offset	44 53
+	frame	data/chars/Sonic/1098.gif
+	offset	44 53
+	frame	data/chars/Sonic/1099.gif
+	offset	44 53
+	frame	data/chars/Sonic/1100.gif
+	offset	44 53
+	frame	data/chars/Sonic/1101.gif
+	offset	44 53
+	frame	data/chars/Sonic/1102.gif
+	offset	44 53
+	frame	data/chars/Sonic/1103.gif
+	offset	44 53
+	frame	data/chars/Sonic/1104.gif
+	offset	44 53
+	frame	data/chars/Sonic/1105.gif
+	offset	44 53
+	frame	data/chars/Sonic/1106.gif
+	offset	44 53
+	frame	data/chars/Sonic/1107.gif
+	offset	44 53
+	frame	data/chars/Sonic/1108.gif
+	offset	44 53
+	frame	data/chars/Sonic/1109.gif
+	offset	44 53
+	frame	data/chars/Sonic/1110.gif
+	offset	44 53
+	frame	data/chars/Sonic/1111.gif
+	offset	44 53
+	frame	data/chars/Sonic/1112.gif
+	offset	44 53
+	frame	data/chars/Sonic/1113.gif
+	offset	44 53
+	frame	data/chars/Sonic/1114.gif
+	offset	44 53
+	frame	data/chars/Sonic/1115.gif
+	offset	44 53
+	frame	data/chars/Sonic/1116.gif
+	offset	44 53
+	frame	data/chars/Sonic/1117.gif
+	offset	44 53
+	frame	data/chars/Sonic/1118.gif
+	offset	44 53
+	frame	data/chars/Sonic/1119.gif
+	offset	44 53
+	frame	data/chars/Sonic/1120.gif
+	offset	44 53
+	frame	data/chars/Sonic/1121.gif
+	offset	44 53
+	frame	data/chars/Sonic/1122.gif
+	offset	44 53
+	frame	data/chars/Sonic/1123.gif
+	offset	44 53
+	frame	data/chars/Sonic/1124.gif
+	offset	44 53
+	frame	data/chars/Sonic/1125.gif
+	offset	44 53
+	frame	data/chars/Sonic/1126.gif
+	offset	44 53
+	frame	data/chars/Sonic/1127.gif
+	offset	44 53
+	frame	data/chars/Sonic/1128.gif
+	offset	44 53
+	frame	data/chars/Sonic/1129.gif
+	offset	44 53
+	frame	data/chars/Sonic/1130.gif
+	offset	44 53
+	frame	data/chars/Sonic/1131.gif
+	offset	44 53
+	frame	data/chars/Sonic/1132.gif
+	offset	44 53
+	frame	data/chars/Sonic/1133.gif
+	offset	44 53
+	frame	data/chars/Sonic/1134.gif
+	offset	44 53
+	frame	data/chars/Sonic/1135.gif
+	offset	44 53
+	frame	data/chars/Sonic/1136.gif
+	offset	44 53
+	frame	data/chars/Sonic/1137.gif
+	offset	44 53
+	frame	data/chars/Sonic/1138.gif
+	offset	44 53
+	frame	data/chars/Sonic/1139.gif
+	offset	44 53
+	frame	data/chars/Sonic/1140.gif
+	offset	44 53
+	frame	data/chars/Sonic/1141.gif
+	offset	44 53
+	frame	data/chars/Sonic/1142.gif
+	offset	44 53
+	frame	data/chars/Sonic/1143.gif
+	offset	44 53
+	frame	data/chars/Sonic/1144.gif
+	offset	44 53
+	frame	data/chars/Sonic/1145.gif
+	offset	44 53
+	frame	data/chars/Sonic/1146.gif
+	offset	44 53
+	frame	data/chars/Sonic/1147.gif
+	offset	44 53
+	frame	data/chars/Sonic/1148.gif
+	offset	44 53
+	frame	data/chars/Sonic/1149.gif
+	offset	44 53
+	frame	data/chars/Sonic/1150.gif
+	offset	44 53
+	frame	data/chars/Sonic/1151.gif
+	offset	44 53
+	frame	data/chars/Sonic/1152.gif
+	offset	44 53
+	frame	data/chars/Sonic/1153.gif
+	offset	44 53
+	frame	data/chars/Sonic/1154.gif
+	offset	44 53
+	frame	data/chars/Sonic/1155.gif
+	offset	44 53
+	frame	data/chars/Sonic/1156.gif
+	offset	44 53
+	frame	data/chars/Sonic/1157.gif
+	offset	44 53
+	frame	data/chars/Sonic/1158.gif
+	offset	44 53
+	frame	data/chars/Sonic/1159.gif
+	offset	44 53
+	frame	data/chars/Sonic/1160.gif
+	offset	44 53
+	frame	data/chars/Sonic/1161.gif
+	offset	44 53
+	frame	data/chars/Sonic/1162.gif
+	offset	44 53
+	frame	data/chars/Sonic/1163.gif
+	offset	44 53
+	frame	data/chars/Sonic/1164.gif
+	offset	44 53
+	frame	data/chars/Sonic/1165.gif
+	offset	44 53
+	frame	data/chars/Sonic/1166.gif
+	offset	44 53
+	frame	data/chars/Sonic/1167.gif
+	offset	44 53
+	frame	data/chars/Sonic/1168.gif
+	offset	44 53
+	frame	data/chars/Sonic/1169.gif
+		
+anim	11200
+	delay	7
+	offset	87 63
+	frame	data/chars/Sonic/1170.gif
+	offset	87 63
+	frame	data/chars/Sonic/1171.gif
+	offset	87 63
+	frame	data/chars/Sonic/1172.gif
+	offset	87 63
+	frame	data/chars/Sonic/1173.gif
+	offset	87 63
+	frame	data/chars/Sonic/1174.gif
+	offset	87 63
+	frame	data/chars/Sonic/1175.gif
+	offset	87 63
+	frame	data/chars/Sonic/1176.gif
+	offset	87 63
+	frame	data/chars/Sonic/1177.gif
+	offset	87 63
+	frame	data/chars/Sonic/1178.gif
+	offset	87 63
+	frame	data/chars/Sonic/1179.gif
+	offset	87 63
+	frame	data/chars/Sonic/1180.gif
+	offset	87 63
+	frame	data/chars/Sonic/1181.gif
+	offset	87 63
+	frame	data/chars/Sonic/1182.gif
+	offset	87 63
+	frame	data/chars/Sonic/1183.gif
+	offset	87 63
+	frame	data/chars/Sonic/1184.gif
+	offset	87 63
+	frame	data/chars/Sonic/1185.gif
+	offset	87 63
+	frame	data/chars/Sonic/1186.gif
+	offset	87 63
+	frame	data/chars/Sonic/1187.gif
+	offset	87 63
+	frame	data/chars/Sonic/1188.gif
+	offset	87 63
+	frame	data/chars/Sonic/1189.gif
+	offset	87 63
+	frame	data/chars/Sonic/1190.gif
+	offset	87 63
+	frame	data/chars/Sonic/1191.gif
+	offset	87 63
+	frame	data/chars/Sonic/1192.gif
+	offset	87 63
+	frame	data/chars/Sonic/1193.gif
+	offset	87 63
+	frame	data/chars/Sonic/1194.gif
+	offset	87 63
+	frame	data/chars/Sonic/1195.gif
+	offset	87 63
+	frame	data/chars/Sonic/1196.gif
+	offset	87 63
+	frame	data/chars/Sonic/1197.gif
+	offset	87 63
+	frame	data/chars/Sonic/1198.gif
+	offset	87 63
+	frame	data/chars/Sonic/1199.gif
+	offset	87 63
+	frame	data/chars/Sonic/1200.gif
+	offset	87 63
+	frame	data/chars/Sonic/1201.gif
+	offset	87 63
+	frame	data/chars/Sonic/1202.gif
+	offset	87 63
+	frame	data/chars/Sonic/1203.gif
+	offset	87 63
+	frame	data/chars/Sonic/1204.gif
+	offset	87 63
+	frame	data/chars/Sonic/1205.gif
+	offset	87 63
+	frame	data/chars/Sonic/1206.gif
+	offset	87 63
+	frame	data/chars/Sonic/1207.gif
+	offset	87 63
+	frame	data/chars/Sonic/1208.gif
+	offset	87 63
+	frame	data/chars/Sonic/1209.gif
+	offset	87 63
+	frame	data/chars/Sonic/1210.gif
+	offset	87 63
+	frame	data/chars/Sonic/1211.gif
+	offset	87 63
+	frame	data/chars/Sonic/1212.gif
+	offset	87 63
+	frame	data/chars/Sonic/1213.gif
+	offset	87 63
+	frame	data/chars/Sonic/1214.gif
+	offset	87 63
+	frame	data/chars/Sonic/1215.gif
+	offset	87 63
+	frame	data/chars/Sonic/1216.gif
+	offset	87 63
+	frame	data/chars/Sonic/1217.gif
+	offset	87 63
+	frame	data/chars/Sonic/1218.gif
+	offset	87 63
+	frame	data/chars/Sonic/1219.gif
+	offset	87 63
+	frame	data/chars/Sonic/1220.gif
+	offset	87 63
+	frame	data/chars/Sonic/1221.gif
+	offset	87 63
+	frame	data/chars/Sonic/1222.gif
+	offset	87 63
+	frame	data/chars/Sonic/1223.gif
+	offset	87 63
+	frame	data/chars/Sonic/1224.gif
+	offset	87 63
+	frame	data/chars/Sonic/1225.gif
+	offset	87 63
+	frame	data/chars/Sonic/1226.gif
+	offset	87 63
+	frame	data/chars/Sonic/1227.gif
+	offset	87 63
+	frame	data/chars/Sonic/1228.gif
+	offset	87 63
+	frame	data/chars/Sonic/1229.gif
+	offset	87 63
+	frame	data/chars/Sonic/1230.gif
+	offset	87 63
+	frame	data/chars/Sonic/1231.gif
+	offset	87 63
+	frame	data/chars/Sonic/1232.gif
+	offset	87 63
+	frame	data/chars/Sonic/1233.gif
+	offset	87 63
+	frame	data/chars/Sonic/1234.gif
+	offset	87 63
+	frame	data/chars/Sonic/1235.gif
+	offset	87 63
+	frame	data/chars/Sonic/1236.gif
+	offset	87 63
+	frame	data/chars/Sonic/1237.gif
+	offset	87 63
+	frame	data/chars/Sonic/1238.gif
+	offset	87 63
+	frame	data/chars/Sonic/1239.gif
+	offset	87 63
+	frame	data/chars/Sonic/1240.gif
+	offset	87 63
+	frame	data/chars/Sonic/1241.gif
+	offset	87 63
+	frame	data/chars/Sonic/1242.gif
+	offset	87 63
+	frame	data/chars/Sonic/1243.gif
+	offset	87 63
+	frame	data/chars/Sonic/1244.gif
+	offset	87 63
+	frame	data/chars/Sonic/1245.gif
+	offset	87 63
+	frame	data/chars/Sonic/1246.gif
+	offset	87 63
+	frame	data/chars/Sonic/1247.gif
+	offset	87 63
+	frame	data/chars/Sonic/1248.gif
+	offset	87 63
+	frame	data/chars/Sonic/1249.gif
+	offset	87 63
+	frame	data/chars/Sonic/1250.gif
+	offset	87 63
+	frame	data/chars/Sonic/1251.gif
+	offset	87 63
+	frame	data/chars/Sonic/1252.gif
+	offset	87 63
+	frame	data/chars/Sonic/1253.gif
+	offset	87 63
+	frame	data/chars/Sonic/1254.gif
+	offset	87 63
+	frame	data/chars/Sonic/1255.gif
+	offset	87 63
+	frame	data/chars/Sonic/1256.gif
+	offset	87 63
+	frame	data/chars/Sonic/1257.gif
+	offset	87 63
+	frame	data/chars/Sonic/1258.gif
+	offset	87 63
+	frame	data/chars/Sonic/1259.gif
+	offset	87 63
+	frame	data/chars/Sonic/1260.gif
+	offset	87 63
+	frame	data/chars/Sonic/1261.gif
+	offset	87 63
+	frame	data/chars/Sonic/1262.gif
+	offset	87 63
+	frame	data/chars/Sonic/1263.gif
+	offset	87 63
+	frame	data/chars/Sonic/1264.gif
+	offset	87 63
+	frame	data/chars/Sonic/1265.gif
+	offset	87 63
+	frame	data/chars/Sonic/1266.gif
+	offset	87 63
+	frame	data/chars/Sonic/1267.gif
+	offset	87 63
+	frame	data/chars/Sonic/1268.gif
+	offset	87 63
+	frame	data/chars/Sonic/1269.gif
+	offset	87 63
+	frame	data/chars/Sonic/1270.gif
+	offset	87 63
+	frame	data/chars/Sonic/1271.gif
+	offset	87 63
+	frame	data/chars/Sonic/1272.gif
+	offset	87 63
+	frame	data/chars/Sonic/1273.gif
+	offset	87 63
+	frame	data/chars/Sonic/1274.gif
+	offset	87 63
+	frame	data/chars/Sonic/1275.gif
+	offset	87 63
+	frame	data/chars/Sonic/1276.gif
+	offset	87 63
+	frame	data/chars/Sonic/1277.gif
+	offset	87 63
+	frame	data/chars/Sonic/1278.gif
+	offset	87 63
+	frame	data/chars/Sonic/1279.gif
+	offset	87 63
+	frame	data/chars/Sonic/1280.gif
+	offset	87 63
+	frame	data/chars/Sonic/1281.gif
+	offset	87 63
+	frame	data/chars/Sonic/1282.gif
+	offset	87 63
+	frame	data/chars/Sonic/1283.gif
+	offset	87 63
+	frame	data/chars/Sonic/1284.gif
+	offset	87 63
+	frame	data/chars/Sonic/1285.gif
+	offset	87 63
+	frame	data/chars/Sonic/1286.gif
+	offset	87 63
+	frame	data/chars/Sonic/1287.gif
+	offset	87 63
+	frame	data/chars/Sonic/1288.gif
+	offset	87 63
+	frame	data/chars/Sonic/1289.gif
+	offset	87 63
+	frame	data/chars/Sonic/1290.gif
+	offset	87 63
+	frame	data/chars/Sonic/1291.gif
+	offset	87 63
+	frame	data/chars/Sonic/1292.gif
+	offset	87 63
+	frame	data/chars/Sonic/1293.gif
+	offset	87 63
+	frame	data/chars/Sonic/1294.gif
+	offset	87 63
+	frame	data/chars/Sonic/1295.gif
+	offset	87 63
+	frame	data/chars/Sonic/1296.gif
+	offset	87 63
+	frame	data/chars/Sonic/1297.gif
+	offset	87 63
+	frame	data/chars/Sonic/1298.gif
+	offset	87 63
+	frame	data/chars/Sonic/1299.gif
+	offset	87 63
+	frame	data/chars/Sonic/1300.gif
+	offset	87 63
+	frame	data/chars/Sonic/1301.gif
+	offset	87 63
+	frame	data/chars/Sonic/1302.gif
+	offset	87 63
+	frame	data/chars/Sonic/1303.gif
+	offset	87 63
+	frame	data/chars/Sonic/1304.gif
+	offset	87 63
+	frame	data/chars/Sonic/1305.gif
+	offset	87 63
+	frame	data/chars/Sonic/1306.gif
+	offset	87 63
+	frame	data/chars/Sonic/1307.gif
+	offset	87 63
+	frame	data/chars/Sonic/1308.gif
+	offset	87 63
+	frame	data/chars/Sonic/1309.gif
+	offset	87 63
+	frame	data/chars/Sonic/1310.gif
+	offset	87 63
+	frame	data/chars/Sonic/1311.gif
+	offset	87 63
+	frame	data/chars/Sonic/1312.gif
+	offset	87 63
+	frame	data/chars/Sonic/1313.gif
+	offset	87 63
+	frame	data/chars/Sonic/1314.gif
+	offset	87 63
+	frame	data/chars/Sonic/1315.gif
+	offset	87 63
+	frame	data/chars/Sonic/1316.gif
+	offset	87 63
+	frame	data/chars/Sonic/1317.gif
+	offset	87 63
+	frame	data/chars/Sonic/1318.gif
+	offset	87 63
+	frame	data/chars/Sonic/1319.gif
+	offset	87 63
+	frame	data/chars/Sonic/1320.gif
+	offset	87 63
+	frame	data/chars/Sonic/1321.gif
+	offset	87 63
+	frame	data/chars/Sonic/1322.gif
+	offset	87 63
+	frame	data/chars/Sonic/1323.gif
+	offset	87 63
+	frame	data/chars/Sonic/1324.gif
+	offset	87 63
+	frame	data/chars/Sonic/1325.gif
+	offset	87 63
+	frame	data/chars/Sonic/1326.gif
+	offset	87 63
+	frame	data/chars/Sonic/1327.gif
+	offset	87 63
+	frame	data/chars/Sonic/1328.gif
+	offset	87 63
+	frame	data/chars/Sonic/1329.gif
+	offset	87 63
+	frame	data/chars/Sonic/1330.gif
+	offset	87 63
+	frame	data/chars/Sonic/1331.gif
+	offset	87 63
+	frame	data/chars/Sonic/1332.gif
+	offset	87 63
+	frame	data/chars/Sonic/1333.gif
+	offset	87 63
+	frame	data/chars/Sonic/1334.gif
+	offset	87 63
+	frame	data/chars/Sonic/1335.gif
+	offset	87 63
+	frame	data/chars/Sonic/1336.gif
+	offset	87 63
+	frame	data/chars/Sonic/1337.gif
+	offset	87 63
+	frame	data/chars/Sonic/1338.gif
+	offset	87 63
+	frame	data/chars/Sonic/1339.gif
+	offset	87 63
+	frame	data/chars/Sonic/1340.gif
+	offset	87 63
+	frame	data/chars/Sonic/1341.gif
+	offset	87 63
+	frame	data/chars/Sonic/1342.gif
+	offset	87 63
+	frame	data/chars/Sonic/1343.gif
+	offset	87 63
+	frame	data/chars/Sonic/1344.gif
+	offset	87 63
+	frame	data/chars/Sonic/1345.gif
+	offset	87 63
+	frame	data/chars/Sonic/1346.gif
+	offset	87 63
+	frame	data/chars/Sonic/1347.gif
+	offset	87 63
+	frame	data/chars/Sonic/1348.gif
+	offset	87 63
+	frame	data/chars/Sonic/1349.gif
+	offset	87 63
+	frame	data/chars/Sonic/1350.gif
+	offset	87 63
+	frame	data/chars/Sonic/1351.gif
+	offset	87 63
+	frame	data/chars/Sonic/1352.gif
+	offset	87 63
+	frame	data/chars/Sonic/1353.gif
+	offset	87 63
+	frame	data/chars/Sonic/1354.gif
+	offset	87 63
+	frame	data/chars/Sonic/1355.gif
+	offset	87 63
+	frame	data/chars/Sonic/1356.gif
+	offset	87 63
+	frame	data/chars/Sonic/1357.gif
+	offset	87 63
+	frame	data/chars/Sonic/1358.gif
+	offset	87 63
+	frame	data/chars/Sonic/1359.gif
+	offset	87 63
+	frame	data/chars/Sonic/1360.gif
+	offset	87 63
+	frame	data/chars/Sonic/1361.gif
+	offset	87 63
+	frame	data/chars/Sonic/1362.gif
+	offset	87 63
+	frame	data/chars/Sonic/1363.gif
+	offset	87 63
+	frame	data/chars/Sonic/1364.gif
+	offset	87 63
+	frame	data/chars/Sonic/1365.gif
+	offset	87 63
+	frame	data/chars/Sonic/1366.gif
+	offset	87 63
+	frame	data/chars/Sonic/1367.gif
+	offset	87 63
+	frame	data/chars/Sonic/1368.gif
+	offset	87 63
+	frame	data/chars/Sonic/1369.gif
+	offset	87 63
+	frame	data/chars/Sonic/1370.gif
+	offset	87 63
+	frame	data/chars/Sonic/1371.gif
+	offset	87 63
+	frame	data/chars/Sonic/1372.gif
+	offset	87 63
+	frame	data/chars/Sonic/1373.gif
+	offset	87 63
+	frame	data/chars/Sonic/1374.gif
+	offset	87 63
+	frame	data/chars/Sonic/1375.gif
+	offset	87 63
+	frame	data/chars/Sonic/1376.gif
+	offset	87 63
+	frame	data/chars/Sonic/1377.gif
+	offset	87 63
+	frame	data/chars/Sonic/1378.gif
+	offset	87 63
+	frame	data/chars/Sonic/1379.gif
+	offset	87 63
+	frame	data/chars/Sonic/1380.gif
+	offset	87 63
+	frame	data/chars/Sonic/1381.gif
+	offset	87 63
+	frame	data/chars/Sonic/1382.gif
+	offset	87 63
+	frame	data/chars/Sonic/1383.gif
+	offset	87 63
+	frame	data/chars/Sonic/1384.gif
+	offset	87 63
+	frame	data/chars/Sonic/1385.gif
+	offset	87 63
+	frame	data/chars/Sonic/1386.gif
+	offset	87 63
+	frame	data/chars/Sonic/1387.gif
+	offset	87 63
+	frame	data/chars/Sonic/1388.gif
+	offset	87 63
+	frame	data/chars/Sonic/1389.gif
+	offset	87 63
+	frame	data/chars/Sonic/1390.gif
+	offset	87 63
+	frame	data/chars/Sonic/1391.gif
+	offset	87 63
+	frame	data/chars/Sonic/1392.gif
+	offset	87 63
+	frame	data/chars/Sonic/1393.gif
+	offset	87 63
+	frame	data/chars/Sonic/1394.gif
+	offset	87 63
+	frame	data/chars/Sonic/1395.gif
+	offset	87 63
+	frame	data/chars/Sonic/1396.gif
+	offset	87 63
+	frame	data/chars/Sonic/1397.gif
+	offset	87 63
+	frame	data/chars/Sonic/1398.gif
+	offset	87 63
+	frame	data/chars/Sonic/1399.gif
+	offset	87 63
+	frame	data/chars/Sonic/1400.gif
+	offset	87 63
+	frame	data/chars/Sonic/1401.gif
+	offset	87 63
+	frame	data/chars/Sonic/1402.gif
+	offset	87 63
+	frame	data/chars/Sonic/1403.gif
+	offset	87 63
+	frame	data/chars/Sonic/1404.gif
+	offset	87 63
+	frame	data/chars/Sonic/1405.gif
+	offset	87 63
+	frame	data/chars/Sonic/1406.gif
+	offset	87 63
+	frame	data/chars/Sonic/1407.gif
+	offset	87 63
+	frame	data/chars/Sonic/1408.gif
+	offset	87 63
+	frame	data/chars/Sonic/1409.gif
+	offset	87 63
+	frame	data/chars/Sonic/1410.gif
+	offset	87 63
+	frame	data/chars/Sonic/1411.gif
+	offset	87 63
+	frame	data/chars/Sonic/1412.gif
+	offset	87 63
+	frame	data/chars/Sonic/1413.gif
+	offset	87 63
+	frame	data/chars/Sonic/1414.gif
+	offset	87 63
+	frame	data/chars/Sonic/1415.gif
+	offset	87 63
+	frame	data/chars/Sonic/1416.gif
+	offset	87 63
+	frame	data/chars/Sonic/1417.gif
+	offset	87 63
+	frame	data/chars/Sonic/1418.gif
+	offset	87 63
+	frame	data/chars/Sonic/1419.gif
+	offset	87 63
+	frame	data/chars/Sonic/1420.gif
+	offset	87 63
+	frame	data/chars/Sonic/1421.gif
+	offset	87 63
+	frame	data/chars/Sonic/1422.gif
+	offset	87 63
+	frame	data/chars/Sonic/1423.gif
+	offset	87 63
+	frame	data/chars/Sonic/1424.gif
+	offset	87 63
+	frame	data/chars/Sonic/1425.gif
+	offset	87 63
+	frame	data/chars/Sonic/1426.gif
+	offset	87 63
+	frame	data/chars/Sonic/1427.gif
+	offset	87 63
+	frame	data/chars/Sonic/1428.gif
+	offset	87 63
+	frame	data/chars/Sonic/1429.gif
+	offset	87 63
+	frame	data/chars/Sonic/1430.gif
+	offset	87 63
+	frame	data/chars/Sonic/1431.gif
+	offset	87 63
+	frame	data/chars/Sonic/1432.gif
+	offset	87 63
+	frame	data/chars/Sonic/1433.gif
+	offset	87 63
+	frame	data/chars/Sonic/1434.gif
+	offset	87 63
+	frame	data/chars/Sonic/1435.gif
+	offset	87 63
+	frame	data/chars/Sonic/1436.gif
+	offset	87 63
+	frame	data/chars/Sonic/1437.gif
+	offset	87 63
+	frame	data/chars/Sonic/1438.gif
+	offset	87 63
+	frame	data/chars/Sonic/1439.gif
+	offset	87 63
+	frame	data/chars/Sonic/1440.gif
+	offset	87 63
+	frame	data/chars/Sonic/1441.gif
+	offset	87 63
+	frame	data/chars/Sonic/1442.gif
+	offset	87 63
+	frame	data/chars/Sonic/1443.gif
+	offset	87 63
+	frame	data/chars/Sonic/1444.gif
+	offset	87 63
+	frame	data/chars/Sonic/1445.gif
+	offset	87 63
+	frame	data/chars/Sonic/1446.gif
+	offset	87 63
+	frame	data/chars/Sonic/1447.gif
+	offset	87 63
+	frame	data/chars/Sonic/1448.gif
+	offset	87 63
+	frame	data/chars/Sonic/1449.gif
+	offset	87 63
+	frame	data/chars/Sonic/1450.gif
+	offset	87 63
+	frame	data/chars/Sonic/1451.gif
+	offset	87 63
+	frame	data/chars/Sonic/1452.gif
+	offset	87 63
+	frame	data/chars/Sonic/1453.gif
+	offset	87 63
+	frame	data/chars/Sonic/1454.gif
+	offset	87 63
+	frame	data/chars/Sonic/1455.gif
+	offset	87 63
+	frame	data/chars/Sonic/1456.gif
+	offset	87 63
+	frame	data/chars/Sonic/1457.gif
+	offset	87 63
+	frame	data/chars/Sonic/1458.gif
+	offset	87 63
+	frame	data/chars/Sonic/1459.gif
+	offset	87 63
+	frame	data/chars/Sonic/1460.gif
+	offset	87 63
+	frame	data/chars/Sonic/1461.gif
+	offset	87 63
+	frame	data/chars/Sonic/1462.gif
+	offset	87 63
+	frame	data/chars/Sonic/1463.gif
+	offset	87 63
+	frame	data/chars/Sonic/1464.gif
+	offset	87 63
+	frame	data/chars/Sonic/1465.gif
+	offset	87 63
+	frame	data/chars/Sonic/1466.gif
+	offset	87 63
+	frame	data/chars/Sonic/1467.gif
+	offset	87 63
+	frame	data/chars/Sonic/1468.gif
+	offset	87 63
+	frame	data/chars/Sonic/1469.gif
+	offset	87 63
+	frame	data/chars/Sonic/1470.gif
+	offset	87 63
+	frame	data/chars/Sonic/1471.gif
+	offset	87 63
+	frame	data/chars/Sonic/1472.gif
+	offset	87 63
+	frame	data/chars/Sonic/1473.gif
+	offset	87 63
+	frame	data/chars/Sonic/1474.gif
+	offset	87 63
+	frame	data/chars/Sonic/1475.gif
+	offset	87 63
+	frame	data/chars/Sonic/1476.gif
+	offset	87 63
+	frame	data/chars/Sonic/1477.gif
+	offset	87 63
+	frame	data/chars/Sonic/1478.gif
+	offset	87 63
+	frame	data/chars/Sonic/1479.gif
+	offset	87 63
+	frame	data/chars/Sonic/1480.gif
+	offset	87 63
+	frame	data/chars/Sonic/1481.gif
+	offset	87 63
+	frame	data/chars/Sonic/1482.gif
+	offset	87 63
+	frame	data/chars/Sonic/1483.gif
+	offset	87 63
+	frame	data/chars/Sonic/1484.gif
+	offset	87 63
+	frame	data/chars/Sonic/1485.gif
+	offset	87 63
+	frame	data/chars/Sonic/1486.gif
+	offset	87 63
+	frame	data/chars/Sonic/1487.gif
+	offset	87 63
+	frame	data/chars/Sonic/1488.gif
+	offset	87 63
+	frame	data/chars/Sonic/1489.gif
+	offset	87 63
+	frame	data/chars/Sonic/1490.gif
+	offset	87 63
+	frame	data/chars/Sonic/1491.gif
+	offset	87 63
+	frame	data/chars/Sonic/1492.gif
+	offset	87 63
+	frame	data/chars/Sonic/1493.gif
+	offset	87 63
+	frame	data/chars/Sonic/1494.gif
+	offset	87 63
+	frame	data/chars/Sonic/1495.gif
+	offset	87 63
+	frame	data/chars/Sonic/1496.gif
+	offset	87 63
+	frame	data/chars/Sonic/1497.gif
+	offset	87 63
+	frame	data/chars/Sonic/1498.gif
+	offset	87 63
+	frame	data/chars/Sonic/1499.gif
+	offset	87 63
+	frame	data/chars/Sonic/1500.gif
+	offset	87 63
+	frame	data/chars/Sonic/1501.gif
+	offset	87 63
+	frame	data/chars/Sonic/1502.gif
+	offset	87 63
+	frame	data/chars/Sonic/1503.gif
+	offset	87 63
+	frame	data/chars/Sonic/1504.gif
+	offset	87 63
+	frame	data/chars/Sonic/1505.gif
+	offset	87 63
+	frame	data/chars/Sonic/1506.gif
+	offset	87 63
+	frame	data/chars/Sonic/1507.gif
+	offset	87 63
+	frame	data/chars/Sonic/1508.gif
+	offset	87 63
+	frame	data/chars/Sonic/1509.gif
+	offset	87 63
+	frame	data/chars/Sonic/1510.gif
+	offset	87 63
+	frame	data/chars/Sonic/1511.gif
+	offset	87 63
+	frame	data/chars/Sonic/1512.gif
+	offset	87 63
+	frame	data/chars/Sonic/1513.gif
+	offset	87 63
+	frame	data/chars/Sonic/1514.gif
+	offset	87 63
+	frame	data/chars/Sonic/1515.gif
+	offset	87 63
+	frame	data/chars/Sonic/1516.gif
+	offset	87 63
+	frame	data/chars/Sonic/1517.gif
+	offset	87 63
+	frame	data/chars/Sonic/1518.gif
+	offset	87 63
+	frame	data/chars/Sonic/1519.gif
+	offset	87 63
+	frame	data/chars/Sonic/1520.gif
+	offset	87 63
+	frame	data/chars/Sonic/1521.gif
+	offset	87 63
+	frame	data/chars/Sonic/1522.gif
+	offset	87 63
+	frame	data/chars/Sonic/1523.gif
+	offset	87 63
+	frame	data/chars/Sonic/1524.gif
+	offset	87 63
+	frame	data/chars/Sonic/1525.gif
+	offset	87 63
+	frame	data/chars/Sonic/1526.gif
+	offset	87 63
+	frame	data/chars/Sonic/1527.gif
+	offset	87 63
+	frame	data/chars/Sonic/1528.gif
+	offset	87 63
+	frame	data/chars/Sonic/1529.gif
+	offset	87 63
+	frame	data/chars/Sonic/1530.gif
+	offset	87 63
+	frame	data/chars/Sonic/1531.gif
+	offset	87 63
+	frame	data/chars/Sonic/1532.gif
+	offset	87 63
+	frame	data/chars/Sonic/1533.gif
+	offset	87 63
+	frame	data/chars/Sonic/1534.gif
+	offset	87 63
+	frame	data/chars/Sonic/1535.gif
+	offset	87 63
+	frame	data/chars/Sonic/1536.gif
+	offset	87 63
+	frame	data/chars/Sonic/1537.gif
+	offset	87 63
+	frame	data/chars/Sonic/1538.gif
+	offset	87 63
+	frame	data/chars/Sonic/1539.gif
+	offset	87 63
+	frame	data/chars/Sonic/1540.gif
+	offset	87 63
+	frame	data/chars/Sonic/1541.gif
+	offset	87 63
+	frame	data/chars/Sonic/1542.gif
+	offset	87 63
+	frame	data/chars/Sonic/1543.gif
+	offset	87 63
+	frame	data/chars/Sonic/1544.gif
+	offset	87 63
+	frame	data/chars/Sonic/1545.gif
+	offset	87 63
+	frame	data/chars/Sonic/1546.gif
+	offset	87 63
+	frame	data/chars/Sonic/1547.gif
+	offset	87 63
+	frame	data/chars/Sonic/1548.gif
+	offset	87 63
+	frame	data/chars/Sonic/1549.gif
+	offset	87 63
+	frame	data/chars/Sonic/1550.gif
+	offset	87 63
+	frame	data/chars/Sonic/1551.gif
+	offset	87 63
+	frame	data/chars/Sonic/1552.gif
+	offset	87 63
+	frame	data/chars/Sonic/1553.gif
+	offset	87 63
+	frame	data/chars/Sonic/1554.gif
+	offset	87 63
+	frame	data/chars/Sonic/1555.gif
+	offset	87 63
+	frame	data/chars/Sonic/1556.gif
+	offset	87 63
+	frame	data/chars/Sonic/1557.gif
+	offset	87 63
+	frame	data/chars/Sonic/1558.gif
+	offset	87 63
+	frame	data/chars/Sonic/1559.gif
+	offset	87 63
+	frame	data/chars/Sonic/1560.gif
+	offset	87 63
+	frame	data/chars/Sonic/1561.gif
+	offset	87 63
+	frame	data/chars/Sonic/1562.gif
+	offset	87 63
+	frame	data/chars/Sonic/1563.gif
+	offset	87 63
+	frame	data/chars/Sonic/1564.gif
+	offset	87 63
+	frame	data/chars/Sonic/1565.gif
+	offset	87 63
+	frame	data/chars/Sonic/1566.gif
+	offset	87 63
+	frame	data/chars/Sonic/1567.gif
+	offset	87 63
+	frame	data/chars/Sonic/1568.gif
+	offset	87 63
+	frame	data/chars/Sonic/1569.gif
+	offset	87 63
+	frame	data/chars/Sonic/1570.gif
+	offset	87 63
+	frame	data/chars/Sonic/1571.gif
+	offset	87 63
+	frame	data/chars/Sonic/1572.gif
+	offset	87 63
+	frame	data/chars/Sonic/1573.gif
+	offset	87 63
+	frame	data/chars/Sonic/1574.gif
+	offset	87 63
+	frame	data/chars/Sonic/1575.gif
+	offset	87 63
+	frame	data/chars/Sonic/1576.gif
+	offset	87 63
+	frame	data/chars/Sonic/1577.gif
+	offset	87 63
+	frame	data/chars/Sonic/1578.gif
+	offset	87 63
+	frame	data/chars/Sonic/1579.gif
+	offset	87 63
+	frame	data/chars/Sonic/1580.gif
+	offset	87 63
+	frame	data/chars/Sonic/1581.gif
+	offset	87 63
+	frame	data/chars/Sonic/1582.gif
+	offset	87 63
+	frame	data/chars/Sonic/1583.gif
+	offset	87 63
+	frame	data/chars/Sonic/1584.gif
+	offset	87 63
+	frame	data/chars/Sonic/1585.gif
+	offset	87 63
+	frame	data/chars/Sonic/1586.gif
+	offset	87 63
+	frame	data/chars/Sonic/1587.gif
+	offset	87 63
+	frame	data/chars/Sonic/1588.gif
+	offset	87 63
+	frame	data/chars/Sonic/1589.gif
+	offset	87 63
+	frame	data/chars/Sonic/1590.gif
+	offset	87 63
+	frame	data/chars/Sonic/1591.gif
+	offset	87 63
+	frame	data/chars/Sonic/1592.gif
+	offset	87 63
+	frame	data/chars/Sonic/1593.gif
+	offset	87 63
+	frame	data/chars/Sonic/1594.gif
+	offset	87 63
+	frame	data/chars/Sonic/1595.gif
+	offset	87 63
+	frame	data/chars/Sonic/1596.gif
+	offset	87 63
+	frame	data/chars/Sonic/1597.gif
+	offset	87 63
+	frame	data/chars/Sonic/1598.gif
+	offset	87 63
+	frame	data/chars/Sonic/1599.gif
+	offset	87 63
+	frame	data/chars/Sonic/1600.gif
+	offset	87 63
+	frame	data/chars/Sonic/1601.gif
+	offset	87 63
+	frame	data/chars/Sonic/1602.gif
+	offset	87 63
+	frame	data/chars/Sonic/1603.gif
+	offset	87 63
+	frame	data/chars/Sonic/1604.gif
+	offset	87 63
+	frame	data/chars/Sonic/1605.gif
+	offset	87 63
+	frame	data/chars/Sonic/1606.gif
+	offset	87 63
+	frame	data/chars/Sonic/1607.gif
+	offset	87 63
+	frame	data/chars/Sonic/1608.gif
+	offset	87 63
+	frame	data/chars/Sonic/1609.gif
+	offset	87 63
+	frame	data/chars/Sonic/1610.gif
+	offset	87 63
+	frame	data/chars/Sonic/1611.gif
+	offset	87 63
+	frame	data/chars/Sonic/1612.gif
+	offset	87 63
+	frame	data/chars/Sonic/1613.gif
+	offset	87 63
+	frame	data/chars/Sonic/1614.gif
+	offset	87 63
+	frame	data/chars/Sonic/1615.gif
+	offset	87 63
+	frame	data/chars/Sonic/1616.gif
+	offset	87 63
+	frame	data/chars/Sonic/1617.gif
+	offset	87 63
+	frame	data/chars/Sonic/1618.gif
+	offset	87 63
+	frame	data/chars/Sonic/1619.gif
+	offset	87 63
+	frame	data/chars/Sonic/1620.gif
+	offset	87 63
+	frame	data/chars/Sonic/1621.gif
+	offset	87 63
+	frame	data/chars/Sonic/1622.gif
+	offset	87 63
+	frame	data/chars/Sonic/1623.gif
+	offset	87 63
+	frame	data/chars/Sonic/1624.gif
+	offset	87 63
+	frame	data/chars/Sonic/1625.gif
+	offset	87 63
+	frame	data/chars/Sonic/1626.gif
+	offset	87 63
+	frame	data/chars/Sonic/1627.gif
+	offset	87 63
+	frame	data/chars/Sonic/1628.gif
+	offset	87 63
+	frame	data/chars/Sonic/1629.gif
+	offset	87 63
+	frame	data/chars/Sonic/1630.gif
+	offset	87 63
+	frame	data/chars/Sonic/1631.gif
+	offset	87 63
+	frame	data/chars/Sonic/1632.gif
+	offset	87 63
+	frame	data/chars/Sonic/1633.gif
+	offset	87 63
+	frame	data/chars/Sonic/1634.gif
+	offset	87 63
+	frame	data/chars/Sonic/1635.gif
+	offset	87 63
+	frame	data/chars/Sonic/1636.gif
+	offset	87 63
+	frame	data/chars/Sonic/1637.gif
+	offset	87 63
+	frame	data/chars/Sonic/1638.gif
+	offset	87 63
+	frame	data/chars/Sonic/1639.gif
+	offset	87 63
+	frame	data/chars/Sonic/1640.gif
+	offset	87 63
+	frame	data/chars/Sonic/1641.gif
+	offset	87 63
+	frame	data/chars/Sonic/1642.gif
+	offset	87 63
+	frame	data/chars/Sonic/1643.gif
+	offset	87 63
+	frame	data/chars/Sonic/1644.gif
+	offset	87 63
+	frame	data/chars/Sonic/1645.gif
+	offset	87 63
+	frame	data/chars/Sonic/1646.gif
+	offset	87 63
+	frame	data/chars/Sonic/1647.gif
+	offset	87 63
+	frame	data/chars/Sonic/1648.gif
+	offset	87 63
+	frame	data/chars/Sonic/1649.gif
+	offset	87 63
+	frame	data/chars/Sonic/1650.gif
+	offset	87 63
+	frame	data/chars/Sonic/1651.gif
+	offset	87 63
+	frame	data/chars/Sonic/1652.gif
+	offset	87 63
+	frame	data/chars/Sonic/1653.gif
+	offset	87 63
+	frame	data/chars/Sonic/1654.gif
+	offset	87 63
+	frame	data/chars/Sonic/1655.gif
+	offset	87 63
+	frame	data/chars/Sonic/1656.gif
+	offset	87 63
+	frame	data/chars/Sonic/1657.gif
+	offset	87 63
+	frame	data/chars/Sonic/1658.gif
+	offset	87 63
+	frame	data/chars/Sonic/1659.gif
+	offset	87 63
+	frame	data/chars/Sonic/1660.gif
+	offset	87 63
+	frame	data/chars/Sonic/1661.gif
+	offset	87 63
+	frame	data/chars/Sonic/1662.gif
+	offset	87 63
+	frame	data/chars/Sonic/1663.gif
+	offset	87 63
+	frame	data/chars/Sonic/1664.gif
+	offset	87 63
+	frame	data/chars/Sonic/1665.gif
+	offset	87 63
+	frame	data/chars/Sonic/1666.gif
+	offset	87 63
+	frame	data/chars/Sonic/1667.gif
+	offset	87 63
+	frame	data/chars/Sonic/1668.gif
+	offset	87 63
+	frame	data/chars/Sonic/1669.gif
+	offset	87 63
+	frame	data/chars/Sonic/1670.gif
+	offset	87 63
+	frame	data/chars/Sonic/1671.gif
+	offset	87 63
+	frame	data/chars/Sonic/1672.gif
+	offset	87 63
+	frame	data/chars/Sonic/1673.gif
+	offset	87 63
+	frame	data/chars/Sonic/1674.gif
+	offset	87 63
+	frame	data/chars/Sonic/1675.gif
+	offset	87 63
+	frame	data/chars/Sonic/1676.gif
+	offset	87 63
+	frame	data/chars/Sonic/1677.gif
+	offset	87 63
+	frame	data/chars/Sonic/1678.gif
+	offset	87 63
+	frame	data/chars/Sonic/1679.gif
+	offset	87 63
+	frame	data/chars/Sonic/1680.gif
+	offset	87 63
+	frame	data/chars/Sonic/1681.gif
+	offset	87 63
+	frame	data/chars/Sonic/1682.gif
+	offset	87 63
+	frame	data/chars/Sonic/1683.gif
+	offset	87 63
+	frame	data/chars/Sonic/1684.gif
+	offset	87 63
+	frame	data/chars/Sonic/1685.gif
+	offset	87 63
+	frame	data/chars/Sonic/1686.gif
+	offset	87 63
+	frame	data/chars/Sonic/1687.gif
+	offset	87 63
+	frame	data/chars/Sonic/1688.gif
+	offset	87 63
+	frame	data/chars/Sonic/1689.gif
+	offset	87 63
+	frame	data/chars/Sonic/1690.gif
+	offset	87 63
+	frame	data/chars/Sonic/1691.gif
+	offset	87 63
+	frame	data/chars/Sonic/1692.gif
+	offset	87 63
+	frame	data/chars/Sonic/1693.gif
+	offset	87 63
+	frame	data/chars/Sonic/1694.gif
+	offset	87 63
+	frame	data/chars/Sonic/1695.gif
+	offset	87 63
+	frame	data/chars/Sonic/1696.gif
+	offset	87 63
+	frame	data/chars/Sonic/1697.gif
+	offset	87 63
+	frame	data/chars/Sonic/1698.gif
+	offset	87 63
+	frame	data/chars/Sonic/1699.gif
+	offset	87 63
+	frame	data/chars/Sonic/1700.gif
+	offset	87 63
+	frame	data/chars/Sonic/1701.gif
+	offset	87 63
+	frame	data/chars/Sonic/1702.gif
+	offset	87 63
+	frame	data/chars/Sonic/1703.gif
+	offset	87 63
+	frame	data/chars/Sonic/1704.gif
+	offset	87 63
+	frame	data/chars/Sonic/1705.gif
+	offset	87 63
+	frame	data/chars/Sonic/1706.gif
+	offset	87 63
+	frame	data/chars/Sonic/1707.gif
+	offset	87 63
+	frame	data/chars/Sonic/1708.gif
+	offset	87 63
+	frame	data/chars/Sonic/1709.gif
+	offset	87 63
+	frame	data/chars/Sonic/1710.gif
+	offset	87 63
+	frame	data/chars/Sonic/1711.gif
+	offset	87 63
+	frame	data/chars/Sonic/1712.gif
+	offset	87 63
+	frame	data/chars/Sonic/1713.gif
+	offset	87 63
+	frame	data/chars/Sonic/1714.gif
+	offset	87 63
+	frame	data/chars/Sonic/1715.gif
+	offset	87 63
+	frame	data/chars/Sonic/1716.gif
+	offset	87 63
+	frame	data/chars/Sonic/1717.gif
+	offset	87 63
+	frame	data/chars/Sonic/1718.gif
+	offset	87 63
+	frame	data/chars/Sonic/1719.gif
+	offset	87 63
+	frame	data/chars/Sonic/1720.gif
+	offset	87 63
+	frame	data/chars/Sonic/1721.gif
+	offset	87 63
+	frame	data/chars/Sonic/1722.gif
+	offset	87 63
+	frame	data/chars/Sonic/1723.gif
+	offset	87 63
+	frame	data/chars/Sonic/1724.gif
+	offset	87 63
+	frame	data/chars/Sonic/1725.gif
+	offset	87 63
+	frame	data/chars/Sonic/1726.gif
+	offset	87 63
+	frame	data/chars/Sonic/1727.gif
+	offset	87 63
+	frame	data/chars/Sonic/1728.gif
+	offset	87 63
+	frame	data/chars/Sonic/1729.gif
+	offset	87 63
+	frame	data/chars/Sonic/1730.gif
+	offset	87 63
+	frame	data/chars/Sonic/1731.gif
+	offset	87 63
+	frame	data/chars/Sonic/1732.gif
+	offset	87 63
+	frame	data/chars/Sonic/1733.gif
+	offset	87 63
+	frame	data/chars/Sonic/1734.gif
+	offset	87 63
+	frame	data/chars/Sonic/1735.gif
+	offset	87 63
+	frame	data/chars/Sonic/1736.gif
+	offset	87 63
+	frame	data/chars/Sonic/1737.gif
+	offset	87 63
+	frame	data/chars/Sonic/1738.gif
+	offset	87 63
+	frame	data/chars/Sonic/1739.gif
+	offset	87 63
+	frame	data/chars/Sonic/1740.gif
+	offset	87 63
+	frame	data/chars/Sonic/1741.gif
+	offset	87 63
+	frame	data/chars/Sonic/1742.gif
+	offset	87 63
+	frame	data/chars/Sonic/1743.gif
+	offset	87 63
+	frame	data/chars/Sonic/1744.gif
+	offset	87 63
+	frame	data/chars/Sonic/1745.gif
+	offset	87 63
+	frame	data/chars/Sonic/1746.gif
+	offset	87 63
+	frame	data/chars/Sonic/1747.gif
+	offset	87 63
+	frame	data/chars/Sonic/1748.gif
+	offset	87 63
+	frame	data/chars/Sonic/1749.gif
+	offset	87 63
+	frame	data/chars/Sonic/1750.gif
+	offset	87 63
+	frame	data/chars/Sonic/1751.gif
+	offset	87 63
+	frame	data/chars/Sonic/1752.gif
+	offset	87 63
+	frame	data/chars/Sonic/1753.gif
+	offset	87 63
+	frame	data/chars/Sonic/1754.gif
+	offset	87 63
+	frame	data/chars/Sonic/1755.gif
+	offset	87 63
+	frame	data/chars/Sonic/1756.gif
+	offset	87 63
+	frame	data/chars/Sonic/1757.gif
+	offset	87 63
+	frame	data/chars/Sonic/1758.gif
+	offset	87 63
+	frame	data/chars/Sonic/1759.gif
+	offset	87 63
+	frame	data/chars/Sonic/1760.gif
+	offset	87 63
+	frame	data/chars/Sonic/1761.gif
+	offset	87 63
+	frame	data/chars/Sonic/1762.gif
+	offset	87 63
+	frame	data/chars/Sonic/1763.gif
+	offset	87 63
+	frame	data/chars/Sonic/1764.gif
+	offset	87 63
+	frame	data/chars/Sonic/1765.gif
+	offset	87 63
+	frame	data/chars/Sonic/1766.gif
+	offset	87 63
+	frame	data/chars/Sonic/1767.gif
+	offset	87 63
+	frame	data/chars/Sonic/1768.gif
+	offset	87 63
+	frame	data/chars/Sonic/1769.gif
+	offset	87 63
+	frame	data/chars/Sonic/1770.gif
+	offset	87 63
+	frame	data/chars/Sonic/1771.gif
+	offset	87 63
+	frame	data/chars/Sonic/1772.gif
+	offset	87 63
+	frame	data/chars/Sonic/1773.gif
+	offset	87 63
+	frame	data/chars/Sonic/1774.gif
+	offset	87 63
+	frame	data/chars/Sonic/1775.gif
+	offset	87 63
+	frame	data/chars/Sonic/1776.gif
+	offset	87 63
+	frame	data/chars/Sonic/1777.gif
+	offset	87 63
+	frame	data/chars/Sonic/1778.gif
+	offset	87 63
+	frame	data/chars/Sonic/1779.gif
+	offset	87 63
+	frame	data/chars/Sonic/1780.gif
+	offset	87 63
+	frame	data/chars/Sonic/1781.gif
+	offset	87 63
+	frame	data/chars/Sonic/1782.gif
+	offset	87 63
+	frame	data/chars/Sonic/1783.gif
+	offset	87 63
+	frame	data/chars/Sonic/1784.gif
+	offset	87 63
+	frame	data/chars/Sonic/1785.gif
+	offset	87 63
+	frame	data/chars/Sonic/1786.gif
+	offset	87 63
+	frame	data/chars/Sonic/1787.gif
+	offset	87 63
+	frame	data/chars/Sonic/1788.gif
+	offset	87 63
+	frame	data/chars/Sonic/1789.gif
+	offset	87 63
+	frame	data/chars/Sonic/1790.gif
+	offset	87 63
+	frame	data/chars/Sonic/1791.gif
+	offset	87 63
+	frame	data/chars/Sonic/1792.gif
+	offset	87 63
+	frame	data/chars/Sonic/1793.gif
+	offset	87 63
+	frame	data/chars/Sonic/1794.gif
+	offset	87 63
+	frame	data/chars/Sonic/1795.gif
+	offset	87 63
+	frame	data/chars/Sonic/1796.gif
+	offset	87 63
+	frame	data/chars/Sonic/1797.gif
+	offset	87 63
+	frame	data/chars/Sonic/1798.gif
+	offset	87 63
+	frame	data/chars/Sonic/1799.gif
+	offset	87 63
+	frame	data/chars/Sonic/1800.gif
+	offset	87 63
+	frame	data/chars/Sonic/1801.gif
+	offset	87 63
+	frame	data/chars/Sonic/1802.gif
+	offset	87 63
+	frame	data/chars/Sonic/1803.gif
+	offset	87 63
+	frame	data/chars/Sonic/1804.gif
+	offset	87 63
+	frame	data/chars/Sonic/1805.gif
+	offset	87 63
+	frame	data/chars/Sonic/1806.gif
+	offset	87 63
+	frame	data/chars/Sonic/1807.gif
+	offset	87 63
+	frame	data/chars/Sonic/1808.gif
+	offset	87 63
+	frame	data/chars/Sonic/1809.gif
+	offset	87 63
+	frame	data/chars/Sonic/1810.gif
+	offset	87 63
+	frame	data/chars/Sonic/1811.gif
+	offset	87 63
+	frame	data/chars/Sonic/1812.gif
+	offset	87 63
+	frame	data/chars/Sonic/1813.gif
+	offset	87 63
+	frame	data/chars/Sonic/1814.gif
+	offset	87 63
+	frame	data/chars/Sonic/1815.gif
+	offset	87 63
+	frame	data/chars/Sonic/1816.gif
+	offset	87 63
+	frame	data/chars/Sonic/1817.gif
+	offset	87 63
+	frame	data/chars/Sonic/1818.gif
+	offset	87 63
+	frame	data/chars/Sonic/1819.gif
+	offset	87 63
+	frame	data/chars/Sonic/1820.gif
+	offset	87 63
+	frame	data/chars/Sonic/1821.gif
+	offset	87 63
+	frame	data/chars/Sonic/1822.gif
+	offset	87 63
+	frame	data/chars/Sonic/1823.gif
+	offset	87 63
+	frame	data/chars/Sonic/1824.gif
+	offset	87 63
+	frame	data/chars/Sonic/1825.gif
+	offset	87 63
+	frame	data/chars/Sonic/1826.gif
+	offset	87 63
+	frame	data/chars/Sonic/1827.gif
+	offset	87 63
+	frame	data/chars/Sonic/1828.gif
+	offset	87 63
+	frame	data/chars/Sonic/1829.gif
+	offset	87 63
+	frame	data/chars/Sonic/1830.gif
+	offset	87 63
+	frame	data/chars/Sonic/1831.gif
+	offset	87 63
+	frame	data/chars/Sonic/1832.gif
+	offset	87 63
+	frame	data/chars/Sonic/1833.gif
+	offset	87 63
+	frame	data/chars/Sonic/1834.gif
+	offset	87 63
+	frame	data/chars/Sonic/1835.gif
+	offset	87 63
+	frame	data/chars/Sonic/1836.gif
+	offset	87 63
+	frame	data/chars/Sonic/1837.gif
+	offset	87 63
+	frame	data/chars/Sonic/1838.gif
+	offset	87 63
+	frame	data/chars/Sonic/1839.gif
+	offset	87 63
+	frame	data/chars/Sonic/1840.gif
+	offset	87 63
+	frame	data/chars/Sonic/1841.gif
+	offset	87 63
+	frame	data/chars/Sonic/1842.gif
+	offset	87 63
+	frame	data/chars/Sonic/1843.gif
+	offset	87 63
+	frame	data/chars/Sonic/1844.gif
+	offset	87 63
+	frame	data/chars/Sonic/1845.gif
+	offset	87 63
+	frame	data/chars/Sonic/1846.gif
+	offset	87 63
+	frame	data/chars/Sonic/1847.gif
+	offset	87 63
+	frame	data/chars/Sonic/1848.gif
+	offset	87 63
+	frame	data/chars/Sonic/1849.gif
+	offset	87 63
+	frame	data/chars/Sonic/1850.gif
+	offset	87 63
+	frame	data/chars/Sonic/1851.gif
+	offset	87 63
+	frame	data/chars/Sonic/1852.gif
+	offset	87 63
+	frame	data/chars/Sonic/1853.gif
+	offset	87 63
+	frame	data/chars/Sonic/1854.gif
+	offset	87 63
+	frame	data/chars/Sonic/1855.gif
+	offset	87 63
+	frame	data/chars/Sonic/1856.gif
+	offset	87 63
+	frame	data/chars/Sonic/1857.gif
+	offset	87 63
+	frame	data/chars/Sonic/1858.gif
+	offset	87 63
+	frame	data/chars/Sonic/1859.gif
+	offset	87 63
+	frame	data/chars/Sonic/1860.gif
+	offset	87 63
+	frame	data/chars/Sonic/1861.gif
+	offset	87 63
+	frame	data/chars/Sonic/1862.gif
+	offset	87 63
+	frame	data/chars/Sonic/1863.gif
+	offset	87 63
+	frame	data/chars/Sonic/1864.gif
+	offset	87 63
+	frame	data/chars/Sonic/1865.gif
+	offset	87 63
+	frame	data/chars/Sonic/1866.gif
+	offset	87 63
+	frame	data/chars/Sonic/1867.gif
+	offset	87 63
+	frame	data/chars/Sonic/1868.gif
+	offset	87 63
+	frame	data/chars/Sonic/1869.gif
+	offset	87 63
+	frame	data/chars/Sonic/1870.gif
+	offset	87 63
+	frame	data/chars/Sonic/1871.gif
+	offset	87 63
+	frame	data/chars/Sonic/1872.gif
+	offset	87 63
+	frame	data/chars/Sonic/1873.gif
+	offset	87 63
+	frame	data/chars/Sonic/1874.gif
+	offset	87 63
+	frame	data/chars/Sonic/1875.gif
+	offset	87 63
+	frame	data/chars/Sonic/1876.gif
+	offset	87 63
+	frame	data/chars/Sonic/1877.gif
+	offset	87 63
+	frame	data/chars/Sonic/1878.gif
+	offset	87 63
+	frame	data/chars/Sonic/1879.gif
+	offset	87 63
+	frame	data/chars/Sonic/1880.gif
+	offset	87 63
+	frame	data/chars/Sonic/1881.gif
+	offset	87 63
+	frame	data/chars/Sonic/1882.gif
+	offset	87 63
+	frame	data/chars/Sonic/1883.gif
+	offset	87 63
+	frame	data/chars/Sonic/1884.gif
+	offset	87 63
+	frame	data/chars/Sonic/1885.gif
+	offset	87 63
+	frame	data/chars/Sonic/1886.gif
+	offset	87 63
+	frame	data/chars/Sonic/1887.gif
+	offset	87 63
+	frame	data/chars/Sonic/1888.gif
+	offset	87 63
+	frame	data/chars/Sonic/1889.gif
+	offset	87 63
+	frame	data/chars/Sonic/1890.gif
+	offset	87 63
+	frame	data/chars/Sonic/1891.gif
+	offset	87 63
+	frame	data/chars/Sonic/1892.gif
+	offset	87 63
+	frame	data/chars/Sonic/1893.gif
+	offset	87 63
+	frame	data/chars/Sonic/1894.gif
+	offset	87 63
+	frame	data/chars/Sonic/1895.gif
+	offset	87 63
+	frame	data/chars/Sonic/1896.gif
+	offset	87 63
+	frame	data/chars/Sonic/1897.gif
+	offset	87 63
+	frame	data/chars/Sonic/1898.gif
+	offset	87 63
+	frame	data/chars/Sonic/1899.gif
+	offset	87 63
+	frame	data/chars/Sonic/1900.gif
+	offset	87 63
+	frame	data/chars/Sonic/1901.gif
+	offset	87 63
+	frame	data/chars/Sonic/1902.gif
+	offset	87 63
+	frame	data/chars/Sonic/1903.gif
+	offset	87 63
+	frame	data/chars/Sonic/1904.gif
+	offset	87 63
+	frame	data/chars/Sonic/1905.gif
+	offset	87 63
+	frame	data/chars/Sonic/1906.gif
+	offset	87 63
+	frame	data/chars/Sonic/1907.gif
+	offset	87 63
+	frame	data/chars/Sonic/1908.gif
+	offset	87 63
+	frame	data/chars/Sonic/1909.gif
+	offset	87 63
+	frame	data/chars/Sonic/1910.gif
+	offset	87 63
+	frame	data/chars/Sonic/1911.gif
+	offset	87 63
+	frame	data/chars/Sonic/1912.gif
+	offset	87 63
+	frame	data/chars/Sonic/1913.gif
+	offset	87 63
+	frame	data/chars/Sonic/1914.gif
+	offset	87 63
+	frame	data/chars/Sonic/1915.gif
+	offset	87 63
+	frame	data/chars/Sonic/1916.gif
+	offset	87 63
+	frame	data/chars/Sonic/1917.gif
+	offset	87 63
+	frame	data/chars/Sonic/1918.gif
+	offset	87 63
+	frame	data/chars/Sonic/1919.gif
+	offset	87 63
+	frame	data/chars/Sonic/1920.gif
+	offset	87 63
+	frame	data/chars/Sonic/1921.gif
+	offset	87 63
+	frame	data/chars/Sonic/1922.gif
+	offset	87 63
+	frame	data/chars/Sonic/1923.gif
+	offset	87 63
+	frame	data/chars/Sonic/1924.gif
+	offset	87 63
+	frame	data/chars/Sonic/1925.gif
+	offset	87 63
+	frame	data/chars/Sonic/1926.gif
+	offset	87 63
+	frame	data/chars/Sonic/1927.gif
+	offset	87 63
+	frame	data/chars/Sonic/1928.gif
+	offset	87 63
+	frame	data/chars/Sonic/1929.gif
+	offset	87 63
+	frame	data/chars/Sonic/1930.gif
+	offset	87 63
+	frame	data/chars/Sonic/1931.gif
+	offset	87 63
+	frame	data/chars/Sonic/1932.gif
+	offset	87 63
+	frame	data/chars/Sonic/1933.gif
+	offset	87 63
+	frame	data/chars/Sonic/1934.gif
+	offset	87 63
+	frame	data/chars/Sonic/1935.gif
+	offset	87 63
+	frame	data/chars/Sonic/1936.gif
+	offset	87 63
+	frame	data/chars/Sonic/1937.gif
+	offset	87 63
+	frame	data/chars/Sonic/1938.gif
+	offset	87 63
+	frame	data/chars/Sonic/1939.gif
+	offset	87 63
+	frame	data/chars/Sonic/1940.gif
+	offset	87 63
+	frame	data/chars/Sonic/1941.gif
+	offset	87 63
+	frame	data/chars/Sonic/1942.gif
+	offset	87 63
+	frame	data/chars/Sonic/1943.gif
+	offset	87 63
+	frame	data/chars/Sonic/1944.gif
+	offset	87 63
+	frame	data/chars/Sonic/1945.gif
+	offset	87 63
+	frame	data/chars/Sonic/1946.gif
+	offset	87 63
+	frame	data/chars/Sonic/1947.gif
+	offset	87 63
+	frame	data/chars/Sonic/1948.gif
+	offset	87 63
+	frame	data/chars/Sonic/1949.gif
+	offset	87 63
+	frame	data/chars/Sonic/1950.gif
+	offset	87 63
+	frame	data/chars/Sonic/1951.gif
+	offset	87 63
+	frame	data/chars/Sonic/1952.gif
+	offset	87 63
+	frame	data/chars/Sonic/1953.gif
+	offset	87 63
+	frame	data/chars/Sonic/1954.gif
+	offset	87 63
+	frame	data/chars/Sonic/1955.gif
+	offset	87 63
+	frame	data/chars/Sonic/1956.gif
+	offset	87 63
+	frame	data/chars/Sonic/1957.gif
+	offset	87 63
+	frame	data/chars/Sonic/1958.gif
+	offset	87 63
+	frame	data/chars/Sonic/1959.gif
+	offset	87 63
+	frame	data/chars/Sonic/1960.gif
+	offset	87 63
+	frame	data/chars/Sonic/1961.gif
+	offset	87 63
+	frame	data/chars/Sonic/1962.gif
+	offset	87 63
+	frame	data/chars/Sonic/1963.gif
+	offset	87 63
+	frame	data/chars/Sonic/1964.gif
+	offset	87 63
+	frame	data/chars/Sonic/1965.gif
+	offset	87 63
+	frame	data/chars/Sonic/1966.gif
+	offset	87 63
+	frame	data/chars/Sonic/1967.gif
+	offset	87 63
+	frame	data/chars/Sonic/1968.gif
+	offset	87 63
+	frame	data/chars/Sonic/1969.gif
+	offset	87 63
+	frame	data/chars/Sonic/1970.gif
+	offset	87 63
+	frame	data/chars/Sonic/1971.gif
+	offset	87 63
+	frame	data/chars/Sonic/1972.gif
+	offset	87 63
+	frame	data/chars/Sonic/1973.gif
+	offset	87 63
+	frame	data/chars/Sonic/1974.gif
+	offset	87 63
+	frame	data/chars/Sonic/1975.gif
+	offset	87 63
+	frame	data/chars/Sonic/1976.gif
+	offset	87 63
+	frame	data/chars/Sonic/1977.gif
+	offset	87 63
+	frame	data/chars/Sonic/1978.gif
+	offset	87 63
+	frame	data/chars/Sonic/1979.gif
+	offset	87 63
+	frame	data/chars/Sonic/1980.gif
+	offset	87 63
+	frame	data/chars/Sonic/1981.gif
+	offset	87 63
+	frame	data/chars/Sonic/1982.gif
+	offset	87 63
+	frame	data/chars/Sonic/1983.gif
+	offset	87 63
+	frame	data/chars/Sonic/1984.gif
+	offset	87 63
+	frame	data/chars/Sonic/1985.gif
+	offset	87 63
+	frame	data/chars/Sonic/1986.gif
+	offset	87 63
+	frame	data/chars/Sonic/1987.gif
+	offset	87 63
+	frame	data/chars/Sonic/1988.gif
+	offset	87 63
+	frame	data/chars/Sonic/1989.gif
+	offset	87 63
+	frame	data/chars/Sonic/1990.gif
+	offset	87 63
+	frame	data/chars/Sonic/1991.gif
+	offset	87 63
+	frame	data/chars/Sonic/1992.gif
+	offset	87 63
+	frame	data/chars/Sonic/1993.gif
+	offset	87 63
+	frame	data/chars/Sonic/1994.gif
+	offset	87 63
+	frame	data/chars/Sonic/1995.gif
+	offset	87 63
+	frame	data/chars/Sonic/1996.gif
+	offset	87 63
+	frame	data/chars/Sonic/1997.gif
+	offset	87 63
+	frame	data/chars/Sonic/1998.gif
+	offset	87 63
+	frame	data/chars/Sonic/1999.gif
+	offset	87 63
+	frame	data/chars/Sonic/2000.gif
+	offset	87 63
+	frame	data/chars/Sonic/2001.gif
+	offset	87 63
+	frame	data/chars/Sonic/2002.gif
+	offset	87 63
+	frame	data/chars/Sonic/2003.gif
+	offset	87 63
+	frame	data/chars/Sonic/2004.gif
+	offset	87 63
+	frame	data/chars/Sonic/2005.gif
+	offset	87 63
+	frame	data/chars/Sonic/2006.gif
+	offset	87 63
+	frame	data/chars/Sonic/2007.gif
+	offset	87 63
+	frame	data/chars/Sonic/2008.gif
+	offset	87 63
+	frame	data/chars/Sonic/2009.gif
+	offset	87 63
+	frame	data/chars/Sonic/2010.gif
+	offset	87 63
+	frame	data/chars/Sonic/2011.gif
+	offset	87 63
+	frame	data/chars/Sonic/2012.gif
+	offset	87 63
+	frame	data/chars/Sonic/2013.gif
+	offset	87 63
+	frame	data/chars/Sonic/2014.gif
+	offset	87 63
+	frame	data/chars/Sonic/2015.gif
+	offset	87 63
+	frame	data/chars/Sonic/2016.gif
+	offset	87 63
+	frame	data/chars/Sonic/2017.gif
+	offset	87 63
+	frame	data/chars/Sonic/2018.gif
+	offset	87 63
+	frame	data/chars/Sonic/2019.gif
+	offset	87 63
+	frame	data/chars/Sonic/2020.gif
+	offset	87 63
+	frame	data/chars/Sonic/2021.gif
+	offset	87 63
+	frame	data/chars/Sonic/2022.gif
+	offset	87 63
+	frame	data/chars/Sonic/2023.gif
+	offset	87 63
+	frame	data/chars/Sonic/2024.gif
+	offset	87 63
+	frame	data/chars/Sonic/2025.gif
+	offset	87 63
+	frame	data/chars/Sonic/2026.gif
+	offset	87 63
+	frame	data/chars/Sonic/2027.gif
+	offset	87 63
+	frame	data/chars/Sonic/2028.gif
+	offset	87 63
+	frame	data/chars/Sonic/2029.gif
+	offset	87 63
+	frame	data/chars/Sonic/2030.gif
+	offset	87 63
+	frame	data/chars/Sonic/2031.gif
+	offset	87 63
+	frame	data/chars/Sonic/2032.gif
+	offset	87 63
+	frame	data/chars/Sonic/2033.gif
+	offset	87 63
+	frame	data/chars/Sonic/2034.gif
+	offset	87 63
+	frame	data/chars/Sonic/2035.gif
+	offset	87 63
+	frame	data/chars/Sonic/2036.gif
+	offset	87 63
+	frame	data/chars/Sonic/2037.gif
+	offset	87 63
+	frame	data/chars/Sonic/2038.gif
+	offset	87 63
+	frame	data/chars/Sonic/2039.gif
+	offset	87 63
+	frame	data/chars/Sonic/2040.gif
+	offset	87 63
+	frame	data/chars/Sonic/2041.gif
+	offset	87 63
+	frame	data/chars/Sonic/2042.gif
+	offset	87 63
+	frame	data/chars/Sonic/2043.gif
+	offset	87 63
+	frame	data/chars/Sonic/2044.gif
+	offset	87 63
+	frame	data/chars/Sonic/2045.gif
+	offset	87 63
+	frame	data/chars/Sonic/2046.gif
+	offset	87 63
+	frame	data/chars/Sonic/2047.gif
+	offset	87 63
+	frame	data/chars/Sonic/2048.gif
+	offset	87 63
+	frame	data/chars/Sonic/2049.gif
+	offset	87 63
+	frame	data/chars/Sonic/2050.gif
+	offset	87 63
+	frame	data/chars/Sonic/2051.gif
+	offset	87 63
+	frame	data/chars/Sonic/2052.gif
+	offset	87 63
+	frame	data/chars/Sonic/2053.gif
+	offset	87 63
+	frame	data/chars/Sonic/2054.gif
+	offset	87 63
+	frame	data/chars/Sonic/2055.gif
+	offset	87 63
+	frame	data/chars/Sonic/2056.gif
+	offset	87 63
+	frame	data/chars/Sonic/2057.gif
+	offset	87 63
+	frame	data/chars/Sonic/2058.gif
+	offset	87 63
+	frame	data/chars/Sonic/2059.gif
+	offset	87 63
+	frame	data/chars/Sonic/2060.gif
+	offset	87 63
+	frame	data/chars/Sonic/2061.gif
+	offset	87 63
+	frame	data/chars/Sonic/2062.gif
+	offset	87 63
+	frame	data/chars/Sonic/2063.gif
+	offset	87 63
+	frame	data/chars/Sonic/2064.gif
+	offset	87 63
+	frame	data/chars/Sonic/2065.gif
+	offset	87 63
+	frame	data/chars/Sonic/2066.gif
+	offset	87 63
+	frame	data/chars/Sonic/2067.gif
+	offset	87 63
+	frame	data/chars/Sonic/2068.gif
+	offset	87 63
+	frame	data/chars/Sonic/2069.gif
+	offset	87 63
+	frame	data/chars/Sonic/2070.gif
+	offset	87 63
+	frame	data/chars/Sonic/2071.gif
+	offset	87 63
+	frame	data/chars/Sonic/2072.gif
+	offset	87 63
+	frame	data/chars/Sonic/2073.gif
+	offset	87 63
+	frame	data/chars/Sonic/2074.gif
+	offset	87 63
+	frame	data/chars/Sonic/2075.gif
+	offset	87 63
+	frame	data/chars/Sonic/2076.gif
+	offset	87 63
+	frame	data/chars/Sonic/2077.gif
+	offset	87 63
+	frame	data/chars/Sonic/2078.gif
+	offset	87 63
+	frame	data/chars/Sonic/2079.gif
+	offset	87 63
+	frame	data/chars/Sonic/2080.gif
+	offset	87 63
+	frame	data/chars/Sonic/2081.gif
+	offset	87 63
+	frame	data/chars/Sonic/2082.gif
+	offset	87 63
+	frame	data/chars/Sonic/2083.gif
+	offset	87 63
+	frame	data/chars/Sonic/2084.gif
+	offset	87 63
+	frame	data/chars/Sonic/2085.gif
+	offset	87 63
+	frame	data/chars/Sonic/2086.gif
+	offset	87 63
+	frame	data/chars/Sonic/2087.gif
+	offset	87 63
+	frame	data/chars/Sonic/2088.gif
+	offset	87 63
+	frame	data/chars/Sonic/2089.gif
+	offset	87 63
+	frame	data/chars/Sonic/2090.gif
+	offset	87 63
+	frame	data/chars/Sonic/2091.gif
+	offset	87 63
+	frame	data/chars/Sonic/2092.gif
+	offset	87 63
+	frame	data/chars/Sonic/2093.gif
+	offset	87 63
+	frame	data/chars/Sonic/2094.gif
+	offset	87 63
+	frame	data/chars/Sonic/2095.gif
+	offset	87 63
+	frame	data/chars/Sonic/2096.gif
+	offset	87 63
+	frame	data/chars/Sonic/2097.gif
+	offset	87 63
+	frame	data/chars/Sonic/2098.gif
+	offset	87 63
+	frame	data/chars/Sonic/2099.gif
+	offset	87 63
+	frame	data/chars/Sonic/2100.gif
+	offset	87 63
+	frame	data/chars/Sonic/2101.gif
+	offset	87 63
+	frame	data/chars/Sonic/2102.gif
+	offset	87 63
+	frame	data/chars/Sonic/2103.gif
+	offset	87 63
+	frame	data/chars/Sonic/2104.gif
+	offset	87 63
+	frame	data/chars/Sonic/2105.gif
+	offset	87 63
+	frame	data/chars/Sonic/2106.gif
+	offset	87 63
+	frame	data/chars/Sonic/2107.gif
+	offset	87 63
+	frame	data/chars/Sonic/2108.gif
+	offset	87 63
+	frame	data/chars/Sonic/2109.gif
+	offset	87 63
+	frame	data/chars/Sonic/2110.gif
+	offset	87 63
+	frame	data/chars/Sonic/2111.gif
+	offset	87 63
+	frame	data/chars/Sonic/2112.gif
+	offset	87 63
+	frame	data/chars/Sonic/2113.gif
+	offset	87 63
+	frame	data/chars/Sonic/2114.gif
+	offset	87 63
+	frame	data/chars/Sonic/2115.gif
+	offset	87 63
+	frame	data/chars/Sonic/2116.gif
+	offset	87 63
+	frame	data/chars/Sonic/2117.gif
+	offset	87 63
+	frame	data/chars/Sonic/2118.gif
+	offset	87 63
+	frame	data/chars/Sonic/2119.gif
+	offset	87 63
+	frame	data/chars/Sonic/2120.gif
+	offset	87 63
+	frame	data/chars/Sonic/2121.gif
+	offset	87 63
+	frame	data/chars/Sonic/2122.gif
+	offset	87 63
+	frame	data/chars/Sonic/2123.gif
+	offset	87 63
+	frame	data/chars/Sonic/2124.gif
+	offset	87 63
+	frame	data/chars/Sonic/2125.gif
+	offset	87 63
+	frame	data/chars/Sonic/2126.gif
+	offset	87 63
+	frame	data/chars/Sonic/2127.gif
+	offset	87 63
+	frame	data/chars/Sonic/2128.gif
+	offset	87 63
+	frame	data/chars/Sonic/2129.gif
+	offset	87 63
+	frame	data/chars/Sonic/2130.gif
+	offset	87 63
+	frame	data/chars/Sonic/2131.gif
+	offset	87 63
+	frame	data/chars/Sonic/2132.gif
+	offset	87 63
+	frame	data/chars/Sonic/2133.gif
+	offset	87 63
+	frame	data/chars/Sonic/2134.gif
+	offset	87 63
+	frame	data/chars/Sonic/2135.gif
+	offset	87 63
+	frame	data/chars/Sonic/2136.gif
+	offset	87 63
+	frame	data/chars/Sonic/2137.gif
+	offset	87 63
+	frame	data/chars/Sonic/2138.gif
+	offset	87 63
+	frame	data/chars/Sonic/2139.gif
+		
+anim	12000
+	delay	7
+	offset	10 40
+	frame	data/chars/Sonic/2140.gif
+	offset	14 35
+	frame	data/chars/Sonic/2141.gif
+	offset	10 37
+	frame	data/chars/Sonic/2142.gif
+	offset	15 35
+	frame	data/chars/Sonic/2143.gif
+	offset	13 34
+	frame	data/chars/Sonic/2144.gif
+	offset	18 31
+	frame	data/chars/Sonic/2145.gif
+	offset	9 40
+	frame	data/chars/Sonic/2146.gif
+	offset	11 27
+	frame	data/chars/Sonic/2147.gif
+	offset	18 19
+	frame	data/chars/Sonic/2148.gif
+	offset	10 31
+	frame	data/chars/Sonic/2149.gif
+	offset	13 24
+	frame	data/chars/Sonic/2150.gif
+	offset	13 36
+	frame	data/chars/Sonic/2151.gif
+	offset	10 32
+	frame	data/chars/Sonic/2152.gif
+	offset	16 26
+	frame	data/chars/Sonic/2153.gif
+		
+anim	6000
+	delay	7
+	offset	17 35
+	frame	data/chars/Sonic/656.gif
+	offset	15 33
+	frame	data/chars/Sonic/657.gif
+	offset	13 33
+	frame	data/chars/Sonic/658.gif
+	offset	13 37
+	frame	data/chars/Sonic/659.gif
+	offset	18 39
+	frame	data/chars/Sonic/660.gif
+	offset	19 33
+	frame	data/chars/Sonic/661.gif
+	offset	14 38
+	frame	data/chars/Sonic/662.gif
+	offset	13 37
+	frame	data/chars/Sonic/663.gif
+	offset	19 25
+	frame	data/chars/Sonic/664.gif
+	offset	16 26
+	frame	data/chars/Sonic/665.gif
+	offset	15 32
+	frame	data/chars/Sonic/666.gif
+	offset	17 32
+	frame	data/chars/Sonic/667.gif
+	offset	12 42
+	frame	data/chars/Sonic/668.gif
+		
+anim	6003
+	delay	7
+	offset	118 140
+	frame	data/chars/Sonic/2588.gif
+	offset	115 149
+	frame	data/chars/Sonic/2589.gif
+	offset	103 152
+	frame	data/chars/Sonic/2590.gif
+	offset	92 145
+	frame	data/chars/Sonic/2591.gif
+		
+anim	6006
+	delay	7
+	offset	79 101
+	frame	data/chars/Sonic/2683.gif
+	offset	85 107
+	frame	data/chars/Sonic/2684.gif
+	offset	75 98
+	frame	data/chars/Sonic/2685.gif
+	offset	56 49
+	frame	data/chars/Sonic/2686.gif
+		
+anim	6020
+	delay	7
+	offset	34 34
+	frame	data/chars/Sonic/2583.gif
+		
+anim	6030
+	delay	7
+	offset	24 44
+	frame	data/chars/Sonic/2885.gif
+	offset	19 39
+	frame	data/chars/Sonic/2886.gif
+	offset	14 35
+	frame	data/chars/Sonic/2887.gif
+	offset	8 36
+	frame	data/chars/Sonic/2888.gif
+	offset	10 39
+	frame	data/chars/Sonic/2889.gif
+	offset	11 43
+	frame	data/chars/Sonic/2890.gif
+	offset	7 45
+	frame	data/chars/Sonic/2891.gif
+	offset	11 43
+	frame	data/chars/Sonic/2892.gif
+	offset	12 43
+	frame	data/chars/Sonic/2893.gif
+	offset	12 44
+	frame	data/chars/Sonic/2894.gif
+	offset	13 52
+	frame	data/chars/Sonic/2895.gif
+	offset	13 53
+	frame	data/chars/Sonic/2896.gif
+	offset	13 54
+	frame	data/chars/Sonic/2897.gif
+	offset	13 55
+	frame	data/chars/Sonic/2898.gif
+	offset	13 55
+	frame	data/chars/Sonic/2899.gif
+	offset	12 55
+	frame	data/chars/Sonic/2900.gif
+	offset	10 57
+	frame	data/chars/Sonic/2901.gif
+	offset	10 58
+	frame	data/chars/Sonic/2902.gif
+	offset	7 59
+	frame	data/chars/Sonic/2903.gif
+	offset	9 60
+	frame	data/chars/Sonic/2904.gif
+	offset	8 60
+	frame	data/chars/Sonic/2905.gif
+		
+anim	6050
+	delay	7
+	offset	93 24
+	frame	data/chars/Sonic/2174.gif
+		
+anim	7000
+	delay	7
+	offset	300 325
+	frame	data/chars/Sonic/2162.gif
+	offset	300 296
+	frame	data/chars/Sonic/2163.gif
+		
+anim	7010
+	delay	7
+	offset	71 140
+	frame	data/chars/Sonic/2678.gif
+	offset	86 159
+	frame	data/chars/Sonic/2679.gif
+	offset	102 168
+	frame	data/chars/Sonic/2680.gif
+	offset	107 177
+	frame	data/chars/Sonic/2681.gif
+	offset	94 181
+	frame	data/chars/Sonic/2682.gif
+		
+anim	7030
+	delay	7
+	offset	133 329
+	frame	data/chars/Sonic/2177.gif
+		
+anim	8000
+	delay	7
+	offset	0 0
+	frame	data/chars/Sonic/2166.gif
+		
+anim	8030
+	delay	7
+	offset	329 100
+	frame	data/chars/Sonic/2538.gif
+		
+anim	8230
+	delay	7
+	offset	106 240
+	frame	data/chars/Sonic/2156.gif
+		
+anim	8231
+	delay	7
+	offset	86 20
+	frame	data/chars/Sonic/2708.gif
+	offset	86 20
+	frame	data/chars/Sonic/2709.gif
+	offset	86 20
+	frame	data/chars/Sonic/2710.gif
+	offset	86 20
+	frame	data/chars/Sonic/2711.gif
+	offset	86 20
+	frame	data/chars/Sonic/2712.gif
+	offset	86 20
+	frame	data/chars/Sonic/2713.gif
+	offset	86 20
+	frame	data/chars/Sonic/2714.gif
+	offset	86 20
+	frame	data/chars/Sonic/2715.gif
+	offset	86 20
+	frame	data/chars/Sonic/2716.gif
+	offset	86 20
+	frame	data/chars/Sonic/2717.gif
+		
+anim	9000
+	delay	7
+	offset	0 8
+	frame	data/chars/Sonic/0.gif
+	offset	0 0
+	frame	data/chars/Sonic/1.gif
+		
+anim	9026
+	delay	7
+	offset	50 44
+	frame	data/chars/Sonic/2425.gif
+	offset	50 44
+	frame	data/chars/Sonic/2426.gif
+	offset	50 44
+	frame	data/chars/Sonic/2427.gif
+	offset	50 44
+	frame	data/chars/Sonic/2428.gif
+	offset	50 44
+	frame	data/chars/Sonic/2429.gif
+	offset	50 44
+	frame	data/chars/Sonic/2430.gif
+	offset	50 44
+	frame	data/chars/Sonic/2431.gif
+	offset	50 44
+	frame	data/chars/Sonic/2432.gif
+	offset	50 44
+	frame	data/chars/Sonic/2433.gif
+	offset	50 44
+	frame	data/chars/Sonic/2434.gif
+	offset	50 44
+	frame	data/chars/Sonic/2435.gif
+	offset	50 44
+	frame	data/chars/Sonic/2436.gif
+	offset	50 44
+	frame	data/chars/Sonic/2437.gif
+	offset	50 44
+	frame	data/chars/Sonic/2438.gif
+	offset	50 44
+	frame	data/chars/Sonic/2439.gif
+	offset	50 44
+	frame	data/chars/Sonic/2440.gif
+	offset	50 44
+	frame	data/chars/Sonic/2441.gif
+	offset	50 44
+	frame	data/chars/Sonic/2442.gif
+	offset	50 44
+	frame	data/chars/Sonic/2443.gif
+	offset	50 44
+	frame	data/chars/Sonic/2444.gif
+	offset	50 44
+	frame	data/chars/Sonic/2445.gif
+	offset	50 44
+	frame	data/chars/Sonic/2446.gif
+	offset	50 44
+	frame	data/chars/Sonic/2447.gif
+		
+anim	9027
+	delay	7
+	offset	144 127
+	frame	data/chars/Sonic/2348.gif
+	offset	144 127
+	frame	data/chars/Sonic/2349.gif
+	offset	144 127
+	frame	data/chars/Sonic/2350.gif
+	offset	144 127
+	frame	data/chars/Sonic/2351.gif
+	offset	144 127
+	frame	data/chars/Sonic/2352.gif
+	offset	144 127
+	frame	data/chars/Sonic/2353.gif
+	offset	144 127
+	frame	data/chars/Sonic/2354.gif
+	offset	144 127
+	frame	data/chars/Sonic/2355.gif
+	offset	144 127
+	frame	data/chars/Sonic/2356.gif
+	offset	144 127
+	frame	data/chars/Sonic/2357.gif
+	offset	144 127
+	frame	data/chars/Sonic/2358.gif
+	offset	144 127
+	frame	data/chars/Sonic/2359.gif
+	offset	144 127
+	frame	data/chars/Sonic/2360.gif
+	offset	144 127
+	frame	data/chars/Sonic/2361.gif
+	offset	144 127
+	frame	data/chars/Sonic/2362.gif
+	offset	144 127
+	frame	data/chars/Sonic/2363.gif
+	offset	144 127
+	frame	data/chars/Sonic/2364.gif
+	offset	144 127
+	frame	data/chars/Sonic/2365.gif
+	offset	144 127
+	frame	data/chars/Sonic/2366.gif
+	offset	144 127
+	frame	data/chars/Sonic/2367.gif
+	offset	144 127
+	frame	data/chars/Sonic/2368.gif
+	offset	144 127
+	frame	data/chars/Sonic/2369.gif
+	offset	144 127
+	frame	data/chars/Sonic/2370.gif
+	offset	144 127
+	frame	data/chars/Sonic/2371.gif
+	offset	144 127
+	frame	data/chars/Sonic/2372.gif
+	offset	144 127
+	frame	data/chars/Sonic/2373.gif
+	offset	144 127
+	frame	data/chars/Sonic/2374.gif
+	offset	144 127
+	frame	data/chars/Sonic/2375.gif
+	offset	144 127
+	frame	data/chars/Sonic/2376.gif
+	offset	144 127
+	frame	data/chars/Sonic/2377.gif
+	offset	144 127
+	frame	data/chars/Sonic/2378.gif
+	offset	144 127
+	frame	data/chars/Sonic/2379.gif
+	offset	144 127
+	frame	data/chars/Sonic/2380.gif
+	offset	144 127
+	frame	data/chars/Sonic/2381.gif
+	offset	144 127
+	frame	data/chars/Sonic/2382.gif
+		
+anim	9028
+	delay	7
+	offset	46 58
+	frame	data/chars/Sonic/2522.gif
+	offset	46 58
+	frame	data/chars/Sonic/2523.gif
+	offset	46 58
+	frame	data/chars/Sonic/2524.gif
+	offset	46 58
+	frame	data/chars/Sonic/2525.gif
+	offset	46 58
+	frame	data/chars/Sonic/2526.gif
+	offset	46 58
+	frame	data/chars/Sonic/2527.gif
+	offset	46 58
+	frame	data/chars/Sonic/2528.gif
+	offset	46 58
+	frame	data/chars/Sonic/2529.gif
+	offset	46 58
+	frame	data/chars/Sonic/2530.gif
+	offset	46 58
+	frame	data/chars/Sonic/2531.gif
+	offset	46 58
+	frame	data/chars/Sonic/2532.gif
+	offset	46 58
+	frame	data/chars/Sonic/2533.gif
+	offset	46 58
+	frame	data/chars/Sonic/2534.gif
+	offset	46 58
+	frame	data/chars/Sonic/2535.gif
+	offset	46 58
+	frame	data/chars/Sonic/2536.gif
+	offset	46 58
+	frame	data/chars/Sonic/2537.gif
+		
+anim	9029
+	delay	7
+	offset	88 89
+	frame	data/chars/Sonic/2867.gif
+	offset	88 89
+	frame	data/chars/Sonic/2868.gif
+	offset	88 89
+	frame	data/chars/Sonic/2869.gif
+	offset	88 89
+	frame	data/chars/Sonic/2870.gif
+	offset	88 89
+	frame	data/chars/Sonic/2871.gif
+	offset	88 89
+	frame	data/chars/Sonic/2872.gif
+	offset	88 89
+	frame	data/chars/Sonic/2873.gif
+	offset	88 89
+	frame	data/chars/Sonic/2874.gif
+	offset	88 89
+	frame	data/chars/Sonic/2875.gif
+	offset	88 89
+	frame	data/chars/Sonic/2876.gif
+		
+anim	9030
+	delay	7
+	offset	34 34
+	frame	data/chars/Sonic/2448.gif
+	offset	34 34
+	frame	data/chars/Sonic/2449.gif
+	offset	34 34
+	frame	data/chars/Sonic/2450.gif
+	offset	34 34
+	frame	data/chars/Sonic/2451.gif
+	offset	34 34
+	frame	data/chars/Sonic/2452.gif
+	offset	34 34
+	frame	data/chars/Sonic/2453.gif
+	offset	34 34
+	frame	data/chars/Sonic/2454.gif
+	offset	34 34
+	frame	data/chars/Sonic/2455.gif
+	offset	34 34
+	frame	data/chars/Sonic/2456.gif
+	offset	34 34
+	frame	data/chars/Sonic/2457.gif
+	offset	34 34
+	frame	data/chars/Sonic/2458.gif
+	offset	34 34
+	frame	data/chars/Sonic/2459.gif
+	offset	34 34
+	frame	data/chars/Sonic/2460.gif
+	offset	34 34
+	frame	data/chars/Sonic/2461.gif
+	offset	34 34
+	frame	data/chars/Sonic/2462.gif
+	offset	34 34
+	frame	data/chars/Sonic/2463.gif
+	offset	34 34
+	frame	data/chars/Sonic/2464.gif
+	offset	34 34
+	frame	data/chars/Sonic/2465.gif
+		
+anim	9031
+	delay	7
+	offset	34 34
+	frame	data/chars/Sonic/2466.gif
+	offset	34 34
+	frame	data/chars/Sonic/2467.gif
+	offset	34 34
+	frame	data/chars/Sonic/2468.gif
+	offset	34 34
+	frame	data/chars/Sonic/2469.gif
+	offset	34 34
+	frame	data/chars/Sonic/2470.gif
+	offset	34 34
+	frame	data/chars/Sonic/2471.gif
+	offset	34 34
+	frame	data/chars/Sonic/2472.gif
+	offset	34 34
+	frame	data/chars/Sonic/2473.gif
+	offset	34 34
+	frame	data/chars/Sonic/2474.gif
+	offset	34 34
+	frame	data/chars/Sonic/2475.gif
+	offset	34 34
+	frame	data/chars/Sonic/2476.gif
+	offset	34 34
+	frame	data/chars/Sonic/2477.gif
+	offset	34 34
+	frame	data/chars/Sonic/2478.gif
+	offset	34 34
+	frame	data/chars/Sonic/2479.gif
+	offset	34 34
+	frame	data/chars/Sonic/2480.gif
+	offset	34 34
+	frame	data/chars/Sonic/2481.gif
+	offset	34 34
+	frame	data/chars/Sonic/2482.gif
+	offset	34 34
+	frame	data/chars/Sonic/2483.gif
+	offset	34 34
+	frame	data/chars/Sonic/2484.gif
+	offset	34 34
+	frame	data/chars/Sonic/2485.gif
+	offset	34 34
+	frame	data/chars/Sonic/2486.gif
+	offset	34 34
+	frame	data/chars/Sonic/2487.gif
+	offset	34 34
+	frame	data/chars/Sonic/2488.gif
+		
+anim	attack200
+	delay	7
+	offset	9 34
+	frame	data/chars/Sonic/60.gif
+	offset	10 35
+	frame	data/chars/Sonic/61.gif
+	offset	11 36
+	frame	data/chars/Sonic/62.gif
+	offset	15 39
+	frame	data/chars/Sonic/63.gif
+		
+anim	attack201
+	delay	7
+	offset	13 30
+	frame	data/chars/Sonic/64.gif
+	offset	15 32
+	frame	data/chars/Sonic/65.gif
+	offset	13 36
+	frame	data/chars/Sonic/66.gif
+	offset	12 38
+	frame	data/chars/Sonic/67.gif
+	offset	16 36
+	frame	data/chars/Sonic/68.gif
+	offset	15 36
+	frame	data/chars/Sonic/69.gif
+	offset	15 36
+	frame	data/chars/Sonic/70.gif
+	offset	12 33
+	frame	data/chars/Sonic/71.gif
+	offset	12 33
+	frame	data/chars/Sonic/72.gif
+	offset	12 33
+	frame	data/chars/Sonic/73.gif
+	offset	12 33
+	frame	data/chars/Sonic/74.gif
+	offset	14 40
+	frame	data/chars/Sonic/75.gif
+	offset	12 35
+	frame	data/chars/Sonic/76.gif
+	offset	18 32
+	frame	data/chars/Sonic/77.gif
+	offset	21 24
+	frame	data/chars/Sonic/78.gif
+	offset	16 24
+	frame	data/chars/Sonic/79.gif
+	offset	13 34
+	frame	data/chars/Sonic/80.gif
+	offset	13 36
+	frame	data/chars/Sonic/81.gif
+	offset	13 36
+	frame	data/chars/Sonic/82.gif
+	offset	11 31
+	frame	data/chars/Sonic/83.gif
+	offset	13 31
+	frame	data/chars/Sonic/84.gif
+	offset	12 32
+	frame	data/chars/Sonic/85.gif
+	offset	11 29
+	frame	data/chars/Sonic/86.gif
+	offset	13 29
+	frame	data/chars/Sonic/87.gif
+	offset	12 30
+	frame	data/chars/Sonic/88.gif
+	offset	15 39
+	frame	data/chars/Sonic/89.gif
+	offset	14 39
+	frame	data/chars/Sonic/90.gif
+	offset	21 42
+	frame	data/chars/Sonic/91.gif
+	offset	15 38
+	frame	data/chars/Sonic/92.gif
+	offset	14 41
+	frame	data/chars/Sonic/93.gif
+	offset	12 36
+	frame	data/chars/Sonic/94.gif
+	offset	11 38
+	frame	data/chars/Sonic/95.gif
+	offset	16 31
+	frame	data/chars/Sonic/96.gif
+	offset	16 44
+	frame	data/chars/Sonic/97.gif
+	offset	19 39
+	frame	data/chars/Sonic/98.gif
+	offset	14 32
+	frame	data/chars/Sonic/99.gif
+	offset	12 34
+	frame	data/chars/Sonic/100.gif
+	offset	13 35
+	frame	data/chars/Sonic/101.gif
+	offset	21 40
+	frame	data/chars/Sonic/102.gif
+	offset	21 39
+	frame	data/chars/Sonic/103.gif
+	offset	15 38
+	frame	data/chars/Sonic/104.gif
+	offset	13 34
+	frame	data/chars/Sonic/105.gif
+	offset	13 36
+	frame	data/chars/Sonic/106.gif
+	offset	12 32
+	frame	data/chars/Sonic/107.gif
+	offset	17 33
+	frame	data/chars/Sonic/108.gif
+	offset	16 33
+	frame	data/chars/Sonic/109.gif
+	offset	17 31
+	frame	data/chars/Sonic/110.gif
+	offset	14 30
+	frame	data/chars/Sonic/111.gif
+	offset	10 30
+	frame	data/chars/Sonic/112.gif
+	offset	14 33
+	frame	data/chars/Sonic/113.gif
+	offset	14 36
+	frame	data/chars/Sonic/114.gif
+	offset	22 31
+	frame	data/chars/Sonic/115.gif
+	offset	21 31
+	frame	data/chars/Sonic/116.gif
+	offset	13 32
+	frame	data/chars/Sonic/117.gif
+	offset	18 33
+	frame	data/chars/Sonic/118.gif
+	offset	13 32
+	frame	data/chars/Sonic/119.gif
+	offset	13 33
+	frame	data/chars/Sonic/120.gif
+	offset	14 30
+	frame	data/chars/Sonic/121.gif
+	offset	26 31
+	frame	data/chars/Sonic/122.gif
+	offset	14 31
+	frame	data/chars/Sonic/123.gif
+	offset	17 32
+	frame	data/chars/Sonic/124.gif
+	offset	19 36
+	frame	data/chars/Sonic/125.gif
+	offset	19 40
+	frame	data/chars/Sonic/126.gif
+	offset	11 35
+	frame	data/chars/Sonic/127.gif
+	offset	12 32
+	frame	data/chars/Sonic/128.gif
+	offset	19 37
+	frame	data/chars/Sonic/129.gif
+	offset	19 34
+	frame	data/chars/Sonic/130.gif
+	offset	14 30
+	frame	data/chars/Sonic/131.gif
+	offset	17 30
+	frame	data/chars/Sonic/132.gif
+	offset	19 33
+	frame	data/chars/Sonic/133.gif
+	offset	19 37
+	frame	data/chars/Sonic/134.gif
+	offset	15 34
+	frame	data/chars/Sonic/135.gif
+	offset	18 30
+	frame	data/chars/Sonic/136.gif
+	offset	17 34
+	frame	data/chars/Sonic/137.gif
+	offset	17 38
+	frame	data/chars/Sonic/138.gif
+	offset	20 31
+	frame	data/chars/Sonic/139.gif
+	offset	17 36
+	frame	data/chars/Sonic/140.gif
+	offset	18 31
+	frame	data/chars/Sonic/141.gif
+	offset	16 30
+	frame	data/chars/Sonic/142.gif
+	offset	14 28
+	frame	data/chars/Sonic/143.gif
+	offset	12 28
+	frame	data/chars/Sonic/144.gif
+	offset	17 32
+	frame	data/chars/Sonic/145.gif
+	offset	16 33
+	frame	data/chars/Sonic/146.gif
+	offset	22 33
+	frame	data/chars/Sonic/147.gif
+	offset	22 33
+	frame	data/chars/Sonic/148.gif
+	offset	11 30
+	frame	data/chars/Sonic/149.gif
+	offset	11 29
+	frame	data/chars/Sonic/150.gif
+	offset	19 31
+	frame	data/chars/Sonic/151.gif
+	offset	18 31
+	frame	data/chars/Sonic/152.gif
+	offset	18 31
+	frame	data/chars/Sonic/153.gif
+	offset	11 29
+	frame	data/chars/Sonic/154.gif
+	offset	18 27
+	frame	data/chars/Sonic/155.gif
+	offset	27 35
+	frame	data/chars/Sonic/156.gif
+	offset	19 26
+	frame	data/chars/Sonic/157.gif
+	offset	18 27
+	frame	data/chars/Sonic/158.gif
+	offset	11 29
+	frame	data/chars/Sonic/159.gif
+	offset	17 30
+	frame	data/chars/Sonic/160.gif
+	offset	17 28
+	frame	data/chars/Sonic/161.gif
+	offset	17 31
+	frame	data/chars/Sonic/162.gif
+	offset	16 32
+	frame	data/chars/Sonic/163.gif
+	offset	18 40
+	frame	data/chars/Sonic/164.gif
+	offset	21 29
+	frame	data/chars/Sonic/165.gif
+	offset	21 37
+	frame	data/chars/Sonic/166.gif
+	offset	20 31
+	frame	data/chars/Sonic/167.gif
+	offset	19 30
+	frame	data/chars/Sonic/168.gif
+	offset	17 27
+	frame	data/chars/Sonic/169.gif
+	offset	14 30
+	frame	data/chars/Sonic/170.gif
+	offset	16 31
+	frame	data/chars/Sonic/171.gif
+	offset	17 32
+	frame	data/chars/Sonic/172.gif
+	offset	17 34
+	frame	data/chars/Sonic/173.gif
+	offset	17 36
+	frame	data/chars/Sonic/174.gif
+	offset	18 31
+	frame	data/chars/Sonic/175.gif
+	offset	16 30
+	frame	data/chars/Sonic/176.gif
+	offset	14 27
+	frame	data/chars/Sonic/177.gif
+	offset	13 35
+	frame	data/chars/Sonic/178.gif
+	offset	12 36
+	frame	data/chars/Sonic/179.gif
+	offset	18 36
+	frame	data/chars/Sonic/180.gif
+	offset	17 30
+	frame	data/chars/Sonic/181.gif
+	offset	14 28
+	frame	data/chars/Sonic/182.gif
+	offset	13 31
+	frame	data/chars/Sonic/183.gif
+	offset	15 29
+	frame	data/chars/Sonic/184.gif
+	offset	17 34
+	frame	data/chars/Sonic/185.gif
+	offset	16 38
+	frame	data/chars/Sonic/186.gif
+	offset	16 38
+	frame	data/chars/Sonic/187.gif
+	offset	15 38
+	frame	data/chars/Sonic/188.gif
+	offset	15 38
+	frame	data/chars/Sonic/189.gif
+	offset	13 36
+	frame	data/chars/Sonic/190.gif
+	offset	13 34
+	frame	data/chars/Sonic/191.gif
+	offset	18 31
+	frame	data/chars/Sonic/192.gif
+	offset	15 33
+	frame	data/chars/Sonic/193.gif
+	offset	16 43
+	frame	data/chars/Sonic/194.gif
+	offset	15 42
+	frame	data/chars/Sonic/195.gif
+	offset	13 30
+	frame	data/chars/Sonic/196.gif
+	offset	14 31
+	frame	data/chars/Sonic/197.gif
+	offset	15 32
+	frame	data/chars/Sonic/198.gif
+	offset	12 29
+	frame	data/chars/Sonic/199.gif
+	offset	15 29
+	frame	data/chars/Sonic/200.gif
+	offset	13 32
+	frame	data/chars/Sonic/201.gif
+	offset	10 32
+	frame	data/chars/Sonic/202.gif
+	offset	13 32
+	frame	data/chars/Sonic/203.gif
+	offset	13 31
+	frame	data/chars/Sonic/204.gif
+	offset	14 43
+	frame	data/chars/Sonic/205.gif
+	offset	15 36
+	frame	data/chars/Sonic/206.gif
+	offset	16 28
+	frame	data/chars/Sonic/207.gif
+	offset	17 30
+	frame	data/chars/Sonic/208.gif
+	offset	11 37
+	frame	data/chars/Sonic/209.gif
+	offset	13 36
+	frame	data/chars/Sonic/210.gif
+	offset	17 35
+	frame	data/chars/Sonic/211.gif
+	offset	16 34
+	frame	data/chars/Sonic/212.gif
+	offset	12 30
+	frame	data/chars/Sonic/213.gif
+	offset	19 31
+	frame	data/chars/Sonic/214.gif
+	offset	19 31
+	frame	data/chars/Sonic/215.gif
+	offset	14 30
+	frame	data/chars/Sonic/216.gif
+	offset	16 32
+	frame	data/chars/Sonic/217.gif
+	offset	18 32
+	frame	data/chars/Sonic/218.gif
+	offset	15 36
+	frame	data/chars/Sonic/219.gif
+	offset	12 35
+	frame	data/chars/Sonic/220.gif
+	offset	12 35
+	frame	data/chars/Sonic/221.gif
+	offset	12 34
+	frame	data/chars/Sonic/222.gif
+	offset	13 33
+	frame	data/chars/Sonic/223.gif
+	offset	16 34
+	frame	data/chars/Sonic/224.gif
+		
+anim	attack210
+	delay	7
+	offset	14 36
+	frame	data/chars/Sonic/225.gif
+	offset	11 36
+	frame	data/chars/Sonic/226.gif
+	offset	12 40
+	frame	data/chars/Sonic/227.gif
+	offset	11 40
+	frame	data/chars/Sonic/228.gif
+	offset	9 36
+	frame	data/chars/Sonic/229.gif
+	offset	7 39
+	frame	data/chars/Sonic/230.gif
+		
+anim	attack220
+	delay	7
+	offset	8 33
+	frame	data/chars/Sonic/231.gif
+	offset	14 38
+	frame	data/chars/Sonic/232.gif
+	offset	10 36
+	frame	data/chars/Sonic/233.gif
+		
+anim	attack230
+	delay	7
+	offset	13 32
+	frame	data/chars/Sonic/234.gif
+	offset	8 36
+	frame	data/chars/Sonic/235.gif
+	offset	11 40
+	frame	data/chars/Sonic/236.gif
+	offset	9 37
+	frame	data/chars/Sonic/237.gif
+		
+anim	attack240
+	delay	7
+	offset	12 37
+	frame	data/chars/Sonic/238.gif
+	offset	13 38
+	frame	data/chars/Sonic/239.gif
+	offset	12 35
+	frame	data/chars/Sonic/240.gif
+	offset	15 36
+	frame	data/chars/Sonic/241.gif
+		
+anim	attack250
+	delay	7
+	offset	19 38
+	frame	data/chars/Sonic/242.gif
+	offset	17 38
+	frame	data/chars/Sonic/243.gif
+	offset	19 41
+	frame	data/chars/Sonic/244.gif
+	offset	18 40
+	frame	data/chars/Sonic/245.gif
+	offset	18 41
+	frame	data/chars/Sonic/246.gif
+		
+anim	attack260
+	delay	7
+	offset	15 38
+	frame	data/chars/Sonic/247.gif
+	offset	23 40
+	frame	data/chars/Sonic/248.gif
+	offset	21 40
+	frame	data/chars/Sonic/249.gif
+	offset	16 37
+	frame	data/chars/Sonic/250.gif
+		
+anim	attack265
+	delay	7
+	offset	178 43
+	frame	data/chars/Sonic/2168.gif
+		
+anim	attack270
+	delay	7
+	offset	18 36
+	frame	data/chars/Sonic/251.gif
+	offset	18 39
+	frame	data/chars/Sonic/252.gif
+	offset	16 38
+	frame	data/chars/Sonic/253.gif
+	offset	16 35
+	frame	data/chars/Sonic/254.gif
+		
+anim	attack280
+	delay	7
+	offset	12 36
+	frame	data/chars/Sonic/255.gif
+	offset	14 38
+	frame	data/chars/Sonic/256.gif
+	offset	16 32
+	frame	data/chars/Sonic/257.gif
+		
+anim	attack290
+	delay	7
+	offset	15 40
+	frame	data/chars/Sonic/258.gif
+	offset	19 43
+	frame	data/chars/Sonic/259.gif
+	offset	19 47
+	frame	data/chars/Sonic/260.gif
+	offset	18 40
+	frame	data/chars/Sonic/261.gif
+		
+anim	attack300
+	delay	7
+	offset	12 30
+	frame	data/chars/Sonic/262.gif
+	offset	13 30
+	frame	data/chars/Sonic/263.gif
+	offset	14 32
+	frame	data/chars/Sonic/264.gif
+		
+anim	attack310
+	delay	7
+	offset	17 33
+	frame	data/chars/Sonic/265.gif
+	offset	20 42
+	frame	data/chars/Sonic/266.gif
+	offset	24 47
+	frame	data/chars/Sonic/267.gif
+	offset	24 51
+	frame	data/chars/Sonic/268.gif
+	offset	26 46
+	frame	data/chars/Sonic/269.gif
+	offset	22 46
+	frame	data/chars/Sonic/270.gif
+	offset	14 38
+	frame	data/chars/Sonic/271.gif
+	offset	13 41
+	frame	data/chars/Sonic/272.gif
+		
+anim	block120
+	delay	7
+	offset	12 35
+	frame	data/chars/Sonic/36.gif
+		
+anim	block122
+	delay	7
+	offset	16 44
+	frame	data/chars/Sonic/37.gif
+		
+anim	block130
+	delay	7
+	offset	11 34
+	frame	data/chars/Sonic/38.gif
+		
+anim	block132
+	delay	7
+	offset	15 43
+	frame	data/chars/Sonic/39.gif
+		
+anim	block140
+	delay	7
+	offset	11 35
+	frame	data/chars/Sonic/40.gif
+		
+anim	block142
+	delay	7
+	offset	15 41
+	frame	data/chars/Sonic/41.gif
+		
+anim	faint
+	delay	7
+	offset	14 37
+	frame	data/chars/Sonic/655.gif
+		
+anim	fall5030
+	delay	7
+	offset	12 42
+	frame	data/chars/Sonic/599.gif
+	offset	14 41
+	frame	data/chars/Sonic/600.gif
+	offset	14 41
+	frame	data/chars/Sonic/601.gif
+	offset	14 41
+	frame	data/chars/Sonic/602.gif
+	offset	14 41
+	frame	data/chars/Sonic/603.gif
+	offset	14 41
+	frame	data/chars/Sonic/604.gif
+		
+anim	fall5031
+	delay	7
+	offset	14 41
+	frame	data/chars/Sonic/605.gif
+	offset	14 41
+	frame	data/chars/Sonic/606.gif
+	offset	14 41
+	frame	data/chars/Sonic/607.gif
+	offset	14 41
+	frame	data/chars/Sonic/608.gif
+	offset	14 41
+	frame	data/chars/Sonic/609.gif
+	offset	14 41
+	frame	data/chars/Sonic/610.gif
+		
+anim	fall5032
+	delay	7
+	offset	14 41
+	frame	data/chars/Sonic/611.gif
+	offset	14 41
+	frame	data/chars/Sonic/612.gif
+	offset	14 41
+	frame	data/chars/Sonic/613.gif
+	offset	14 41
+	frame	data/chars/Sonic/614.gif
+	offset	14 41
+	frame	data/chars/Sonic/615.gif
+	offset	14 41
+	frame	data/chars/Sonic/616.gif
+		
+anim	fall5040
+	delay	7
+	offset	14 41
+	frame	data/chars/Sonic/617.gif
+	offset	14 41
+	frame	data/chars/Sonic/618.gif
+	offset	14 41
+	frame	data/chars/Sonic/619.gif
+		
+anim	fall5041
+	delay	7
+	offset	14 41
+	frame	data/chars/Sonic/620.gif
+	offset	14 41
+	frame	data/chars/Sonic/621.gif
+	offset	14 41
+	frame	data/chars/Sonic/622.gif
+		
+anim	fall5042
+	delay	7
+	offset	14 41
+	frame	data/chars/Sonic/623.gif
+	offset	14 41
+	frame	data/chars/Sonic/624.gif
+	offset	14 41
+	frame	data/chars/Sonic/625.gif
+		
+anim	fall5060
+	delay	7
+	offset	14 41
+	frame	data/chars/Sonic/626.gif
+	offset	20 38
+	frame	data/chars/Sonic/627.gif
+	offset	22 40
+	frame	data/chars/Sonic/628.gif
+	offset	21 41
+	frame	data/chars/Sonic/629.gif
+	offset	14 41
+	frame	data/chars/Sonic/630.gif
+		
+anim	fall5061
+	delay	7
+	offset	20 38
+	frame	data/chars/Sonic/631.gif
+	offset	20 38
+	frame	data/chars/Sonic/632.gif
+	offset	20 38
+	frame	data/chars/Sonic/633.gif
+		
+anim	fall5062
+	delay	7
+	offset	20 38
+	frame	data/chars/Sonic/634.gif
+	offset	20 38
+	frame	data/chars/Sonic/635.gif
+		
+anim	fall5070
+	delay	7
+	offset	20 38
+	frame	data/chars/Sonic/636.gif
+	offset	20 38
+	frame	data/chars/Sonic/637.gif
+	offset	20 38
+	frame	data/chars/Sonic/638.gif
+		
+anim	fall5071
+	delay	7
+	offset	20 38
+	frame	data/chars/Sonic/639.gif
+	offset	20 38
+	frame	data/chars/Sonic/640.gif
+	offset	20 38
+	frame	data/chars/Sonic/641.gif
+		
+anim	fall5072
+	delay	7
+	offset	20 38
+	frame	data/chars/Sonic/642.gif
+	offset	20 38
+	frame	data/chars/Sonic/643.gif
+	offset	19 42
+	frame	data/chars/Sonic/644.gif
+		
+anim	fall5100
+	delay	7
+	offset	21 40
+	frame	data/chars/Sonic/645.gif
+		
+anim	fall5110
+	delay	7
+	offset	20 22
+	frame	data/chars/Sonic/646.gif
+		
+anim	freespecial1000
+	delay	7
+	offset	16 34
+	frame	data/chars/Sonic/297.gif
+	offset	12 28
+	frame	data/chars/Sonic/298.gif
+	offset	13 24
+	frame	data/chars/Sonic/299.gif
+	offset	14 23
+	frame	data/chars/Sonic/300.gif
+	offset	16 25
+	frame	data/chars/Sonic/301.gif
+	offset	14 33
+	frame	data/chars/Sonic/302.gif
+	offset	16 25
+	frame	data/chars/Sonic/303.gif
+		
+anim	freespecial1005
+	delay	7
+	offset	130 302
+	frame	data/chars/Sonic/2757.gif
+	offset	118 307
+	frame	data/chars/Sonic/2758.gif
+	offset	115 310
+	frame	data/chars/Sonic/2759.gif
+	offset	131 317
+	frame	data/chars/Sonic/2760.gif
+		
+anim	freespecial1017
+	delay	7
+	offset	325 242
+	frame	data/chars/Sonic/2157.gif
+		
+anim	freespecial1018
+	delay	7
+	offset	123 184
+	frame	data/chars/Sonic/2191.gif
+	offset	123 184
+	frame	data/chars/Sonic/2192.gif
+	offset	123 184
+	frame	data/chars/Sonic/2193.gif
+	offset	123 184
+	frame	data/chars/Sonic/2194.gif
+	offset	123 184
+	frame	data/chars/Sonic/2195.gif
+	offset	123 184
+	frame	data/chars/Sonic/2196.gif
+	offset	123 184
+	frame	data/chars/Sonic/2197.gif
+	offset	123 184
+	frame	data/chars/Sonic/2198.gif
+	offset	123 184
+	frame	data/chars/Sonic/2199.gif
+	offset	123 184
+	frame	data/chars/Sonic/2200.gif
+	offset	123 184
+	frame	data/chars/Sonic/2201.gif
+	offset	123 184
+	frame	data/chars/Sonic/2202.gif
+	offset	123 184
+	frame	data/chars/Sonic/2203.gif
+	offset	123 184
+	frame	data/chars/Sonic/2204.gif
+		
+anim	freespecial1019
+	delay	7
+	offset	34 34
+	frame	data/chars/Sonic/2825.gif
+	offset	34 34
+	frame	data/chars/Sonic/2826.gif
+	offset	34 34
+	frame	data/chars/Sonic/2827.gif
+	offset	34 34
+	frame	data/chars/Sonic/2828.gif
+	offset	34 34
+	frame	data/chars/Sonic/2829.gif
+	offset	34 34
+	frame	data/chars/Sonic/2830.gif
+		
+anim	freespecial1020
+	delay	7
+	offset	73 143
+	frame	data/chars/Sonic/2702.gif
+	offset	73 143
+	frame	data/chars/Sonic/2703.gif
+	offset	73 143
+	frame	data/chars/Sonic/2704.gif
+	offset	73 143
+	frame	data/chars/Sonic/2705.gif
+		
+anim	freespecial1021
+	delay	7
+	offset	115 15
+	frame	data/chars/Sonic/2172.gif
+		
+anim	freespecial1022
+	delay	7
+	offset	64 64
+	frame	data/chars/Sonic/3052.gif
+	offset	64 64
+	frame	data/chars/Sonic/3053.gif
+	offset	64 64
+	frame	data/chars/Sonic/3054.gif
+	offset	64 64
+	frame	data/chars/Sonic/3055.gif
+	offset	64 64
+	frame	data/chars/Sonic/3056.gif
+	offset	64 64
+	frame	data/chars/Sonic/3057.gif
+	offset	64 64
+	frame	data/chars/Sonic/3058.gif
+	offset	64 64
+	frame	data/chars/Sonic/3059.gif
+		
+anim	freespecial1023
+	delay	7
+	offset	207 206
+	frame	data/chars/Sonic/2205.gif
+	offset	207 206
+	frame	data/chars/Sonic/2206.gif
+	offset	207 206
+	frame	data/chars/Sonic/2207.gif
+	offset	207 206
+	frame	data/chars/Sonic/2208.gif
+	offset	207 206
+	frame	data/chars/Sonic/2209.gif
+	offset	207 206
+	frame	data/chars/Sonic/2210.gif
+	offset	207 206
+	frame	data/chars/Sonic/2211.gif
+	offset	207 206
+	frame	data/chars/Sonic/2212.gif
+	offset	207 206
+	frame	data/chars/Sonic/2213.gif
+	offset	207 206
+	frame	data/chars/Sonic/2214.gif
+	offset	207 206
+	frame	data/chars/Sonic/2215.gif
+	offset	207 206
+	frame	data/chars/Sonic/2216.gif
+	offset	207 206
+	frame	data/chars/Sonic/2217.gif
+	offset	207 206
+	frame	data/chars/Sonic/2218.gif
+	offset	207 206
+	frame	data/chars/Sonic/2219.gif
+	offset	207 206
+	frame	data/chars/Sonic/2220.gif
+	offset	207 206
+	frame	data/chars/Sonic/2221.gif
+	offset	207 206
+	frame	data/chars/Sonic/2222.gif
+	offset	207 206
+	frame	data/chars/Sonic/2223.gif
+	offset	207 206
+	frame	data/chars/Sonic/2224.gif
+	offset	207 206
+	frame	data/chars/Sonic/2225.gif
+	offset	207 206
+	frame	data/chars/Sonic/2226.gif
+	offset	207 206
+	frame	data/chars/Sonic/2227.gif
+	offset	207 206
+	frame	data/chars/Sonic/2228.gif
+	offset	207 206
+	frame	data/chars/Sonic/2229.gif
+	offset	207 206
+	frame	data/chars/Sonic/2230.gif
+	offset	207 206
+	frame	data/chars/Sonic/2231.gif
+	offset	207 206
+	frame	data/chars/Sonic/2232.gif
+	offset	207 206
+	frame	data/chars/Sonic/2233.gif
+	offset	207 206
+	frame	data/chars/Sonic/2234.gif
+	offset	207 206
+	frame	data/chars/Sonic/2235.gif
+	offset	207 206
+	frame	data/chars/Sonic/2236.gif
+	offset	207 206
+	frame	data/chars/Sonic/2237.gif
+	offset	207 206
+	frame	data/chars/Sonic/2238.gif
+	offset	207 206
+	frame	data/chars/Sonic/2239.gif
+	offset	207 206
+	frame	data/chars/Sonic/2240.gif
+	offset	207 206
+	frame	data/chars/Sonic/2241.gif
+	offset	207 206
+	frame	data/chars/Sonic/2242.gif
+	offset	207 206
+	frame	data/chars/Sonic/2243.gif
+	offset	207 206
+	frame	data/chars/Sonic/2244.gif
+	offset	207 206
+	frame	data/chars/Sonic/2245.gif
+	offset	207 206
+	frame	data/chars/Sonic/2246.gif
+	offset	207 206
+	frame	data/chars/Sonic/2247.gif
+	offset	207 206
+	frame	data/chars/Sonic/2248.gif
+	offset	207 206
+	frame	data/chars/Sonic/2249.gif
+	offset	207 206
+	frame	data/chars/Sonic/2250.gif
+	offset	207 206
+	frame	data/chars/Sonic/2251.gif
+	offset	207 206
+	frame	data/chars/Sonic/2252.gif
+	offset	207 206
+	frame	data/chars/Sonic/2253.gif
+	offset	207 206
+	frame	data/chars/Sonic/2254.gif
+		
+anim	freespecial1024
+	delay	7
+	offset	94 94
+	frame	data/chars/Sonic/3041.gif
+	offset	94 94
+	frame	data/chars/Sonic/3042.gif
+	offset	94 94
+	frame	data/chars/Sonic/3043.gif
+	offset	94 94
+	frame	data/chars/Sonic/3044.gif
+	offset	94 94
+	frame	data/chars/Sonic/3045.gif
+	offset	94 94
+	frame	data/chars/Sonic/3046.gif
+	offset	94 94
+	frame	data/chars/Sonic/3047.gif
+	offset	94 94
+	frame	data/chars/Sonic/3048.gif
+		
+anim	freespecial1025
+	delay	7
+	offset	129 128
+	frame	data/chars/Sonic/2389.gif
+	offset	129 128
+	frame	data/chars/Sonic/2390.gif
+	offset	129 128
+	frame	data/chars/Sonic/2391.gif
+	offset	129 128
+	frame	data/chars/Sonic/2392.gif
+	offset	129 128
+	frame	data/chars/Sonic/2393.gif
+	offset	129 128
+	frame	data/chars/Sonic/2394.gif
+		
+anim	freespecial1026
+	delay	7
+	offset	234 514
+	frame	data/chars/Sonic/2154.gif
+		
+anim	freespecial1027
+	delay	7
+	offset	599 183
+	frame	data/chars/Sonic/2767.gif
+	offset	599 183
+	frame	data/chars/Sonic/2768.gif
+	offset	599 183
+	frame	data/chars/Sonic/2769.gif
+	offset	599 183
+	frame	data/chars/Sonic/2770.gif
+	offset	599 183
+	frame	data/chars/Sonic/2771.gif
+	offset	599 183
+	frame	data/chars/Sonic/2772.gif
+	offset	599 183
+	frame	data/chars/Sonic/2773.gif
+	offset	599 183
+	frame	data/chars/Sonic/2774.gif
+	offset	599 183
+	frame	data/chars/Sonic/2775.gif
+	offset	599 183
+	frame	data/chars/Sonic/2776.gif
+	offset	599 183
+	frame	data/chars/Sonic/2777.gif
+	offset	599 183
+	frame	data/chars/Sonic/2778.gif
+	offset	599 183
+	frame	data/chars/Sonic/2779.gif
+	offset	599 183
+	frame	data/chars/Sonic/2780.gif
+	offset	599 183
+	frame	data/chars/Sonic/2781.gif
+	offset	599 183
+	frame	data/chars/Sonic/2782.gif
+	offset	599 183
+	frame	data/chars/Sonic/2783.gif
+	offset	599 183
+	frame	data/chars/Sonic/2784.gif
+	offset	599 183
+	frame	data/chars/Sonic/2785.gif
+	offset	599 183
+	frame	data/chars/Sonic/2786.gif
+	offset	599 183
+	frame	data/chars/Sonic/2787.gif
+	offset	599 183
+	frame	data/chars/Sonic/2788.gif
+	offset	599 183
+	frame	data/chars/Sonic/2789.gif
+	offset	599 183
+	frame	data/chars/Sonic/2790.gif
+	offset	599 183
+	frame	data/chars/Sonic/2791.gif
+	offset	599 183
+	frame	data/chars/Sonic/2792.gif
+	offset	599 183
+	frame	data/chars/Sonic/2793.gif
+	offset	599 183
+	frame	data/chars/Sonic/2794.gif
+	offset	599 183
+	frame	data/chars/Sonic/2795.gif
+	offset	599 183
+	frame	data/chars/Sonic/2796.gif
+	offset	599 183
+	frame	data/chars/Sonic/2797.gif
+	offset	599 183
+	frame	data/chars/Sonic/2798.gif
+	offset	599 183
+	frame	data/chars/Sonic/2799.gif
+	offset	599 183
+	frame	data/chars/Sonic/2800.gif
+	offset	599 183
+	frame	data/chars/Sonic/2801.gif
+	offset	599 183
+	frame	data/chars/Sonic/2802.gif
+	offset	599 183
+	frame	data/chars/Sonic/2803.gif
+	offset	599 183
+	frame	data/chars/Sonic/2804.gif
+	offset	599 183
+	frame	data/chars/Sonic/2805.gif
+	offset	599 183
+	frame	data/chars/Sonic/2806.gif
+	offset	599 183
+	frame	data/chars/Sonic/2807.gif
+	offset	599 183
+	frame	data/chars/Sonic/2808.gif
+	offset	599 183
+	frame	data/chars/Sonic/2809.gif
+	offset	599 183
+	frame	data/chars/Sonic/2810.gif
+	offset	599 183
+	frame	data/chars/Sonic/2811.gif
+	offset	599 183
+	frame	data/chars/Sonic/2812.gif
+		
+anim	freespecial1028
+	delay	7
+	offset	190 192
+	frame	data/chars/Sonic/2549.gif
+	offset	190 192
+	frame	data/chars/Sonic/2550.gif
+	offset	190 192
+	frame	data/chars/Sonic/2551.gif
+	offset	190 192
+	frame	data/chars/Sonic/2552.gif
+	offset	190 192
+	frame	data/chars/Sonic/2553.gif
+	offset	190 192
+	frame	data/chars/Sonic/2554.gif
+	offset	190 192
+	frame	data/chars/Sonic/2555.gif
+	offset	190 192
+	frame	data/chars/Sonic/2556.gif
+	offset	190 192
+	frame	data/chars/Sonic/2557.gif
+	offset	190 192
+	frame	data/chars/Sonic/2558.gif
+	offset	190 192
+	frame	data/chars/Sonic/2559.gif
+	offset	190 192
+	frame	data/chars/Sonic/2560.gif
+	offset	190 192
+	frame	data/chars/Sonic/2561.gif
+	offset	190 192
+	frame	data/chars/Sonic/2562.gif
+	offset	190 192
+	frame	data/chars/Sonic/2563.gif
+	offset	190 192
+	frame	data/chars/Sonic/2564.gif
+	offset	190 192
+	frame	data/chars/Sonic/2565.gif
+	offset	190 192
+	frame	data/chars/Sonic/2566.gif
+	offset	190 192
+	frame	data/chars/Sonic/2567.gif
+	offset	190 192
+	frame	data/chars/Sonic/2568.gif
+	offset	190 192
+	frame	data/chars/Sonic/2569.gif
+	offset	190 192
+	frame	data/chars/Sonic/2570.gif
+	offset	190 192
+	frame	data/chars/Sonic/2571.gif
+	offset	190 192
+	frame	data/chars/Sonic/2572.gif
+	offset	190 192
+	frame	data/chars/Sonic/2573.gif
+	offset	190 192
+	frame	data/chars/Sonic/2574.gif
+	offset	190 192
+	frame	data/chars/Sonic/2575.gif
+		
+anim	freespecial1029
+	delay	7
+	offset	199 486
+	frame	data/chars/Sonic/2269.gif
+	offset	199 486
+	frame	data/chars/Sonic/2270.gif
+	offset	199 486
+	frame	data/chars/Sonic/2271.gif
+	offset	199 486
+	frame	data/chars/Sonic/2272.gif
+	offset	199 486
+	frame	data/chars/Sonic/2273.gif
+	offset	199 486
+	frame	data/chars/Sonic/2274.gif
+	offset	199 486
+	frame	data/chars/Sonic/2275.gif
+	offset	199 486
+	frame	data/chars/Sonic/2276.gif
+	offset	199 486
+	frame	data/chars/Sonic/2277.gif
+	offset	199 486
+	frame	data/chars/Sonic/2278.gif
+	offset	199 486
+	frame	data/chars/Sonic/2279.gif
+	offset	199 486
+	frame	data/chars/Sonic/2280.gif
+	offset	199 486
+	frame	data/chars/Sonic/2281.gif
+	offset	199 486
+	frame	data/chars/Sonic/2282.gif
+	offset	199 486
+	frame	data/chars/Sonic/2283.gif
+	offset	199 486
+	frame	data/chars/Sonic/2284.gif
+	offset	199 486
+	frame	data/chars/Sonic/2285.gif
+	offset	199 486
+	frame	data/chars/Sonic/2286.gif
+	offset	199 486
+	frame	data/chars/Sonic/2287.gif
+	offset	199 486
+	frame	data/chars/Sonic/2288.gif
+	offset	199 486
+	frame	data/chars/Sonic/2289.gif
+	offset	199 486
+	frame	data/chars/Sonic/2290.gif
+	offset	199 487
+	frame	data/chars/Sonic/2291.gif
+	offset	199 486
+	frame	data/chars/Sonic/2292.gif
+	offset	199 486
+	frame	data/chars/Sonic/2293.gif
+	offset	199 486
+	frame	data/chars/Sonic/2294.gif
+		
+anim	freespecial1030
+	delay	7
+	offset	195 242
+	frame	data/chars/Sonic/2295.gif
+	offset	195 242
+	frame	data/chars/Sonic/2296.gif
+	offset	195 242
+	frame	data/chars/Sonic/2297.gif
+	offset	195 242
+	frame	data/chars/Sonic/2298.gif
+	offset	195 242
+	frame	data/chars/Sonic/2299.gif
+		
+anim	freespecial1031
+	delay	7
+	offset	79 238
+	frame	data/chars/Sonic/2335.gif
+	offset	79 238
+	frame	data/chars/Sonic/2336.gif
+	offset	79 238
+	frame	data/chars/Sonic/2337.gif
+	offset	79 238
+	frame	data/chars/Sonic/2338.gif
+	offset	79 238
+	frame	data/chars/Sonic/2339.gif
+	offset	79 238
+	frame	data/chars/Sonic/2340.gif
+	offset	79 238
+	frame	data/chars/Sonic/2341.gif
+	offset	79 238
+	frame	data/chars/Sonic/2342.gif
+	offset	79 238
+	frame	data/chars/Sonic/2343.gif
+	offset	79 238
+	frame	data/chars/Sonic/2344.gif
+	offset	79 238
+	frame	data/chars/Sonic/2345.gif
+	offset	79 238
+	frame	data/chars/Sonic/2346.gif
+		
+anim	freespecial1032
+	delay	7
+	offset	79 238
+	frame	data/chars/Sonic/2837.gif
+	offset	79 238
+	frame	data/chars/Sonic/2838.gif
+	offset	79 238
+	frame	data/chars/Sonic/2839.gif
+	offset	79 238
+	frame	data/chars/Sonic/2840.gif
+	offset	79 238
+	frame	data/chars/Sonic/2841.gif
+	offset	79 238
+	frame	data/chars/Sonic/2842.gif
+	offset	79 238
+	frame	data/chars/Sonic/2843.gif
+	offset	79 238
+	frame	data/chars/Sonic/2844.gif
+	offset	79 238
+	frame	data/chars/Sonic/2845.gif
+	offset	79 238
+	frame	data/chars/Sonic/2846.gif
+	offset	79 238
+	frame	data/chars/Sonic/2847.gif
+	offset	79 238
+	frame	data/chars/Sonic/2848.gif
+		
+anim	freespecial1033
+	delay	7
+	offset	240 94
+	frame	data/chars/Sonic/2178.gif
+		
+anim	freespecial1034
+	delay	7
+	offset	253 255
+	frame	data/chars/Sonic/2984.gif
+	offset	243 243
+	frame	data/chars/Sonic/2985.gif
+	offset	232 233
+	frame	data/chars/Sonic/2986.gif
+	offset	230 221
+	frame	data/chars/Sonic/2987.gif
+	offset	253 209
+	frame	data/chars/Sonic/2988.gif
+	offset	266 197
+	frame	data/chars/Sonic/2989.gif
+	offset	280 191
+	frame	data/chars/Sonic/2990.gif
+	offset	294 184
+	frame	data/chars/Sonic/2991.gif
+	offset	307 187
+	frame	data/chars/Sonic/2992.gif
+	offset	321 186
+	frame	data/chars/Sonic/2993.gif
+	offset	334 191
+	frame	data/chars/Sonic/2994.gif
+	offset	347 190
+	frame	data/chars/Sonic/2995.gif
+	offset	361 195
+	frame	data/chars/Sonic/2996.gif
+	offset	375 194
+	frame	data/chars/Sonic/2997.gif
+	offset	388 200
+	frame	data/chars/Sonic/2998.gif
+	offset	402 199
+	frame	data/chars/Sonic/2999.gif
+	offset	415 203
+	frame	data/chars/Sonic/3000.gif
+	offset	429 204
+	frame	data/chars/Sonic/3001.gif
+	offset	439 211
+	frame	data/chars/Sonic/3002.gif
+	offset	432 219
+	frame	data/chars/Sonic/3003.gif
+		
+anim	freespecial1035
+	delay	7
+	offset	113 526
+	frame	data/chars/Sonic/2539.gif
+	offset	113 526
+	frame	data/chars/Sonic/2540.gif
+	offset	113 526
+	frame	data/chars/Sonic/2541.gif
+	offset	113 526
+	frame	data/chars/Sonic/2542.gif
+		
+anim	freespecial1036
+	delay	7
+	offset	234 514
+	frame	data/chars/Sonic/2182.gif
+		
+anim	freespecial1037
+	delay	7
+	offset	190 189
+	frame	data/chars/Sonic/2813.gif
+	offset	184 189
+	frame	data/chars/Sonic/2814.gif
+	offset	180 189
+	frame	data/chars/Sonic/2815.gif
+	offset	600 193
+	frame	data/chars/Sonic/2816.gif
+	offset	600 193
+	frame	data/chars/Sonic/2817.gif
+		
+anim	freespecial1038
+	delay	7
+	offset	293 89
+	frame	data/chars/Sonic/2818.gif
+	offset	293 89
+	frame	data/chars/Sonic/2819.gif
+	offset	293 89
+	frame	data/chars/Sonic/2820.gif
+	offset	293 89
+	frame	data/chars/Sonic/2821.gif
+	offset	293 89
+	frame	data/chars/Sonic/2822.gif
+		
+anim	freespecial1039
+	delay	7
+	offset	110 110
+	frame	data/chars/Sonic/2823.gif
+		
+anim	freespecial1040
+	delay	7
+	offset	325 242
+	frame	data/chars/Sonic/2158.gif
+		
+anim	freespecial1041
+	delay	7
+	offset	129 128
+	frame	data/chars/Sonic/2395.gif
+	offset	129 128
+	frame	data/chars/Sonic/2396.gif
+	offset	129 128
+	frame	data/chars/Sonic/2397.gif
+	offset	129 128
+	frame	data/chars/Sonic/2398.gif
+	offset	129 128
+	frame	data/chars/Sonic/2399.gif
+	offset	129 128
+	frame	data/chars/Sonic/2400.gif
+		
+anim	freespecial1042
+	delay	7
+	offset	86 93
+	frame	data/chars/Sonic/2401.gif
+	offset	86 93
+	frame	data/chars/Sonic/2402.gif
+	offset	86 93
+	frame	data/chars/Sonic/2403.gif
+	offset	86 93
+	frame	data/chars/Sonic/2404.gif
+	offset	86 93
+	frame	data/chars/Sonic/2405.gif
+	offset	86 93
+	frame	data/chars/Sonic/2406.gif
+	offset	86 93
+	frame	data/chars/Sonic/2407.gif
+	offset	86 93
+	frame	data/chars/Sonic/2408.gif
+	offset	86 93
+	frame	data/chars/Sonic/2409.gif
+	offset	86 93
+	frame	data/chars/Sonic/2410.gif
+	offset	86 93
+	frame	data/chars/Sonic/2411.gif
+	offset	86 93
+	frame	data/chars/Sonic/2412.gif
+	offset	86 93
+	frame	data/chars/Sonic/2413.gif
+	offset	86 93
+	frame	data/chars/Sonic/2414.gif
+	offset	86 93
+	frame	data/chars/Sonic/2415.gif
+	offset	86 93
+	frame	data/chars/Sonic/2416.gif
+	offset	86 93
+	frame	data/chars/Sonic/2417.gif
+		
+anim	freespecial1043
+	delay	7
+	offset	127 127
+	frame	data/chars/Sonic/2418.gif
+		
+anim	freespecial1044
+	delay	7
+	offset	207 450
+	frame	data/chars/Sonic/2930.gif
+	offset	207 450
+	frame	data/chars/Sonic/2931.gif
+	offset	207 450
+	frame	data/chars/Sonic/2932.gif
+	offset	207 450
+	frame	data/chars/Sonic/2933.gif
+	offset	207 450
+	frame	data/chars/Sonic/2934.gif
+	offset	207 450
+	frame	data/chars/Sonic/2935.gif
+	offset	207 450
+	frame	data/chars/Sonic/2936.gif
+	offset	207 450
+	frame	data/chars/Sonic/2937.gif
+	offset	207 450
+	frame	data/chars/Sonic/2938.gif
+	offset	207 450
+	frame	data/chars/Sonic/2939.gif
+	offset	207 450
+	frame	data/chars/Sonic/2940.gif
+	offset	207 450
+	frame	data/chars/Sonic/2941.gif
+	offset	207 450
+	frame	data/chars/Sonic/2942.gif
+	offset	207 450
+	frame	data/chars/Sonic/2943.gif
+	offset	207 450
+	frame	data/chars/Sonic/2944.gif
+	offset	207 450
+	frame	data/chars/Sonic/2945.gif
+	offset	207 450
+	frame	data/chars/Sonic/2946.gif
+	offset	207 450
+	frame	data/chars/Sonic/2947.gif
+	offset	207 450
+	frame	data/chars/Sonic/2948.gif
+	offset	207 450
+	frame	data/chars/Sonic/2949.gif
+	offset	207 450
+	frame	data/chars/Sonic/2950.gif
+		
+anim	freespecial1100
+	delay	7
+	offset	15 36
+	frame	data/chars/Sonic/304.gif
+	offset	15 35
+	frame	data/chars/Sonic/305.gif
+	offset	14 35
+	frame	data/chars/Sonic/306.gif
+		
+anim	freespecial1101
+	delay	7
+	offset	12 36
+	frame	data/chars/Sonic/307.gif
+	offset	11 37
+	frame	data/chars/Sonic/308.gif
+	offset	12 33
+	frame	data/chars/Sonic/309.gif
+		
+anim	freespecial1102
+	delay	7
+	offset	19 40
+	frame	data/chars/Sonic/310.gif
+	offset	20 47
+	frame	data/chars/Sonic/311.gif
+	offset	20 46
+	frame	data/chars/Sonic/312.gif
+		
+anim	freespecial1104
+	delay	7
+	offset	15 37
+	frame	data/chars/Sonic/313.gif
+	offset	14 40
+	frame	data/chars/Sonic/314.gif
+	offset	17 40
+	frame	data/chars/Sonic/315.gif
+	offset	15 42
+	frame	data/chars/Sonic/316.gif
+	offset	15 42
+	frame	data/chars/Sonic/317.gif
+	offset	14 44
+	frame	data/chars/Sonic/318.gif
+		
+anim	freespecial1110
+	delay	7
+	offset	245 54
+	frame	data/chars/Sonic/2155.gif
+		
+anim	freespecial1115
+	delay	7
+	offset	99 156
+	frame	data/chars/Sonic/2618.gif
+	offset	103 243
+	frame	data/chars/Sonic/2619.gif
+	offset	124 276
+	frame	data/chars/Sonic/2620.gif
+	offset	132 281
+	frame	data/chars/Sonic/2621.gif
+	offset	148 276
+	frame	data/chars/Sonic/2622.gif
+	offset	153 271
+	frame	data/chars/Sonic/2623.gif
+	offset	163 283
+	frame	data/chars/Sonic/2624.gif
+	offset	182 283
+	frame	data/chars/Sonic/2625.gif
+	offset	189 285
+	frame	data/chars/Sonic/2626.gif
+	offset	176 286
+	frame	data/chars/Sonic/2627.gif
+	offset	171 288
+	frame	data/chars/Sonic/2628.gif
+	offset	179 288
+	frame	data/chars/Sonic/2629.gif
+	offset	174 280
+	frame	data/chars/Sonic/2630.gif
+	offset	171 271
+	frame	data/chars/Sonic/2631.gif
+	offset	85 245
+	frame	data/chars/Sonic/2632.gif
+		
+anim	freespecial1200
+	delay	7
+	offset	12 41
+	frame	data/chars/Sonic/319.gif
+	offset	13 38
+	frame	data/chars/Sonic/320.gif
+	offset	15 36
+	frame	data/chars/Sonic/321.gif
+	offset	14 38
+	frame	data/chars/Sonic/322.gif
+	offset	13 38
+	frame	data/chars/Sonic/323.gif
+	offset	13 34
+	frame	data/chars/Sonic/324.gif
+		
+anim	freespecial1205
+	delay	7
+	offset	116 231
+	frame	data/chars/Sonic/2595.gif
+	offset	123 221
+	frame	data/chars/Sonic/2596.gif
+	offset	113 228
+	frame	data/chars/Sonic/2597.gif
+	offset	123 221
+	frame	data/chars/Sonic/2598.gif
+	offset	116 231
+	frame	data/chars/Sonic/2599.gif
+	offset	123 221
+	frame	data/chars/Sonic/2600.gif
+	offset	113 228
+	frame	data/chars/Sonic/2601.gif
+		
+anim	freespecial1305
+	delay	7
+	offset	12 18
+	frame	data/chars/Sonic/2616.gif
+	offset	9 17
+	frame	data/chars/Sonic/2617.gif
+		
+anim	freespecial1315
+	delay	7
+	offset	19 42
+	frame	data/chars/Sonic/2643.gif
+	offset	42 60
+	frame	data/chars/Sonic/2644.gif
+	offset	68 83
+	frame	data/chars/Sonic/2645.gif
+	offset	98 114
+	frame	data/chars/Sonic/2646.gif
+	offset	114 140
+	frame	data/chars/Sonic/2647.gif
+	offset	122 150
+	frame	data/chars/Sonic/2648.gif
+	offset	129 150
+	frame	data/chars/Sonic/2649.gif
+	offset	135 148
+	frame	data/chars/Sonic/2650.gif
+	offset	141 147
+	frame	data/chars/Sonic/2651.gif
+	offset	146 146
+	frame	data/chars/Sonic/2652.gif
+	offset	150 147
+	frame	data/chars/Sonic/2653.gif
+	offset	136 147
+	frame	data/chars/Sonic/2654.gif
+	offset	105 147
+	frame	data/chars/Sonic/2655.gif
+	offset	101 146
+	frame	data/chars/Sonic/2656.gif
+	offset	100 144
+	frame	data/chars/Sonic/2657.gif
+	offset	98 142
+	frame	data/chars/Sonic/2658.gif
+	offset	95 140
+	frame	data/chars/Sonic/2659.gif
+	offset	94 137
+	frame	data/chars/Sonic/2660.gif
+	offset	93 137
+	frame	data/chars/Sonic/2661.gif
+	offset	88 134
+	frame	data/chars/Sonic/2662.gif
+	offset	82 130
+	frame	data/chars/Sonic/2663.gif
+	offset	66 123
+	frame	data/chars/Sonic/2664.gif
+	offset	57 116
+	frame	data/chars/Sonic/2665.gif
+		
+anim	freespecial1400
+	delay	7
+	offset	15 39
+	frame	data/chars/Sonic/325.gif
+		
+anim	freespecial1401
+	delay	7
+	offset	17 37
+	frame	data/chars/Sonic/326.gif
+	offset	22 35
+	frame	data/chars/Sonic/327.gif
+	offset	21 39
+	frame	data/chars/Sonic/328.gif
+		
+anim	freespecial1405
+	delay	7
+	offset	59 31
+	frame	data/chars/Sonic/2666.gif
+	offset	60 28
+	frame	data/chars/Sonic/2667.gif
+	offset	52 29
+	frame	data/chars/Sonic/2668.gif
+	offset	53 32
+	frame	data/chars/Sonic/2669.gif
+	offset	60 31
+	frame	data/chars/Sonic/2670.gif
+	offset	58 31
+	frame	data/chars/Sonic/2671.gif
+	offset	61 30
+	frame	data/chars/Sonic/2672.gif
+	offset	50 29
+	frame	data/chars/Sonic/2673.gif
+	offset	53 32
+	frame	data/chars/Sonic/2674.gif
+	offset	59 29
+	frame	data/chars/Sonic/2675.gif
+		
+anim	freespecial1500
+	delay	7
+	offset	16 35
+	frame	data/chars/Sonic/329.gif
+	offset	16 39
+	frame	data/chars/Sonic/330.gif
+	offset	14 50
+	frame	data/chars/Sonic/331.gif
+	offset	13 47
+	frame	data/chars/Sonic/332.gif
+	offset	13 44
+	frame	data/chars/Sonic/333.gif
+		
+anim	freespecial1501
+	delay	7
+	offset	12 42
+	frame	data/chars/Sonic/334.gif
+	offset	9 34
+	frame	data/chars/Sonic/335.gif
+	offset	9 34
+	frame	data/chars/Sonic/336.gif
+	offset	11 36
+	frame	data/chars/Sonic/337.gif
+	offset	10 34
+	frame	data/chars/Sonic/338.gif
+		
+anim	freespecial1530
+	delay	7
+	offset	239 75
+	frame	data/chars/Sonic/2642.gif
+		
+anim	freespecial1535
+	delay	7
+	offset	244 82
+	frame	data/chars/Sonic/2580.gif
+		
+anim	freespecial2000
+	delay	7
+	offset	11 36
+	frame	data/chars/Sonic/339.gif
+	offset	11 38
+	frame	data/chars/Sonic/340.gif
+	offset	10 38
+	frame	data/chars/Sonic/341.gif
+	offset	10 39
+	frame	data/chars/Sonic/342.gif
+	offset	9 38
+	frame	data/chars/Sonic/343.gif
+	offset	10 36
+	frame	data/chars/Sonic/344.gif
+	offset	12 37
+	frame	data/chars/Sonic/345.gif
+	offset	14 26
+	frame	data/chars/Sonic/346.gif
+	offset	13 32
+	frame	data/chars/Sonic/347.gif
+	offset	13 31
+	frame	data/chars/Sonic/348.gif
+	offset	15 30
+	frame	data/chars/Sonic/349.gif
+	offset	15 30
+	frame	data/chars/Sonic/350.gif
+	offset	14 34
+	frame	data/chars/Sonic/351.gif
+	offset	13 35
+	frame	data/chars/Sonic/352.gif
+	offset	15 37
+	frame	data/chars/Sonic/353.gif
+	offset	15 37
+	frame	data/chars/Sonic/354.gif
+	offset	13 35
+	frame	data/chars/Sonic/355.gif
+	offset	20 22
+	frame	data/chars/Sonic/356.gif
+	offset	13 32
+	frame	data/chars/Sonic/357.gif
+	offset	21 24
+	frame	data/chars/Sonic/358.gif
+	offset	13 31
+	frame	data/chars/Sonic/359.gif
+	offset	21 24
+	frame	data/chars/Sonic/360.gif
+	offset	13 32
+	frame	data/chars/Sonic/361.gif
+	offset	20 22
+	frame	data/chars/Sonic/362.gif
+	offset	13 33
+	frame	data/chars/Sonic/363.gif
+	offset	20 22
+	frame	data/chars/Sonic/364.gif
+	offset	13 32
+	frame	data/chars/Sonic/365.gif
+	offset	21 24
+	frame	data/chars/Sonic/366.gif
+	offset	13 31
+	frame	data/chars/Sonic/367.gif
+	offset	13 32
+	frame	data/chars/Sonic/368.gif
+	offset	13 34
+	frame	data/chars/Sonic/369.gif
+	offset	16 38
+	frame	data/chars/Sonic/370.gif
+	offset	17 39
+	frame	data/chars/Sonic/371.gif
+	offset	21 30
+	frame	data/chars/Sonic/372.gif
+	offset	22 32
+	frame	data/chars/Sonic/373.gif
+	offset	13 38
+	frame	data/chars/Sonic/374.gif
+	offset	12 37
+	frame	data/chars/Sonic/375.gif
+	offset	13 37
+	frame	data/chars/Sonic/376.gif
+		
+anim	freespecial2200
+	delay	7
+	offset	13 38
+	frame	data/chars/Sonic/377.gif
+	offset	19 38
+	frame	data/chars/Sonic/378.gif
+	offset	19 36
+	frame	data/chars/Sonic/379.gif
+	offset	12 35
+	frame	data/chars/Sonic/380.gif
+	offset	12 35
+	frame	data/chars/Sonic/381.gif
+	offset	15 35
+	frame	data/chars/Sonic/382.gif
+	offset	15 35
+	frame	data/chars/Sonic/383.gif
+	offset	13 34
+	frame	data/chars/Sonic/384.gif
+	offset	16 31
+	frame	data/chars/Sonic/385.gif
+	offset	15 31
+	frame	data/chars/Sonic/386.gif
+	offset	15 31
+	frame	data/chars/Sonic/387.gif
+	offset	13 35
+	frame	data/chars/Sonic/388.gif
+	offset	12 34
+	frame	data/chars/Sonic/389.gif
+	offset	12 31
+	frame	data/chars/Sonic/390.gif
+	offset	12 29
+	frame	data/chars/Sonic/391.gif
+	offset	17 28
+	frame	data/chars/Sonic/392.gif
+	offset	16 29
+	frame	data/chars/Sonic/393.gif
+	offset	13 38
+	frame	data/chars/Sonic/394.gif
+	offset	12 40
+	frame	data/chars/Sonic/395.gif
+	offset	12 35
+	frame	data/chars/Sonic/396.gif
+	offset	20 31
+	frame	data/chars/Sonic/397.gif
+	offset	19 31
+	frame	data/chars/Sonic/398.gif
+	offset	17 31
+	frame	data/chars/Sonic/399.gif
+	offset	19 33
+	frame	data/chars/Sonic/400.gif
+	offset	13 32
+	frame	data/chars/Sonic/401.gif
+	offset	12 31
+	frame	data/chars/Sonic/402.gif
+	offset	13 31
+	frame	data/chars/Sonic/403.gif
+	offset	12 30
+	frame	data/chars/Sonic/404.gif
+	offset	13 31
+	frame	data/chars/Sonic/405.gif
+	offset	12 33
+	frame	data/chars/Sonic/406.gif
+	offset	13 38
+	frame	data/chars/Sonic/407.gif
+	offset	14 32
+	frame	data/chars/Sonic/408.gif
+	offset	16 34
+	frame	data/chars/Sonic/409.gif
+	offset	15 34
+	frame	data/chars/Sonic/410.gif
+	offset	12 34
+	frame	data/chars/Sonic/411.gif
+	offset	18 36
+	frame	data/chars/Sonic/412.gif
+	offset	13 38
+	frame	data/chars/Sonic/413.gif
+	offset	14 42
+	frame	data/chars/Sonic/414.gif
+	offset	10 44
+	frame	data/chars/Sonic/415.gif
+	offset	10 48
+	frame	data/chars/Sonic/416.gif
+	offset	11 32
+	frame	data/chars/Sonic/417.gif
+	offset	12 31
+	frame	data/chars/Sonic/418.gif
+	offset	18 40
+	frame	data/chars/Sonic/419.gif
+	offset	17 39
+	frame	data/chars/Sonic/420.gif
+	offset	17 38
+	frame	data/chars/Sonic/421.gif
+	offset	15 35
+	frame	data/chars/Sonic/422.gif
+	offset	15 35
+	frame	data/chars/Sonic/423.gif
+	offset	16 34
+	frame	data/chars/Sonic/424.gif
+	offset	30 39
+	frame	data/chars/Sonic/425.gif
+	offset	31 44
+	frame	data/chars/Sonic/426.gif
+	offset	29 37
+	frame	data/chars/Sonic/427.gif
+	offset	24 39
+	frame	data/chars/Sonic/428.gif
+	offset	13 35
+	frame	data/chars/Sonic/429.gif
+	offset	16 34
+	frame	data/chars/Sonic/430.gif
+	offset	17 38
+	frame	data/chars/Sonic/431.gif
+	offset	15 36
+	frame	data/chars/Sonic/432.gif
+	offset	12 35
+	frame	data/chars/Sonic/433.gif
+	offset	13 35
+	frame	data/chars/Sonic/434.gif
+	offset	21 29
+	frame	data/chars/Sonic/435.gif
+	offset	20 24
+	frame	data/chars/Sonic/436.gif
+	offset	20 26
+	frame	data/chars/Sonic/437.gif
+	offset	19 30
+	frame	data/chars/Sonic/438.gif
+	offset	16 31
+	frame	data/chars/Sonic/439.gif
+	offset	19 29
+	frame	data/chars/Sonic/440.gif
+	offset	18 32
+	frame	data/chars/Sonic/441.gif
+	offset	15 34
+	frame	data/chars/Sonic/442.gif
+	offset	16 31
+	frame	data/chars/Sonic/443.gif
+	offset	18 30
+	frame	data/chars/Sonic/444.gif
+	offset	20 30
+	frame	data/chars/Sonic/445.gif
+	offset	24 30
+	frame	data/chars/Sonic/446.gif
+	offset	19 33
+	frame	data/chars/Sonic/447.gif
+	offset	20 34
+	frame	data/chars/Sonic/448.gif
+	offset	15 32
+	frame	data/chars/Sonic/449.gif
+	offset	20 29
+	frame	data/chars/Sonic/450.gif
+	offset	19 29
+	frame	data/chars/Sonic/451.gif
+	offset	19 29
+	frame	data/chars/Sonic/452.gif
+	offset	18 29
+	frame	data/chars/Sonic/453.gif
+	offset	21 29
+	frame	data/chars/Sonic/454.gif
+	offset	16 38
+	frame	data/chars/Sonic/455.gif
+	offset	17 38
+	frame	data/chars/Sonic/456.gif
+	offset	16 38
+	frame	data/chars/Sonic/457.gif
+	offset	20 44
+	frame	data/chars/Sonic/458.gif
+	offset	20 38
+	frame	data/chars/Sonic/459.gif
+	offset	16 38
+	frame	data/chars/Sonic/460.gif
+	offset	12 33
+	frame	data/chars/Sonic/461.gif
+	offset	20 33
+	frame	data/chars/Sonic/462.gif
+	offset	18 38
+	frame	data/chars/Sonic/463.gif
+	offset	18 33
+	frame	data/chars/Sonic/464.gif
+	offset	17 33
+	frame	data/chars/Sonic/465.gif
+	offset	15 30
+	frame	data/chars/Sonic/466.gif
+	offset	19 36
+	frame	data/chars/Sonic/467.gif
+	offset	19 43
+	frame	data/chars/Sonic/468.gif
+	offset	21 40
+	frame	data/chars/Sonic/469.gif
+	offset	23 37
+	frame	data/chars/Sonic/470.gif
+	offset	19 35
+	frame	data/chars/Sonic/471.gif
+	offset	17 33
+	frame	data/chars/Sonic/472.gif
+	offset	12 35
+	frame	data/chars/Sonic/473.gif
+	offset	13 34
+	frame	data/chars/Sonic/474.gif
+	offset	19 35
+	frame	data/chars/Sonic/475.gif
+	offset	14 35
+	frame	data/chars/Sonic/476.gif
+	offset	16 34
+	frame	data/chars/Sonic/477.gif
+	offset	16 35
+	frame	data/chars/Sonic/478.gif
+	offset	17 33
+	frame	data/chars/Sonic/479.gif
+	offset	16 29
+	frame	data/chars/Sonic/480.gif
+	offset	17 27
+	frame	data/chars/Sonic/481.gif
+	offset	10 37
+	frame	data/chars/Sonic/482.gif
+	offset	10 36
+	frame	data/chars/Sonic/483.gif
+	offset	13 30
+	frame	data/chars/Sonic/484.gif
+	offset	13 29
+	frame	data/chars/Sonic/485.gif
+	offset	14 27
+	frame	data/chars/Sonic/486.gif
+	offset	13 30
+	frame	data/chars/Sonic/487.gif
+	offset	14 27
+	frame	data/chars/Sonic/488.gif
+	offset	11 24
+	frame	data/chars/Sonic/489.gif
+	offset	11 22
+	frame	data/chars/Sonic/490.gif
+	offset	11 24
+	frame	data/chars/Sonic/491.gif
+	offset	13 26
+	frame	data/chars/Sonic/492.gif
+	offset	11 30
+	frame	data/chars/Sonic/493.gif
+	offset	12 26
+	frame	data/chars/Sonic/494.gif
+	offset	12 25
+	frame	data/chars/Sonic/495.gif
+	offset	12 26
+	frame	data/chars/Sonic/496.gif
+	offset	13 16
+	frame	data/chars/Sonic/497.gif
+	offset	15 15
+	frame	data/chars/Sonic/498.gif
+	offset	9 43
+	frame	data/chars/Sonic/499.gif
+	offset	11 23
+	frame	data/chars/Sonic/500.gif
+	offset	10 21
+	frame	data/chars/Sonic/501.gif
+	offset	11 22
+	frame	data/chars/Sonic/502.gif
+	offset	11 23
+	frame	data/chars/Sonic/503.gif
+	offset	11 25
+	frame	data/chars/Sonic/504.gif
+	offset	10 23
+	frame	data/chars/Sonic/505.gif
+	offset	10 23
+	frame	data/chars/Sonic/506.gif
+	offset	11 25
+	frame	data/chars/Sonic/507.gif
+		
+anim	freespecial2210
+	delay	7
+	offset	12 37
+	frame	data/chars/Sonic/508.gif
+	offset	12 36
+	frame	data/chars/Sonic/509.gif
+	offset	12 37
+	frame	data/chars/Sonic/510.gif
+	offset	15 42
+	frame	data/chars/Sonic/511.gif
+	offset	12 41
+	frame	data/chars/Sonic/512.gif
+	offset	12 40
+	frame	data/chars/Sonic/513.gif
+	offset	13 37
+	frame	data/chars/Sonic/514.gif
+	offset	13 30
+	frame	data/chars/Sonic/515.gif
+	offset	16 36
+	frame	data/chars/Sonic/516.gif
+	offset	12 36
+	frame	data/chars/Sonic/517.gif
+	offset	15 35
+	frame	data/chars/Sonic/518.gif
+	offset	13 37
+	frame	data/chars/Sonic/519.gif
+	offset	12 35
+	frame	data/chars/Sonic/520.gif
+	offset	11 32
+	frame	data/chars/Sonic/521.gif
+	offset	13 32
+	frame	data/chars/Sonic/522.gif
+	offset	10 38
+	frame	data/chars/Sonic/523.gif
+	offset	10 38
+	frame	data/chars/Sonic/524.gif
+	offset	10 38
+	frame	data/chars/Sonic/525.gif
+	offset	13 45
+	frame	data/chars/Sonic/526.gif
+	offset	13 44
+	frame	data/chars/Sonic/527.gif
+	offset	12 42
+	frame	data/chars/Sonic/528.gif
+	offset	13 37
+	frame	data/chars/Sonic/529.gif
+	offset	15 35
+	frame	data/chars/Sonic/530.gif
+	offset	16 35
+	frame	data/chars/Sonic/531.gif
+	offset	16 40
+	frame	data/chars/Sonic/532.gif
+	offset	16 40
+	frame	data/chars/Sonic/533.gif
+	offset	11 43
+	frame	data/chars/Sonic/534.gif
+	offset	14 42
+	frame	data/chars/Sonic/535.gif
+	offset	15 42
+	frame	data/chars/Sonic/536.gif
+	offset	14 32
+	frame	data/chars/Sonic/537.gif
+	offset	17 32
+	frame	data/chars/Sonic/538.gif
+	offset	17 32
+	frame	data/chars/Sonic/539.gif
+	offset	13 33
+	frame	data/chars/Sonic/540.gif
+	offset	16 33
+	frame	data/chars/Sonic/541.gif
+	offset	13 33
+	frame	data/chars/Sonic/542.gif
+	offset	13 33
+	frame	data/chars/Sonic/543.gif
+	offset	15 32
+	frame	data/chars/Sonic/544.gif
+	offset	15 35
+	frame	data/chars/Sonic/545.gif
+	offset	13 38
+	frame	data/chars/Sonic/546.gif
+	offset	19 33
+	frame	data/chars/Sonic/547.gif
+	offset	12 35
+	frame	data/chars/Sonic/548.gif
+	offset	17 34
+	frame	data/chars/Sonic/549.gif
+	offset	12 37
+	frame	data/chars/Sonic/550.gif
+	offset	15 36
+	frame	data/chars/Sonic/551.gif
+	offset	15 34
+	frame	data/chars/Sonic/552.gif
+	offset	16 32
+	frame	data/chars/Sonic/553.gif
+	offset	15 32
+	frame	data/chars/Sonic/554.gif
+	offset	14 35
+	frame	data/chars/Sonic/555.gif
+	offset	15 32
+	frame	data/chars/Sonic/556.gif
+	offset	17 32
+	frame	data/chars/Sonic/557.gif
+	offset	15 34
+	frame	data/chars/Sonic/558.gif
+	offset	16 33
+	frame	data/chars/Sonic/559.gif
+	offset	12 37
+	frame	data/chars/Sonic/560.gif
+	offset	14 45
+	frame	data/chars/Sonic/561.gif
+	offset	13 45
+	frame	data/chars/Sonic/562.gif
+	offset	19 45
+	frame	data/chars/Sonic/563.gif
+	offset	18 45
+	frame	data/chars/Sonic/564.gif
+	offset	14 36
+	frame	data/chars/Sonic/565.gif
+	offset	13 36
+	frame	data/chars/Sonic/566.gif
+	offset	17 36
+	frame	data/chars/Sonic/567.gif
+	offset	18 36
+	frame	data/chars/Sonic/568.gif
+	offset	18 36
+	frame	data/chars/Sonic/569.gif
+	offset	13 35
+	frame	data/chars/Sonic/570.gif
+	offset	13 35
+	frame	data/chars/Sonic/571.gif
+	offset	18 38
+	frame	data/chars/Sonic/572.gif
+		
+anim	freespecial3000
+	delay	7
+	offset	17 40
+	frame	data/chars/Sonic/573.gif
+	offset	20 42
+	frame	data/chars/Sonic/574.gif
+	offset	16 46
+	frame	data/chars/Sonic/575.gif
+	offset	18 49
+	frame	data/chars/Sonic/576.gif
+		
+anim	freespecial3005
+	delay	7
+	offset	148 125
+	frame	data/chars/Sonic/2602.gif
+	offset	138 125
+	frame	data/chars/Sonic/2603.gif
+	offset	148 122
+	frame	data/chars/Sonic/2604.gif
+	offset	148 119
+	frame	data/chars/Sonic/2605.gif
+	offset	146 117
+	frame	data/chars/Sonic/2606.gif
+	offset	149 124
+	frame	data/chars/Sonic/2607.gif
+		
+anim	freespecial4000
+	delay	7
+	offset	-53 1
+	frame	data/chars/Sonic/2160.gif
+		
+anim	freespecial4001
+	delay	7
+	offset	0 31
+	frame	data/chars/Sonic/2730.gif
+	offset	0 31
+	frame	data/chars/Sonic/2731.gif
+	offset	0 31
+	frame	data/chars/Sonic/2732.gif
+	offset	0 31
+	frame	data/chars/Sonic/2733.gif
+	offset	0 31
+	frame	data/chars/Sonic/2734.gif
+	offset	0 31
+	frame	data/chars/Sonic/2735.gif
+	offset	0 31
+	frame	data/chars/Sonic/2736.gif
+	offset	0 31
+	frame	data/chars/Sonic/2737.gif
+	offset	0 31
+	frame	data/chars/Sonic/2738.gif
+	offset	0 31
+	frame	data/chars/Sonic/2739.gif
+	offset	0 31
+	frame	data/chars/Sonic/2740.gif
+	offset	0 31
+	frame	data/chars/Sonic/2741.gif
+	offset	0 31
+	frame	data/chars/Sonic/2742.gif
+	offset	0 31
+	frame	data/chars/Sonic/2743.gif
+	offset	0 31
+	frame	data/chars/Sonic/2744.gif
+	offset	0 31
+	frame	data/chars/Sonic/2745.gif
+	offset	0 31
+	frame	data/chars/Sonic/2746.gif
+	offset	0 31
+	frame	data/chars/Sonic/2747.gif
+	offset	0 31
+	frame	data/chars/Sonic/2748.gif
+	offset	0 31
+	frame	data/chars/Sonic/2749.gif
+	offset	0 31
+	frame	data/chars/Sonic/2750.gif
+	offset	0 31
+	frame	data/chars/Sonic/2751.gif
+		
+anim	idle
+	delay	7
+	offset	13 41
+	frame	data/chars/Sonic/2.gif
+	offset	12 37
+	frame	data/chars/Sonic/3.gif
+	offset	13 40
+	frame	data/chars/Sonic/4.gif
+	offset	14 42
+	frame	data/chars/Sonic/5.gif
+	offset	15 41
+	frame	data/chars/Sonic/6.gif
+	offset	15 40
+	frame	data/chars/Sonic/7.gif
+	offset	13 42
+	frame	data/chars/Sonic/8.gif
+	offset	13 40
+	frame	data/chars/Sonic/9.gif
+		
+anim	jump
+	delay	7
+	offset	16 42
+	frame	data/chars/Sonic/23.gif
+	offset	16 42
+	frame	data/chars/Sonic/24.gif
+	offset	16 43
+	frame	data/chars/Sonic/25.gif
+	offset	18 44
+	frame	data/chars/Sonic/26.gif
+	offset	16 43
+	frame	data/chars/Sonic/27.gif
+	offset	17 40
+	frame	data/chars/Sonic/28.gif
+	offset	22 45
+	frame	data/chars/Sonic/29.gif
+		
+anim	jumpattack600
+	delay	7
+	offset	14 38
+	frame	data/chars/Sonic/273.gif
+	offset	13 36
+	frame	data/chars/Sonic/274.gif
+	offset	13 37
+	frame	data/chars/Sonic/275.gif
+	offset	12 38
+	frame	data/chars/Sonic/276.gif
+	offset	12 37
+	frame	data/chars/Sonic/277.gif
+	offset	11 37
+	frame	data/chars/Sonic/278.gif
+	offset	14 39
+	frame	data/chars/Sonic/279.gif
+	offset	15 37
+	frame	data/chars/Sonic/280.gif
+		
+anim	jumpattack610
+	delay	7
+	offset	20 33
+	frame	data/chars/Sonic/281.gif
+	offset	18 34
+	frame	data/chars/Sonic/282.gif
+	offset	12 44
+	frame	data/chars/Sonic/283.gif
+	offset	20 41
+	frame	data/chars/Sonic/284.gif
+	offset	16 41
+	frame	data/chars/Sonic/285.gif
+	offset	16 37
+	frame	data/chars/Sonic/286.gif
+	offset	17 34
+	frame	data/chars/Sonic/287.gif
+	offset	15 33
+	frame	data/chars/Sonic/288.gif
+		
+anim	jumpattack620
+	delay	7
+	offset	20 36
+	frame	data/chars/Sonic/289.gif
+	offset	13 40
+	frame	data/chars/Sonic/290.gif
+	offset	15 42
+	frame	data/chars/Sonic/291.gif
+	offset	19 34
+	frame	data/chars/Sonic/292.gif
+		
+anim	jumpattack622
+	delay	7
+	offset	17 38
+	frame	data/chars/Sonic/293.gif
+	offset	19 35
+	frame	data/chars/Sonic/294.gif
+	offset	16 36
+	frame	data/chars/Sonic/295.gif
+	offset	19 34
+	frame	data/chars/Sonic/296.gif
+		
+anim	pain5000
+	delay	7
+	offset	16 36
+	frame	data/chars/Sonic/577.gif
+	offset	16 36
+	frame	data/chars/Sonic/578.gif
+	offset	16 36
+	frame	data/chars/Sonic/579.gif
+		
+anim	pain5001
+	delay	7
+	offset	14 34
+	frame	data/chars/Sonic/580.gif
+	offset	14 34
+	frame	data/chars/Sonic/581.gif
+	offset	14 34
+	frame	data/chars/Sonic/582.gif
+		
+anim	pain5002
+	delay	7
+	offset	15 34
+	frame	data/chars/Sonic/583.gif
+	offset	15 34
+	frame	data/chars/Sonic/584.gif
+	offset	15 34
+	frame	data/chars/Sonic/585.gif
+		
+anim	pain5005
+	delay	7
+	offset	15 34
+	frame	data/chars/Sonic/586.gif
+		
+anim	pain5010
+	delay	7
+	offset	16 36
+	frame	data/chars/Sonic/587.gif
+	offset	16 36
+	frame	data/chars/Sonic/588.gif
+	offset	16 36
+	frame	data/chars/Sonic/589.gif
+		
+anim	pain5011
+	delay	7
+	offset	16 36
+	frame	data/chars/Sonic/590.gif
+	offset	16 36
+	frame	data/chars/Sonic/591.gif
+	offset	16 36
+	frame	data/chars/Sonic/592.gif
+		
+anim	pain5012
+	delay	7
+	offset	16 36
+	frame	data/chars/Sonic/593.gif
+	offset	16 36
+	frame	data/chars/Sonic/594.gif
+	offset	16 36
+	frame	data/chars/Sonic/595.gif
+		
+anim	pain5020
+	delay	7
+	offset	14 41
+	frame	data/chars/Sonic/596.gif
+	offset	14 41
+	frame	data/chars/Sonic/597.gif
+	offset	14 41
+	frame	data/chars/Sonic/598.gif
+		
+anim	respawn
+	delay	7
+	offset	17 40
+	frame	data/chars/Sonic/51.gif
+	offset	13 39
+	frame	data/chars/Sonic/52.gif
+	offset	13 36
+	frame	data/chars/Sonic/53.gif
+	offset	12 39
+	frame	data/chars/Sonic/54.gif
+	offset	13 37
+	frame	data/chars/Sonic/55.gif
+	offset	13 38
+	frame	data/chars/Sonic/56.gif
+		
+anim	rise
+	delay	7
+	offset	19 29
+	frame	data/chars/Sonic/647.gif
+	offset	20 38
+	frame	data/chars/Sonic/648.gif
+	offset	25 30
+	frame	data/chars/Sonic/649.gif
+	offset	27 26
+	frame	data/chars/Sonic/650.gif
+	offset	24 43
+	frame	data/chars/Sonic/651.gif
+	offset	24 34
+	frame	data/chars/Sonic/652.gif
+	offset	14 40
+	frame	data/chars/Sonic/653.gif
+	offset	14 35
+	frame	data/chars/Sonic/654.gif
+		
+anim	run
+	delay	7
+	offset	17 38
+	frame	data/chars/Sonic/30.gif
+	offset	17 40
+	frame	data/chars/Sonic/31.gif
+	offset	16 40
+	frame	data/chars/Sonic/32.gif
+	offset	14 35
+	frame	data/chars/Sonic/33.gif
+	offset	18 37
+	frame	data/chars/Sonic/34.gif
+	offset	16 39
+	frame	data/chars/Sonic/35.gif
+		
+anim	select
+	delay	7
+	offset	15 37
+	frame	data/chars/Sonic/57.gif
+	offset	18 39
+	frame	data/chars/Sonic/58.gif
+	offset	17 36
+	frame	data/chars/Sonic/59.gif
+		
+anim	turn
+	delay	7
+	offset	9 36
+	frame	data/chars/Sonic/10.gif
+	offset	11 38
+	frame	data/chars/Sonic/11.gif
+	offset	11 36
+	frame	data/chars/Sonic/12.gif
+		
+anim	walk
+	delay	7
+	offset	15 41
+	frame	data/chars/Sonic/15.gif
+	offset	13 38
+	frame	data/chars/Sonic/16.gif
+	offset	19 38
+	frame	data/chars/Sonic/17.gif
+	offset	16 37
+	frame	data/chars/Sonic/18.gif
+	offset	11 41
+	frame	data/chars/Sonic/19.gif
+	offset	16 39
+	frame	data/chars/Sonic/20.gif
+	offset	20 35
+	frame	data/chars/Sonic/21.gif
+	offset	16 39
+	frame	data/chars/Sonic/22.gif
+		
+#|edited by openBor Stats v 0.67
+		
