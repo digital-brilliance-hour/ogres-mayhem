@@ -307,6 +307,11 @@ anim	freespecial2
 	frame	data/chars/Naruto/jatk02.png
 		
 anim	freespecial3
+	@cmd	isavailable 4
+	mponly	1
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+		
+		
 	delay	7
 	offset	18 47
 	@cmd	pause_all 1 200
@@ -384,6 +389,11 @@ anim	freespecial3
 	frame	data/chars/Naruto/8.gif
 		
 anim	freespecial4
+	@cmd	isavailable 7
+	mponly	1
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+		
+		
 	loop	0
 	delay	10
 	@cmd	pause_all 1 10
@@ -442,6 +452,9 @@ anim	freespecial4
 	frame	data/chars/Naruto/236.gif
 		
 anim	freespecial5
+	@cmd	isavailable 5
+	mponly	1
+	energycost	30
 	delay	3
 	offset	18 47
 	frame	data/chars/Naruto/34.gif
@@ -466,6 +479,10 @@ anim	freespecial5
 	frame	data/chars/Naruto/34.gif
 		
 anim	freespecial6
+	@cmd	isavailable 6
+	mponly	1
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+		
 	delay	7
 	@cmd	pause_all 1 120
 	offset	17 45
