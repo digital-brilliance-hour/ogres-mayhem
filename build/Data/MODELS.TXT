@@ -288,7 +288,7 @@ Load Levelup data/chars/Misc/levelup/levelup.txt
 load kyuubiNaruto data/chars/kyuubiNaruto/kyuubiNaruto.txt
 know NarutoTransformOLD data/chars/kyuubiNaruto/narutotransform-old.txt
 know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
-know 	YusukeTransform data/chars/yusuke/yusuke-transform.txt
+load 	YusukeTransform data/chars/yusuke/yusuke-transform.txt
 know kyuubiRasengan data/chars/kyuubiNaruto/kyuubirasengan.txt
 know kyuubiBomb data/chars/kyuubiNaruto/kyuubibomb.txt
 know rasenganBall data/chars/Naruto/rasenganball.txt
