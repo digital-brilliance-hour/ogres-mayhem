@@ -2095,8 +2095,8 @@ void npc_check(int limit) {
         	npc_count++;
         }	
     } 
-    
-    if(npc_count >= limit) {
+
+    if(npc_count > 0) {
 		anichange(openborconstant("ANI_SPAWN"));
 		setidle(vSelf, openborconstant("ANI_SPAWN"));
 		mpcost(0);
