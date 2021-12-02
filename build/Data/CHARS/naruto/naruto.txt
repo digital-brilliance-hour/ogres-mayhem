@@ -15,6 +15,7 @@ load cloneSmoke
 load rasengan
 load rasenganBall
 load buntaToad
+load narutoClone
 com  a3  freespecial
 com u a3 freespecial2
 com d a3 freespecial5
@@ -32,6 +33,8 @@ parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
+
+
 
 
 
@@ -442,10 +445,15 @@ anim	freespecial4
 	frame	data/chars/Naruto/236.gif
 		
 anim	freespecial5
+	@cmd	npc_check 2
 	delay	3
 	offset	18 47
 	frame	data/chars/Naruto/34.gif
 	sound	data/chars/Naruto/narutoJutsu.wav
+	@cmd	spawnparent "cloneSmoke" -20 0 3
+	@cmd	spawnparent "narutoClone" -20 0 3
+	@cmd	spawnparent "cloneSmoke" -15 0 -3
+	@cmd	spawnparent "narutoClone" -15 0 -3
 	offset	18 48
 	frame	data/chars/Naruto/35.gif
 	offset	18 48

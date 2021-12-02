@@ -1,0 +1,438 @@
+name	NarutoClone
+health	10
+speed 10
+running	16	3	2	1    1
+type	npc
+subtype follow
+aimove chase
+aggression 200
+hostile enemy
+load cloneSmoke
+nodieblink 2
+candamage enemy
+atchain		1 1 2 1 3
+shadow	2
+grabdistance 23
+icon	data/chars/Naruto/icon.gif
+bflash  bflash
+dust	 dust
+jumpheight 3
+com  a3  freespecial
+com u a3 freespecial2
+com a2 freespecial11
+com s freespecial4
+animationscript data/scripts/spawns.c
+script data/scripts/playerscript.c
+didhitscript data/scripts/npcscript.c
+
+parrow data/chars/misc/picon/1picon.gif -18 -100
+parrow2 data/chars/misc/picon/2picon.gif -18 -100
+parrow3 data/chars/misc/picon/3picon.gif -18 -100
+parrow4 data/chars/misc/picon/4picon.gif -18 -100
+makeinv 4
+
+
+
+
+
+
+
+
+
+
+
+
+anim	attack1
+	loop	0
+	delay	3
+	offset	60 116
+	sound	data/chars/Naruto/ha.wav
+	frame	data/chars/Naruto/jab00.gif
+	attack	63 68 60 47 8 0 0 0 0 0
+	frame	data/chars/Naruto/jab01.gif
+	frame	data/chars/Naruto/jab02.gif
+	frame	data/chars/Naruto/jab03.gif
+		
+anim	attack2
+	loop	0
+	delay	7
+	offset	60 116
+	frame	data/chars/Naruto/head00.gif
+	frame	data/chars/Naruto/head01.gif
+	attack	65 83 62 32 14 0 0 0 0 0
+	frame	data/chars/Naruto/head02.gif
+	frame	data/chars/Naruto/head03.gif
+		
+anim	attack3
+	loop	0
+	delay	7
+	offset	60 116
+	frame	data/chars/Naruto/punch00.gif
+	frame	data/chars/Naruto/punch01.gif
+	attack	69 79 52 35 18 1 0 0 0 0
+	frame	data/chars/Naruto/punch02.gif
+	frame	data/chars/Naruto/punch03.gif
+	frame	data/chars/Naruto/punch04.gif
+		
+anim	death
+	delay	7
+	@cmd	spawnparent "cloneSmoke" 0 0 0
+	frame	data/chars/misc/empty.gif
+		
+anim	duck
+	loop	0
+	delay	10
+	offset	60 116
+	bbox	41 99 31 17
+	frame	data/chars/Naruto/get00.gif
+	frame	data/chars/Naruto/get01.gif
+	frame	data/chars/Naruto/get02.gif
+		
+anim	fall
+	loop	0
+	fshadow	0
+	offset	60 116
+	delay	30
+	attack	43 65 26 33 4 1
+	sound	data/chars/Naruto/ugh.wav
+	frame	data/chars/Naruto/fall00.gif
+	@cmd	spawnparent "cloneSmoke" 0 0 0
+	delay	200
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+anim	freespecial
+	@cmd	isavailable 2
+	energycost	10
+	mponly	1
+	loop	0
+	@cmd	pause_all 1 10
+	delay	30
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 1
+	offset	60 116
+	sound	data/chars/Naruto/kage.wav
+	frame	data/chars/Naruto/spec00.gif
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 0
+	delay	10
+	frame	data/chars/Naruto/spec01.gif
+	frame	data/chars/Naruto/spec02.gif
+	frame	data/chars/Naruto/spec03.gif
+	frame	data/chars/Naruto/spec04.gif
+	frame	data/chars/Naruto/spec05.gif
+	frame	data/chars/Naruto/spec06.gif
+	frame	data/chars/Naruto/spec07.gif
+	attack	-17 27 157 89 30 1 0 0 15 120
+	dropv	2 5 0
+	frame	data/chars/Naruto/spec08.gif
+	frame	data/chars/Naruto/spec09.gif
+	frame	data/chars/Naruto/spec10.gif
+	blast	0
+	frame	data/chars/Naruto/spec11.gif
+	frame	data/chars/Naruto/spec03.gif
+	frame	data/chars/Naruto/spec12.gif
+	frame	data/chars/Naruto/spec13.gif
+	frame	data/chars/Naruto/spec14.gif
+	frame	data/chars/Naruto/spec15.gif
+		
+anim	freespecial11
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	7
+	offset	60 116
+	frame	data/chars/Naruto/run05.gif
+	delay	2
+	@cmd	dasher 3 0 0
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	@cmd	stop
+	@cmd	dasher 7 0 0
+	delay	7
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	@cmd	stop
+	fshadow	3
+	delay	7
+	offset	60 116
+	frame	data/chars/Naruto/run05.gif
+		
+anim	freespecial2
+	@cmd	isavailable 3
+	energycost	20
+	mponly	1
+	delay	6
+	fastattack	1
+	offset	60 116
+	sound	data/chars/Naruto/ha.wav
+	frame	data/chars/Naruto/jab00.gif
+	attack	63 68 60 47 8 0 0 0 0 0
+	frame	data/chars/Naruto/jab01.gif
+	frame	data/chars/Naruto/jab02.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/Naruto/jab03.gif
+	offset	60 116
+	sound	data/chars/Naruto/ha.wav
+	frame	data/chars/Naruto/jab00.gif
+	attack	63 68 60 47 8 0 0 0 0 0
+	frame	data/chars/Naruto/jab01.gif
+	frame	data/chars/Naruto/jab02.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/Naruto/jab03.gif
+	frame	data/chars/Naruto/kick01.gif
+	attack	65 72 44 45 15 0 0 0 15 0
+	frame	data/chars/Naruto/kick02.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	loop	0
+	offset	60 116
+	delay	7
+	frame	data/chars/Naruto/upper00.gif
+	frame	data/chars/Naruto/upper01.gif
+	attack	19 44 86 72 18 1 0 0 0 0
+	dropv	4 0 0
+	frame	data/chars/Naruto/upper02.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	delay	30
+	frame	data/chars/Naruto/upper03.gif
+	offset	60 116
+	@cmd	leaper 0 4 0
+	delay	15
+	frame	data/chars/Naruto/jump00.gif
+	delay	6
+	offset	60 116
+	frame	data/chars/Naruto/jatk00.gif
+	attack	51 62 60 54 14 1 0 0 0 50
+	dropv	-3 2 0
+	sound	data/chars/Naruto/ha2.wav
+	frame	data/chars/Naruto/jatk01.gif
+	frame	data/chars/Naruto/jatk02.gif
+		
+anim	freespecial4
+	@cmd	isavailable 5
+	loop	0
+	fastattack	1
+	@cmd	pause_all 1 10
+	delay	10
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 1
+	offset	60 116
+	frame	data/chars/Naruto/jab03.gif
+	attack	64 65 51 42 8 0 1 0 0 0
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 0
+	delay	7
+	sound	data/chars/Naruto/ha.wav
+	frame	data/chars/Naruto/jab00.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/Naruto/jab01.gif
+	attack	73 62 42 48 8 0 1 0 0 0
+	frame	data/chars/Naruto/jab02.gif
+	attack	0
+	frame	data/chars/Naruto/jab03.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	loop	0
+	delay	4
+	offset	60 116
+	frame	data/chars/Naruto/head00.gif
+	frame	data/chars/Naruto/head01.gif
+	attack	71 70 45 44 14 0 0 0 0 0
+	frame	data/chars/Naruto/head02.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/Naruto/head03.gif
+	attack	67 66 43 43 10 0 0 0 0 0
+	loop	0
+	delay	4
+	offset	60 116
+	sound	data/chars/Naruto/ha.wav
+	frame	data/chars/Naruto/jab00.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/Naruto/jab01.gif
+	attack	73 70 41 42 10 0 1 0 0 0
+	frame	data/chars/Naruto/jab02.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/Naruto/jab03.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	delay	4
+	offset	60 116
+	bbox	0 0 0 0
+	frame	data/chars/Naruto/head00.gif
+	frame	data/chars/Naruto/head01.gif
+	attack	74 73 39 40 14 0 0 0 0 0
+	frame	data/chars/Naruto/head02.gif
+	frame	data/chars/Naruto/head03.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	delay	4
+	offset	60 116
+	frame	data/chars/Naruto/punch00.gif
+	frame	data/chars/Naruto/punch01.gif
+	attack	70 71 45 42 18 0 0 0 0 0
+	frame	data/chars/Naruto/punch02.gif
+	frame	data/chars/Naruto/punch03.gif
+	attack	0
+	frame	data/chars/Naruto/punch04.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	loop	0
+	offset	60 116
+	delay	7
+	frame	data/chars/Naruto/upper00.gif
+	frame	data/chars/Naruto/upper01.gif
+	attack	19 44 86 72 18 1 0 0 0 0
+	dropv	4 0 -2
+	frame	data/chars/Naruto/upper02.gif
+	delay	30
+	frame	data/chars/Naruto/upper03.gif
+		
+anim	get
+	loop	0
+	delay	10
+	offset	60 116
+	frame	data/chars/Naruto/get00.gif
+	frame	data/chars/Naruto/get01.gif
+	frame	data/chars/Naruto/get02.gif
+	frame	data/chars/Naruto/get01.gif
+	frame	data/chars/Naruto/get00.gif
+		
+anim	idle
+	loop	1
+	range	-10 500
+	rangez	-1000 1000
+	delay	15
+	offset	60 116
+	bbox	43 65 25 51
+	frame	data/chars/Naruto/idle00.gif
+	frame	data/chars/Naruto/idle01.gif
+	frame	data/chars/Naruto/idle02.gif
+	frame	data/chars/Naruto/idle03.gif
+	frame	data/chars/Naruto/idle02.gif
+	frame	data/chars/Naruto/idle01.gif
+		
+anim	jump
+	loop	0
+	offset	60 116
+	delay	20
+	bbox	38 67 37 24
+	frame	data/chars/Naruto/jump00.gif
+	frame	data/chars/Naruto/jump01.gif
+		
+anim	jumpattack
+	loop	0
+	offset	60 116
+	delay	10
+	bbox	38 67 37 24
+	sound	data/chars/Naruto/ha2.wav
+	frame	data/chars/Naruto/jatk00.gif
+	attack	52 63 29 53 14 1
+	frame	data/chars/Naruto/jatk01.gif
+	frame	data/chars/Naruto/jatk02.gif
+		
+anim	jumpattack2
+	loop	0
+	offset	60 116
+	delay	10
+	bbox	38 67 37 24
+	sound	data/chars/Naruto/ha2.wav
+	frame	data/chars/Naruto/jatk00.gif
+	attack	52 63 29 53 14 1
+	frame	data/chars/Naruto/jatk01.gif
+	frame	data/chars/Naruto/jatk02.gif
+		
+anim	land
+	loop	0
+	delay	10
+	offset	60 116
+	frame	data/chars/Naruto/get02.gif
+		
+anim	pain
+	loop	0
+	offset	60 116
+	delay	30
+	bbox	43 65 25 51
+	sound	data/chars/Naruto/ugh.wav
+	frame	data/chars/Naruto/pain.gif
+		
+anim	rise
+	loop	0
+	offset	60 116
+	delay	10
+	frame	data/chars/Naruto/rise.gif
+	frame	data/chars/Naruto/get02.gif
+	frame	data/chars/Naruto/get01.gif
+	frame	data/chars/Naruto/get00.gif
+		
+anim	run
+	loop	1
+	delay	7
+	offset	60 116
+	bbox	43 65 25 51
+	frame	data/chars/Naruto/run00.gif
+	sound	data/sounds/walk.wav
+	frame	data/chars/Naruto/run01.gif
+	frame	data/chars/Naruto/run02.gif
+	frame	data/chars/Naruto/run03.gif
+	sound	data/sounds/walk.wav
+	frame	data/chars/Naruto/run04.gif
+	frame	data/chars/Naruto/run05.gif
+		
+anim	runattack
+	loop	0
+	delay	5
+	offset	60 116
+	bbox	43 65 25 51
+	@cmd	dasher 3 0 0
+	frame	data/chars/Naruto/kick00.gif
+	frame	data/chars/Naruto/kick01.gif
+	attack	65 72 44 45 15 1 0 0 15 0
+	dropv	1 4 0
+	frame	data/chars/Naruto/kick02.gif
+	frame	data/chars/Naruto/kick02.gif
+	@cmd	dasher 1 0 0
+	frame	data/chars/Naruto/kick02.gif
+	blast	0
+	delay	7
+	@cmd	stop
+	frame	data/chars/Naruto/kick03.gif
+	delay	30
+	frame	data/chars/Naruto/kick04.gif
+		
+anim	spawn
+	offset	60 116
+	bbox	43 65 25 51
+	frame	data/chars/Naruto/idle00.gif
+		
+anim	walk
+	loop	1
+	delay	15
+	offset	60 116
+	bbox	43 65 25 51
+	sound	data/sounds/walk.wav
+	frame	data/chars/Naruto/walk00.gif
+	frame	data/chars/Naruto/walk01.gif
+	frame	data/chars/Naruto/walk02.gif
+	sound	data/sounds/walk.wav
+	frame	data/chars/Naruto/walk03.gif
+	frame	data/chars/Naruto/walk04.gif
+	frame	data/chars/Naruto/walk05.gif
+		
+#|edited by openBor Stats v 0.67
+		

@@ -1,0 +1,36 @@
+name	regTensho
+speed   30
+type 	none
+shadow	0
+setlayer 1000
+remove 0
+alpha 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	attack	3 3 54 124 20 1 1 0 0 50
+	drawmethod	scale 0.5
+	loop	1
+	delay	3
+	offset	27 118
+	frame	data/chars/Ichigo/323.gif
+	offset	25 115
+	frame	data/chars/Ichigo/324.gif
+		
+#|edited by openBor Stats v 0.67
+		
