@@ -1,0 +1,37 @@
+name	blueAura
+speed   15
+type 	none
+shadow	0
+setlayer 1000
+alpha 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	delay	3
+	offset	147 313
+	frame	data/chars/yusuke/1115.gif
+	offset	156 323
+	frame	data/chars/yusuke/1116.gif
+	offset	130 311
+	frame	data/chars/yusuke/1117.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

@@ -1,6 +1,6 @@
 name YusukeTransform
-speed 9
-type player
+speed 15
+type none
 health 100
 shadow 3
 running	24	4	2	1    1
@@ -13,6 +13,7 @@ load red_spiritchargeup1
 load red_spiritchargeup2
 load redPunch
 load redSpiritgun
+load redSpiritgunLarge
 
 com  a3  freespecial
 com u a3 freespecial2
@@ -22,11 +23,19 @@ com s freespecial3
 com u s freespecial6
 com d s freespecial4
 
+weaploss 3
+modelflag 3
+
 parrow data/chars/misc/picon/1picon.gif -18 -100
 parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
+
+
+
+
+
 
 
 
@@ -110,25 +119,22 @@ anim	fall
 	offset	24 12
 	frame	data/chars/yusuke/377.gif
 		
-anim	follow1
-	delay	3
-	offset	27 55
-	frame	data/chars/yusuke/277.gif
-	offset	24 53
-	frame	data/chars/yusuke/275.gif
-	offset	16 40
-	frame	data/chars/yusuke/transformation_69.gif
-		
 anim	freespecial
-	delay	3
-	offset	23 47
-	frame	data/chars/yusuke/transformation_71.gif
-	attack	42 5 46 40 16 1 1 0 0 0
-	dropv	2 5 0
-	offset	23 47
-	frame	data/chars/yusuke/transformation_72.gif
-	offset	23 47
-	frame	data/chars/yusuke/transformation_73.gif
+	delay	7
+	offset	29 38
+	frame	data/chars/yusuke/301.gif
+	@cmd	spawnbind "redPunch" 47 18 1
+	@cmd	dasher 3 0 0
+	offset	21 49
+	frame	data/chars/yusuke/283.gif
+	@cmd	dasher 1 0 0
+	offset	21 49
+	frame	data/chars/yusuke/283.gif
+	offset	15 39
+	frame	data/chars/yusuke/284.gif
+	@cmd	stop
+	offset	15 39
+	frame	data/chars/yusuke/284.gif
 		
 anim	freespecial11
 	delay	3
@@ -229,12 +235,37 @@ anim	freespecial3
 		
 anim	freespecial4
 	delay	7
-	offset	29 38
-	frame	data/chars/yusuke/301.gif
-	offset	21 49
-	frame	data/chars/yusuke/283.gif
-	offset	15 39
-	frame	data/chars/yusuke/284.gif
+	@cmd	spawnparent "red_powerball" 0 0 -18
+	offset	27 55
+	frame	data/chars/yusuke/277.gif
+	offset	24 53
+	frame	data/chars/yusuke/275.gif
+	offset	16 40
+	frame	data/chars/yusuke/transformation_69.gif
+	offset	27 55
+	frame	data/chars/yusuke/277.gif
+	offset	24 53
+	frame	data/chars/yusuke/275.gif
+	offset	16 40
+	frame	data/chars/yusuke/transformation_69.gif
+	offset	27 55
+	frame	data/chars/yusuke/277.gif
+	offset	24 53
+	frame	data/chars/yusuke/275.gif
+	offset	16 40
+	frame	data/chars/yusuke/transformation_69.gif
+	offset	27 55
+	frame	data/chars/yusuke/277.gif
+	offset	24 53
+	frame	data/chars/yusuke/275.gif
+	offset	16 40
+	frame	data/chars/yusuke/transformation_69.gif
+	offset	27 55
+	frame	data/chars/yusuke/277.gif
+	offset	24 53
+	frame	data/chars/yusuke/275.gif
+	offset	16 40
+	frame	data/chars/yusuke/transformation_69.gif
 		
 anim	freespecial5
 	delay	3
@@ -279,7 +310,7 @@ anim	freespecial6
 	frame	data/chars/yusuke/transformation_110.gif
 	offset	20 58
 	frame	data/chars/yusuke/transformation_111.gif
-	@cmd	spawnparent "red_spiritchargeup1" 20 0 -36
+	@cmd	spawnparent "red_spiritchargeup2" 20 0 -36
 	sound	data/chars/yusuke/yusuke-_5-50.wav
 	offset	20 58
 	frame	data/chars/yusuke/292.gif
@@ -289,13 +320,97 @@ anim	freespecial6
 	frame	data/chars/yusuke/292.gif
 	offset	20 58
 	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
 	offset	20 58
 	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	@cmd	spawn01 "quake" 0 0 2
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	@cmd	spawn01 "quake" 0 0 2
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	@cmd	spawn01 "quake" 0 0 2
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	@cmd	spawn01 "quake" 0 0 2
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	@cmd	spawn01 "quake" 0 0 4
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	@cmd	spawn01 "quake" 0 0 4
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	@cmd	spawn01 "quake" 0 0 4
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	@cmd	spawn01 "quake" 0 0 4
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	@cmd	spawn01 "quake" 0 0 4
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
+	@cmd	spawn01 "quake" 0 0 4
+	offset	20 58
+	frame	data/chars/yusuke/292.gif
+	sound	data/chars/yusuke/yusuke-_5-50-loop.wav
 	offset	20 58
 	frame	data/chars/yusuke/292.gif
 	@cmd	dasher -2 0 0
 	@cmd	spawnparent "pdust" -10 0 -20
-	@cmd	projectile 1 "redSpiritgun" 55 1 36 1 0
+	@cmd	projectile 1 "redSpiritgunLarge" 55 1 36 1 0
 	sound	data/chars/broly_ssb/broly_5-52.wav
 	offset	35 51
 	frame	data/chars/yusuke/293.gif
@@ -379,8 +494,9 @@ anim	run
 	frame	data/chars/yusuke/273.gif
 		
 anim	runattack
-	delay	3
+	delay	10
 	@cmd	dasher 2 0 0
+	@cmd	spawnparent "pdust" -10 0 -20
 	offset	28 39
 	frame	data/chars/yusuke/271.gif
 	@cmd	dasher 1 0 0
@@ -390,6 +506,8 @@ anim	runattack
 	dropv	1 5 0
 	offset	24 49
 	frame	data/chars/yusuke/286.gif
+	offset	28 62
+	frame	data/chars/yusuke/287.gif
 	@cmd	stop
 	offset	28 62
 	frame	data/chars/yusuke/287.gif

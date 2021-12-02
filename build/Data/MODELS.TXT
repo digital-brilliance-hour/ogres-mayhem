@@ -297,3 +297,8 @@ know red_spiritchargeup1 data/chars/Yusuke/red_spiritchargeup1.txt
 know red_spiritchargeup2 data/chars/Yusuke/red_spiritchargeup2.txt
 know redPunch data/chars/Yusuke/redpunch.txt
 know redSpiritgun data/chars/Yusuke/redspiritgun.txt
+know redSpiritgunLarge data/chars/Yusuke/redspiritgunlarge.txt
+know yusukeFire data/chars/Yusuke/yusukefire.txt
+know redAura data/chars/Yusuke/redAura.txt
+know blueAura data/chars/Yusuke/blueAura.txt
+know yellowAura data/chars/Yusuke/yellowAura.txt
