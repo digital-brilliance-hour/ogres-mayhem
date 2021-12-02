@@ -3,7 +3,10 @@ health	1
 type	enemy
 shadow	0
 
-anim idle
+candamage player npc
+hostile npc player
+
+anim	idle
 	loop	1
 	delay	1
 	offset	24 97
@@ -19,4 +22,6 @@ anim idle
 	frame	data/chars/misc/knife8.gif
 	frame	data/chars/misc/knife9.gif
 	frame	data/chars/misc/knife10.gif
-	
+		
+#|edited by openBor Stats v 0.67
+		

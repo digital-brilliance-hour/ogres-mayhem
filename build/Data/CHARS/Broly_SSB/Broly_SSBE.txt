@@ -8,6 +8,7 @@ running 18 4 2 1 0
 aimove chase
 escapehits 1
 candamage player npc obsacle
+candamage player npc
 hostile npc player
 load b_shot2
 load b_blast

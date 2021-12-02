@@ -12,7 +12,8 @@ takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c
 
-
+candamage player npc
+hostile npc player
 
 
 

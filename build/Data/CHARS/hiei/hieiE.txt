@@ -11,6 +11,7 @@ aimove chase
 escapehits 1
 riseinv 2 0
 candamage player npc obsacle
+candamage player npc
 hostile npc player
 icon	data/chars/hiei/icone3.gif
 diesound data/chars/hiei/die.wav

@@ -13,7 +13,8 @@ remap	data/chars/Wolf/idle00.gif data/chars/Wolf/map2.gif
 
 takedamagescript data/scripts/enemyhit.c
 
-
+candamage player npc
+hostile npc player
 
 anim	attack1
 	loop	0

@@ -8,6 +8,7 @@ aimove chase
 escapehits 1
 riseinv 2 0
 candamage player npc obsacle
+candamage player npc
 hostile npc player
 subject_to_screen 1
 

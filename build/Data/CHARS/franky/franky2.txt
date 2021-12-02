@@ -9,6 +9,8 @@ icon	data/chars/franky/icon.gif
 blockodds 1
 hostile npc player
 candamage player npc obstacle shot
+candamage player npc
+hostile npc player
 cantgrab 1
 load kuu
 knife kuu

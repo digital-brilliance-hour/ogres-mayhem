@@ -9,6 +9,7 @@ riseinv 2 0
 makeinv 2 0
 escapehits 1
 candamage player npc obstacle
+candamage player npc
 hostile npc player
 shadow 3
 animationscript data/scripts/spawns.c

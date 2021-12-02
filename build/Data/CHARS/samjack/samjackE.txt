@@ -6,6 +6,7 @@ shadow 3
 aimove chase
 escapehits 1
 candamage player npc obsacle
+candamage player npc
 hostile npc player
 icon data/chars/samjack/icon.gif
 lifebarstatus 380 5 0 1 0 0 0 0 0
@@ -106,7 +107,6 @@ anim	get
 	delay	16
 	offset	25 22
 	frame	data/chars/samjack/get.gif
-		
 		
 anim	idle
 	loop	1

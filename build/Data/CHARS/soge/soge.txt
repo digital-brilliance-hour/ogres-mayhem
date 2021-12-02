@@ -11,6 +11,7 @@ load bird
 knife bird
 
 candamage player npc
+hostile npc player
 takedamagescript data/scripts/enemyhit.c
 
 anim	attack1

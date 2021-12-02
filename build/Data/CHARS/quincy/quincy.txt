@@ -7,6 +7,8 @@ cantgrab 1
 animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c
 
+candamage player npc
+hostile npc player
 
 anim	attack1
 	loop	0

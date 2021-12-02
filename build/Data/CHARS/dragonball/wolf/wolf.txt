@@ -12,6 +12,8 @@ remap	data/chars/dragonball/Wolf/idle00.gif data/chars/dragonball/Wolf/map1.gif
 remap	data/chars/dragonball/Wolf/idle00.gif data/chars/dragonball/Wolf/map2.gif
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
+candamage player npc
+hostile npc player
 
 anim	attack1
 	loop	0

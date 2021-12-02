@@ -8,6 +8,7 @@ icon	data/chars/Pirate/icon.gif
 load nife
 knife nife
 candamage player npc obstacle
+candamage player npc
 hostile npc player
 remap	data/chars/Pirate/idle01.gif data/chars/Pirate/map1.gif
 subject_to_screen 1

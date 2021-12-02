@@ -10,6 +10,8 @@ load gun
 knife gun
 subject_to_screen 1
 candamage player npc obstacle
+candamage player npc
+hostile npc player
 
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c

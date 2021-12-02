@@ -7,6 +7,7 @@ shadow	3
 aimove chase
 escapehits 1
 candamage player npc obsacle enemy
+candamage player npc
 hostile npc player
 running 18 4 2 1 0
 animationscript data/scripts/spawns.c
