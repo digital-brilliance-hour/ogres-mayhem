@@ -1,0 +1,43 @@
+name	buntaToad
+speed   15
+type 	none
+shadow	0
+setlayer 1000
+
+load toadSmoke
+animationscript data/scripts/spawns.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	drawmethod	scale 0.5
+	delay	20
+	offset	378 430
+	frame	data/chars/Naruto/820.gif
+	offset	378 430
+	frame	data/chars/Naruto/821.gif
+	offset	378 434
+	frame	data/chars/Naruto/822.gif
+	offset	378 442
+	frame	data/chars/Naruto/823.gif
+	offset	378 474
+	frame	data/chars/Naruto/824.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

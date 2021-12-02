@@ -1,0 +1,362 @@
+name	Ninja_Genin
+health	250
+speed	7
+type	enemy
+candamage     npc player
+shadow	2
+diesound data/sounds/die2.wav
+icon	data/chars/Ninja_Genin/icon.png
+bflash  bflash
+dust	 dust
+jumpheight 3
+atchain	1 2 3
+subtype		chase
+aggression 	53
+running	15	3	2	1
+blockodds 1
+
+load          kunai_enemy
+knife         kunai_enemy
+
+subtype		chase
+
+anim idle
+	loop	1
+		loop
+			loop  1
+		loop
+		offset  14  49
+		delay  30
+		bbox  0  0  27  50
+	frame  data/chars/ninja_genin/1.png
+		offset  14  50
+	frame  data/chars/ninja_genin/0.png
+
+
+anim duck
+	loop	0
+	delay	10
+        bbox    2 18 44 20
+		offset  11  37
+	frame	data/chars/ninja_genin/28.png
+
+
+
+anim runattack
+range	0	80
+
+	loop	0
+		offset  19  60
+		delay  14
+		bbox  0  0  33  62
+		throwframe  0
+throwframe  2
+throwframe  4
+	frame  data/chars/ninja_genin/15.png
+	frame  data/chars/ninja_genin/16.png
+	frame  data/chars/ninja_genin/15.png
+	frame  data/chars/ninja_genin/16.png
+	frame  data/chars/ninja_genin/15.png
+	frame  data/chars/ninja_genin/16.png
+
+
+
+
+anim jump
+	loop	0
+	jumpframe  0  2  0  0
+		delay  14
+		offset  10  67
+		bbox  0  1  20  66
+	frame  data/chars/ninja_genin/26.png
+	frame  data/chars/ninja_genin/26.png
+		offset  10  49
+	frame  data/chars/ninja_genin/27.png
+	frame  data/chars/ninja_genin/27.png
+
+
+
+anim grab
+	loop	0
+	delay	1000
+        bbox    3 -1 31 61
+		offset  21  58
+	frame	data/chars/ninja_genin/16.png
+
+
+anim throw
+	loop	0
+	flipframe  3
+		offset  16  60
+		move  16
+	frame  data/chars/ninja_genin/7.png
+	frame  data/chars/ninja_genin/7.png
+	frame  data/chars/ninja_genin/7.png
+		move  0
+	frame  data/chars/ninja_genin/7.png
+	frame  data/chars/ninja_genin/7.png
+	frame  data/chars/ninja_genin/6.png
+		offset  16  53
+	frame  data/chars/ninja_genin/8.png
+		offset  16  51
+	frame  data/chars/ninja_genin/9.png
+
+
+anim pain
+	loop	0
+        offset  15 51
+	delay	15
+		bbox  0  0  28  51
+	frame   data/chars/ninja_genin/19.png
+		offset  17  49
+	frame  data/chars/ninja_genin/20.png
+
+
+anim fall
+	loop	0
+        offset  18 48
+	delay	30
+        attack	1 0 32 51 4 1
+	frame   data/chars/ninja_genin/20.png
+		offset  20  42
+	frame  data/chars/ninja_Genin/21.png
+		offset  28  38
+	frame  data/chars/ninja_Genin/22.png
+		offset  28  19
+	frame  data/chars/ninja_Genin/23.png
+
+
+
+anim rise
+	loop	0
+	offset	10 39
+	delay	10
+        frame   data/chars/ninja_genin/28.png
+
+
+anim land
+	loop	0
+	delay	15
+	offset	10 38
+		bbox  -2  1  36  42
+	frame	data/chars/ninja_genin/28.png
+
+
+anim burn
+	loop	1
+	offset	60 116
+	delay	3
+	frame	data/chars/misc/burn1.gif
+	frame	data/chars/misc/burn2.gif
+	frame	data/chars/misc/burn3.gif
+anim  get
+	loop  0
+		delay  10
+		offset  9  39
+		bbox  -2  1  36  42
+	frame  data/chars/ninja_genin/28.png
+anim  grabattack
+	range  0  50
+	loop  0
+		offset  19  60
+		delay  7
+		bbox  0  0  34  60
+	frame  data/chars/ninja_genin/15.png
+		offset  20  59
+		attack1  17  -2  23  53  12
+	frame  data/chars/ninja_genin/16.png
+anim  grabattack2
+	range  0  50
+	loop  0
+		offset  18  59
+		delay  7
+		bbox  1  0  26  60
+	frame  data/chars/ninja_genin/7.png
+	frame  data/chars/ninja_genin/6.png
+		offset  18  53
+	frame  data/chars/ninja_genin/8.png
+		offset  18  51
+		attack1  17  0  38  52  15  1
+	frame  data/chars/ninja_genin/9.png
+anim  walk
+	loop  1
+		delay  7
+		bbox  3  -1  41  51
+		offset  12  48
+	frame  data/chars/ninja_genin/3.png
+		offset  16  48
+	frame  data/chars/ninja_Genin/4.png
+anim  run
+	loop  1
+		delay  7
+		bbox  3  -1  41  51
+		offset  12  48
+	frame  data/chars/ninja_genin/3.png
+		offset  16  48
+	frame  data/chars/ninja_Genin/4.png
+anim  grabbed
+	loop  0
+	flipframe  8
+	jumpframe  14  1  0  0
+		offset  15  51
+		delay  30
+		bbox  0  0  28  51
+	frame  data/chars/ninja_genin/19.png
+		offset  17  49
+		delay  15
+	frame  data/chars/ninja_genin/20.png
+		delay  3
+		move  8
+		offset  17  78
+	frame  data/chars/ninja_genin/24.png
+	frame  data/chars/ninja_genin/24.png
+		offset  17  75
+	frame  data/chars/ninja_genin/25.png
+	frame  data/chars/ninja_genin/25.png
+	frame  data/chars/ninja_genin/25.png
+	frame  data/chars/ninja_genin/25.png
+		offset  15  38
+		delay  7
+	frame  data/chars/ninja_genin/14.png
+		move  0
+		offset  17  35
+		attack1  1  0  54  21  15  0  1
+	frame  data/chars/ninja_genin/12.png
+		offset  16  38
+		Attack1  0
+	frame  data/chars/ninja_genin/13.png
+		delay  3
+		move  4
+		offset  16  73
+	frame  data/chars/ninja_genin/25.png
+	frame  data/chars/ninja_genin/25.png
+	frame  data/chars/ninja_genin/25.png
+		offset  17  49
+		delay  7
+		attack1  5  1  37  50  25  1  1
+	frame  data/chars/ninja_genin/8.png
+		move  0
+		Attack1  0
+	frame  data/chars/ninja_genin/9.png
+		offset  17  68
+	frame  data/chars/ninja_genin/26.png
+	frame  data/chars/ninja_genin/26.png
+		offset  17  49
+	frame  data/chars/ninja_genin/27.png
+		offset  17  68
+	frame  data/chars/ninja_genin/26.png
+		delay  20
+		offset  17  39
+	frame  data/chars/ninja_genin/28.png
+anim  attack1
+	range  0  50
+	loop  0
+		offset  19  60
+		delay  7
+		bbox  1  0  33  61
+	frame  data/chars/ninja_genin/15.png
+		offset  20  59
+		attack1  19  0  22  61  9
+	frame  data/chars/ninja_genin/16.png
+anim  attack2
+	range  0  50
+	loop  0
+		offset  19  60
+		delay  7
+		bbox  0  0  32  61
+	frame  data/chars/ninja_genin/15.png
+		offset  20  59
+		attack1  16  0  23  60  9
+	frame  data/chars/ninja_genin/16.png
+anim  attack3
+	range  0  50
+	loop  0
+		offset  18  59
+		delay  7
+		bbox  0  0  29  61
+	frame  data/chars/ninja_genin/7.png
+	frame  data/chars/ninja_genin/6.png
+		offset  18  53
+	frame  data/chars/ninja_genin/8.png
+		offset  18  51
+		attack1  22  -2  23  54  15  1
+	frame  data/chars/ninja_genin/9.png
+anim  jumpattack
+	range  0  50
+	loop  0
+		offset  18  59
+		delay  7
+		bbox  0  0  29  61
+	frame  data/chars/ninja_genin/7.png
+	frame  data/chars/ninja_genin/6.png
+		offset  18  53
+	frame  data/chars/ninja_genin/8.png
+		offset  18  51
+		attack1  18  -2  31  54  14
+	frame  data/chars/ninja_genin/9.png
+anim  jumpattack2
+	range  0  50
+	loop  0
+		offset  18  59
+		delay  7
+		bbox  0  0  29  61
+	frame  data/chars/ninja_genin/7.png
+	frame  data/chars/ninja_genin/6.png
+		offset  18  53
+	frame  data/chars/ninja_genin/8.png
+		offset  18  51
+		attack1  18  0  27  54  15
+	frame  data/chars/ninja_genin/9.png
+anim  block
+	loop  0
+		offset  15  51
+		delay  30
+		bbox  0  0  28  51
+	frame  data/chars/ninja_genin/19.png
+		offset  17  49
+		delay  15
+	frame  data/chars/ninja_genin/20.png
+		delay  3
+		move  8
+		offset  17  78
+	frame  data/chars/ninja_genin/24.png
+	frame  data/chars/ninja_genin/24.png
+		offset  17  75
+	frame  data/chars/ninja_genin/25.png
+	frame  data/chars/ninja_genin/25.png
+	frame  data/chars/ninja_genin/25.png
+	frame  data/chars/ninja_genin/25.png
+		offset  15  38
+		delay  7
+	frame  data/chars/ninja_genin/14.png
+		move  0
+		offset  17  35
+		attack1  1
+	frame  data/chars/ninja_genin/12.png
+		offset  16  38
+		Attack1  0
+	frame  data/chars/ninja_genin/13.png
+		delay  3
+		move  4
+		offset  16  73
+	frame  data/chars/ninja_genin/25.png
+	frame  data/chars/ninja_genin/25.png
+	frame  data/chars/ninja_genin/25.png
+		offset  17  49
+		delay  7
+		attack1  5
+	frame  data/chars/ninja_genin/8.png
+		move  0
+		Attack1  0
+	frame  data/chars/ninja_genin/9.png
+		offset  17  68
+	frame  data/chars/ninja_genin/26.png
+	frame  data/chars/ninja_genin/26.png
+		offset  17  49
+	frame  data/chars/ninja_genin/27.png
+		offset  17  68
+	frame  data/chars/ninja_genin/26.png
+		delay  20
+		offset  17  39
+	frame  data/chars/ninja_genin/28.png
+

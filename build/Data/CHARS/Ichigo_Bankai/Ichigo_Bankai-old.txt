@@ -1,0 +1,2161 @@
+name  ichigoTransfomationOLD
+health 100
+speed 9
+type none
+shadow 3
+
+
+
+
+anim	0006
+	delay	7
+	offset	27 44
+	frame	data/chars/Ichigo_Bankai/7.gif
+	offset	29 34
+	frame	data/chars/Ichigo_Bankai/8.gif
+		
+anim	0040
+	delay	7
+	offset	20 51
+	frame	data/chars/Ichigo_Bankai/17.gif
+	offset	20 51
+	frame	data/chars/Ichigo_Bankai/18.gif
+	offset	23 51
+	frame	data/chars/Ichigo_Bankai/19.gif
+	offset	27 59
+	frame	data/chars/Ichigo_Bankai/20.gif
+	offset	28 60
+	frame	data/chars/Ichigo_Bankai/21.gif
+	offset	15 19
+	frame	data/chars/Ichigo_Bankai/22.gif
+		
+anim	0161
+	delay	7
+	offset	24 20
+	frame	data/chars/Ichigo_Bankai/580.gif
+	offset	24 57
+	frame	data/chars/Ichigo_Bankai/581.gif
+	offset	23 96
+	frame	data/chars/Ichigo_Bankai/582.gif
+	offset	23 96
+	frame	data/chars/Ichigo_Bankai/583.gif
+	offset	2 92
+	frame	data/chars/Ichigo_Bankai/584.gif
+	offset	3 88
+	frame	data/chars/Ichigo_Bankai/585.gif
+	offset	-11 87
+	frame	data/chars/Ichigo_Bankai/586.gif
+		
+anim	0950
+	delay	7
+	offset	105 294
+	frame	data/chars/Ichigo_Bankai/587.gif
+	offset	300 290
+	frame	data/chars/Ichigo_Bankai/588.gif
+	offset	300 288
+	frame	data/chars/Ichigo_Bankai/589.gif
+	offset	300 296
+	frame	data/chars/Ichigo_Bankai/590.gif
+	offset	300 325
+	frame	data/chars/Ichigo_Bankai/591.gif
+	offset	300 354
+	frame	data/chars/Ichigo_Bankai/592.gif
+	offset	300 382
+	frame	data/chars/Ichigo_Bankai/593.gif
+	offset	300 400
+	frame	data/chars/Ichigo_Bankai/594.gif
+	offset	300 384
+	frame	data/chars/Ichigo_Bankai/595.gif
+	offset	300 400
+	frame	data/chars/Ichigo_Bankai/596.gif
+	offset	300 400
+	frame	data/chars/Ichigo_Bankai/597.gif
+	offset	293 384
+	frame	data/chars/Ichigo_Bankai/598.gif
+	offset	233 391
+	frame	data/chars/Ichigo_Bankai/599.gif
+	offset	214 399
+	frame	data/chars/Ichigo_Bankai/600.gif
+	offset	208 391
+	frame	data/chars/Ichigo_Bankai/601.gif
+	offset	183 365
+	frame	data/chars/Ichigo_Bankai/602.gif
+	offset	158 341
+	frame	data/chars/Ichigo_Bankai/603.gif
+	offset	151 338
+	frame	data/chars/Ichigo_Bankai/604.gif
+	offset	148 337
+	frame	data/chars/Ichigo_Bankai/605.gif
+	offset	147 338
+	frame	data/chars/Ichigo_Bankai/606.gif
+	offset	146 336
+	frame	data/chars/Ichigo_Bankai/607.gif
+	offset	142 333
+	frame	data/chars/Ichigo_Bankai/608.gif
+	offset	137 332
+	frame	data/chars/Ichigo_Bankai/609.gif
+	offset	136 332
+	frame	data/chars/Ichigo_Bankai/610.gif
+	offset	134 332
+	frame	data/chars/Ichigo_Bankai/611.gif
+	offset	132 331
+	frame	data/chars/Ichigo_Bankai/612.gif
+	offset	125 330
+	frame	data/chars/Ichigo_Bankai/613.gif
+	offset	110 328
+	frame	data/chars/Ichigo_Bankai/614.gif
+	offset	67 323
+	frame	data/chars/Ichigo_Bankai/615.gif
+	offset	62 314
+	frame	data/chars/Ichigo_Bankai/616.gif
+	offset	100 292
+	frame	data/chars/Ichigo_Bankai/617.gif
+	offset	273 289
+	frame	data/chars/Ichigo_Bankai/618.gif
+	offset	273 287
+	frame	data/chars/Ichigo_Bankai/619.gif
+	offset	273 295
+	frame	data/chars/Ichigo_Bankai/620.gif
+	offset	273 324
+	frame	data/chars/Ichigo_Bankai/621.gif
+	offset	273 353
+	frame	data/chars/Ichigo_Bankai/622.gif
+	offset	273 382
+	frame	data/chars/Ichigo_Bankai/623.gif
+	offset	273 396
+	frame	data/chars/Ichigo_Bankai/624.gif
+	offset	273 384
+	frame	data/chars/Ichigo_Bankai/625.gif
+	offset	273 396
+	frame	data/chars/Ichigo_Bankai/626.gif
+	offset	273 396
+	frame	data/chars/Ichigo_Bankai/627.gif
+	offset	273 383
+	frame	data/chars/Ichigo_Bankai/628.gif
+	offset	236 390
+	frame	data/chars/Ichigo_Bankai/629.gif
+	offset	214 396
+	frame	data/chars/Ichigo_Bankai/630.gif
+	offset	208 390
+	frame	data/chars/Ichigo_Bankai/631.gif
+	offset	182 365
+	frame	data/chars/Ichigo_Bankai/632.gif
+	offset	157 340
+	frame	data/chars/Ichigo_Bankai/633.gif
+	offset	145 332
+	frame	data/chars/Ichigo_Bankai/634.gif
+	offset	141 331
+	frame	data/chars/Ichigo_Bankai/635.gif
+	offset	137 330
+	frame	data/chars/Ichigo_Bankai/636.gif
+	offset	133 329
+	frame	data/chars/Ichigo_Bankai/637.gif
+	offset	133 327
+	frame	data/chars/Ichigo_Bankai/638.gif
+	offset	129 327
+	frame	data/chars/Ichigo_Bankai/639.gif
+	offset	128 324
+	frame	data/chars/Ichigo_Bankai/640.gif
+	offset	122 323
+	frame	data/chars/Ichigo_Bankai/641.gif
+	offset	118 320
+	frame	data/chars/Ichigo_Bankai/642.gif
+	offset	106 319
+	frame	data/chars/Ichigo_Bankai/643.gif
+	offset	71 314
+	frame	data/chars/Ichigo_Bankai/644.gif
+	offset	59 305
+	frame	data/chars/Ichigo_Bankai/645.gif
+	offset	55 287
+	frame	data/chars/Ichigo_Bankai/646.gif
+		
+anim	11000
+	delay	7
+	offset	27 52
+	frame	data/chars/Ichigo_Bankai/242.gif
+	offset	23 52
+	frame	data/chars/Ichigo_Bankai/243.gif
+	offset	28 52
+	frame	data/chars/Ichigo_Bankai/244.gif
+	offset	30 52
+	frame	data/chars/Ichigo_Bankai/245.gif
+	offset	27 44
+	frame	data/chars/Ichigo_Bankai/246.gif
+	offset	31 34
+	frame	data/chars/Ichigo_Bankai/247.gif
+	offset	22 40
+	frame	data/chars/Ichigo_Bankai/248.gif
+	offset	22 40
+	frame	data/chars/Ichigo_Bankai/249.gif
+	offset	22 39
+	frame	data/chars/Ichigo_Bankai/250.gif
+	offset	22 40
+	frame	data/chars/Ichigo_Bankai/251.gif
+	offset	21 41
+	frame	data/chars/Ichigo_Bankai/252.gif
+	offset	22 38
+	frame	data/chars/Ichigo_Bankai/253.gif
+	offset	22 39
+	frame	data/chars/Ichigo_Bankai/254.gif
+	offset	22 40
+	frame	data/chars/Ichigo_Bankai/255.gif
+	offset	20 51
+	frame	data/chars/Ichigo_Bankai/256.gif
+	offset	20 51
+	frame	data/chars/Ichigo_Bankai/257.gif
+	offset	23 51
+	frame	data/chars/Ichigo_Bankai/258.gif
+	offset	27 59
+	frame	data/chars/Ichigo_Bankai/259.gif
+	offset	28 60
+	frame	data/chars/Ichigo_Bankai/260.gif
+	offset	23 52
+	frame	data/chars/Ichigo_Bankai/261.gif
+	offset	30 52
+	frame	data/chars/Ichigo_Bankai/262.gif
+	offset	25 51
+	frame	data/chars/Ichigo_Bankai/263.gif
+	offset	25 51
+	frame	data/chars/Ichigo_Bankai/264.gif
+		
+anim	11200
+	delay	7
+	offset	28 42
+	frame	data/chars/Ichigo_Bankai/265.gif
+	offset	24 40
+	frame	data/chars/Ichigo_Bankai/266.gif
+	offset	24 39
+	frame	data/chars/Ichigo_Bankai/267.gif
+	offset	24 39
+	frame	data/chars/Ichigo_Bankai/268.gif
+	offset	41 39
+	frame	data/chars/Ichigo_Bankai/269.gif
+	offset	23 43
+	frame	data/chars/Ichigo_Bankai/270.gif
+	offset	22 48
+	frame	data/chars/Ichigo_Bankai/271.gif
+	offset	27 68
+	frame	data/chars/Ichigo_Bankai/272.gif
+	offset	32 50
+	frame	data/chars/Ichigo_Bankai/273.gif
+	offset	32 70
+	frame	data/chars/Ichigo_Bankai/274.gif
+	offset	31 38
+	frame	data/chars/Ichigo_Bankai/275.gif
+	offset	31 38
+	frame	data/chars/Ichigo_Bankai/276.gif
+	offset	14 48
+	frame	data/chars/Ichigo_Bankai/277.gif
+	offset	10 51
+	frame	data/chars/Ichigo_Bankai/278.gif
+	offset	28 53
+	frame	data/chars/Ichigo_Bankai/279.gif
+	offset	31 56
+	frame	data/chars/Ichigo_Bankai/280.gif
+	offset	48 51
+	frame	data/chars/Ichigo_Bankai/281.gif
+	offset	48 51
+	frame	data/chars/Ichigo_Bankai/282.gif
+	offset	46 46
+	frame	data/chars/Ichigo_Bankai/283.gif
+	offset	30 46
+	frame	data/chars/Ichigo_Bankai/284.gif
+	offset	28 42
+	frame	data/chars/Ichigo_Bankai/285.gif
+	offset	24 40
+	frame	data/chars/Ichigo_Bankai/286.gif
+	offset	27 39
+	frame	data/chars/Ichigo_Bankai/287.gif
+	offset	59 39
+	frame	data/chars/Ichigo_Bankai/288.gif
+	offset	68 39
+	frame	data/chars/Ichigo_Bankai/289.gif
+	offset	49 39
+	frame	data/chars/Ichigo_Bankai/290.gif
+	offset	25 43
+	frame	data/chars/Ichigo_Bankai/291.gif
+	offset	49 55
+	frame	data/chars/Ichigo_Bankai/292.gif
+	offset	49 87
+	frame	data/chars/Ichigo_Bankai/293.gif
+	offset	21 72
+	frame	data/chars/Ichigo_Bankai/294.gif
+	offset	22 63
+	frame	data/chars/Ichigo_Bankai/295.gif
+	offset	21 45
+	frame	data/chars/Ichigo_Bankai/296.gif
+	offset	36 50
+	frame	data/chars/Ichigo_Bankai/297.gif
+	offset	26 53
+	frame	data/chars/Ichigo_Bankai/298.gif
+	offset	23 80
+	frame	data/chars/Ichigo_Bankai/299.gif
+	offset	29 52
+	frame	data/chars/Ichigo_Bankai/300.gif
+	offset	47 45
+	frame	data/chars/Ichigo_Bankai/301.gif
+	offset	47 45
+	frame	data/chars/Ichigo_Bankai/302.gif
+	offset	31 45
+	frame	data/chars/Ichigo_Bankai/303.gif
+	offset	30 44
+	frame	data/chars/Ichigo_Bankai/304.gif
+	offset	44 44
+	frame	data/chars/Ichigo_Bankai/305.gif
+	offset	47 45
+	frame	data/chars/Ichigo_Bankai/306.gif
+	offset	47 40
+	frame	data/chars/Ichigo_Bankai/307.gif
+	offset	47 40
+	frame	data/chars/Ichigo_Bankai/308.gif
+	offset	47 42
+	frame	data/chars/Ichigo_Bankai/309.gif
+	offset	47 52
+	frame	data/chars/Ichigo_Bankai/310.gif
+	offset	29 44
+	frame	data/chars/Ichigo_Bankai/311.gif
+	offset	26 49
+	frame	data/chars/Ichigo_Bankai/312.gif
+	offset	39 70
+	frame	data/chars/Ichigo_Bankai/313.gif
+	offset	39 70
+	frame	data/chars/Ichigo_Bankai/314.gif
+	offset	36 70
+	frame	data/chars/Ichigo_Bankai/315.gif
+	offset	39 70
+	frame	data/chars/Ichigo_Bankai/316.gif
+	offset	39 70
+	frame	data/chars/Ichigo_Bankai/317.gif
+	offset	64 63
+	frame	data/chars/Ichigo_Bankai/318.gif
+	offset	64 69
+	frame	data/chars/Ichigo_Bankai/319.gif
+	offset	64 69
+	frame	data/chars/Ichigo_Bankai/320.gif
+	offset	64 59
+	frame	data/chars/Ichigo_Bankai/321.gif
+	offset	64 63
+	frame	data/chars/Ichigo_Bankai/322.gif
+	offset	64 63
+	frame	data/chars/Ichigo_Bankai/323.gif
+	offset	37 39
+	frame	data/chars/Ichigo_Bankai/324.gif
+	offset	37 39
+	frame	data/chars/Ichigo_Bankai/325.gif
+	offset	44 39
+	frame	data/chars/Ichigo_Bankai/326.gif
+	offset	25 47
+	frame	data/chars/Ichigo_Bankai/327.gif
+	offset	30 65
+	frame	data/chars/Ichigo_Bankai/328.gif
+	offset	33 71
+	frame	data/chars/Ichigo_Bankai/329.gif
+	offset	29 53
+	frame	data/chars/Ichigo_Bankai/330.gif
+	offset	27 57
+	frame	data/chars/Ichigo_Bankai/331.gif
+	offset	29 49
+	frame	data/chars/Ichigo_Bankai/332.gif
+	offset	27 49
+	frame	data/chars/Ichigo_Bankai/333.gif
+	offset	22 45
+	frame	data/chars/Ichigo_Bankai/334.gif
+	offset	24 49
+	frame	data/chars/Ichigo_Bankai/335.gif
+	offset	28 47
+	frame	data/chars/Ichigo_Bankai/336.gif
+	offset	28 47
+	frame	data/chars/Ichigo_Bankai/337.gif
+		
+anim	11210
+	delay	7
+	offset	27 54
+	frame	data/chars/Ichigo_Bankai/338.gif
+	offset	28 43
+	frame	data/chars/Ichigo_Bankai/339.gif
+	offset	13 52
+	frame	data/chars/Ichigo_Bankai/340.gif
+	offset	9 51
+	frame	data/chars/Ichigo_Bankai/341.gif
+	offset	9 51
+	frame	data/chars/Ichigo_Bankai/342.gif
+	offset	9 51
+	frame	data/chars/Ichigo_Bankai/343.gif
+	offset	9 58
+	frame	data/chars/Ichigo_Bankai/344.gif
+	offset	10 61
+	frame	data/chars/Ichigo_Bankai/345.gif
+	offset	11 60
+	frame	data/chars/Ichigo_Bankai/346.gif
+	offset	10 52
+	frame	data/chars/Ichigo_Bankai/347.gif
+	offset	10 51
+	frame	data/chars/Ichigo_Bankai/348.gif
+		
+anim	12000
+	delay	7
+	offset	26 43
+	frame	data/chars/Ichigo_Bankai/349.gif
+	offset	26 43
+	frame	data/chars/Ichigo_Bankai/350.gif
+	offset	26 50
+	frame	data/chars/Ichigo_Bankai/351.gif
+	offset	26 50
+	frame	data/chars/Ichigo_Bankai/352.gif
+	offset	27 38
+	frame	data/chars/Ichigo_Bankai/353.gif
+	offset	23 38
+	frame	data/chars/Ichigo_Bankai/354.gif
+	offset	19 54
+	frame	data/chars/Ichigo_Bankai/355.gif
+	offset	19 46
+	frame	data/chars/Ichigo_Bankai/356.gif
+	offset	23 38
+	frame	data/chars/Ichigo_Bankai/357.gif
+	offset	36 11
+	frame	data/chars/Ichigo_Bankai/358.gif
+	offset	20 33
+	frame	data/chars/Ichigo_Bankai/359.gif
+	offset	20 38
+	frame	data/chars/Ichigo_Bankai/360.gif
+	offset	25 45
+	frame	data/chars/Ichigo_Bankai/361.gif
+	offset	42 19
+	frame	data/chars/Ichigo_Bankai/362.gif
+	offset	20 12
+	frame	data/chars/Ichigo_Bankai/363.gif
+	offset	19 54
+	frame	data/chars/Ichigo_Bankai/364.gif
+	offset	5 24
+	frame	data/chars/Ichigo_Bankai/365.gif
+	offset	32 44
+	frame	data/chars/Ichigo_Bankai/366.gif
+		
+anim	7000
+	delay	7
+	offset	24 24
+	frame	data/chars/Ichigo_Bankai/514.gif
+	offset	19 19
+	frame	data/chars/Ichigo_Bankai/515.gif
+	offset	14 15
+	frame	data/chars/Ichigo_Bankai/516.gif
+	offset	9 16
+	frame	data/chars/Ichigo_Bankai/517.gif
+	offset	11 19
+	frame	data/chars/Ichigo_Bankai/518.gif
+	offset	12 22
+	frame	data/chars/Ichigo_Bankai/519.gif
+	offset	7 25
+	frame	data/chars/Ichigo_Bankai/520.gif
+	offset	11 23
+	frame	data/chars/Ichigo_Bankai/521.gif
+	offset	12 23
+	frame	data/chars/Ichigo_Bankai/522.gif
+	offset	12 24
+	frame	data/chars/Ichigo_Bankai/523.gif
+	offset	13 31
+	frame	data/chars/Ichigo_Bankai/524.gif
+	offset	13 32
+	frame	data/chars/Ichigo_Bankai/525.gif
+	offset	13 33
+	frame	data/chars/Ichigo_Bankai/526.gif
+	offset	13 35
+	frame	data/chars/Ichigo_Bankai/527.gif
+	offset	13 36
+	frame	data/chars/Ichigo_Bankai/528.gif
+	offset	13 36
+	frame	data/chars/Ichigo_Bankai/529.gif
+	offset	11 37
+	frame	data/chars/Ichigo_Bankai/530.gif
+	offset	10 38
+	frame	data/chars/Ichigo_Bankai/531.gif
+	offset	7 40
+	frame	data/chars/Ichigo_Bankai/532.gif
+	offset	8 41
+	frame	data/chars/Ichigo_Bankai/533.gif
+	offset	2 43
+	frame	data/chars/Ichigo_Bankai/534.gif
+		
+anim	7016
+	delay	7
+	offset	29 36
+	frame	data/chars/Ichigo_Bankai/647.gif
+	offset	67 66
+	frame	data/chars/Ichigo_Bankai/648.gif
+	offset	68 62
+	frame	data/chars/Ichigo_Bankai/649.gif
+	offset	66 56
+	frame	data/chars/Ichigo_Bankai/650.gif
+	offset	57 41
+	frame	data/chars/Ichigo_Bankai/651.gif
+	offset	41 21
+	frame	data/chars/Ichigo_Bankai/652.gif
+		
+anim	7052
+	delay	7
+	offset	179 41
+	frame	data/chars/Ichigo_Bankai/553.gif
+	offset	178 43
+	frame	data/chars/Ichigo_Bankai/554.gif
+	offset	219 45
+	frame	data/chars/Ichigo_Bankai/555.gif
+	offset	225 59
+	frame	data/chars/Ichigo_Bankai/556.gif
+	offset	222 62
+	frame	data/chars/Ichigo_Bankai/557.gif
+	offset	223 59
+	frame	data/chars/Ichigo_Bankai/558.gif
+	offset	226 60
+	frame	data/chars/Ichigo_Bankai/559.gif
+	offset	219 63
+	frame	data/chars/Ichigo_Bankai/560.gif
+	offset	209 63
+	frame	data/chars/Ichigo_Bankai/561.gif
+		
+anim	7053
+	delay	7
+	offset	0 -102
+	frame	data/chars/Ichigo_Bankai/562.gif
+	offset	0 -92
+	frame	data/chars/Ichigo_Bankai/563.gif
+	offset	0 -70
+	frame	data/chars/Ichigo_Bankai/564.gif
+	offset	0 -3
+	frame	data/chars/Ichigo_Bankai/565.gif
+	offset	0 -3
+	frame	data/chars/Ichigo_Bankai/566.gif
+	offset	0 -3
+	frame	data/chars/Ichigo_Bankai/567.gif
+	offset	0 -3
+	frame	data/chars/Ichigo_Bankai/568.gif
+	offset	0 0
+	frame	data/chars/Ichigo_Bankai/569.gif
+	offset	0 0
+	frame	data/chars/Ichigo_Bankai/570.gif
+	offset	0 0
+	frame	data/chars/Ichigo_Bankai/571.gif
+	offset	0 0
+	frame	data/chars/Ichigo_Bankai/572.gif
+	offset	0 -1
+	frame	data/chars/Ichigo_Bankai/573.gif
+	offset	0 -8
+	frame	data/chars/Ichigo_Bankai/574.gif
+	offset	0 -6
+	frame	data/chars/Ichigo_Bankai/575.gif
+		
+anim	7054
+	delay	7
+	offset	24 77
+	frame	data/chars/Ichigo_Bankai/742.gif
+	offset	32 79
+	frame	data/chars/Ichigo_Bankai/743.gif
+	offset	47 80
+	frame	data/chars/Ichigo_Bankai/744.gif
+	offset	62 81
+	frame	data/chars/Ichigo_Bankai/745.gif
+	offset	81 83
+	frame	data/chars/Ichigo_Bankai/746.gif
+	offset	127 87
+	frame	data/chars/Ichigo_Bankai/747.gif
+	offset	162 90
+	frame	data/chars/Ichigo_Bankai/748.gif
+	offset	184 92
+	frame	data/chars/Ichigo_Bankai/749.gif
+	offset	202 93
+	frame	data/chars/Ichigo_Bankai/750.gif
+	offset	217 94
+	frame	data/chars/Ichigo_Bankai/751.gif
+	offset	225 94
+	frame	data/chars/Ichigo_Bankai/752.gif
+	offset	229 94
+	frame	data/chars/Ichigo_Bankai/753.gif
+	offset	232 94
+	frame	data/chars/Ichigo_Bankai/754.gif
+	offset	235 91
+	frame	data/chars/Ichigo_Bankai/755.gif
+	offset	236 91
+	frame	data/chars/Ichigo_Bankai/756.gif
+	offset	237 91
+	frame	data/chars/Ichigo_Bankai/757.gif
+	offset	238 91
+	frame	data/chars/Ichigo_Bankai/758.gif
+	offset	238 81
+	frame	data/chars/Ichigo_Bankai/759.gif
+	offset	239 81
+	frame	data/chars/Ichigo_Bankai/760.gif
+	offset	239 81
+	frame	data/chars/Ichigo_Bankai/761.gif
+	offset	240 81
+	frame	data/chars/Ichigo_Bankai/762.gif
+	offset	239 81
+	frame	data/chars/Ichigo_Bankai/763.gif
+	offset	240 81
+	frame	data/chars/Ichigo_Bankai/764.gif
+		
+anim	7200
+	delay	7
+	offset	75 68
+	frame	data/chars/Ichigo_Bankai/703.gif
+	offset	72 68
+	frame	data/chars/Ichigo_Bankai/704.gif
+	offset	78 67
+	frame	data/chars/Ichigo_Bankai/705.gif
+	offset	51 12
+	frame	data/chars/Ichigo_Bankai/706.gif
+	offset	51 12
+	frame	data/chars/Ichigo_Bankai/707.gif
+	offset	50 14
+	frame	data/chars/Ichigo_Bankai/708.gif
+	offset	88 16
+	frame	data/chars/Ichigo_Bankai/709.gif
+	offset	87 16
+	frame	data/chars/Ichigo_Bankai/710.gif
+	offset	87 17
+	frame	data/chars/Ichigo_Bankai/711.gif
+	offset	64 43
+	frame	data/chars/Ichigo_Bankai/712.gif
+	offset	65 46
+	frame	data/chars/Ichigo_Bankai/713.gif
+	offset	70 43
+	frame	data/chars/Ichigo_Bankai/714.gif
+	offset	73 88
+	frame	data/chars/Ichigo_Bankai/715.gif
+	offset	70 87
+	frame	data/chars/Ichigo_Bankai/716.gif
+	offset	76 88
+	frame	data/chars/Ichigo_Bankai/717.gif
+	offset	47 36
+	frame	data/chars/Ichigo_Bankai/718.gif
+	offset	51 39
+	frame	data/chars/Ichigo_Bankai/719.gif
+	offset	56 35
+	frame	data/chars/Ichigo_Bankai/720.gif
+	offset	97 91
+	frame	data/chars/Ichigo_Bankai/721.gif
+	offset	97 87
+	frame	data/chars/Ichigo_Bankai/722.gif
+	offset	88 85
+	frame	data/chars/Ichigo_Bankai/723.gif
+	offset	51 48
+	frame	data/chars/Ichigo_Bankai/724.gif
+	offset	52 48
+	frame	data/chars/Ichigo_Bankai/725.gif
+	offset	55 50
+	frame	data/chars/Ichigo_Bankai/726.gif
+	offset	65 33
+	frame	data/chars/Ichigo_Bankai/727.gif
+	offset	64 31
+	frame	data/chars/Ichigo_Bankai/728.gif
+	offset	64 36
+	frame	data/chars/Ichigo_Bankai/729.gif
+		
+anim	8200
+	delay	7
+	offset	108 237
+	frame	data/chars/Ichigo_Bankai/535.gif
+	offset	114 256
+	frame	data/chars/Ichigo_Bankai/536.gif
+	offset	121 276
+	frame	data/chars/Ichigo_Bankai/537.gif
+	offset	128 193
+	frame	data/chars/Ichigo_Bankai/538.gif
+	offset	135 198
+	frame	data/chars/Ichigo_Bankai/539.gif
+	offset	126 199
+	frame	data/chars/Ichigo_Bankai/540.gif
+	offset	125 186
+	frame	data/chars/Ichigo_Bankai/541.gif
+	offset	127 180
+	frame	data/chars/Ichigo_Bankai/542.gif
+	offset	124 124
+	frame	data/chars/Ichigo_Bankai/543.gif
+	offset	115 109
+	frame	data/chars/Ichigo_Bankai/544.gif
+		
+anim	8230
+	delay	7
+	offset	68 31
+	frame	data/chars/Ichigo_Bankai/372.gif
+	offset	83 92
+	frame	data/chars/Ichigo_Bankai/373.gif
+	offset	99 149
+	frame	data/chars/Ichigo_Bankai/374.gif
+	offset	98 178
+	frame	data/chars/Ichigo_Bankai/375.gif
+	offset	100 196
+	frame	data/chars/Ichigo_Bankai/376.gif
+	offset	100 203
+	frame	data/chars/Ichigo_Bankai/377.gif
+	offset	98 210
+	frame	data/chars/Ichigo_Bankai/378.gif
+	offset	98 219
+	frame	data/chars/Ichigo_Bankai/379.gif
+	offset	97 226
+	frame	data/chars/Ichigo_Bankai/380.gif
+	offset	96 230
+	frame	data/chars/Ichigo_Bankai/381.gif
+	offset	97 232
+	frame	data/chars/Ichigo_Bankai/382.gif
+	offset	99 234
+	frame	data/chars/Ichigo_Bankai/383.gif
+	offset	100 232
+	frame	data/chars/Ichigo_Bankai/384.gif
+	offset	101 236
+	frame	data/chars/Ichigo_Bankai/385.gif
+	offset	100 222
+	frame	data/chars/Ichigo_Bankai/386.gif
+	offset	88 224
+	frame	data/chars/Ichigo_Bankai/387.gif
+	offset	88 224
+	frame	data/chars/Ichigo_Bankai/388.gif
+	offset	89 224
+	frame	data/chars/Ichigo_Bankai/389.gif
+	offset	89 226
+	frame	data/chars/Ichigo_Bankai/390.gif
+	offset	90 227
+	frame	data/chars/Ichigo_Bankai/391.gif
+	offset	90 231
+	frame	data/chars/Ichigo_Bankai/392.gif
+	offset	90 232
+	frame	data/chars/Ichigo_Bankai/393.gif
+	offset	93 232
+	frame	data/chars/Ichigo_Bankai/394.gif
+	offset	95 232
+	frame	data/chars/Ichigo_Bankai/395.gif
+	offset	96 232
+	frame	data/chars/Ichigo_Bankai/396.gif
+	offset	96 233
+	frame	data/chars/Ichigo_Bankai/397.gif
+	offset	97 232
+	frame	data/chars/Ichigo_Bankai/398.gif
+	offset	98 233
+	frame	data/chars/Ichigo_Bankai/399.gif
+	offset	99 233
+	frame	data/chars/Ichigo_Bankai/400.gif
+	offset	101 234
+	frame	data/chars/Ichigo_Bankai/401.gif
+	offset	101 234
+	frame	data/chars/Ichigo_Bankai/402.gif
+	offset	103 240
+	frame	data/chars/Ichigo_Bankai/403.gif
+	offset	103 235
+	frame	data/chars/Ichigo_Bankai/404.gif
+	offset	105 217
+	frame	data/chars/Ichigo_Bankai/405.gif
+	offset	105 217
+	frame	data/chars/Ichigo_Bankai/406.gif
+	offset	106 219
+	frame	data/chars/Ichigo_Bankai/407.gif
+	offset	105 221
+	frame	data/chars/Ichigo_Bankai/408.gif
+	offset	106 224
+	frame	data/chars/Ichigo_Bankai/409.gif
+	offset	98 226
+	frame	data/chars/Ichigo_Bankai/410.gif
+	offset	98 227
+	frame	data/chars/Ichigo_Bankai/411.gif
+	offset	98 229
+	frame	data/chars/Ichigo_Bankai/412.gif
+	offset	98 229
+	frame	data/chars/Ichigo_Bankai/413.gif
+	offset	97 228
+	frame	data/chars/Ichigo_Bankai/414.gif
+	offset	97 223
+	frame	data/chars/Ichigo_Bankai/415.gif
+	offset	94 222
+	frame	data/chars/Ichigo_Bankai/416.gif
+	offset	93 195
+	frame	data/chars/Ichigo_Bankai/417.gif
+	offset	91 194
+	frame	data/chars/Ichigo_Bankai/418.gif
+	offset	90 194
+	frame	data/chars/Ichigo_Bankai/419.gif
+	offset	76 192
+	frame	data/chars/Ichigo_Bankai/420.gif
+	offset	76 191
+	frame	data/chars/Ichigo_Bankai/421.gif
+	offset	76 191
+	frame	data/chars/Ichigo_Bankai/422.gif
+	offset	76 188
+	frame	data/chars/Ichigo_Bankai/423.gif
+	offset	76 187
+	frame	data/chars/Ichigo_Bankai/424.gif
+	offset	74 186
+	frame	data/chars/Ichigo_Bankai/425.gif
+	offset	67 168
+	frame	data/chars/Ichigo_Bankai/426.gif
+	offset	55 157
+	frame	data/chars/Ichigo_Bankai/427.gif
+	offset	39 128
+	frame	data/chars/Ichigo_Bankai/428.gif
+		
+anim	8240
+	delay	7
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/429.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/430.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/431.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/432.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/433.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/434.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/435.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/436.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/437.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/438.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/439.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/440.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/441.gif
+	offset	197 29
+	frame	data/chars/Ichigo_Bankai/442.gif
+	offset	198 29
+	frame	data/chars/Ichigo_Bankai/443.gif
+	offset	197 29
+	frame	data/chars/Ichigo_Bankai/444.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/445.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/446.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/447.gif
+	offset	198 30
+	frame	data/chars/Ichigo_Bankai/448.gif
+		
+anim	8250
+	delay	7
+	offset	57 10
+	frame	data/chars/Ichigo_Bankai/449.gif
+	offset	91 20
+	frame	data/chars/Ichigo_Bankai/450.gif
+	offset	122 29
+	frame	data/chars/Ichigo_Bankai/451.gif
+	offset	150 38
+	frame	data/chars/Ichigo_Bankai/452.gif
+	offset	174 45
+	frame	data/chars/Ichigo_Bankai/453.gif
+	offset	195 50
+	frame	data/chars/Ichigo_Bankai/454.gif
+	offset	212 53
+	frame	data/chars/Ichigo_Bankai/455.gif
+	offset	226 54
+	frame	data/chars/Ichigo_Bankai/456.gif
+	offset	237 54
+	frame	data/chars/Ichigo_Bankai/457.gif
+	offset	245 54
+	frame	data/chars/Ichigo_Bankai/458.gif
+	offset	252 53
+	frame	data/chars/Ichigo_Bankai/459.gif
+	offset	266 52
+	frame	data/chars/Ichigo_Bankai/460.gif
+	offset	284 50
+	frame	data/chars/Ichigo_Bankai/461.gif
+	offset	298 48
+	frame	data/chars/Ichigo_Bankai/462.gif
+	offset	313 49
+	frame	data/chars/Ichigo_Bankai/463.gif
+	offset	328 50
+	frame	data/chars/Ichigo_Bankai/464.gif
+	offset	343 50
+	frame	data/chars/Ichigo_Bankai/465.gif
+	offset	359 51
+	frame	data/chars/Ichigo_Bankai/466.gif
+	offset	373 51
+	frame	data/chars/Ichigo_Bankai/467.gif
+	offset	388 51
+	frame	data/chars/Ichigo_Bankai/468.gif
+	offset	404 51
+	frame	data/chars/Ichigo_Bankai/469.gif
+	offset	418 51
+	frame	data/chars/Ichigo_Bankai/470.gif
+	offset	411 50
+	frame	data/chars/Ichigo_Bankai/471.gif
+	offset	421 50
+	frame	data/chars/Ichigo_Bankai/472.gif
+	offset	431 49
+	frame	data/chars/Ichigo_Bankai/473.gif
+	offset	446 48
+	frame	data/chars/Ichigo_Bankai/474.gif
+	offset	462 47
+	frame	data/chars/Ichigo_Bankai/475.gif
+	offset	446 45
+	frame	data/chars/Ichigo_Bankai/476.gif
+	offset	443 44
+	frame	data/chars/Ichigo_Bankai/477.gif
+	offset	456 42
+	frame	data/chars/Ichigo_Bankai/478.gif
+	offset	468 40
+	frame	data/chars/Ichigo_Bankai/479.gif
+	offset	482 38
+	frame	data/chars/Ichigo_Bankai/480.gif
+	offset	392 36
+	frame	data/chars/Ichigo_Bankai/481.gif
+	offset	345 34
+	frame	data/chars/Ichigo_Bankai/482.gif
+	offset	319 31
+	frame	data/chars/Ichigo_Bankai/483.gif
+	offset	322 29
+	frame	data/chars/Ichigo_Bankai/484.gif
+	offset	327 27
+	frame	data/chars/Ichigo_Bankai/485.gif
+	offset	336 20
+	frame	data/chars/Ichigo_Bankai/486.gif
+	offset	339 20
+	frame	data/chars/Ichigo_Bankai/487.gif
+	offset	343 13
+	frame	data/chars/Ichigo_Bankai/488.gif
+	offset	348 12
+	frame	data/chars/Ichigo_Bankai/489.gif
+	offset	346 -14
+	frame	data/chars/Ichigo_Bankai/490.gif
+	offset	389 -73
+	frame	data/chars/Ichigo_Bankai/491.gif
+	offset	298 -92
+	frame	data/chars/Ichigo_Bankai/492.gif
+	offset	399 -85
+	frame	data/chars/Ichigo_Bankai/493.gif
+	offset	299 -100
+	frame	data/chars/Ichigo_Bankai/494.gif
+	offset	409 -102
+	frame	data/chars/Ichigo_Bankai/495.gif
+	offset	414 -116
+	frame	data/chars/Ichigo_Bankai/496.gif
+	offset	308 -111
+	frame	data/chars/Ichigo_Bankai/497.gif
+	offset	342 -126
+	frame	data/chars/Ichigo_Bankai/498.gif
+	offset	370 -116
+	frame	data/chars/Ichigo_Bankai/499.gif
+	offset	433 -132
+	frame	data/chars/Ichigo_Bankai/500.gif
+	offset	438 -127
+	frame	data/chars/Ichigo_Bankai/501.gif
+	offset	443 -135
+	frame	data/chars/Ichigo_Bankai/502.gif
+	offset	448 -155
+	frame	data/chars/Ichigo_Bankai/503.gif
+	offset	453 -148
+	frame	data/chars/Ichigo_Bankai/504.gif
+	offset	458 -148
+	frame	data/chars/Ichigo_Bankai/505.gif
+	offset	339 -150
+	frame	data/chars/Ichigo_Bankai/506.gif
+	offset	344 -164
+	frame	data/chars/Ichigo_Bankai/507.gif
+	offset	345 -169
+	frame	data/chars/Ichigo_Bankai/508.gif
+	offset	351 -187
+	frame	data/chars/Ichigo_Bankai/509.gif
+	offset	351 -184
+	frame	data/chars/Ichigo_Bankai/510.gif
+	offset	365 -182
+	frame	data/chars/Ichigo_Bankai/511.gif
+	offset	359 -200
+	frame	data/chars/Ichigo_Bankai/512.gif
+	offset	365 -197
+	frame	data/chars/Ichigo_Bankai/513.gif
+		
+anim	8338
+	delay	7
+	offset	122 164
+	frame	data/chars/Ichigo_Bankai/868.gif
+	offset	131 185
+	frame	data/chars/Ichigo_Bankai/869.gif
+	offset	55 195
+	frame	data/chars/Ichigo_Bankai/870.gif
+	offset	52 191
+	frame	data/chars/Ichigo_Bankai/871.gif
+	offset	95 173
+	frame	data/chars/Ichigo_Bankai/872.gif
+	offset	102 129
+	frame	data/chars/Ichigo_Bankai/873.gif
+	offset	97 60
+	frame	data/chars/Ichigo_Bankai/874.gif
+	offset	75 -38
+	frame	data/chars/Ichigo_Bankai/875.gif
+		
+anim	8345
+	delay	7
+	offset	148 199
+	frame	data/chars/Ichigo_Bankai/876.gif
+	offset	154 228
+	frame	data/chars/Ichigo_Bankai/877.gif
+	offset	178 257
+	frame	data/chars/Ichigo_Bankai/878.gif
+	offset	215 246
+	frame	data/chars/Ichigo_Bankai/879.gif
+	offset	251 238
+	frame	data/chars/Ichigo_Bankai/880.gif
+	offset	217 244
+	frame	data/chars/Ichigo_Bankai/881.gif
+		
+anim	8370
+	delay	7
+	offset	47 85
+	frame	data/chars/Ichigo_Bankai/882.gif
+	offset	173 193
+	frame	data/chars/Ichigo_Bankai/883.gif
+	offset	179 340
+	frame	data/chars/Ichigo_Bankai/884.gif
+	offset	175 484
+	frame	data/chars/Ichigo_Bankai/885.gif
+	offset	168 482
+	frame	data/chars/Ichigo_Bankai/886.gif
+	offset	104 467
+	frame	data/chars/Ichigo_Bankai/887.gif
+	offset	142 473
+	frame	data/chars/Ichigo_Bankai/888.gif
+	offset	137 475
+	frame	data/chars/Ichigo_Bankai/889.gif
+	offset	131 480
+	frame	data/chars/Ichigo_Bankai/890.gif
+	offset	123 466
+	frame	data/chars/Ichigo_Bankai/891.gif
+	offset	125 467
+	frame	data/chars/Ichigo_Bankai/892.gif
+	offset	132 471
+	frame	data/chars/Ichigo_Bankai/893.gif
+	offset	135 474
+	frame	data/chars/Ichigo_Bankai/894.gif
+	offset	136 476
+	frame	data/chars/Ichigo_Bankai/895.gif
+	offset	129 466
+	frame	data/chars/Ichigo_Bankai/896.gif
+	offset	132 467
+	frame	data/chars/Ichigo_Bankai/897.gif
+	offset	134 471
+	frame	data/chars/Ichigo_Bankai/898.gif
+	offset	137 471
+	frame	data/chars/Ichigo_Bankai/899.gif
+	offset	139 474
+	frame	data/chars/Ichigo_Bankai/900.gif
+	offset	72 473
+	frame	data/chars/Ichigo_Bankai/901.gif
+	offset	55 472
+	frame	data/chars/Ichigo_Bankai/902.gif
+	offset	55 473
+	frame	data/chars/Ichigo_Bankai/903.gif
+		
+anim	8375
+	delay	7
+	offset	47 65
+	frame	data/chars/Ichigo_Bankai/904.gif
+	offset	173 172
+	frame	data/chars/Ichigo_Bankai/905.gif
+	offset	180 320
+	frame	data/chars/Ichigo_Bankai/906.gif
+	offset	176 465
+	frame	data/chars/Ichigo_Bankai/907.gif
+	offset	167 463
+	frame	data/chars/Ichigo_Bankai/908.gif
+	offset	103 461
+	frame	data/chars/Ichigo_Bankai/909.gif
+	offset	141 454
+	frame	data/chars/Ichigo_Bankai/910.gif
+	offset	136 453
+	frame	data/chars/Ichigo_Bankai/911.gif
+	offset	130 454
+	frame	data/chars/Ichigo_Bankai/912.gif
+	offset	122 453
+	frame	data/chars/Ichigo_Bankai/913.gif
+	offset	124 453
+	frame	data/chars/Ichigo_Bankai/914.gif
+	offset	131 453
+	frame	data/chars/Ichigo_Bankai/915.gif
+	offset	133 451
+	frame	data/chars/Ichigo_Bankai/916.gif
+	offset	135 449
+	frame	data/chars/Ichigo_Bankai/917.gif
+	offset	128 449
+	frame	data/chars/Ichigo_Bankai/918.gif
+	offset	131 448
+	frame	data/chars/Ichigo_Bankai/919.gif
+	offset	133 450
+	frame	data/chars/Ichigo_Bankai/920.gif
+	offset	135 451
+	frame	data/chars/Ichigo_Bankai/921.gif
+	offset	137 450
+	frame	data/chars/Ichigo_Bankai/922.gif
+	offset	70 450
+	frame	data/chars/Ichigo_Bankai/923.gif
+	offset	53 449
+	frame	data/chars/Ichigo_Bankai/924.gif
+	offset	53 450
+	frame	data/chars/Ichigo_Bankai/925.gif
+		
+anim	8500
+	delay	7
+	offset	31 103
+	frame	data/chars/Ichigo_Bankai/926.gif
+	offset	30 102
+	frame	data/chars/Ichigo_Bankai/927.gif
+	offset	28 98
+	frame	data/chars/Ichigo_Bankai/928.gif
+	offset	30 102
+	frame	data/chars/Ichigo_Bankai/929.gif
+	offset	37 106
+	frame	data/chars/Ichigo_Bankai/930.gif
+	offset	26 106
+	frame	data/chars/Ichigo_Bankai/931.gif
+	offset	28 101
+	frame	data/chars/Ichigo_Bankai/932.gif
+	offset	29 105
+	frame	data/chars/Ichigo_Bankai/933.gif
+	offset	29 99
+	frame	data/chars/Ichigo_Bankai/934.gif
+	offset	30 100
+	frame	data/chars/Ichigo_Bankai/935.gif
+		
+anim	8510
+	delay	7
+	offset	33 165
+	frame	data/chars/Ichigo_Bankai/936.gif
+	offset	29 158
+	frame	data/chars/Ichigo_Bankai/937.gif
+	offset	33 158
+	frame	data/chars/Ichigo_Bankai/938.gif
+	offset	35 167
+	frame	data/chars/Ichigo_Bankai/939.gif
+	offset	42 167
+	frame	data/chars/Ichigo_Bankai/940.gif
+		
+anim	8520
+	delay	7
+	offset	58 115
+	frame	data/chars/Ichigo_Bankai/941.gif
+	offset	66 110
+	frame	data/chars/Ichigo_Bankai/942.gif
+	offset	62 136
+	frame	data/chars/Ichigo_Bankai/943.gif
+	offset	62 112
+	frame	data/chars/Ichigo_Bankai/944.gif
+	offset	71 129
+	frame	data/chars/Ichigo_Bankai/945.gif
+	offset	67 122
+	frame	data/chars/Ichigo_Bankai/946.gif
+		
+anim	8530
+	delay	7
+	offset	17 49
+	frame	data/chars/Ichigo_Bankai/947.gif
+	offset	17 49
+	frame	data/chars/Ichigo_Bankai/948.gif
+	offset	17 49
+	frame	data/chars/Ichigo_Bankai/949.gif
+	offset	17 49
+	frame	data/chars/Ichigo_Bankai/950.gif
+	offset	-2 50
+	frame	data/chars/Ichigo_Bankai/951.gif
+	offset	-20 113
+	frame	data/chars/Ichigo_Bankai/952.gif
+	offset	-18 153
+	frame	data/chars/Ichigo_Bankai/953.gif
+	offset	40 190
+	frame	data/chars/Ichigo_Bankai/954.gif
+	offset	-12 165
+	frame	data/chars/Ichigo_Bankai/955.gif
+	offset	-17 125
+	frame	data/chars/Ichigo_Bankai/956.gif
+	offset	3 73
+	frame	data/chars/Ichigo_Bankai/957.gif
+	offset	29 171
+	frame	data/chars/Ichigo_Bankai/958.gif
+		
+anim	8551
+	delay	7
+	offset	74 199
+	frame	data/chars/Ichigo_Bankai/959.gif
+	offset	74 199
+	frame	data/chars/Ichigo_Bankai/960.gif
+	offset	73 200
+	frame	data/chars/Ichigo_Bankai/961.gif
+	offset	73 200
+	frame	data/chars/Ichigo_Bankai/962.gif
+	offset	70 199
+	frame	data/chars/Ichigo_Bankai/963.gif
+	offset	74 199
+	frame	data/chars/Ichigo_Bankai/964.gif
+	offset	74 198
+	frame	data/chars/Ichigo_Bankai/965.gif
+	offset	75 199
+	frame	data/chars/Ichigo_Bankai/966.gif
+	offset	75 200
+	frame	data/chars/Ichigo_Bankai/967.gif
+	offset	75 201
+	frame	data/chars/Ichigo_Bankai/968.gif
+	offset	72 200
+	frame	data/chars/Ichigo_Bankai/969.gif
+	offset	70 199
+	frame	data/chars/Ichigo_Bankai/970.gif
+	offset	71 197
+	frame	data/chars/Ichigo_Bankai/971.gif
+		
+anim	9000
+	delay	7
+	offset	0 0
+	frame	data/chars/Ichigo_Bankai/0.gif
+	offset	0 0
+	frame	data/chars/Ichigo_Bankai/1.gif
+		
+anim	9007
+	delay	7
+	offset	75 10
+	frame	data/chars/Ichigo_Bankai/545.gif
+	offset	93 12
+	frame	data/chars/Ichigo_Bankai/546.gif
+	offset	111 14
+	frame	data/chars/Ichigo_Bankai/547.gif
+	offset	124 16
+	frame	data/chars/Ichigo_Bankai/548.gif
+	offset	122 16
+	frame	data/chars/Ichigo_Bankai/549.gif
+		
+anim	9008
+	delay	7
+	offset	110 8
+	frame	data/chars/Ichigo_Bankai/550.gif
+		
+anim	9021
+	delay	7
+	offset	320 240
+	frame	data/chars/Ichigo_Bankai/551.gif
+		
+anim	attack200
+	delay	7
+	offset	31 40
+	frame	data/chars/Ichigo_Bankai/107.gif
+	offset	28 35
+	frame	data/chars/Ichigo_Bankai/108.gif
+	offset	28 33
+	frame	data/chars/Ichigo_Bankai/109.gif
+	offset	29 35
+	frame	data/chars/Ichigo_Bankai/110.gif
+	offset	26 36
+	frame	data/chars/Ichigo_Bankai/111.gif
+	offset	15 52
+	frame	data/chars/Ichigo_Bankai/112.gif
+	offset	11 52
+	frame	data/chars/Ichigo_Bankai/113.gif
+	offset	9 51
+	frame	data/chars/Ichigo_Bankai/114.gif
+	offset	10 52
+	frame	data/chars/Ichigo_Bankai/115.gif
+	offset	10 51
+	frame	data/chars/Ichigo_Bankai/116.gif
+	offset	18 44
+	frame	data/chars/Ichigo_Bankai/117.gif
+	offset	19 45
+	frame	data/chars/Ichigo_Bankai/118.gif
+	offset	20 49
+	frame	data/chars/Ichigo_Bankai/119.gif
+	offset	12 52
+	frame	data/chars/Ichigo_Bankai/120.gif
+	offset	12 52
+	frame	data/chars/Ichigo_Bankai/121.gif
+	offset	12 52
+	frame	data/chars/Ichigo_Bankai/122.gif
+	offset	25 47
+	frame	data/chars/Ichigo_Bankai/123.gif
+	offset	28 42
+	frame	data/chars/Ichigo_Bankai/124.gif
+	offset	22 40
+	frame	data/chars/Ichigo_Bankai/125.gif
+	offset	23 39
+	frame	data/chars/Ichigo_Bankai/126.gif
+	offset	41 39
+	frame	data/chars/Ichigo_Bankai/127.gif
+	offset	24 43
+	frame	data/chars/Ichigo_Bankai/128.gif
+	offset	21 48
+	frame	data/chars/Ichigo_Bankai/129.gif
+	offset	27 68
+	frame	data/chars/Ichigo_Bankai/130.gif
+	offset	33 50
+	frame	data/chars/Ichigo_Bankai/131.gif
+	offset	32 70
+	frame	data/chars/Ichigo_Bankai/132.gif
+	offset	31 38
+	frame	data/chars/Ichigo_Bankai/133.gif
+	offset	26 53
+	frame	data/chars/Ichigo_Bankai/134.gif
+	offset	23 80
+	frame	data/chars/Ichigo_Bankai/135.gif
+	offset	29 52
+	frame	data/chars/Ichigo_Bankai/136.gif
+	offset	47 45
+	frame	data/chars/Ichigo_Bankai/137.gif
+	offset	47 45
+	frame	data/chars/Ichigo_Bankai/138.gif
+	offset	31 45
+	frame	data/chars/Ichigo_Bankai/139.gif
+	offset	28 42
+	frame	data/chars/Ichigo_Bankai/140.gif
+	offset	23 40
+	frame	data/chars/Ichigo_Bankai/141.gif
+	offset	27 39
+	frame	data/chars/Ichigo_Bankai/142.gif
+	offset	59 39
+	frame	data/chars/Ichigo_Bankai/143.gif
+	offset	68 39
+	frame	data/chars/Ichigo_Bankai/144.gif
+	offset	28 48
+	frame	data/chars/Ichigo_Bankai/145.gif
+	offset	28 48
+	frame	data/chars/Ichigo_Bankai/146.gif
+	offset	31 49
+	frame	data/chars/Ichigo_Bankai/147.gif
+	offset	29 49
+	frame	data/chars/Ichigo_Bankai/148.gif
+	offset	26 55
+	frame	data/chars/Ichigo_Bankai/149.gif
+	offset	27 87
+	frame	data/chars/Ichigo_Bankai/150.gif
+	offset	26 63
+	frame	data/chars/Ichigo_Bankai/151.gif
+	offset	26 45
+	frame	data/chars/Ichigo_Bankai/152.gif
+	offset	25 50
+	frame	data/chars/Ichigo_Bankai/153.gif
+	offset	28 53
+	frame	data/chars/Ichigo_Bankai/154.gif
+	offset	31 56
+	frame	data/chars/Ichigo_Bankai/155.gif
+	offset	48 51
+	frame	data/chars/Ichigo_Bankai/156.gif
+	offset	46 46
+	frame	data/chars/Ichigo_Bankai/157.gif
+	offset	30 46
+	frame	data/chars/Ichigo_Bankai/158.gif
+	offset	26 50
+	frame	data/chars/Ichigo_Bankai/159.gif
+	offset	30 44
+	frame	data/chars/Ichigo_Bankai/160.gif
+	offset	44 44
+	frame	data/chars/Ichigo_Bankai/161.gif
+	offset	47 45
+	frame	data/chars/Ichigo_Bankai/162.gif
+	offset	47 40
+	frame	data/chars/Ichigo_Bankai/163.gif
+	offset	47 40
+	frame	data/chars/Ichigo_Bankai/164.gif
+	offset	29 44
+	frame	data/chars/Ichigo_Bankai/165.gif
+	offset	35 48
+	frame	data/chars/Ichigo_Bankai/166.gif
+	offset	35 48
+	frame	data/chars/Ichigo_Bankai/167.gif
+	offset	25 50
+	frame	data/chars/Ichigo_Bankai/168.gif
+	offset	28 50
+	frame	data/chars/Ichigo_Bankai/169.gif
+	offset	34 43
+	frame	data/chars/Ichigo_Bankai/170.gif
+	offset	34 43
+	frame	data/chars/Ichigo_Bankai/171.gif
+	offset	19 47
+	frame	data/chars/Ichigo_Bankai/172.gif
+	offset	25 42
+	frame	data/chars/Ichigo_Bankai/173.gif
+	offset	25 47
+	frame	data/chars/Ichigo_Bankai/174.gif
+	offset	37 60
+	frame	data/chars/Ichigo_Bankai/175.gif
+	offset	33 42
+	frame	data/chars/Ichigo_Bankai/176.gif
+	offset	27 53
+	frame	data/chars/Ichigo_Bankai/177.gif
+	offset	21 41
+	frame	data/chars/Ichigo_Bankai/178.gif
+	offset	25 47
+	frame	data/chars/Ichigo_Bankai/179.gif
+	offset	18 50
+	frame	data/chars/Ichigo_Bankai/180.gif
+	offset	25 47
+	frame	data/chars/Ichigo_Bankai/181.gif
+	offset	30 65
+	frame	data/chars/Ichigo_Bankai/182.gif
+	offset	33 71
+	frame	data/chars/Ichigo_Bankai/183.gif
+	offset	29 53
+	frame	data/chars/Ichigo_Bankai/184.gif
+	offset	27 57
+	frame	data/chars/Ichigo_Bankai/185.gif
+	offset	29 49
+	frame	data/chars/Ichigo_Bankai/186.gif
+	offset	27 49
+	frame	data/chars/Ichigo_Bankai/187.gif
+	offset	22 45
+	frame	data/chars/Ichigo_Bankai/188.gif
+	offset	24 49
+	frame	data/chars/Ichigo_Bankai/189.gif
+		
+anim	attack205
+	delay	7
+	offset	28 47
+	frame	data/chars/Ichigo_Bankai/190.gif
+	offset	28 48
+	frame	data/chars/Ichigo_Bankai/191.gif
+	offset	38 45
+	frame	data/chars/Ichigo_Bankai/192.gif
+	offset	38 48
+	frame	data/chars/Ichigo_Bankai/193.gif
+	offset	26 43
+	frame	data/chars/Ichigo_Bankai/194.gif
+	offset	26 38
+	frame	data/chars/Ichigo_Bankai/195.gif
+	offset	27 36
+	frame	data/chars/Ichigo_Bankai/196.gif
+	offset	31 42
+	frame	data/chars/Ichigo_Bankai/197.gif
+	offset	31 53
+	frame	data/chars/Ichigo_Bankai/198.gif
+	offset	42 60
+	frame	data/chars/Ichigo_Bankai/199.gif
+	offset	38 42
+	frame	data/chars/Ichigo_Bankai/200.gif
+	offset	33 53
+	frame	data/chars/Ichigo_Bankai/201.gif
+	offset	26 41
+	frame	data/chars/Ichigo_Bankai/202.gif
+	offset	29 45
+	frame	data/chars/Ichigo_Bankai/203.gif
+	offset	37 43
+	frame	data/chars/Ichigo_Bankai/204.gif
+	offset	41 43
+	frame	data/chars/Ichigo_Bankai/205.gif
+	offset	41 43
+	frame	data/chars/Ichigo_Bankai/206.gif
+	offset	41 43
+	frame	data/chars/Ichigo_Bankai/207.gif
+		
+anim	attack206
+	delay	7
+	offset	18 51
+	frame	data/chars/Ichigo_Bankai/208.gif
+	offset	13 51
+	frame	data/chars/Ichigo_Bankai/209.gif
+	offset	13 51
+	frame	data/chars/Ichigo_Bankai/210.gif
+	offset	20 51
+	frame	data/chars/Ichigo_Bankai/211.gif
+	offset	23 51
+	frame	data/chars/Ichigo_Bankai/212.gif
+	offset	25 51
+	frame	data/chars/Ichigo_Bankai/213.gif
+	offset	22 51
+	frame	data/chars/Ichigo_Bankai/214.gif
+	offset	15 51
+	frame	data/chars/Ichigo_Bankai/215.gif
+	offset	13 51
+	frame	data/chars/Ichigo_Bankai/216.gif
+	offset	13 51
+	frame	data/chars/Ichigo_Bankai/217.gif
+	offset	23 67
+	frame	data/chars/Ichigo_Bankai/218.gif
+	offset	26 67
+	frame	data/chars/Ichigo_Bankai/219.gif
+	offset	25 62
+	frame	data/chars/Ichigo_Bankai/220.gif
+	offset	19 51
+	frame	data/chars/Ichigo_Bankai/221.gif
+	offset	15 51
+	frame	data/chars/Ichigo_Bankai/222.gif
+	offset	13 51
+	frame	data/chars/Ichigo_Bankai/223.gif
+	offset	13 51
+	frame	data/chars/Ichigo_Bankai/224.gif
+	offset	18 51
+	frame	data/chars/Ichigo_Bankai/225.gif
+	offset	18 53
+	frame	data/chars/Ichigo_Bankai/226.gif
+		
+anim	attack210
+	delay	7
+	offset	25 48
+	frame	data/chars/Ichigo_Bankai/227.gif
+	offset	28 44
+	frame	data/chars/Ichigo_Bankai/228.gif
+	offset	29 40
+	frame	data/chars/Ichigo_Bankai/229.gif
+	offset	23 39
+	frame	data/chars/Ichigo_Bankai/230.gif
+	offset	23 39
+	frame	data/chars/Ichigo_Bankai/231.gif
+	offset	23 39
+	frame	data/chars/Ichigo_Bankai/232.gif
+	offset	23 39
+	frame	data/chars/Ichigo_Bankai/233.gif
+	offset	23 39
+	frame	data/chars/Ichigo_Bankai/234.gif
+	offset	23 39
+	frame	data/chars/Ichigo_Bankai/235.gif
+	offset	23 43
+	frame	data/chars/Ichigo_Bankai/236.gif
+	offset	23 43
+	frame	data/chars/Ichigo_Bankai/237.gif
+	offset	23 49
+	frame	data/chars/Ichigo_Bankai/238.gif
+	offset	24 49
+	frame	data/chars/Ichigo_Bankai/239.gif
+	offset	24 52
+	frame	data/chars/Ichigo_Bankai/240.gif
+	offset	24 48
+	frame	data/chars/Ichigo_Bankai/241.gif
+		
+anim	attack300
+	delay	7
+	offset	428 446
+	frame	data/chars/Ichigo_Bankai/367.gif
+		
+anim	attack330
+	delay	7
+	offset	117 84
+	frame	data/chars/Ichigo_Bankai/368.gif
+	offset	92 89
+	frame	data/chars/Ichigo_Bankai/369.gif
+	offset	95 100
+	frame	data/chars/Ichigo_Bankai/370.gif
+	offset	93 97
+	frame	data/chars/Ichigo_Bankai/371.gif
+		
+anim	block120
+	delay	7
+	offset	25 51
+	frame	data/chars/Ichigo_Bankai/25.gif
+	offset	25 51
+	frame	data/chars/Ichigo_Bankai/26.gif
+	offset	25 51
+	frame	data/chars/Ichigo_Bankai/27.gif
+		
+anim	block121
+	delay	7
+	offset	25 51
+	frame	data/chars/Ichigo_Bankai/28.gif
+	offset	25 51
+	frame	data/chars/Ichigo_Bankai/29.gif
+		
+anim	block122
+	delay	7
+	offset	25 51
+	frame	data/chars/Ichigo_Bankai/30.gif
+	offset	25 51
+	frame	data/chars/Ichigo_Bankai/31.gif
+	offset	25 51
+	frame	data/chars/Ichigo_Bankai/32.gif
+		
+anim	faint
+	delay	7
+	offset	33 44
+	frame	data/chars/Ichigo_Bankai/106.gif
+		
+anim	fall5030
+	delay	7
+	offset	26 43
+	frame	data/chars/Ichigo_Bankai/57.gif
+	offset	37 25
+	frame	data/chars/Ichigo_Bankai/58.gif
+	offset	28 34
+	frame	data/chars/Ichigo_Bankai/59.gif
+	offset	28 34
+	frame	data/chars/Ichigo_Bankai/60.gif
+	offset	28 34
+	frame	data/chars/Ichigo_Bankai/61.gif
+	offset	33 36
+	frame	data/chars/Ichigo_Bankai/62.gif
+	offset	33 36
+	frame	data/chars/Ichigo_Bankai/63.gif
+		
+anim	fall5031
+	delay	7
+	offset	23 23
+	frame	data/chars/Ichigo_Bankai/64.gif
+	offset	37 17
+	frame	data/chars/Ichigo_Bankai/65.gif
+	offset	28 18
+	frame	data/chars/Ichigo_Bankai/66.gif
+	offset	28 18
+	frame	data/chars/Ichigo_Bankai/67.gif
+	offset	32 23
+	frame	data/chars/Ichigo_Bankai/68.gif
+	offset	32 23
+	frame	data/chars/Ichigo_Bankai/69.gif
+		
+anim	fall5032
+	delay	7
+	offset	26 2
+	frame	data/chars/Ichigo_Bankai/70.gif
+	offset	37 0
+	frame	data/chars/Ichigo_Bankai/71.gif
+	offset	28 -2
+	frame	data/chars/Ichigo_Bankai/72.gif
+	offset	28 -2
+	frame	data/chars/Ichigo_Bankai/73.gif
+	offset	32 -1
+	frame	data/chars/Ichigo_Bankai/74.gif
+	offset	32 -1
+	frame	data/chars/Ichigo_Bankai/75.gif
+		
+anim	fall5040
+	delay	7
+	offset	28 35
+	frame	data/chars/Ichigo_Bankai/76.gif
+	offset	28 35
+	frame	data/chars/Ichigo_Bankai/77.gif
+	offset	36 11
+	frame	data/chars/Ichigo_Bankai/78.gif
+	offset	20 33
+	frame	data/chars/Ichigo_Bankai/79.gif
+	offset	21 38
+	frame	data/chars/Ichigo_Bankai/80.gif
+	offset	25 45
+	frame	data/chars/Ichigo_Bankai/81.gif
+	offset	28 49
+	frame	data/chars/Ichigo_Bankai/82.gif
+	offset	37 25
+	frame	data/chars/Ichigo_Bankai/83.gif
+		
+anim	fall5041
+	delay	7
+	offset	28 17
+	frame	data/chars/Ichigo_Bankai/84.gif
+	offset	36 8
+	frame	data/chars/Ichigo_Bankai/85.gif
+	offset	32 23
+	frame	data/chars/Ichigo_Bankai/86.gif
+		
+anim	fall5042
+	delay	7
+	offset	29 0
+	frame	data/chars/Ichigo_Bankai/87.gif
+	offset	36 0
+	frame	data/chars/Ichigo_Bankai/88.gif
+	offset	34 0
+	frame	data/chars/Ichigo_Bankai/89.gif
+		
+anim	fall5060
+	delay	7
+	offset	19 51
+	frame	data/chars/Ichigo_Bankai/90.gif
+	offset	19 51
+	frame	data/chars/Ichigo_Bankai/91.gif
+	offset	17 45
+	frame	data/chars/Ichigo_Bankai/92.gif
+		
+anim	fall5061
+	delay	7
+	offset	19 27
+	frame	data/chars/Ichigo_Bankai/93.gif
+	offset	17 27
+	frame	data/chars/Ichigo_Bankai/94.gif
+		
+anim	fall5062
+	delay	7
+	offset	19 0
+	frame	data/chars/Ichigo_Bankai/95.gif
+	offset	17 0
+	frame	data/chars/Ichigo_Bankai/96.gif
+		
+anim	fall5070
+	delay	7
+	offset	19 51
+	frame	data/chars/Ichigo_Bankai/97.gif
+	offset	12 25
+	frame	data/chars/Ichigo_Bankai/98.gif
+	offset	45 29
+	frame	data/chars/Ichigo_Bankai/99.gif
+		
+anim	fall5071
+	delay	7
+	offset	19 27
+	frame	data/chars/Ichigo_Bankai/100.gif
+	offset	12 17
+	frame	data/chars/Ichigo_Bankai/101.gif
+	offset	45 20
+	frame	data/chars/Ichigo_Bankai/102.gif
+		
+anim	fall5072
+	delay	7
+	offset	19 0
+	frame	data/chars/Ichigo_Bankai/103.gif
+	offset	12 0
+	frame	data/chars/Ichigo_Bankai/104.gif
+	offset	45 3
+	frame	data/chars/Ichigo_Bankai/105.gif
+		
+anim	freespecial1050
+	delay	7
+	offset	63 32
+	frame	data/chars/Ichigo_Bankai/765.gif
+	offset	63 30
+	frame	data/chars/Ichigo_Bankai/766.gif
+	offset	63 30
+	frame	data/chars/Ichigo_Bankai/767.gif
+	offset	63 34
+	frame	data/chars/Ichigo_Bankai/768.gif
+	offset	72 42
+	frame	data/chars/Ichigo_Bankai/769.gif
+	offset	76 46
+	frame	data/chars/Ichigo_Bankai/770.gif
+	offset	79 50
+	frame	data/chars/Ichigo_Bankai/771.gif
+	offset	81 53
+	frame	data/chars/Ichigo_Bankai/772.gif
+	offset	82 82
+	frame	data/chars/Ichigo_Bankai/773.gif
+	offset	91 127
+	frame	data/chars/Ichigo_Bankai/774.gif
+	offset	95 138
+	frame	data/chars/Ichigo_Bankai/775.gif
+	offset	97 151
+	frame	data/chars/Ichigo_Bankai/776.gif
+	offset	102 138
+	frame	data/chars/Ichigo_Bankai/777.gif
+	offset	99 150
+	frame	data/chars/Ichigo_Bankai/778.gif
+	offset	101 160
+	frame	data/chars/Ichigo_Bankai/779.gif
+	offset	99 133
+	frame	data/chars/Ichigo_Bankai/780.gif
+	offset	81 150
+	frame	data/chars/Ichigo_Bankai/781.gif
+	offset	90 155
+	frame	data/chars/Ichigo_Bankai/782.gif
+	offset	94 129
+	frame	data/chars/Ichigo_Bankai/783.gif
+	offset	96 126
+	frame	data/chars/Ichigo_Bankai/784.gif
+	offset	101 130
+	frame	data/chars/Ichigo_Bankai/785.gif
+	offset	99 141
+	frame	data/chars/Ichigo_Bankai/786.gif
+	offset	101 150
+	frame	data/chars/Ichigo_Bankai/787.gif
+	offset	98 177
+	frame	data/chars/Ichigo_Bankai/788.gif
+	offset	81 158
+	frame	data/chars/Ichigo_Bankai/789.gif
+	offset	91 133
+	frame	data/chars/Ichigo_Bankai/790.gif
+	offset	94 131
+	frame	data/chars/Ichigo_Bankai/791.gif
+	offset	97 109
+	frame	data/chars/Ichigo_Bankai/792.gif
+	offset	100 120
+	frame	data/chars/Ichigo_Bankai/793.gif
+	offset	99 126
+	frame	data/chars/Ichigo_Bankai/794.gif
+	offset	101 131
+	frame	data/chars/Ichigo_Bankai/795.gif
+		
+anim	freespecial1055
+	delay	7
+	offset	-30 62
+	frame	data/chars/Ichigo_Bankai/796.gif
+	offset	-110 61
+	frame	data/chars/Ichigo_Bankai/797.gif
+	offset	205 103
+	frame	data/chars/Ichigo_Bankai/798.gif
+	offset	207 94
+	frame	data/chars/Ichigo_Bankai/799.gif
+	offset	195 40
+	frame	data/chars/Ichigo_Bankai/800.gif
+	offset	182 10
+	frame	data/chars/Ichigo_Bankai/801.gif
+	offset	175 -23
+	frame	data/chars/Ichigo_Bankai/802.gif
+		
+anim	freespecial1056
+	delay	7
+	offset	494 339
+	frame	data/chars/Ichigo_Bankai/803.gif
+	offset	422 325
+	frame	data/chars/Ichigo_Bankai/804.gif
+	offset	448 306
+	frame	data/chars/Ichigo_Bankai/805.gif
+	offset	447 300
+	frame	data/chars/Ichigo_Bankai/806.gif
+	offset	447 298
+	frame	data/chars/Ichigo_Bankai/807.gif
+	offset	446 326
+	frame	data/chars/Ichigo_Bankai/808.gif
+	offset	446 280
+	frame	data/chars/Ichigo_Bankai/809.gif
+	offset	438 306
+	frame	data/chars/Ichigo_Bankai/810.gif
+	offset	425 210
+	frame	data/chars/Ichigo_Bankai/811.gif
+	offset	425 210
+	frame	data/chars/Ichigo_Bankai/812.gif
+	offset	421 118
+	frame	data/chars/Ichigo_Bankai/813.gif
+		
+anim	freespecial1063
+	delay	7
+	offset	254 67
+	frame	data/chars/Ichigo_Bankai/814.gif
+	offset	283 125
+	frame	data/chars/Ichigo_Bankai/815.gif
+	offset	295 239
+	frame	data/chars/Ichigo_Bankai/816.gif
+	offset	321 411
+	frame	data/chars/Ichigo_Bankai/817.gif
+	offset	319 389
+	frame	data/chars/Ichigo_Bankai/818.gif
+	offset	309 354
+	frame	data/chars/Ichigo_Bankai/819.gif
+	offset	307 344
+	frame	data/chars/Ichigo_Bankai/820.gif
+	offset	319 323
+	frame	data/chars/Ichigo_Bankai/821.gif
+	offset	325 306
+	frame	data/chars/Ichigo_Bankai/822.gif
+	offset	320 242
+	frame	data/chars/Ichigo_Bankai/823.gif
+	offset	13 -34
+	frame	data/chars/Ichigo_Bankai/824.gif
+	offset	20 -28
+	frame	data/chars/Ichigo_Bankai/825.gif
+	offset	26 -10
+	frame	data/chars/Ichigo_Bankai/826.gif
+	offset	27 25
+	frame	data/chars/Ichigo_Bankai/827.gif
+	offset	33 53
+	frame	data/chars/Ichigo_Bankai/828.gif
+	offset	42 57
+	frame	data/chars/Ichigo_Bankai/829.gif
+	offset	46 58
+	frame	data/chars/Ichigo_Bankai/830.gif
+	offset	46 53
+	frame	data/chars/Ichigo_Bankai/831.gif
+	offset	26 40
+	frame	data/chars/Ichigo_Bankai/832.gif
+	offset	28 30
+	frame	data/chars/Ichigo_Bankai/833.gif
+	offset	25 12
+	frame	data/chars/Ichigo_Bankai/834.gif
+	offset	23 10
+	frame	data/chars/Ichigo_Bankai/835.gif
+	offset	16 8
+	frame	data/chars/Ichigo_Bankai/836.gif
+	offset	11 -37
+	frame	data/chars/Ichigo_Bankai/837.gif
+	offset	9 -39
+	frame	data/chars/Ichigo_Bankai/838.gif
+	offset	6 -43
+	frame	data/chars/Ichigo_Bankai/839.gif
+		
+anim	freespecial1100
+	delay	7
+	offset	126 115
+	frame	data/chars/Ichigo_Bankai/840.gif
+	offset	125 122
+	frame	data/chars/Ichigo_Bankai/841.gif
+	offset	120 118
+	frame	data/chars/Ichigo_Bankai/842.gif
+	offset	115 125
+	frame	data/chars/Ichigo_Bankai/843.gif
+	offset	105 129
+	frame	data/chars/Ichigo_Bankai/844.gif
+	offset	100 115
+	frame	data/chars/Ichigo_Bankai/845.gif
+	offset	96 115
+	frame	data/chars/Ichigo_Bankai/846.gif
+	offset	105 115
+	frame	data/chars/Ichigo_Bankai/847.gif
+	offset	106 111
+	frame	data/chars/Ichigo_Bankai/848.gif
+	offset	106 115
+	frame	data/chars/Ichigo_Bankai/849.gif
+		
+anim	freespecial1260
+	delay	7
+	offset	135 131
+	frame	data/chars/Ichigo_Bankai/653.gif
+	offset	133 128
+	frame	data/chars/Ichigo_Bankai/654.gif
+	offset	137 135
+	frame	data/chars/Ichigo_Bankai/655.gif
+	offset	137 135
+	frame	data/chars/Ichigo_Bankai/656.gif
+	offset	139 135
+	frame	data/chars/Ichigo_Bankai/657.gif
+	offset	139 136
+	frame	data/chars/Ichigo_Bankai/658.gif
+	offset	140 136
+	frame	data/chars/Ichigo_Bankai/659.gif
+	offset	144 140
+	frame	data/chars/Ichigo_Bankai/660.gif
+	offset	155 152
+	frame	data/chars/Ichigo_Bankai/661.gif
+	offset	166 165
+	frame	data/chars/Ichigo_Bankai/662.gif
+	offset	180 177
+	frame	data/chars/Ichigo_Bankai/663.gif
+	offset	188 185
+	frame	data/chars/Ichigo_Bankai/664.gif
+	offset	197 194
+	frame	data/chars/Ichigo_Bankai/665.gif
+	offset	207 206
+	frame	data/chars/Ichigo_Bankai/666.gif
+	offset	130 126
+	frame	data/chars/Ichigo_Bankai/667.gif
+	offset	128 127
+	frame	data/chars/Ichigo_Bankai/668.gif
+	offset	126 124
+	frame	data/chars/Ichigo_Bankai/669.gif
+	offset	126 123
+	frame	data/chars/Ichigo_Bankai/670.gif
+	offset	126 135
+	frame	data/chars/Ichigo_Bankai/671.gif
+	offset	128 128
+	frame	data/chars/Ichigo_Bankai/672.gif
+	offset	134 131
+	frame	data/chars/Ichigo_Bankai/673.gif
+	offset	136 133
+	frame	data/chars/Ichigo_Bankai/674.gif
+	offset	138 144
+	frame	data/chars/Ichigo_Bankai/675.gif
+	offset	140 146
+	frame	data/chars/Ichigo_Bankai/676.gif
+	offset	142 148
+	frame	data/chars/Ichigo_Bankai/677.gif
+	offset	144 150
+	frame	data/chars/Ichigo_Bankai/678.gif
+	offset	145 152
+	frame	data/chars/Ichigo_Bankai/679.gif
+	offset	147 153
+	frame	data/chars/Ichigo_Bankai/680.gif
+	offset	148 155
+	frame	data/chars/Ichigo_Bankai/681.gif
+	offset	150 156
+	frame	data/chars/Ichigo_Bankai/682.gif
+	offset	151 158
+	frame	data/chars/Ichigo_Bankai/683.gif
+	offset	153 160
+	frame	data/chars/Ichigo_Bankai/684.gif
+	offset	154 161
+	frame	data/chars/Ichigo_Bankai/685.gif
+	offset	155 156
+	frame	data/chars/Ichigo_Bankai/686.gif
+	offset	157 164
+	frame	data/chars/Ichigo_Bankai/687.gif
+	offset	158 165
+	frame	data/chars/Ichigo_Bankai/688.gif
+	offset	159 166
+	frame	data/chars/Ichigo_Bankai/689.gif
+	offset	160 162
+	frame	data/chars/Ichigo_Bankai/690.gif
+	offset	161 162
+	frame	data/chars/Ichigo_Bankai/691.gif
+	offset	162 164
+	frame	data/chars/Ichigo_Bankai/692.gif
+	offset	164 171
+	frame	data/chars/Ichigo_Bankai/693.gif
+	offset	149 162
+	frame	data/chars/Ichigo_Bankai/694.gif
+	offset	166 163
+	frame	data/chars/Ichigo_Bankai/695.gif
+	offset	150 159
+	frame	data/chars/Ichigo_Bankai/696.gif
+	offset	145 158
+	frame	data/chars/Ichigo_Bankai/697.gif
+	offset	143 158
+	frame	data/chars/Ichigo_Bankai/698.gif
+	offset	140 155
+	frame	data/chars/Ichigo_Bankai/699.gif
+	offset	151 149
+	frame	data/chars/Ichigo_Bankai/700.gif
+	offset	173 174
+	frame	data/chars/Ichigo_Bankai/701.gif
+	offset	156 157
+	frame	data/chars/Ichigo_Bankai/702.gif
+		
+anim	freespecial1350
+	delay	7
+	offset	75 238
+	frame	data/chars/Ichigo_Bankai/730.gif
+	offset	79 238
+	frame	data/chars/Ichigo_Bankai/731.gif
+	offset	79 238
+	frame	data/chars/Ichigo_Bankai/732.gif
+	offset	60 238
+	frame	data/chars/Ichigo_Bankai/733.gif
+	offset	59 238
+	frame	data/chars/Ichigo_Bankai/734.gif
+	offset	60 238
+	frame	data/chars/Ichigo_Bankai/735.gif
+	offset	60 238
+	frame	data/chars/Ichigo_Bankai/736.gif
+	offset	59 238
+	frame	data/chars/Ichigo_Bankai/737.gif
+	offset	59 238
+	frame	data/chars/Ichigo_Bankai/738.gif
+	offset	60 238
+	frame	data/chars/Ichigo_Bankai/739.gif
+	offset	41 238
+	frame	data/chars/Ichigo_Bankai/740.gif
+	offset	34 238
+	frame	data/chars/Ichigo_Bankai/741.gif
+		
+anim	freespecial1355
+	delay	7
+	offset	87 28
+	frame	data/chars/Ichigo_Bankai/850.gif
+	offset	86 28
+	frame	data/chars/Ichigo_Bankai/851.gif
+	offset	75 30
+	frame	data/chars/Ichigo_Bankai/852.gif
+	offset	83 31
+	frame	data/chars/Ichigo_Bankai/853.gif
+	offset	86 28
+	frame	data/chars/Ichigo_Bankai/854.gif
+	offset	74 34
+	frame	data/chars/Ichigo_Bankai/855.gif
+	offset	80 34
+	frame	data/chars/Ichigo_Bankai/856.gif
+	offset	88 33
+	frame	data/chars/Ichigo_Bankai/857.gif
+	offset	109 28
+	frame	data/chars/Ichigo_Bankai/858.gif
+	offset	117 27
+	frame	data/chars/Ichigo_Bankai/859.gif
+	offset	119 34
+	frame	data/chars/Ichigo_Bankai/860.gif
+	offset	119 34
+	frame	data/chars/Ichigo_Bankai/861.gif
+	offset	91 29
+	frame	data/chars/Ichigo_Bankai/862.gif
+	offset	94 34
+	frame	data/chars/Ichigo_Bankai/863.gif
+	offset	106 34
+	frame	data/chars/Ichigo_Bankai/864.gif
+	offset	119 34
+	frame	data/chars/Ichigo_Bankai/865.gif
+	offset	119 34
+	frame	data/chars/Ichigo_Bankai/866.gif
+	offset	119 34
+	frame	data/chars/Ichigo_Bankai/867.gif
+		
+anim	idle
+	delay	7
+	offset	23 52
+	frame	data/chars/Ichigo_Bankai/2.gif
+	offset	28 52
+	frame	data/chars/Ichigo_Bankai/3.gif
+	offset	30 52
+	frame	data/chars/Ichigo_Bankai/4.gif
+	offset	27 52
+	frame	data/chars/Ichigo_Bankai/5.gif
+		
+anim	pain5000
+	delay	7
+	offset	26 43
+	frame	data/chars/Ichigo_Bankai/33.gif
+	offset	26 43
+	frame	data/chars/Ichigo_Bankai/34.gif
+	offset	26 50
+	frame	data/chars/Ichigo_Bankai/35.gif
+	offset	26 50
+	frame	data/chars/Ichigo_Bankai/36.gif
+	offset	26 50
+	frame	data/chars/Ichigo_Bankai/37.gif
+		
+anim	pain5001
+	delay	7
+	offset	28 26
+	frame	data/chars/Ichigo_Bankai/38.gif
+	offset	28 23
+	frame	data/chars/Ichigo_Bankai/39.gif
+	offset	28 26
+	frame	data/chars/Ichigo_Bankai/40.gif
+		
+anim	pain5002
+	delay	7
+	offset	28 0
+	frame	data/chars/Ichigo_Bankai/41.gif
+	offset	28 0
+	frame	data/chars/Ichigo_Bankai/42.gif
+	offset	28 0
+	frame	data/chars/Ichigo_Bankai/43.gif
+		
+anim	pain5010
+	delay	7
+	offset	26 43
+	frame	data/chars/Ichigo_Bankai/44.gif
+	offset	26 43
+	frame	data/chars/Ichigo_Bankai/45.gif
+	offset	26 43
+	frame	data/chars/Ichigo_Bankai/46.gif
+	offset	19 51
+	frame	data/chars/Ichigo_Bankai/47.gif
+		
+anim	pain5011
+	delay	7
+	offset	28 23
+	frame	data/chars/Ichigo_Bankai/48.gif
+	offset	28 23
+	frame	data/chars/Ichigo_Bankai/49.gif
+	offset	28 23
+	frame	data/chars/Ichigo_Bankai/50.gif
+		
+anim	pain5012
+	delay	7
+	offset	28 0
+	frame	data/chars/Ichigo_Bankai/51.gif
+	offset	28 0
+	frame	data/chars/Ichigo_Bankai/52.gif
+	offset	28 0
+	frame	data/chars/Ichigo_Bankai/53.gif
+		
+anim	pain5020
+	delay	7
+	offset	19 51
+	frame	data/chars/Ichigo_Bankai/54.gif
+	offset	15 43
+	frame	data/chars/Ichigo_Bankai/55.gif
+	offset	15 43
+	frame	data/chars/Ichigo_Bankai/56.gif
+		
+anim	run
+	delay	7
+	offset	27 52
+	frame	data/chars/Ichigo_Bankai/23.gif
+	offset	30 52
+	frame	data/chars/Ichigo_Bankai/24.gif
+		
+anim	turn
+	delay	7
+	offset	23 52
+	frame	data/chars/Ichigo_Bankai/6.gif
+		
+anim	walk
+	delay	7
+	offset	22 40
+	frame	data/chars/Ichigo_Bankai/9.gif
+	offset	22 40
+	frame	data/chars/Ichigo_Bankai/10.gif
+	offset	22 39
+	frame	data/chars/Ichigo_Bankai/11.gif
+	offset	22 40
+	frame	data/chars/Ichigo_Bankai/12.gif
+	offset	21 41
+	frame	data/chars/Ichigo_Bankai/13.gif
+	offset	22 38
+	frame	data/chars/Ichigo_Bankai/14.gif
+	offset	22 39
+	frame	data/chars/Ichigo_Bankai/15.gif
+	offset	22 40
+	frame	data/chars/Ichigo_Bankai/16.gif
+		
+#|edited by openBor Stats v 0.67
+		

@@ -79,6 +79,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	delay	4
 	sound	data/chars/deku/deku_0-0.wav
@@ -602,6 +603,48 @@ anim	jumpattack2
 	frame	data/chars/Deku/111.gif
 	offset	15 42
 	frame	data/chars/Deku/112.gif
+		
+anim	dodge
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	5
+	offset	20 40
+	frame	data/chars/Deku/18.gif
+	offset	23 41
+	frame	data/chars/Deku/19.gif
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	drawmethod	rotate 90
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	delay	7
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	drawmethod	rotate 0
+	fshadow	3
+	delay	5
+	offset	23 41
+	frame	data/chars/Deku/19.gif
+	offset	20 40
+	frame	data/chars/Deku/18.gif
 		
 anim	pain
 	delay	7

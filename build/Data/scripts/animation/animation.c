@@ -2055,15 +2055,51 @@ void pause_all(int iToggle, int iTime){
     int  iMax       = openborvariant("ent_max");            //Entity count.
     int  iEntity;                                           //Loop counter.
     void vEntity;                                           //Target entity.
+    void vParent;											//Target parent
 
     for(iEntity=0; iEntity<iMax; iEntity++)
     {   
-        vEntity = getentity(iEntity);                                       //Get target entity from current loop.       
-       
+        vEntity = getentity(iEntity); 
+        vParent = getentityproperty(vEntity, "parent"); 
+
+        //Get target entity from current loop.       
         if (vEntity != vSelf)                                               //Not Self?
         {
+        	if(vParent != vSelf) {
             changeentityproperty(vEntity, "frozen", iToggle);               //Toggle frozen.
             changeentityproperty(vEntity, "freezetime", iETime + iTime);    //Toggle frozen time.
-        }
+			}        
+        }		
     }   
+}
+
+void rasengan() {
+	void rObj = spawnbind("rasengan", 0, -1, 1);
+	setlocalvar("rObj", rObj);
+	log(getlocalvar("rObj"));
+}
+
+void npc_check(int limit) {
+
+    void vSelf      = getlocalvar("self");                  //Caller   
+    int  iMax       = openborvariant("ent_max");            //Entity count.
+    int  iEntity;                                           //Loop counter.
+    void vEntity;                                           //Target entity.
+    int npc_count = 0;											//npc count
+	void AniID = getani();
+
+    for(iEntity=0; iEntity<iMax; iEntity++)
+    {   
+        vEntity = getentity(iEntity); 
+        if(getentityproperty(vEntity, "type") == openborconstant("TYPE_NPC")) {
+        	npc_count++;
+        }	
+    } 
+
+    if(npc_count > 0) {
+		anichange(openborconstant("ANI_SPAWN"));
+		setidle(vSelf, openborconstant("ANI_SPAWN"));
+		mpcost(0);
+
+    }
 }

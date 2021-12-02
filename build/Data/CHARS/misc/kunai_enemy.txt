@@ -1,0 +1,16 @@
+name	kunai_enemy
+health	1
+speed   7
+type	obstacle
+candamage    player npc 
+shadow	0
+subject_to_platform		1
+icon	data/chars/misc/kunai.gif
+anim idle
+	loop	1
+	delay	6
+	offset	-21 -9
+        attack  4 5 20 12 25 1
+        hitflash flash
+	frame	data/chars/misc/kunai.gif
+

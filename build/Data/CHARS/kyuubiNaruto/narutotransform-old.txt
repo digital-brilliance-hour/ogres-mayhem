@@ -1,0 +1,1932 @@
+name   NarutoTransformOLD
+health	100
+speed 10
+running	16	3	2	1    1
+type	none
+shadow	2
+
+
+anim	0010
+	delay	7
+	offset	15 41
+	frame	data/chars/ClassicNaruto95/98.gif
+	offset	15 32
+	frame	data/chars/ClassicNaruto95/99.gif
+	offset	16 29
+	frame	data/chars/ClassicNaruto95/100.gif
+		
+anim	0040
+	delay	7
+	offset	21 43
+	frame	data/chars/ClassicNaruto95/83.gif
+	offset	21 44
+	frame	data/chars/ClassicNaruto95/84.gif
+		
+anim	0044
+	delay	7
+	offset	14 50
+	frame	data/chars/ClassicNaruto95/81.gif
+	offset	14 50
+	frame	data/chars/ClassicNaruto95/82.gif
+		
+anim	0101
+	delay	7
+	offset	18 34
+	frame	data/chars/ClassicNaruto95/58.gif
+	offset	16 27
+	frame	data/chars/ClassicNaruto95/59.gif
+		
+anim	0180
+	delay	7
+	offset	15 40
+	frame	data/chars/ClassicNaruto95/13.gif
+	offset	20 59
+	frame	data/chars/ClassicNaruto95/14.gif
+	offset	20 58
+	frame	data/chars/ClassicNaruto95/15.gif
+	offset	19 55
+	frame	data/chars/ClassicNaruto95/16.gif
+	offset	17 40
+	frame	data/chars/ClassicNaruto95/17.gif
+	offset	18 38
+	frame	data/chars/ClassicNaruto95/18.gif
+		
+anim	10000
+	delay	7
+	offset	46 61
+	frame	data/chars/ClassicNaruto95/203.gif
+	offset	38 61
+	frame	data/chars/ClassicNaruto95/204.gif
+	offset	33 59
+	frame	data/chars/ClassicNaruto95/205.gif
+	offset	30 60
+	frame	data/chars/ClassicNaruto95/206.gif
+	offset	30 60
+	frame	data/chars/ClassicNaruto95/207.gif
+	offset	36 62
+	frame	data/chars/ClassicNaruto95/208.gif
+		
+anim	10010
+	delay	7
+	offset	37 60
+	frame	data/chars/ClassicNaruto95/305.gif
+	offset	28 59
+	frame	data/chars/ClassicNaruto95/306.gif
+	offset	35 51
+	frame	data/chars/ClassicNaruto95/307.gif
+	offset	46 47
+	frame	data/chars/ClassicNaruto95/308.gif
+	offset	37 54
+	frame	data/chars/ClassicNaruto95/309.gif
+	offset	28 55
+	frame	data/chars/ClassicNaruto95/310.gif
+		
+anim	10020
+	delay	7
+	offset	37 58
+	frame	data/chars/ClassicNaruto95/317.gif
+	offset	27 60
+	frame	data/chars/ClassicNaruto95/318.gif
+	offset	35 61
+	frame	data/chars/ClassicNaruto95/319.gif
+	offset	36 59
+	frame	data/chars/ClassicNaruto95/320.gif
+	offset	26 60
+	frame	data/chars/ClassicNaruto95/321.gif
+	offset	35 61
+	frame	data/chars/ClassicNaruto95/322.gif
+		
+anim	10040
+	delay	7
+	offset	35 52
+	frame	data/chars/ClassicNaruto95/283.gif
+	offset	35 58
+	frame	data/chars/ClassicNaruto95/284.gif
+		
+anim	10100
+	delay	7
+	offset	40 42
+	frame	data/chars/ClassicNaruto95/311.gif
+	offset	40 47
+	frame	data/chars/ClassicNaruto95/312.gif
+	offset	49 49
+	frame	data/chars/ClassicNaruto95/313.gif
+	offset	29 60
+	frame	data/chars/ClassicNaruto95/314.gif
+	offset	22 57
+	frame	data/chars/ClassicNaruto95/315.gif
+	offset	29 55
+	frame	data/chars/ClassicNaruto95/316.gif
+		
+anim	10105
+	delay	7
+	offset	33 45
+	frame	data/chars/ClassicNaruto95/285.gif
+	offset	36 58
+	frame	data/chars/ClassicNaruto95/286.gif
+	offset	35 58
+	frame	data/chars/ClassicNaruto95/287.gif
+		
+anim	10180
+	delay	7
+	offset	48 54
+	frame	data/chars/ClassicNaruto95/228.gif
+	offset	38 59
+	frame	data/chars/ClassicNaruto95/229.gif
+	offset	32 62
+	frame	data/chars/ClassicNaruto95/230.gif
+	offset	35 63
+	frame	data/chars/ClassicNaruto95/231.gif
+		
+anim	10200
+	delay	7
+	offset	38 64
+	frame	data/chars/ClassicNaruto95/244.gif
+	offset	43 58
+	frame	data/chars/ClassicNaruto95/245.gif
+	offset	47 64
+	frame	data/chars/ClassicNaruto95/246.gif
+		
+anim	10210
+	delay	7
+	offset	29 61
+	frame	data/chars/ClassicNaruto95/247.gif
+	offset	27 53
+	frame	data/chars/ClassicNaruto95/248.gif
+	offset	34 52
+	frame	data/chars/ClassicNaruto95/249.gif
+		
+anim	10220
+	delay	7
+	offset	36 70
+	frame	data/chars/ClassicNaruto95/209.gif
+	offset	29 67
+	frame	data/chars/ClassicNaruto95/210.gif
+	offset	29 67
+	frame	data/chars/ClassicNaruto95/211.gif
+	offset	37 64
+	frame	data/chars/ClassicNaruto95/212.gif
+	offset	37 64
+	frame	data/chars/ClassicNaruto95/213.gif
+	offset	36 70
+	frame	data/chars/ClassicNaruto95/214.gif
+	offset	36 70
+	frame	data/chars/ClassicNaruto95/215.gif
+	offset	32 51
+	frame	data/chars/ClassicNaruto95/216.gif
+	offset	28 55
+	frame	data/chars/ClassicNaruto95/217.gif
+	offset	45 56
+	frame	data/chars/ClassicNaruto95/218.gif
+	offset	25 53
+	frame	data/chars/ClassicNaruto95/219.gif
+	offset	20 57
+	frame	data/chars/ClassicNaruto95/220.gif
+	offset	22 55
+	frame	data/chars/ClassicNaruto95/221.gif
+	offset	32 58
+	frame	data/chars/ClassicNaruto95/222.gif
+	offset	47 63
+	frame	data/chars/ClassicNaruto95/223.gif
+	offset	40 67
+	frame	data/chars/ClassicNaruto95/224.gif
+	offset	46 57
+	frame	data/chars/ClassicNaruto95/225.gif
+	offset	33 59
+	frame	data/chars/ClassicNaruto95/226.gif
+	offset	43 57
+	frame	data/chars/ClassicNaruto95/227.gif
+		
+anim	10230
+	delay	7
+	offset	32 61
+	frame	data/chars/ClassicNaruto95/272.gif
+	offset	39 63
+	frame	data/chars/ClassicNaruto95/273.gif
+	offset	43 63
+	frame	data/chars/ClassicNaruto95/274.gif
+	offset	56 66
+	frame	data/chars/ClassicNaruto95/275.gif
+		
+anim	10231
+	delay	7
+	offset	40 62
+	frame	data/chars/ClassicNaruto95/268.gif
+	offset	33 60
+	frame	data/chars/ClassicNaruto95/269.gif
+	offset	41 65
+	frame	data/chars/ClassicNaruto95/270.gif
+	offset	40 65
+	frame	data/chars/ClassicNaruto95/271.gif
+		
+anim	10232
+	delay	7
+	offset	24 47
+	frame	data/chars/ClassicNaruto95/258.gif
+	offset	34 47
+	frame	data/chars/ClassicNaruto95/259.gif
+	offset	36 45
+	frame	data/chars/ClassicNaruto95/260.gif
+	offset	25 61
+	frame	data/chars/ClassicNaruto95/261.gif
+	offset	43 57
+	frame	data/chars/ClassicNaruto95/262.gif
+		
+anim	10240
+	delay	7
+	offset	38 65
+	frame	data/chars/ClassicNaruto95/263.gif
+	offset	48 62
+	frame	data/chars/ClassicNaruto95/264.gif
+	offset	42 58
+	frame	data/chars/ClassicNaruto95/265.gif
+	offset	41 62
+	frame	data/chars/ClassicNaruto95/266.gif
+	offset	38 58
+	frame	data/chars/ClassicNaruto95/267.gif
+		
+anim	10241
+	delay	7
+	offset	50 60
+	frame	data/chars/ClassicNaruto95/237.gif
+	offset	39 56
+	frame	data/chars/ClassicNaruto95/238.gif
+	offset	36 57
+	frame	data/chars/ClassicNaruto95/239.gif
+	offset	36 80
+	frame	data/chars/ClassicNaruto95/240.gif
+	offset	26 86
+	frame	data/chars/ClassicNaruto95/241.gif
+	offset	27 77
+	frame	data/chars/ClassicNaruto95/242.gif
+	offset	39 62
+	frame	data/chars/ClassicNaruto95/243.gif
+		
+anim	10630
+	delay	7
+	offset	48 66
+	frame	data/chars/ClassicNaruto95/292.gif
+	offset	50 75
+	frame	data/chars/ClassicNaruto95/293.gif
+	offset	43 73
+	frame	data/chars/ClassicNaruto95/294.gif
+	offset	48 68
+	frame	data/chars/ClassicNaruto95/295.gif
+		
+anim	10640
+	delay	7
+	offset	22 72
+	frame	data/chars/ClassicNaruto95/301.gif
+	offset	30 69
+	frame	data/chars/ClassicNaruto95/302.gif
+	offset	39 65
+	frame	data/chars/ClassicNaruto95/303.gif
+	offset	29 62
+	frame	data/chars/ClassicNaruto95/304.gif
+		
+anim	10641
+	delay	7
+	offset	29 74
+	frame	data/chars/ClassicNaruto95/296.gif
+	offset	44 79
+	frame	data/chars/ClassicNaruto95/297.gif
+	offset	30 75
+	frame	data/chars/ClassicNaruto95/298.gif
+	offset	32 76
+	frame	data/chars/ClassicNaruto95/299.gif
+	offset	33 77
+	frame	data/chars/ClassicNaruto95/300.gif
+		
+anim	10650
+	delay	7
+	offset	36 71
+	frame	data/chars/ClassicNaruto95/250.gif
+	offset	47 74
+	frame	data/chars/ClassicNaruto95/251.gif
+	offset	40 60
+	frame	data/chars/ClassicNaruto95/252.gif
+	offset	24 66
+	frame	data/chars/ClassicNaruto95/253.gif
+	offset	22 61
+	frame	data/chars/ClassicNaruto95/254.gif
+	offset	22 72
+	frame	data/chars/ClassicNaruto95/255.gif
+	offset	29 70
+	frame	data/chars/ClassicNaruto95/256.gif
+	offset	35 51
+	frame	data/chars/ClassicNaruto95/257.gif
+		
+anim	15000
+	delay	7
+	offset	42 58
+	frame	data/chars/ClassicNaruto95/276.gif
+	offset	40 62
+	frame	data/chars/ClassicNaruto95/277.gif
+	offset	15 43
+	frame	data/chars/ClassicNaruto95/278.gif
+	offset	29 50
+	frame	data/chars/ClassicNaruto95/279.gif
+	offset	32 38
+	frame	data/chars/ClassicNaruto95/280.gif
+	offset	34 33
+	frame	data/chars/ClassicNaruto95/281.gif
+		
+anim	15120
+	delay	7
+	offset	12 37
+	frame	data/chars/ClassicNaruto95/170.gif
+	offset	13 39
+	frame	data/chars/ClassicNaruto95/171.gif
+	offset	21 39
+	frame	data/chars/ClassicNaruto95/172.gif
+	offset	27 39
+	frame	data/chars/ClassicNaruto95/173.gif
+	offset	24 42
+	frame	data/chars/ClassicNaruto95/174.gif
+	offset	24 45
+	frame	data/chars/ClassicNaruto95/175.gif
+	offset	25 44
+	frame	data/chars/ClassicNaruto95/176.gif
+	offset	29 50
+	frame	data/chars/ClassicNaruto95/177.gif
+	offset	36 57
+	frame	data/chars/ClassicNaruto95/178.gif
+	offset	45 55
+	frame	data/chars/ClassicNaruto95/179.gif
+	offset	36 59
+	frame	data/chars/ClassicNaruto95/180.gif
+	offset	31 59
+	frame	data/chars/ClassicNaruto95/181.gif
+	offset	30 58
+	frame	data/chars/ClassicNaruto95/182.gif
+	offset	31 54
+	frame	data/chars/ClassicNaruto95/183.gif
+		
+anim	7000
+	delay	7
+	offset	10 9
+	frame	data/chars/ClassicNaruto95/370.gif
+		
+anim	8000
+	delay	7
+	offset	87 80
+	frame	data/chars/ClassicNaruto95/324.gif
+	offset	126 118
+	frame	data/chars/ClassicNaruto95/325.gif
+	offset	188 154
+	frame	data/chars/ClassicNaruto95/326.gif
+	offset	197 162
+	frame	data/chars/ClassicNaruto95/327.gif
+	offset	201 173
+	frame	data/chars/ClassicNaruto95/328.gif
+	offset	200 181
+	frame	data/chars/ClassicNaruto95/329.gif
+	offset	201 181
+	frame	data/chars/ClassicNaruto95/330.gif
+	offset	203 179
+	frame	data/chars/ClassicNaruto95/331.gif
+	offset	203 174
+	frame	data/chars/ClassicNaruto95/332.gif
+	offset	204 83
+	frame	data/chars/ClassicNaruto95/333.gif
+	offset	204 61
+	frame	data/chars/ClassicNaruto95/334.gif
+	offset	203 60
+	frame	data/chars/ClassicNaruto95/335.gif
+	offset	202 58
+	frame	data/chars/ClassicNaruto95/336.gif
+	offset	192 53
+	frame	data/chars/ClassicNaruto95/337.gif
+	offset	177 36
+	frame	data/chars/ClassicNaruto95/338.gif
+		
+anim	8005
+	delay	7
+	offset	20 20
+	frame	data/chars/ClassicNaruto95/363.gif
+	offset	23 26
+	frame	data/chars/ClassicNaruto95/364.gif
+	offset	27 27
+	frame	data/chars/ClassicNaruto95/365.gif
+	offset	34 28
+	frame	data/chars/ClassicNaruto95/366.gif
+	offset	39 30
+	frame	data/chars/ClassicNaruto95/367.gif
+	offset	42 33
+	frame	data/chars/ClassicNaruto95/368.gif
+	offset	48 34
+	frame	data/chars/ClassicNaruto95/369.gif
+		
+anim	8010
+	delay	7
+	offset	16 1
+	frame	data/chars/ClassicNaruto95/339.gif
+	offset	24 1
+	frame	data/chars/ClassicNaruto95/340.gif
+	offset	36 1
+	frame	data/chars/ClassicNaruto95/341.gif
+	offset	36 1
+	frame	data/chars/ClassicNaruto95/342.gif
+	offset	45 12
+	frame	data/chars/ClassicNaruto95/343.gif
+	offset	46 15
+	frame	data/chars/ClassicNaruto95/344.gif
+	offset	56 21
+	frame	data/chars/ClassicNaruto95/345.gif
+	offset	56 23
+	frame	data/chars/ClassicNaruto95/346.gif
+	offset	56 26
+	frame	data/chars/ClassicNaruto95/347.gif
+	offset	56 28
+	frame	data/chars/ClassicNaruto95/348.gif
+	offset	53 31
+	frame	data/chars/ClassicNaruto95/349.gif
+	offset	53 38
+	frame	data/chars/ClassicNaruto95/350.gif
+	offset	52 41
+	frame	data/chars/ClassicNaruto95/351.gif
+	offset	50 41
+	frame	data/chars/ClassicNaruto95/352.gif
+	offset	49 41
+	frame	data/chars/ClassicNaruto95/353.gif
+	offset	35 4
+	frame	data/chars/ClassicNaruto95/354.gif
+	offset	35 4
+	frame	data/chars/ClassicNaruto95/355.gif
+	offset	35 4
+	frame	data/chars/ClassicNaruto95/356.gif
+	offset	43 5
+	frame	data/chars/ClassicNaruto95/357.gif
+	offset	53 6
+	frame	data/chars/ClassicNaruto95/358.gif
+	offset	59 7
+	frame	data/chars/ClassicNaruto95/359.gif
+	offset	65 8
+	frame	data/chars/ClassicNaruto95/360.gif
+	offset	54 8
+	frame	data/chars/ClassicNaruto95/361.gif
+	offset	60 8
+	frame	data/chars/ClassicNaruto95/362.gif
+		
+anim	8015
+	delay	7
+	offset	31 7
+	frame	data/chars/ClassicNaruto95/371.gif
+	offset	44 7
+	frame	data/chars/ClassicNaruto95/372.gif
+	offset	60 37
+	frame	data/chars/ClassicNaruto95/373.gif
+	offset	66 61
+	frame	data/chars/ClassicNaruto95/374.gif
+	offset	74 85
+	frame	data/chars/ClassicNaruto95/375.gif
+	offset	82 97
+	frame	data/chars/ClassicNaruto95/376.gif
+	offset	89 97
+	frame	data/chars/ClassicNaruto95/377.gif
+	offset	91 97
+	frame	data/chars/ClassicNaruto95/378.gif
+	offset	90 97
+	frame	data/chars/ClassicNaruto95/379.gif
+	offset	89 97
+	frame	data/chars/ClassicNaruto95/380.gif
+	offset	91 91
+	frame	data/chars/ClassicNaruto95/381.gif
+	offset	90 104
+	frame	data/chars/ClassicNaruto95/382.gif
+	offset	89 119
+	frame	data/chars/ClassicNaruto95/383.gif
+	offset	91 137
+	frame	data/chars/ClassicNaruto95/384.gif
+	offset	90 134
+	frame	data/chars/ClassicNaruto95/385.gif
+	offset	66 120
+	frame	data/chars/ClassicNaruto95/386.gif
+	offset	69 136
+	frame	data/chars/ClassicNaruto95/387.gif
+	offset	72 133
+	frame	data/chars/ClassicNaruto95/388.gif
+	offset	76 118
+	frame	data/chars/ClassicNaruto95/389.gif
+	offset	79 131
+	frame	data/chars/ClassicNaruto95/390.gif
+	offset	78 129
+	frame	data/chars/ClassicNaruto95/391.gif
+	offset	22 96
+	frame	data/chars/ClassicNaruto95/392.gif
+	offset	23 111
+	frame	data/chars/ClassicNaruto95/393.gif
+	offset	24 124
+	frame	data/chars/ClassicNaruto95/394.gif
+		
+anim	8016
+	delay	7
+	offset	25 23
+	frame	data/chars/ClassicNaruto95/466.gif
+	offset	36 24
+	frame	data/chars/ClassicNaruto95/467.gif
+	offset	46 27
+	frame	data/chars/ClassicNaruto95/468.gif
+	offset	57 30
+	frame	data/chars/ClassicNaruto95/469.gif
+	offset	68 35
+	frame	data/chars/ClassicNaruto95/470.gif
+	offset	80 39
+	frame	data/chars/ClassicNaruto95/471.gif
+	offset	90 44
+	frame	data/chars/ClassicNaruto95/472.gif
+	offset	32 42
+	frame	data/chars/ClassicNaruto95/473.gif
+	offset	33 43
+	frame	data/chars/ClassicNaruto95/474.gif
+	offset	34 45
+	frame	data/chars/ClassicNaruto95/475.gif
+	offset	36 46
+	frame	data/chars/ClassicNaruto95/476.gif
+	offset	35 46
+	frame	data/chars/ClassicNaruto95/477.gif
+		
+anim	8017
+	delay	7
+	offset	24 24
+	frame	data/chars/ClassicNaruto95/478.gif
+	offset	25 35
+	frame	data/chars/ClassicNaruto95/479.gif
+	offset	27 45
+	frame	data/chars/ClassicNaruto95/480.gif
+	offset	31 56
+	frame	data/chars/ClassicNaruto95/481.gif
+	offset	35 67
+	frame	data/chars/ClassicNaruto95/482.gif
+	offset	39 79
+	frame	data/chars/ClassicNaruto95/483.gif
+	offset	44 89
+	frame	data/chars/ClassicNaruto95/484.gif
+	offset	54 31
+	frame	data/chars/ClassicNaruto95/485.gif
+	offset	55 32
+	frame	data/chars/ClassicNaruto95/486.gif
+	offset	57 33
+	frame	data/chars/ClassicNaruto95/487.gif
+	offset	58 35
+	frame	data/chars/ClassicNaruto95/488.gif
+	offset	58 34
+	frame	data/chars/ClassicNaruto95/489.gif
+		
+anim	8018
+	delay	7
+	offset	12 19
+	frame	data/chars/ClassicNaruto95/490.gif
+	offset	15 24
+	frame	data/chars/ClassicNaruto95/491.gif
+	offset	46 46
+	frame	data/chars/ClassicNaruto95/492.gif
+	offset	51 53
+	frame	data/chars/ClassicNaruto95/493.gif
+	offset	57 59
+	frame	data/chars/ClassicNaruto95/494.gif
+	offset	62 63
+	frame	data/chars/ClassicNaruto95/495.gif
+	offset	67 67
+	frame	data/chars/ClassicNaruto95/496.gif
+	offset	70 69
+	frame	data/chars/ClassicNaruto95/497.gif
+	offset	74 80
+	frame	data/chars/ClassicNaruto95/498.gif
+	offset	76 84
+	frame	data/chars/ClassicNaruto95/499.gif
+	offset	77 90
+	frame	data/chars/ClassicNaruto95/500.gif
+	offset	78 97
+	frame	data/chars/ClassicNaruto95/501.gif
+	offset	81 102
+	frame	data/chars/ClassicNaruto95/502.gif
+	offset	84 105
+	frame	data/chars/ClassicNaruto95/503.gif
+	offset	86 106
+	frame	data/chars/ClassicNaruto95/504.gif
+	offset	88 108
+	frame	data/chars/ClassicNaruto95/505.gif
+	offset	88 109
+	frame	data/chars/ClassicNaruto95/506.gif
+	offset	89 109
+	frame	data/chars/ClassicNaruto95/507.gif
+	offset	92 111
+	frame	data/chars/ClassicNaruto95/508.gif
+	offset	95 117
+	frame	data/chars/ClassicNaruto95/509.gif
+	offset	102 120
+	frame	data/chars/ClassicNaruto95/510.gif
+	offset	107 120
+	frame	data/chars/ClassicNaruto95/511.gif
+	offset	110 120
+	frame	data/chars/ClassicNaruto95/512.gif
+	offset	114 120
+	frame	data/chars/ClassicNaruto95/513.gif
+	offset	117 120
+	frame	data/chars/ClassicNaruto95/514.gif
+	offset	118 120
+	frame	data/chars/ClassicNaruto95/515.gif
+	offset	119 120
+	frame	data/chars/ClassicNaruto95/516.gif
+	offset	121 120
+	frame	data/chars/ClassicNaruto95/517.gif
+	offset	122 120
+	frame	data/chars/ClassicNaruto95/518.gif
+	offset	124 120
+	frame	data/chars/ClassicNaruto95/519.gif
+	offset	125 120
+	frame	data/chars/ClassicNaruto95/520.gif
+	offset	126 120
+	frame	data/chars/ClassicNaruto95/521.gif
+		
+anim	8019
+	delay	7
+	offset	6 4
+	frame	data/chars/ClassicNaruto95/522.gif
+	offset	6 4
+	frame	data/chars/ClassicNaruto95/523.gif
+	offset	6 4
+	frame	data/chars/ClassicNaruto95/524.gif
+	offset	6 3
+	frame	data/chars/ClassicNaruto95/525.gif
+		
+anim	8020
+	delay	7
+	offset	29 34
+	frame	data/chars/ClassicNaruto95/395.gif
+	offset	39 41
+	frame	data/chars/ClassicNaruto95/396.gif
+	offset	45 46
+	frame	data/chars/ClassicNaruto95/397.gif
+	offset	52 51
+	frame	data/chars/ClassicNaruto95/398.gif
+	offset	58 55
+	frame	data/chars/ClassicNaruto95/399.gif
+	offset	63 59
+	frame	data/chars/ClassicNaruto95/400.gif
+	offset	66 62
+	frame	data/chars/ClassicNaruto95/401.gif
+	offset	71 65
+	frame	data/chars/ClassicNaruto95/402.gif
+	offset	76 69
+	frame	data/chars/ClassicNaruto95/403.gif
+	offset	82 70
+	frame	data/chars/ClassicNaruto95/404.gif
+	offset	87 73
+	frame	data/chars/ClassicNaruto95/405.gif
+	offset	92 77
+	frame	data/chars/ClassicNaruto95/406.gif
+	offset	95 78
+	frame	data/chars/ClassicNaruto95/407.gif
+	offset	98 82
+	frame	data/chars/ClassicNaruto95/408.gif
+	offset	101 86
+	frame	data/chars/ClassicNaruto95/409.gif
+	offset	104 89
+	frame	data/chars/ClassicNaruto95/410.gif
+	offset	107 90
+	frame	data/chars/ClassicNaruto95/411.gif
+	offset	110 93
+	frame	data/chars/ClassicNaruto95/412.gif
+	offset	114 95
+	frame	data/chars/ClassicNaruto95/413.gif
+	offset	116 98
+	frame	data/chars/ClassicNaruto95/414.gif
+	offset	117 98
+	frame	data/chars/ClassicNaruto95/415.gif
+	offset	115 77
+	frame	data/chars/ClassicNaruto95/416.gif
+		
+anim	8021
+	delay	7
+	offset	242 202
+	frame	data/chars/ClassicNaruto95/417.gif
+	offset	242 202
+	frame	data/chars/ClassicNaruto95/418.gif
+	offset	243 202
+	frame	data/chars/ClassicNaruto95/419.gif
+	offset	242 202
+	frame	data/chars/ClassicNaruto95/420.gif
+	offset	242 202
+	frame	data/chars/ClassicNaruto95/421.gif
+	offset	242 202
+	frame	data/chars/ClassicNaruto95/422.gif
+	offset	242 202
+	frame	data/chars/ClassicNaruto95/423.gif
+	offset	240 202
+	frame	data/chars/ClassicNaruto95/424.gif
+	offset	240 202
+	frame	data/chars/ClassicNaruto95/425.gif
+	offset	240 202
+	frame	data/chars/ClassicNaruto95/426.gif
+	offset	239 202
+	frame	data/chars/ClassicNaruto95/427.gif
+	offset	239 202
+	frame	data/chars/ClassicNaruto95/428.gif
+	offset	239 202
+	frame	data/chars/ClassicNaruto95/429.gif
+	offset	240 202
+	frame	data/chars/ClassicNaruto95/430.gif
+	offset	241 202
+	frame	data/chars/ClassicNaruto95/431.gif
+	offset	242 202
+	frame	data/chars/ClassicNaruto95/432.gif
+	offset	239 202
+	frame	data/chars/ClassicNaruto95/433.gif
+	offset	239 202
+	frame	data/chars/ClassicNaruto95/434.gif
+	offset	239 202
+	frame	data/chars/ClassicNaruto95/435.gif
+	offset	240 202
+	frame	data/chars/ClassicNaruto95/436.gif
+	offset	242 202
+	frame	data/chars/ClassicNaruto95/437.gif
+	offset	245 202
+	frame	data/chars/ClassicNaruto95/438.gif
+	offset	240 202
+	frame	data/chars/ClassicNaruto95/439.gif
+	offset	242 202
+	frame	data/chars/ClassicNaruto95/440.gif
+	offset	243 202
+	frame	data/chars/ClassicNaruto95/441.gif
+	offset	245 202
+	frame	data/chars/ClassicNaruto95/442.gif
+	offset	245 202
+	frame	data/chars/ClassicNaruto95/443.gif
+	offset	247 202
+	frame	data/chars/ClassicNaruto95/444.gif
+	offset	247 202
+	frame	data/chars/ClassicNaruto95/445.gif
+	offset	248 202
+	frame	data/chars/ClassicNaruto95/446.gif
+		
+anim	8022
+	delay	7
+	offset	39 52
+	frame	data/chars/ClassicNaruto95/447.gif
+	offset	48 65
+	frame	data/chars/ClassicNaruto95/448.gif
+	offset	51 77
+	frame	data/chars/ClassicNaruto95/449.gif
+	offset	53 82
+	frame	data/chars/ClassicNaruto95/450.gif
+	offset	55 85
+	frame	data/chars/ClassicNaruto95/451.gif
+	offset	55 83
+	frame	data/chars/ClassicNaruto95/452.gif
+	offset	56 85
+	frame	data/chars/ClassicNaruto95/453.gif
+	offset	56 87
+	frame	data/chars/ClassicNaruto95/454.gif
+	offset	56 85
+	frame	data/chars/ClassicNaruto95/455.gif
+	offset	66 80
+	frame	data/chars/ClassicNaruto95/456.gif
+	offset	56 82
+	frame	data/chars/ClassicNaruto95/457.gif
+	offset	14 82
+	frame	data/chars/ClassicNaruto95/458.gif
+	offset	8 80
+	frame	data/chars/ClassicNaruto95/459.gif
+	offset	7 57
+	frame	data/chars/ClassicNaruto95/460.gif
+	offset	6 57
+	frame	data/chars/ClassicNaruto95/461.gif
+		
+anim	8023
+	delay	7
+	offset	1 2
+	frame	data/chars/ClassicNaruto95/464.gif
+	offset	7 8
+	frame	data/chars/ClassicNaruto95/465.gif
+		
+anim	8024
+	delay	7
+	offset	45 43
+	frame	data/chars/ClassicNaruto95/526.gif
+	offset	43 45
+	frame	data/chars/ClassicNaruto95/527.gif
+	offset	45 43
+	frame	data/chars/ClassicNaruto95/528.gif
+	offset	43 45
+	frame	data/chars/ClassicNaruto95/529.gif
+		
+anim	8025
+	delay	7
+	offset	29 29
+	frame	data/chars/ClassicNaruto95/530.gif
+	offset	30 31
+	frame	data/chars/ClassicNaruto95/531.gif
+	offset	32 33
+	frame	data/chars/ClassicNaruto95/532.gif
+	offset	34 34
+	frame	data/chars/ClassicNaruto95/533.gif
+	offset	36 36
+	frame	data/chars/ClassicNaruto95/534.gif
+	offset	37 37
+	frame	data/chars/ClassicNaruto95/535.gif
+	offset	38 38
+	frame	data/chars/ClassicNaruto95/536.gif
+	offset	38 39
+	frame	data/chars/ClassicNaruto95/537.gif
+	offset	39 39
+	frame	data/chars/ClassicNaruto95/538.gif
+	offset	40 40
+	frame	data/chars/ClassicNaruto95/539.gif
+	offset	40 39
+	frame	data/chars/ClassicNaruto95/540.gif
+	offset	40 39
+	frame	data/chars/ClassicNaruto95/541.gif
+	offset	39 38
+	frame	data/chars/ClassicNaruto95/542.gif
+	offset	38 37
+	frame	data/chars/ClassicNaruto95/543.gif
+	offset	37 34
+	frame	data/chars/ClassicNaruto95/544.gif
+		
+anim	8026
+	delay	7
+	offset	28 64
+	frame	data/chars/ClassicNaruto95/545.gif
+	offset	29 64
+	frame	data/chars/ClassicNaruto95/546.gif
+	offset	33 65
+	frame	data/chars/ClassicNaruto95/547.gif
+	offset	38 64
+	frame	data/chars/ClassicNaruto95/548.gif
+	offset	44 64
+	frame	data/chars/ClassicNaruto95/549.gif
+		
+anim	8027
+	delay	7
+	offset	50 19
+	frame	data/chars/ClassicNaruto95/550.gif
+	offset	70 46
+	frame	data/chars/ClassicNaruto95/551.gif
+	offset	74 53
+	frame	data/chars/ClassicNaruto95/552.gif
+	offset	78 57
+	frame	data/chars/ClassicNaruto95/553.gif
+	offset	78 59
+	frame	data/chars/ClassicNaruto95/554.gif
+	offset	80 55
+	frame	data/chars/ClassicNaruto95/555.gif
+	offset	80 62
+	frame	data/chars/ClassicNaruto95/556.gif
+	offset	81 16
+	frame	data/chars/ClassicNaruto95/557.gif
+	offset	72 17
+	frame	data/chars/ClassicNaruto95/558.gif
+	offset	75 16
+	frame	data/chars/ClassicNaruto95/559.gif
+	offset	77 14
+	frame	data/chars/ClassicNaruto95/560.gif
+	offset	78 12
+	frame	data/chars/ClassicNaruto95/561.gif
+	offset	78 6
+	frame	data/chars/ClassicNaruto95/562.gif
+	offset	6 2
+	frame	data/chars/ClassicNaruto95/563.gif
+	offset	128 214
+	frame	data/chars/ClassicNaruto95/564.gif
+		
+anim	8028
+	delay	7
+	offset	60 52
+	frame	data/chars/ClassicNaruto95/565.gif
+	offset	78 80
+	frame	data/chars/ClassicNaruto95/566.gif
+	offset	82 130
+	frame	data/chars/ClassicNaruto95/567.gif
+	offset	86 162
+	frame	data/chars/ClassicNaruto95/568.gif
+	offset	88 168
+	frame	data/chars/ClassicNaruto95/569.gif
+	offset	94 172
+	frame	data/chars/ClassicNaruto95/570.gif
+	offset	98 174
+	frame	data/chars/ClassicNaruto95/571.gif
+	offset	102 174
+	frame	data/chars/ClassicNaruto95/572.gif
+	offset	104 174
+	frame	data/chars/ClassicNaruto95/573.gif
+	offset	102 176
+	frame	data/chars/ClassicNaruto95/574.gif
+	offset	92 172
+	frame	data/chars/ClassicNaruto95/575.gif
+	offset	66 166
+	frame	data/chars/ClassicNaruto95/576.gif
+	offset	64 164
+	frame	data/chars/ClassicNaruto95/577.gif
+	offset	66 158
+	frame	data/chars/ClassicNaruto95/578.gif
+	offset	64 152
+	frame	data/chars/ClassicNaruto95/579.gif
+		
+anim	8029
+	delay	7
+	offset	8 15
+	frame	data/chars/ClassicNaruto95/580.gif
+	offset	9 35
+	frame	data/chars/ClassicNaruto95/581.gif
+	offset	10 38
+	frame	data/chars/ClassicNaruto95/582.gif
+	offset	12 45
+	frame	data/chars/ClassicNaruto95/583.gif
+	offset	13 45
+	frame	data/chars/ClassicNaruto95/584.gif
+	offset	13 46
+	frame	data/chars/ClassicNaruto95/585.gif
+	offset	13 43
+	frame	data/chars/ClassicNaruto95/586.gif
+	offset	11 44
+	frame	data/chars/ClassicNaruto95/587.gif
+	offset	10 46
+	frame	data/chars/ClassicNaruto95/588.gif
+	offset	10 33
+	frame	data/chars/ClassicNaruto95/589.gif
+	offset	9 30
+	frame	data/chars/ClassicNaruto95/590.gif
+		
+anim	8030
+	delay	7
+	offset	21 20
+	frame	data/chars/ClassicNaruto95/591.gif
+	offset	23 20
+	frame	data/chars/ClassicNaruto95/592.gif
+	offset	23 20
+	frame	data/chars/ClassicNaruto95/593.gif
+	offset	26 20
+	frame	data/chars/ClassicNaruto95/594.gif
+	offset	38 29
+	frame	data/chars/ClassicNaruto95/595.gif
+	offset	50 44
+	frame	data/chars/ClassicNaruto95/596.gif
+	offset	52 57
+	frame	data/chars/ClassicNaruto95/597.gif
+	offset	46 67
+	frame	data/chars/ClassicNaruto95/598.gif
+	offset	54 64
+	frame	data/chars/ClassicNaruto95/599.gif
+	offset	61 59
+	frame	data/chars/ClassicNaruto95/600.gif
+	offset	61 59
+	frame	data/chars/ClassicNaruto95/601.gif
+	offset	60 62
+	frame	data/chars/ClassicNaruto95/602.gif
+	offset	62 76
+	frame	data/chars/ClassicNaruto95/603.gif
+	offset	60 81
+	frame	data/chars/ClassicNaruto95/604.gif
+	offset	66 79
+	frame	data/chars/ClassicNaruto95/605.gif
+	offset	84 66
+	frame	data/chars/ClassicNaruto95/606.gif
+	offset	91 56
+	frame	data/chars/ClassicNaruto95/607.gif
+	offset	91 66
+	frame	data/chars/ClassicNaruto95/608.gif
+	offset	76 72
+	frame	data/chars/ClassicNaruto95/609.gif
+	offset	58 73
+	frame	data/chars/ClassicNaruto95/610.gif
+	offset	59 64
+	frame	data/chars/ClassicNaruto95/611.gif
+	offset	60 59
+	frame	data/chars/ClassicNaruto95/612.gif
+	offset	63 59
+	frame	data/chars/ClassicNaruto95/613.gif
+	offset	60 66
+	frame	data/chars/ClassicNaruto95/614.gif
+	offset	62 81
+	frame	data/chars/ClassicNaruto95/615.gif
+	offset	60 88
+	frame	data/chars/ClassicNaruto95/616.gif
+	offset	64 86
+	frame	data/chars/ClassicNaruto95/617.gif
+	offset	78 73
+	frame	data/chars/ClassicNaruto95/618.gif
+	offset	83 59
+	frame	data/chars/ClassicNaruto95/619.gif
+	offset	79 59
+	frame	data/chars/ClassicNaruto95/620.gif
+	offset	62 62
+	frame	data/chars/ClassicNaruto95/621.gif
+	offset	63 58
+	frame	data/chars/ClassicNaruto95/622.gif
+	offset	76 59
+	frame	data/chars/ClassicNaruto95/623.gif
+	offset	81 59
+	frame	data/chars/ClassicNaruto95/624.gif
+	offset	81 80
+	frame	data/chars/ClassicNaruto95/625.gif
+	offset	88 87
+	frame	data/chars/ClassicNaruto95/626.gif
+	offset	117 97
+	frame	data/chars/ClassicNaruto95/627.gif
+	offset	99 94
+	frame	data/chars/ClassicNaruto95/628.gif
+	offset	81 97
+	frame	data/chars/ClassicNaruto95/629.gif
+	offset	75 97
+	frame	data/chars/ClassicNaruto95/630.gif
+	offset	76 93
+	frame	data/chars/ClassicNaruto95/631.gif
+	offset	76 93
+	frame	data/chars/ClassicNaruto95/632.gif
+	offset	78 92
+	frame	data/chars/ClassicNaruto95/633.gif
+	offset	78 89
+	frame	data/chars/ClassicNaruto95/634.gif
+	offset	81 81
+	frame	data/chars/ClassicNaruto95/635.gif
+	offset	84 79
+	frame	data/chars/ClassicNaruto95/636.gif
+	offset	86 75
+	frame	data/chars/ClassicNaruto95/637.gif
+	offset	85 73
+	frame	data/chars/ClassicNaruto95/638.gif
+	offset	86 73
+	frame	data/chars/ClassicNaruto95/639.gif
+	offset	86 76
+	frame	data/chars/ClassicNaruto95/640.gif
+	offset	85 78
+	frame	data/chars/ClassicNaruto95/641.gif
+	offset	85 80
+	frame	data/chars/ClassicNaruto95/642.gif
+	offset	85 81
+	frame	data/chars/ClassicNaruto95/643.gif
+	offset	84 82
+	frame	data/chars/ClassicNaruto95/644.gif
+	offset	83 75
+	frame	data/chars/ClassicNaruto95/645.gif
+	offset	80 72
+	frame	data/chars/ClassicNaruto95/646.gif
+	offset	73 72
+	frame	data/chars/ClassicNaruto95/647.gif
+	offset	12 56
+	frame	data/chars/ClassicNaruto95/648.gif
+	offset	12 56
+	frame	data/chars/ClassicNaruto95/649.gif
+		
+anim	8031
+	delay	7
+	offset	141 162
+	frame	data/chars/ClassicNaruto95/650.gif
+	offset	275 309
+	frame	data/chars/ClassicNaruto95/651.gif
+		
+anim	8032
+	delay	7
+	offset	57 120
+	frame	data/chars/ClassicNaruto95/652.gif
+	offset	66 125
+	frame	data/chars/ClassicNaruto95/653.gif
+	offset	65 126
+	frame	data/chars/ClassicNaruto95/654.gif
+	offset	66 128
+	frame	data/chars/ClassicNaruto95/655.gif
+	offset	69 127
+	frame	data/chars/ClassicNaruto95/656.gif
+	offset	74 125
+	frame	data/chars/ClassicNaruto95/657.gif
+	offset	77 125
+	frame	data/chars/ClassicNaruto95/658.gif
+	offset	81 123
+	frame	data/chars/ClassicNaruto95/659.gif
+	offset	83 125
+	frame	data/chars/ClassicNaruto95/660.gif
+	offset	86 126
+	frame	data/chars/ClassicNaruto95/661.gif
+	offset	87 124
+	frame	data/chars/ClassicNaruto95/662.gif
+	offset	87 125
+	frame	data/chars/ClassicNaruto95/663.gif
+	offset	87 125
+	frame	data/chars/ClassicNaruto95/664.gif
+	offset	87 125
+	frame	data/chars/ClassicNaruto95/665.gif
+	offset	85 125
+	frame	data/chars/ClassicNaruto95/666.gif
+	offset	87 125
+	frame	data/chars/ClassicNaruto95/667.gif
+	offset	87 126
+	frame	data/chars/ClassicNaruto95/668.gif
+	offset	87 127
+	frame	data/chars/ClassicNaruto95/669.gif
+	offset	87 127
+	frame	data/chars/ClassicNaruto95/670.gif
+	offset	87 126
+	frame	data/chars/ClassicNaruto95/671.gif
+	offset	85 125
+	frame	data/chars/ClassicNaruto95/672.gif
+	offset	85 125
+	frame	data/chars/ClassicNaruto95/673.gif
+	offset	85 125
+	frame	data/chars/ClassicNaruto95/674.gif
+	offset	85 125
+	frame	data/chars/ClassicNaruto95/675.gif
+	offset	85 125
+	frame	data/chars/ClassicNaruto95/676.gif
+	offset	86 125
+	frame	data/chars/ClassicNaruto95/677.gif
+	offset	87 125
+	frame	data/chars/ClassicNaruto95/678.gif
+	offset	87 125
+	frame	data/chars/ClassicNaruto95/679.gif
+	offset	89 125
+	frame	data/chars/ClassicNaruto95/680.gif
+	offset	90 126
+	frame	data/chars/ClassicNaruto95/681.gif
+	offset	91 127
+	frame	data/chars/ClassicNaruto95/682.gif
+	offset	91 127
+	frame	data/chars/ClassicNaruto95/683.gif
+	offset	90 127
+	frame	data/chars/ClassicNaruto95/684.gif
+	offset	92 126
+	frame	data/chars/ClassicNaruto95/685.gif
+	offset	92 125
+	frame	data/chars/ClassicNaruto95/686.gif
+	offset	93 126
+	frame	data/chars/ClassicNaruto95/687.gif
+	offset	94 126
+	frame	data/chars/ClassicNaruto95/688.gif
+	offset	95 126
+	frame	data/chars/ClassicNaruto95/689.gif
+	offset	96 125
+	frame	data/chars/ClassicNaruto95/690.gif
+	offset	97 123
+	frame	data/chars/ClassicNaruto95/691.gif
+		
+anim	8033
+	delay	7
+	offset	46 22
+	frame	data/chars/ClassicNaruto95/692.gif
+	offset	62 35
+	frame	data/chars/ClassicNaruto95/693.gif
+	offset	72 42
+	frame	data/chars/ClassicNaruto95/694.gif
+	offset	79 47
+	frame	data/chars/ClassicNaruto95/695.gif
+	offset	87 49
+	frame	data/chars/ClassicNaruto95/696.gif
+	offset	89 48
+	frame	data/chars/ClassicNaruto95/697.gif
+	offset	91 47
+	frame	data/chars/ClassicNaruto95/698.gif
+	offset	80 52
+	frame	data/chars/ClassicNaruto95/699.gif
+	offset	84 53
+	frame	data/chars/ClassicNaruto95/700.gif
+	offset	81 42
+	frame	data/chars/ClassicNaruto95/701.gif
+	offset	80 32
+	frame	data/chars/ClassicNaruto95/702.gif
+	offset	81 32
+	frame	data/chars/ClassicNaruto95/703.gif
+		
+anim	8034
+	delay	7
+	offset	95 91
+	frame	data/chars/ClassicNaruto95/704.gif
+	offset	111 127
+	frame	data/chars/ClassicNaruto95/705.gif
+	offset	118 133
+	frame	data/chars/ClassicNaruto95/706.gif
+	offset	123 139
+	frame	data/chars/ClassicNaruto95/707.gif
+	offset	128 143
+	frame	data/chars/ClassicNaruto95/708.gif
+	offset	120 138
+	frame	data/chars/ClassicNaruto95/709.gif
+	offset	124 142
+	frame	data/chars/ClassicNaruto95/710.gif
+	offset	127 145
+	frame	data/chars/ClassicNaruto95/711.gif
+	offset	131 149
+	frame	data/chars/ClassicNaruto95/712.gif
+	offset	136 153
+	frame	data/chars/ClassicNaruto95/713.gif
+	offset	141 156
+	frame	data/chars/ClassicNaruto95/714.gif
+	offset	146 159
+	frame	data/chars/ClassicNaruto95/715.gif
+	offset	150 163
+	frame	data/chars/ClassicNaruto95/716.gif
+	offset	154 167
+	frame	data/chars/ClassicNaruto95/717.gif
+	offset	158 170
+	frame	data/chars/ClassicNaruto95/718.gif
+	offset	162 173
+	frame	data/chars/ClassicNaruto95/719.gif
+	offset	166 176
+	frame	data/chars/ClassicNaruto95/720.gif
+	offset	170 179
+	frame	data/chars/ClassicNaruto95/721.gif
+	offset	173 182
+	frame	data/chars/ClassicNaruto95/722.gif
+	offset	177 185
+	frame	data/chars/ClassicNaruto95/723.gif
+	offset	180 188
+	frame	data/chars/ClassicNaruto95/724.gif
+	offset	183 190
+	frame	data/chars/ClassicNaruto95/725.gif
+	offset	185 192
+	frame	data/chars/ClassicNaruto95/726.gif
+	offset	185 194
+	frame	data/chars/ClassicNaruto95/727.gif
+	offset	188 194
+	frame	data/chars/ClassicNaruto95/728.gif
+	offset	190 195
+	frame	data/chars/ClassicNaruto95/729.gif
+	offset	190 195
+	frame	data/chars/ClassicNaruto95/730.gif
+	offset	191 197
+	frame	data/chars/ClassicNaruto95/731.gif
+	offset	192 200
+	frame	data/chars/ClassicNaruto95/732.gif
+	offset	190 202
+	frame	data/chars/ClassicNaruto95/733.gif
+	offset	188 202
+	frame	data/chars/ClassicNaruto95/734.gif
+	offset	188 204
+	frame	data/chars/ClassicNaruto95/735.gif
+	offset	188 203
+	frame	data/chars/ClassicNaruto95/736.gif
+	offset	185 203
+	frame	data/chars/ClassicNaruto95/737.gif
+	offset	183 205
+	frame	data/chars/ClassicNaruto95/738.gif
+	offset	184 205
+	frame	data/chars/ClassicNaruto95/739.gif
+	offset	187 205
+	frame	data/chars/ClassicNaruto95/740.gif
+	offset	190 206
+	frame	data/chars/ClassicNaruto95/741.gif
+	offset	190 204
+	frame	data/chars/ClassicNaruto95/742.gif
+	offset	191 202
+	frame	data/chars/ClassicNaruto95/743.gif
+	offset	188 199
+	frame	data/chars/ClassicNaruto95/744.gif
+	offset	185 192
+	frame	data/chars/ClassicNaruto95/745.gif
+	offset	185 187
+	frame	data/chars/ClassicNaruto95/746.gif
+	offset	181 185
+	frame	data/chars/ClassicNaruto95/747.gif
+	offset	179 182
+	frame	data/chars/ClassicNaruto95/748.gif
+	offset	226 224
+	frame	data/chars/ClassicNaruto95/749.gif
+	offset	226 209
+	frame	data/chars/ClassicNaruto95/750.gif
+	offset	222 197
+	frame	data/chars/ClassicNaruto95/751.gif
+	offset	201 187
+	frame	data/chars/ClassicNaruto95/752.gif
+		
+anim	8035
+	delay	7
+	offset	81 82
+	frame	data/chars/ClassicNaruto95/753.gif
+	offset	87 90
+	frame	data/chars/ClassicNaruto95/754.gif
+	offset	90 93
+	frame	data/chars/ClassicNaruto95/755.gif
+	offset	86 87
+	frame	data/chars/ClassicNaruto95/756.gif
+	offset	88 86
+	frame	data/chars/ClassicNaruto95/757.gif
+	offset	95 96
+	frame	data/chars/ClassicNaruto95/758.gif
+	offset	90 99
+	frame	data/chars/ClassicNaruto95/759.gif
+	offset	90 98
+	frame	data/chars/ClassicNaruto95/760.gif
+	offset	96 98
+	frame	data/chars/ClassicNaruto95/761.gif
+	offset	93 98
+	frame	data/chars/ClassicNaruto95/762.gif
+	offset	90 100
+	frame	data/chars/ClassicNaruto95/763.gif
+	offset	70 61
+	frame	data/chars/ClassicNaruto95/764.gif
+		
+anim	8036
+	delay	7
+	offset	122 75
+	frame	data/chars/ClassicNaruto95/765.gif
+	offset	119 75
+	frame	data/chars/ClassicNaruto95/766.gif
+	offset	113 75
+	frame	data/chars/ClassicNaruto95/767.gif
+	offset	109 78
+	frame	data/chars/ClassicNaruto95/768.gif
+	offset	104 85
+	frame	data/chars/ClassicNaruto95/769.gif
+	offset	103 94
+	frame	data/chars/ClassicNaruto95/770.gif
+	offset	104 96
+	frame	data/chars/ClassicNaruto95/771.gif
+	offset	102 104
+	frame	data/chars/ClassicNaruto95/772.gif
+	offset	108 108
+	frame	data/chars/ClassicNaruto95/773.gif
+	offset	111 112
+	frame	data/chars/ClassicNaruto95/774.gif
+	offset	122 76
+	frame	data/chars/ClassicNaruto95/775.gif
+	offset	119 73
+	frame	data/chars/ClassicNaruto95/776.gif
+	offset	113 73
+	frame	data/chars/ClassicNaruto95/777.gif
+	offset	109 77
+	frame	data/chars/ClassicNaruto95/778.gif
+	offset	103 79
+	frame	data/chars/ClassicNaruto95/779.gif
+	offset	103 82
+	frame	data/chars/ClassicNaruto95/780.gif
+	offset	105 84
+	frame	data/chars/ClassicNaruto95/781.gif
+	offset	95 88
+	frame	data/chars/ClassicNaruto95/782.gif
+	offset	106 93
+	frame	data/chars/ClassicNaruto95/783.gif
+	offset	109 99
+	frame	data/chars/ClassicNaruto95/784.gif
+		
+anim	8037
+	delay	7
+	offset	57 61
+	frame	data/chars/ClassicNaruto95/785.gif
+	offset	60 61
+	frame	data/chars/ClassicNaruto95/786.gif
+	offset	61 57
+	frame	data/chars/ClassicNaruto95/787.gif
+	offset	61 60
+	frame	data/chars/ClassicNaruto95/788.gif
+	offset	57 61
+	frame	data/chars/ClassicNaruto95/789.gif
+	offset	60 61
+	frame	data/chars/ClassicNaruto95/790.gif
+	offset	61 57
+	frame	data/chars/ClassicNaruto95/791.gif
+	offset	61 60
+	frame	data/chars/ClassicNaruto95/792.gif
+		
+anim	8044
+	delay	7
+	offset	133 133
+	frame	data/chars/ClassicNaruto95/793.gif
+	offset	136 136
+	frame	data/chars/ClassicNaruto95/794.gif
+	offset	136 136
+	frame	data/chars/ClassicNaruto95/795.gif
+	offset	135 135
+	frame	data/chars/ClassicNaruto95/796.gif
+	offset	137 135
+	frame	data/chars/ClassicNaruto95/797.gif
+	offset	137 134
+	frame	data/chars/ClassicNaruto95/798.gif
+	offset	138 136
+	frame	data/chars/ClassicNaruto95/799.gif
+	offset	137 136
+	frame	data/chars/ClassicNaruto95/800.gif
+		
+anim	8045
+	delay	7
+	offset	128 127
+	frame	data/chars/ClassicNaruto95/801.gif
+		
+anim	8046
+	delay	7
+	offset	189 263
+	frame	data/chars/ClassicNaruto95/802.gif
+	offset	189 267
+	frame	data/chars/ClassicNaruto95/803.gif
+	offset	191 268
+	frame	data/chars/ClassicNaruto95/804.gif
+	offset	192 269
+	frame	data/chars/ClassicNaruto95/805.gif
+	offset	191 268
+	frame	data/chars/ClassicNaruto95/806.gif
+	offset	191 267
+	frame	data/chars/ClassicNaruto95/807.gif
+	offset	189 237
+	frame	data/chars/ClassicNaruto95/808.gif
+	offset	187 250
+	frame	data/chars/ClassicNaruto95/809.gif
+	offset	186 256
+	frame	data/chars/ClassicNaruto95/810.gif
+	offset	187 259
+	frame	data/chars/ClassicNaruto95/811.gif
+	offset	191 260
+	frame	data/chars/ClassicNaruto95/812.gif
+	offset	191 262
+	frame	data/chars/ClassicNaruto95/813.gif
+	offset	191 261
+	frame	data/chars/ClassicNaruto95/814.gif
+	offset	186 249
+	frame	data/chars/ClassicNaruto95/815.gif
+	offset	181 216
+	frame	data/chars/ClassicNaruto95/816.gif
+	offset	135 218
+	frame	data/chars/ClassicNaruto95/817.gif
+		
+anim	8047
+	delay	7
+	offset	378 430
+	frame	data/chars/ClassicNaruto95/820.gif
+	offset	378 430
+	frame	data/chars/ClassicNaruto95/821.gif
+	offset	378 434
+	frame	data/chars/ClassicNaruto95/822.gif
+	offset	378 442
+	frame	data/chars/ClassicNaruto95/823.gif
+	offset	378 474
+	frame	data/chars/ClassicNaruto95/824.gif
+	offset	378 526
+	frame	data/chars/ClassicNaruto95/825.gif
+	offset	378 578
+	frame	data/chars/ClassicNaruto95/826.gif
+	offset	378 596
+	frame	data/chars/ClassicNaruto95/827.gif
+	offset	378 462
+	frame	data/chars/ClassicNaruto95/828.gif
+	offset	378 462
+	frame	data/chars/ClassicNaruto95/829.gif
+		
+anim	8048
+	delay	7
+	offset	367 265
+	frame	data/chars/ClassicNaruto95/830.gif
+		
+anim	8049
+	delay	7
+	offset	112 175
+	frame	data/chars/ClassicNaruto95/831.gif
+	offset	141 175
+	frame	data/chars/ClassicNaruto95/832.gif
+	offset	157 176
+	frame	data/chars/ClassicNaruto95/833.gif
+	offset	146 175
+	frame	data/chars/ClassicNaruto95/834.gif
+		
+anim	8050
+	delay	7
+	offset	1092 556
+	frame	data/chars/ClassicNaruto95/835.gif
+	offset	1092 555
+	frame	data/chars/ClassicNaruto95/836.gif
+	offset	1093 560
+	frame	data/chars/ClassicNaruto95/837.gif
+	offset	1096 391
+	frame	data/chars/ClassicNaruto95/838.gif
+	offset	1097 294
+	frame	data/chars/ClassicNaruto95/839.gif
+	offset	1097 200
+	frame	data/chars/ClassicNaruto95/840.gif
+	offset	1096 100
+	frame	data/chars/ClassicNaruto95/841.gif
+	offset	1097 50
+	frame	data/chars/ClassicNaruto95/842.gif
+		
+anim	8051
+	delay	7
+	offset	112 108
+	frame	data/chars/ClassicNaruto95/843.gif
+	offset	123 134
+	frame	data/chars/ClassicNaruto95/844.gif
+	offset	142 157
+	frame	data/chars/ClassicNaruto95/845.gif
+	offset	158 179
+	frame	data/chars/ClassicNaruto95/846.gif
+	offset	173 199
+	frame	data/chars/ClassicNaruto95/847.gif
+	offset	187 216
+	frame	data/chars/ClassicNaruto95/848.gif
+	offset	199 233
+	frame	data/chars/ClassicNaruto95/849.gif
+	offset	210 247
+	frame	data/chars/ClassicNaruto95/850.gif
+	offset	220 259
+	frame	data/chars/ClassicNaruto95/851.gif
+	offset	230 269
+	frame	data/chars/ClassicNaruto95/852.gif
+	offset	239 277
+	frame	data/chars/ClassicNaruto95/853.gif
+	offset	247 285
+	frame	data/chars/ClassicNaruto95/854.gif
+	offset	254 291
+	frame	data/chars/ClassicNaruto95/855.gif
+	offset	260 297
+	frame	data/chars/ClassicNaruto95/856.gif
+	offset	266 301
+	frame	data/chars/ClassicNaruto95/857.gif
+	offset	271 303
+	frame	data/chars/ClassicNaruto95/858.gif
+	offset	276 299
+	frame	data/chars/ClassicNaruto95/859.gif
+	offset	280 296
+	frame	data/chars/ClassicNaruto95/860.gif
+	offset	284 301
+	frame	data/chars/ClassicNaruto95/861.gif
+	offset	288 304
+	frame	data/chars/ClassicNaruto95/862.gif
+		
+anim	8052
+	delay	7
+	offset	0 0
+	frame	data/chars/ClassicNaruto95/863.gif
+	offset	0 0
+	frame	data/chars/ClassicNaruto95/864.gif
+	offset	0 0
+	frame	data/chars/ClassicNaruto95/865.gif
+	offset	0 0
+	frame	data/chars/ClassicNaruto95/866.gif
+		
+anim	9000
+	delay	7
+	offset	0 0
+	frame	data/chars/ClassicNaruto95/0.gif
+		
+anim	attack200
+	delay	7
+	offset	16 43
+	frame	data/chars/ClassicNaruto95/31.gif
+	offset	20 42
+	frame	data/chars/ClassicNaruto95/32.gif
+	offset	20 39
+	frame	data/chars/ClassicNaruto95/33.gif
+		
+anim	attack201
+	delay	7
+	offset	9 3
+	frame	data/chars/ClassicNaruto95/462.gif
+	offset	4 4
+	frame	data/chars/ClassicNaruto95/463.gif
+		
+anim	attack220
+	delay	7
+	offset	18 47
+	frame	data/chars/ClassicNaruto95/34.gif
+	offset	18 48
+	frame	data/chars/ClassicNaruto95/35.gif
+	offset	17 45
+	frame	data/chars/ClassicNaruto95/36.gif
+	offset	18 46
+	frame	data/chars/ClassicNaruto95/37.gif
+	offset	18 46
+	frame	data/chars/ClassicNaruto95/38.gif
+	offset	27 46
+	frame	data/chars/ClassicNaruto95/39.gif
+	offset	25 46
+	frame	data/chars/ClassicNaruto95/40.gif
+	offset	25 46
+	frame	data/chars/ClassicNaruto95/41.gif
+	offset	25 46
+	frame	data/chars/ClassicNaruto95/42.gif
+	offset	18 46
+	frame	data/chars/ClassicNaruto95/43.gif
+	offset	18 47
+	frame	data/chars/ClassicNaruto95/44.gif
+	offset	18 46
+	frame	data/chars/ClassicNaruto95/45.gif
+	offset	18 47
+	frame	data/chars/ClassicNaruto95/46.gif
+	offset	19 49
+	frame	data/chars/ClassicNaruto95/47.gif
+	offset	20 45
+	frame	data/chars/ClassicNaruto95/48.gif
+	offset	22 30
+	frame	data/chars/ClassicNaruto95/49.gif
+	offset	22 30
+	frame	data/chars/ClassicNaruto95/50.gif
+		
+anim	attack230
+	delay	7
+	offset	18 46
+	frame	data/chars/ClassicNaruto95/23.gif
+	offset	17 46
+	frame	data/chars/ClassicNaruto95/24.gif
+	offset	17 45
+	frame	data/chars/ClassicNaruto95/25.gif
+	offset	17 48
+	frame	data/chars/ClassicNaruto95/26.gif
+		
+anim	attack231
+	delay	7
+	offset	21 45
+	frame	data/chars/ClassicNaruto95/27.gif
+	offset	19 43
+	frame	data/chars/ClassicNaruto95/28.gif
+	offset	18 38
+	frame	data/chars/ClassicNaruto95/29.gif
+	offset	20 36
+	frame	data/chars/ClassicNaruto95/30.gif
+		
+anim	attack240
+	delay	7
+	offset	20 42
+	frame	data/chars/ClassicNaruto95/56.gif
+	offset	18 42
+	frame	data/chars/ClassicNaruto95/57.gif
+		
+anim	attack250
+	delay	7
+	offset	15 47
+	frame	data/chars/ClassicNaruto95/66.gif
+	offset	19 49
+	frame	data/chars/ClassicNaruto95/67.gif
+	offset	27 49
+	frame	data/chars/ClassicNaruto95/68.gif
+	offset	30 49
+	frame	data/chars/ClassicNaruto95/69.gif
+	offset	30 49
+	frame	data/chars/ClassicNaruto95/70.gif
+	offset	29 49
+	frame	data/chars/ClassicNaruto95/71.gif
+	offset	30 49
+	frame	data/chars/ClassicNaruto95/72.gif
+	offset	31 49
+	frame	data/chars/ClassicNaruto95/73.gif
+	offset	26 47
+	frame	data/chars/ClassicNaruto95/74.gif
+	offset	15 33
+	frame	data/chars/ClassicNaruto95/75.gif
+	offset	15 30
+	frame	data/chars/ClassicNaruto95/76.gif
+	offset	15 29
+	frame	data/chars/ClassicNaruto95/77.gif
+	offset	15 43
+	frame	data/chars/ClassicNaruto95/78.gif
+		
+anim	attack251
+	delay	7
+	offset	18 38
+	frame	data/chars/ClassicNaruto95/108.gif
+		
+anim	attack252
+	delay	7
+	offset	21 42
+	frame	data/chars/ClassicNaruto95/19.gif
+	offset	21 33
+	frame	data/chars/ClassicNaruto95/20.gif
+	offset	24 61
+	frame	data/chars/ClassicNaruto95/21.gif
+	offset	24 51
+	frame	data/chars/ClassicNaruto95/22.gif
+		
+anim	attack253
+	delay	7
+	offset	23 25
+	frame	data/chars/ClassicNaruto95/101.gif
+	offset	21 55
+	frame	data/chars/ClassicNaruto95/102.gif
+	offset	21 38
+	frame	data/chars/ClassicNaruto95/103.gif
+	offset	24 24
+	frame	data/chars/ClassicNaruto95/104.gif
+	offset	23 51
+	frame	data/chars/ClassicNaruto95/105.gif
+	offset	23 37
+	frame	data/chars/ClassicNaruto95/106.gif
+		
+anim	attack254
+	delay	7
+	offset	12 45
+	frame	data/chars/ClassicNaruto95/9.gif
+	offset	11 46
+	frame	data/chars/ClassicNaruto95/10.gif
+	offset	11 45
+	frame	data/chars/ClassicNaruto95/11.gif
+	offset	12 45
+	frame	data/chars/ClassicNaruto95/12.gif
+		
+anim	attack255
+	delay	7
+	offset	18 48
+	frame	data/chars/ClassicNaruto95/5.gif
+	offset	18 46
+	frame	data/chars/ClassicNaruto95/6.gif
+	offset	17 41
+	frame	data/chars/ClassicNaruto95/7.gif
+	offset	17 42
+	frame	data/chars/ClassicNaruto95/8.gif
+		
+anim	block120
+	delay	7
+	offset	17 43
+	frame	data/chars/ClassicNaruto95/54.gif
+	offset	12 42
+	frame	data/chars/ClassicNaruto95/55.gif
+		
+anim	dodge
+	delay	7
+	offset	14 42
+	frame	data/chars/ClassicNaruto95/85.gif
+	offset	18 38
+	frame	data/chars/ClassicNaruto95/86.gif
+	offset	11 43
+	frame	data/chars/ClassicNaruto95/87.gif
+	offset	17 37
+	frame	data/chars/ClassicNaruto95/88.gif
+		
+anim	fall5030
+	delay	7
+	offset	20 49
+	frame	data/chars/ClassicNaruto95/146.gif
+		
+anim	fall5031
+	delay	7
+	offset	20 23
+	frame	data/chars/ClassicNaruto95/147.gif
+		
+anim	fall5032
+	delay	7
+	offset	15 10
+	frame	data/chars/ClassicNaruto95/148.gif
+		
+anim	fall5040
+	delay	7
+	offset	22 24
+	frame	data/chars/ClassicNaruto95/164.gif
+		
+anim	fall5041
+	delay	7
+	offset	22 24
+	frame	data/chars/ClassicNaruto95/165.gif
+		
+anim	fall5042
+	delay	7
+	offset	7 24
+	frame	data/chars/ClassicNaruto95/166.gif
+		
+anim	fall5060
+	delay	7
+	offset	14 38
+	frame	data/chars/ClassicNaruto95/188.gif
+		
+anim	fall5061
+	delay	7
+	offset	7 20
+	frame	data/chars/ClassicNaruto95/189.gif
+		
+anim	fall5062
+	delay	7
+	offset	19 7
+	frame	data/chars/ClassicNaruto95/190.gif
+		
+anim	fall5070
+	delay	7
+	offset	14 38
+	frame	data/chars/ClassicNaruto95/194.gif
+		
+anim	fall5071
+	delay	7
+	offset	7 20
+	frame	data/chars/ClassicNaruto95/195.gif
+		
+anim	fall5072
+	delay	7
+	offset	19 7
+	frame	data/chars/ClassicNaruto95/196.gif
+		
+anim	idle
+	delay	7
+	offset	18 49
+	frame	data/chars/ClassicNaruto95/1.gif
+	offset	18 47
+	frame	data/chars/ClassicNaruto95/2.gif
+	offset	17 45
+	frame	data/chars/ClassicNaruto95/3.gif
+	offset	17 43
+	frame	data/chars/ClassicNaruto95/4.gif
+		
+anim	jump
+	delay	7
+	offset	20 47
+	frame	data/chars/ClassicNaruto95/60.gif
+	offset	20 46
+	frame	data/chars/ClassicNaruto95/61.gif
+		
+anim	jumpattack630
+	delay	7
+	offset	18 53
+	frame	data/chars/ClassicNaruto95/62.gif
+	offset	22 53
+	frame	data/chars/ClassicNaruto95/63.gif
+	offset	15 52
+	frame	data/chars/ClassicNaruto95/64.gif
+	offset	14 53
+	frame	data/chars/ClassicNaruto95/65.gif
+		
+anim	jumpattack640
+	delay	7
+	offset	18 45
+	frame	data/chars/ClassicNaruto95/89.gif
+	offset	10 54
+	frame	data/chars/ClassicNaruto95/90.gif
+	offset	13 45
+	frame	data/chars/ClassicNaruto95/91.gif
+	offset	19 41
+	frame	data/chars/ClassicNaruto95/92.gif
+	offset	22 47
+	frame	data/chars/ClassicNaruto95/93.gif
+	offset	22 45
+	frame	data/chars/ClassicNaruto95/94.gif
+		
+anim	jumpattack641
+	delay	7
+	offset	29 50
+	frame	data/chars/ClassicNaruto95/95.gif
+	offset	28 47
+	frame	data/chars/ClassicNaruto95/96.gif
+	offset	25 42
+	frame	data/chars/ClassicNaruto95/97.gif
+		
+anim	jumpforward
+	delay	7
+	offset	23 42
+	frame	data/chars/ClassicNaruto95/79.gif
+	offset	23 42
+	frame	data/chars/ClassicNaruto95/80.gif
+		
+anim	pain5000
+	delay	7
+	offset	17 39
+	frame	data/chars/ClassicNaruto95/125.gif
+		
+anim	pain5001
+	delay	7
+	offset	18 19
+	frame	data/chars/ClassicNaruto95/126.gif
+		
+anim	pain5002
+	delay	7
+	offset	22 8
+	frame	data/chars/ClassicNaruto95/127.gif
+		
+anim	pain5010
+	delay	7
+	offset	17 39
+	frame	data/chars/ClassicNaruto95/134.gif
+		
+anim	pain5011
+	delay	7
+	offset	18 19
+	frame	data/chars/ClassicNaruto95/135.gif
+		
+anim	pain5012
+	delay	7
+	offset	22 8
+	frame	data/chars/ClassicNaruto95/136.gif
+		
+anim	pain5020
+	delay	7
+	offset	20 49
+	frame	data/chars/ClassicNaruto95/143.gif
+	offset	20 23
+	frame	data/chars/ClassicNaruto95/144.gif
+	offset	15 10
+	frame	data/chars/ClassicNaruto95/145.gif
+		
+anim	rise
+	delay	7
+	offset	20 33
+	frame	data/chars/ClassicNaruto95/169.gif
+		
+anim	run
+	delay	7
+	offset	19 34
+	frame	data/chars/ClassicNaruto95/107.gif
+		
+anim	select
+	delay	7
+	offset	18 42
+	frame	data/chars/ClassicNaruto95/51.gif
+	offset	16 49
+	frame	data/chars/ClassicNaruto95/52.gif
+	offset	17 49
+	frame	data/chars/ClassicNaruto95/53.gif
+		
+anim	walk
+	delay	7
+	offset	17 47
+	frame	data/chars/ClassicNaruto95/119.gif
+	offset	11 48
+	frame	data/chars/ClassicNaruto95/120.gif
+	offset	13 47
+	frame	data/chars/ClassicNaruto95/121.gif
+	offset	13 47
+	frame	data/chars/ClassicNaruto95/122.gif
+	offset	10 49
+	frame	data/chars/ClassicNaruto95/123.gif
+	offset	11 50
+	frame	data/chars/ClassicNaruto95/124.gif
+		
+#|edited by openBor Stats v 0.67
+		

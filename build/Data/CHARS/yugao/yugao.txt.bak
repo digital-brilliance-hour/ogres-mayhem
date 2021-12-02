@@ -1,0 +1,367 @@
+name	Yugao
+health	250
+type	player
+candamage obstacle enemy
+projectilehit obstacle enemy
+speed	7
+running	15	3	2	1
+com  d  f  a  freespecial
+shadow	2
+grabdistance 23
+diesound data/chars/Sasuke/die21.wav
+bflash  bflash
+dust	 dust
+jumpheight 5
+icon	data/chars/yugao/43.png
+
+anim	attack1
+	loop	0
+	delay	7
+	bbox	3 -1 45 61
+	offset	22 52
+	frame	data/chars/yugao/129.png
+	attack1	5 1 61 52 7
+	delay	3
+	frame	data/chars/yugao/128.png
+	frame	data/chars/yugao/127.png
+
+anim	attack2
+	loop	0
+	delay	7
+	bbox	3 -1 45 61
+	offset	22 52
+	frame	data/chars/yugao/129.png
+	attack1	2 -2 59 55 7
+	delay	3
+	frame	data/chars/yugao/128.png
+	frame	data/chars/yugao/127.png
+
+anim	attack3
+	loop	0
+	offset	22 64
+	delay	7
+	frame	data/chars/yugao/98.png
+	offset	22 81
+	attack1	0 0 77 85 25 1
+	frame	data/chars/yugao/96.png
+	offset	22 78
+	frame	data/chars/yugao/97.png
+
+anim	block
+	loop	0
+	delay	30
+	offset	21 65
+	bbox	4 1 39 46
+	frame	data/chars/yugao/98.png
+
+anim	burn
+	loop	1
+	offset	60 116
+	delay	3
+	frame	data/chars/misc/burn1.gif
+	frame	data/chars/misc/burn2.gif
+	frame	data/chars/misc/burn3.gif
+
+anim	duck
+	loop	0
+	delay	10
+	bbox	-1 24 37 21
+	offset	17 41
+	frame	data/chars/yugao/68.png
+
+anim	fall
+	loop	0
+	offset	28 36
+	delay	30
+	attack	47 69 18 34 4 1
+	sound	data/chars/omoi/ugh.wav
+	frame	data/chars/yugao/69.png
+	sound	data/chars/omoi/ugh.wav
+	frame	data/chars/yugao/69.png
+	sound	data/chars/omoi/ugh.wav
+	offset	28 13
+	frame	data/chars/yugao/70.png
+	sound	data/chars/omoi/ugh.wav
+	offset	28 12
+	frame	data/chars/yugao/70.png
+
+anim	get
+	loop	0
+	offset	12 54
+	delay	45
+	frame	data/chars/yugao/24.png
+
+anim	grab
+	loop	0
+	offset	18 56
+	delay	1000
+	bbox	1 0 34 53
+	frame	data/chars/yugao/80.png
+
+anim	grabattack
+	loop	0
+	delay	7
+	bbox	3 -1 45 61
+	offset	22 52
+	attack1	-1 -2 55 38 7
+	frame	data/chars/yugao/129.png
+	attack1	2
+	delay	2
+	frame	data/chars/yugao/128.png
+	frame	data/chars/yugao/127.png
+
+anim	grabattack2
+	loop	0
+	offset	22 55
+	delay	7
+	frame	data/chars/yugao/215.png
+	offset	22 52
+	move	10
+	delay	2
+	attack1	0 1 55 26 25 0
+	frame	data/chars/yugao/216.png
+	Attack1	0
+	frame	data/chars/yugao/216.png
+	attack1	0 0 62 32 35 0
+	frame	data/chars/yugao/216.png
+	Attack1	0
+	frame	data/chars/yugao/216.png
+	offset	49 51
+	delay	10
+	attack1	0 0 81 33 35 1
+	frame	data/chars/yugao/217.png
+
+anim	idle
+	loop	1
+	offset	16 48
+	delay	20
+	bbox	1 -1 35 51
+	frame	data/chars/yugao/9.png
+	offset	16 47
+	frame	data/chars/yugao/10.png
+	offset	16 46
+	frame	data/chars/yugao/11.png
+	offset	16 47
+	frame	data/chars/yugao/10.png
+
+anim	jump
+	loop	0
+	offset	20 61
+	delay	7
+	bbox	-1 2 34 56
+	frame	data/chars/yugao/44.png
+	frame	data/chars/yugao/40.png
+	offset	17 62
+	bbox	0 2 40 56
+	delay	20
+	frame	data/chars/yugao/41.png
+
+anim	jumpattack
+	loop	0
+	offset	40 70
+	delay	7
+	bbox	22 0 27 78
+	frame	data/chars/yugao/130.png
+	offset	31 89
+	attack1	9 0 51 92 45
+	frame	data/chars/yugao/122.png
+	offset	14 57
+	attack1	20 35 31 36 55 0
+	bbox	3 0 21 57
+	frame	data/chars/yugao/133.png
+	attack1	18  34  30  33  25  1
+	frame	data/chars/yugao/134.png
+
+anim	runjumpattack
+	loop	0
+	fastattack
+		fastattack  1
+	offset	28 44
+	delay	5
+	attack1	0 0 70 46 25
+	bbox	23 12 29 32
+	frame	data/chars/yugao/153.png
+	frame	data/chars/yugao/154.png
+	frame	data/chars/yugao/156.png
+	frame	data/chars/yugao/159.png
+	frame	data/chars/yugao/160.png
+		attack1  0  0  70  46  25  1
+	frame	data/chars/yugao/161.png
+
+anim	land
+	loop	0
+	delay	10
+	offset	18 42
+	bbox	-2 1 36 42
+	frame	data/chars/yugao/47.png
+
+anim	pain
+	loop	0
+	offset	18 43
+	delay	30
+	bbox	0 0 37 55
+	frame	data/chars/yugao/66.png
+
+anim	rise
+	loop	0
+	offset	18 44
+	delay	10
+	frame	data/chars/yugao/68.png
+
+anim	run
+	loop	1
+	offset	19 51
+	delay	7
+	bbox	7 4 34 43
+	frame	data/chars/yugao/28.png
+	frame	data/chars/yugao/30.png
+	offset	19 51
+	frame	data/chars/yugao/33.png
+	frame	data/chars/yugao/29.png
+	frame	data/chars/yugao/31.png
+
+anim	runattack
+	loop	0
+	delay	4
+	offset	23 84
+	bbox	14 -1 36 48
+	move	16
+	Attack1	0
+	frame	data/chars/yugao/44.png
+	frame	data/chars/yugao/44.png
+	frame	data/chars/yugao/44.png
+	delay	1
+	frame	data/chars/yugao/107.png
+	attack1	0 0 46 63 25
+	frame	data/chars/yugao/107.png
+	Attack1	0
+	frame	data/chars/yugao/107.png
+	attack1	0 0 45 61 25
+	frame	data/chars/yugao/107.png
+	Attack1	0
+	frame	data/chars/yugao/107.png
+	attack1	1 0 43 61 18
+	frame	data/chars/yugao/107.png
+	Attack1	0
+	frame	data/chars/yugao/107.png
+	attack1	0 0 45 61 18
+	frame	data/chars/yugao/107.png
+	Attack1	0
+	frame	data/chars/yugao/107.png
+	attack1	0 0 42 61 18
+	frame	data/chars/yugao/107.png
+
+anim	special
+	loop	0
+	offset	22 54
+	delay	7
+	frame	data/chars/yugao/178.png
+	offset	22 52
+	frame	data/chars/yugao/181.png
+	offset	22 53
+	frame	data/chars/yugao/179.png
+	move	25
+	frame	data/chars/yugao/182.png
+	move	15
+	offset	10 122
+	attack1	0 -1 110 201 25
+	frame	data/chars/yugao/186.png
+	Attack1	0
+	frame	data/chars/yugao/186.png
+	attack1	2 4 256 120 25
+	frame	data/chars/yugao/187.png
+	Attack1	0
+	frame	data/chars/yugao/187.png
+	attack1	-1 -1 90 193 25
+	frame	data/chars/yugao/200.png
+	Attack1	0
+	frame	data/chars/yugao/200.png
+	offset	32 27
+	attack1	-8 -28 84 69 25
+	frame	data/chars/yugao/192.png
+	Attack1	0
+	frame	data/chars/yugao/192.png
+	offset	22 104
+	attack1	0 -2 256 126 25
+	frame	data/chars/yugao/208.png
+	Attack1	0
+	frame	data/chars/yugao/208.png
+	move	25
+	offset	22 70
+	frame	data/chars/yugao/182.png
+	offset	22 94
+	move	0
+	attack1	0 2 69 92 120
+	frame	data/chars/yugao/188.png
+	attack1	0 1 87 189 85
+	delay	1
+	frame	data/chars/yugao/200.png
+	attack1	-86
+	offset	23 94
+	frame	data/chars/yugao/200.png
+	offset	24 94
+	frame	data/chars/yugao/200.png
+	offset	25 94
+	frame	data/chars/yugao/200.png
+	offset	26 94
+	frame	data/chars/yugao/200.png
+	offset	27 94
+	frame	data/chars/yugao/200.png
+	offset	28 94
+	frame	data/chars/yugao/200.png
+	offset	29 94
+	frame	data/chars/yugao/200.png
+	offset	30 94
+	frame	data/chars/yugao/200.png
+	offset	31 94
+	frame	data/chars/yugao/200.png
+	offset	32 94
+	frame	data/chars/yugao/200.png
+	offset	33 94
+	frame	data/chars/yugao/200.png
+	offset	34 94
+	frame	data/chars/yugao/200.png
+	offset	35 94
+	frame	data/chars/yugao/200.png
+	offset	36 94
+	frame	data/chars/yugao/200.png
+	offset	37 94
+	frame	data/chars/yugao/200.png
+	offset	38 94
+	frame	data/chars/yugao/200.png
+	offset	39 94
+	frame	data/chars/yugao/200.png
+	offset	40 94
+	frame	data/chars/yugao/200.png
+	offset	0 75
+	move	0
+	Attack1	0
+	delay	7
+	frame	data/chars/yugao/211.png
+	delay	14
+	frame	data/chars/yugao/210.png
+
+anim	throw
+	loop	0
+	delay	7
+	offset	20 64
+	frame	data/chars/yugao/124.png
+	offset	29 69
+	frame	data/chars/yugao/123.png
+	offset	29 50
+	frame	data/chars/yugao/132.png
+	offset	22 53
+	frame	data/chars/yugao/131.png
+
+anim	walk
+	loop	1
+	offset	19 51
+	delay	7
+	bbox	0 0 41 45
+	frame	data/chars/yugao/28.png
+	frame	data/chars/yugao/30.png
+	offset	19 51
+	frame	data/chars/yugao/33.png
+	frame	data/chars/yugao/29.png
+	frame	data/chars/yugao/31.png
+
