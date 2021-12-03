@@ -2,7 +2,6 @@ name	getsugalarge
 speed   15
 type 	none
 shadow	0
-setlayer 1000
 remove 0
 alpha 4
 
@@ -32,11 +31,12 @@ alpha 4
 
 
 anim	idle
-	attack	-230 -1 173 -221 100 0 1 0 0 100
+	attack	335 362 178 170 100 1 1 0 0 50
 	loop	1
 	drawmethod	scale 0.25
 	delay	3
 	offset	428 446
+	dropv	2 5 0
 	frame	data/chars/Ichigo_Bankai/367.gif
 		
 #|edited by openBor Stats v 0.67
