@@ -1,0 +1,44 @@
+name	sonicDash
+speed   15
+type 	none
+shadow	0
+setlayer 1000
+alpha 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	drawmethod	scale 0.25
+	drawmethod	flipx 1
+	delay	6
+	offset	293 89
+	frame	data/chars/Sonic/2818.gif
+	offset	293 89
+	frame	data/chars/Sonic/2819.gif
+	offset	293 89
+	frame	data/chars/Sonic/2820.gif
+	offset	293 89
+	frame	data/chars/Sonic/2821.gif
+	offset	293 89
+	frame	data/chars/Sonic/2822.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

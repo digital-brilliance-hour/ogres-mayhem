@@ -287,7 +287,7 @@ know	Kunai		data/chars/misc/Kunai.txt
 know	Kunai_		data/chars/misc/Kunai_.txt
 Load Levelup data/chars/Misc/levelup/levelup.txt
 #know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
-know Sonic data/chars/Sonic/Sonic.txt
+load Sonic data/chars/Sonic/Sonic.txt
 know SonicOLD data/chars/Sonic/Sonicold.txt
 know ichigoTransfomation data/chars/Ichigo_Bankai/Ichigo_Bankai.txt
 know ichigoTransfomationOLD data/chars/Ichigo_Bankai/Ichigo_Bankai-old.txt
@@ -313,3 +313,7 @@ know yusukeFire data/chars/Yusuke/yusukefire.txt
 know redAura data/chars/Yusuke/redAura.txt
 know blueAura data/chars/Yusuke/blueAura.txt
 know yellowAura data/chars/Yusuke/yellowAura.txt
+know sonicBlast data/chars/Sonic/sonicBlast.txt
+know sonicDash data/chars/Sonic/sonicDash.txt
+know sonicWhirlwind data/chars/Sonic/sonicWhirlwind.txt
+know sonicWhirlwindBottom data/chars/Sonic/sonicWhirlwindBottom.txt

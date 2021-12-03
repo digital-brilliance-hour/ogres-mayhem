@@ -1,0 +1,72 @@
+name	sonicWhirlwindBottom
+speed   15
+type 	none
+shadow	0
+setlayer 1000
+alpha 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	drawmethod	scale 0.8
+	delay	5
+	offset	148 125
+	frame	data/chars/Sonic/2602.gif
+	offset	138 125
+	frame	data/chars/Sonic/2603.gif
+	offset	148 122
+	frame	data/chars/Sonic/2604.gif
+	offset	148 119
+	frame	data/chars/Sonic/2605.gif
+	offset	146 117
+	frame	data/chars/Sonic/2606.gif
+	offset	149 124
+	frame	data/chars/Sonic/2607.gif
+	offset	148 125
+	frame	data/chars/Sonic/2602.gif
+	offset	138 125
+	frame	data/chars/Sonic/2603.gif
+	offset	148 122
+	frame	data/chars/Sonic/2604.gif
+	offset	148 119
+	frame	data/chars/Sonic/2605.gif
+	offset	146 117
+	frame	data/chars/Sonic/2606.gif
+	offset	149 124
+	frame	data/chars/Sonic/2607.gif
+	offset	148 125
+	frame	data/chars/Sonic/2602.gif
+	offset	138 125
+	frame	data/chars/Sonic/2603.gif
+	offset	148 122
+	frame	data/chars/Sonic/2604.gif
+	offset	148 119
+	frame	data/chars/Sonic/2605.gif
+	offset	146 117
+	frame	data/chars/Sonic/2606.gif
+	offset	149 124
+	frame	data/chars/Sonic/2607.gif
+	offset	148 125
+	frame	data/chars/Sonic/2602.gif
+	offset	138 125
+	frame	data/chars/Sonic/2603.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		
