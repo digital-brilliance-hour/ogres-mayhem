@@ -288,7 +288,7 @@ know	Kunai_		data/chars/misc/Kunai_.txt
 Load Levelup data/chars/Misc/levelup/levelup.txt
 #know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
 
-know ichigoTransfomation data/chars/Ichigo_Bankai/Ichigo_Bankai.txt
+load ichigoTransfomation data/chars/Ichigo_Bankai/Ichigo_Bankai.txt
 know ichigoTransfomationOLD data/chars/Ichigo_Bankai/Ichigo_Bankai-old.txt
 #know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
 know	NarutoClone		data/chars/Naruto/narutoclone.txt
@@ -302,5 +302,9 @@ load   windTwirl data/chars/ichigo/windtwirl.txt
 know kyuubiRasengan data/chars/kyuubiNaruto/kyuubirasengan.txt
 know kyuubiBomb data/chars/kyuubiNaruto/kyuubibomb.txt
 know rasenganBall data/chars/Naruto/rasenganball.txt
-know toadSmoke data/chars/Naruto/toadsmoke.txt
-
+know toadSmoke 	data/chars/Naruto/toadsmoke.txt
+know biggestuga data/chars/Ichigo_Bankai/big-gestuga.txt
+know getsugatenshou data/chars/Ichigo_Bankai/getsuga-tenshou.txt
+know groundblast 	data/chars/Ichigo_Bankai/ground-blast.txt
+know fastcuts 	data/chars/Ichigo_Bankai/fast-cuts.txt
+know getsugalarge data/chars/Ichigo_Bankai/getsuga-large.txt

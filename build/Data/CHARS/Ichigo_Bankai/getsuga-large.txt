@@ -1,4 +1,4 @@
-name	getsugatenshou
+name	getsugalarge
 speed   15
 type 	none
 shadow	0
@@ -29,10 +29,12 @@ alpha 4
 
 
 
+
+
 anim	idle
-	attack	-233 -1 174 -222 30 0 1 0 0 50
+	attack	-230 -1 173 -221 100 0 1 0 0 100
 	loop	1
-	drawmethod	scale 0.15
+	drawmethod	scale 0.25
 	delay	3
 	offset	428 446
 	frame	data/chars/Ichigo_Bankai/367.gif
