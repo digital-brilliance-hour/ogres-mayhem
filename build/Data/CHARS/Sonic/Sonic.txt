@@ -3,6 +3,7 @@ type player
 shadow 3
 health 100
 speed 15
+running	26	4	2	1    1
 com  a3  freespecial
 com u a3 freespecial2
 com d a3 freespecial5
@@ -12,6 +13,11 @@ com d s freespecial4
 animationscript data/scripts/spawns.c
 script data/scripts/playerscript.c
 
+load sonicBlast
+load sonicDash
+load sonicWhirlwind
+load sonicWhirlwindBottom
+
 parrow data/chars/misc/picon/1picon.gif -18 -100
 parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
@@ -19,23 +25,41 @@ parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 anim	attack1
-	delay	7
-	offset	9 34
+	delay	4
+	offset	7 34
 	frame	data/chars/Sonic/60.gif
 	offset	10 35
 	frame	data/chars/Sonic/61.gif
 	offset	11 36
 	frame	data/chars/Sonic/62.gif
+	attack	20 18 26 14 8 0 1 0 0 0
 	offset	15 39
 	frame	data/chars/Sonic/63.gif
 		
 anim	attack2
-	delay	7
+	delay	3
 	offset	14 36
 	frame	data/chars/Sonic/225.gif
 	offset	11 36
 	frame	data/chars/Sonic/226.gif
+	attack	24 17 25 16 9 0 1 0 0 0
 	offset	12 40
 	frame	data/chars/Sonic/227.gif
 	offset	11 40
@@ -45,67 +69,16 @@ anim	attack2
 	offset	7 39
 	frame	data/chars/Sonic/230.gif
 		
-anim	freespecial4
-	delay	7
-	offset	13 32
-	frame	data/chars/Sonic/234.gif
-	offset	8 36
-	frame	data/chars/Sonic/235.gif
-	offset	11 40
-	frame	data/chars/Sonic/236.gif
-	offset	9 37
-	frame	data/chars/Sonic/237.gif
-	offset	12 37
-	frame	data/chars/Sonic/238.gif
-	offset	13 38
-	frame	data/chars/Sonic/239.gif
-	offset	12 35
-	frame	data/chars/Sonic/240.gif
-	offset	15 36
-	frame	data/chars/Sonic/241.gif
-	offset	15 38
-	frame	data/chars/Sonic/247.gif
-	offset	23 40
-	frame	data/chars/Sonic/248.gif
-	offset	21 40
-	frame	data/chars/Sonic/249.gif
-	offset	16 37
-	frame	data/chars/Sonic/250.gif
-	offset	12 36
-	frame	data/chars/Sonic/307.gif
-	offset	11 37
-	frame	data/chars/Sonic/308.gif
-	offset	12 33
-	frame	data/chars/Sonic/309.gif
-	offset	15 37
-	frame	data/chars/Sonic/313.gif
-	offset	14 40
-	frame	data/chars/Sonic/314.gif
-	offset	17 40
-	frame	data/chars/Sonic/315.gif
-	offset	15 42
-	frame	data/chars/Sonic/316.gif
-	offset	15 42
-	frame	data/chars/Sonic/317.gif
-	offset	14 44
-	frame	data/chars/Sonic/318.gif
-	offset	16 35
-	frame	data/chars/Sonic/329.gif
-	offset	16 39
-	frame	data/chars/Sonic/330.gif
-	offset	14 50
-	frame	data/chars/Sonic/331.gif
-	offset	13 47
-	frame	data/chars/Sonic/332.gif
-	offset	13 44
-	frame	data/chars/Sonic/333.gif
-		
 anim	attack3
+	attack	0 0 0 0 0 0 0 0 0 0
 	delay	7
 	offset	17 33
 	frame	data/chars/Sonic/265.gif
+	@cmd	leaper 0 1 0
 	offset	20 42
 	frame	data/chars/Sonic/266.gif
+	attack	21 5 35 48 10 1 1 0 0 0
+	dropv	2 4 0
 	offset	24 47
 	frame	data/chars/Sonic/267.gif
 	offset	24 51
@@ -119,27 +92,58 @@ anim	attack3
 	offset	13 41
 	frame	data/chars/Sonic/272.gif
 		
-anim	attack4
-	delay	7
-	offset	12 36
-	frame	data/chars/Sonic/255.gif
-	offset	14 38
-	frame	data/chars/Sonic/256.gif
-	offset	16 32
-	frame	data/chars/Sonic/257.gif
-		
 anim	chargeattack
+	attack	0 0 0 0 0 0 0 0 0 0
 	delay	7
 	offset	19 38
 	frame	data/chars/Sonic/242.gif
 	offset	17 38
 	frame	data/chars/Sonic/243.gif
+	attack	18 4 33 39 10 1 1 0 0 0
+	dropv	2 4 0
 	offset	19 41
 	frame	data/chars/Sonic/244.gif
 	offset	18 40
 	frame	data/chars/Sonic/245.gif
 	offset	18 41
 	frame	data/chars/Sonic/246.gif
+		
+anim	dodge
+	delay	1
+	sound	data/chars/yusuke/broly_5-22.wav
+	offset	17 38
+	frame	data/chars/Sonic/30.gif
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	drawmethod	rotate 90
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	delay	7
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	drawmethod	rotate 0
+	offset	16 39
+	frame	data/chars/Sonic/35.gif
 		
 anim	faint
 	delay	7
@@ -160,6 +164,8 @@ anim	fall
 	frame	data/chars/Sonic/646.gif
 		
 anim	forwardjump
+	bbox	7 6 24 27
+	loop	1
 	delay	7
 	offset	17 38
 	frame	data/chars/Sonic/293.gif
@@ -170,69 +176,317 @@ anim	forwardjump
 	offset	19 34
 	frame	data/chars/Sonic/296.gif
 		
-anim	jump
+anim	freespecial
+	delay	5
 	fastattack	1
-	loop	1
-	attack	1 11 26 25 8 0 1 0 0 0
-	delay	7
-	offset	12 30
-	frame	data/chars/Sonic/262.gif
+	offset	18 36
+	frame	data/chars/Sonic/251.gif
+	attack	19 3 24 41 10 0 1 0 0 0
+	offset	18 39
+	frame	data/chars/Sonic/252.gif
 	attack	0 0 0 0 0 0 0 0 0 0
-	offset	13 30
-	frame	data/chars/Sonic/263.gif
-	attack	3 9 25 28 8 0 1 0 0 0
-	offset	14 32
-	frame	data/chars/Sonic/264.gif
+	offset	16 38
+	frame	data/chars/Sonic/253.gif
+	attack	18 5 28 35 10 0 1 0 0 0
+	offset	16 35
+	frame	data/chars/Sonic/254.gif
+	offset	18 36
+	frame	data/chars/Sonic/251.gif
+	attack	19 3 24 41 10 0 1 0 0 0
+	offset	18 39
+	frame	data/chars/Sonic/252.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	16 38
+	frame	data/chars/Sonic/253.gif
+	attack	18 5 28 35 10 0 1 0 0 0
+	offset	16 35
+	frame	data/chars/Sonic/254.gif
+	offset	18 36
+	frame	data/chars/Sonic/251.gif
+	attack	19 3 24 41 10 0 1 0 0 0
+	offset	18 39
+	frame	data/chars/Sonic/252.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	16 38
+	frame	data/chars/Sonic/253.gif
+	attack	18 5 28 35 10 0 1 0 0 0
+	offset	16 35
+	frame	data/chars/Sonic/254.gif
+	offset	18 36
+	frame	data/chars/Sonic/251.gif
+	attack	19 3 24 41 10 0 1 0 0 0
+	offset	18 39
+	frame	data/chars/Sonic/252.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	16 38
+	frame	data/chars/Sonic/253.gif
+	attack	18 5 28 35 10 0 1 0 0 0
+	offset	16 35
+	frame	data/chars/Sonic/254.gif
+		
+anim	freespecial11
+	delay	1
+	sound	data/chars/yusuke/broly_5-22.wav
+	offset	17 38
+	frame	data/chars/Sonic/30.gif
+	@cmd	dasher 3 0 0
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	@cmd	stop
+	@cmd	dasher 7 0 0
+	delay	7
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	@cmd	stop
+	offset	16 39
+	frame	data/chars/Sonic/35.gif
+		
+anim	freespecial2
+	delay	4
+	offset	13 32
+	frame	data/chars/Sonic/234.gif
+	offset	8 36
+	frame	data/chars/Sonic/235.gif
+	offset	11 40
+	frame	data/chars/Sonic/236.gif
+	attack	17 10 23 18 8 0 1 0 0 0
+	offset	9 37
+	frame	data/chars/Sonic/237.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	12 37
+	frame	data/chars/Sonic/238.gif
+	offset	13 38
+	frame	data/chars/Sonic/239.gif
+	attack	17 12 29 17 10 0 1 0 0 0
+	offset	12 35
+	frame	data/chars/Sonic/240.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	15 36
+	frame	data/chars/Sonic/241.gif
+	offset	15 38
+	frame	data/chars/Sonic/247.gif
+	attack	25 7 30 34 8 0 1 0 0 0
+	offset	23 40
+	frame	data/chars/Sonic/248.gif
+	offset	21 40
+	frame	data/chars/Sonic/249.gif
+	offset	16 37
+	frame	data/chars/Sonic/250.gif
+	offset	12 36
+	frame	data/chars/Sonic/307.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	11 37
+	frame	data/chars/Sonic/308.gif
+	attack	20 11 16 23 5 0 1 0 0 0
+	offset	12 33
+	frame	data/chars/Sonic/309.gif
+	offset	15 37
+	frame	data/chars/Sonic/313.gif
+	offset	14 40
+	frame	data/chars/Sonic/314.gif
+	attack	22 8 29 35 18 1 1 0 0 0
+	dropv	2 5 0
+	offset	17 40
+	frame	data/chars/Sonic/315.gif
+	offset	15 42
+	frame	data/chars/Sonic/316.gif
+	offset	15 42
+	frame	data/chars/Sonic/317.gif
+	offset	14 44
+	frame	data/chars/Sonic/318.gif
 		
 anim	freespecial3
+	delay	10
+	offset	16 35
+	frame	data/chars/Sonic/329.gif
+	attack	18 4 24 39 10 0 1 0 0 0
+	delay	3
+	offset	16 39
+	frame	data/chars/Sonic/330.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	14 50
+	frame	data/chars/Sonic/331.gif
+	attack	18 6 43 45 20 1 1 0 0 10
+	dropv	5 3 0
+	offset	13 47
+	@cmd	projectile 1 "sonicBlast" 40 1 -7 1 0
+	frame	data/chars/Sonic/332.gif
+	delay	20
+	offset	13 44
+	frame	data/chars/Sonic/333.gif
+		
+anim	freespecial4
 	delay	7
 	offset	16 34
 	frame	data/chars/Sonic/297.gif
+	@cmd	dasher 4 0 0
+	@cmd	spawnparent "sonicDash" 30 0 -5
 	offset	12 28
 	frame	data/chars/Sonic/298.gif
+	attack	5 5 21 22 30 1 1 0 0 0
 	offset	13 24
 	frame	data/chars/Sonic/299.gif
 	offset	14 23
 	frame	data/chars/Sonic/300.gif
+	attack	8 6 21 22 30 1 0 1 0 0
 	offset	16 25
 	frame	data/chars/Sonic/301.gif
+	@cmd	dasher 1 0 0
 	offset	14 33
 	frame	data/chars/Sonic/302.gif
+	@cmd	stop
 	offset	16 25
 	frame	data/chars/Sonic/303.gif
 		
 anim	freespecial5
-	delay	7
+	delay	5
+	fastattack	1
+	attack	24 11 60 35 10 0 1 0 0 10
 	offset	19 40
 	frame	data/chars/Sonic/310.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	20 47
 	frame	data/chars/Sonic/311.gif
+	attack	24 11 60 41 10 0 0 1 0 10
 	offset	20 46
 	frame	data/chars/Sonic/312.gif
-		
-anim	freespecial2
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	19 40
+	frame	data/chars/Sonic/310.gif
+	attack	24 11 60 41 10 0 1 0 0 10
+	offset	20 47
+	frame	data/chars/Sonic/311.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	20 46
+	frame	data/chars/Sonic/312.gif
+	attack	24 11 60 35 10 0 1 0 0 10
+	offset	19 40
+	frame	data/chars/Sonic/310.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	20 47
+	frame	data/chars/Sonic/311.gif
+	attack	24 11 60 41 10 0 0 1 0 10
+	stun	1
+	offset	20 46
+	frame	data/chars/Sonic/312.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	17 40
+	delay	10
+	frame	data/chars/Sonic/51.gif
+	offset	13 39
+	frame	data/chars/Sonic/52.gif
+	offset	13 36
+	frame	data/chars/Sonic/53.gif
+	offset	12 39
+	frame	data/chars/Sonic/54.gif
+	delay	20
+	offset	13 37
+	frame	data/chars/Sonic/55.gif
+	offset	13 37
+	frame	data/chars/Sonic/55.gif
+	offset	13 37
+	frame	data/chars/Sonic/55.gif
+	offset	13 37
+	frame	data/chars/Sonic/55.gif
 	delay	7
-	offset	18 36
-	frame	data/chars/Sonic/251.gif
-	offset	18 39
-	frame	data/chars/Sonic/252.gif
-	offset	16 38
-	frame	data/chars/Sonic/253.gif
+	@cmd	dasher 2 0 0
+	offset	14 35
+	frame	data/chars/Sonic/33.gif
+	@cmd	dasher 1 0 0
 	offset	16 35
-	frame	data/chars/Sonic/254.gif
+	frame	data/chars/Sonic/329.gif
+	attack	18 4 24 39 10 0 1 0 0 0
+	delay	3
+	@cmd	stop
+	offset	16 39
+	frame	data/chars/Sonic/330.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	14 50
+	frame	data/chars/Sonic/331.gif
+	attack	18 6 43 45 20 1 1 0 0 10
+	dropv	5 3 0
+	offset	13 47
+	frame	data/chars/Sonic/332.gif
+	delay	20
+	offset	13 44
+	frame	data/chars/Sonic/333.gif
 		
 anim	freespecial6
-	delay	7
+	delay	20
 	offset	17 40
 	frame	data/chars/Sonic/573.gif
 	offset	20 42
 	frame	data/chars/Sonic/574.gif
+	delay	5
+	@cmd	spawnbind "sonicWhirlwind" 0 -35 0
+	@cmd	spawnbind "sonicWhirlwindBottom" 0 -35 -1
 	offset	16 46
 	frame	data/chars/Sonic/575.gif
 	offset	18 49
 	frame	data/chars/Sonic/576.gif
+	offset	16 46
+	frame	data/chars/Sonic/575.gif
+	offset	18 49
+	frame	data/chars/Sonic/576.gif
+	@cmd	damage_all_enemies 80 1 30 "ATK_NORMAL"
+	offset	16 46
+	frame	data/chars/Sonic/575.gif
+	offset	18 49
+	frame	data/chars/Sonic/576.gif
+	offset	16 46
+	frame	data/chars/Sonic/575.gif
+	offset	18 49
+	frame	data/chars/Sonic/576.gif
+	offset	16 46
+	frame	data/chars/Sonic/575.gif
+	offset	18 49
+	frame	data/chars/Sonic/576.gif
+	offset	16 46
+	frame	data/chars/Sonic/575.gif
+	offset	18 49
+	frame	data/chars/Sonic/576.gif
+	offset	16 46
+	frame	data/chars/Sonic/575.gif
+	offset	18 49
+	frame	data/chars/Sonic/576.gif
+	offset	16 46
+	frame	data/chars/Sonic/575.gif
+	offset	18 49
+	frame	data/chars/Sonic/576.gif
+	offset	16 46
+	frame	data/chars/Sonic/575.gif
+	offset	18 49
+	frame	data/chars/Sonic/576.gif
+	delay	30
+	offset	20 42
+	frame	data/chars/Sonic/574.gif
+	offset	17 40
+	frame	data/chars/Sonic/573.gif
 		
 anim	idle
+	bbox	7 10 16 31
 	delay	7
 	loop	1
 	offset	13 41
@@ -252,6 +506,20 @@ anim	idle
 	offset	13 40
 	frame	data/chars/Sonic/9.gif
 		
+anim	jump
+	fastattack	1
+	loop	1
+	attack	1 11 26 25 8 0 1 0 0 0
+	delay	7
+	offset	12 30
+	frame	data/chars/Sonic/262.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	13 30
+	frame	data/chars/Sonic/263.gif
+	attack	3 9 25 28 8 0 1 0 0 0
+	offset	14 32
+	frame	data/chars/Sonic/264.gif
+		
 anim	jumpattack
 	delay	7
 	offset	14 38
@@ -260,10 +528,13 @@ anim	jumpattack
 	frame	data/chars/Sonic/274.gif
 	offset	13 37
 	frame	data/chars/Sonic/275.gif
+	attack	19 17 27 32 7 0 1 0 0 0
 	offset	12 38
 	frame	data/chars/Sonic/276.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	12 37
 	frame	data/chars/Sonic/277.gif
+	attack	16 10 22 32 7 1 1 0 0 0
 	offset	11 37
 	frame	data/chars/Sonic/278.gif
 	offset	14 39
@@ -281,6 +552,8 @@ anim	jumpattack2
 	frame	data/chars/Sonic/283.gif
 	offset	20 41
 	frame	data/chars/Sonic/284.gif
+	attack	18 6 29 36 10 1 1 0 0 0
+	dropv	0 -4 0
 	offset	16 41
 	frame	data/chars/Sonic/285.gif
 	offset	16 37
@@ -318,6 +591,7 @@ anim	rise
 	frame	data/chars/Sonic/649.gif
 	offset	27 26
 	frame	data/chars/Sonic/650.gif
+	@cmd	leaper 0 1 0
 	offset	24 43
 	frame	data/chars/Sonic/651.gif
 	offset	24 34
@@ -328,6 +602,7 @@ anim	rise
 	frame	data/chars/Sonic/654.gif
 		
 anim	run
+	bbox	12 6 20 33
 	delay	7
 	loop	1
 	offset	17 38
@@ -347,21 +622,15 @@ anim	runattack
 	delay	7
 	offset	15 40
 	frame	data/chars/Sonic/258.gif
+	attack	24 3 32 56 10 1 1 0 0 0
+	@cmd	leaper 1 1 0
+	dropv	2 5 0
 	offset	19 43
 	frame	data/chars/Sonic/259.gif
 	offset	19 47
 	frame	data/chars/Sonic/260.gif
 	offset	18 40
 	frame	data/chars/Sonic/261.gif
-		
-anim	turn
-	delay	7
-	offset	9 36
-	frame	data/chars/Sonic/10.gif
-	offset	11 38
-	frame	data/chars/Sonic/11.gif
-	offset	11 36
-	frame	data/chars/Sonic/12.gif
 		
 anim	select
 	delay	7
@@ -377,22 +646,29 @@ anim	select
 	frame	data/chars/Sonic/55.gif
 		
 anim	walk
+	bbox	8 11 23 32
 	delay	7
 	loop	1
 	offset	15 41
 	frame	data/chars/Sonic/15.gif
 	offset	13 38
 	frame	data/chars/Sonic/16.gif
+	bbox	11 7 23 32
 	offset	19 38
 	frame	data/chars/Sonic/17.gif
+	bbox	9 7 23 32
 	offset	16 37
 	frame	data/chars/Sonic/18.gif
+	bbox	5 11 23 32
 	offset	11 41
 	frame	data/chars/Sonic/19.gif
+	bbox	9 8 23 32
 	offset	16 39
 	frame	data/chars/Sonic/20.gif
+	bbox	13 5 23 32
 	offset	20 35
 	frame	data/chars/Sonic/21.gif
+	bbox	9 9 23 32
 	offset	16 39
 	frame	data/chars/Sonic/22.gif
 		
