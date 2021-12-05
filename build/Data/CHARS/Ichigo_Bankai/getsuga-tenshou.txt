@@ -1,0 +1,42 @@
+name	getsugatenshou
+speed   30
+type 	none
+shadow	0
+setlayer 1000
+remove 0
+alpha 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	attack	351 380 150 150 50 1 1 0 0 50
+	loop	1
+	drawmethod	scale 0.15
+	drawmethod	tintmode 4
+	drawmethod	tintcolor 0_3_10
+	drawmethod	channel 0.30
+	delay	3
+	offset	428 446
+	dropv	2 5 0
+	frame	data/chars/Ichigo_Bankai/367.gif
+		
+#|edited by openBor Stats v 0.67
+		
