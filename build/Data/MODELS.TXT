@@ -309,6 +309,7 @@ know getsugatenshou data/chars/Ichigo_Bankai/getsuga-tenshou.txt
 know groundblast 	data/chars/Ichigo_Bankai/ground-blast.txt
 know fastcuts 	data/chars/Ichigo_Bankai/fast-cuts.txt
 know getsugalarge data/chars/Ichigo_Bankai/getsuga-large.txt
+know bTransformation 	data/chars/Ichigo_Bankai/btransformation.txt
 know red_spiritchargeup1 data/chars/Yusuke/red_spiritchargeup1.txt
 know red_spiritchargeup2 data/chars/Yusuke/red_spiritchargeup2.txt
 know redPunch data/chars/Yusuke/redpunch.txt
