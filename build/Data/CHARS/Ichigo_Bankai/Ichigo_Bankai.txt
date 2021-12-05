@@ -54,8 +54,9 @@ load getsugalarge
 
 
 
+
 anim	attack1
-	delay	7
+	delay	3
 	offset	25 47
 	frame	data/chars/Ichigo_Bankai/123.gif
 	offset	28 42
@@ -69,7 +70,7 @@ anim	attack1
 	frame	data/chars/Ichigo_Bankai/127.gif
 		
 anim	attack2
-	delay	7
+	delay	4
 	offset	24 43
 	frame	data/chars/Ichigo_Bankai/128.gif
 	offset	21 48
@@ -85,7 +86,7 @@ anim	attack2
 	frame	data/chars/Ichigo_Bankai/133.gif
 		
 anim	attack3
-	delay	7
+	delay	5
 	offset	28 42
 	frame	data/chars/Ichigo_Bankai/140.gif
 	offset	23 40
