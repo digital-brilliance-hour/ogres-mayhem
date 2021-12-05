@@ -3,8 +3,7 @@ speed   15
 type 	none
 shadow	0
 setlayer 1000
-alpha 4
-
+alpha 3
 
 
 
@@ -23,7 +22,8 @@ alpha 4
 
 anim	idle
 	drawmethod	scale 0.8
-	drawmethod	fillcolor 1
+	drawmethod	tintmode 4
+	drawmethod	tintcolor 0_3_10
 	delay	3
 	offset	47 85
 	frame	data/chars/Ichigo_Bankai/882.gif

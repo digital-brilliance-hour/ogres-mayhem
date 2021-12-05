@@ -1,9 +1,9 @@
 name  ichigoTransfomation
 health 100
-speed 9
+speed 17
 type player
 shadow 3
-running	27	3	2	1    1
+running	29	4	2	1    1
 
 animationscript 	data/scripts/spawns.c
 script 	data/scripts/playerscript.c
@@ -25,6 +25,9 @@ load groundblast
 load fastcuts
 load getsugatenshou
 load getsugalarge
+
+
+
 
 
 
@@ -401,12 +404,54 @@ anim	freespecial5
 	frame	data/chars/Ichigo_Bankai/184.gif
 	offset	27 57
 	frame	data/chars/Ichigo_Bankai/185.gif
-	offset	29 49
 	@cmd	spawnbind "groundblast" 0 -25 0
 	@cmd	damage_all_enemies 40 1 0 "ATK_NORMAL"
+	delay	3
+	offset	29 49
 	frame	data/chars/Ichigo_Bankai/186.gif
 	offset	27 49
 	frame	data/chars/Ichigo_Bankai/187.gif
+	offset	29 49
+	frame	data/chars/Ichigo_Bankai/186.gif
+	offset	27 49
+	frame	data/chars/Ichigo_Bankai/187.gif
+	offset	29 49
+	frame	data/chars/Ichigo_Bankai/186.gif
+	offset	27 49
+	frame	data/chars/Ichigo_Bankai/187.gif
+	offset	29 49
+	frame	data/chars/Ichigo_Bankai/186.gif
+	offset	27 49
+	frame	data/chars/Ichigo_Bankai/187.gif
+	offset	29 49
+	frame	data/chars/Ichigo_Bankai/186.gif
+	offset	27 49
+	frame	data/chars/Ichigo_Bankai/187.gif
+	offset	29 49
+	frame	data/chars/Ichigo_Bankai/186.gif
+	offset	27 49
+	frame	data/chars/Ichigo_Bankai/187.gif
+	offset	29 49
+	frame	data/chars/Ichigo_Bankai/186.gif
+	offset	27 49
+	frame	data/chars/Ichigo_Bankai/187.gif
+	offset	29 49
+	frame	data/chars/Ichigo_Bankai/186.gif
+	offset	27 49
+	frame	data/chars/Ichigo_Bankai/187.gif
+	offset	29 49
+	frame	data/chars/Ichigo_Bankai/186.gif
+	offset	27 49
+	frame	data/chars/Ichigo_Bankai/187.gif
+	offset	29 49
+	frame	data/chars/Ichigo_Bankai/186.gif
+	offset	27 49
+	frame	data/chars/Ichigo_Bankai/187.gif
+	offset	29 49
+	frame	data/chars/Ichigo_Bankai/186.gif
+	offset	27 49
+	frame	data/chars/Ichigo_Bankai/187.gif
+	delay	7
 	offset	22 45
 	frame	data/chars/Ichigo_Bankai/188.gif
 	offset	24 49
@@ -455,6 +500,12 @@ anim	freespecial6
 	frame	data/chars/Ichigo_Bankai/324.gif
 	offset	37 39
 	frame	data/chars/Ichigo_Bankai/325.gif
+	offset	44 39
+	frame	data/chars/Ichigo_Bankai/326.gif
+	offset	44 39
+	frame	data/chars/Ichigo_Bankai/326.gif
+	offset	44 39
+	frame	data/chars/Ichigo_Bankai/326.gif
 	offset	44 39
 	frame	data/chars/Ichigo_Bankai/326.gif
 	offset	25 47
