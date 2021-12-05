@@ -1,0 +1,32 @@
+name	sonicBlast
+speed   30
+type 	none
+shadow	0
+remove 0
+alpha 1
+
+
+
+
+
+
+
+
+anim	idle
+	attack	96 245 68 57 20 1 1 0 0 30
+	loop	1
+	drawmethod	scale 0.3
+	delay	7
+	offset	130 302
+	frame	data/chars/Sonic/2757.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	118 307
+	frame	data/chars/Sonic/2758.gif
+	attack	82 255 68 57 20 1 0 1 0 30
+	offset	115 310
+	frame	data/chars/Sonic/2759.gif
+	offset	131 317
+	frame	data/chars/Sonic/2760.gif
+		
+#|edited by openBor Stats v 0.67
+		

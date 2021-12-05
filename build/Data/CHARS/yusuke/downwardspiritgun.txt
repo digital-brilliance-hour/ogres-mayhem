@@ -4,7 +4,6 @@ type 	none
 shadow	0
 remove 0
 alpha 1
-animationscript data/scripts/spawns.c
 
 
 
@@ -19,7 +18,6 @@ anim	idle
 	drawmethod	rotate 45
 	attack	110 30 274 212 25 1 1 0 0 0
 	delay	7
-	@cmd	leaper 0 -10 0
 	offset	264 136
 	frame	data/chars/Broly_SSB/799.gif
 	attack	0 0 0 0 0 0 0 0 0 0

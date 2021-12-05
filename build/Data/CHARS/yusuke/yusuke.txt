@@ -19,11 +19,18 @@ com u s freespecial4
 animationscript data/scripts/spawns.c
 script data/scripts/playerscript.c
 
+load yusukeFire
+weapons YusukeTransform Yusuke
+weaploss 3
+
 parrow data/chars/misc/picon/1picon.gif -18 -100
 parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
+
+
+
 
 
 
@@ -174,6 +181,237 @@ anim	follow1
 	frame	data/chars/yusuke/32.gif
 		
 anim	freespecial
+	@cmd	isavailable 2
+	@cmd	mpcost 10
+	delay	7
+	fastattack	1
+	offset	26 44
+	frame	data/chars/yusuke/102.gif
+	attack	16 2 52 45 16 0 1 0 0 0
+	offset	16 45
+	frame	data/chars/yusuke/103.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	6 46
+	frame	data/chars/yusuke/104.gif
+	attack	4 0 47 48 11 0 1 0 0 0
+	offset	6 46
+	frame	data/chars/yusuke/105.gif
+	offset	4 46
+	frame	data/chars/yusuke/106.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	15 44
+	frame	data/chars/yusuke/61.gif
+	offset	11 43
+	frame	data/chars/yusuke/62.gif
+	attack	14 5 42 39 13 1 1 0 0 0
+	dropv	2 0 0
+	offset	13 42
+	frame	data/chars/yusuke/63.gif
+	offset	9 44
+	frame	data/chars/yusuke/64.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	12 46
+	frame	data/chars/yusuke/97.gif
+	offset	12 45
+	frame	data/chars/yusuke/107.gif
+	offset	12 45
+	frame	data/chars/yusuke/98.gif
+	attack	22 3 54 46 20 1 1 0 0 0
+	dropv	1 6 0
+	offset	21 48
+	frame	data/chars/yusuke/99.gif
+	offset	21 48
+	frame	data/chars/yusuke/100.gif
+	offset	12 39
+	frame	data/chars/yusuke/101.gif
+		
+anim	freespecial11
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	7
+	offset	22 37
+	frame	data/chars/yusuke/8.gif
+	delay	2
+	@cmd	dasher 5 0 0
+	drawmethod	scale 0.5 0.4
+	drawmethod	alpha 1
+	fshadow	0
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	@cmd	stop
+	drawmethod	alpha 0
+	fshadow	3
+	delay	7
+	offset	22 37
+	frame	data/chars/yusuke/8.gif
+		
+anim	freespecial2
+	@cmd	isavailable 3
+	@cmd	mpcost 20
+	delay	7
+	fastattack	1
+	offset	18 40
+	frame	data/chars/yusuke/33.gif
+	offset	17 37
+	frame	data/chars/yusuke/34.gif
+	sound	data/chars/yusuke/yusuke-_0-0.wav
+	attack	34 2 60 43 10 0 1 0 0 0
+	offset	12 44
+	frame	data/chars/yusuke/93.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	12 44
+	frame	data/chars/yusuke/94.gif
+	attack	34 2 60 42 10 0 1 0 0 0
+	offset	12 44
+	frame	data/chars/yusuke/95.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	12 44
+	frame	data/chars/yusuke/96.gif
+	attack	34 2 60 43 10 0 1 0 0 0
+	offset	12 44
+	frame	data/chars/yusuke/93.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	12 44
+	frame	data/chars/yusuke/94.gif
+	attack	34 2 60 42 10 0 1 0 0 0
+	offset	12 44
+	frame	data/chars/yusuke/95.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	12 44
+	frame	data/chars/yusuke/96.gif
+	attack	34 2 60 43 10 0 1 0 0 0
+	offset	12 44
+	frame	data/chars/yusuke/93.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	12 44
+	frame	data/chars/yusuke/94.gif
+	attack	34 2 60 42 10 0 1 0 0 0
+	offset	12 44
+	frame	data/chars/yusuke/95.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	12 44
+	frame	data/chars/yusuke/96.gif
+	offset	14 45
+	frame	data/chars/yusuke/48.gif
+	offset	16 44
+	frame	data/chars/yusuke/49.gif
+	offset	15 46
+	frame	data/chars/yusuke/50.gif
+	offset	17 42
+	frame	data/chars/yusuke/51.gif
+	offset	15 42
+	frame	data/chars/yusuke/52.gif
+	offset	15 44
+	frame	data/chars/yusuke/53.gif
+		
+anim	freespecial3
+	@cmd	isavailable 4
+	delay	7
+	@cmd	pause_all 1 150
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnparent "blue_spiritchargeup1" 13 0 -17
+	sound	data/chars/yusuke/yusuke-_5-50.wav
+	offset	14 47
+	frame	data/chars/yusuke/35.gif
+	offset	14 47
+	frame	data/chars/yusuke/36.gif
+	offset	14 47
+	frame	data/chars/yusuke/35.gif
+	offset	14 47
+	frame	data/chars/yusuke/36.gif
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	offset	14 46
+	frame	data/chars/yusuke/37.gif
+	offset	14 44
+	frame	data/chars/yusuke/38.gif
+	@cmd	spawnparent "pdust" -10 0 -20
+	@cmd	projectile 1 "spiritgun" 55 1 36 1 0
+	sound	data/chars/broly_ssb/broly_5-52.wav
+	offset	26 49
+	frame	data/chars/yusuke/39.gif
+	sound	data/chars/yusuke/yusuke-_0-3.wav
+	offset	36 45
+	frame	data/chars/yusuke/40.gif
+	offset	22 49
+	frame	data/chars/yusuke/41.gif
+	offset	16 50
+	frame	data/chars/yusuke/42.gif
+		
+anim	freespecial4
+	weaponframe	22 1
+	delay	15
+	@cmd	pause_all 1 150
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnparent "blue_powerup" -3 0 -22
+	sound	data/chars/yusuke/yusuke-_0-20.wav
+	offset	17 46
+	frame	data/chars/yusuke/71.gif
+	offset	17 46
+	frame	data/chars/yusuke/71.gif
+	offset	17 46
+	frame	data/chars/yusuke/71.gif
+	offset	17 46
+	frame	data/chars/yusuke/71.gif
+	offset	17 46
+	frame	data/chars/yusuke/71.gif
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	offset	17 46
+	frame	data/chars/yusuke/71.gif
+	delay	7
+	@cmd	spawnparent "yusukeFire" -28 -172 -117
+	offset	23 32
+	frame	data/chars/yusuke/72.gif
+	offset	24 30
+	frame	data/chars/yusuke/73.gif
+	offset	23 32
+	frame	data/chars/yusuke/72.gif
+	offset	24 30
+	frame	data/chars/yusuke/73.gif
+	offset	23 32
+	frame	data/chars/yusuke/72.gif
+	offset	24 30
+	frame	data/chars/yusuke/73.gif
+	offset	23 32
+	frame	data/chars/yusuke/72.gif
+	offset	24 30
+	frame	data/chars/yusuke/73.gif
+	offset	23 32
+	frame	data/chars/yusuke/72.gif
+	offset	24 30
+	frame	data/chars/yusuke/73.gif
+	offset	23 32
+	frame	data/chars/yusuke/72.gif
+	offset	24 30
+	frame	data/chars/yusuke/73.gif
+	offset	23 32
+	frame	data/chars/yusuke/72.gif
+	offset	24 30
+	frame	data/chars/yusuke/73.gif
+	offset	27 55
+	frame	data/chars/yusuke/277.gif
+	offset	24 53
+	frame	data/chars/yusuke/275.gif
+	offset	16 40
+	frame	data/chars/yusuke/transformation_69.gif
+		
+anim	freespecial5
 	@cmd	isavailable 5
 	@cmd	mpcost 30
 	delay	7
@@ -259,76 +497,7 @@ anim	freespecial
 	offset	12 39
 	frame	data/chars/yusuke/101.gif
 		
-anim	freespecial11
-	sound	data/chars/yusuke/broly_5-22.wav
-	delay	7
-	offset	22 37
-	frame	data/chars/yusuke/8.gif
-	delay	2
-	@cmd	dasher 5 0 0
-	drawmethod	scale 0.5 0.4
-	drawmethod	alpha 1
-	fshadow	0
-	offset	179 61
-	frame	data/chars/yusuke/840.gif
-	offset	178 63
-	frame	data/chars/yusuke/841.gif
-	offset	219 65
-	frame	data/chars/yusuke/842.gif
-	offset	225 79
-	frame	data/chars/yusuke/843.gif
-	offset	222 82
-	frame	data/chars/yusuke/844.gif
-	offset	223 79
-	frame	data/chars/yusuke/845.gif
-	offset	226 80
-	frame	data/chars/yusuke/846.gif
-	offset	219 83
-	frame	data/chars/yusuke/847.gif
-	offset	209 83
-	frame	data/chars/yusuke/848.gif
-	@cmd	stop
-	drawmethod	alpha 0
-	fshadow	3
-	delay	7
-	offset	22 37
-	frame	data/chars/yusuke/8.gif
-		
-anim	freespecial3
-	@cmd	isavailable 4
-	delay	7
-	@cmd	pause_all 1 150
-	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnparent "blue_spiritchargeup1" 13 0 -17
-	sound	data/chars/yusuke/yusuke-_5-50.wav
-	offset	14 47
-	frame	data/chars/yusuke/35.gif
-	offset	14 47
-	frame	data/chars/yusuke/36.gif
-	offset	14 47
-	frame	data/chars/yusuke/35.gif
-	offset	14 47
-	frame	data/chars/yusuke/36.gif
-	@cmd	spawnbind "zoomout" 0 0 0
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
-	offset	14 46
-	frame	data/chars/yusuke/37.gif
-	offset	14 44
-	frame	data/chars/yusuke/38.gif
-	@cmd	spawnparent "pdust" -10 0 -20
-	@cmd	projectile 1 "spiritgun" 55 1 36 1 0
-	sound	data/chars/broly_ssb/broly_5-52.wav
-	offset	26 49
-	frame	data/chars/yusuke/39.gif
-	sound	data/chars/yusuke/yusuke-_0-3.wav
-	offset	36 45
-	frame	data/chars/yusuke/40.gif
-	offset	22 49
-	frame	data/chars/yusuke/41.gif
-	offset	16 50
-	frame	data/chars/yusuke/42.gif
-		
-anim	freespecial4
+anim	freespecial6
 	@cmd	isavailable 6
 	delay	15
 	@cmd	pause_all 1 150
@@ -379,113 +548,6 @@ anim	freespecial4
 	frame	data/chars/yusuke/72.gif
 	offset	24 30
 	frame	data/chars/yusuke/73.gif
-		
-anim	freespecial5
-	delay	7
-	offset	14 45
-	frame	data/chars/yusuke/48.gif
-	offset	16 44
-	frame	data/chars/yusuke/49.gif
-	offset	15 46
-	frame	data/chars/yusuke/50.gif
-	offset	17 42
-	frame	data/chars/yusuke/51.gif
-	offset	15 42
-	frame	data/chars/yusuke/52.gif
-	offset	15 44
-	frame	data/chars/yusuke/53.gif
-		
-anim	freespecial6
-	@cmd	isavailable 2
-	@cmd	mpcost 10
-	delay	7
-	fastattack	1
-	offset	26 44
-	frame	data/chars/yusuke/102.gif
-	attack	16 2 52 45 16 0 1 0 0 0
-	offset	16 45
-	frame	data/chars/yusuke/103.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	6 46
-	frame	data/chars/yusuke/104.gif
-	attack	4 0 47 48 11 0 1 0 0 0
-	offset	6 46
-	frame	data/chars/yusuke/105.gif
-	offset	4 46
-	frame	data/chars/yusuke/106.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	15 44
-	frame	data/chars/yusuke/61.gif
-	offset	11 43
-	frame	data/chars/yusuke/62.gif
-	attack	14 5 42 39 13 1 1 0 0 0
-	dropv	2 0 0
-	offset	13 42
-	frame	data/chars/yusuke/63.gif
-	offset	9 44
-	frame	data/chars/yusuke/64.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	12 46
-	frame	data/chars/yusuke/97.gif
-	offset	12 45
-	frame	data/chars/yusuke/107.gif
-	offset	12 45
-	frame	data/chars/yusuke/98.gif
-	attack	22 3 54 46 20 1 1 0 0 0
-	dropv	1 6 0
-	offset	21 48
-	frame	data/chars/yusuke/99.gif
-	offset	21 48
-	frame	data/chars/yusuke/100.gif
-	offset	12 39
-	frame	data/chars/yusuke/101.gif
-		
-anim	freespecial7
-	@cmd	isavailable 3
-	@cmd	mpcost 20
-	delay	7
-	fastattack	1
-	offset	18 40
-	frame	data/chars/yusuke/33.gif
-	offset	17 37
-	frame	data/chars/yusuke/34.gif
-	sound	data/chars/yusuke/yusuke-_0-0.wav
-	attack	34 2 60 43 10 0 1 0 0 0
-	offset	12 44
-	frame	data/chars/yusuke/93.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	12 44
-	frame	data/chars/yusuke/94.gif
-	attack	34 2 60 42 10 0 1 0 0 0
-	offset	12 44
-	frame	data/chars/yusuke/95.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	12 44
-	frame	data/chars/yusuke/96.gif
-	attack	34 2 60 43 10 0 1 0 0 0
-	offset	12 44
-	frame	data/chars/yusuke/93.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	12 44
-	frame	data/chars/yusuke/94.gif
-	attack	34 2 60 42 10 0 1 0 0 0
-	offset	12 44
-	frame	data/chars/yusuke/95.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	12 44
-	frame	data/chars/yusuke/96.gif
-	attack	34 2 60 43 10 0 1 0 0 0
-	offset	12 44
-	frame	data/chars/yusuke/93.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	12 44
-	frame	data/chars/yusuke/94.gif
-	attack	34 2 60 42 10 0 1 0 0 0
-	offset	12 44
-	frame	data/chars/yusuke/95.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	12 44
-	frame	data/chars/yusuke/96.gif
 		
 anim	get
 	delay	7

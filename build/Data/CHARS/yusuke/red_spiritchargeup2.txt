@@ -1,0 +1,142 @@
+name	red_spiritchargeup2
+speed   15
+type 	none
+shadow	0
+setlayer 1000
+alpha 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	delay	4
+	drawmethod	scale 0.25
+	offset	126 171
+	frame	data/chars/yusuke/937.gif
+	offset	132 171
+	frame	data/chars/yusuke/938.gif
+	offset	141 169
+	frame	data/chars/yusuke/939.gif
+	offset	133 183
+	frame	data/chars/yusuke/940.gif
+	offset	123 180
+	frame	data/chars/yusuke/941.gif
+	offset	133 185
+	frame	data/chars/yusuke/942.gif
+	offset	141 187
+	frame	data/chars/yusuke/943.gif
+	offset	132 167
+	frame	data/chars/yusuke/944.gif
+	offset	123 165
+	frame	data/chars/yusuke/945.gif
+	offset	133 163
+	frame	data/chars/yusuke/946.gif
+	offset	142 142
+	frame	data/chars/yusuke/947.gif
+	offset	132 150
+	frame	data/chars/yusuke/948.gif
+	offset	122 148
+	frame	data/chars/yusuke/949.gif
+	offset	133 139
+	frame	data/chars/yusuke/950.gif
+	offset	142 142
+	frame	data/chars/yusuke/951.gif
+	offset	133 133
+	frame	data/chars/yusuke/952.gif
+	offset	123 123
+	frame	data/chars/yusuke/953.gif
+	offset	123 165
+	frame	data/chars/yusuke/954.gif
+	drawmethod	scale 0.45
+	offset	126 171
+	frame	data/chars/yusuke/937.gif
+	offset	132 171
+	frame	data/chars/yusuke/938.gif
+	offset	141 169
+	frame	data/chars/yusuke/939.gif
+	offset	133 183
+	frame	data/chars/yusuke/940.gif
+	offset	123 180
+	frame	data/chars/yusuke/941.gif
+	offset	133 185
+	frame	data/chars/yusuke/942.gif
+	offset	141 187
+	frame	data/chars/yusuke/943.gif
+	offset	132 167
+	frame	data/chars/yusuke/944.gif
+	offset	123 165
+	frame	data/chars/yusuke/945.gif
+	offset	133 163
+	frame	data/chars/yusuke/946.gif
+	offset	142 142
+	frame	data/chars/yusuke/947.gif
+	offset	132 150
+	frame	data/chars/yusuke/948.gif
+	offset	122 148
+	frame	data/chars/yusuke/949.gif
+	offset	133 139
+	frame	data/chars/yusuke/950.gif
+	offset	142 142
+	frame	data/chars/yusuke/951.gif
+	offset	133 133
+	frame	data/chars/yusuke/952.gif
+	offset	123 123
+	frame	data/chars/yusuke/953.gif
+	offset	123 165
+	frame	data/chars/yusuke/954.gif
+	drawmethod	scale 0.8
+	offset	126 171
+	frame	data/chars/yusuke/937.gif
+	offset	132 171
+	frame	data/chars/yusuke/938.gif
+	offset	141 169
+	frame	data/chars/yusuke/939.gif
+	offset	133 183
+	frame	data/chars/yusuke/940.gif
+	offset	123 180
+	frame	data/chars/yusuke/941.gif
+	offset	133 185
+	frame	data/chars/yusuke/942.gif
+	offset	141 187
+	frame	data/chars/yusuke/943.gif
+	offset	132 167
+	frame	data/chars/yusuke/944.gif
+	offset	123 165
+	frame	data/chars/yusuke/945.gif
+	offset	133 163
+	frame	data/chars/yusuke/946.gif
+	offset	142 142
+	frame	data/chars/yusuke/947.gif
+	offset	132 150
+	frame	data/chars/yusuke/948.gif
+	offset	122 148
+	frame	data/chars/yusuke/949.gif
+	offset	133 139
+	frame	data/chars/yusuke/950.gif
+	offset	142 142
+	frame	data/chars/yusuke/951.gif
+	offset	133 133
+	frame	data/chars/yusuke/952.gif
+	offset	123 123
+	frame	data/chars/yusuke/953.gif
+	offset	123 165
+	frame	data/chars/yusuke/954.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		
