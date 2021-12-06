@@ -73,7 +73,7 @@ credits 5
 continuescore 2
 cansave 2
 noshare 1
-skipselect deku
+skipselect blankP
 scene 	data/scenes/howto.txt
 file 	data/levels/scenes/story/story.txt
 select  data/scenes/main-select.txt

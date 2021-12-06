@@ -176,12 +176,39 @@ void main()
     }
 
     if (openborvariant("game_paused")) {
-      //will place code to add background soon. 
-      /*int ls = getglobalvar("blackpause");
+      //will place code to add background soon.
+      
+       void black_scr = getglobalvar("blackscreen");
+       if(!black_scr){
+          black_scr = allocscreen(openborvariant("hResolution"),openborvariant("vResolution"));
+          setglobalvar("blackscreen",black_scr);
+       }
+       clearscreen(black_scr);
+      void blackscreencounter = getlocalvar("blackscreencounter");
+      if(blackscreencounter != 1){
+      blackscreencounter = setlocalvar("blackscreencounter",1);  
+      } 
+      int ls = getglobalvar("blackpause");
       void background = loadsprite("data/bgs/black.gif");
-      drawsprite(background, 0, 0, 8, 0);
-      setdrawmethod(NULL(), 0, 256, 256, 0, 0, 0, 1, 0);*/
+      drawspritetoscreen(background, black_scr, 0, 0);
+      setdrawmethod(NULL(), 0, 256, 256, 0, 0, 0, 1, 0);
+      drawscreen(black_scr,0,0,1000,0);
+
       //changedrawmethod(NULL(), "alpha", 1);
+      /*void blackscreencounter = getlocalvar("blackscreencounter"); 
+      while(blackscreencounter!=1)
+      {
+        void subent;
+        loadmodel("blackScreen"); // name of the entity to be loaded
+        clearspawnentry(); // clean the spawn entry
+        setspawnentry("name", "blackScreen"); // define the entity to be spawn
+        //setspawnentry("coords", 1,1,10000); // set the position of the entity
+        subent=spawn();  //  spawn the entity
+        //changeentityproperty(subent, "position", 1,1,10000); //for safe, set again the position
+        setglobalvar("bckground", subent);
+        blackscreencounter = setlocalvar("blackscreencounter",1); // turn on the variable, blocking a new spawn to be made
+      }*/
+
       void p;
       int i, hp, mp, lv, num;
       for(i=0; i<4; i++){

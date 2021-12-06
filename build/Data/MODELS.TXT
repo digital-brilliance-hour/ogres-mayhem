@@ -323,3 +323,5 @@ know sonicBlast data/chars/Sonic/sonicBlast.txt
 know sonicDash data/chars/Sonic/sonicDash.txt
 know sonicWhirlwind data/chars/Sonic/sonicWhirlwind.txt
 know sonicWhirlwindBottom data/chars/Sonic/sonicWhirlwindBottom.txt
+know blackScreen data/chars/misc/blackscreen.txt
+Load blankP Data/Chars/blankP/blankP.txt
