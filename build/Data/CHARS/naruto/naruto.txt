@@ -72,6 +72,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	loop	0
 	delay	3
@@ -261,8 +262,13 @@ anim	freespecial11
 		
 anim	freespecial2
 	@cmd	isavailable 3
-	energycost	20
 	mponly	1
+	energycost	20
+	@cmd	pause_all 1 10
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 1
+	@cmd	changeopenborvariant "slowmotion" 0
 	delay	6
 	fastattack	1
 	offset	60 116
@@ -310,6 +316,14 @@ anim	freespecial2
 	frame	data/chars/Naruto/jatk02.png
 		
 anim	freespecial3
+	@cmd	isavailable 4
+	mponly	1
+	@cmd	changeentityproperty getlocalvar("self") "mp
+	@cmd	pause_all 1 10
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 1
+	@cmd	changeopenborvariant "slowmotion" 0
 	delay	7
 	offset	18 47
 	@cmd	pause_all 1 200
@@ -387,6 +401,14 @@ anim	freespecial3
 	frame	data/chars/Naruto/8.gif
 		
 anim	freespecial4
+	@cmd	isavailable 7
+	mponly	1
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	pause_all 1 10
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 1
+	@cmd	changeopenborvariant "slowmotion" 0
 	loop	0
 	delay	10
 	@cmd	pause_all 1 10
@@ -445,6 +467,14 @@ anim	freespecial4
 	frame	data/chars/Naruto/236.gif
 		
 anim	freespecial5
+	@cmd	isavailable 5
+	mponly	1
+	energycost	30
+	@cmd	pause_all 1 10
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 1
+	@cmd	changeopenborvariant "slowmotion" 0
 	@cmd	npc_check 2
 	delay	3
 	offset	18 47
