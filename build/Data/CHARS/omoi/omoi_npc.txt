@@ -8,7 +8,7 @@ running	15	3	2	1
 icon	data/chars/Omoi/icon.png
 com  d  f  a  freespecial
 type	npc
-shadow	2
+shadow  3
 grabdistance 23
 diesound data/chars/Sasuke/die.wav
 bflash  bflash

@@ -3,7 +3,7 @@ name	Kizaru
 health	1000
 speed	20
 type	enemy
-shadow	2
+shadow  3
 
 icon	data/chars/kizaru/icon.gif
 cantgrab 1

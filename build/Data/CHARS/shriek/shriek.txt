@@ -2,7 +2,7 @@ name	Shrieker
 health	60
 speed	17
 type	enemy
-shadow	0
+shadow  3
 cantgrab 1
 subject_to_screen 1
 
@@ -43,11 +43,6 @@ anim	land
 	delay	10
 	frame	data/chars/Shriek/Idle1.gif
 		
-anim	spawn
-	delay	75
-	@cmd	spawnparent "e_spawn" 0 0 0
-	frame	data/chars/misc/empty.gif
-		
 anim	pain
 	loop	0
 	offset	60 116
@@ -60,6 +55,11 @@ anim	rise
 	offset	60 116
 	delay	10
 	frame	data/chars/Shriek/Idle1.gif
+		
+anim	spawn
+	delay	75
+	@cmd	spawnparent "e_spawn" 0 0 0
+	frame	data/chars/misc/empty.gif
 		
 anim	walk
 	loop	1

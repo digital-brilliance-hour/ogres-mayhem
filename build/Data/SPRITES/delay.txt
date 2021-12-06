@@ -1,7 +1,7 @@
 name       delay
 health       30
 type       enemy
-shadow     0
+shadow     3
 nomove     1
 
 

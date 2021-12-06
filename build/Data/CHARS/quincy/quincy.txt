@@ -2,7 +2,7 @@ name	Quincy
 health	50
 speed	17
 type	enemy
-shadow	0
+shadow  3
 cantgrab 1
 animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c

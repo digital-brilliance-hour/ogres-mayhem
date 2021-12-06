@@ -3,7 +3,7 @@ name	Throw
 health	50
 speed	8
 type	enemy
-shadow	0
+shadow  3
 icon	data/chars/Throw/icon.gif
 load nife
 knife nife

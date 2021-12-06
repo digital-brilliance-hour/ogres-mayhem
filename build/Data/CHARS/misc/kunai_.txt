@@ -2,19 +2,14 @@ name	Kunai_
 health	1
 speed   8
 type	enemy
-shadow	0
+shadow  3
 
-anim idle
+anim	idle
 	loop	1
 	delay	10
 	offset	60 -10
-        attack  2 0 13 16 18 1
+	attack	2 0 13 16 18 1
 	frame	data/chars/misc/Kunai_.gif
-
-
-
-
-
-
-
-
+		
+#|edited by openBor Stats v 0.67
+		

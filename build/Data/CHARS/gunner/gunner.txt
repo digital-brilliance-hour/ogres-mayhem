@@ -3,7 +3,7 @@ name	Gunner
 health	150
 speed	10
 type	enemy
-shadow	2
+shadow  3
 icon	data/chars/Gunner/icon.gif
 hostile player npc
 load gun

@@ -3,7 +3,7 @@ name	Shanks
 health	1000
 speed	10
 type	enemy
-shadow	2
+shadow  3
 atchain  1 2 1 3
 icon	data/chars/shanks/icon.gif
 diesound data/chars/shanks/down.wav

@@ -2,6 +2,7 @@ name Asuma_npc
 type	npc
 candamage obstacle enemy
 projectilehit obstacle enemy
+shadow  3
 Health	600
 icon	data/chars/asuma/0.gif
 speed	7

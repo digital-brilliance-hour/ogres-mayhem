@@ -11,7 +11,7 @@ load cloneSmoke
 nodieblink 2
 candamage enemy
 atchain		1 1 2 1 3
-shadow	2
+shadow  3
 grabdistance 23
 icon	data/chars/Naruto/icon.gif
 bflash  bflash

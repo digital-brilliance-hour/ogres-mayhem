@@ -7,7 +7,7 @@ speed	7
 running	15	3	2	1
 com  d  f  a  freespecial
 type	player
-shadow	2
+shadow  3
 grabdistance 23
 diesound data/chars/Sasuke/die.wav
 bflash  bflash

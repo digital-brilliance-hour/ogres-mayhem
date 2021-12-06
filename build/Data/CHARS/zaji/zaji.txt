@@ -2,7 +2,7 @@ name	Zaji_Player
 health	250
 speed	7
 type	player
-shadow	2
+shadow  3
 bflash  bflash
 running	15	3	2	1
 dust	 dust

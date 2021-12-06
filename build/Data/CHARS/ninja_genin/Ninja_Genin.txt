@@ -4,7 +4,7 @@ speed	7
 type	enemy
 candamage     npc player
 hostile	npc player
-shadow	2
+shadow  3
 diesound data/sounds/die2.wav
 icon	data/chars/Ninja_Genin/icon.png
 bflash  bflash

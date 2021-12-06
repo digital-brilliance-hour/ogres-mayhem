@@ -4,7 +4,7 @@ speed	14
 running	25 4 2 1 1
 type	enemy
 aimove	chasez
-shadow	5
+shadow  3
 icon	data/chars/facce/icon.gif
 
 diesound data/sounds/die2.wav

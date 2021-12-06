@@ -15,6 +15,7 @@ animationscript data/scripts/spawns.c
 
 
 
+
 anim	attack1
 	loop	0
 	range	0	100

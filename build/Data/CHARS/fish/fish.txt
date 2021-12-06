@@ -2,7 +2,7 @@ name	Grand_Fisher
 type	enemy
 health	100
 speed	9
-shadow	0
+shadow  3
 cantgrab 1
 subject_to_screen 1
 

@@ -9,14 +9,14 @@ hostile enemy
 candamage obstacle enemy
 projectilehit obstacle enemy
 com  d  f  a  freespecial
-shadow	2
+shadow  3
 grabdistance 23
 diesound data/chars/Sasuke/die.wav
 icon	data/chars/Sasuke/icon.gif
 bflash  bflash
 dust	 dust
 jumpheight 5
-#subtype		chase
+
 aggression	54
 blockodds 1
 atchain	1 2 3

@@ -3,7 +3,7 @@ name	Marine
 health	150
 speed	10
 type	enemy
-shadow	2
+shadow  3
 icon	data/chars/Marine/icon.gif
 subtype chase
 hostile player npc

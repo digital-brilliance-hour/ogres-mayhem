@@ -3,44 +3,47 @@ health	1
 speed   14
 type	npc
 candamage    enemy
-shadow	0
+shadow  3
 subject_to_platform		1
 icon	data/chars/misc/shuri.gif
-anim idle
+
+anim	idle
 	loop	1
 	delay	12
 	offset	4 8
-        attack  0 0 8 9 14
-        hitflash flash
+	attack	0 0 8 9 14
+	hitflash	flash
 	frame	data/chars/misc/shuri.gif
-		offset  5  8
+	offset	5 8
 	frame	data/chars/misc/shuri2.gif
-		delay  12
-		offset  4  8
-		attack  0
-		hitflash  flash
-	frame  data/chars/misc/shuri.gif
-		offset  5  8
-	frame  data/chars/misc/shuri2.gif
-		delay  12
-		offset  4  8
-		attack  0
-		hitflash  flash
-	frame  data/chars/misc/shuri.gif
-		offset  5  8
-	frame  data/chars/misc/shuri2.gif
-		delay  12
-		offset  4  8
-		attack  0
-		hitflash  flash
-	frame  data/chars/misc/shuri.gif
-		offset  5  8
-	frame  data/chars/misc/shuri2.gif
-		delay  12
-		offset  4  8
-		attack  0
-		hitflash  flash
-	frame  data/chars/misc/shuri.gif
-		offset  5  8
-	frame  data/chars/misc/shuri2.gif
-
+	delay	12
+	offset	4 8
+	attack	0
+	hitflash	flash
+	frame	data/chars/misc/shuri.gif
+	offset	5 8
+	frame	data/chars/misc/shuri2.gif
+	delay	12
+	offset	4 8
+	attack	0
+	hitflash	flash
+	frame	data/chars/misc/shuri.gif
+	offset	5 8
+	frame	data/chars/misc/shuri2.gif
+	delay	12
+	offset	4 8
+	attack	0
+	hitflash	flash
+	frame	data/chars/misc/shuri.gif
+	offset	5 8
+	frame	data/chars/misc/shuri2.gif
+	delay	12
+	offset	4 8
+	attack	0
+	hitflash	flash
+	frame	data/chars/misc/shuri.gif
+	offset	5 8
+	frame	data/chars/misc/shuri2.gif
+		
+#|edited by openBor Stats v 0.67
+		

@@ -2,7 +2,7 @@ name	Kagome
 health	70
 speed	7
 type	enemy
-shadow	4
+shadow  3
 diesound 	data/chars/kagome/die.wav
 icon	data/chars/kagome/icon.png
 load    arrow

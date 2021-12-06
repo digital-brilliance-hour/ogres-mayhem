@@ -4,7 +4,7 @@ name	Krillin
 health	100
 speed	10
 type	player
-shadow	2
+shadow  3
 diesound data/chars/Krillin/die.wav
 icon	data/chars/Krillin/icon.gif
 running	24 4.1 2 1

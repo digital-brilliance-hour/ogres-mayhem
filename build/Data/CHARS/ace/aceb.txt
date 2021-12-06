@@ -2,7 +2,7 @@ name	Aceb
 health	1500
 speed	20
 type	enemy
-shadow	2
+shadow  3
 
 icon	data/chars/Ace/icon.gif
 holdblock 1

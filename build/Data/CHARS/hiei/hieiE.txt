@@ -6,7 +6,7 @@ gfxshadow 1
 fmap 2
 speed	12
 type	enemy
-shadow	5
+shadow  3
 aimove chase
 escapehits 1
 riseinv 2 0

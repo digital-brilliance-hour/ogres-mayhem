@@ -3,7 +3,7 @@ health	200
 mp 300
 speed	20
 type	Player
-shadow	2
+shadow  3
 
 icon	data/chars/Ace/icon.gif
 atchain  1 2 3 3

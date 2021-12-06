@@ -2,7 +2,7 @@ name	Blood_H
 health	60
 speed	13
 type	enemy
-shadow	0
+shadow  3
 
 diesound data/sounds/shaah.wav
 nodrop	1

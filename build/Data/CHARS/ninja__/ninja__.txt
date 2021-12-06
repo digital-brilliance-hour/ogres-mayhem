@@ -3,7 +3,7 @@ health	100
 speed	7
 blockodds 1
 type	enemy
-shadow	2
+shadow  3
 diesound data/sounds/die2.wav
 icon	data/chars/Ninja__/icon.gif
 bflash  bflash

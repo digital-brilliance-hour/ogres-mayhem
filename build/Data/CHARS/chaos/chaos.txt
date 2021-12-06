@@ -2,7 +2,7 @@ name	Chaos
 health	100
 speed	10
 type	enemy
-shadow	0
+shadow  3
 icon    data/chars/chaos/icon.gif
 diesound data/sounds/die1.wav
 

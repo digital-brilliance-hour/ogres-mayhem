@@ -3,7 +3,7 @@ health 100
 speed 12
 running	20	4	2	1    1
 type player
-shadow	2
+shadow  3
 diesound data/chars/yusuke/yusuke-_11-0.wav
 icon	data/chars/yusuke/0.gif
 atchain 1 1 2 4 5 3

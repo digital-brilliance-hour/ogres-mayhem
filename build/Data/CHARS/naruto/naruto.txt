@@ -3,7 +3,7 @@ health	100
 speed 10
 running	16	3	2	1    1
 type	player
-shadow	2
+shadow  3
 grabdistance 23
 diesound data/chars/Naruto/die.wav
 icon	data/chars/Naruto/icon.gif

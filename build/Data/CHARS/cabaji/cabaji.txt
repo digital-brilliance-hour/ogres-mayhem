@@ -3,7 +3,7 @@ name	Cabaji
 health	200
 speed	20
 type	enemy
-shadow	2
+shadow  3
 
 icon	data/chars/Cabaji/icon.gif
 subtype chase

@@ -4,7 +4,7 @@ speed	9
 type	enemy
 hostile npc player
 candamage     npc player
-shadow	2
+shadow  3
 diesound data/sounds/die2.wav
 bflash  bflash
 dust	 dust

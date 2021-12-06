@@ -2,7 +2,7 @@ name	Zaji_npc
 health	250
 speed	7
 type	npc
-shadow	2
+shadow  3
 diesound data/sounds/die2.wav
 bflash  bflash
 running	15	3	2	1

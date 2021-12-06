@@ -3,7 +3,7 @@ name	Mihawk
 health	1000
 speed	10
 type	enemy
-shadow	0
+shadow  3
 icon	data/chars/Mihawk/icon.gif
 blockodds 1
 cantgrab  1

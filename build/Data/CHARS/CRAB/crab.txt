@@ -1,7 +1,7 @@
 name	Crab
 health	10
 type	enemy
-shadow	1
+shadow  3
 speed	9
 animationscript data/scripts/spawns.c
 

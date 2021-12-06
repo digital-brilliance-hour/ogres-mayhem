@@ -2,7 +2,7 @@ name	Ninja
 health	100
 speed	7
 type	enemy
-shadow	2
+shadow  3
 diesound data/sounds/die2.wav
 icon	data/chars/Ninja/icon.gif
 bflash  bflash

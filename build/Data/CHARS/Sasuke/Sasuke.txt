@@ -3,7 +3,7 @@ health	100
 speed 13
 running	19	3	2	1
 type	player
-shadow	2
+shadow  3
 diesound data/chars/Sasuke/die.wav
 icon	data/chars/Sasuke/icon.gif
 bflash  bflash

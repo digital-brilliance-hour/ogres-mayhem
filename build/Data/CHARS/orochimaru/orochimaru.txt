@@ -4,7 +4,7 @@ speed	14
 type	enemy
 candamage     npc player
 hostile       npc player
-shadow	2
+shadow  3
 diesound data/sounds/die2.wav
 bflash  bflash
 dust	 dust
@@ -31,7 +31,7 @@ anim	attack1
 	offset	22 48
 	delay	7
 	frame	data/chars/orochimaru/33.png
-
+		
 anim	attack2
 	range	0 50
 	loop	0
@@ -39,7 +39,7 @@ anim	attack2
 	attack1	9 0 37 51 25
 	delay	7
 	frame	data/chars/orochimaru/33.png
-
+		
 anim	attack3
 	range	0 50
 	loop	0
@@ -144,14 +144,14 @@ anim	attack3
 	frame	data/chars/orochimaru/39.png
 	attack1	42 -1 42 37 9 1
 	frame	data/chars/orochimaru/39.png
-
+		
 anim	block
 	loop	0
 	offset	13 64
 	bbox	1 0 34 65
 	attack1	9 -1 35 67 36
 	frame	data/chars/orochimaru/4.png
-
+		
 anim	burn
 	loop	1
 	offset	60 116
@@ -159,14 +159,14 @@ anim	burn
 	frame	data/chars/misc/burn1.gif
 	frame	data/chars/misc/burn2.gif
 	frame	data/chars/misc/burn3.gif
-
+		
 anim	duck
 	loop	0
 	delay	10
 	bbox	2 18 44 20
 	offset	23 35
 	frame	data/chars/orochimaru/239.png
-
+		
 anim	fall
 	loop	0
 	offset	32 62
@@ -186,7 +186,7 @@ anim	fall
 	delay	3
 	bbox	0 -1 67 28
 	frame	data/chars/orochimaru/242.png
-
+		
 anim	freespecial
 	range	0	80
 	loop	0
@@ -266,21 +266,21 @@ anim	freespecial
 	throwframe	4
 	offset	19 80
 	frame	data/chars/orochimaru/254.png
-
+		
 anim	get
 	loop	0
 	delay	10
 	offset	9 39
 	bbox	-2 1 36 42
 	frame	data/chars/orochimaru/239.png
-
+		
 anim	grab
 	loop	0
 	delay	1000
 	bbox	3 -1 31 61
 	offset	14 65
 	frame	data/chars/orochimaru/4.png
-
+		
 anim	grabattack
 	range	0 50
 	loop	0
@@ -294,7 +294,7 @@ anim	grabattack
 	delay	1
 	Attack1	0
 	frame	data/chars/orochimaru/33.png
-
+		
 anim	grabattack2
 	range	0 50
 	loop	0
@@ -398,7 +398,7 @@ anim	grabattack2
 	frame	data/chars/orochimaru/39.png
 	attack1	42 -1 42 37 9
 	frame	data/chars/orochimaru/39.png
-
+		
 anim	grabbed
 	loop	0
 	offset	16 65
@@ -445,22 +445,22 @@ anim	grabbed
 	offset	16 65
 	frame	data/chars/orochimaru/255.png
 	frame	data/chars/orochimaru/256.png
-
+		
 anim	idle
 	loop	1
-	loop
+	loop	
 	loop	1
-	loop
+	loop	
 	offset	18 66
 	delay	7
 	bbox	0 0 27 50
-	loop
+	loop	
 	loop	1
 	frame	data/chars/orochimaru/0.png
 	frame	data/chars/orochimaru/1.png
 	frame	data/chars/orochimaru/2.png
 	frame	data/chars/orochimaru/3.png
-
+		
 anim	jump
 	loop	0
 	delay	14
@@ -470,14 +470,24 @@ anim	jump
 	frame	data/chars/orochimaru/22.png
 	frame	data/chars/orochimaru/19.png
 	frame	data/chars/orochimaru/20.png
-
+		
+anim	jumpattack
+	loop	0
+	delay	14
+	offset	10 67
+	bbox	0 1 20 66
+	frame	data/chars/orochimaru/21.png
+	frame	data/chars/orochimaru/22.png
+	frame	data/chars/orochimaru/19.png
+	frame	data/chars/orochimaru/20.png
+		
 anim	land
 	loop	0
 	delay	15
 	offset	19 51
 	bbox	-2 1 36 42
 	frame	data/chars/orochimaru/30.png
-
+		
 anim	pain
 	loop	0
 	offset	32 60
@@ -486,13 +496,13 @@ anim	pain
 	frame	data/chars/orochimaru/236.png
 	offset	31 54
 	frame	data/chars/orochimaru/237.png
-
+		
 anim	rise
 	loop	0
 	offset	23 33
 	delay	10
 	frame	data/chars/orochimaru/239.png
-
+		
 anim	run
 	loop	1
 	delay	7
@@ -507,7 +517,7 @@ anim	run
 	frame	data/chars/orochimaru/15.png
 	offset	27 44
 	frame	data/chars/orochimaru/16.png
-
+		
 anim	runattack
 	loop	0
 	offset	16 65
@@ -554,7 +564,7 @@ anim	runattack
 	offset	16 65
 	frame	data/chars/orochimaru/255.png
 	frame	data/chars/orochimaru/256.png
-
+		
 anim	throw
 	loop	0
 	flipframe	1
@@ -566,7 +576,7 @@ anim	throw
 	frame	data/chars/orochimaru/27.png
 	offset	28 48
 	frame	data/chars/orochimaru/33.png
-
+		
 anim	walk
 	loop	1
 	delay	7
@@ -581,13 +591,6 @@ anim	walk
 	frame	data/chars/orochimaru/15.png
 	offset	27 44
 	frame	data/chars/orochimaru/16.png
-anim  jumpattack
-	loop  0
-		delay  14
-		offset  10  67
-		bbox  0  1  20  66
-	frame  data/chars/orochimaru/21.png
-	frame  data/chars/orochimaru/22.png
-	frame  data/chars/orochimaru/19.png
-	frame  data/chars/orochimaru/20.png
-
+		
+#|edited by openBor Stats v 0.67
+		

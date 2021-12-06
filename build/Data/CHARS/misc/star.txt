@@ -1,10 +1,10 @@
 name	Star
 health	1
 type	enemy
-shadow	0
-#icon	data/chars/misc/meaticon.gif
+shadow  3
 
-anim idle
+
+anim	idle
 	loop	1
 	delay	5
 	offset	4 4
@@ -13,3 +13,6 @@ anim idle
 	frame	data/chars/misc/star1.gif
 	frame	data/chars/misc/star2.gif
 	frame	data/chars/misc/star3.gif
+		
+#|edited by openBor Stats v 0.67
+		

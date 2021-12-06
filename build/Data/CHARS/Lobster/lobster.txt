@@ -1,7 +1,7 @@
 name	Lobster
 health	100
 type	enemy
-shadow	5
+shadow  3
 icon	data/chars/lobster/icon.gif
 diesound data/sounds/alien.wav
 subject_to_screen 1

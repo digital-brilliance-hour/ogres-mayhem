@@ -6,7 +6,7 @@ projectilehit obstacle enemy
 speed	7
 running	15	3	2	1
 type	player
-shadow	2
+shadow  3
 grabdistance 23
 icon	data/chars/kurenai/icon.png
 bflash  bflash

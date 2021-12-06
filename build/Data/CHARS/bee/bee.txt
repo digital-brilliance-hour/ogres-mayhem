@@ -2,7 +2,7 @@ name	BEE
 health	20
 speed	18
 type	enemy
-shadow  2
+shadow  3
 nolife   1
 falldie  1 
 dust   dust
@@ -109,11 +109,6 @@ anim	idle
 	frame	data/chars/bee/idle.gif
 	frame	data/chars/bee/idle2.gif
 		
-anim	spawn
-	delay	75
-	@cmd	spawnparent "e_spawn" 0 0 0
-	frame	data/chars/misc/empty.gif
-		
 anim	pain
 	loop	0
 	delay	6
@@ -177,6 +172,11 @@ anim	spain
 	offset	89 192
 	delay	40
 	frame	data/chars/bee/pain.gif
+		
+anim	spawn
+	delay	75
+	@cmd	spawnparent "e_spawn" 0 0 0
+	frame	data/chars/misc/empty.gif
 		
 anim	walk
 	loop	1

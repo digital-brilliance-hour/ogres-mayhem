@@ -4,7 +4,7 @@ health	150
 mp      30
 speed	10
 type	player
-shadow	2
+shadow  3
 
 icon	data/chars/Dugong/icon.gif
 riseinv 2 0
@@ -13,6 +13,7 @@ jumpheight 2
 jumpmove 3 3
 load Dugongs
 animationscript data/scripts/spawns.c
+
 
 
 anim	attack1

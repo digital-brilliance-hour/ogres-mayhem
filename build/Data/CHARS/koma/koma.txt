@@ -2,7 +2,7 @@ name	Koma
 health	10
 speed	50
 type	enemy
-shadow	1
+shadow  3
 subtype chase
 candamage player npc obstacle
 hostile player npc obstacle

@@ -3,7 +3,7 @@ health	300
 speed 12
 running	18	3	2	1
 type	enemy
-shadow	2
+shadow  3
 aimove chase
 aggression  20
 escapehits 1

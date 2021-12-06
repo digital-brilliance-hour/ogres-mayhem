@@ -2,7 +2,7 @@ name	Tsukaima
 health	30
 speed	10
 type	enemy
-shadow	0
+shadow  3
 cantgrab 1
 subject_to_screen 1
 

@@ -2,7 +2,7 @@ name	Field
 health	1
 speed   4
 type	enemy
-shadow	0
+shadow  3
 
 
 anim	idle

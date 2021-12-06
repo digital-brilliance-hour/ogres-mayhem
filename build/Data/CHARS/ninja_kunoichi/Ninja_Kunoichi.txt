@@ -3,7 +3,7 @@ health	250
 speed	7
 type	enemy
 candamage     npc player
-shadow	2
+shadow  3
 
 hostile npc player
 icon	data/chars/Ninja_Kunoichi/icon.png

@@ -2,7 +2,7 @@ name	Menos
 health	400
 speed	5
 type	enemy
-shadow	0
+shadow  3
 cantgrab 1
 subject_to_screen 1
 

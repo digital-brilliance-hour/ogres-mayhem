@@ -2,7 +2,7 @@ name	Luffyb
 health	2000
 speed	10
 type	enemy
-shadow	2
+shadow  3
 
 icon	data/chars/Luffy/icon.gif
 atchain  1 2 3 3

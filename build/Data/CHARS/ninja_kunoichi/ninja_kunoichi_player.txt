@@ -2,7 +2,7 @@ name	Ninja_Kunoichi_Player
 health	250
 speed	7
 type	player
-shadow	2
+shadow  3
 icon	data/chars/Ninja_Kunoichi/icon.png
 bflash  bflash
 running	15	3	2	1

@@ -2,7 +2,7 @@ name	Zoro
 health	250
 mp 200
 speed	10
-shadow	2
+shadow  3
 running	18 4 3 1 1
 
 type	player

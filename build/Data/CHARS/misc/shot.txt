@@ -1,9 +1,9 @@
 name	Shot
 health	1
 type	enemy
-shadow	0
+shadow  3
 
-anim idle
+anim	idle
 	loop	1
 	delay	6
 	offset	80 83
@@ -12,3 +12,6 @@ anim idle
 	frame	data/chars/misc/shot2.gif
 	frame	data/chars/misc/shot3.gif
 	frame	data/chars/misc/shot4.gif
+		
+#|edited by openBor Stats v 0.67
+		

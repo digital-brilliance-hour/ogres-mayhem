@@ -3,7 +3,7 @@ name	Pirate
 health	50
 speed	10
 type	enemy
-shadow	0
+shadow  3
 icon	data/chars/Pirate/icon.gif
 load nife
 knife nife
@@ -13,6 +13,7 @@ remap	data/chars/Pirate/idle01.gif data/chars/Pirate/map1.gif
 subject_to_screen 1
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
+
 
 
 

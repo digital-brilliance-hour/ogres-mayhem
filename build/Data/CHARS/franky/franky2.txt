@@ -2,7 +2,7 @@ name	Franky2
 health	300
 mp 100
 speed	15
-shadow	2
+shadow  3
 
 type	enemy
 icon	data/chars/franky/icon.gif
