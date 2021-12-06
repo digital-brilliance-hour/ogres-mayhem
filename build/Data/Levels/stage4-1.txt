@@ -1,0 +1,59 @@
+music data/music/stage4.ogg 1026042
+background data/bgs/newstage-4/02/b.gif
+panel data/bgs/newstage-4/02/n.gif none none
+order a
+bgspeed	 50	0
+
+spawn1  20  10
+spawn2  5  30
+
+stagenumber 4
+
+spawn ready
+	coords 240 136
+	at 0
+	
+spawn   Ninja_Scythe
+alias	This_is_the_Boss
+coords	200 176
+at	0
+
+spawn   Ninja_Scythe
+coords  300 176
+at      0
+
+wait
+at      500
+
+spawn   mihawk
+boss 1
+health  400
+3phealth 800
+4phealth 1200
+coords  300 180
+at      700
+
+spawn   claw
+item mp_hundred
+coords  300 171
+at      600
+
+wait
+at      1250
+
+
+
+spawn Story
+alias hieidialog
+at 1349
+
+
+spawn   ninja_
+item hp_hundred
+coords  250 260
+at      1300
+
+spawn   ninja__
+item mp_hundred
+coords  200 240
+at      1300
