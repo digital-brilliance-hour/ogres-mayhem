@@ -17,7 +17,6 @@ com      a3 freespecial2
 com      a4 freespecial3
 
 script data/scripts/playerscript.c
-takedamagescript data/scripts/enemyhit.c
 ondeathscript data/scripts/bossdeath.c
 
 lifebarstatus 380 5 0 1 0 0 0 0 0
