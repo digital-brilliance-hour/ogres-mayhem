@@ -8,7 +8,6 @@ aimove chase
 aggression  20
 escapehits 1
 riseinv 2 0
-candamage player npc obsacle
 candamage player npc
 hostile npc player
 grabdistance 23
