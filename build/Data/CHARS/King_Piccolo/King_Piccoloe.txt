@@ -9,7 +9,7 @@ running 25 4 2 1 0
 aimove chase
 escapehits 1
 riseinv 2 0
-candamage player npc obstacle
+candamage player npc
 hostile npc player
 load k_electric
 load k_shot2

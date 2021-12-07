@@ -27,6 +27,8 @@ iconposition 194 365
 
 nodieblink 3
 ondeathscript data/scripts/bossdeath.c
+candamage player npc
+hostile npc player
 
 anim	attack1
 	range	0	340

@@ -8,7 +8,9 @@ icon	data/chars/Mihawk/icon.gif
 blockodds 1
 cantgrab  1
 candamage player npc obstacle shot
+candamage player npc
 hostile player npc
+hostile npc player
 escapehits 1
 riseinv 2 0
 load slash
@@ -18,6 +20,11 @@ flash break
 subject_to_screen 1
 takedamagescript data/scripts/enemyhit.c
 ondeathscript data/scripts/bossdeath.c
+
+lifebarstatus 380 5 0 1 0 0 0 0 0
+lifeposition 50 235
+nameposition 60 225
+iconposition 50 360
 
 anim	attack1
 	loop	0

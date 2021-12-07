@@ -16,7 +16,8 @@ remap	data/chars/lobster/stand1.gif data/chars/lobster/alt5.gif
 animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c
 
-
+candamage player npc
+hostile npc player
 
 anim	attack1
 	range	20 100

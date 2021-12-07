@@ -16,7 +16,8 @@ remap	data/chars/Dino/idle00.gif data/chars/Dino/map4.gif
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 
-
+candamage player npc
+hostile npc player
 
 
 anim	attack1

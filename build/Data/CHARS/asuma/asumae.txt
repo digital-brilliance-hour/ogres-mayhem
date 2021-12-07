@@ -23,7 +23,10 @@ subject_to_hole 0
 load kunai_
 star kunai_
 
-
+lifebarstatus 380 5 0 1 0 0 0 0 0
+lifeposition 50 235
+nameposition 60 225
+iconposition 50 360
 
 anim	attack1
 	delay	7
@@ -205,6 +208,29 @@ anim	pain
 	frame	data/chars/asuma/40.gif
 	offset	25 62
 	frame	data/chars/asuma/41.gif
+		
+anim	reanimated_asuma
+	type	enemy
+	candamage	obstacle npc player
+	projectilehit	obstacle npc player
+	hostile	npc player
+	Health	600
+	icon	data/chars/asuma/0.gif
+	diesound	data/sounds/sparta2.ogg
+	speed	7
+	running	15	3	2	1
+	grabdistance	23
+	atchain	1 2 3
+	com	d f a freespecial
+	jumpheight	5
+	aggression	54
+	blockodds	2
+	subtype	chase
+	load	kunai_enemy
+	knife	kunai_enemy
+	subject_to_hole	0
+	load	kunai_
+	star	kunai_
 		
 anim	rise
 	delay	7

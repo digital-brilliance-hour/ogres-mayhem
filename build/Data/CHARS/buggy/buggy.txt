@@ -11,6 +11,7 @@ riseinv 2 0
 blockodds 1
 cantgrab  1
 candamage player npc obstacle
+candamage player npc
 hostile npc player
 load throw
 load cabaji
@@ -19,7 +20,8 @@ subject_to_screen 1
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 ondeathscript data/scripts/bossdeath.c
-
+candamage player npc
+hostile npc player
 
 anim	attack1
 	loop	0

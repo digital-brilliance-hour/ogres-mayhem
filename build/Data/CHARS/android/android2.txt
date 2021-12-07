@@ -12,7 +12,8 @@ diesound data/sounds/cure.wav
 
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
-
+candamage player npc
+hostile npc player
 
 
 anim	attack1

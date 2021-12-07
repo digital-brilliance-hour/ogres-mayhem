@@ -10,6 +10,7 @@ makeinv 2 0
 aimove chase
 escapehits 1
 candamage player npc obstacle
+candamage player npc
 hostile npc player
 lifebarstatus 380 5 0 1 0 0 0 0 0
 lifeposition 50 235
