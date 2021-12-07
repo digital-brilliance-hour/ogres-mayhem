@@ -1,0 +1,69 @@
+name	fastcuts
+speed   15
+type 	none
+shadow	0
+setlayer 1000
+alpha 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	fastattack	1
+	attack	424 262 136 147 20 0 1 0 0 100
+	drawmethod	scale 0.25
+	drawmethod	tintmode 4
+	drawmethod	tintcolor 0_3_10
+	delay	7
+	offset	494 339
+	frame	data/chars/Ichigo_Bankai/803.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	422 325
+	frame	data/chars/Ichigo_Bankai/804.gif
+	attack	378 230 136 147 20 0 0 1 0 100
+	offset	448 306
+	frame	data/chars/Ichigo_Bankai/805.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	447 300
+	frame	data/chars/Ichigo_Bankai/806.gif
+	attack	378 230 136 147 20 0 1 0 0 100
+	offset	447 298
+	frame	data/chars/Ichigo_Bankai/807.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	446 326
+	frame	data/chars/Ichigo_Bankai/808.gif
+	attack	376 205 136 147 20 0 0 1 0 100
+	offset	446 280
+	frame	data/chars/Ichigo_Bankai/809.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	438 306
+	frame	data/chars/Ichigo_Bankai/810.gif
+	attack	354 138 136 147 20 1 1 0 0 100
+	dropv	2 5 0
+	offset	425 210
+	frame	data/chars/Ichigo_Bankai/811.gif
+	offset	425 210
+	frame	data/chars/Ichigo_Bankai/812.gif
+	offset	421 118
+	frame	data/chars/Ichigo_Bankai/813.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

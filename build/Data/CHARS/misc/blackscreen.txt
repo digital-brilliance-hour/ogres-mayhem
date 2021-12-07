@@ -1,0 +1,31 @@
+name	blackScreen
+health	1
+type	panel
+speed 10
+shadow 0
+setlayer 1000
+facing 1
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	loop	1 1
+	delay	10
+	offset	1 1
+	@cmd	changeentityproperty getlocalvar("self") "direction" 1
+	frame	data/chars/misc/blackscreen/black.gif
+	@cmd	changeentityproperty getlocalvar("self") "setlayer" 1000
+	frame	data/chars/misc/blackscreen/black.gif
+	frame	data/chars/misc/blackscreen/black.gif
+	frame	data/chars/misc/blackscreen/black.gif
+	frame	data/chars/misc/blackscreen/black.gif
+		
+#|edited by openBor Stats v 0.67
+		

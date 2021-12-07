@@ -1,0 +1,48 @@
+name blankP
+type player
+health  100
+shadow 0
+speed   10
+secret 0 999999999999999999999
+
+
+anim	attack1
+	delay	7
+	offset	52 98
+	bbox	42 14 24 85
+	frame	data/chars/misc/empty.gif
+		
+anim	fall
+	delay	7
+	offset	52 98
+	bbox	42 14 24 85
+	frame	data/chars/misc/empty.gif
+		
+anim	idle
+	loop	1
+	delay	7
+	offset	52 98
+	bbox	42 14 24 85
+	frame	data/chars/misc/empty.gif
+		
+anim	pain
+	delay	18
+	offset	52 98
+	bbox	42 14 24 85
+	frame	data/chars/misc/empty.gif
+		
+anim	rise
+	delay	7
+	offset	52 98
+	bbox	42 14 24 85
+	frame	data/chars/misc/empty.gif
+		
+anim	walk
+	loop	1
+	delay	7
+	offset	52 98
+	bbox	42 14 24 85
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

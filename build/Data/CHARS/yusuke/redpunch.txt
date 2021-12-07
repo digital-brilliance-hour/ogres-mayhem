@@ -1,0 +1,43 @@
+name	redPunch
+speed   30
+type 	none
+shadow	0
+remove 0
+alpha 1
+
+
+
+
+
+
+
+
+anim	idle
+	drawmethod	scale 0.25
+	delay	3
+	offset	367 126
+	frame	data/chars/yusuke/1021.gif
+	offset	406 202
+	frame	data/chars/yusuke/1022.gif
+	offset	385 229
+	frame	data/chars/yusuke/1023.gif
+	offset	433 198
+	frame	data/chars/yusuke/1024.gif
+	offset	460 152
+	frame	data/chars/yusuke/1025.gif
+	offset	503 101
+	frame	data/chars/yusuke/1026.gif
+	offset	522 53
+	frame	data/chars/yusuke/1027.gif
+	offset	498 39
+	frame	data/chars/yusuke/1028.gif
+	offset	447 23
+	frame	data/chars/yusuke/1029.gif
+	offset	385 3
+	frame	data/chars/yusuke/1030.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

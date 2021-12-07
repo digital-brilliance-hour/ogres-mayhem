@@ -14,10 +14,12 @@ com d a3 freespecial5
 com a2 freespecial11
 com s freespecial3
 com u s freespecial6
+com d s freespecial4
 script data/scripts/playerscript.c
 load regTensho
 load lgTensho
 load windTwirl
+load bTransformation
 
 diesound data/chars/Ichigo/ichigo_38-0.wav
 
@@ -56,9 +58,13 @@ makeinv 4
 
 
 
+
+
+
 anim	attack1
 	delay	4
 	offset	17 44
+	hitfx	data/chars/Ichigo/ichigo_8-0.wav
 	sound	data/sounds/Att.wav
 	frame	data/chars/Ichigo/93.gif
 	offset	18 45
@@ -76,6 +82,7 @@ anim	attack1
 anim	attack2
 	loop	0
 	delay	7
+	hitfx	data/chars/Ichigo/ichigo_8-0.wav
 	offset	58 116
 	sound	data/sounds/Att.wav
 	frame	data/chars/Ichigo/2Att1.gif
@@ -88,6 +95,7 @@ anim	attack2
 anim	attack3
 	loop	0
 	delay	4
+	hitfx	data/chars/Ichigo/ichigo_8-0.wav
 	offset	58 116
 	sound	data/sounds/Att.wav
 	frame	data/chars/Ichigo/Att1.gif
@@ -130,6 +138,7 @@ anim	fall
 anim	freespecial
 	delay	4
 	fastattack	1
+	hitfx	data/chars/Ichigo/ichigo_8-0.wav
 	offset	17 44
 	sound	data/chars/Ichigo/ichigo_53-0.wav
 	frame	data/chars/Ichigo/93.gif
@@ -191,6 +200,7 @@ anim	freespecial10
 	@cmd	isavailable 4
 	mponly	1
 	loop	0
+	hitfx	data/chars/Ichigo/ichigo_8-0.wav
 	offset	58 116
 	delay	30
 	@cmd	spawnbind "zoomin" 0 0 0
@@ -363,6 +373,38 @@ anim	freespecial3
 	frame	data/chars/Ichigo/198.gif
 	offset	31 47
 	frame	data/chars/Ichigo/22.gif
+		
+anim	freespecial4
+	delay	5
+	offset	18 44
+	frame	data/chars/Ichigo/71.gif
+	offset	19 45
+	frame	data/chars/Ichigo/72.gif
+	offset	20 49
+	frame	data/chars/Ichigo/73.gif
+	@cmd	spawnbind "zoomin" 0 0 0
+	offset	12 52
+	frame	data/chars/Ichigo/74.gif
+	delay	30
+	sound	data/chars/Ichigo/ichigo_34-0.wav
+	offset	12 52
+	frame	data/chars/Ichigo/75.gif
+	offset	12 52
+	frame	data/chars/Ichigo/75.gif
+	offset	12 52
+	frame	data/chars/Ichigo/76.gif
+	offset	12 52
+	frame	data/chars/Ichigo/75.gif
+	offset	12 52
+	frame	data/chars/Ichigo/75.gif
+	offset	12 52
+	frame	data/chars/Ichigo/76.gif
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	spawnbind "bTransformation" 0 -3 0
+	offset	12 52
+	frame	data/chars/Ichigo/76.gif
+	offset	12 52
+	frame	data/chars/Ichigo/76.gif
 		
 anim	freespecial5
 	delay	4

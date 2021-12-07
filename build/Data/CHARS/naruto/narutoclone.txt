@@ -3,9 +3,16 @@ health	10
 speed 10
 running	16	3	2	1    1
 type	npc
+subtype follow
+aimove chase
+aggression 200
+hostile enemy
+load cloneSmoke
+nodieblink 2
+candamage enemy
+atchain		1 1 2 1 3
 shadow	2
 grabdistance 23
-diesound data/chars/Naruto/die.wav
 icon	data/chars/Naruto/icon.gif
 bflash  bflash
 dust	 dust
@@ -16,14 +23,13 @@ com a2 freespecial11
 com s freespecial4
 animationscript data/scripts/spawns.c
 script data/scripts/playerscript.c
+didhitscript data/scripts/npcscript.c
 
 parrow data/chars/misc/picon/1picon.gif -18 -100
 parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
-
-
 
 
 
@@ -68,13 +74,10 @@ anim	attack3
 	frame	data/chars/Naruto/punch03.gif
 	frame	data/chars/Naruto/punch04.gif
 		
-anim	burn
-	loop	1
-	offset	60 116
-	delay	3
-	frame	data/chars/misc/burn1.gif
-	frame	data/chars/misc/burn2.gif
-	frame	data/chars/misc/burn3.gif
+anim	death
+	delay	7
+	@cmd	spawnparent "cloneSmoke" 0 0 0
+	frame	data/chars/misc/empty.gif
 		
 anim	duck
 	loop	0
@@ -87,13 +90,17 @@ anim	duck
 		
 anim	fall
 	loop	0
+	fshadow	0
 	offset	60 116
 	delay	30
 	attack	43 65 26 33 4 1
 	sound	data/chars/Naruto/ugh.wav
 	frame	data/chars/Naruto/fall00.gif
-	delay	20
-	frame	data/chars/Naruto/fall01.gif
+	@cmd	spawnparent "cloneSmoke" 0 0 0
+	delay	200
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
 		
 anim	freespecial
 	@cmd	isavailable 2
@@ -308,6 +315,8 @@ anim	get
 		
 anim	idle
 	loop	1
+	range	-10 500
+	rangez	-1000 1000
 	delay	15
 	offset	60 116
 	bbox	43 65 25 51

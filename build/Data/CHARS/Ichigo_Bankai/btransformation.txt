@@ -1,0 +1,90 @@
+name	bTransformation
+speed   15
+type 	none
+shadow	0
+setlayer 1000
+alpha 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	drawmethod	scale 0.8
+	drawmethod	tintmode 4
+	drawmethod	tintcolor 0_3_10
+	delay	5
+	offset	75 238
+	frame	data/chars/Ichigo_Bankai/730.gif
+	offset	79 238
+	frame	data/chars/Ichigo_Bankai/731.gif
+	offset	75 238
+	frame	data/chars/Ichigo_Bankai/730.gif
+	offset	79 238
+	frame	data/chars/Ichigo_Bankai/731.gif
+	offset	75 238
+	frame	data/chars/Ichigo_Bankai/730.gif
+	offset	79 238
+	frame	data/chars/Ichigo_Bankai/731.gif
+	offset	75 238
+	frame	data/chars/Ichigo_Bankai/730.gif
+	offset	79 238
+	frame	data/chars/Ichigo_Bankai/731.gif
+	offset	75 238
+	frame	data/chars/Ichigo_Bankai/730.gif
+	offset	79 238
+	frame	data/chars/Ichigo_Bankai/731.gif
+	offset	75 238
+	frame	data/chars/Ichigo_Bankai/730.gif
+	offset	79 238
+	frame	data/chars/Ichigo_Bankai/731.gif
+	offset	75 238
+	frame	data/chars/Ichigo_Bankai/730.gif
+	offset	79 238
+	frame	data/chars/Ichigo_Bankai/731.gif
+	offset	75 238
+	frame	data/chars/Ichigo_Bankai/730.gif
+	offset	79 238
+	frame	data/chars/Ichigo_Bankai/731.gif
+	offset	75 238
+	frame	data/chars/Ichigo_Bankai/730.gif
+	offset	79 238
+	frame	data/chars/Ichigo_Bankai/731.gif
+	offset	79 238
+	frame	data/chars/Ichigo_Bankai/732.gif
+	offset	60 238
+	frame	data/chars/Ichigo_Bankai/733.gif
+	offset	59 238
+	frame	data/chars/Ichigo_Bankai/734.gif
+	offset	60 238
+	frame	data/chars/Ichigo_Bankai/735.gif
+	offset	60 238
+	frame	data/chars/Ichigo_Bankai/736.gif
+	offset	59 238
+	frame	data/chars/Ichigo_Bankai/737.gif
+	offset	59 238
+	frame	data/chars/Ichigo_Bankai/738.gif
+	offset	60 238
+	frame	data/chars/Ichigo_Bankai/739.gif
+	offset	41 238
+	frame	data/chars/Ichigo_Bankai/740.gif
+	offset	34 238
+	frame	data/chars/Ichigo_Bankai/741.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		
