@@ -73,6 +73,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	loop	0
 	delay	3
@@ -265,10 +266,6 @@ anim	freespecial2
 	mponly	1
 	energycost	20
 	@cmd	pause_all 1 10
-	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnbind "zoomout" 0 0 0
-	@cmd	changeopenborvariant "slowmotion" 1
-	@cmd	changeopenborvariant "slowmotion" 0
 	delay	6
 	fastattack	1
 	offset	60 116
@@ -318,12 +315,8 @@ anim	freespecial2
 anim	freespecial3
 	@cmd	isavailable 4
 	mponly	1
-	@cmd	changeentityproperty getlocalvar("self") "mp
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	pause_all 1 10
-	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnbind "zoomout" 0 0 0
-	@cmd	changeopenborvariant "slowmotion" 1
-	@cmd	changeopenborvariant "slowmotion" 0
 	delay	7
 	offset	18 47
 	@cmd	pause_all 1 200
@@ -405,10 +398,6 @@ anim	freespecial4
 	mponly	1
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	pause_all 1 10
-	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnbind "zoomout" 0 0 0
-	@cmd	changeopenborvariant "slowmotion" 1
-	@cmd	changeopenborvariant "slowmotion" 0
 	loop	0
 	delay	10
 	@cmd	pause_all 1 10
@@ -471,10 +460,6 @@ anim	freespecial5
 	mponly	1
 	energycost	30
 	@cmd	pause_all 1 10
-	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnbind "zoomout" 0 0 0
-	@cmd	changeopenborvariant "slowmotion" 1
-	@cmd	changeopenborvariant "slowmotion" 0
 	@cmd	npc_check 2
 	delay	3
 	offset	18 47
@@ -504,8 +489,12 @@ anim	freespecial5
 	frame	data/chars/Naruto/34.gif
 		
 anim	freespecial6
+	@cmd	isavailable 6
+	mponly	1
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	delay	7
 	@cmd	pause_all 1 120
+	@cmd	spawnbind "zoomin" 0 0 0
 	offset	17 45
 	frame	data/chars/Naruto/36.gif
 	offset	18 46
@@ -530,6 +519,7 @@ anim	freespecial6
 	sound	data/chars/Naruto/naruto_200-1.wav
 	offset	18 47
 	frame	data/chars/Naruto/46.gif
+	@cmd	spawnbind "zoomout" 0 0 0
 	offset	19 49
 	frame	data/chars/Naruto/47.gif
 	offset	20 45
