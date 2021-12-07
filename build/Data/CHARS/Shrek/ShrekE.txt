@@ -7,7 +7,6 @@ shadow	3
 aimove chase
 escapehits 1
 riseinv 2 0
-candamage player npc obsacle
 candamage player npc
 hostile npc player
 
