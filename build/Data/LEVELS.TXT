@@ -105,6 +105,7 @@ file	data/levels/stage4.txt
 next
 z 160 270 110
 file	data/levels/stage5.txt
+file    data/levels/stage5-1.txt
 next
 file	data/levels/stage6.txt
 next
