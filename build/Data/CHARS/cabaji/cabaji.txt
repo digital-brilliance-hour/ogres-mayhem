@@ -17,7 +17,7 @@ load koma
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 ondeathscript data/scripts/bossdeath.c
-
+hostile npc player
 
 
 anim	attack1

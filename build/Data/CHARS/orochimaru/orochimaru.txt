@@ -4,6 +4,7 @@ speed	14
 type	enemy
 candamage     npc player
 hostile       npc player
+candamage player npc
 shadow	2
 diesound data/sounds/die2.wav
 bflash  bflash

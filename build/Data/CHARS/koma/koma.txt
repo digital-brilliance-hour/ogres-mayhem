@@ -5,6 +5,8 @@ type	enemy
 shadow	1
 subtype chase
 candamage player npc obstacle
+candamage player npc
+hostile npc player
 hostile player npc obstacle
 cantgrab 1
 nolife 1

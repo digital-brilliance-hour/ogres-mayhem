@@ -3,7 +3,8 @@ health	100
 speed	9
 type	enemy
 hostile npc player
-candamage     npc player
+candamage npc player
+candamage player npc
 shadow	2
 diesound data/sounds/die2.wav
 bflash  bflash

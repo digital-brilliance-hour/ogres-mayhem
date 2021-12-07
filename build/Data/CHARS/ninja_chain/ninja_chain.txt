@@ -5,6 +5,7 @@ speed	7
 type	enemy
 hostile npc player
 candamage   npc player
+candamage player npc
 shadow	2
 diesound data/sounds/die2.wav
 icon	data/chars/ninja_chain/icon.png
@@ -105,7 +106,7 @@ anim	attack1
 	frame	data/chars/ninja_chain/96.png
 	delay	45
 	frame	data/chars/ninja_chain/96.png
-
+		
 anim	attack2
 	loop	0
 	delay	10
@@ -138,7 +139,7 @@ anim	attack2
 	attack	0
 	delay	30
 	frame	data/chars/ninja_chain/78.png
-
+		
 anim	block
 	loop	0
 	jumpframe	0 2 0 0
@@ -146,7 +147,7 @@ anim	block
 	offset	15 59
 	bbox	5 -3 37 55
 	frame	data/chars/ninja_chain/41.png
-
+		
 anim	burn
 	loop	1
 	delay	3
@@ -154,7 +155,7 @@ anim	burn
 	frame	data/chars/misc/burn1.gif
 	frame	data/chars/misc/burn2.gif
 	frame	data/chars/misc/burn3.gif
-
+		
 anim	fall
 	loop	0
 	delay	30
@@ -165,7 +166,7 @@ anim	fall
 	offset	34 21
 	frame	data/chars/ninja_chain/fall01.png
 	frame	data/chars/ninja_chain/fall01.png
-
+		
 anim	idle
 	loop	1
 	delay	30
@@ -181,7 +182,7 @@ anim	idle
 	frame	data/chars/ninja_chain/5.png
 	offset	15 58
 	frame	data/chars/ninja_chain/6.png
-
+		
 anim	jump
 	loop	0
 	delay	10
@@ -190,32 +191,35 @@ anim	jump
 	frame	data/chars/ninja_chain/97.png
 	offset	15 62
 	frame	data/chars/ninja_chain/pain.png
-
+		
+anim	jumpattack
+	loop	0
+	delay	10
+	offset	15 59
+	bbox	3 2 32 52
+	frame	data/chars/ninja_chain/97.png
+	offset	15 62
+	frame	data/chars/ninja_chain/pain.png
+		
 anim	pain
 	loop	0
 	delay	30
 	bbox	-1 -2 42 70
 	offset	19 62
 	frame	data/chars/ninja_chain/pain.png
-
+		
 anim	rise
 	loop	0
 	delay	10
 	offset	18 46
 	frame	data/chars/ninja_chain/rise.png
-
+		
 anim	walk
 	loop	0
 	delay	10
 	offset	15 59
 	bbox	3 2 32 52
 	frame	data/chars/ninja_chain/97.png
-anim  jumpattack
-	loop  0
-		delay  10
-		offset  15  59
-		bbox  3  2  32  52
-	frame  data/chars/ninja_chain/97.png
-		offset  15  62
-	frame  data/chars/ninja_chain/pain.png
-
+		
+#|edited by openBor Stats v 0.67
+		

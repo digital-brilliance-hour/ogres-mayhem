@@ -3,7 +3,7 @@ health	250
 speed	7
 type	enemy
 candamage     npc player
-hostile	npc player
+candamage player npc
 shadow	2
 diesound data/sounds/die2.wav
 icon	data/chars/Ninja_Genin/icon.png

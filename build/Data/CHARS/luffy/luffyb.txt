@@ -15,6 +15,7 @@ aimove chase
 escapehits 1
 cantgrab  1
 candamage player npc obstacle
+candamage player npc
 hostile npc player
 
 weapons gear2b Luffyb    

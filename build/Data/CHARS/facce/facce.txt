@@ -21,7 +21,7 @@ dust	dust
 aggression 30
 candamage	npc player
 hostile		npc player
-
+candamage player npc
 remap data/chars/facce/stand1.gif data/chars/facce/fmap.gif
 animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c

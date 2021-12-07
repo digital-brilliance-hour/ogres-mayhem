@@ -15,7 +15,8 @@ remap	data/chars/dragonball/Boar2/idle02.gif data/chars/dragonball/Boar2/map1.gi
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 
-
+candamage player npc
+hostile npc player
 
 anim	attack1
 	range	180 300
