@@ -5,7 +5,6 @@ speed 25
 shadow 3
 aimove chase
 escapehits 1
-candamage player npc obsacle
 candamage player npc
 hostile npc player
 icon data/chars/samjack/icon.gif
