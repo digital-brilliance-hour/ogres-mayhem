@@ -6,8 +6,7 @@ icon	data/chars/hisoka/0.gif
 shadow	3 
 aimove chase
 escapehits 1
-candamage player npc obsacle enemy
-candamage player npc
+candamage player npc obstacle enemy
 hostile npc player
 running 18 4 2 1 0
 animationscript data/scripts/spawns.c
