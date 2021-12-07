@@ -4,8 +4,6 @@ type       enemy
 shadow     0
 nomove     1
 
-candamage player npc
-hostile npc player
 
 
 anim	idle
