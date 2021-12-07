@@ -42,6 +42,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	delay	4
 	offset	7 34
@@ -323,8 +324,8 @@ anim	freespecial2
 	frame	data/chars/Sonic/318.gif
 		
 anim	freespecial3
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	isavailable 4
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	delay	10
 	offset	16 35
 	frame	data/chars/Sonic/329.gif
@@ -345,8 +346,8 @@ anim	freespecial3
 	frame	data/chars/Sonic/333.gif
 		
 anim	freespecial4
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	isavailable 7
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	delay	7
 	offset	16 34
 	frame	data/chars/Sonic/297.gif
@@ -445,8 +446,8 @@ anim	freespecial5
 	frame	data/chars/Sonic/333.gif
 		
 anim	freespecial6
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	isavailable 6
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	delay	20
 	offset	17 40
 	frame	data/chars/Sonic/573.gif
