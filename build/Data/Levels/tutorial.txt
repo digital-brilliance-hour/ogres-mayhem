@@ -7,6 +7,9 @@ spawn1 110 20
 spawn2 120 40
 bgspeed	 10	0
 stagenumber 11
+notime 1
+direction both
+type 1 0 1
 
 # Ready?-----
 
@@ -16,6 +19,36 @@ stagenumber 11
 spawn ready
 	coords 240 136
 	at 0
+	
+spawn tutorialpanel1
+coords -10 0
+at 0
+
+spawn tutorialpanel2
+coords 235 0
+at 0
+
+spawn tutorialpanel3
+coords 480 0
+at 0
+
+spawn tutorialpanel4
+coords 725 0
+at 0
+
+spawn tutorialpanel5
+coords 970 0
+at 0
+
+spawn tutorialpanel6
+coords 945 0
+at 270
+
+spawn tutorialpanel7
+coords 995 0
+at 465
+
+
 
 
 spawn Story
@@ -24,52 +57,10 @@ at 0
 
 #--group1-----
 
-spawn	dog
-coords	350 180
-at	10
-
-spawn dog
-health	30
-coords	350 220
-at	15
-
-
-spawn bee
-health	5
-coords	350 190
-at	200
-
-spawn bee
-health	25
-coords	480 160
-at	220
-
-wait
-at	320
-
-#---group2----
-spawn	dog
-coords	350 180
-at	490
-
-spawn dog
-health	30
-coords	350 220
-at 495
-
-
-spawn bee
-health	5
-coords	420 190
-at 500
-
-spawn bee
-health	25
-coords	480 160
-at 505
-
-wait
-at 580
+spawn	dummy
+health  2047483647
+coords	550 180
+at	1000
 
 spawn xp_twohundred
 coords 490 200
@@ -84,20 +75,9 @@ spawn Story
 alias tutorial2
 at 740
 
-wait 740
-
 spawn Story
 alias tutorial3
 at 1240
 
-spawn Gunner
-health 200
-aggression 15
-boss 1
-alias	This_is_the_Boss
-coords	450 185
-at 1240
 
-wait
-at      1240
 

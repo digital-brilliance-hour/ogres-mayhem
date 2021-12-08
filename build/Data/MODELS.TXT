@@ -160,6 +160,13 @@ know 	Door 		data/chars/misc/door.txt
 
 # Panels
 know 	fire		data/chars/misc/fire.txt
+know tutorialpanel1 data/chars/misc/tutorial-panel1.txt
+know tutorialpanel2 data/chars/misc/tutorial-panel2.txt
+know tutorialpanel3 data/chars/misc/tutorial-panel3.txt
+know tutorialpanel4 data/chars/misc/tutorial-panel4.txt
+know tutorialpanel5 data/chars/misc/tutorial-panel5.txt
+know tutorialpanel6 data/chars/misc/tutorial-panel6.txt
+know tutorialpanel7 data/chars/misc/tutorial-panel7.txt
 
 # Bosses
 Know Hisoka_E data/chars/Hisoka/HisokaE.txt
@@ -243,6 +250,7 @@ know	dsnakes_npc	data/chars/misc/dsnakes_npc.txt
 know	kurenai_throw	data/chars/misc/kurenai_throw.txt
 know	dsnakes_enemy	data/chars/misc/dsnakes_enemy.txt
 know	scythe_enemy	data/chars/misc/scythe_enemy.txt
+know	dummy			data/chars/dummy/dummy.txt
 
 # Not a real enemy... ;)
 know	Ramon		data/chars/ramon/ramon.txt

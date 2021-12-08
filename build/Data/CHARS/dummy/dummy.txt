@@ -1,0 +1,144 @@
+name	dummy
+health	100
+speed	7
+blockodds 1
+type	enemy
+shadow	2
+diesound data/sounds/die2.wav
+icon	data/chars/Ninja__/icon.gif
+bflash  bflash
+dust	 dust
+jumpheight 4
+
+
+load field
+knife field
+load Kunai_
+star Kunai_
+animationscript data/scripts/spawns.c
+takedamagescript data/scripts/enemyhit.c
+
+
+
+
+
+
+
+anim	attack1
+	loop	1
+	delay	20
+	offset	60 116
+	bbox	47 67 32 49
+	frame	data/chars/Ninja__/idle00.gif
+	frame	data/chars/Ninja__/idle01.gif
+	frame	data/chars/Ninja__/idle02.gif
+	frame	data/chars/Ninja__/idle03.gif
+	frame	data/chars/Ninja__/idle02.gif
+	frame	data/chars/Ninja__/idle01.gif
+		
+anim	attack2
+	loop	1
+	delay	20
+	offset	60 116
+	bbox	47 67 32 49
+	frame	data/chars/Ninja__/idle00.gif
+	frame	data/chars/Ninja__/idle01.gif
+	frame	data/chars/Ninja__/idle02.gif
+	frame	data/chars/Ninja__/idle03.gif
+	frame	data/chars/Ninja__/idle02.gif
+	frame	data/chars/Ninja__/idle01.gif
+		
+anim	block
+	loop	0
+	delay	20
+	offset	60 116
+	bbox	47 67 32 49
+	frame	data/chars/Ninja__/block.gif
+	delay	2
+	move	-2
+	frame	data/chars/Ninja__/block.gif
+	frame	data/chars/Ninja__/block.gif
+	frame	data/chars/Ninja__/block.gif
+	frame	data/chars/Ninja__/block.gif
+	frame	data/chars/Ninja__/block.gif
+	frame	data/chars/Ninja__/block.gif
+	frame	data/chars/Ninja__/block.gif
+	frame	data/chars/Ninja__/block.gif
+	move	0
+	delay	30
+	frame	data/chars/Ninja__/block.gif
+		
+anim	burn
+	loop	1
+	delay	3
+	offset	60 116
+	frame	data/chars/misc/burn1.gif
+	frame	data/chars/misc/burn2.gif
+	frame	data/chars/misc/burn3.gif
+		
+anim	fall
+	bbox	35 48 61 56
+	loop	0
+	delay	60
+	offset	63 110
+	attack	35 72 23 29 4 1 0 0 0 0
+	frame	data/chars/Ninja__/fall00.gif
+	bbox	31 87 66 29
+	delay	20
+	frame	data/chars/Ninja__/fall01.gif
+		
+anim	idle
+	loop	1
+	delay	20
+	offset	60 116
+	bbox	47 67 32 49
+	frame	data/chars/Ninja__/idle00.gif
+	frame	data/chars/Ninja__/idle01.gif
+	frame	data/chars/Ninja__/idle02.gif
+	frame	data/chars/Ninja__/idle03.gif
+	frame	data/chars/Ninja__/idle02.gif
+	frame	data/chars/Ninja__/idle01.gif
+		
+anim	jumpattack
+	loop	1
+	delay	20
+	offset	60 116
+	bbox	47 67 32 49
+	frame	data/chars/Ninja__/idle00.gif
+	frame	data/chars/Ninja__/idle01.gif
+	frame	data/chars/Ninja__/idle02.gif
+	frame	data/chars/Ninja__/idle03.gif
+	frame	data/chars/Ninja__/idle02.gif
+	frame	data/chars/Ninja__/idle01.gif
+		
+anim	pain
+	loop	0
+	delay	20
+	offset	60 116
+	bbox	47 67 32 49
+	frame	data/chars/Ninja__/pain00.gif
+	frame	data/chars/Ninja__/pain01.gif
+		
+anim	rise
+	loop	0
+	delay	10
+	offset	60 116
+	frame	data/chars/Ninja__/rise.gif
+	frame	data/chars/Ninja__/idle00.gif
+		
+anim	spawn
+	delay	75
+	@cmd	spawnparent "e_spawn" 0 0 0
+	frame	data/chars/misc/empty.gif
+		
+anim	walk
+	loop	1
+	delay	15
+	offset	60 116
+	bbox	47 67 32 49
+	frame	data/chars/Ninja__/walk00.gif
+	frame	data/chars/Ninja__/walk01.gif
+	frame	data/chars/Ninja__/walk02.gif
+		
+#|edited by openBor Stats v 0.67
+		
