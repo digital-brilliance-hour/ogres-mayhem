@@ -1,10 +1,9 @@
 music data/music/stage4.ogg 1026042
-background data/bgs/newstage-4/02/b.gif
-panel data/bgs/newstage-4/02/n.gif none none
+background data/bgs/newstage-4/01/n.gif
+panel data/bgs/newstage-4/01/n.gif none none
 order a
 bgspeed	 40	0
 
-frontpanel	data/bgs/newstage-4/02/f.gif
 
 spawn1  20  10
 spawn2  5  30

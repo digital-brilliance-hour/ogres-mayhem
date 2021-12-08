@@ -100,7 +100,11 @@ skipselect deku
 scene 	data/scenes/howto.txt
 file 	data/levels/scenes/story/story.txt
 select  data/scenes/main-select.txt
-z 229 272 50
+z 117 235 118
+file	data/levels/stage4-3.txt
+z 122 238 116
+file	data/levels/stage4-2.txt
+z 130 227 97
 file	data/levels/stage4-1.txt
 next
 z 160 270 110

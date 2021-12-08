@@ -1,6 +1,6 @@
 name	Ninja_Kunoichi
 health	250
-speed	7
+speed 8
 type	enemy
 candamage     npc player
 shadow	2
