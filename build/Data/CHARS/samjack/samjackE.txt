@@ -14,7 +14,6 @@ nameposition 60 225
 iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
 
-
 anim	attack1
 	delay	5
 	offset	33 43

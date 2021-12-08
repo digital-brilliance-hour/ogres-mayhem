@@ -23,6 +23,8 @@ star          shuri
 
 subtype		chase
 
+takedamagescript data/scripts/enemyhit.c
+
 anim	attack1
 	range	0 50
 	loop	0

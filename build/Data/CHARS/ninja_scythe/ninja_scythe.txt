@@ -17,6 +17,8 @@ knife  scythe_enemy
 
 blockodds 1
 
+takedamagescript data/scripts/enemyhit.c
+
 anim	attack1
 	loop	0
 	offset	13 40
