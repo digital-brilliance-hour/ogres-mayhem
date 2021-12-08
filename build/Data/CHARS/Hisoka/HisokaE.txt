@@ -23,7 +23,6 @@ ondeathscript data/scripts/bossdeath.c
 
 
 
-
 anim	attack1
 	delay	7
 	offset	25 59

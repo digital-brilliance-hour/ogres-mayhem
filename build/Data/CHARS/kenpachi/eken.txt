@@ -26,7 +26,6 @@ ondeathscript data/scripts/bossdeath.c
 
 
 
-
 anim	attack1
 	loop	0
 	delay	10
