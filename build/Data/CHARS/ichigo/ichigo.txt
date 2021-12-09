@@ -15,6 +15,14 @@ com a2 freespecial11
 com s freespecial3
 com u s freespecial6
 com d s freespecial4
+
+com  a3  freespecial
+com u a3 freespecial2
+com d a3 freespecial5
+com a2 freespecial11
+com s freespecial3
+com u s freespecial6
+
 script data/scripts/playerscript.c
 load regTensho
 load lgTensho
