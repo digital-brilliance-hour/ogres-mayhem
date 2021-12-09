@@ -14,6 +14,10 @@ icon	data/chars/zetsu/icon.png
 
 blockodds 50
 
+lifebarstatus 380 5 0 1 0 0 0 0 0
+lifeposition 50 235
+nameposition 60 225
+iconposition 50 360
 
 
 
