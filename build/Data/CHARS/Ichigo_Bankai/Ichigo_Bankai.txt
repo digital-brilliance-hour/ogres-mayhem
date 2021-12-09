@@ -56,6 +56,7 @@ load getsugalarge
 
 
 
+
 anim	attack1
 	delay	3
 	offset	25 47
@@ -192,6 +193,8 @@ anim	follow1
 	frame	data/chars/Ichigo_Bankai/116.gif
 		
 anim	freespecial
+	@cmd	isavailable 2
+	energycost	10
 	delay	7
 	offset	25 47
 	frame	data/chars/Ichigo_Bankai/123.gif
@@ -272,6 +275,8 @@ anim	freespecial11
 	frame	data/chars/Ichigo_Bankai/23.gif
 		
 anim	freespecial2
+	@cmd	isavailable 3
+	energycost	20
 	delay	7
 	offset	44 44
 	frame	data/chars/Ichigo_Bankai/161.gif
@@ -310,6 +315,8 @@ anim	freespecial2
 	frame	data/chars/Ichigo_Bankai/173.gif
 		
 anim	freespecial3
+	@cmd	isavailable 4
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	delay	7
 	offset	25 47
 	frame	data/chars/Ichigo_Bankai/174.gif
@@ -328,6 +335,8 @@ anim	freespecial3
 	frame	data/chars/Ichigo_Bankai/180.gif
 		
 anim	freespecial5
+	@cmd	isavailable 5
+	energycost	30
 	delay	7
 	offset	25 47
 	frame	data/chars/Ichigo_Bankai/181.gif
@@ -393,6 +402,8 @@ anim	freespecial5
 	frame	data/chars/Ichigo_Bankai/189.gif
 		
 anim	freespecial6
+	@cmd	isavailable 6
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	delay	7
 	offset	25 48
 	frame	data/chars/Ichigo_Bankai/227.gif
