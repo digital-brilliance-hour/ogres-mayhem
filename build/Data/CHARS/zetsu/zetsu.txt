@@ -14,7 +14,7 @@ icon	data/chars/zetsu/icon.png
 
 blockodds 50
 
-
+takedamagescript data/scripts/enemyhit.c
 
 
 anim	attack1

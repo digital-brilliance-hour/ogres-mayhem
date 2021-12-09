@@ -27,7 +27,6 @@ iconposition 50 360
 
 
 
-
 anim	attack1
 	bbox	46 74 41 42
 	loop	0

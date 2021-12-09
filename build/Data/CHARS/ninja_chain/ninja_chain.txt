@@ -13,7 +13,7 @@ bflash  bflash
 dust	 dust
 jumpheight 4
 
-
+takedamagescript data/scripts/enemyhit.c
 
 
 
