@@ -1,0 +1,226 @@
+music data/music/stage4.ogg 1026042
+background data/bgs/newstage-4/17/n.gif
+panel data/bgs/newstage-4/17/n.gif none none
+order a
+bgspeed	 40	0
+
+spawn1  20  10
+spawn2  5  30
+
+stagenumber 4
+
+spawn ready
+	coords 240 136
+	at 0
+	
+spawn   Pirate
+health 100
+coords	200 176
+at	0
+
+spawn   Pirate
+health 100
+coords  300 176
+at      0
+
+wait
+at      170
+
+group 3 4
+at 170
+
+spawn   Dog
+item mp_hundred
+health 100
+coords  400 133
+at      170
+
+spawn   Dog
+item hp_hundred
+health 200
+coords  400 188
+at      170
+
+spawn   Ninja_Genin
+2pitem mp_hundred
+health 50
+coords  80 133
+at      170
+
+spawn   Ninja_Genin
+2pitem hp_hundred
+health 50
+coords  80 188
+at      170
+
+spawn   Ninja_Kunoichi
+3pitem mp_hundred
+health 100
+coords  400 133
+at      170
+
+spawn   Ninja__
+3pitem hp_hundred
+health 100
+coords  400 188
+at      170
+
+spawn   Ninja_Genin
+4pitem mp_hundred
+health 50
+coords  80 133
+at      170
+
+spawn   Ninja_Genin
+4pitem hp_hundred
+health 50
+coords  80 188
+at      170
+
+spawn   Ninja_Kunoichi
+health 100
+coords  400 133
+at      170
+
+spawn   Ninja_Chain
+health 100
+coords  400 188
+at      170
+
+spawn   Ninja_Genin
+item mp_hundred
+health 50
+coords  80 133
+at      170
+
+spawn   Dog
+item hp_hundred
+coords  80 188
+at      170
+
+spawn   Dog
+2pitem mp_hundred
+health 100
+coords  400 133
+at      170
+
+spawn   Ninja_Kunoichi
+2pitem hp_hundred
+health 100
+coords  400 188
+at      170
+
+spawn   Ninja_Genin
+3pitem mp_hundred
+health 50
+coords  80 133
+at      170
+
+spawn   Ninja_Genin
+3pitem hp_hundred
+health 50
+coords  80 188
+at      170
+
+spawn   Ninja_Kunoichi
+4pitem mp_hundred
+health 100
+coords  400 133
+at      170
+
+spawn   Ninja__
+4pitem hp_hundred
+health 100
+coords  400 188
+at      170
+
+spawn   Ninja_Genin
+health 50
+coords  80 133
+at      170
+
+spawn   Ninja_Genin
+health 50
+coords  80 188
+at      170
+
+wait
+at 700
+
+group 2 4
+at 700
+
+2pspawn Franky2
+coords 240 130
+at 700
+
+spawn Franky2
+coords 240 157
+at 700
+
+3pspawn Franky2
+coords 240 166
+at 700
+
+4pspawn Franky2
+coords 240 190
+at 700
+
+wait
+at 1360
+
+group 2 4
+at 1360
+
+spawn   Reanimated_Asuma
+boss 1
+health  500
+3phealth 1000
+4phealth 1500
+coords  300 180
+at      1360
+
+spawn   Throw
+item mp_hundred
+coords  80 133
+at      1360
+
+spawn   Throw
+item hp_hundred
+coords  80 188
+at      1360
+
+spawn   Sogeking
+2pitem mp_hundred
+coords  400 133
+at      1360
+
+spawn   Sogeking
+2pitem hp_hundred
+coords  400 188
+at      1360
+
+spawn   Marine
+3pitem mp_hundred
+coords  400 133
+at      1360
+
+spawn   Marine
+3pitem hp_hundred
+coords  400 188
+at      1360
+
+spawn   Throw
+4pitem mp_hundred
+coords  400 133
+at      1360
+
+spawn   Throw
+4pitem hp_hundred
+coords  400 188
+at      1360
+
+
+
+
+
