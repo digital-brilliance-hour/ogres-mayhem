@@ -9,7 +9,7 @@ animationscript data/scripts/spawns.c
 candamage player npc
 hostile npc player
 
-
+takedamagescript data/scripts/enemyhit.c
 
 anim	idle
 	loop	1

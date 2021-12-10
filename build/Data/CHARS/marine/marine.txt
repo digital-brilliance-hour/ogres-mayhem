@@ -9,7 +9,6 @@ subtype chase
 hostile player npc
 subject_to_screen 1
 candamage player npc
-hostile npc player
 
 remap	data/chars/Marine/idle01.gif data/chars/Marine/map1.gif
 takedamagescript data/scripts/enemyhit.c

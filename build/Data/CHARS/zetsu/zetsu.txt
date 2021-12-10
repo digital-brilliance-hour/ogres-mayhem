@@ -21,6 +21,7 @@ iconposition 50 360
 
 
 
+
 anim	attack1
 	range	0 60
 	loop	0
