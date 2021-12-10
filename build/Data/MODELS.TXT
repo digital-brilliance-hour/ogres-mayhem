@@ -160,6 +160,10 @@ know 	Door 		data/chars/misc/door.txt
 
 # Panels
 know 	fire		data/chars/misc/fire.txt
+know	lab1       	data/bgs/stage-5/lab1.txt
+know	lab2       	data/bgs/stage-5/lab2.txt
+know	lab13       data/bgs/stage-5/lab13.txt
+know	lab14       data/bgs/stage-5/lab14.txt
 
 # Bosses
 Know Hisoka_E data/chars/Hisoka/HisokaE.txt

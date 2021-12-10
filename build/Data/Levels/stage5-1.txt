@@ -1,0 +1,336 @@
+music data/music/stage5.ogg
+background	data/bgs/stage-5/back2
+bglayer         data/bgs/stage-5/back1b 0.3 0.3 0 0 0 0 100 1 1 0
+bglayer         data/bgs/stage-5/back1a 0.3 0.3 0 0 0 0 100 1 1 6
+fglayer 	data/bgs/stage-5/swc5a 4 1 0 0 0 99999999 0 2 1 1 2
+#panel		data/bgs/stage-5/empt
+panel data/bgs/stage-5/a12.png none none
+order	aaa
+
+#background data/bgs/stage-5/a12.png
+#frontpanel data/bgs/stage-9/f01.gif
+#panel data/bgs/stage-5/a12.png none none
+#order a
+
+spawn1 70 45 0
+spawn2 45 85 0
+spawn3 110 70 0
+spawn4 05 62 0
+
+load lab1 1
+load lab2 1
+load lab13 1
+load lab14 1
+
+stagenumber 5
+
+spawn ready
+	coords 240 136
+	at 0
+
+#--group1-----
+shadowalpha 2
+at 0
+light 256 33
+at 0
+
+spawn	lab1
+flip 1
+coords	160 240
+at	0
+
+spawn	lab2
+flip 1
+coords	160 240
+at	0
+
+spawn	lab13
+flip 1
+coords	1024 240
+at	0
+
+spawn	lab2
+flip 1
+coords	1024 240
+at	0
+
+spawn	lab14
+flip 1
+coords	1884 240
+at	0
+
+spawn	lab2
+flip 1
+coords	1884 240
+at	0
+
+#--Group 1--#
+
+spawn tsukaima
+coords 150 250
+at 165
+
+spawn tsukaima
+coords 150 185
+at 165
+
+spawn lobster
+coords 250 250
+at 165
+
+spawn lobster
+coords 250 185
+at 165
+
+wait
+at 180
+
+group 4 4
+at 180
+
+spawn tsukaima
+item mp_hundred
+coords 30 250
+at 165
+
+spawn tsukaima
+item hp_hundred
+coords 30 185
+at 165
+
+spawn tsukaima
+2pitem mp_hundred
+coords 480 212
+at 180
+
+spawn tsukaima
+2pitem hp_hundred
+coords 480 152
+at 180
+
+spawn tsukaima
+3pitem mp_hundred
+coords 480 182
+at 180
+
+spawn tsukaima
+3pitem hp_hundred
+coords -30 182
+at 180
+
+spawn tsukaima
+4pitem mp_hundred
+coords -30 212
+at 180
+
+spawn tsukaima
+4pitem mp_hundred
+coords -30 242
+at 180
+
+
+#--Group 2--#
+
+spawn shrieker
+coords 30 182
+at 800
+
+spawn lobster
+coords 30 242
+at 800
+
+spawn tsukaima
+coords 330 175
+at 800
+
+spawn tsukaima
+coords 330 250
+at 800
+
+wait
+at 800
+
+group 3 3
+at 800
+
+spawn shrieker
+item mp_hundred
+coords 400 182
+at 800
+
+spawn shrieker
+item hp_hundred
+coords 400 182
+at 800
+
+spawn tsukaima
+2pitem mp_hundred
+coords 330 175
+at 800
+
+spawn tsukaima
+2pitem hp_hundred
+coords 330 250
+at 800
+
+spawn tsukaima
+3pitem mp_hundred
+coords 330 175
+at 800
+
+spawn tsukaima
+3pitem hp_hundred
+coords 330 250
+at 800
+
+spawn shrieker
+4pitem mp_hundred
+coords 400 250
+at 800
+
+spawn shrieker
+4pitem mp_hundred
+coords 400 250
+at 800
+
+spawn tsukaima
+coords 330 175
+at 800
+
+spawn tsukaima
+coords 330 250
+at 800
+
+spawn tsukaima
+coords 330 175
+at 800
+
+spawn tsukaima
+coords 330 250
+at 800
+
+#--Group 3--#
+
+spawn grand_fisher
+health 200
+coords 480 182
+at 1250
+
+spawn grand_fisher
+health 200
+coords 480 250
+at 1250
+
+spawn menos
+coords 380 210
+at 1250
+
+wait
+at 1250
+
+group 3 3
+at 1250
+
+spawn shrieker
+item mp_hundred
+coords 0 250
+at 1250
+
+spawn tsukaima
+item hp_hundred
+coords 0 175
+at 1250
+
+spawn shrieker
+2pitem mp_hundred
+coords 0 250
+at 1250
+
+spawn tsukaima
+2pitem hp_hundred
+coords 0 175
+at 1250
+
+spawn grand_fisher
+3pitem mp_hundred
+coords -30 210
+at 1250
+
+spawn menos
+3pitem hp_hundred
+coords 580 250
+at 1250
+
+spawn menos
+4pitem mp_hundred
+coords 580 180
+at 1250
+
+spawn tsukaima
+4pitem hp_hundred
+coords 0 175
+at 1250
+
+spawn	warning
+	coords 240 136
+flip    1
+at      1848
+
+#--Group 4--#
+
+spawn zetsu
+alias Zetsu
+health 700
+boss 1
+coords 300 200
+at 2000
+
+spawn lobster
+coords 150 180
+at 2000
+
+spawn lobster
+coords 150 240
+at 2000
+
+wait
+at 2000
+
+group 3 3
+at 2000
+
+spawn shrieker
+coords -30 250
+at 2000
+
+spawn shrieker
+coords 370 170
+at 2000
+
+spawn shrieker
+coords -30 250
+at 2000
+
+spawn shrieker
+coords 370 170
+at 2000
+
+spawn tsukaima
+coords -30 170
+at 2000
+
+spawn tsukaima
+coords 370 250
+at 2000
+
+spawn tsukaima
+coords -30 170
+at 2000
+
+spawn tsukaima
+coords 370 250
+at 2000
+
+#spawn Story
+#alias hisokadialog
+#at 1849
