@@ -15,9 +15,10 @@ knife tei
 subtype chase
 escapehits 1
 hostile player npc
+hostile npc player
 blockodds 1
 cantgrab  1
-candamage player npc obstacle
+candamage player npc
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 ondeathscript data/scripts/bossdeath.c

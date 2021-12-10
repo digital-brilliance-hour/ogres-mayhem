@@ -8,7 +8,9 @@ icon	data/chars/Throw/icon.gif
 load nife
 knife nife
 candamage player npc obstacle
+candamage player npc
 hostile player npc
+hostile npc player
 remap	data/chars/Throw/idle01.gif data/chars/Throw/map1.gif
 subject_to_screen 1
 takedamagescript data/scripts/enemyhit.c

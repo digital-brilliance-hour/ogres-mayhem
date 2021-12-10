@@ -73,7 +73,7 @@ credits 5
 continuescore 2
 cansave 2
 noshare 1
-skipselect deku
+skipselect blankP
 scene 	data/scenes/howto.txt
 file 	data/levels/scenes/story/story.txt
 select  data/scenes/main-select.txt
@@ -96,15 +96,21 @@ credits 5
 continuescore 2
 cansave 2
 noshare 1
-skipselect deku
+skipselect blankP
 scene 	data/scenes/howto.txt
 file 	data/levels/scenes/story/story.txt
 select  data/scenes/main-select.txt
-z 229 272 50
-file	data/levels/stage4.txt
+z 130 227 97
+file	data/levels/stage4-1.txt
+z 122 238 116
+file	data/levels/stage4-2.txt
+z 152 235 118
+file	data/levels/stage4-3.txt
 next
+z 157 240 240
+file	data/levels/stage5-1.txt
 z 160 270 110
-file	data/levels/stage5.txt
+file	data/levels/stage5-2.txt
 next
 file	data/levels/stage6.txt
 next

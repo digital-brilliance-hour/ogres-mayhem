@@ -9,7 +9,8 @@ takedamagescript data/scripts/enemyhit.c
 ondeathscript data/scripts/bossdeath.c
 subject_to_screen 1
 
-
+candamage player npc
+hostile npc player
 
 
 anim	attack1

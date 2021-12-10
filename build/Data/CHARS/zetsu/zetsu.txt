@@ -3,7 +3,8 @@ health	100
 speed	9
 type	enemy
 hostile npc player
-candamage     npc player
+candamage npc player
+candamage player npc
 shadow	2
 diesound data/sounds/die2.wav
 bflash  bflash
@@ -12,6 +13,11 @@ jumpheight 6
 icon	data/chars/zetsu/icon.png
 
 blockodds 50
+
+lifebarstatus 380 5 0 1 0 0 0 0 0
+lifeposition 50 235
+nameposition 60 225
+iconposition 50 360
 
 
 

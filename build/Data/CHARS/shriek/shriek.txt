@@ -9,7 +9,8 @@ subject_to_screen 1
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 
-
+candamage player npc
+hostile npc player
 
 anim	fall
 	bbox	15 87 92 29
@@ -43,11 +44,6 @@ anim	land
 	delay	10
 	frame	data/chars/Shriek/Idle1.gif
 		
-anim	spawn
-	delay	75
-	@cmd	spawnparent "e_spawn" 0 0 0
-	frame	data/chars/misc/empty.gif
-		
 anim	pain
 	loop	0
 	offset	60 116
@@ -60,6 +56,11 @@ anim	rise
 	offset	60 116
 	delay	10
 	frame	data/chars/Shriek/Idle1.gif
+		
+anim	spawn
+	delay	75
+	@cmd	spawnparent "e_spawn" 0 0 0
+	frame	data/chars/misc/empty.gif
 		
 anim	walk
 	loop	1

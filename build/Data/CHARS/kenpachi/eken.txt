@@ -9,6 +9,7 @@ riseinv 2 0
 makeinv 2 0
 escapehits 1
 candamage player npc obstacle
+candamage player npc
 hostile npc player
 shadow 3
 animationscript data/scripts/spawns.c
@@ -17,7 +18,6 @@ lifeposition 50 235
 nameposition 60 225
 iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
-
 
 
 

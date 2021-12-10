@@ -15,6 +15,14 @@ com a2 freespecial11
 com s freespecial3
 com u s freespecial6
 com d s freespecial4
+
+com  a3  freespecial
+com u a3 freespecial2
+com d a3 freespecial5
+com a2 freespecial11
+com s freespecial3
+com u s freespecial6
+
 script data/scripts/playerscript.c
 load regTensho
 load lgTensho
@@ -28,6 +36,8 @@ parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
+
+
 
 
 
@@ -136,6 +146,8 @@ anim	fall
 	frame	data/chars/Ichigo/335.gif
 		
 anim	freespecial
+	@cmd	isavailable 2
+	energycost	10
 	delay	4
 	fastattack	1
 	hitfx	data/chars/Ichigo/ichigo_8-0.wav
@@ -280,6 +292,8 @@ anim	freespecial11
 	frame	data/chars/Ichigo/walk1.gif
 		
 anim	freespecial2
+	@cmd	isavailable 3
+	energycost	20
 	delay	4
 	@cmd	pause_all 1 120
 	offset	19 47
@@ -341,8 +355,8 @@ anim	freespecial2
 	frame	data/chars/Ichigo/133.gif
 		
 anim	freespecial3
-	@cmd	isavailable 2
-	energycost	10
+	@cmd	isavailable 4
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	mponly	1
 	loop	0
 	offset	58 116
@@ -375,6 +389,8 @@ anim	freespecial3
 	frame	data/chars/Ichigo/22.gif
 		
 anim	freespecial4
+	@cmd	isavailable 7
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	delay	5
 	offset	18 44
 	frame	data/chars/Ichigo/71.gif
@@ -407,6 +423,8 @@ anim	freespecial4
 	frame	data/chars/Ichigo/76.gif
 		
 anim	freespecial5
+	@cmd	isavailable 5
+	energycost	30
 	delay	4
 	fastattack	1
 	offset	21 45
@@ -463,6 +481,8 @@ anim	freespecial5
 	frame	data/chars/Ichigo/177.gif
 		
 anim	freespecial6
+	@cmd	isavailable 6
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	delay	10
 	@cmd	pause_all 1 230
 	@cmd	spawnbind "zoomin" 0 0 0

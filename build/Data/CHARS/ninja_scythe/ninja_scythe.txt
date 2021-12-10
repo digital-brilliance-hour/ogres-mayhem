@@ -4,6 +4,7 @@ speed	1
 type	enemy
 hostile npc player
 candamage   npc player
+candamage player npc
 shadow	2
 diesound data/sounds/die2.wav
 icon	data/chars/ninja_scythe/icon.png
@@ -15,6 +16,8 @@ load scythe_enemy
 knife  scythe_enemy
 
 blockodds 1
+
+takedamagescript data/scripts/enemyhit.c
 
 anim	attack1
 	loop	0
@@ -31,7 +34,7 @@ anim	attack1
 	frame	data/chars/ninja_scythe/8.png
 	offset	13 40
 	frame	data/chars/ninja_scythe/6.png
-
+		
 anim	attack2
 	loop	0
 	sound	data/sounds/attack32.wav
@@ -46,14 +49,14 @@ anim	attack2
 	Attack1	0
 	frame	data/chars/ninja_scythe/7.png
 	frame	data/chars/ninja_scythe/6.png
-
+		
 anim	block
 	loop	0
 	delay	20
 	offset	14 35
 	bbox	5 -3 37 55
 	frame	data/chars/ninja_scythe/10.png
-
+		
 anim	burn
 	loop	1
 	delay	3
@@ -61,7 +64,7 @@ anim	burn
 	frame	data/chars/misc/burn1.gif
 	frame	data/chars/misc/burn2.gif
 	frame	data/chars/misc/burn3.gif
-
+		
 anim	fall
 	loop	0
 	delay	15
@@ -75,7 +78,7 @@ anim	fall
 	frame	data/chars/ninja_scythe/87.png
 	offset	28 19
 	frame	data/chars/ninja_scythe/88.png
-
+		
 anim	freespecial
 	loop	0
 	range	70 300
@@ -94,7 +97,7 @@ anim	freespecial
 	offset	13 40
 	frame	data/chars/ninja_scythe/7.png
 	frame	data/chars/ninja_scythe/6.png
-
+		
 anim	freespecial2
 	loop	0
 	range	50 300
@@ -132,7 +135,7 @@ anim	freespecial2
 	offset	19 47
 	bbox	1 0 35 52
 	frame	data/chars/ninja_scythe/60.png
-
+		
 anim	idle
 	loop	1
 	delay	14
@@ -151,7 +154,7 @@ anim	idle
 	frame	data/chars/ninja_scythe/1.png
 	offset	19 47
 	frame	data/chars/ninja_scythe/0.png
-
+		
 anim	jump
 	loop	0
 	delay	10
@@ -162,7 +165,18 @@ anim	jump
 	frame	data/chars/ninja_scythe/7.png
 	frame	data/chars/ninja_scythe/78.png
 	frame	data/chars/ninja_scythe/79.png
-
+		
+anim	jumpattack
+	loop	0
+	delay	10
+	offset	15 59
+	bbox	3 2 32 52
+	frame	data/chars/ninja_scythe/5.png
+	frame	data/chars/ninja_scythe/6.png
+	frame	data/chars/ninja_scythe/7.png
+	frame	data/chars/ninja_scythe/78.png
+	frame	data/chars/ninja_scythe/79.png
+		
 anim	land
 	loop	0
 	delay	5
@@ -175,7 +189,7 @@ anim	land
 	offset	15 35
 	bbox	3 2 32 52
 	frame	data/chars/ninja_scythe/80.png
-
+		
 anim	pain
 	loop	0
 	delay	15
@@ -184,20 +198,12 @@ anim	pain
 	frame	data/chars/ninja_scythe/82.png
 	offset	19 48
 	frame	data/chars/ninja_scythe/83.png
-
+		
 anim	rise
 	loop	0
 	delay	10
 	offset	18 34
 	frame	data/chars/ninja_scythe/81.png
-anim  jumpattack
-	loop  0
-		delay  10
-		offset  15  59
-		bbox  3  2  32  52
-	frame  data/chars/ninja_scythe/5.png
-	frame  data/chars/ninja_scythe/6.png
-	frame  data/chars/ninja_scythe/7.png
-	frame  data/chars/ninja_scythe/78.png
-	frame  data/chars/ninja_scythe/79.png
-
+		
+#|edited by openBor Stats v 0.67
+		

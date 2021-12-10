@@ -7,7 +7,7 @@ cantgrab 1
 aimove chase
 escapehits 1
 riseinv 2 0
-candamage player npc obsacle
+candamage player npc
 hostile npc player
 subject_to_screen 1
 
@@ -17,11 +17,12 @@ com      a3 freespecial2
 com      a4 freespecial3
 
 script data/scripts/playerscript.c
-takedamagescript data/scripts/enemyhit.c
 ondeathscript data/scripts/bossdeath.c
 
-
-
+lifebarstatus 380 5 0 1 0 0 0 0 0
+lifeposition 50 235
+nameposition 60 225
+iconposition 50 360
 
 
 

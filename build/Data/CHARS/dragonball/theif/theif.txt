@@ -11,6 +11,8 @@ animationscript data/scripts/spawns.c
 
 subject_to_screen 1
 
+candamage player npc
+hostile npc player
 
 anim	attack1
 	loop	0

@@ -16,7 +16,8 @@ remap	data/chars/Boar2/idle00.gif data/chars/Boar2/map1.gif
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 
-
+candamage player npc
+hostile npc player
 
 
 anim	attack1

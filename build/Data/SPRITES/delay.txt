@@ -6,7 +6,6 @@ nomove     1
 
 
 
-
 anim	idle
 @script
     void self = getlocalvar("self");

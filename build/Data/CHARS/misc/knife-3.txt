@@ -2,18 +2,16 @@ name	Knife3
 health	1
 type	enemy
 shadow	0
-#icon	data/chars/misc/meaticon.gif
 
-anim idle
+candamage player npc
+hostile npc player
+
+anim	idle
 	loop	0
 	delay	1000
-	offset	12 -40
-	attack	0 0 27 9 10 1
+	offset	12 4
+	attack	0 0 27 9 10 1 0 0 0 0
 	frame	data/chars/misc/knife-3.gif
-
-#anim attack1
-#	loop	0
-#	delay	1000
-#	offset	12 -40
-#	attack	0 0 27 9
-#	frame	data/chars/misc/knife-3.gif
+		
+#|edited by openBor Stats v 0.67
+		

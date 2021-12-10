@@ -12,6 +12,7 @@ blockodds 1
 cantgrab  1
 escapehits 1
 candamage player npc obstacle
+candamage player npc
 hostile npc player
 subject_to_screen 1
 load slash2

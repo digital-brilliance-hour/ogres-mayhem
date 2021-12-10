@@ -4,6 +4,8 @@ speed   4
 type	enemy
 shadow	0
 
+candamage player npc
+hostile npc player
 
 anim	idle
 	loop	1

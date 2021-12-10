@@ -11,6 +11,7 @@ riseinv 2 0
 load lay
 load stars
 candamage player npc obstacle shot
+candamage player npc
 subject_to_screen 1
 escapehits 1
 blockodds 1

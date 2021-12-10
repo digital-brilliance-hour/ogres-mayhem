@@ -5,7 +5,7 @@ speed 25
 shadow 3
 aimove chase
 escapehits 1
-candamage player npc obsacle
+candamage player npc
 hostile npc player
 icon data/chars/samjack/icon.gif
 lifebarstatus 380 5 0 1 0 0 0 0 0
@@ -13,7 +13,6 @@ lifeposition 50 235
 nameposition 60 225
 iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
-
 
 anim	attack1
 	delay	5
@@ -106,7 +105,6 @@ anim	get
 	delay	16
 	offset	25 22
 	frame	data/chars/samjack/get.gif
-		
 		
 anim	idle
 	loop	1

@@ -6,6 +6,10 @@ shadow	0
 cantgrab 1
 subject_to_screen 1
 
+candamage player npc
+hostile npc player
+
+takedamagescript data/scripts/enemyhit.c
 
 anim	attack1
 	delay	7

@@ -1,0 +1,270 @@
+music data/music/stage4.ogg 1026042
+background data/bgs/newstage-4/01/n.gif
+panel data/bgs/newstage-4/01/n.gif none none
+order a
+
+
+spawn1  35  10
+spawn2  20  30
+spawn3  35  40
+spawn4  20  60
+
+stagenumber 4
+
+spawn ready
+	coords 240 136
+	at 0
+	
+spawn   Claw
+health 100
+coords	200 196
+at	0
+
+spawn   Claw
+health 100
+coords  300 196
+at      0
+
+wait
+at      600
+
+group 3 4
+at 600
+
+spawn   Cabaji
+item mp_hundred
+health 100
+coords  400 173
+at      600
+
+spawn   Cabaji
+item hp_hundred
+health 200
+coords  400 228
+at      600
+
+spawn   Dog
+2pitem mp_hundred
+health 50
+coords  80 173
+at      600
+
+spawn   Dog
+2pitem hp_hundred
+health 50
+coords  80 228
+at      600
+
+spawn   Cabaji
+3pitem mp_hundred
+health 100
+coords  400 173
+at      600
+
+spawn   Ninja_
+3pitem hp_hundred
+health 100
+coords  400 228
+at      600
+
+spawn   Ninja_Genin
+4pitem mp_hundred
+health 50
+coords  80 173
+at      600
+
+spawn   Ninja
+4pitem hp_hundred
+health 50
+coords  80 228
+at      600
+
+spawn   Cabaji
+health 100
+coords  400 173
+at      600
+
+spawn   Ninja_
+health 100
+coords  400 228
+at      600
+
+spawn   Ninja_Genin
+item mp_hundred
+health 50
+coords  80 173
+at      600
+
+spawn   Ninja
+item hp_hundred
+coords  80 228
+at      600
+
+spawn   Cabaji
+2pitem mp_hundred
+health 100
+coords  400 173
+at      600
+
+spawn   Ninja_
+2pitem hp_hundred
+health 100
+coords  400 228
+at      600
+
+spawn   Ninja_Genin
+3pitem mp_hundred
+health 50
+coords  80 173
+at      600
+
+spawn   Ninja
+3pitem hp_hundred
+health 50
+coords  80 228
+at      600
+
+spawn   Cabaji
+4pitem mp_hundred
+health 100
+coords  400 173
+at      600
+
+spawn   Ninja_
+4pitem hp_hundred
+health 100
+coords  400 228
+at      600
+
+spawn   Ninja_Genin
+health 50
+coords  80 173
+at      600
+
+spawn   Ninja
+health 50
+coords  80 228
+at      600
+
+spawn   Dog
+item mp_hundred
+health 50
+coords  80 173
+at      1300
+
+spawn   Dog
+item hp_hundred
+health 50
+coords  80 228
+at      1300
+
+spawn   Dog
+2pitem mp_hundred
+health 50
+coords  80 173
+at      1300
+
+spawn   Dog
+2pitem hp_hundred
+health 50
+coords  80 228
+at      1300
+
+wait
+at 1860
+
+group 2 4
+at 1860
+
+spawn   Orochimaru
+boss 1
+health  600
+3phealth 1200
+4phealth 1800
+coords  300 200
+at      1860
+
+spawn   Ninja
+item mp_hundred
+coords  80 173
+at      1860
+
+spawn   Gunner
+item hp_hundred
+coords  80 228
+at      1860
+
+spawn   Ninja
+2pitem mp_hundred
+coords  400 173
+at      1860
+
+spawn   Sogeking
+2pitem hp_hundred
+coords  400 228
+at      1860
+
+spawn   Marine
+3pitem mp_hundred
+coords  400 173
+at      1860
+
+spawn   Gunner
+3pitem hp_hundred
+coords  400 228
+at      1860
+
+spawn   Ninja
+4pitem mp_hundred
+coords  400 173
+at      1860
+
+spawn   Sogeking
+4pitem hp_hundred
+coords  400 228
+at      1860
+
+spawn   Ninja
+item mp_hundred
+coords  80 173
+at      1860
+
+spawn   Gunner
+item hp_hundred
+coords  80 228
+at      1860
+
+spawn   Ninja
+2pitem mp_hundred
+coords  400 173
+at      1860
+
+spawn   Sogeking
+2pitem hp_hundred
+coords  400 228
+at      1860
+
+spawn   Marine
+3pitem mp_hundred
+coords  400 173
+at      1860
+
+spawn   Gunner
+3pitem hp_hundred
+coords  400 228
+at      1860
+
+spawn   Ninja
+4pitem mp_hundred
+coords  400 173
+at      1860
+
+spawn   Sogeking
+4pitem hp_hundred
+coords  400 228
+at      1860
+
+
+
+
+

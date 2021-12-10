@@ -13,7 +13,8 @@ alternatepal    data/chars/kagome/pal3.png
 animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c
 
-
+candamage player npc
+hostile npc player
 
 
 

@@ -10,7 +10,7 @@ shadow	5
 aimove chase
 escapehits 1
 riseinv 2 0
-candamage player npc obsacle
+candamage player npc
 hostile npc player
 icon	data/chars/hiei/icone3.gif
 diesound data/chars/hiei/die.wav
@@ -38,7 +38,6 @@ com 		D  U  A     freespecial3
 com 		D  F  K     freespecial4
 animationscript data/scripts/spawns.c
 ondeathscript data/scripts/bossdeath.c
-
 
 
 

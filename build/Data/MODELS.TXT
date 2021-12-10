@@ -167,6 +167,10 @@ know tutorialpanel4 data/chars/misc/tutorial-panel4.txt
 know tutorialpanel5 data/chars/misc/tutorial-panel5.txt
 know tutorialpanel6 data/chars/misc/tutorial-panel6.txt
 know tutorialpanel7 data/chars/misc/tutorial-panel7.txt
+know	lab1       	data/bgs/stage-5/lab1.txt
+know	lab2       	data/bgs/stage-5/lab2.txt
+know	lab13       data/bgs/stage-5/lab13.txt
+know	lab14       data/bgs/stage-5/lab14.txt
 
 # Bosses
 Know Hisoka_E data/chars/Hisoka/HisokaE.txt
@@ -331,3 +335,5 @@ know sonicBlast data/chars/Sonic/sonicBlast.txt
 know sonicDash data/chars/Sonic/sonicDash.txt
 know sonicWhirlwind data/chars/Sonic/sonicWhirlwind.txt
 know sonicWhirlwindBottom data/chars/Sonic/sonicWhirlwindBottom.txt
+know blackScreen data/chars/misc/blackscreen.txt
+Load blankP Data/Chars/blankP/blankP.txt

@@ -7,7 +7,8 @@ shadow	3
 icon	data/chars/Theif/icon.gif
 takedamagescript data/scripts/enemyhit.c
 
-
+candamage player npc
+hostile npc player
 
 
 anim	attack1
