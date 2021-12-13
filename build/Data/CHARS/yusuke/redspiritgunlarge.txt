@@ -15,34 +15,42 @@ anim	idle
 	loop	1
 	drawmethod	scale 0.95
 	delay	7
+	attack	185 45 194 184 100 1 1 0 0 70
 	offset	279 140
 	frame	data/chars/yusuke/1031.gif
 	offset	289 135
 	frame	data/chars/yusuke/1032.gif
+	attack	185 45 194 184 100 1 0 1 0 70
 	offset	287 131
 	frame	data/chars/yusuke/1033.gif
 	offset	283 129
 	frame	data/chars/yusuke/1034.gif
+	attack	185 45 194 184 100 1 1 0 0 70
 	offset	248 128
 	frame	data/chars/yusuke/1035.gif
 	offset	235 128
 	frame	data/chars/yusuke/1036.gif
+	attack	140 45 194 184 100 1 0 1 0 70
 	offset	235 134
 	frame	data/chars/yusuke/1037.gif
 	offset	244 134
 	frame	data/chars/yusuke/1038.gif
+	attack	165 45 194 184 100 1 1 0 0 70
 	offset	261 139
 	frame	data/chars/yusuke/1039.gif
 	offset	278 141
 	frame	data/chars/yusuke/1040.gif
+	attack	190 45 194 184 100 1 0 1 0 70
 	offset	284 142
 	frame	data/chars/yusuke/1041.gif
 	offset	265 142
 	frame	data/chars/yusuke/1042.gif
+	attack	157 45 194 184 100 1 1 0 0 70
 	offset	258 144
 	frame	data/chars/yusuke/1043.gif
 	offset	253 145
 	frame	data/chars/yusuke/1044.gif
+	attack	157 45 194 184 100 1 0 1 0 70
 	offset	259 134
 	frame	data/chars/yusuke/1045.gif
 		

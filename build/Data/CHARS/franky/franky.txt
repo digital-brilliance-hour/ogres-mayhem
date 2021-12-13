@@ -92,7 +92,7 @@ anim	fall
 	frame	data/chars/franky/fall03.gif
 		
 anim	freespecial
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	loop	0
@@ -129,7 +129,7 @@ anim	freespecial
 	frame	data/chars/franky/sp14.gif
 		
 anim	freespecial2
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	loop	0
@@ -288,7 +288,7 @@ anim	select
 	frame	data/chars/franky/slt09.GIF
 		
 anim	special
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	loop	0

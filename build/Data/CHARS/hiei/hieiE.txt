@@ -314,7 +314,7 @@ anim	follow1
 	sound	data/chars/hiei/harashiranai.wav
 	bbox	92 47 -43 70
 	loop	0
-	energycost	20
+	mpcost	20
 	delay	4
 	offset	63 120
 	frame	data/chars/hiei/socosfire.gif
@@ -358,7 +358,7 @@ anim	follow1
 	frame	data/chars/hiei/socosfire.gif
 	hitflash	flash3
 	bbox	38 66 55 61
-	energycost	20
+	mpcost	20
 	sound	data/chars/hiei/ensatsuken.wav
 	loop	0
 	delay	8

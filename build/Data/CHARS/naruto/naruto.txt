@@ -188,7 +188,7 @@ anim	fall
 		
 anim	freespecial
 	@cmd	isavailable 2
-	energycost	10
+	mpcost	10
 	mponly	1
 	loop	0
 	@cmd	pause_all 1 10
@@ -264,7 +264,7 @@ anim	freespecial11
 anim	freespecial2
 	@cmd	isavailable 3
 	mponly	1
-	energycost	20
+	mpcost	20
 	@cmd	pause_all 1 10
 	delay	6
 	fastattack	1
@@ -458,7 +458,7 @@ anim	freespecial4
 anim	freespecial5
 	@cmd	isavailable 5
 	mponly	1
-	energycost	30
+	mpcost	30
 	@cmd	pause_all 1 10
 	@cmd	npc_check 2
 	delay	3

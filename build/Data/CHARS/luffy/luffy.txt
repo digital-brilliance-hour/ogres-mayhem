@@ -103,7 +103,7 @@ anim	fall
 	frame	data/chars/Luffy/fall07.gif
 		
 anim	freespecial
-	energycost	0
+	mpcost	0
 	@cmd	isavailable 2
 	mponly	1
 	loop	0
@@ -178,7 +178,7 @@ anim	freespecial11
 	frame	data/chars/Luffy/walk07.gif
 		
 anim	freespecial2
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	isavailable 3
 	loop	0
@@ -230,7 +230,7 @@ anim	freespecial2
 	frame	data/chars/Luffy/storm11.gif
 		
 anim	freespecial3
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	isavailable 7
 	loop	0

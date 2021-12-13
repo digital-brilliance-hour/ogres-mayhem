@@ -160,7 +160,7 @@ anim	fall
 	frame	data/chars/Deku/35.gif
 		
 anim	freespecial
-	energycost	10
+	mpcost	10
 	mponly	1
 	fastattack	1
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -241,7 +241,7 @@ anim	freespecial11
 	frame	data/chars/Deku/18.gif
 		
 anim	freespecial2
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	fastattack	1
@@ -286,7 +286,7 @@ anim	freespecial2
 		
 anim	freespecial3
 	@cmd	isavailable 7
-	energycost	0
+	mpcost	0
 	mponly	1
 	delay	7
 	@cmd	spawnbind "zoomin" 0 0 0
@@ -342,7 +342,7 @@ anim	freespecial4
 	frame	data/chars/Deku/56.gif
 		
 anim	freespecial5
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	delay	7
@@ -379,7 +379,7 @@ anim	freespecial5
 	frame	data/chars/Deku/98.gif
 		
 anim	freespecial6
-	energycost	15
+	mpcost	15
 	mponly	1
 	sound	data/chars/Deku/Deku_0-47.wav
 	@cmd	spawn01 "quake" 0 0 4
@@ -440,7 +440,7 @@ anim	freespecial6
 	frame	data/chars/Deku/60.gif
 		
 anim	freespecial7
-	energycost	20
+	mpcost	20
 	mponly	1
 	delay	10
 	sound	data/chars/Deku/Deku_0-28.wav
@@ -502,7 +502,7 @@ anim	freespecial7
 	frame	data/chars/Deku/152.gif
 		
 anim	freespecial8
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	delay	10

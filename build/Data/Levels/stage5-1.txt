@@ -1,10 +1,11 @@
-music data/music/stage5.ogg
+music data/music/stage5-1.ogg
+bossmusic data/music/stage5-1boss.ogg
 background	data/bgs/stage-5/back2
 bglayer         data/bgs/stage-5/back1b 0.3 0.3 0 0 0 0 100 1 1 0
 bglayer         data/bgs/stage-5/back1a 0.3 0.3 0 0 0 0 100 1 1 6
 fglayer 	data/bgs/stage-5/swc5a 4 1 0 0 0 99999999 0 2 1 1 2
-#panel		data/bgs/stage-5/empt
-panel data/bgs/stage-5/a12.png none none
+panel		data/bgs/stage-5/empt
+#panel data/bgs/stage-5/a12.png none none
 order	aaa
 
 #background data/bgs/stage-5/a12.png
@@ -91,12 +92,12 @@ at 180
 spawn tsukaima
 item mp_hundred
 coords 30 250
-at 165
+at 180
 
 spawn tsukaima
 item hp_hundred
 coords 30 185
-at 165
+at 180
 
 spawn tsukaima
 2pitem mp_hundred
@@ -131,6 +132,12 @@ at 180
 
 #--Group 2--#
 
+wait
+at 800
+
+group 3 3
+at 800
+
 spawn shrieker
 coords 30 182
 at 800
@@ -145,12 +152,6 @@ at 800
 
 spawn tsukaima
 coords 330 250
-at 800
-
-wait
-at 800
-
-group 3 3
 at 800
 
 spawn shrieker
@@ -211,6 +212,12 @@ at 800
 
 #--Group 3--#
 
+wait
+at 1250
+
+group 3 3
+at 1250
+
 spawn grand_fisher
 health 200
 coords 480 182
@@ -223,12 +230,6 @@ at 1250
 
 spawn menos
 coords 380 210
-at 1250
-
-wait
-at 1250
-
-group 3 3
 at 1250
 
 spawn shrieker
@@ -278,6 +279,12 @@ at      1848
 
 #--Group 4--#
 
+wait
+at 2000
+
+group 3 3
+at 2000
+
 spawn zetsu
 alias Zetsu
 health 700
@@ -291,12 +298,6 @@ at 2000
 
 spawn lobster
 coords 150 240
-at 2000
-
-wait
-at 2000
-
-group 3 3
 at 2000
 
 spawn shrieker

@@ -236,7 +236,7 @@ anim	freespecial11
 	frame	data/chars/Gon/10.gif
 		
 anim	freespecial2
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	isavailable 4
 	delay	40
@@ -274,7 +274,7 @@ anim	freespecial2
 	frame	data/chars/Gon/165.gif
 		
 anim	freespecial3
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	isavailable 5
 	delay	40
@@ -316,7 +316,7 @@ anim	freespecial3
 	frame	data/chars/Gon/194.gif
 		
 anim	freespecial4
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	isavailable 6
 	delay	40

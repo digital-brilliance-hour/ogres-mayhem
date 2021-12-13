@@ -1,5 +1,7 @@
 music data/music/stage2.ogg
 bossmusic data/music/stage2-boss.ogg 2899970
+
+
 background data/bgs/stage-2/b.gif
 panel data/bgs/stage-2/n.gif none none
 order a

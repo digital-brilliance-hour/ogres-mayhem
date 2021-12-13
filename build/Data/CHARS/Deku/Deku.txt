@@ -138,7 +138,7 @@ anim	fall
 	frame	data/chars/Deku/35.gif
 		
 anim	freespecial
-	energycost	10
+	mpcost	10
 	mponly	1
 	@cmd	isavailable 2
 	delay	7
@@ -218,7 +218,7 @@ anim	freespecial11
 	frame	data/chars/Deku/18.gif
 		
 anim	freespecial2
-	energycost	30
+	mpcost	30
 	mponly	1
 	@cmd	isavailable 5
 	delay	10
@@ -282,7 +282,7 @@ anim	freespecial2
 	frame	data/chars/Deku/158.gif
 		
 anim	freespecial3
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	isavailable 4
 	@cmd	pause_all 1 100
@@ -343,7 +343,7 @@ anim	freespecial4
 	frame	data/chars/Deku/56.gif
 		
 anim	freespecial5
-	energycost	20
+	mpcost	20
 	mponly	1
 	@cmd	isavailable 3
 	fastattack	1

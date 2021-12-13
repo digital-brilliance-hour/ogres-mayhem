@@ -24,60 +24,88 @@ alpha 1
 anim	idle
 	drawmethod	scale 0.8
 	delay	3
+	fastattack	1
 	offset	175 175
 	frame	data/chars/yusuke/1471.gif
+	attack	101 95 146 162 40 0 1 0 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1472.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	175 175
 	frame	data/chars/yusuke/1473.gif
+	attack	65 59 221 228 40 0 0 1 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1474.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	175 175
 	frame	data/chars/yusuke/1475.gif
+	attack	65 59 221 228 40 0 1 0 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1476.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	175 175
 	frame	data/chars/yusuke/1477.gif
+	attack	65 59 221 228 40 0 0 1 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1478.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	175 175
 	frame	data/chars/yusuke/1479.gif
+	attack	65 59 221 228 40 0 1 0 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1480.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	175 175
 	frame	data/chars/yusuke/1481.gif
+	attack	65 59 221 228 40 0 0 1 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1482.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	175 175
 	frame	data/chars/yusuke/1483.gif
+	attack	65 59 221 228 40 0 1 0 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1484.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	175 175
 	frame	data/chars/yusuke/1485.gif
+	attack	65 59 221 228 40 0 0 1 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1486.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	175 175
 	frame	data/chars/yusuke/1487.gif
+	attack	65 59 221 228 40 0 1 0 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1488.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	175 175
 	frame	data/chars/yusuke/1489.gif
+	attack	65 59 221 228 40 0 0 1 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1490.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	175 175
 	frame	data/chars/yusuke/1491.gif
+	attack	65 59 221 228 40 0 1 0 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1492.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	175 175
 	frame	data/chars/yusuke/1493.gif
+	attack	65 59 221 228 40 0 0 1 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1494.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	175 175
 	frame	data/chars/yusuke/1495.gif
+	attack	65 59 221 228 40 1 1 0 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1496.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	175 175
 	frame	data/chars/yusuke/1497.gif
+	attack	65 59 221 228 30 0 0 1 0 100
 	offset	175 175
 	frame	data/chars/yusuke/1498.gif
 	offset	175 175

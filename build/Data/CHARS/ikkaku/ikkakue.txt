@@ -203,7 +203,7 @@ anim	select
 	frame	data/chars/Ikkaku/Select12.gif
 		
 anim	special
-	energycost	0
+	mpcost	0
 	mponly	1
 	loop	0
 	offset	58 116

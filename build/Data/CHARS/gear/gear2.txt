@@ -10,7 +10,7 @@ com      a2 freespecial11
 com      a3 freespecial
 com      s freespecial2
 
-icon	data/chars/Gear/icon.gif
+icon	data/chars/Luffy/icon.gif
 jumpmove 3 3
 
 weaploss 3
@@ -123,7 +123,7 @@ anim	fall
 	frame	data/chars/Gear/down03.GIF
 		
 anim	freespecial
-	energycost	15
+	mpcost	15
 	mponly	1
 	loop	0
 	offset	75 77

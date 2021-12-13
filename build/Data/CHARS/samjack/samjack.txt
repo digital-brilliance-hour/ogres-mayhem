@@ -85,7 +85,7 @@ anim	fall
 	frame	data/chars/samjack/lie.gif
 		
 anim	freespecial
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	delay	4
@@ -164,7 +164,7 @@ anim	rise
 	frame	data/chars/samjack/get.gif
 		
 anim	special
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	delay	4

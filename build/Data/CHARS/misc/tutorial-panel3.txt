@@ -2,11 +2,11 @@ name	tutorialpanel3
 type	panel
 subject_to_minz 0
 subject_to_maxz 0
-speed 1
+speed 5
 noquake 1 1
 shadow	0
 facing   1
-setlayer 999
+setlayer 1
 
 
 anim	idle
