@@ -26,6 +26,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -89,18 +90,16 @@ anim	fall
 	frame	data/chars/Sasuke/fall01.gif
 		
 anim	freespecial
-	energycost	0
+	@cmd	isavailable 2
+	mpcost	10
 	mponly	1
-	@cmd	enoughmp
 	loop	0
 	offset	60 116
 	sound	data/chars/Sasuke/katon.wav
 	delay	30
 	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnscreen "Screen_wind" 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
 	frame	data/chars/Sasuke/katon00.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomout" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 0
 	delay	7
@@ -239,19 +238,17 @@ anim	runattack
 	delay	7
 	frame	data/chars/Sasuke/rush03.gif
 		
-anim	special
-	energycost	0
+anim	freespecial3
+	@cmd	isavailable 4
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	loop	0
 	offset	60 116
 	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnscreen "Screen_wind" 0 0
-	@cmd	changeopenborvariant "slowmotion" 1
 	frame	data/chars/Sasuke/chdri00.gif
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomout" 0 0 0
-	@cmd	changeopenborvariant "slowmotion" 0
 	delay	10
 	frame	data/chars/Sasuke/chdri01.gif
 	frame	data/chars/Sasuke/chdri02.gif

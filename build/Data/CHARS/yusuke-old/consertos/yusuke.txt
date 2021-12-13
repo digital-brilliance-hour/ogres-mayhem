@@ -1096,7 +1096,7 @@ anim special
 	 jugglecost 100
 	 jumpframe 0 3.3
 	 landframe  12
-	 energycost	5
+	 mpcost	5
 	 mponly  	2
 	 loop       0
 	 offset     238 177
@@ -1146,7 +1146,7 @@ anim freespecial2
 	 unsummonframe 4
 	 jugglecost 	2
 	 fastattack 1
-	 energycost	25
+	 mpcost	25
 	 mponly  	1
 	 hitfx   	data/sounds/empty.wav
 
@@ -1172,7 +1172,7 @@ anim freespecial3
 	 unsummonframe 25
 	 jugglecost 	2
 	 fastattack 1
-	 energycost	20
+	 mpcost	20
 	 mponly  	1
 	 hitfx   	data/sounds/beat3.wav
 
@@ -1249,7 +1249,7 @@ anim freespecial4
 	 landframe	50
 	 jugglecost 	2
 	 fastattack 1
-	 energycost	100
+	 mpcost	100
 	 mponly  	1
 	 hitfx   	data/sounds/beat3.wav
 	 offset     238 177

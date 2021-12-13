@@ -198,7 +198,7 @@ anim	fall
 	frame	data/chars/Broly_SSB/256.gif
 		
 anim	freespecial
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	delay	7
@@ -224,7 +224,7 @@ anim	freespecial
 	frame	data/chars/Broly_SSB/145.gif
 		
 anim	freespecial2
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	delay	20
@@ -252,7 +252,7 @@ anim	freespecial2
 	frame	data/chars/Broly_SSB/150.gif
 		
 anim	freespecial3
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	delay	10

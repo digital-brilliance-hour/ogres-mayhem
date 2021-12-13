@@ -541,7 +541,7 @@ anim special
 	fastattack 1
 	loop	0
 	delay	15
-	energycost	20
+	mpcost	20
 	offset	64 136
 	blast	12 28 136 118 2 1 1
 	sound	data/voices/pegforz.wav
@@ -632,7 +632,7 @@ anim freespecial
 	subentity	fulmine
  	loop	0
  	delay	8
-	energycost	10
+	mpcost	10
 	bbox	41 49 27 40
 	offset	42 128
 	attack	26 23 73 69 22 0 
@@ -690,7 +690,7 @@ anim freespecial2
 	loop	0
 	sound	data/voices/pegcomet.wav
 	delay	7
-	energycost	5
+	mpcost	5
 	bbox	46 36 34 93
 	throwframe	1 90
 	offset	70 138
@@ -739,7 +739,7 @@ anim freespecial2
 anim attackbackward
 	loop	0
 	delay	3
-	energycost	0
+	mpcost	0
 	offset	30 108
 	move	-20
 	attack	5 2 49 109 10 0 

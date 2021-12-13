@@ -1,0 +1,19 @@
+name	tutorialpanel6
+type	panel
+subject_to_minz 0
+subject_to_maxz 0
+speed 5
+noquake 1 1
+shadow	0
+facing   1
+setlayer 1
+
+
+anim	idle
+	loop	1
+	delay	5
+	offset	0 0
+	frame	data/chars/misc/tutorialpanels/tutorialpanel6.gif
+		
+#|edited by openBor Stats v 0.67
+		

@@ -169,7 +169,7 @@ anim	follow1
 		
 anim	freespecial
 	@cmd	isavailable 2
-	energycost	10
+	mpcost	10
 	mponly	1
 	fastattack	1
 	mponly	1
@@ -301,7 +301,7 @@ anim	freespecial11
 		
 anim	freespecial2
 	@cmd	isavailable 4
-	energycost	0
+	mpcost	0
 	mponly	1
 	attack	0 0 0 0 0 0 0 0 0 0
 	fastattack	1

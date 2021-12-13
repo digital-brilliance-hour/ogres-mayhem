@@ -109,7 +109,7 @@ anim	fall
 	frame	data/chars/Shrek/148.gif
 		
 anim	freespecial
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	delay	7
@@ -162,7 +162,7 @@ anim	freespecial
 	frame	data/chars/Shrek/29.gif
 		
 anim	freespecial2
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	fastattack	1
@@ -199,7 +199,7 @@ anim	freespecial2
 	frame	data/chars/Shrek/66.gif
 		
 anim	freespecial3
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	delay	7
@@ -352,7 +352,7 @@ anim	select
 	frame	data/chars/Shrek/215.gif
 		
 anim	special
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	delay	30

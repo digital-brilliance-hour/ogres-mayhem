@@ -154,7 +154,7 @@ anim	fall
 	frame	data/chars/Zoro/fall04.gif
 		
 anim	freespecial
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	loop	0
@@ -206,7 +206,7 @@ anim	freespecial
 	frame	data/chars/Zoro/son23.gif
 		
 anim	freespecial2
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	loop	0
@@ -369,7 +369,7 @@ anim	select
 	frame	data/chars/Zoro/slt04.GIF
 		
 anim	special
-	energycost	0
+	mpcost	0
 	mponly	1
 	loop	0
 	offset	44 77

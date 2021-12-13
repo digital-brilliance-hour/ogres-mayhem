@@ -11,7 +11,7 @@ com d a3 freespecial5
 com a2 freespecial11
 com s freespecial3
 com u s freespecial6
-icon	data/chars/kyuubiNaruto/0.gif
+icon	data/chars/Naruto/icon.gif
 
 atchain 1 1 2 1 3
 

@@ -72,7 +72,7 @@ anim	fall
 	frame	data/chars/Ikkaku/Fall1.gif
 		
 anim	freespecial
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	loop	0
@@ -167,7 +167,7 @@ anim	select
 	frame	data/chars/Ikkaku/Select12.gif
 		
 anim	special
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	loop	0

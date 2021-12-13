@@ -1,9 +1,11 @@
 name  ichigoTransfomation
 health 100
 speed 17
-type player
+type none
 shadow 3
 running	29	4	2	1    1
+atchain 1 1 2 1 3
+icon	data/chars/Ichigo/icon.png
 
 animationscript 	data/scripts/spawns.c
 script 	data/scripts/playerscript.c
@@ -25,6 +27,10 @@ load groundblast
 load fastcuts
 load getsugatenshou
 load getsugalarge
+
+weaploss 3
+modelflag 3
+
 
 
 
@@ -194,7 +200,7 @@ anim	follow1
 		
 anim	freespecial
 	@cmd	isavailable 2
-	energycost	10
+	mpcost	10
 	delay	7
 	offset	25 47
 	frame	data/chars/Ichigo_Bankai/123.gif
@@ -276,7 +282,7 @@ anim	freespecial11
 		
 anim	freespecial2
 	@cmd	isavailable 3
-	energycost	20
+	mpcost	20
 	delay	7
 	offset	44 44
 	frame	data/chars/Ichigo_Bankai/161.gif
@@ -336,7 +342,7 @@ anim	freespecial3
 		
 anim	freespecial5
 	@cmd	isavailable 5
-	energycost	30
+	mpcost	30
 	delay	7
 	offset	25 47
 	frame	data/chars/Ichigo_Bankai/181.gif
@@ -404,6 +410,8 @@ anim	freespecial5
 anim	freespecial6
 	@cmd	isavailable 6
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	pause_all 1 200
+	@cmd	spawnbind "zoomin" 0 0 0
 	delay	7
 	offset	25 48
 	frame	data/chars/Ichigo_Bankai/227.gif
@@ -439,6 +447,7 @@ anim	freespecial6
 	frame	data/chars/Ichigo_Bankai/321.gif
 	offset	64 63
 	frame	data/chars/Ichigo_Bankai/322.gif
+	@cmd	spawnbind "zoomout" 0 0 0
 	offset	64 63
 	frame	data/chars/Ichigo_Bankai/323.gif
 	offset	37 39

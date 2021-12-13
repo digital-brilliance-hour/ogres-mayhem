@@ -1,103 +1,73 @@
 music		data/music/tutorial.ogg 6189037
 background	data/bgs/tutorial/back3.gif  1  1  0  -45  0  0  5000  5000  0  0
 panel	      data/bgs/tutorial/test1.png
-order           a
+order           aaa
 cameraoffset 0 0
 spawn1 110 20
 spawn2 120 40
 bgspeed	 10	0
 stagenumber 11
+notime 1
+settime 0
+direction both
+type 1
+updatescript data/scripts/levels/freeenergy.c
 
 # Ready?-----
 
 
 
+scrollx 0 2500
+at 0
 
 spawn ready
 	coords 240 136
 	at 0
 
-
-spawn Story
-alias tutorial1
+spawn tutorialpanel1
+coords -10 0
 at 0
+
+spawn	dummy
+health  2047483647
+coords	400 180
+at 0
+
+spawn tutorialpanel2
+coords 235 0
+at 0
+
+spawn tutorialpanel3
+coords 480 0
+at 0
+
+spawn tutorialpanel4
+coords 725 0
+at 0
+
+spawn tutorialpanel5
+coords 970 0
+at 0
+
+spawn tutorialpanel6
+coords 1215 0
+at 0
+
+spawn tutorialpanel7
+coords 1460 0
+at 0
+
+
+
+
 
 #--group1-----
 
-spawn	dog
-coords	350 180
-at	10
-
-spawn dog
-health	30
-coords	350 220
-at	15
+spawn	dummy
+health  2047483647
+coords	400 180
+at 815
 
 
-spawn bee
-health	5
-coords	350 190
-at	200
 
-spawn bee
-health	25
-coords	480 160
-at	220
-
-wait
-at	320
-
-#---group2----
-spawn	dog
-coords	350 180
-at	490
-
-spawn dog
-health	30
-coords	350 220
-at 495
-
-
-spawn bee
-health	5
-coords	420 190
-at 500
-
-spawn bee
-health	25
-coords	480 160
-at 505
-
-wait
-at 580
-
-spawn xp_twohundred
-coords 490 200
-at 730
-
-spawn crate
-item hp_hundred
-coords	470 180
-at	730
-
-spawn Story
-alias tutorial2
-at 740
-
-wait 740
-
-spawn Story
-alias tutorial3
-at 1240
-
-spawn Gunner
-health 200
-aggression 15
-boss 1
-alias	This_is_the_Boss
-coords	450 185
-at 1240
-
-wait
-at      1240
 

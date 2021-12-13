@@ -5,7 +5,7 @@ running 28 4 2 1 1
 type none
 shadow	2
 diesound data/chars/Naruto/die.wav
-icon	data/chars/Goku/icon.gif
+icon	data/chars/Goku-normal/icon.gif
 
 atchain 1 1 2 3
 
@@ -80,6 +80,44 @@ anim	attack3
 	delay	7
 	frame	data/chars/Goku/ppole10.gif
 		
+anim	dodge
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	7
+	offset	25 77
+	frame	data/chars/Goku/ppole06.gif
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	drawmethod	rotate 90
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	delay	7
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	drawmethod	rotate 0
+	delay	7
+	offset	25 77
+	frame	data/chars/Goku/walk06.gif
+		
 anim	fall
 	loop	0
 	shadowcoords	18 77
@@ -95,7 +133,7 @@ anim	fall
 		
 anim	freespecial
 	@cmd	isavailable 7
-	energycost	0
+	mpcost	0
 	mponly	1
 	loop	0
 	shadowcoords	18 77
@@ -221,7 +259,7 @@ anim	freespecial11
 		
 anim	freespecial2
 	@cmd	isavailable 7
-	energycost	0
+	mpcost	0
 	mponly	1
 	loop	0
 	shadowcoords	18 77
@@ -284,7 +322,7 @@ anim	freespecial2
 	frame	data/chars/Goku/spec21.gif
 		
 anim	freespecial3
-	energycost	20
+	mpcost	20
 	mponly	1
 	loop	0
 	shadowcoords	18 77
@@ -337,7 +375,7 @@ anim	freespecial3
 	frame	data/chars/Goku/ppole10.gif
 		
 anim	freespecial4
-	energycost	15
+	mpcost	15
 	mponly	1
 	delay	6
 	offset	25 77
@@ -428,44 +466,6 @@ anim	land
 	delay	25
 	frame	data/chars/Goku/rise05.gif
 	frame	data/chars/Goku/rise06.gif
-		
-anim	dodge
-	sound	data/chars/yusuke/broly_5-22.wav
-	delay	7
-	offset	25 77
-	frame	data/chars/Goku/ppole06.gif
-	delay	2
-	fshadow	0
-	drawmethod	scale 0.3 0.2
-	drawmethod	alpha 1
-	drawmethod	rotate 90
-	offset	179 61
-	frame	data/chars/yusuke/840.gif
-	offset	178 63
-	frame	data/chars/yusuke/841.gif
-	offset	219 65
-	frame	data/chars/yusuke/842.gif
-	offset	225 79
-	frame	data/chars/yusuke/843.gif
-	offset	222 82
-	frame	data/chars/yusuke/844.gif
-	offset	223 79
-	frame	data/chars/yusuke/845.gif
-	offset	226 80
-	frame	data/chars/yusuke/846.gif
-	offset	219 83
-	frame	data/chars/yusuke/847.gif
-	offset	209 83
-	frame	data/chars/yusuke/848.gif
-	delay	7
-	frame	data/chars/misc/empty.gif
-	frame	data/chars/misc/empty.gif
-	drawmethod	scale 1
-	drawmethod	alpha 0
-	drawmethod	rotate 0
-	delay	7
-	offset	25 77
-	frame	data/chars/Goku/walk06.gif
 		
 anim	pain
 	loop	0

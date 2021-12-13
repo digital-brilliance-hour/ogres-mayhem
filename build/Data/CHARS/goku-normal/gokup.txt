@@ -127,7 +127,7 @@ anim	fall
 	frame	data/chars/Goku-normal/fall04.gif
 		
 anim	freespecial
-	energycost	10
+	mpcost	10
 	mponly	1
 	@cmd	isavailable 2
 	loop	0
@@ -224,7 +224,7 @@ anim	freespecial11
 		
 anim	freespecial2
 	@cmd	isavailable 3
-	energycost	20
+	mpcost	20
 	mponly	1
 	loop	0
 	offset	43 86
@@ -259,7 +259,7 @@ anim	freespecial3
 		
 anim	freespecial4
 	@cmd	isavailable 4
-	energycost	0
+	mpcost	0
 	mponly	1
 	loop	0
 	offset	43 78

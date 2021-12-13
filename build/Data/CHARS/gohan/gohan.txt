@@ -91,7 +91,7 @@ anim	fall
 	frame	data/chars/Gohan/fall04.gif
 		
 anim	freespecial
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	loop	0
@@ -251,7 +251,7 @@ anim	rise
 	frame	data/chars/Gohan/rise06.gif
 		
 anim	special
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	loop	0

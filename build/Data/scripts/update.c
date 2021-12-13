@@ -178,7 +178,7 @@ void main()
     if (openborvariant("game_paused")) {
       //will place code to add background soon.
       
-       void black_scr = getglobalvar("blackscreen");
+       /*void black_scr = getglobalvar("blackscreen");
        if(!black_scr){
           black_scr = allocscreen(openborvariant("hResolution"),openborvariant("vResolution"));
           setglobalvar("blackscreen",black_scr);
@@ -195,7 +195,7 @@ void main()
       drawscreen(black_scr,0,0,1000,0);
 
       //changedrawmethod(NULL(), "alpha", 1);
-      /*void blackscreencounter = getlocalvar("blackscreencounter"); 
+      void blackscreencounter = getlocalvar("blackscreencounter"); 
       while(blackscreencounter!=1)
       {
         void subent;
@@ -209,24 +209,24 @@ void main()
         blackscreencounter = setlocalvar("blackscreencounter",1); // turn on the variable, blocking a new spawn to be made
       }*/
 
-      void p;
+      /*void p;
       int i, hp, mp, lv, num;
       for(i=0; i<4; i++){
          p = getplayerproperty(i, "entity");
          num = i+1;
          if(p){
            if("Travel"!=getentityproperty(p, "model")) {
-           drawstring(6+120*i, 33, 1, "attack", 10);
-           drawstring(6+120*i, 49, 1, "u,u or d,d", 10);
-           drawstring(6+120*i, 65, 1, "action", 10);
-           drawstring(6+120*i, 89, 1, "up,action", 10);
-           drawstring(6+120*i, 113, 1, "down,action", 10);
-           drawstring(6+120*i, 137, 1, "power", 10);
-          drawstring(6+120*i, 161, 1, "up,power", 10);
-          drawstring(6+120*i, 185, 1, "down,power", 10);
-       }
-     }
-  }
+             drawstring(6+120*i, 33, 1, "attack", 10);
+             drawstring(6+120*i, 49, 1, "u,u or d,d", 10);
+             drawstring(6+120*i, 65, 1, "action", 10);
+             drawstring(6+120*i, 89, 1, "up,action", 10);
+             drawstring(6+120*i, 113, 1, "down,action", 10);
+             drawstring(6+120*i, 137, 1, "power", 10);
+             drawstring(6+120*i, 161, 1, "up,power", 10);
+             drawstring(6+120*i, 185, 1, "down,power", 10);
+           }
+         }
+      }*/
 }
   afterImg();
 }

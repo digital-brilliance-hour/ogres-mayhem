@@ -73,7 +73,7 @@ anim	fall
 	frame	data/chars/Kenpachi/Fall1.gif
 		
 anim	freespecial
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	loop	0
@@ -166,7 +166,7 @@ anim	select
 	frame	data/chars/Kenpachi/Select.gif
 		
 anim	special
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	loop	0

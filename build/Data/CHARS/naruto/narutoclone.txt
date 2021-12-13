@@ -5,7 +5,7 @@ running	16	3	2	1    1
 type	npc
 subtype follow
 aimove chase
-aggression 200
+aggression 300
 hostile enemy
 load cloneSmoke
 nodieblink 2
@@ -104,7 +104,7 @@ anim	fall
 		
 anim	freespecial
 	@cmd	isavailable 2
-	energycost	10
+	mpcost	10
 	mponly	1
 	loop	0
 	@cmd	pause_all 1 10
@@ -179,7 +179,7 @@ anim	freespecial11
 		
 anim	freespecial2
 	@cmd	isavailable 3
-	energycost	20
+	mpcost	20
 	mponly	1
 	delay	6
 	fastattack	1

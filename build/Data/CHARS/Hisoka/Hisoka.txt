@@ -128,7 +128,7 @@ anim	fall
 	frame	data/chars/Hisoka/180.gif
 		
 anim	freespecial
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	delay	30
@@ -163,7 +163,7 @@ anim	freespecial
 	frame	data/chars/Hisoka/136.gif
 		
 anim	freespecial2
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	delay	7
@@ -277,7 +277,7 @@ anim	freespecial2
 	frame	data/chars/Hisoka/136.gif
 		
 anim	freespecial3
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	delay	7
@@ -465,7 +465,7 @@ anim	spawn
 	frame	data/chars/Hisoka/4.gif
 		
 anim	special
-	energycost	0
+	mpcost	0
 	mponly	1
 	@cmd	enoughmp
 	fastattack	1

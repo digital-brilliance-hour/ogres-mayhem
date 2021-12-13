@@ -37,6 +37,14 @@ parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
 
+weapons ichigoTransfomation Ichigo
+weaploss 3
+
+
+
+
+
+
 
 
 
@@ -133,6 +141,44 @@ anim	chargeattack
 	frame	data/chars/Ichigo/3Att3.gif
 	frame	data/chars/Ichigo/3Att4.gif
 		
+anim	dodge
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	7
+	offset	26 42
+	frame	data/chars/Ichigo/84.gif
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	drawmethod	rotate 90
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	delay	7
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	drawmethod	rotate 0
+	delay	7
+	offset	58 116
+	frame	data/chars/Ichigo/walk1.gif
+		
 anim	fall
 	loop	0
 	delay	5
@@ -147,13 +193,15 @@ anim	fall
 		
 anim	freespecial
 	@cmd	isavailable 2
-	energycost	10
+	mponly	1
 	delay	4
 	fastattack	1
 	hitfx	data/chars/Ichigo/ichigo_8-0.wav
 	offset	17 44
 	sound	data/chars/Ichigo/ichigo_53-0.wav
 	frame	data/chars/Ichigo/93.gif
+		
+	mpcost	10
 	offset	18 45
 	frame	data/chars/Ichigo/94.gif
 	attack	15 1 67 44 8 0 1 0 0 0
@@ -208,7 +256,7 @@ anim	freespecial
 	frame	data/chars/Ichigo/115.gif
 		
 anim	freespecial10
-	energycost	0
+	mpcost	0
 	@cmd	isavailable 4
 	mponly	1
 	loop	0
@@ -293,13 +341,13 @@ anim	freespecial11
 		
 anim	freespecial2
 	@cmd	isavailable 3
-	energycost	20
 	delay	4
 	@cmd	pause_all 1 120
 	offset	19 47
 	frame	data/chars/Ichigo/140.gif
 	offset	23 49
 	frame	data/chars/Ichigo/141.gif
+	mpcost	20
 	offset	52 47
 	frame	data/chars/Ichigo/142.gif
 	offset	50 47
@@ -356,7 +404,6 @@ anim	freespecial2
 		
 anim	freespecial3
 	@cmd	isavailable 4
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	mponly	1
 	loop	0
 	offset	58 116
@@ -368,6 +415,7 @@ anim	freespecial3
 	frame	data/chars/Ichigo/Free1.gif
 	@cmd	spawnbind "zoomout" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 0
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	delay	5
 	frame	data/chars/Ichigo/Free2.gif
 	frame	data/chars/Ichigo/Free3.gif
@@ -390,7 +438,8 @@ anim	freespecial3
 		
 anim	freespecial4
 	@cmd	isavailable 7
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	weaponframe	11 1
+	@cmd	pause_all 1 200
 	delay	5
 	offset	18 44
 	frame	data/chars/Ichigo/71.gif
@@ -401,6 +450,7 @@ anim	freespecial4
 	@cmd	spawnbind "zoomin" 0 0 0
 	offset	12 52
 	frame	data/chars/Ichigo/74.gif
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	delay	30
 	sound	data/chars/Ichigo/ichigo_34-0.wav
 	offset	12 52
@@ -424,7 +474,6 @@ anim	freespecial4
 		
 anim	freespecial5
 	@cmd	isavailable 5
-	energycost	30
 	delay	4
 	fastattack	1
 	offset	21 45
@@ -433,6 +482,7 @@ anim	freespecial5
 	frame	data/chars/Ichigo/164.gif
 	offset	17 78
 	frame	data/chars/Ichigo/165.gif
+	mpcost	30
 	offset	17 56
 	frame	data/chars/Ichigo/166.gif
 	attack	-13 0 137 67 20 1 1 0 0 0
@@ -482,7 +532,6 @@ anim	freespecial5
 		
 anim	freespecial6
 	@cmd	isavailable 6
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	delay	10
 	@cmd	pause_all 1 230
 	@cmd	spawnbind "zoomin" 0 0 0
@@ -497,6 +546,7 @@ anim	freespecial6
 	sound	data/chars/Ichigo/ichigo_41-0.wav
 	offset	38 99
 	frame	data/chars/Ichigo/203.gif
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawn01 "quake" 0 0 2
 	offset	38 99
 	frame	data/chars/Ichigo/204.gif
