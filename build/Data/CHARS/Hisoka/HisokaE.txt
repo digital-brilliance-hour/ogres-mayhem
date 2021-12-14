@@ -6,6 +6,7 @@ icon	data/chars/hisoka/0.gif
 shadow	3 
 aimove chase
 escapehits 1
+subject_to_screen 1
 candamage player npc obstacle enemy
 hostile npc player
 running 18 4 2 1 0
@@ -20,7 +21,6 @@ lifeposition 50 235
 nameposition 60 225
 iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
-
 
 
 anim	attack1
@@ -105,17 +105,23 @@ anim	chargeattack
 	frame	data/chars/Hisoka/91.gif
 		
 anim	fall
+	bbox	10 4 27 51
 	delay	7
 	offset	25 50
 	frame	data/chars/Hisoka/173.gif
+	bbox	10 4 27 51
 	offset	29 49
 	frame	data/chars/Hisoka/175.gif
+	bbox	4 4 27 51
 	offset	19 46
 	frame	data/chars/Hisoka/174.gif
+	bbox	1 5 59 31
 	offset	28 37
 	frame	data/chars/Hisoka/176.gif
+	bbox	3 6 36 35
 	offset	28 41
 	frame	data/chars/Hisoka/177.gif
+	bbox	3 12 57 17
 	offset	38 24
 	frame	data/chars/Hisoka/180.gif
 		

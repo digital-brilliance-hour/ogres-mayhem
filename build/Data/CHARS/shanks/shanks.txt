@@ -23,6 +23,7 @@ nameposition 60 190
 iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -59,13 +60,17 @@ anim	block
 	frame	data/chars/shanks/block2.gif
 		
 anim	fall
+	bbox	14 27 50 53
 	loop	0
 	offset	38 77
 	delay	20
 	sound	data/chars/shanks/down.wav
 	frame	data/chars/shanks/fall01.gif
+	bbox	14 27 50 53
 	frame	data/chars/shanks/fall02.gif
+	bbox	1 46 80 33
 	frame	data/chars/shanks/down01.gif
+	bbox	1 46 80 33
 	frame	data/chars/shanks/down02.gif
 		
 anim	freespecial

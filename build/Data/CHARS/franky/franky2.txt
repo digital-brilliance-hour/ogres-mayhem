@@ -126,13 +126,16 @@ anim	chargeattack
 	frame	data/chars/franky/sp14.gif
 		
 anim	fall
+	bbox	9 37 72 36
 	loop	0
 	offset	38 78
 	delay	20
 	sound	data/chars/franky/down.wav
 	frame	data/chars/franky/fall01.gif
+	bbox	21 29 37 51
 	move	-4
 	frame	data/chars/franky/fall02.gif
+	bbox	9 57 69 22
 	frame	data/chars/franky/fall03.gif
 		
 anim	freespecial

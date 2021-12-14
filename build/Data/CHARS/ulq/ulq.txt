@@ -5,6 +5,7 @@ type	enemy
 subtype chase
 shadow 3
 cantgrab 1
+subject_to_screen 1
 riseinv 2 0
 makeinv 2 0
 aimove chase

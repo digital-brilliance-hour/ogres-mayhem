@@ -16,6 +16,7 @@ candamage player npc
 hostile npc player
 
 
+
 anim	attack1
 	loop	0
 	range	0	100
@@ -63,15 +64,21 @@ anim	death
 anim	fall
 	loop	0
 	offset	70 85
-	bbox	24	49	36	51
+	bbox	33 35 36 51
 	delay	20
 	move	2
 	frame	data/chars/android/flip1.gif
+	bbox	33 35 36 51
 	frame	data/chars/android/flip2.gif
+	bbox	43 35 36 51
 	frame	data/chars/android/flip3.gif
+	bbox	37 40 36 51
 	frame	data/chars/android/flip4.gif
+	bbox	24 35 63 31
 	frame	data/chars/android/flip5.gif
+	bbox	42 37 32 60
 	frame	data/chars/android/flip6.gif
+	bbox	42 37 32 60
 	delay	10
 	frame	data/chars/android/flip7.gif
 		

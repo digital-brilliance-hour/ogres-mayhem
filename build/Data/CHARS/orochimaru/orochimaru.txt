@@ -10,12 +10,15 @@ diesound data/sounds/die2.wav
 bflash  bflash
 dust	 dust
 jumpheight 5
+subject_to_screen 1
 icon	data/chars/orochimaru/icon.png
 atchain	1 2 3
 subtype		chase
 aggression 	53
 running	15	3	2	1
 blockodds 1
+riseinv 2 0
+makeinv 2 0
 
 subtype		chase
 

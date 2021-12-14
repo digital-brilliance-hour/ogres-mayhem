@@ -273,9 +273,13 @@ coords 0 175
 at 1250
 
 spawn	warning
-	coords 240 136
+coords 240 136
 flip    1
-at      1848
+at      1998
+
+spawn Story
+alias zetsudialog
+at 1999
 
 #--Group 4--#
 

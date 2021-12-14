@@ -6,6 +6,7 @@ hostile npc player
 candamage   npc player
 candamage player npc
 shadow	2
+subject_to_screen 1
 diesound data/sounds/die2.wav
 icon	data/chars/ninja_scythe/icon.png
 bflash  bflash
@@ -66,16 +67,20 @@ anim	burn
 	frame	data/chars/misc/burn3.gif
 		
 anim	fall
+	bbox	0 0 57 32
 	loop	0
 	delay	15
-	attack	45 61 17 34 4 1
+	attack	45 61 17 34 4 1 0 0 0 0
 	offset	27 29
 	frame	data/chars/ninja_scythe/86.png
+	bbox	1 2 44 44
 	delay	30
 	offset	21 45
 	frame	data/chars/ninja_scythe/84.png
+	bbox	1 1 55 25
 	offset	27 19
 	frame	data/chars/ninja_scythe/87.png
+	bbox	1 1 55 25
 	offset	28 19
 	frame	data/chars/ninja_scythe/88.png
 		

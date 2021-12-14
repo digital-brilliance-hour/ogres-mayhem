@@ -7,13 +7,13 @@ shadow	3
 icon	data/chars/Dog/icon.gif
 subtype chase
 candamage player npc
+subject_to_screen 1
 
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 
 candamage player npc
 hostile npc player
-
 
 
 anim	attack1

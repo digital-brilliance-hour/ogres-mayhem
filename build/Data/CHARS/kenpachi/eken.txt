@@ -4,6 +4,7 @@ mp      300
 speed	15
 type	enemy
 aggression 32
+subject_to_screen 1
 cantgrab 1
 riseinv 2 0
 makeinv 2 0

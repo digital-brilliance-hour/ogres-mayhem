@@ -10,6 +10,9 @@ com d a3 freespecial5
 com s freespecial3
 com u s freespecial6
 com d s freespecial4
+com a2 freespecial11
+secret 0 1
+
 animationscript data/scripts/spawns.c
 script data/scripts/playerscript.c
 

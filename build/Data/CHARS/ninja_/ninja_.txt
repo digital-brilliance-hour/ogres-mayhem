@@ -10,7 +10,7 @@ dust	 dust
 jumpheight 3
 animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c
-
+subject_to_screen 1
 
 candamage player npc
 hostile npc player
@@ -58,6 +58,7 @@ anim	fall
 	delay	30
 	attack	25 61 35 44 4 1 0 0 0 0
 	frame	data/chars/Ninja_/fall00.gif
+	bbox	21 45 70 74
 	delay	20
 	frame	data/chars/Ninja_/fall01.gif
 		

@@ -6,6 +6,7 @@ candamage     npc player
 shadow	2
 candamage player npc
 hostile npc player
+subject_to_screen 1
 icon	data/chars/Ninja_Kunoichi/icon.png
 bflash  bflash
 dust	 dust
@@ -96,16 +97,20 @@ anim	duck
 	frame	data/chars/ninja_kunoichi/15.png
 		
 anim	fall
+	bbox	1 0 41 39
 	loop	0
 	offset	25 40
 	delay	30
-	attack	1 0 32 51 4 1
+	attack	1 0 32 51 4 1 0 0 0 0
 	sound	data/sounds/fdie14.wav
 	frame	data/chars/ninja_kunoichi/25.png
+	bbox	1 0 41 39
 	offset	25 32
 	frame	data/chars/ninja_kunoichi/26.png
+	bbox	1 0 41 39
 	offset	28 38
 	frame	data/chars/ninja_kunoichi/27.png
+	bbox	1 1 47 21
 	offset	28 19
 	frame	data/chars/ninja_kunoichi/28.png
 		

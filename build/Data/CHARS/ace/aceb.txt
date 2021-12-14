@@ -4,6 +4,8 @@ speed	20
 type	enemy
 shadow	2
 
+subject_to_screen 1
+
 icon	data/chars/Ace/icon.gif
 holdblock 1
 riseinv 2 0
@@ -22,6 +24,7 @@ candamage player npc
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 ondeathscript data/scripts/bossdeath.c
+
 
 
 
@@ -177,18 +180,26 @@ anim	chargeattack
 	frame	data/chars/Ace/punch17.gif
 		
 anim	fall
+	bbox	17 27 48 51
 	loop	0
 	offset	38 77
 	delay	10
 	sound	data/chars/Ace/down.wav
 	frame	data/chars/Ace/fall01.gif
+	bbox	17 27 48 51
 	move	-4
 	frame	data/chars/Ace/fall02.gif
+	bbox	17 27 48 51
 	frame	data/chars/Ace/fall03.gif
+	bbox	15 44 59 29
 	frame	data/chars/Ace/fall04.gif
+	bbox	17 24 57 49
 	frame	data/chars/Ace/fall05.gif
+	bbox	26 18 35 61
 	frame	data/chars/Ace/fall06.gif
+	bbox	30 18 35 61
 	frame	data/chars/Ace/fall07.gif
+	bbox	18 60 69 22
 	frame	data/chars/Ace/fall08.gif
 		
 anim	get

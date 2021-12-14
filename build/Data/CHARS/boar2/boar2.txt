@@ -50,7 +50,9 @@ anim	fall
 	delay	20
 	attack	41 36 24 22 4 1 0 0 0 0
 	frame	data/chars/Boar2/fall00.gif
+	bbox	2 38 69 40
 	frame	data/chars/Boar2/fall00.gif
+	bbox	2 54 69 25
 	frame	data/chars/Boar2/fall01.gif
 		
 anim	idle

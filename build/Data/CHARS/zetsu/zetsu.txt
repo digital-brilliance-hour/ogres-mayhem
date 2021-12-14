@@ -9,6 +9,7 @@ shadow	2
 diesound data/sounds/die2.wav
 bflash  bflash
 dust	 dust
+subject_to_screen 1
 jumpheight 6
 icon	data/chars/zetsu/icon.png
 
@@ -71,13 +72,17 @@ anim	fall
 	delay	15
 	bbox	8 5 37 53
 	frame	data/chars/zetsu/81.png
+	bbox	8 5 37 53
 	offset	29 46
 	frame	data/chars/zetsu/82.png
+	bbox	8 5 37 53
 	frame	data/chars/zetsu/82.png
+	bbox	8 5 37 53
 	frame	data/chars/zetsu/82.png
+	bbox	0 1 80 27
 	offset	34 22
 	frame	data/chars/zetsu/83.png
-	bbox	1 2 80 20
+	bbox	0 1 80 27
 	frame	data/chars/zetsu/84.png
 		
 anim	idle

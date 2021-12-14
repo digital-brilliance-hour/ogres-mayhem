@@ -168,14 +168,24 @@ at 700
 coords 240 190
 at 700
 
+spawn warning
+coords 240 136
+flip 1
+at 1358
+
+spawn Story
+alias asumadialog
+at 1359
+
 wait
 at 1360
 
 group 2 4
 at 1360
 
-spawn   Reanimated_Asuma
+spawn   reanimated_asuma
 boss 1
+alias reanimated_asuma
 health  500
 3phealth 1000
 4phealth 1500
