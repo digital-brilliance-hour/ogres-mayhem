@@ -9,7 +9,7 @@ diesound data/sounds/die2.wav
 icon	data/chars/Ninja_Genin/icon.png
 bflash  bflash
 dust	 dust
-
+subject_to_screen 1
 hostile npc player
 jumpheight 4
 atchain	1 2 3
@@ -130,15 +130,19 @@ anim	duck
 	frame	data/chars/ninja_genin/28.png
 		
 anim	fall
+	bbox	2 2 30 48
 	loop	0
 	offset	18 48
 	delay	30
-	attack	1 0 32 51 4 1
+	attack	1 0 32 51 4 1 0 0 0 0
 	frame	data/chars/ninja_genin/20.png
+	bbox	2 2 30 48
 	offset	20 42
 	frame	data/chars/ninja_Genin/21.png
+	bbox	2 2 30 36
 	offset	28 38
 	frame	data/chars/ninja_Genin/22.png
+	bbox	1 1 42 22
 	offset	28 19
 	frame	data/chars/ninja_Genin/23.png
 		

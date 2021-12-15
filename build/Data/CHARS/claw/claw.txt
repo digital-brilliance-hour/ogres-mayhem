@@ -8,6 +8,7 @@ icon	data/chars/Claw/icon.gif
 bflash  bflash
 dust	 dust
 jumpheight 3
+subject_to_screen 1
 
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c

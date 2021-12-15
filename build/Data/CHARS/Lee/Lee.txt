@@ -12,6 +12,7 @@ com      a2 freespecial11
 com      s freespecial2
 script data/scripts/playerscript.c
 icon	data/chars/lee/0.gif
+secret 0 1
 
 parrow data/chars/misc/picon/1picon.gif -18 -100
 parrow2 data/chars/misc/picon/2picon.gif -18 -100

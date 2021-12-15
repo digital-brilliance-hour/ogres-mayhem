@@ -9,6 +9,7 @@ icon	data/chars/Soge/icon.gif
 subtype chase
 load bird
 knife bird
+subject_to_screen 1
 
 candamage player npc
 hostile npc player
@@ -29,11 +30,13 @@ anim	attack1
 	frame	data/chars/Soge/fire06.gif
 		
 anim	fall
+	bbox	1 40 67 35
 	loop	0
 	offset	38 77
 	delay	20
-	attack	11 46 29 12 1
+	attack	11 46 29 12 1 0 0 0 0 0
 	frame	data/chars/Soge/fall01.gif
+	bbox	7 44 67 35
 	frame	data/chars/Soge/fall02.gif
 		
 anim	idle

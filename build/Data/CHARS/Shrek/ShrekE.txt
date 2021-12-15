@@ -9,6 +9,7 @@ escapehits 1
 riseinv 2 0
 candamage player npc
 hostile npc player
+subject_to_screen 1
 
 com      a2 freespecial
 
@@ -30,7 +31,6 @@ lifeposition 50 235
 nameposition 60 225
 iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
-
 
 
 
@@ -84,23 +84,32 @@ anim	faint
 	frame	data/chars/Shrek/204.gif
 		
 anim	fall
+	bbox	1 1 35 43
 	delay	7
 	offset	20 42
 	frame	data/chars/Shrek/144.gif
+	bbox	7 5 35 43
 	offset	27 43
 	frame	data/chars/Shrek/121.gif
+	bbox	1 1 43 34
 	offset	32 29
 	frame	data/chars/Shrek/142.gif
+	bbox	1 1 43 34
 	offset	25 42
 	frame	data/chars/Shrek/122.gif
+	bbox	1 7 43 34
 	offset	25 45
 	frame	data/chars/Shrek/124.gif
+	bbox	1 15 43 34
 	offset	27 51
 	frame	data/chars/Shrek/127.gif
+	bbox	1 3 43 34
 	offset	22 28
 	frame	data/chars/Shrek/150.gif
+	bbox	1 3 43 34
 	offset	23 27
 	frame	data/chars/Shrek/149.gif
+	bbox	1 -1 43 34
 	offset	21 18
 	frame	data/chars/Shrek/148.gif
 		

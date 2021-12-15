@@ -19,6 +19,7 @@ candamage player npc
 hostile npc player
 
 
+
 anim	attack1
 	loop	0
 	delay	5
@@ -42,7 +43,9 @@ anim	fall
 	delay	20
 	attack	41 36 24 22 4 1 0 0 0 0
 	frame	data/chars/Boar/fall00.gif
+	bbox	1 38 71 41
 	frame	data/chars/Boar/fall00.gif
+	bbox	1 57 71 24
 	frame	data/chars/Boar/fall01.gif
 		
 anim	idle

@@ -172,6 +172,15 @@ health 50
 coords  80 228
 at      1300
 
+spawn warning
+coords 240 136
+flip 1
+at 1858
+
+spawn Story
+alias orochimarudialog
+at 1859
+
 wait
 at 1860
 
@@ -180,6 +189,7 @@ at 1860
 
 spawn   Orochimaru
 boss 1
+alias  Orochimaru
 health  600
 3phealth 1200
 4phealth 1800

@@ -93,12 +93,15 @@ anim	block
 	frame	data/chars/Mihawk/go01.gif
 		
 anim	fall
+	bbox	8 43 63 31
 	loop	0
 	offset	38 77
 	delay	20
-	attack	11 46 29 12 10 1
+	attack	11 46 29 12 10 1 0 0 0 0
 	frame	data/chars/Mihawk/fall01.gif
+	bbox	8 43 63 31
 	frame	data/chars/Mihawk/fall01.gif
+	bbox	8 50 63 31
 	frame	data/chars/Mihawk/fall02.gif
 		
 anim	idle

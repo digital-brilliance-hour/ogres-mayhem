@@ -9,7 +9,7 @@ icon	data/chars/Ninja__/icon.gif
 bflash  bflash
 dust	 dust
 jumpheight 4
-
+subject_to_screen 1
 
 load field
 knife field

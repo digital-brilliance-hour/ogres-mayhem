@@ -6,7 +6,7 @@ shadow	0
 cantgrab 1
 animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c
-
+subject_to_screen 1
 candamage player npc
 hostile npc player
 
@@ -29,6 +29,7 @@ anim	attack1
 	frame	data/chars/Quincy/Idle1.gif
 		
 anim	fall
+	bbox	30 98 60 18
 	loop	0
 	offset	58 116
 	delay	30

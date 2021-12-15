@@ -8,6 +8,7 @@ speed	12
 type	enemy
 shadow	5
 aimove chase
+subject_to_screen 1
 escapehits 1
 riseinv 2 0
 candamage player npc
@@ -38,7 +39,6 @@ com 		D  U  A     freespecial3
 com 		D  F  K     freespecial4
 animationscript data/scripts/spawns.c
 ondeathscript data/scripts/bossdeath.c
-
 
 
 
@@ -300,11 +300,13 @@ anim	burn
 	frame	data/chars/hiei/fire2.gif
 		
 anim	fall
+	bbox	17 73 86 52
 	attack	93 82 -54 29 0 0 0 1 0 0
 	loop	0
 	offset	59 120
 	delay	20
 	frame	data/chars/hiei/caindo3.gif
+	bbox	17 73 86 52
 	offset	61 114
 	attack	98 95 -66 25 17 1 0 0 0 0
 	frame	data/chars/hiei/caindo4.gif

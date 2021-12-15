@@ -62,7 +62,9 @@ anim	fall
 	offset	46 78
 	delay	10
 	frame	data/chars/Pirate/fall01.gif
+	bbox	15 31 50 44
 	frame	data/chars/Pirate/fall01.gif
+	bbox	20 61 50 18
 	offset	42 77
 	delay	20
 	frame	data/chars/Pirate/fall02.gif

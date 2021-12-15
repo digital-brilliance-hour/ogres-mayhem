@@ -7,6 +7,7 @@ aimove chase
 escapehits 1
 candamage player npc
 hostile npc player
+subject_to_screen 1
 icon data/chars/samjack/icon.gif
 lifebarstatus 380 5 0 1 0 0 0 0 0
 lifeposition 50 235
@@ -74,10 +75,12 @@ anim	attack3
 	frame	data/chars/samjack/a7.gif
 		
 anim	fall
+	bbox	1 1 35 29
 	delay	60
 	offset	18 29
-	attack	18 29 37 31 17 1 0 0 0
+	attack	18 29 37 31 17 1 0 0 0 0
 	frame	data/chars/samjack/fall.gif
+	bbox	1 1 55 9
 	offset	25 7
 	frame	data/chars/samjack/lie.gif
 		

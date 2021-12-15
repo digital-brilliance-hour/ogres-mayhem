@@ -9,6 +9,7 @@ aggression  20
 escapehits 1
 riseinv 2 0
 candamage player npc
+subject_to_screen 1
 hostile npc player
 grabdistance 23
 diesound data/chars/Sasuke/die.wav

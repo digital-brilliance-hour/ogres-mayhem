@@ -90,22 +90,37 @@ anim	fall
 	delay	25
 	offset	54 92
 	frame	data/chars/lobster/die02.gif
-	attack	25 45 57 20 15 1
+	bbox	17 5 101 88
+	attack	25 45 57 20 15 1 0 0 0 0
 	frame	data/chars/lobster/die03.gif
+	bbox	17 5 101 88
 	frame	data/chars/lobster/die04.gif
+	bbox	17 5 101 88
 	frame	data/chars/lobster/die05.gif
+	bbox	17 5 101 88
 	frame	data/chars/lobster/die06.gif
+	bbox	17 5 101 88
 	frame	data/chars/lobster/die07.gif
+	bbox	17 5 101 88
 	frame	data/chars/lobster/die08.gif
+	bbox	18 44 101 54
 	delay	9
 	frame	data/chars/lobster/die09.gif
+	bbox	18 44 101 54
 	frame	data/chars/lobster/die10.gif
+	bbox	18 44 101 54
 	frame	data/chars/lobster/die11.gif
+	bbox	18 44 101 54
 	frame	data/chars/lobster/die12.gif
+	bbox	18 44 101 54
 	frame	data/chars/lobster/die13.gif
+	bbox	18 44 101 54
 	frame	data/chars/lobster/die14.gif
+	bbox	18 44 101 54
 	frame	data/chars/lobster/die15.gif
+	bbox	18 44 101 54
 	frame	data/chars/lobster/die16.gif
+	bbox	18 44 101 54
 	frame	data/chars/lobster/die17.gif
 	frame	data/chars/lobster/die18.gif
 	frame	data/chars/lobster/die19.gif

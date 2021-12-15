@@ -12,9 +12,9 @@ icon	data/chars/ninja_chain/icon.png
 bflash  bflash
 dust	 dust
 jumpheight 4
+subject_to_screen 1
 
 takedamagescript data/scripts/enemyhit.c
-
 
 
 
@@ -157,14 +157,17 @@ anim	burn
 	frame	data/chars/misc/burn3.gif
 		
 anim	fall
+	bbox	4 2 40 47
 	loop	0
 	delay	30
-	attack	45 61 17 34 4 1
+	attack	45 61 17 34 4 1 0 0 0 0
 	offset	25 50
 	frame	data/chars/ninja_chain/fall00.png
+	bbox	3 2 66 18
 	delay	20
 	offset	34 21
 	frame	data/chars/ninja_chain/fall01.png
+	bbox	3 2 66 18
 	frame	data/chars/ninja_chain/fall01.png
 		
 anim	idle

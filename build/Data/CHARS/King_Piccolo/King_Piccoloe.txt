@@ -8,6 +8,7 @@ shadow	3
 running 25 4 2 1 0
 aimove chase
 escapehits 1
+subject_to_screen 1
 riseinv 2 0
 candamage player npc
 hostile npc player

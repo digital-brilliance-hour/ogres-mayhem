@@ -11,6 +11,8 @@ hostile	npc player
 candamage obstacle npc player
 projectilehit obstacle npc player
 com  d  f  a  freespecial
+riseinv	2 0
+makeinv	2 0
 jumpheight 5
 aggression    54
 blockodds 2

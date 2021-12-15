@@ -149,6 +149,15 @@ health 50
 coords  80 188
 at      170
 
+spawn warning
+coords 240 136
+flip 1
+at 698
+
+spawn Story
+alias mihawkdialog
+at 699
+
 wait
 at 700
 
@@ -157,6 +166,7 @@ at 700
 
 spawn   mihawk
 boss 1
+alias Mihawk
 health  400
 3phealth 800
 4phealth 1200
