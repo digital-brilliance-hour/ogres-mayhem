@@ -65,7 +65,7 @@ void main() {
 						break;
 						case 7:
 						if(pname=="Goku_Normal" || pname=="Deku" || pname=="Luffy") {}
-						else if{
+						else {
 					        settextobj(2*(Level+1), 102, 50, 4, 999999999,  "Player "+(pindex+1)+" Has Reached Level "+Level+"!!", openborvariant("elapsed_time")+400);
 					        settextobj(2*(Level+2), 62, 200, 4, 999999999,  "New Move Unlocked! Down Down Power to Use", openborvariant("elapsed_time")+400);
 					        settextobj(2*(Level+3), 177, 225, 4, 999999999,  "Drains All MP", openborvariant("elapsed_time")+400);
@@ -142,7 +142,7 @@ void main() {
 						break;
 						case 7:
 						if(pname=="Goku_Normal" || pname=="Deku" || pname=="Luffy") {}
-						else if{
+						else{
 					        drawstring(102, 50, 4, "Player "+(pindex+1)+" Has Reached Level "+Level+"!!", 999999999);
 					        drawstring(62, 200, 4, "New Move Unlocked! Down Down Power to Use", 999999999);
 					        drawstring(177, 225, 4, "Drains All MP", 999999999);
