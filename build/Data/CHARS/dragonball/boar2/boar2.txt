@@ -22,22 +22,23 @@ anim	attack1
 	range	180 300
 	loop	0
 	delay	10
-	throwframe	2
+		
 	bbox	50 56 22 24
 	offset	60 85
 	frame	data/chars/dragonball/Boar2/shoot00.gif
 	sound	data/chars/dragonball/Boar2/shot.wav
+	@cmd	projectile 1 "knife" 15 1 20 1 0
 	frame	data/chars/dragonball/Boar2/shoot01.gif
 	frame	data/chars/dragonball/Boar2/shoot02.gif
 		
 anim	attack2
 	loop	0
 	delay	10
-	throwframe	2
 	bbox	50 56 22 24
 	offset	60 85
 	frame	data/chars/dragonball/Boar2/shoot00.gif
 	sound	data/chars/dragonball/Boar2/shot.wav
+	@cmd	projectile 1 "knife" 15 1 20 1 0
 	frame	data/chars/dragonball/Boar2/shoot01.gif
 	frame	data/chars/dragonball/Boar2/shoot02.gif
 		

@@ -185,7 +185,7 @@ at 1360
 
 spawn   reanimated_asuma
 boss 1
-alias reanimated_asuma
+alias Reanimated_Asuma
 health  500
 3phealth 1000
 4phealth 1500
