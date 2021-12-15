@@ -88,21 +88,8 @@ file	data/levels/stage2.txt
 next
 z 160 265 160
 file	data/levels/stage3.txt
-z 130 227 97
-file	data/levels/stage4-1.txt
-z 122 238 116
-file	data/levels/stage4-2.txt
-z 152 235 118
-file	data/levels/stage4-3.txt
 next
-z 157 240 240
-file	data/levels/stage5-1.txt
-z 160 270 110
-file	data/levels/stage5-2.txt
-next
-file	data/levels/stage6.txt
-next
-scene data/scenes/ending.txt
+scene data/scenes/stage1-3ending.txt
 
 set Stages_4-5
 typemp 0

@@ -3,4 +3,4 @@
 #	silence					# Stop music
 
 music 		data/music/ending.ogg 1
-video	data/scenes/stage1-3-ending.webm 1 0
+video	data/scenes/om-stage1-3ending.webm 0 1
