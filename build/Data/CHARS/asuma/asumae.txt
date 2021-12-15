@@ -1,33 +1,34 @@
+name Reanimated_Asuma
+type	enemy
+Health	600
+icon	data/chars/asuma/0.gif
+diesound data/sounds/sparta2.ogg
+speed	7
+running	15	3	2	1
+grabdistance	23
+atchain	1 2 3
+hostile	npc player
+candamage obstacle npc player
+projectilehit obstacle npc player
+com  d  f  a  freespecial
+riseinv	2 0
+makeinv	2 0
+jumpheight 5
+aggression    54
+blockodds 2
+subtype chase
+load kunai_enemy
+knife kunai_enemy
 
-name reanimated_asuma
-	type	enemy
-	Health	600
-	icon	data/chars/asuma/0.gif
-	diesound	data/sounds/sparta2.ogg
-	speed	7
-	running	15	3	2	1
-	grabdistance	23
-	atchain	1 2 3
-	hostile	npc player
-	subject_to_screen	1
-	candamage	obstacle npc player
-	projectilehit	obstacle npc player
-	com	d f a freespecial
-	riseinv	2 0
-	makeinv	2 0
-	jumpheight	5
-	aggression	54
-	blockodds	2
-	subtype	chase
-	load	kunai_enemy
-	knife	kunai_enemy
-	subject_to_hole	0
-	load	kunai_
-	star	kunai_
-	lifebarstatus	380 5 0 1 0 0 0 0 0
-	lifeposition	50 235
-	nameposition	60 225
-	iconposition	50 360
+subject_to_hole 0
+
+load kunai_
+star kunai_
+
+lifebarstatus 380 5 0 1 0 0 0 0 0
+lifeposition 50 235
+nameposition 60 225
+iconposition 50 360
 
 anim	attack1
 	delay	7
@@ -112,17 +113,13 @@ anim	dodge
 	frame	data/chars/asuma/43.gif
 		
 anim	fall
-	bbox	5 3 45 63
 	delay	7
 	offset	26 62
 	frame	data/chars/asuma/33.gif
-	bbox	8 11 56 45
 	offset	42 55
 	frame	data/chars/asuma/34.gif
-	bbox	4 27 71 29
 	offset	47 49
 	frame	data/chars/asuma/35.gif
-	bbox	4 27 71 29
 	offset	47 50
 	frame	data/chars/asuma/36.gif
 		
@@ -213,7 +210,6 @@ anim	pain
 	frame	data/chars/asuma/40.gif
 	offset	25 62
 	frame	data/chars/asuma/41.gif
-		
 		
 anim	rise
 	delay	7
