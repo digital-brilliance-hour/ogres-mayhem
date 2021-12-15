@@ -3,13 +3,15 @@
 #	silence					# Stop music
 
 music 		data/music/ending.ogg 1
-animation	data/scenes/om-ending1.gif 0 0 1 0
-animation	data/scenes/om-ending2.gif 0 0 1 0
-animation	data/scenes/om-ending3.gif 0 0 1 0
-animation	data/scenes/om-ending4.gif 0 0 1 0
-animation	data/scenes/om-ending5.gif 0 0 1 0
-animation	data/scenes/om-ending6.gif 0 0 1 0
-animation	data/scenes/om-ending7.gif 0 0 1 0
-animation	data/scenes/om-ending8.gif 0 0 1 0
-animation	data/scenes/om-ending9.gif 0 0 1 0
-animation	data/scenes/om-ending10.gif 0 0 1 0
+video	data/scenes/om-ending0.9.3-01.webm 1 0
+video	data/scenes/om-ending0.9.3-02.webm 1 0
+video	data/scenes/om-ending0.9.3-03.webm 1 0
+video	data/scenes/om-ending0.9.3-04.webm 1 0
+video	data/scenes/om-ending0.9.3-05.webm 1 0
+video	data/scenes/om-ending0.9.3-06.webm 1 0
+video	data/scenes/om-ending0.9.3-07.webm 1 0
+video	data/scenes/om-ending0.9.3-08.webm 1 0
+video	data/scenes/om-ending0.9.3-09.webm 1 0
+video	data/scenes/om-ending0.9.3-10.webm 1 0
+video	data/scenes/om-ending0.9.3-11.webm 1 0
+video	data/scenes/om-ending0.9.3-12.webm 1 0

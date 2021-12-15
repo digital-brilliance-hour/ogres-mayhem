@@ -79,6 +79,8 @@ weaploss 3
 
 
 
+
+
 anim	attack1
 	delay	4
 	offset	17 44
@@ -200,7 +202,6 @@ anim	freespecial
 	offset	17 44
 	sound	data/chars/Ichigo/ichigo_53-0.wav
 	frame	data/chars/Ichigo/93.gif
-		
 	mpcost	10
 	offset	18 45
 	frame	data/chars/Ichigo/94.gif
@@ -439,7 +440,7 @@ anim	freespecial3
 anim	freespecial4
 	@cmd	isavailable 7
 	weaponframe	11 1
-	@cmd	pause_all 1 200
+	@cmd	pause_all 1 800
 	delay	5
 	offset	18 44
 	frame	data/chars/Ichigo/71.gif
