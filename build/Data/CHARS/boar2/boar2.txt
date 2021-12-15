@@ -20,6 +20,8 @@ candamage player npc
 hostile npc player
 
 
+
+
 anim	attack1
 	range	180 300
 	loop	0
@@ -28,18 +30,18 @@ anim	attack1
 	offset	38 77
 	frame	data/chars/Boar2/shoot00.gif
 	sound	data/chars/Boar2/shot.wav
-	@cmd	projectile 1 "knife3" 25 1 64 1 0
+	@cmd	projectile 1 "knife3" 15 1 35 1 0
 	frame	data/chars/Boar2/shoot01.gif
 	frame	data/chars/Boar2/shoot02.gif
 		
 anim	attack2
 	loop	0
 	delay	10
-	throwframe	2
 	bbox	50 56 22 24
 	offset	38 77
 	frame	data/chars/Boar2/shoot00.gif
 	sound	data/chars/Boar2/shot.wav
+	@cmd	projectile 1 "knife3" 15 1 35 1 0
 	frame	data/chars/Boar2/shoot01.gif
 	frame	data/chars/Boar2/shoot02.gif
 		
