@@ -133,7 +133,7 @@ anim	freespecial
 	loop	0
 	offset	43 78
 	range	0 200
-	delay	30
+	delay	35
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	spawnscreen "Screen_wind" 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
@@ -184,7 +184,7 @@ anim	freespecial
 		
 anim	freespecial11
 	sound	data/chars/yusuke/broly_5-22.wav
-	delay	7
+	delay	9
 	offset	43 78
 	frame	data/chars/Goku-normal/dash01.gif
 	delay	2
@@ -228,7 +228,7 @@ anim	freespecial2
 	mponly	1
 	loop	0
 	offset	43 86
-	delay	7
+	delay	9
 	sound	data/chars/Goku-normal/ki.wav
 	@cmd	damage_all_enemies 30 1 0 "ATK_NORMAL"
 	frame	data/chars/Goku-normal/ki01.GIF
@@ -245,7 +245,7 @@ anim	freespecial3
 	loop	0
 	weaponframe	7 1
 	offset	43 86
-	delay	7
+	delay	9
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	sound	data/chars/Goku-normal/ki.wav
 	frame	data/chars/Goku-normal/ki01.GIF
@@ -264,7 +264,7 @@ anim	freespecial4
 	loop	0
 	offset	43 78
 	range	0 200
-	delay	30
+	delay	35
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	spawnscreen "Screen_wind" 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
@@ -336,7 +336,7 @@ anim	jump
 		
 anim	jumpattack
 	loop	0
-	delay	15
+	delay	17
 	offset	43 78
 	bbox	36 46 17 21
 	movea	-10
@@ -436,7 +436,7 @@ anim	run
 		
 anim	runattack
 	loop	0
-	delay	7
+	delay	9
 	offset	43 78
 	move	20
 	sound	data/chars/Goku-normal/dash.wav

@@ -139,7 +139,7 @@ anim	freespecial
 	shadowcoords	18 77
 	offset	25 77
 	bbox	0 0 0 0
-	delay	10
+	delay	12
 	frame	data/chars/Goku/kame00.gif
 	@cmd	spawnbind "zoomin" 0 0 0
 	frame	data/chars/Goku/kame00.gif
@@ -219,10 +219,10 @@ anim	freespecial
 		
 anim	freespecial11
 	sound	data/chars/yusuke/broly_5-22.wav
-	delay	7
+	delay	9
 	offset	25 77
 	frame	data/chars/Goku/ppole06.gif
-	delay	2
+	delay	3
 	@cmd	dasher 3 0 0
 	fshadow	0
 	drawmethod	scale 0.3 0.2
@@ -265,7 +265,7 @@ anim	freespecial2
 	shadowcoords	18 77
 	offset	25 77
 	bbox	0 0 0 0
-	delay	30
+	delay	35
 	frame	data/chars/Goku/spec01.gif
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
@@ -327,7 +327,7 @@ anim	freespecial3
 	loop	0
 	shadowcoords	18 77
 	fastattack	1
-	delay	3
+	delay	5
 	offset	25 77
 	frame	data/chars/Goku/ppole00.gif
 	frame	data/chars/Goku/ppole01.gif
@@ -377,7 +377,7 @@ anim	freespecial3
 anim	freespecial4
 	mpcost	15
 	mponly	1
-	delay	6
+	delay	9
 	offset	25 77
 	frame	data/chars/Goku/ppole13.gif
 	attack	21 2 79 75 50 1 1 0 0 0
@@ -430,7 +430,7 @@ anim	jump
 anim	jumpattack
 	loop	0
 	shadowcoords	18 77
-	delay	10
+	delay	15
 	bbox	37 46 16 17
 	offset	25 77
 	frame	data/chars/Goku/jatk00.gif
@@ -446,7 +446,7 @@ anim	jumpattack
 anim	jumpattack2
 	loop	0
 	shadowcoords	18 77
-	delay	10
+	delay	15
 	bbox	37 46 16 17
 	offset	25 77
 	frame	data/chars/Goku/jatk00.gif
@@ -518,7 +518,7 @@ anim	runattack
 	@cmd	dasher 1 0 0
 	frame	data/chars/Goku/ppole08.gif
 	frame	data/chars/Goku/ppole09.gif
-	delay	7
+	delay	9
 	@cmd	stop
 	frame	data/chars/Goku/ppole10.gif
 		
