@@ -15,6 +15,7 @@ jumpheight 5
 
 load          kurenai_throw
 knife         kurenai_throw
+didhitscript data/scripts/didhit/didhit.c
 
 anim	attack1
 	loop	0

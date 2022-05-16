@@ -13,6 +13,7 @@ jumpheight 2
 jumpmove 3 3
 load Dugongs
 animationscript data/scripts/spawns.c
+didhitscript data/scripts/didhit/didhit.c
 
 
 anim	attack1

@@ -12,6 +12,7 @@ com  d  f  a  freespecial
 load          shuri_npc
 knife         kunai_npc
 star          shuri_npc
+didhitscript data/scripts/didhit/didhit.c
 
 anim	attack1
 	range	0 50

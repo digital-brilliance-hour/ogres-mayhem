@@ -4,6 +4,7 @@ health  100
 shadow 0
 speed   10
 secret 0 999999999999999999999
+didhitscript data/scripts/didhit/didhit.c
 
 
 anim	attack1
