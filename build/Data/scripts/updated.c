@@ -75,6 +75,9 @@ void mainLoop()
   if(openborvariant("in_halloffamescreen")==1){
     //highScoreMusic();
   }
+  if(SYS_INMENU || SYS_INTITLE){
+      drawstring(400,10,1,"Version: 0.9.4");
+  } 
 
 	if(openborvariant("in_selectscreen")==1){
       int models_cached = openborvariant("models_cached");
