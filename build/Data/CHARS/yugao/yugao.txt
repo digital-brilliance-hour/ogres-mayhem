@@ -13,6 +13,7 @@ bflash  bflash
 dust	 dust
 jumpheight 5
 icon	data/chars/yugao/43.png
+didhitscript data/scripts/didhit/didhit.c
 
 anim	attack1
 	loop	0
@@ -24,7 +25,7 @@ anim	attack1
 	delay	3
 	frame	data/chars/yugao/128.png
 	frame	data/chars/yugao/127.png
-
+		
 anim	attack2
 	loop	0
 	delay	7
@@ -35,7 +36,7 @@ anim	attack2
 	delay	3
 	frame	data/chars/yugao/128.png
 	frame	data/chars/yugao/127.png
-
+		
 anim	attack3
 	loop	0
 	offset	22 64
@@ -46,14 +47,14 @@ anim	attack3
 	frame	data/chars/yugao/96.png
 	offset	22 78
 	frame	data/chars/yugao/97.png
-
+		
 anim	block
 	loop	0
 	delay	30
 	offset	21 65
 	bbox	4 1 39 46
 	frame	data/chars/yugao/98.png
-
+		
 anim	burn
 	loop	1
 	offset	60 116
@@ -61,14 +62,14 @@ anim	burn
 	frame	data/chars/misc/burn1.gif
 	frame	data/chars/misc/burn2.gif
 	frame	data/chars/misc/burn3.gif
-
+		
 anim	duck
 	loop	0
 	delay	10
 	bbox	-1 24 37 21
 	offset	17 41
 	frame	data/chars/yugao/68.png
-
+		
 anim	fall
 	loop	0
 	offset	28 36
@@ -84,20 +85,20 @@ anim	fall
 	sound	data/chars/omoi/ugh.wav
 	offset	28 12
 	frame	data/chars/yugao/70.png
-
+		
 anim	get
 	loop	0
 	offset	12 54
 	delay	45
 	frame	data/chars/yugao/24.png
-
+		
 anim	grab
 	loop	0
 	offset	18 56
 	delay	1000
 	bbox	1 0 34 53
 	frame	data/chars/yugao/80.png
-
+		
 anim	grabattack
 	loop	0
 	delay	7
@@ -109,7 +110,7 @@ anim	grabattack
 	delay	2
 	frame	data/chars/yugao/128.png
 	frame	data/chars/yugao/127.png
-
+		
 anim	grabattack2
 	loop	0
 	offset	22 55
@@ -130,7 +131,7 @@ anim	grabattack2
 	delay	20
 	attack1	0 0 81 33 65 1
 	frame	data/chars/yugao/217.png
-
+		
 anim	idle
 	loop	1
 	offset	16 48
@@ -143,7 +144,7 @@ anim	idle
 	frame	data/chars/yugao/11.png
 	offset	16 47
 	frame	data/chars/yugao/10.png
-
+		
 anim	jump
 	loop	0
 	offset	20 61
@@ -155,7 +156,7 @@ anim	jump
 	bbox	0 2 40 56
 	delay	20
 	frame	data/chars/yugao/41.png
-
+		
 anim	jumpattack
 	loop	0
 	offset	40 70
@@ -169,45 +170,29 @@ anim	jumpattack
 	attack1	20 35 31 36 55 0
 	bbox	3 0 21 57
 	frame	data/chars/yugao/133.png
-	attack1	18  34  30  33  25  1
+	attack1	18 34 30 33 25 1
 	frame	data/chars/yugao/134.png
-
-anim	runjumpattack
-	loop	0
-	fastattack
-		fastattack  1
-	offset	28 44
-	delay	5
-	attack1	0 0 70 46 25
-	bbox	23 12 29 32
-	frame	data/chars/yugao/153.png
-	frame	data/chars/yugao/154.png
-	frame	data/chars/yugao/156.png
-	frame	data/chars/yugao/159.png
-	frame	data/chars/yugao/160.png
-		attack1  0  0  70  46  25  1
-	frame	data/chars/yugao/161.png
-
+		
 anim	land
 	loop	0
 	delay	10
 	offset	18 42
 	bbox	-2 1 36 42
 	frame	data/chars/yugao/47.png
-
+		
 anim	pain
 	loop	0
 	offset	18 43
 	delay	30
 	bbox	0 0 37 55
 	frame	data/chars/yugao/66.png
-
+		
 anim	rise
 	loop	0
 	offset	18 44
 	delay	10
 	frame	data/chars/yugao/68.png
-
+		
 anim	run
 	loop	1
 	offset	19 51
@@ -219,7 +204,7 @@ anim	run
 	frame	data/chars/yugao/33.png
 	frame	data/chars/yugao/29.png
 	frame	data/chars/yugao/31.png
-
+		
 anim	runattack
 	loop	0
 	delay	4
@@ -250,7 +235,23 @@ anim	runattack
 	frame	data/chars/yugao/107.png
 	attack1	0 0 42 61 18
 	frame	data/chars/yugao/107.png
-
+		
+anim	runjumpattack
+	loop	0
+	fastattack	
+	fastattack	1
+	offset	28 44
+	delay	5
+	attack1	0 0 70 46 25
+	bbox	23 12 29 32
+	frame	data/chars/yugao/153.png
+	frame	data/chars/yugao/154.png
+	frame	data/chars/yugao/156.png
+	frame	data/chars/yugao/159.png
+	frame	data/chars/yugao/160.png
+	attack1	0 0 70 46 25 1
+	frame	data/chars/yugao/161.png
+		
 anim	special
 	loop	0
 	offset	22 54
@@ -340,7 +341,7 @@ anim	special
 	frame	data/chars/yugao/211.png
 	delay	14
 	frame	data/chars/yugao/210.png
-
+		
 anim	throw
 	loop	0
 	delay	7
@@ -352,7 +353,7 @@ anim	throw
 	frame	data/chars/yugao/132.png
 	offset	22 53
 	frame	data/chars/yugao/131.png
-
+		
 anim	walk
 	loop	1
 	offset	19 51
@@ -364,4 +365,6 @@ anim	walk
 	frame	data/chars/yugao/33.png
 	frame	data/chars/yugao/29.png
 	frame	data/chars/yugao/31.png
-
+		
+#|edited by openBor Stats v 0.67
+		
