@@ -337,5 +337,5 @@ know sonicWhirlwind data/chars/Sonic/sonicWhirlwind.txt
 know sonicWhirlwindBottom data/chars/Sonic/sonicWhirlwindBottom.txt
 know blackScreen data/chars/misc/blackscreen.txt
 Load blankP Data/Chars/blankP/blankP.txt
-know sasukeTrasnform data/chars/cssasuke/cssasuke.txt
-know sasukeTrasnformOLD data/chars/cssasuke/cssasuke-old.txt
+know sasukeTransform data/chars/cssasuke/cssasuke.txt
+know sasukeTransformOLD data/chars/cssasuke/cssasuke-old.txt
