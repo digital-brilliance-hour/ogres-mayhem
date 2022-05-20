@@ -1,0 +1,418 @@
+name	sasukeTrasnformOLD
+health	500
+speed 20
+running 28 4 2 1 1
+type none 
+
+
+anim 9000
+ delay 7
+ offset 0 2
+ frame data/chars/cssasuke/0.gif
+ offset 138 115
+ frame data/chars/cssasuke/1.gif
+
+anim idle
+ delay 7
+ offset 19 49
+ frame data/chars/cssasuke/2.gif
+ offset 18 49
+ frame data/chars/cssasuke/3.gif
+ offset 19 49
+ frame data/chars/cssasuke/4.gif
+ offset 19 48
+ frame data/chars/cssasuke/5.gif
+ offset 19 46
+ frame data/chars/cssasuke/6.gif
+ offset 19 48
+ frame data/chars/cssasuke/7.gif
+
+anim walk
+ delay 7
+ offset 15 41
+ frame data/chars/cssasuke/8.gif
+ offset 15 40
+ frame data/chars/cssasuke/9.gif
+ offset 15 41
+ frame data/chars/cssasuke/10.gif
+ offset 16 44
+ frame data/chars/cssasuke/11.gif
+ offset 15 42
+ frame data/chars/cssasuke/12.gif
+ offset 21 43
+ frame data/chars/cssasuke/13.gif
+
+anim run
+ delay 7
+ offset 20 42
+ frame data/chars/cssasuke/14.gif
+ offset 21 40
+ frame data/chars/cssasuke/15.gif
+ offset 19 40
+ frame data/chars/cssasuke/16.gif
+ offset 21 41
+ frame data/chars/cssasuke/17.gif
+ offset 27 39
+ frame data/chars/cssasuke/18.gif
+ offset 21 39
+ frame data/chars/cssasuke/19.gif
+
+anim jump
+ delay 7
+ offset 16 47
+ frame data/chars/cssasuke/20.gif
+ offset 16 46
+ frame data/chars/cssasuke/21.gif
+ offset 14 46
+ frame data/chars/cssasuke/22.gif
+
+anim 0040
+ delay 7
+ offset 19 42
+ frame data/chars/cssasuke/23.gif
+
+anim jumpland
+ delay 7
+ offset 21 49
+ frame data/chars/cssasuke/24.gif
+
+anim 0010
+ delay 7
+ offset 18 42
+ frame data/chars/cssasuke/25.gif
+
+anim 0011
+ delay 7
+ offset 21 29
+ frame data/chars/cssasuke/26.gif
+ offset 20 29
+ frame data/chars/cssasuke/27.gif
+
+anim 0010
+ delay 7
+ offset 18 41
+ frame data/chars/cssasuke/28.gif
+
+anim backwalk
+ delay 7
+ offset 18 42
+ frame data/chars/cssasuke/29.gif
+ offset 18 42
+ frame data/chars/cssasuke/30.gif
+ offset 18 43
+ frame data/chars/cssasuke/31.gif
+ offset 18 42
+ frame data/chars/cssasuke/32.gif
+ offset 18 41
+ frame data/chars/cssasuke/33.gif
+ offset 18 41
+ frame data/chars/cssasuke/34.gif
+
+anim 0044
+ delay 7
+ offset 18 43
+ frame data/chars/cssasuke/35.gif
+ offset 17 45
+ frame data/chars/cssasuke/36.gif
+
+anim block120
+ delay 7
+ offset 21 42
+ frame data/chars/cssasuke/37.gif
+
+anim block122
+ delay 7
+ offset 15 45
+ frame data/chars/cssasuke/38.gif
+
+anim dodge
+ delay 7
+ offset 15 45
+ frame data/chars/cssasuke/39.gif
+ offset 15 45
+ frame data/chars/cssasuke/40.gif
+
+anim pain5000
+ delay 7
+ offset 16 40
+ frame data/chars/cssasuke/41.gif
+
+anim pain5001
+ delay 7
+ offset 16 43
+ frame data/chars/cssasuke/42.gif
+ offset 23 20
+ frame data/chars/cssasuke/43.gif
+ offset 25 15
+ frame data/chars/cssasuke/44.gif
+
+anim pain5002
+ delay 7
+ offset 19 33
+ frame data/chars/cssasuke/45.gif
+ offset 21 47
+ frame data/chars/cssasuke/46.gif
+
+anim attack200
+ delay 7
+ offset 21 49
+ frame data/chars/cssasuke/47.gif
+ offset 18 48
+ frame data/chars/cssasuke/48.gif
+ offset 21 44
+ frame data/chars/cssasuke/49.gif
+ offset 21 47
+ frame data/chars/cssasuke/50.gif
+
+anim attack210
+ delay 7
+ offset 18 48
+ frame data/chars/cssasuke/51.gif
+ offset 8 45
+ frame data/chars/cssasuke/52.gif
+ offset 7 42
+ frame data/chars/cssasuke/53.gif
+ offset 14 41
+ frame data/chars/cssasuke/54.gif
+
+anim attack220
+ delay 7
+ offset 21 39
+ frame data/chars/cssasuke/55.gif
+ offset 4 38
+ frame data/chars/cssasuke/56.gif
+ offset 0 38
+ frame data/chars/cssasuke/57.gif
+ offset -3 37
+ frame data/chars/cssasuke/58.gif
+ offset 3 38
+ frame data/chars/cssasuke/59.gif
+
+anim attack230
+ delay 7
+ offset 15 39
+ frame data/chars/cssasuke/60.gif
+ offset 3 44
+ frame data/chars/cssasuke/61.gif
+ offset 2 48
+ frame data/chars/cssasuke/62.gif
+ offset -1 46
+ frame data/chars/cssasuke/63.gif
+ offset -2 38
+ frame data/chars/cssasuke/64.gif
+
+anim jumpattack600
+ delay 7
+ offset 15 66
+ frame data/chars/cssasuke/65.gif
+ offset 8 69
+ frame data/chars/cssasuke/66.gif
+ offset 7 61
+ frame data/chars/cssasuke/67.gif
+
+anim attack400
+ delay 7
+ offset 21 53
+ frame data/chars/cssasuke/68.gif
+ offset 17 50
+ frame data/chars/cssasuke/69.gif
+ offset 17 54
+ frame data/chars/cssasuke/70.gif
+ offset 27 31
+ frame data/chars/cssasuke/71.gif
+ offset 32 29
+ frame data/chars/cssasuke/72.gif
+ offset 35 27
+ frame data/chars/cssasuke/73.gif
+ offset 36 27
+ frame data/chars/cssasuke/74.gif
+
+anim attack410
+ delay 7
+ offset 14 54
+ frame data/chars/cssasuke/75.gif
+ offset 16 50
+ frame data/chars/cssasuke/76.gif
+
+anim freespecial1000
+ delay 7
+ offset 19 51
+ frame data/chars/cssasuke/77.gif
+ offset 19 50
+ frame data/chars/cssasuke/78.gif
+ offset 19 50
+ frame data/chars/cssasuke/79.gif
+ offset 19 46
+ frame data/chars/cssasuke/80.gif
+ offset 19 43
+ frame data/chars/cssasuke/81.gif
+
+anim 10000
+ delay 7
+ offset -64 63
+ frame data/chars/cssasuke/82.gif
+ offset -66 77
+ frame data/chars/cssasuke/83.gif
+
+anim attack201
+ delay 7
+ offset 20 41
+ frame data/chars/cssasuke/84.gif
+ offset 20 43
+ frame data/chars/cssasuke/85.gif
+ offset 21 41
+ frame data/chars/cssasuke/86.gif
+
+anim 10001
+ delay 7
+ offset 10 24
+ frame data/chars/cssasuke/87.gif
+
+anim 0101
+ delay 7
+ offset 28 29
+ frame data/chars/cssasuke/88.gif
+ offset 27 29
+ frame data/chars/cssasuke/89.gif
+
+anim freespecial1010
+ delay 7
+ offset 19 38
+ frame data/chars/cssasuke/90.gif
+ offset 27 29
+ frame data/chars/cssasuke/91.gif
+ offset 15 53
+ frame data/chars/cssasuke/92.gif
+ offset 14 52
+ frame data/chars/cssasuke/93.gif
+ offset 14 51
+ frame data/chars/cssasuke/94.gif
+ offset 19 57
+ frame data/chars/cssasuke/95.gif
+ offset 19 49
+ frame data/chars/cssasuke/96.gif
+ offset 24 38
+ frame data/chars/cssasuke/97.gif
+ offset 27 48
+ frame data/chars/cssasuke/98.gif
+ offset 23 38
+ frame data/chars/cssasuke/99.gif
+ offset 21 34
+ frame data/chars/cssasuke/100.gif
+ offset 23 32
+ frame data/chars/cssasuke/101.gif
+ offset 26 44
+ frame data/chars/cssasuke/102.gif
+ offset 23 33
+ frame data/chars/cssasuke/103.gif
+ offset 21 49
+ frame data/chars/cssasuke/104.gif
+ offset 21 36
+ frame data/chars/cssasuke/105.gif
+ offset 23 28
+ frame data/chars/cssasuke/106.gif
+ offset 20 31
+ frame data/chars/cssasuke/107.gif
+ offset 18 45
+ frame data/chars/cssasuke/108.gif
+ offset 21 40
+ frame data/chars/cssasuke/109.gif
+ offset 20 36
+ frame data/chars/cssasuke/110.gif
+ offset 20 32
+ frame data/chars/cssasuke/111.gif
+ offset 19 27
+ frame data/chars/cssasuke/112.gif
+ offset 27 32
+ frame data/chars/cssasuke/113.gif
+ offset 27 29
+ frame data/chars/cssasuke/114.gif
+
+anim jumpattack610
+ delay 7
+ offset 24 41
+ frame data/chars/cssasuke/115.gif
+ offset 33 42
+ frame data/chars/cssasuke/116.gif
+ offset 32 37
+ frame data/chars/cssasuke/117.gif
+
+anim 10002
+ delay 7
+ offset 10 25
+ frame data/chars/cssasuke/118.gif
+
+anim jumpattack620
+ delay 7
+ offset 22 49
+ frame data/chars/cssasuke/119.gif
+ offset 18 48
+ frame data/chars/cssasuke/120.gif
+ offset 20 47
+ frame data/chars/cssasuke/121.gif
+ offset 20 47
+ frame data/chars/cssasuke/122.gif
+
+anim 10003
+ delay 7
+ offset 20 47
+ frame data/chars/cssasuke/123.gif
+ offset 20 47
+ frame data/chars/cssasuke/124.gif
+ offset 20 47
+ frame data/chars/cssasuke/125.gif
+ offset 6 28
+ frame data/chars/cssasuke/126.gif
+
+anim freespecial1011
+ delay 7
+ offset 19 41
+ frame data/chars/cssasuke/127.gif
+ offset 19 40
+ frame data/chars/cssasuke/128.gif
+ offset 21 40
+ frame data/chars/cssasuke/129.gif
+ offset 21 37
+ frame data/chars/cssasuke/130.gif
+ offset 22 34
+ frame data/chars/cssasuke/131.gif
+ offset 22 35
+ frame data/chars/cssasuke/132.gif
+ offset 16 29
+ frame data/chars/cssasuke/133.gif
+ offset 22 28
+ frame data/chars/cssasuke/134.gif
+ offset 23 39
+ frame data/chars/cssasuke/135.gif
+ offset 23 39
+ frame data/chars/cssasuke/136.gif
+ offset 24 37
+ frame data/chars/cssasuke/137.gif
+
+anim freespecial1010
+ delay 7
+ offset 24 38
+ frame data/chars/cssasuke/138.gif
+
+anim 10004
+ delay 7
+ offset 7 9
+ frame data/chars/cssasuke/139.gif
+ offset 12 14
+ frame data/chars/cssasuke/140.gif
+ offset 15 14
+ frame data/chars/cssasuke/141.gif
+ offset 22 28
+ frame data/chars/cssasuke/142.gif
+ offset 24 36
+ frame data/chars/cssasuke/143.gif
+ offset 24 37
+ frame data/chars/cssasuke/144.gif
+ offset 25 47
+ frame data/chars/cssasuke/145.gif
+ offset 30 58
+ frame data/chars/cssasuke/146.gif
+ offset 34 42
+ frame data/chars/cssasuke/147.gif
+ offset 42 62
+ frame data/chars/cssasuke/148.gif
