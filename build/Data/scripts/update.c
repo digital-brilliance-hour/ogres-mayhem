@@ -231,7 +231,18 @@ void main()
   afterImg();
 }
 
+void oncreate(){
+    void mTitle;
+
+    mTitle = loadsprite("data/sprites/movelist/movelist-title.gif");
+
+    setglobalvar("mTitle", mTitle); 
+}
+
 void ondestroy(){
+  void mTitle = getglobalvar("mTitle");    
+  free(mTitle);   
+  setglobalvar("mTitle", NULL());  
 }
 
 void fileskim(char Line, void Path)

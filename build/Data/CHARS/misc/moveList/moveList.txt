@@ -1,0 +1,24 @@
+name  moveList
+health	 1
+nolife  1
+noatflash 1
+type  text
+shadow 0
+setlayer 9999999999
+
+animationscript data/scripts/spawns.c
+
+anim	idle
+	loop	1 2
+	bbox	1 1 60 105
+	delay	20
+	@cmd	setglobalvar "showM" 1
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

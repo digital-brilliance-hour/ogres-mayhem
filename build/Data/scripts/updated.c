@@ -108,6 +108,7 @@ void inLevelLoop()
 {
 	turnWhite();
 	storySystem();
+  showMoves();
 }
 
 void oncreate()
@@ -116,6 +117,17 @@ void oncreate()
     setglobalvar("Load", C);
 
     setindexedvar(1, 0);
+}
+
+void showMoves() {
+
+    int showM = getglobalvar("showM");
+    if(showM) {
+      void mTitle = getglobalvar("mTitle");
+
+      //mTitle = loadsprite("data/sprites/movelist/movelist-title.png");
+       drawsprite(mTitle, 0, 0, 9999999);
+    }
 }
 
 void fileskim(char Line)
