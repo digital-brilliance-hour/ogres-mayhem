@@ -63,6 +63,7 @@ modelflag 3
 
 
 
+
 anim	attack1
 	delay	3
 	offset	25 47
@@ -71,7 +72,7 @@ anim	attack1
 	frame	data/chars/Ichigo_Bankai/124.gif
 	offset	22 40
 	frame	data/chars/Ichigo_Bankai/125.gif
-	attack	45 2 44 40 8 0 1 0 0 0
+	attack	45 2 44 40 8 0 1 0 20 0
 	offset	23 39
 	frame	data/chars/Ichigo_Bankai/126.gif
 	offset	41 39
@@ -87,7 +88,7 @@ anim	attack2
 	frame	data/chars/Ichigo_Bankai/130.gif
 	offset	33 50
 	frame	data/chars/Ichigo_Bankai/131.gif
-	attack	58 0 59 72 10 0 1 0 0 0
+	attack	58 0 59 72 10 0 1 0 20 0
 	offset	32 70
 	frame	data/chars/Ichigo_Bankai/132.gif
 	offset	31 38
@@ -101,7 +102,7 @@ anim	attack3
 	frame	data/chars/Ichigo_Bankai/141.gif
 	offset	27 39
 	frame	data/chars/Ichigo_Bankai/142.gif
-	attack	-9 0 144 43 12 1 1 0 0 0 \
+	attack	-9 0 144 43 12 1 1 0 20 0
 	dropv	1 4 0
 	offset	59 39
 	frame	data/chars/Ichigo_Bankai/143.gif
@@ -208,7 +209,7 @@ anim	freespecial
 	frame	data/chars/Ichigo_Bankai/124.gif
 	offset	22 40
 	frame	data/chars/Ichigo_Bankai/125.gif
-	attack	45 0 43 42 9 0 1 0 0 0
+	attack	45 0 43 42 9 0 1 0 20 0
 	offset	23 39
 	frame	data/chars/Ichigo_Bankai/126.gif
 	offset	41 39
@@ -222,7 +223,7 @@ anim	freespecial
 	frame	data/chars/Ichigo_Bankai/130.gif
 	offset	33 50
 	frame	data/chars/Ichigo_Bankai/131.gif
-	attack	57 0 54 72 11 0 1 0 0 0
+	attack	57 0 54 72 11 0 1 0 20 0
 	offset	32 70
 	frame	data/chars/Ichigo_Bankai/132.gif
 	offset	31 38
@@ -234,7 +235,7 @@ anim	freespecial
 	frame	data/chars/Ichigo_Bankai/141.gif
 	offset	27 39
 	frame	data/chars/Ichigo_Bankai/142.gif
-	attack	-8 0 147 42 13 1 1 0 0 0
+	attack	-8 0 147 42 13 1 1 0 20 0
 	dropv	2 5 0
 	offset	59 39
 	frame	data/chars/Ichigo_Bankai/143.gif
