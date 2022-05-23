@@ -248,6 +248,19 @@ anim	land
 	offset	60 116
 	frame	data/chars/Sasuke/get02.gif
 		
+anim	freespecial4
+	delay	7
+	offset	17 32
+	frame	data/chars/sasuke/417.gif
+	offset	17 32
+	frame	data/chars/sasuke/418.gif
+	offset	17 32
+	frame	data/chars/sasuke/419.gif
+	offset	17 32
+	frame	data/chars/sasuke/420.gif
+	offset	17 32
+	frame	data/chars/sasuke/421.gif
+		
 anim	pain
 	loop	0
 	offset	60 116
