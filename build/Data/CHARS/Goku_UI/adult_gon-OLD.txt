@@ -1,0 +1,1317 @@
+name adult_gon-OLD
+health	100
+speed 12
+running	24	4	2	1    1
+type	none
+shadow	3
+
+
+anim	0001
+	delay	7
+	offset	18 200
+	frame	data/chars/Goku_UI/68.gif
+		
+anim	0003
+	delay	7
+	offset	89 47
+	frame	data/chars/Goku_UI/242.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/243.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/244.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/245.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/246.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/247.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/248.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/249.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/250.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/251.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/252.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/253.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/254.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/255.gif
+	offset	89 47
+	frame	data/chars/Goku_UI/256.gif
+		
+anim	0004
+	delay	7
+	offset	40 223
+	frame	data/chars/Goku_UI/58.gif
+	offset	42 219
+	frame	data/chars/Goku_UI/59.gif
+	offset	38 220
+	frame	data/chars/Goku_UI/60.gif
+		
+anim	0006
+	delay	7
+	offset	43 209
+	frame	data/chars/Goku_UI/6.gif
+	offset	44 209
+	frame	data/chars/Goku_UI/7.gif
+		
+anim	0025
+	delay	7
+	offset	17 206
+	frame	data/chars/Goku_UI/43.gif
+	offset	18 209
+	frame	data/chars/Goku_UI/44.gif
+	offset	20 208
+	frame	data/chars/Goku_UI/45.gif
+	offset	18 207
+	frame	data/chars/Goku_UI/46.gif
+	offset	40 223
+	frame	data/chars/Goku_UI/47.gif
+	offset	17 208
+	frame	data/chars/Goku_UI/48.gif
+		
+anim	0040
+	delay	7
+	offset	51 211
+	frame	data/chars/Goku_UI/12.gif
+	offset	53 204
+	frame	data/chars/Goku_UI/13.gif
+	offset	44 204
+	frame	data/chars/Goku_UI/14.gif
+	offset	51 211
+	frame	data/chars/Goku_UI/15.gif
+	offset	45 205
+	frame	data/chars/Goku_UI/16.gif
+		
+anim	0161
+	delay	7
+	offset	24 20
+	frame	data/chars/Goku_UI/685.gif
+	offset	24 57
+	frame	data/chars/Goku_UI/686.gif
+	offset	23 96
+	frame	data/chars/Goku_UI/687.gif
+	offset	23 96
+	frame	data/chars/Goku_UI/688.gif
+	offset	2 92
+	frame	data/chars/Goku_UI/689.gif
+	offset	3 88
+	frame	data/chars/Goku_UI/690.gif
+	offset	-11 87
+	frame	data/chars/Goku_UI/691.gif
+		
+anim	0900
+	delay	7
+	offset	30 224
+	frame	data/chars/Goku_UI/28.gif
+	offset	45 223
+	frame	data/chars/Goku_UI/29.gif
+	offset	28 222
+	frame	data/chars/Goku_UI/30.gif
+	offset	45 222
+	frame	data/chars/Goku_UI/31.gif
+	offset	49 223
+	frame	data/chars/Goku_UI/32.gif
+	offset	40 221
+	frame	data/chars/Goku_UI/33.gif
+	offset	29 221
+	frame	data/chars/Goku_UI/34.gif
+		
+anim	0950
+	delay	7
+	offset	105 294
+	frame	data/chars/Goku_UI/692.gif
+	offset	300 290
+	frame	data/chars/Goku_UI/693.gif
+	offset	300 288
+	frame	data/chars/Goku_UI/694.gif
+	offset	300 296
+	frame	data/chars/Goku_UI/695.gif
+	offset	300 325
+	frame	data/chars/Goku_UI/696.gif
+	offset	300 354
+	frame	data/chars/Goku_UI/697.gif
+	offset	300 382
+	frame	data/chars/Goku_UI/698.gif
+	offset	300 400
+	frame	data/chars/Goku_UI/699.gif
+	offset	300 384
+	frame	data/chars/Goku_UI/700.gif
+	offset	300 400
+	frame	data/chars/Goku_UI/701.gif
+	offset	300 400
+	frame	data/chars/Goku_UI/702.gif
+	offset	293 384
+	frame	data/chars/Goku_UI/703.gif
+	offset	233 391
+	frame	data/chars/Goku_UI/704.gif
+	offset	214 399
+	frame	data/chars/Goku_UI/705.gif
+	offset	208 391
+	frame	data/chars/Goku_UI/706.gif
+	offset	183 365
+	frame	data/chars/Goku_UI/707.gif
+	offset	158 341
+	frame	data/chars/Goku_UI/708.gif
+	offset	151 338
+	frame	data/chars/Goku_UI/709.gif
+	offset	148 337
+	frame	data/chars/Goku_UI/710.gif
+	offset	147 338
+	frame	data/chars/Goku_UI/711.gif
+	offset	146 336
+	frame	data/chars/Goku_UI/712.gif
+	offset	142 333
+	frame	data/chars/Goku_UI/713.gif
+	offset	137 332
+	frame	data/chars/Goku_UI/714.gif
+	offset	136 332
+	frame	data/chars/Goku_UI/715.gif
+	offset	134 332
+	frame	data/chars/Goku_UI/716.gif
+	offset	132 331
+	frame	data/chars/Goku_UI/717.gif
+	offset	125 330
+	frame	data/chars/Goku_UI/718.gif
+	offset	110 328
+	frame	data/chars/Goku_UI/719.gif
+	offset	67 323
+	frame	data/chars/Goku_UI/720.gif
+	offset	62 314
+	frame	data/chars/Goku_UI/721.gif
+	offset	100 292
+	frame	data/chars/Goku_UI/722.gif
+	offset	273 289
+	frame	data/chars/Goku_UI/723.gif
+	offset	273 287
+	frame	data/chars/Goku_UI/724.gif
+	offset	273 295
+	frame	data/chars/Goku_UI/725.gif
+	offset	273 324
+	frame	data/chars/Goku_UI/726.gif
+	offset	273 353
+	frame	data/chars/Goku_UI/727.gif
+	offset	273 382
+	frame	data/chars/Goku_UI/728.gif
+	offset	273 396
+	frame	data/chars/Goku_UI/729.gif
+	offset	273 384
+	frame	data/chars/Goku_UI/730.gif
+	offset	273 396
+	frame	data/chars/Goku_UI/731.gif
+	offset	273 396
+	frame	data/chars/Goku_UI/732.gif
+	offset	273 383
+	frame	data/chars/Goku_UI/733.gif
+	offset	236 390
+	frame	data/chars/Goku_UI/734.gif
+	offset	214 396
+	frame	data/chars/Goku_UI/735.gif
+	offset	208 390
+	frame	data/chars/Goku_UI/736.gif
+	offset	182 365
+	frame	data/chars/Goku_UI/737.gif
+	offset	157 340
+	frame	data/chars/Goku_UI/738.gif
+	offset	145 332
+	frame	data/chars/Goku_UI/739.gif
+	offset	141 331
+	frame	data/chars/Goku_UI/740.gif
+	offset	137 330
+	frame	data/chars/Goku_UI/741.gif
+	offset	133 329
+	frame	data/chars/Goku_UI/742.gif
+	offset	133 327
+	frame	data/chars/Goku_UI/743.gif
+	offset	129 327
+	frame	data/chars/Goku_UI/744.gif
+		
+anim	11200
+	delay	7
+	offset	43 50
+	frame	data/chars/Goku_UI/238.gif
+	offset	42 40
+	frame	data/chars/Goku_UI/239.gif
+	offset	50 39
+	frame	data/chars/Goku_UI/240.gif
+	offset	44 38
+	frame	data/chars/Goku_UI/241.gif
+		
+anim	7000
+	delay	7
+	offset	24 24
+	frame	data/chars/Goku_UI/613.gif
+	offset	19 19
+	frame	data/chars/Goku_UI/614.gif
+	offset	14 15
+	frame	data/chars/Goku_UI/615.gif
+	offset	9 16
+	frame	data/chars/Goku_UI/616.gif
+	offset	11 19
+	frame	data/chars/Goku_UI/617.gif
+	offset	12 22
+	frame	data/chars/Goku_UI/618.gif
+	offset	7 25
+	frame	data/chars/Goku_UI/619.gif
+	offset	11 23
+	frame	data/chars/Goku_UI/620.gif
+	offset	12 23
+	frame	data/chars/Goku_UI/621.gif
+	offset	12 24
+	frame	data/chars/Goku_UI/622.gif
+	offset	13 31
+	frame	data/chars/Goku_UI/623.gif
+	offset	13 32
+	frame	data/chars/Goku_UI/624.gif
+	offset	13 33
+	frame	data/chars/Goku_UI/625.gif
+	offset	13 35
+	frame	data/chars/Goku_UI/626.gif
+	offset	13 36
+	frame	data/chars/Goku_UI/627.gif
+	offset	13 36
+	frame	data/chars/Goku_UI/628.gif
+	offset	11 37
+	frame	data/chars/Goku_UI/629.gif
+	offset	10 38
+	frame	data/chars/Goku_UI/630.gif
+	offset	7 40
+	frame	data/chars/Goku_UI/631.gif
+	offset	8 41
+	frame	data/chars/Goku_UI/632.gif
+	offset	2 43
+	frame	data/chars/Goku_UI/633.gif
+		
+anim	7020
+	delay	7
+	offset	82 20
+	frame	data/chars/Goku_UI/634.gif
+	offset	86 20
+	frame	data/chars/Goku_UI/635.gif
+	offset	79 15
+	frame	data/chars/Goku_UI/636.gif
+	offset	79 15
+	frame	data/chars/Goku_UI/637.gif
+	offset	78 15
+	frame	data/chars/Goku_UI/638.gif
+	offset	79 15
+	frame	data/chars/Goku_UI/639.gif
+	offset	78 15
+	frame	data/chars/Goku_UI/640.gif
+	offset	79 15
+	frame	data/chars/Goku_UI/641.gif
+	offset	77 15
+	frame	data/chars/Goku_UI/642.gif
+	offset	77 14
+	frame	data/chars/Goku_UI/643.gif
+		
+anim	7052
+	delay	7
+	offset	179 41
+	frame	data/chars/Goku_UI/662.gif
+	offset	178 43
+	frame	data/chars/Goku_UI/663.gif
+	offset	219 45
+	frame	data/chars/Goku_UI/664.gif
+	offset	225 59
+	frame	data/chars/Goku_UI/665.gif
+	offset	222 62
+	frame	data/chars/Goku_UI/666.gif
+	offset	223 59
+	frame	data/chars/Goku_UI/667.gif
+	offset	226 60
+	frame	data/chars/Goku_UI/668.gif
+	offset	219 63
+	frame	data/chars/Goku_UI/669.gif
+	offset	209 63
+	frame	data/chars/Goku_UI/670.gif
+		
+anim	7053
+	delay	7
+	offset	0 -102
+	frame	data/chars/Goku_UI/671.gif
+	offset	0 -92
+	frame	data/chars/Goku_UI/672.gif
+	offset	0 -70
+	frame	data/chars/Goku_UI/673.gif
+	offset	0 -3
+	frame	data/chars/Goku_UI/674.gif
+	offset	0 -3
+	frame	data/chars/Goku_UI/675.gif
+	offset	0 -3
+	frame	data/chars/Goku_UI/676.gif
+	offset	0 -3
+	frame	data/chars/Goku_UI/677.gif
+	offset	0 0
+	frame	data/chars/Goku_UI/678.gif
+	offset	0 0
+	frame	data/chars/Goku_UI/679.gif
+	offset	0 0
+	frame	data/chars/Goku_UI/680.gif
+	offset	0 0
+	frame	data/chars/Goku_UI/681.gif
+	offset	0 -1
+	frame	data/chars/Goku_UI/682.gif
+	offset	0 -8
+	frame	data/chars/Goku_UI/683.gif
+	offset	0 -6
+	frame	data/chars/Goku_UI/684.gif
+		
+anim	8200
+	delay	7
+	offset	108 237
+	frame	data/chars/Goku_UI/644.gif
+	offset	114 256
+	frame	data/chars/Goku_UI/645.gif
+	offset	121 276
+	frame	data/chars/Goku_UI/646.gif
+	offset	128 193
+	frame	data/chars/Goku_UI/647.gif
+	offset	135 198
+	frame	data/chars/Goku_UI/648.gif
+	offset	126 199
+	frame	data/chars/Goku_UI/649.gif
+	offset	125 186
+	frame	data/chars/Goku_UI/650.gif
+	offset	127 180
+	frame	data/chars/Goku_UI/651.gif
+	offset	124 124
+	frame	data/chars/Goku_UI/652.gif
+	offset	115 109
+	frame	data/chars/Goku_UI/653.gif
+		
+anim	8230
+	delay	7
+	offset	68 31
+	frame	data/chars/Goku_UI/471.gif
+	offset	83 92
+	frame	data/chars/Goku_UI/472.gif
+	offset	99 149
+	frame	data/chars/Goku_UI/473.gif
+	offset	98 178
+	frame	data/chars/Goku_UI/474.gif
+	offset	100 196
+	frame	data/chars/Goku_UI/475.gif
+	offset	100 203
+	frame	data/chars/Goku_UI/476.gif
+	offset	98 210
+	frame	data/chars/Goku_UI/477.gif
+	offset	98 219
+	frame	data/chars/Goku_UI/478.gif
+	offset	97 226
+	frame	data/chars/Goku_UI/479.gif
+	offset	96 230
+	frame	data/chars/Goku_UI/480.gif
+	offset	97 232
+	frame	data/chars/Goku_UI/481.gif
+	offset	99 234
+	frame	data/chars/Goku_UI/482.gif
+	offset	100 232
+	frame	data/chars/Goku_UI/483.gif
+	offset	101 236
+	frame	data/chars/Goku_UI/484.gif
+	offset	100 222
+	frame	data/chars/Goku_UI/485.gif
+	offset	88 224
+	frame	data/chars/Goku_UI/486.gif
+	offset	88 224
+	frame	data/chars/Goku_UI/487.gif
+	offset	89 224
+	frame	data/chars/Goku_UI/488.gif
+	offset	89 226
+	frame	data/chars/Goku_UI/489.gif
+	offset	90 227
+	frame	data/chars/Goku_UI/490.gif
+	offset	90 231
+	frame	data/chars/Goku_UI/491.gif
+	offset	90 232
+	frame	data/chars/Goku_UI/492.gif
+	offset	93 232
+	frame	data/chars/Goku_UI/493.gif
+	offset	95 232
+	frame	data/chars/Goku_UI/494.gif
+	offset	96 232
+	frame	data/chars/Goku_UI/495.gif
+	offset	96 233
+	frame	data/chars/Goku_UI/496.gif
+	offset	97 232
+	frame	data/chars/Goku_UI/497.gif
+	offset	98 233
+	frame	data/chars/Goku_UI/498.gif
+	offset	99 233
+	frame	data/chars/Goku_UI/499.gif
+	offset	101 234
+	frame	data/chars/Goku_UI/500.gif
+	offset	101 234
+	frame	data/chars/Goku_UI/501.gif
+	offset	103 240
+	frame	data/chars/Goku_UI/502.gif
+	offset	103 235
+	frame	data/chars/Goku_UI/503.gif
+	offset	105 217
+	frame	data/chars/Goku_UI/504.gif
+	offset	105 217
+	frame	data/chars/Goku_UI/505.gif
+	offset	106 219
+	frame	data/chars/Goku_UI/506.gif
+	offset	105 221
+	frame	data/chars/Goku_UI/507.gif
+	offset	106 224
+	frame	data/chars/Goku_UI/508.gif
+	offset	98 226
+	frame	data/chars/Goku_UI/509.gif
+	offset	98 227
+	frame	data/chars/Goku_UI/510.gif
+	offset	98 229
+	frame	data/chars/Goku_UI/511.gif
+	offset	98 229
+	frame	data/chars/Goku_UI/512.gif
+	offset	97 228
+	frame	data/chars/Goku_UI/513.gif
+	offset	97 223
+	frame	data/chars/Goku_UI/514.gif
+	offset	94 222
+	frame	data/chars/Goku_UI/515.gif
+	offset	93 195
+	frame	data/chars/Goku_UI/516.gif
+	offset	91 194
+	frame	data/chars/Goku_UI/517.gif
+	offset	90 194
+	frame	data/chars/Goku_UI/518.gif
+	offset	76 192
+	frame	data/chars/Goku_UI/519.gif
+	offset	76 191
+	frame	data/chars/Goku_UI/520.gif
+	offset	76 191
+	frame	data/chars/Goku_UI/521.gif
+	offset	76 188
+	frame	data/chars/Goku_UI/522.gif
+	offset	76 187
+	frame	data/chars/Goku_UI/523.gif
+	offset	74 186
+	frame	data/chars/Goku_UI/524.gif
+	offset	67 168
+	frame	data/chars/Goku_UI/525.gif
+	offset	55 157
+	frame	data/chars/Goku_UI/526.gif
+	offset	39 128
+	frame	data/chars/Goku_UI/527.gif
+		
+anim	8240
+	delay	7
+	offset	198 30
+	frame	data/chars/Goku_UI/528.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/529.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/530.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/531.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/532.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/533.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/534.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/535.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/536.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/537.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/538.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/539.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/540.gif
+	offset	197 29
+	frame	data/chars/Goku_UI/541.gif
+	offset	198 29
+	frame	data/chars/Goku_UI/542.gif
+	offset	197 29
+	frame	data/chars/Goku_UI/543.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/544.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/545.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/546.gif
+	offset	198 30
+	frame	data/chars/Goku_UI/547.gif
+		
+anim	8250
+	delay	7
+	offset	57 10
+	frame	data/chars/Goku_UI/548.gif
+	offset	91 20
+	frame	data/chars/Goku_UI/549.gif
+	offset	122 29
+	frame	data/chars/Goku_UI/550.gif
+	offset	150 38
+	frame	data/chars/Goku_UI/551.gif
+	offset	174 45
+	frame	data/chars/Goku_UI/552.gif
+	offset	195 50
+	frame	data/chars/Goku_UI/553.gif
+	offset	212 53
+	frame	data/chars/Goku_UI/554.gif
+	offset	226 54
+	frame	data/chars/Goku_UI/555.gif
+	offset	237 54
+	frame	data/chars/Goku_UI/556.gif
+	offset	245 54
+	frame	data/chars/Goku_UI/557.gif
+	offset	252 53
+	frame	data/chars/Goku_UI/558.gif
+	offset	266 52
+	frame	data/chars/Goku_UI/559.gif
+	offset	284 50
+	frame	data/chars/Goku_UI/560.gif
+	offset	298 48
+	frame	data/chars/Goku_UI/561.gif
+	offset	313 49
+	frame	data/chars/Goku_UI/562.gif
+	offset	328 50
+	frame	data/chars/Goku_UI/563.gif
+	offset	343 50
+	frame	data/chars/Goku_UI/564.gif
+	offset	359 51
+	frame	data/chars/Goku_UI/565.gif
+	offset	373 51
+	frame	data/chars/Goku_UI/566.gif
+	offset	388 51
+	frame	data/chars/Goku_UI/567.gif
+	offset	404 51
+	frame	data/chars/Goku_UI/568.gif
+	offset	418 51
+	frame	data/chars/Goku_UI/569.gif
+	offset	411 50
+	frame	data/chars/Goku_UI/570.gif
+	offset	421 50
+	frame	data/chars/Goku_UI/571.gif
+	offset	431 49
+	frame	data/chars/Goku_UI/572.gif
+	offset	446 48
+	frame	data/chars/Goku_UI/573.gif
+	offset	462 47
+	frame	data/chars/Goku_UI/574.gif
+	offset	446 45
+	frame	data/chars/Goku_UI/575.gif
+	offset	443 44
+	frame	data/chars/Goku_UI/576.gif
+	offset	456 42
+	frame	data/chars/Goku_UI/577.gif
+	offset	468 40
+	frame	data/chars/Goku_UI/578.gif
+	offset	482 38
+	frame	data/chars/Goku_UI/579.gif
+	offset	392 36
+	frame	data/chars/Goku_UI/580.gif
+	offset	345 34
+	frame	data/chars/Goku_UI/581.gif
+	offset	319 31
+	frame	data/chars/Goku_UI/582.gif
+	offset	322 29
+	frame	data/chars/Goku_UI/583.gif
+	offset	327 27
+	frame	data/chars/Goku_UI/584.gif
+	offset	336 20
+	frame	data/chars/Goku_UI/585.gif
+	offset	339 20
+	frame	data/chars/Goku_UI/586.gif
+	offset	343 13
+	frame	data/chars/Goku_UI/587.gif
+	offset	348 12
+	frame	data/chars/Goku_UI/588.gif
+	offset	346 -14
+	frame	data/chars/Goku_UI/589.gif
+	offset	389 -73
+	frame	data/chars/Goku_UI/590.gif
+	offset	298 -92
+	frame	data/chars/Goku_UI/591.gif
+	offset	399 -85
+	frame	data/chars/Goku_UI/592.gif
+	offset	299 -100
+	frame	data/chars/Goku_UI/593.gif
+	offset	409 -102
+	frame	data/chars/Goku_UI/594.gif
+	offset	414 -116
+	frame	data/chars/Goku_UI/595.gif
+	offset	308 -111
+	frame	data/chars/Goku_UI/596.gif
+	offset	342 -126
+	frame	data/chars/Goku_UI/597.gif
+	offset	370 -116
+	frame	data/chars/Goku_UI/598.gif
+	offset	433 -132
+	frame	data/chars/Goku_UI/599.gif
+	offset	438 -127
+	frame	data/chars/Goku_UI/600.gif
+	offset	443 -135
+	frame	data/chars/Goku_UI/601.gif
+	offset	448 -155
+	frame	data/chars/Goku_UI/602.gif
+	offset	453 -148
+	frame	data/chars/Goku_UI/603.gif
+	offset	458 -148
+	frame	data/chars/Goku_UI/604.gif
+	offset	339 -150
+	frame	data/chars/Goku_UI/605.gif
+	offset	344 -164
+	frame	data/chars/Goku_UI/606.gif
+	offset	345 -169
+	frame	data/chars/Goku_UI/607.gif
+	offset	351 -187
+	frame	data/chars/Goku_UI/608.gif
+	offset	351 -184
+	frame	data/chars/Goku_UI/609.gif
+	offset	365 -182
+	frame	data/chars/Goku_UI/610.gif
+	offset	359 -200
+	frame	data/chars/Goku_UI/611.gif
+	offset	365 -197
+	frame	data/chars/Goku_UI/612.gif
+		
+anim	9000
+	delay	7
+	offset	-1 2
+	frame	data/chars/Goku_UI/0.gif
+	offset	-2 3
+	frame	data/chars/Goku_UI/1.gif
+		
+anim	9007
+	delay	7
+	offset	75 10
+	frame	data/chars/Goku_UI/655.gif
+	offset	93 12
+	frame	data/chars/Goku_UI/656.gif
+	offset	111 14
+	frame	data/chars/Goku_UI/657.gif
+	offset	124 16
+	frame	data/chars/Goku_UI/658.gif
+	offset	122 16
+	frame	data/chars/Goku_UI/659.gif
+		
+anim	9008
+	delay	7
+	offset	110 8
+	frame	data/chars/Goku_UI/660.gif
+		
+anim	9021
+	delay	7
+	offset	320 240
+	frame	data/chars/Goku_UI/661.gif
+		
+anim	9031
+	delay	7
+	offset	447 264
+	frame	data/chars/Goku_UI/161.gif
+	offset	484 353
+	frame	data/chars/Goku_UI/162.gif
+	offset	525 353
+	frame	data/chars/Goku_UI/163.gif
+	offset	546 353
+	frame	data/chars/Goku_UI/164.gif
+	offset	537 353
+	frame	data/chars/Goku_UI/165.gif
+	offset	545 353
+	frame	data/chars/Goku_UI/166.gif
+	offset	558 353
+	frame	data/chars/Goku_UI/167.gif
+	offset	558 353
+	frame	data/chars/Goku_UI/168.gif
+	offset	558 353
+	frame	data/chars/Goku_UI/169.gif
+	offset	558 353
+	frame	data/chars/Goku_UI/170.gif
+	offset	558 353
+	frame	data/chars/Goku_UI/171.gif
+	offset	558 353
+	frame	data/chars/Goku_UI/172.gif
+	offset	557 353
+	frame	data/chars/Goku_UI/173.gif
+	offset	537 353
+	frame	data/chars/Goku_UI/174.gif
+	offset	535 353
+	frame	data/chars/Goku_UI/175.gif
+	offset	531 353
+	frame	data/chars/Goku_UI/176.gif
+	offset	534 353
+	frame	data/chars/Goku_UI/177.gif
+	offset	527 353
+	frame	data/chars/Goku_UI/178.gif
+	offset	519 353
+	frame	data/chars/Goku_UI/179.gif
+	offset	519 353
+	frame	data/chars/Goku_UI/180.gif
+	offset	519 353
+	frame	data/chars/Goku_UI/181.gif
+	offset	519 353
+	frame	data/chars/Goku_UI/182.gif
+	offset	520 353
+	frame	data/chars/Goku_UI/183.gif
+	offset	521 353
+	frame	data/chars/Goku_UI/184.gif
+	offset	522 353
+	frame	data/chars/Goku_UI/185.gif
+	offset	522 353
+	frame	data/chars/Goku_UI/186.gif
+	offset	520 353
+	frame	data/chars/Goku_UI/187.gif
+	offset	520 353
+	frame	data/chars/Goku_UI/188.gif
+	offset	512 353
+	frame	data/chars/Goku_UI/189.gif
+	offset	502 353
+	frame	data/chars/Goku_UI/190.gif
+	offset	502 353
+	frame	data/chars/Goku_UI/191.gif
+	offset	503 353
+	frame	data/chars/Goku_UI/192.gif
+	offset	503 353
+	frame	data/chars/Goku_UI/193.gif
+	offset	512 353
+	frame	data/chars/Goku_UI/194.gif
+	offset	505 353
+	frame	data/chars/Goku_UI/195.gif
+	offset	505 353
+	frame	data/chars/Goku_UI/196.gif
+	offset	504 353
+	frame	data/chars/Goku_UI/197.gif
+	offset	505 353
+	frame	data/chars/Goku_UI/198.gif
+	offset	506 353
+	frame	data/chars/Goku_UI/199.gif
+	offset	506 353
+	frame	data/chars/Goku_UI/200.gif
+	offset	508 353
+	frame	data/chars/Goku_UI/201.gif
+	offset	508 353
+	frame	data/chars/Goku_UI/202.gif
+	offset	506 353
+	frame	data/chars/Goku_UI/203.gif
+	offset	506 353
+	frame	data/chars/Goku_UI/204.gif
+	offset	504 353
+	frame	data/chars/Goku_UI/205.gif
+	offset	503 353
+	frame	data/chars/Goku_UI/206.gif
+	offset	504 353
+	frame	data/chars/Goku_UI/207.gif
+	offset	506 353
+	frame	data/chars/Goku_UI/208.gif
+	offset	506 353
+	frame	data/chars/Goku_UI/209.gif
+	offset	503 353
+	frame	data/chars/Goku_UI/210.gif
+	offset	504 353
+	frame	data/chars/Goku_UI/211.gif
+	offset	504 353
+	frame	data/chars/Goku_UI/212.gif
+	offset	502 353
+	frame	data/chars/Goku_UI/213.gif
+	offset	504 353
+	frame	data/chars/Goku_UI/214.gif
+	offset	497 353
+	frame	data/chars/Goku_UI/215.gif
+	offset	498 353
+	frame	data/chars/Goku_UI/216.gif
+	offset	498 353
+	frame	data/chars/Goku_UI/217.gif
+	offset	498 353
+	frame	data/chars/Goku_UI/218.gif
+	offset	502 353
+	frame	data/chars/Goku_UI/219.gif
+	offset	502 353
+	frame	data/chars/Goku_UI/220.gif
+	offset	501 353
+	frame	data/chars/Goku_UI/221.gif
+	offset	498 353
+	frame	data/chars/Goku_UI/222.gif
+	offset	498 353
+	frame	data/chars/Goku_UI/223.gif
+	offset	498 353
+	frame	data/chars/Goku_UI/224.gif
+	offset	499 353
+	frame	data/chars/Goku_UI/225.gif
+	offset	498 353
+	frame	data/chars/Goku_UI/226.gif
+	offset	56 353
+	frame	data/chars/Goku_UI/227.gif
+	offset	23 353
+	frame	data/chars/Goku_UI/228.gif
+	offset	12 353
+	frame	data/chars/Goku_UI/229.gif
+	offset	32 353
+	frame	data/chars/Goku_UI/230.gif
+	offset	11 353
+	frame	data/chars/Goku_UI/231.gif
+	offset	10 280
+	frame	data/chars/Goku_UI/232.gif
+	offset	1 285
+	frame	data/chars/Goku_UI/233.gif
+	offset	0 213
+	frame	data/chars/Goku_UI/234.gif
+		
+anim	attack200
+	delay	7
+	offset	38 221
+	frame	data/chars/Goku_UI/25.gif
+	offset	47 210
+	frame	data/chars/Goku_UI/26.gif
+	offset	14 209
+	frame	data/chars/Goku_UI/27.gif
+		
+anim	attack300
+	delay	7
+	offset	47 46
+	frame	data/chars/Goku_UI/452.gif
+	offset	45 45
+	frame	data/chars/Goku_UI/453.gif
+	offset	45 45
+	frame	data/chars/Goku_UI/454.gif
+	offset	47 48
+	frame	data/chars/Goku_UI/455.gif
+	offset	48 47
+	frame	data/chars/Goku_UI/456.gif
+		
+anim	attack308
+	delay	7
+	offset	24 47
+	frame	data/chars/Goku_UI/235.gif
+	offset	21 52
+	frame	data/chars/Goku_UI/236.gif
+	offset	18 48
+	frame	data/chars/Goku_UI/237.gif
+		
+anim	attack310
+	delay	7
+	offset	57 56
+	frame	data/chars/Goku_UI/457.gif
+	offset	59 57
+	frame	data/chars/Goku_UI/458.gif
+	offset	59 59
+	frame	data/chars/Goku_UI/459.gif
+	offset	58 59
+	frame	data/chars/Goku_UI/460.gif
+	offset	49 57
+	frame	data/chars/Goku_UI/461.gif
+		
+anim	attack320
+	delay	7
+	offset	77 69
+	frame	data/chars/Goku_UI/462.gif
+	offset	72 67
+	frame	data/chars/Goku_UI/463.gif
+	offset	70 60
+	frame	data/chars/Goku_UI/464.gif
+	offset	56 37
+	frame	data/chars/Goku_UI/465.gif
+	offset	34 7
+	frame	data/chars/Goku_UI/466.gif
+		
+anim	attack330
+	delay	7
+	offset	117 84
+	frame	data/chars/Goku_UI/467.gif
+	offset	92 89
+	frame	data/chars/Goku_UI/468.gif
+	offset	95 100
+	frame	data/chars/Goku_UI/469.gif
+	offset	93 97
+	frame	data/chars/Goku_UI/470.gif
+		
+anim	block120
+	delay	7
+	offset	17 200
+	frame	data/chars/Goku_UI/17.gif
+	offset	15 201
+	frame	data/chars/Goku_UI/18.gif
+	offset	17 199
+	frame	data/chars/Goku_UI/19.gif
+		
+anim	block121
+	delay	7
+	offset	23 200
+	frame	data/chars/Goku_UI/20.gif
+	offset	19 200
+	frame	data/chars/Goku_UI/21.gif
+		
+anim	block122
+	delay	7
+	offset	23 201
+	frame	data/chars/Goku_UI/22.gif
+	offset	21 200
+	frame	data/chars/Goku_UI/23.gif
+	offset	23 200
+	frame	data/chars/Goku_UI/24.gif
+		
+anim	faint
+	delay	7
+	offset	23 168
+	frame	data/chars/Goku_UI/134.gif
+		
+anim	fall5030
+	delay	7
+	offset	22 205
+	frame	data/chars/Goku_UI/74.gif
+	offset	20 212
+	frame	data/chars/Goku_UI/75.gif
+	offset	18 200
+	frame	data/chars/Goku_UI/76.gif
+	offset	14 202
+	frame	data/chars/Goku_UI/77.gif
+		
+anim	fall5031
+	delay	7
+	offset	15 207
+	frame	data/chars/Goku_UI/78.gif
+	offset	35 176
+	frame	data/chars/Goku_UI/79.gif
+	offset	31 174
+	frame	data/chars/Goku_UI/80.gif
+	offset	34 170
+	frame	data/chars/Goku_UI/81.gif
+		
+anim	fall5032
+	delay	7
+	offset	39 173
+	frame	data/chars/Goku_UI/82.gif
+	offset	37 176
+	frame	data/chars/Goku_UI/83.gif
+	offset	43 150
+	frame	data/chars/Goku_UI/84.gif
+	offset	39 174
+	frame	data/chars/Goku_UI/85.gif
+		
+anim	fall5040
+	delay	7
+	offset	25 191
+	frame	data/chars/Goku_UI/86.gif
+	offset	26 191
+	frame	data/chars/Goku_UI/87.gif
+		
+anim	fall5041
+	delay	7
+	offset	35 173
+	frame	data/chars/Goku_UI/88.gif
+	offset	38 184
+	frame	data/chars/Goku_UI/89.gif
+	offset	49 173
+	frame	data/chars/Goku_UI/90.gif
+		
+anim	fall5042
+	delay	7
+	offset	21 160
+	frame	data/chars/Goku_UI/91.gif
+	offset	38 173
+	frame	data/chars/Goku_UI/92.gif
+	offset	33 173
+	frame	data/chars/Goku_UI/93.gif
+		
+anim	fall5060
+	delay	7
+	offset	10 177
+	frame	data/chars/Goku_UI/94.gif
+		
+anim	fall5061
+	delay	7
+	offset	31 175
+	frame	data/chars/Goku_UI/95.gif
+	offset	22 177
+	frame	data/chars/Goku_UI/96.gif
+		
+anim	fall5062
+	delay	7
+	offset	33 172
+	frame	data/chars/Goku_UI/97.gif
+	offset	19 180
+	frame	data/chars/Goku_UI/98.gif
+		
+anim	fall5070
+	delay	7
+	offset	42 184
+	frame	data/chars/Goku_UI/99.gif
+	offset	40 167
+	frame	data/chars/Goku_UI/100.gif
+		
+anim	fall5071
+	delay	7
+	offset	22 181
+	frame	data/chars/Goku_UI/115.gif
+		
+anim	fall5072
+	delay	7
+	offset	20 169
+	frame	data/chars/Goku_UI/101.gif
+		
+anim	freespecial1506
+	delay	7
+	offset	-37 75
+	frame	data/chars/Goku_UI/149.gif
+	offset	77 123
+	frame	data/chars/Goku_UI/150.gif
+	offset	183 168
+	frame	data/chars/Goku_UI/151.gif
+	offset	218 175
+	frame	data/chars/Goku_UI/152.gif
+	offset	220 176
+	frame	data/chars/Goku_UI/153.gif
+	offset	231 178
+	frame	data/chars/Goku_UI/154.gif
+	offset	233 178
+	frame	data/chars/Goku_UI/155.gif
+	offset	238 181
+	frame	data/chars/Goku_UI/156.gif
+	offset	245 153
+	frame	data/chars/Goku_UI/157.gif
+	offset	237 152
+	frame	data/chars/Goku_UI/158.gif
+	offset	228 115
+	frame	data/chars/Goku_UI/159.gif
+	offset	132 12
+	frame	data/chars/Goku_UI/160.gif
+		
+anim	freespecial2551
+	delay	7
+	offset	250 250
+	frame	data/chars/Goku_UI/745.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/746.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/747.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/748.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/749.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/750.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/751.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/752.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/753.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/754.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/755.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/756.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/757.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/758.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/759.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/760.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/761.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/762.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/763.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/764.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/765.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/766.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/767.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/768.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/769.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/770.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/771.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/772.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/773.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/774.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/775.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/776.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/777.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/778.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/779.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/780.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/781.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/782.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/783.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/784.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/785.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/786.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/787.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/788.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/789.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/790.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/791.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/792.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/793.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/794.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/795.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/796.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/797.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/798.gif
+	offset	250 250
+	frame	data/chars/Goku_UI/799.gif
+		
+anim	freespecial2552
+	delay	7
+	offset	300 500
+	frame	data/chars/Goku_UI/807.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/808.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/809.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/810.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/811.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/812.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/813.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/814.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/815.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/816.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/817.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/818.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/819.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/820.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/821.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/822.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/823.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/824.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/825.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/826.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/827.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/828.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/829.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/830.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/831.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/832.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/833.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/834.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/835.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/836.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/837.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/838.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/839.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/840.gif
+	offset	300 500
+	frame	data/chars/Goku_UI/841.gif
+		
+anim	idle
+	delay	7
+	offset	16 208
+	frame	data/chars/Goku_UI/2.gif
+	offset	24 199
+	frame	data/chars/Goku_UI/3.gif
+	offset	24 202
+	frame	data/chars/Goku_UI/4.gif
+		
+anim	pain5000
+	delay	7
+	offset	55 204
+	frame	data/chars/Goku_UI/123.gif
+	offset	62 166
+	frame	data/chars/Goku_UI/124.gif
+		
+anim	pain5010
+	delay	7
+	offset	35 177
+	frame	data/chars/Goku_UI/102.gif
+		
+anim	pain5020
+	delay	7
+	offset	13 43
+	frame	data/chars/Goku_UI/262.gif
+		
+anim	run
+	delay	7
+	offset	22 42
+	frame	data/chars/Goku_UI/258.gif
+	offset	22 44
+	frame	data/chars/Goku_UI/259.gif
+		
+anim	turn
+	delay	7
+	offset	22 202
+	frame	data/chars/Goku_UI/5.gif
+		
+anim	walk
+	delay	7
+	offset	20 208
+	frame	data/chars/Goku_UI/8.gif
+	offset	23 201
+	frame	data/chars/Goku_UI/9.gif
+	offset	17 207
+	frame	data/chars/Goku_UI/10.gif
+	offset	21 200
+	frame	data/chars/Goku_UI/11.gif
+		
+#|edited by openBor Stats v 0.67
+		

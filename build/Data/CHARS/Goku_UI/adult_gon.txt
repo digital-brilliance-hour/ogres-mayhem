@@ -1,0 +1,32 @@
+name adult_gon
+health	100
+speed 12
+running	24	4	2	1    1
+type	none
+shadow	3
+
+
+
+
+anim	freespecial6
+	bbox	0 0 0 0
+	delay	7
+	offset	23 201
+	frame	data/chars/Goku_UI/22.gif
+	offset	30 224
+	frame	data/chars/Goku_UI/28.gif
+	offset	45 223
+	frame	data/chars/Goku_UI/29.gif
+	offset	28 222
+	frame	data/chars/Goku_UI/30.gif
+	offset	45 222
+	frame	data/chars/Goku_UI/31.gif
+	offset	49 223
+	frame	data/chars/Goku_UI/32.gif
+	offset	40 221
+	frame	data/chars/Goku_UI/33.gif
+	offset	29 221
+	frame	data/chars/Goku_UI/34.gif
+		
+#|edited by openBor Stats v 0.67
+		
