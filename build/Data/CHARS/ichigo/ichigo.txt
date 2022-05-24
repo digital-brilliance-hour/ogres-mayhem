@@ -39,6 +39,7 @@ makeinv 4
 
 weapons ichigoTransfomation Ichigo
 weaploss 3
+didhitscript data/scripts/didhit/didhit.c
 
 
 

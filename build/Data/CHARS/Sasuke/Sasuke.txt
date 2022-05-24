@@ -20,6 +20,7 @@ parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
+didhitscript data/scripts/didhit/didhit.c
 
 
 
@@ -124,120 +125,6 @@ anim	freespecial
 	delay	30
 	frame	data/chars/Sasuke/katon00.gif
 		
-anim	get
-	loop	0
-	delay	10
-	offset	60 116
-	frame	data/chars/Sasuke/get00.gif
-	frame	data/chars/Sasuke/get01.gif
-	frame	data/chars/Sasuke/get02.gif
-	frame	data/chars/Sasuke/get01.gif
-	frame	data/chars/Sasuke/get00.gif
-		
-anim	idle
-	loop	1
-	delay	15
-	offset	60 116
-	bbox	41 64 34 52
-	frame	data/chars/Sasuke/idle00.gif
-	frame	data/chars/Sasuke/idle01.gif
-	frame	data/chars/Sasuke/idle02.gif
-	frame	data/chars/Sasuke/idle03.gif
-	frame	data/chars/Sasuke/idle04.gif
-	frame	data/chars/Sasuke/idle03.gif
-	frame	data/chars/Sasuke/idle02.gif
-	frame	data/chars/Sasuke/idle01.gif
-		
-anim	jump
-	loop	0
-	offset	60 116
-	delay	20
-	bbox	49 68 26 29
-	@cmd	spawnparent "pdust" -10 0 -20
-	frame	data/chars/Sasuke/jump00.gif
-	frame	data/chars/Sasuke/jump01.gif
-		
-anim	jumpattack
-	loop	0
-	offset	60 116
-	delay	10
-	bbox	49 68 26 29
-	sound	data/chars/Sasuke/ha2.wav
-	frame	data/chars/Sasuke/jatk00.gif
-	attack	40 80 48 26 14 1
-	frame	data/chars/Sasuke/jatk01.gif
-	frame	data/chars/Sasuke/jatk02.gif
-		
-anim	jumpattack2
-	loop	0
-	offset	60 116
-	delay	10
-	bbox	49 68 26 29
-	sound	data/chars/Sasuke/ha2.wav
-	frame	data/chars/Sasuke/jatk00.gif
-	attack	52 63 29 53 14 1
-	frame	data/chars/Sasuke/jatk01.gif
-	frame	data/chars/Sasuke/jatk02.gif
-		
-anim	land
-	loop	0
-	delay	10
-	offset	60 116
-	frame	data/chars/Sasuke/get02.gif
-		
-anim	pain
-	loop	0
-	offset	60 116
-	delay	30
-	bbox	41 64 34 52
-	sound	data/chars/Sasuke/ugh.wav
-	frame	data/chars/Sasuke/pain.gif
-		
-anim	rise
-	loop	0
-	offset	60 116
-	delay	10
-	frame	data/chars/Sasuke/get01.gif
-	frame	data/chars/Sasuke/rise.gif
-		
-anim	run
-	loop	1
-	delay	7
-	offset	60 116
-	bbox	41 64 34 52
-	frame	data/chars/Sasuke/run00.gif
-	frame	data/chars/Sasuke/run01.gif
-	sound	data/sounds/walk.wav
-	frame	data/chars/Sasuke/run02.gif
-	frame	data/chars/Sasuke/run03.gif
-	frame	data/chars/Sasuke/run04.gif
-	sound	data/sounds/walk.wav
-	frame	data/chars/Sasuke/run05.gif
-		
-anim	runattack
-	loop	0
-	delay	2
-	offset	60 116
-	bbox	41 64 34 52
-	move	3
-	frame	data/chars/Sasuke/rush00.gif
-	frame	data/chars/Sasuke/rush00.gif
-	frame	data/chars/Sasuke/rush00.gif
-	@cmd	spawnparent "pdust" -10 0 -20
-	frame	data/chars/Sasuke/rush01.gif
-	frame	data/chars/Sasuke/rush01.gif
-	frame	data/chars/Sasuke/rush01.gif
-	blast	55 89 33 7 14 1
-	frame	data/chars/Sasuke/rush02.gif
-	frame	data/chars/Sasuke/rush02.gif
-	frame	data/chars/Sasuke/rush02.gif
-	blast	0
-	move	0
-	delay	30
-	frame	data/chars/Sasuke/rush02.gif
-	delay	7
-	frame	data/chars/Sasuke/rush03.gif
-		
 anim	freespecial3
 	@cmd	isavailable 4
 	mpcost	0
@@ -299,6 +186,133 @@ anim	freespecial3
 	blast	0
 	delay	30
 	frame	data/chars/Sasuke/chdri23.gif
+		
+anim	get
+	loop	0
+	delay	10
+	offset	60 116
+	frame	data/chars/Sasuke/get00.gif
+	frame	data/chars/Sasuke/get01.gif
+	frame	data/chars/Sasuke/get02.gif
+	frame	data/chars/Sasuke/get01.gif
+	frame	data/chars/Sasuke/get00.gif
+		
+anim	idle
+	loop	1
+	delay	15
+	offset	60 116
+	bbox	41 64 34 52
+	frame	data/chars/Sasuke/idle00.gif
+	frame	data/chars/Sasuke/idle01.gif
+	frame	data/chars/Sasuke/idle02.gif
+	frame	data/chars/Sasuke/idle03.gif
+	frame	data/chars/Sasuke/idle04.gif
+	frame	data/chars/Sasuke/idle03.gif
+	frame	data/chars/Sasuke/idle02.gif
+	frame	data/chars/Sasuke/idle01.gif
+		
+anim	jump
+	loop	0
+	offset	60 116
+	delay	20
+	bbox	49 68 26 29
+	@cmd	spawnparent "pdust" -10 0 -20
+	frame	data/chars/Sasuke/jump00.gif
+	frame	data/chars/Sasuke/jump01.gif
+		
+anim	jumpattack
+	loop	0
+	offset	60 116
+	delay	10
+	bbox	49 68 26 29
+	sound	data/chars/Sasuke/ha2.wav
+	frame	data/chars/Sasuke/jatk00.gif
+	attack	40 80 48 26 14 1
+	frame	data/chars/Sasuke/jatk01.gif
+	frame	data/chars/Sasuke/jatk02.gif
+		
+anim	jumpattack2
+	loop	0
+	offset	60 116
+	delay	10
+	bbox	49 68 26 29
+	sound	data/chars/Sasuke/ha2.wav
+	frame	data/chars/Sasuke/jatk00.gif
+	attack	52 63 29 53 14 1
+	frame	data/chars/Sasuke/jatk01.gif
+	frame	data/chars/Sasuke/jatk02.gif
+		
+anim	land
+	loop	0
+	delay	10
+	offset	60 116
+	frame	data/chars/Sasuke/get02.gif
+		
+anim	freespecial4
+	delay	7
+	offset	17 32
+	frame	data/chars/sasuke/417.gif
+	offset	17 32
+	frame	data/chars/sasuke/418.gif
+	offset	17 32
+	frame	data/chars/sasuke/419.gif
+	offset	17 32
+	frame	data/chars/sasuke/420.gif
+	offset	17 32
+	frame	data/chars/sasuke/421.gif
+		
+anim	pain
+	loop	0
+	offset	60 116
+	delay	30
+	bbox	41 64 34 52
+	sound	data/chars/Sasuke/ugh.wav
+	frame	data/chars/Sasuke/pain.gif
+		
+anim	rise
+	loop	0
+	offset	60 116
+	delay	10
+	frame	data/chars/Sasuke/get01.gif
+	frame	data/chars/Sasuke/rise.gif
+		
+anim	run
+	loop	1
+	delay	7
+	offset	60 116
+	bbox	41 64 34 52
+	frame	data/chars/Sasuke/run00.gif
+	frame	data/chars/Sasuke/run01.gif
+	sound	data/sounds/walk.wav
+	frame	data/chars/Sasuke/run02.gif
+	frame	data/chars/Sasuke/run03.gif
+	frame	data/chars/Sasuke/run04.gif
+	sound	data/sounds/walk.wav
+	frame	data/chars/Sasuke/run05.gif
+		
+anim	runattack
+	loop	0
+	delay	2
+	offset	60 116
+	bbox	41 64 34 52
+	move	3
+	frame	data/chars/Sasuke/rush00.gif
+	frame	data/chars/Sasuke/rush00.gif
+	frame	data/chars/Sasuke/rush00.gif
+	@cmd	spawnparent "pdust" -10 0 -20
+	frame	data/chars/Sasuke/rush01.gif
+	frame	data/chars/Sasuke/rush01.gif
+	frame	data/chars/Sasuke/rush01.gif
+	blast	55 89 33 7 14 1
+	frame	data/chars/Sasuke/rush02.gif
+	frame	data/chars/Sasuke/rush02.gif
+	frame	data/chars/Sasuke/rush02.gif
+	blast	0
+	move	0
+	delay	30
+	frame	data/chars/Sasuke/rush02.gif
+	delay	7
+	frame	data/chars/Sasuke/rush03.gif
 		
 anim	walk
 	loop	1

@@ -16,6 +16,7 @@ com      a4 freespecial3
 load break
 animationscript data/scripts/spawns.c
 script data/scripts/playerscript.c
+didhitscript data/scripts/didhit/didhit.c
 
 parrow data/chars/misc/picon/1picon.gif -18 -100
 parrow2 data/chars/misc/picon/2picon.gif -18 -100

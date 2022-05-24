@@ -301,6 +301,7 @@ Load Levelup data/chars/Misc/levelup/levelup.txt
 #know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
 load Sonic data/chars/Sonic/Sonic.txt
 know SonicOLD data/chars/Sonic/Sonicold.txt
+know SuperSonic data/chars/Sonic/SuperSonic.txt
 load ichigoTransfomation data/chars/Ichigo_Bankai/Ichigo_Bankai.txt
 know ichigoTransfomationOLD data/chars/Ichigo_Bankai/Ichigo_Bankai-old.txt
 #know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
@@ -339,3 +340,6 @@ know blackScreen data/chars/misc/blackscreen.txt
 Load blankP Data/Chars/blankP/blankP.txt
 know adult_gon data/chars/Goku_UI/adult_gon.txt
 know adult_gon-OLD data/chars/Goku_UI/adult_gon-OLD.txt
+know sasukeTransform data/chars/cssasuke/cssasuke.txt
+know sasukeTransformOLD data/chars/cssasuke/cssasuke-old.txt
+know KenpachiTransform data/chars/Kenpachi/kenpachitransform.txt

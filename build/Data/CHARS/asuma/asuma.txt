@@ -19,6 +19,8 @@ knife kunai_npc
 load dkunai_npc
 star dkunai_npc
 
+didhitscript data/scripts/didhit/didhit.c
+
 
 
 anim	attack1

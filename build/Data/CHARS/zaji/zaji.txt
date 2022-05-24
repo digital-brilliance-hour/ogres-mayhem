@@ -15,6 +15,7 @@ load          shuri_npc
 knife         kunai_npc
 star          shuri_npc
 icon	data/chars/zaji/icon.png
+didhitscript data/scripts/didhit/didhit.c
 
 anim	attack1
 	range	0 50

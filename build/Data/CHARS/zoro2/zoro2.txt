@@ -21,6 +21,7 @@ load break
 weaploss 3
 
 
+
 anim	attack1
 	loop	0
 	delay	4
@@ -30,11 +31,11 @@ anim	attack1
 	frame	data/chars/Zoro2/punch01.gif
 	frame	data/chars/Zoro2/punch02.gif
 	frame	data/chars/Zoro2/punch03.gif
-	attack	34 55 71 2 10
+	attack	34 55 71 2 10 0 0 0 20 0
 	frame	data/chars/Zoro2/punch04.gif
-	attack	29 46 77 16 10
+	attack	29 46 77 16 10 0 0 0 20 0
 	frame	data/chars/Zoro2/punch05.gif
-	attack	27 43 77 27 10
+	attack	27 43 77 27 10 0 0 0 20 0
 	frame	data/chars/Zoro2/punch06.gif
 	frame	data/chars/Zoro2/punch07.gif
 		
@@ -50,11 +51,11 @@ anim	attack2
 	frame	data/chars/Zoro2/oni04.gif
 	frame	data/chars/Zoro2/oni05.gif
 	frame	data/chars/Zoro2/oni06.gif
-	blast	29 28 75 52 50
+	blast	29 28 75 52 50 0 0 0 20 0
 	frame	data/chars/Zoro2/oni07.gif
-	blast	29 28 75 52 50
+	blast	29 28 75 52 50 0 0 0 20 0
 	frame	data/chars/Zoro2/oni08.gif
-	blast	29 28 75 52 50
+	blast	29 28 75 52 50 0 0 0 20 0
 	frame	data/chars/Zoro2/oni09.gif
 	delay	5
 	frame	data/chars/Zoro2/oni10.gif
@@ -128,54 +129,54 @@ anim	freespecial
 	sound	data/chars/Zoro2/fon.wav
 	delay	5
 	offset	38 77
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi06.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi07.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi08.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi09.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi10.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi11.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi06.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi07.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi08.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi09.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi10.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi11.gif
 	sound	data/chars/Zoro2/fon.wav
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi06.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi07.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi08.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi09.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi10.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi11.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi06.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi07.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi08.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi09.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi10.gif
-	attack	49 23 27 48 30
+	attack	49 23 27 48 30 0 0 0 20 0
 	frame	data/chars/Zoro2/ohgi11.gif
 	frame	data/chars/Zoro2/ohgi12.gif
 	frame	data/chars/Zoro2/ohgi13.gif
