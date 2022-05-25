@@ -1,0 +1,64 @@
+name harpy
+type enemy
+health  100
+shadow 2
+speed   10
+
+
+
+
+anim	attack1
+	range	0 40
+	rangez	0 20
+	offset	18 50
+	delay	10
+	frame	data/chars/harpy/attack1-1.png
+	offset	18 50
+	frame	data/chars/harpy/attack1-2.png
+	delay	4
+	frame	data/chars/harpy/attack1-3.png
+	frame	data/chars/harpy/attack1-4.png
+	frame	data/chars/harpy/attack1-5.png
+		
+anim	fall
+	offset	27 33
+	delay	7
+	frame	data/chars/harpy/pain-1.png
+		
+anim	idle
+	offset	16 39
+	loop	1
+	delay	13
+	frame	data/chars/harpy/idle-1.png
+	delay	9
+	frame	data/chars/harpy/idle-2.png
+	frame	data/chars/harpy/idle-3.png
+	frame	data/chars/harpy/idle-4.png
+	frame	data/chars/harpy/idle-3.png
+	frame	data/chars/harpy/idle-2.png
+	delay	13
+	frame	data/chars/harpy/idle-1.png
+		
+anim	pain
+	offset	12 45
+	delay	8
+	frame	data/chars/harpy/pain-2.png
+		
+anim	rise
+	offset	16 39
+	delay	7
+	frame	data/chars/harpy/idle-1.png
+		
+anim	walk
+	offset	16 39
+	loop	1
+	delay	7
+	frame	data/chars/harpy/idle-1.png
+	frame	data/chars/harpy/idle-2.png
+	frame	data/chars/harpy/idle-3.png
+	frame	data/chars/harpy/idle-4.png
+	frame	data/chars/harpy/idle-3.png
+	frame	data/chars/harpy/idle-2.png
+		
+#|edited by openBor Stats v 0.67
+		

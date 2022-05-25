@@ -255,6 +255,7 @@ know	kurenai_throw	data/chars/misc/kurenai_throw.txt
 know	dsnakes_enemy	data/chars/misc/dsnakes_enemy.txt
 know	scythe_enemy	data/chars/misc/scythe_enemy.txt
 know	dummy			data/chars/dummy/dummy.txt
+Know harpy Data/Chars/harpy/harpy.txt
 
 # Not a real enemy... ;)
 know	Ramon		data/chars/ramon/ramon.txt
