@@ -105,6 +105,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	sound	data/chars/hiei/sword.wav
 	hitflash	flash2
@@ -800,6 +801,7 @@ anim	run
 	offset	72 120
 	frame	data/chars/hiei/run2.gif
 	offset	72 120
+	sound	data/sounds/walk.wav
 	frame	data/chars/hiei/run1.gif
 	offset	72 120
 	frame	data/chars/hiei/run2.gif
@@ -1026,6 +1028,7 @@ anim	walk
 	frame	data/chars/hiei/andar1.gif
 	frame	data/chars/hiei/andar2.gif
 	frame	data/chars/hiei/andar1.gif
+	sound	data/sounds/walk.wav
 		
 #|edited by openBor Stats v 0.67
 		

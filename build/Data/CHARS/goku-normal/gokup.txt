@@ -37,6 +37,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	loop	0
 	delay	5
@@ -432,6 +433,7 @@ anim	run
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Goku-normal/run01.gif
 	frame	data/chars/Goku-normal/run02.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Goku-normal/run03.gif
 	frame	data/chars/Goku-normal/run04.gif
 		

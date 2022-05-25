@@ -51,6 +51,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	fastattack	1
 	delay	7
@@ -377,6 +378,7 @@ anim	run
 	bbox	93 2 -93 67
 	offset	44 69
 	frame	data/chars/Broly_SSB/26.gif
+	sound	data/sounds/walk.wav
 		
 anim	spawn
 	delay	30
@@ -433,6 +435,7 @@ anim	walk
 	sound	data/chars/Broly_SSB/broly_4-3.wav
 	frame	data/chars/Broly_SSB/14.gif
 	bbox	1 95 31 -94
+	sound	data/sounds/walk.wav
 	offset	17 92
 	frame	data/chars/Broly_SSB/15.gif
 	bbox	1 93 38 -92

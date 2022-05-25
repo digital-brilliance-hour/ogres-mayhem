@@ -50,6 +50,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	7
 	offset	30 47
@@ -338,6 +339,7 @@ anim	run
 	offset	26 47
 	frame	data/chars/King_Piccolo/24.gif
 	offset	25 47
+	sound	data/sounds/walk.wav
 	frame	data/chars/King_Piccolo/25.gif
 		
 anim	select
@@ -424,6 +426,7 @@ anim	walk
 	offset	28 37
 	frame	data/chars/King_Piccolo/18.gif
 	offset	28 37
+	sound	data/sounds/walk.wav
 	frame	data/chars/King_Piccolo/19.gif
 		
 #|edited by openBor Stats v 0.67

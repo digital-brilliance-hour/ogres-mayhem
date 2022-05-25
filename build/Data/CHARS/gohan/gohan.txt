@@ -28,6 +28,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	loop	0
 	shadowcoords	18 77
@@ -319,6 +320,7 @@ anim	walk
 	frame	data/chars/Gohan/walk00.gif
 	frame	data/chars/Gohan/walk01.gif
 	frame	data/chars/Gohan/walk02.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Gohan/walk03.gif
 	frame	data/chars/Gohan/walk04.gif
 	frame	data/chars/Gohan/walk05.gif
