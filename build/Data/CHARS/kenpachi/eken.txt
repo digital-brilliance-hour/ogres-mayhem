@@ -23,6 +23,7 @@ palette none
 
 
 
+
 anim	attack1
 	loop	0
 	delay	3
@@ -59,6 +60,7 @@ anim	attack3
 	frame	data/chars/Kenpachi/27.gif
 	offset	32 97
 	frame	data/chars/Kenpachi/28.gif
+	attack	34 10 36 52 15 1 1 0 0 0
 	offset	33 57
 	frame	data/chars/Kenpachi/29.gif
 	offset	39 47
