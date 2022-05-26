@@ -235,16 +235,16 @@ void oncreate(){
   void Stage1, Stage2, Stage3, Stage4, Stage5; 
   void Stage6, Stage7, Stage8, Stage9, Stage10;
 
-  Stage1 = loadsprite("sprites/stages/stage1.png");
-  Stage2 = loadsprite("sprites/stages/stage2.png");
-  Stage3 = loadsprite("sprites/stages/stage3.png");
-  Stage4 = loadsprite("sprites/stages/stage4.png");
-  Stage5 = loadsprite("sprites/stages/stage5.png");
-  Stage6 = loadsprite("sprites/stages/stage6.png");
-  Stage7 = loadsprite("sprites/stages/stage7.png");
-  Stage8 = loadsprite("sprites/stages/stage8.png");
-  Stage9 = loadsprite("sprites/stages/stage9.png");
-  Stage10 = loadsprite("sprites/stages/stage10.png");
+  Stage1 = loadsprite("sprites/stages/stage1.gif");
+  Stage2 = loadsprite("sprites/stages/stage2.gif");
+  Stage3 = loadsprite("sprites/stages/stage3.gif");
+  Stage4 = loadsprite("sprites/stages/stage4.gif");
+  Stage5 = loadsprite("sprites/stages/stage5.gif");
+  Stage6 = loadsprite("sprites/stages/stage6.gif");
+  Stage7 = loadsprite("sprites/stages/stage7.gif");
+  Stage8 = loadsprite("sprites/stages/stage8.gif");
+  Stage9 = loadsprite("sprites/stages/stage9.gif");
+  Stage10 = loadsprite("sprites/stages/stage10.gif");
 
   setglobalvar("Stage1", Stage1);
   setglobalvar("Stage2", Stage2);
