@@ -29,6 +29,7 @@ hostile npc player
 
 
 
+
 anim	attack1
 	range	0 25
 	offset	12 34
@@ -141,6 +142,7 @@ anim	follow1
 	loop	1 1
 	counterrange	0 8 1 1
 	followanim	2
+	sound	data/chars/soldier/gen_08.wav
 	frame	data/chars/misc/empty.gif
 	@cmd	changeentityproperty getlocalvar("self") "subject_to_screen" 0
 	@cmd	changeentityproperty getlocalvar("self") "offscreenkill" 200
