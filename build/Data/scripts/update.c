@@ -233,16 +233,48 @@ void main()
 
 void oncreate(){
     void mTitle;
+    void black;
+    void AButton, DButton, JButton, SButton, PButton;
 
     mTitle = loadsprite("data/sprites/movelist/movelist-title.gif");
+    black = loadsprite("data/bgs/black.gif");
+    AButton = loadsprite("data/sprites/movelist/a-letter.gif");
+    DButton = loadsprite("data/sprites/movelist/d-letter.gif");
+    JButton = loadsprite("data/sprites/movelist/j-letter.gif");
+    SButton = loadsprite("data/sprites/movelist/s-letter.gif");
+    PButton = loadsprite("data/sprites/movelist/p-letter.gif");
 
     setglobalvar("mTitle", mTitle); 
+    setglobalvar("black_screen", black);
+    setglobalvar("attack-button", AButton);
+    setglobalvar("dash-button", DButton);
+    setglobalvar("jump-button", JButton);
+    setglobalvar("special-button", SButton);
+    setglobalvar("power-button", PButton);
 }
 
 void ondestroy(){
-  void mTitle = getglobalvar("mTitle");    
+  void mTitle = getglobalvar("mTitle"); 
+  void black = getglobalvar("black_screen");  
+  void AButton = getglobalvar("attack-button"); 
+  void DButton = getglobalvar("dash-button"); 
+  void JButton = getglobalvar("jump-button"); 
+  void SButton = getglobalvar("special-button"); 
+  void PButton = getglobalvar("power-button"); 
   free(mTitle);   
-  setglobalvar("mTitle", NULL());  
+  free(black);
+  free(AButton);
+  free(DButton);
+  free(JButton);
+  free(SButton);
+  free(PButton);
+  setglobalvar("mTitle", NULL()); 
+  setglobalvar("black_screen", NULL()); 
+    setglobalvar("attack-button", NULL());
+    setglobalvar("dash-button", NULL());
+    setglobalvar("jump-button", NULL());
+    setglobalvar("special-button", NULL());
+    setglobalvar("power-button", NULL());
 }
 
 void fileskim(char Line, void Path)

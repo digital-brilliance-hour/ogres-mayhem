@@ -109,6 +109,9 @@ void inLevelLoop()
 	turnWhite();
 	storySystem();
   showMoves();
+  //log(openborvariant("viewportx"));
+  //log(openborvariant("xpos"));
+  //("\n");
 }
 
 void oncreate()
@@ -124,9 +127,63 @@ void showMoves() {
     int showM = getglobalvar("showM");
     if(showM) {
       void mTitle = getglobalvar("mTitle");
-
+      void black = getglobalvar("black_screen"); 
+      void AButton = getglobalvar("attack-button"); 
+      void DButton = getglobalvar("dash-button"); 
+      void JButton = getglobalvar("jump-button"); 
+      void SButton = getglobalvar("special-button"); 
+      void PButton = getglobalvar("power-button"); 
+      //log(openborconstant("FLAG_ATTACK"));
+      //SDL_GetKeyName(openborconstant("FLAG_ATTACK"));
       //mTitle = loadsprite("data/sprites/movelist/movelist-title.png");
-       drawsprite(mTitle, 0, 0, 9999999);
+      //Start of drawmethod enablement
+      changedrawmethod(NULL(), "enabled", 1);
+      changedrawmethod(NULL(), "flag", 1);
+
+      //Title
+      changedrawmethod(NULL(), "reset", 1);
+      changedrawmethod(NULL(), "centerx", 108);
+      changedrawmethod(NULL(), "centery", 12);
+      drawsprite(mTitle, 240, 30, 99999999999999);
+      
+      //Buttons
+      changedrawmethod(NULL(), "reset", 1);
+      changedrawmethod(NULL(), "centerx", 8);
+      changedrawmethod(NULL(), "centery", 8);
+      drawsprite(AButton, 109, 60, 99999999999999); 
+      drawsprite(DButton, 177, 60, 99999999999999);
+      drawsprite(JButton, 229, 60, 99999999999999);
+      drawsprite(SButton, 281, 60, 99999999999999);
+      drawsprite(PButton, 351, 60, 99999999999999);
+
+      //Buttons for Moves
+
+      drawsprite(AButton, 132, 103, 99999999999999); 
+      drawsprite(AButton, 412, 103, 99999999999999);
+
+      //Fonts
+      changedrawmethod(NULL(), "reset", 1);
+      settextobj(11, 117, 57, 0, 99999999999999,  ": Attack");
+      settextobj(21, 186, 57, 0, 99999999999999,  ": Dash");
+      settextobj(31, 239, 57, 0, 99999999999999,  ": Jump");
+      settextobj(41, 291, 57, 0, 99999999999999,  ": Special");
+      settextobj(51, 361, 57, 0, 99999999999999,  ": Power");
+      settextobj(61, 40, 85, 1, 99999999999999,  "Attack Combo");
+      settextobj(71, 40, 100, 2, 99999999999999,  "Repeatedly Press");
+      settextobj(81, 180, 85, 1, 99999999999999,  "Dash");
+      settextobj(91, 180, 100, 2, 99999999999999,  "Parry or Dash through attacks");
+      settextobj(101, 370, 85, 1, 99999999999999,  "Jump Attack");
+      settextobj(111, 370, 100, 2, 99999999999999,  "Jump + ");
+
+      //Black Overlay
+      changedrawmethod(NULL(), "reset", 1);
+      changedrawmethod(NULL(), "alpha", 6);
+      //changedrawmethod(NULL(), "channelr", 0.5);
+      //changedrawmethod(NULL(), "channelg", 0.5);
+      //changedrawmethod(NULL(), "channelb", 0.5);
+      drawsprite(black, 0, 0, 99999999999998);
+      //changedrawmethod(NULL(), "enabled", 1);
+      //changedrawmethod(NULL(), "flag", 1);
     }
 }
 
