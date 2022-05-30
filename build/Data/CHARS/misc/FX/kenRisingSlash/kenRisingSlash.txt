@@ -1,0 +1,92 @@
+name  kenRisingSlash
+type none
+shadow 0
+alpha 1
+setlayer 100
+candamage player npc enemy
+load   kenHit
+
+didhitscript data/scripts/didhit/fx.c
+
+
+
+anim	idle
+	delay	3
+	fastattack	1
+	hitflash	kenHit
+	drawmethod	scale 0.60
+	attack	96 26 112 149 10 0 1 0 50 100
+	offset	133 -23
+	frame	data/chars/Kenpachi/290.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	133 3
+	frame	data/chars/Kenpachi/291.gif
+	attack	96 26 112 149 10 0 0 1 50 100
+	offset	133 28
+	frame	data/chars/Kenpachi/292.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	133 77
+	frame	data/chars/Kenpachi/293.gif
+	attack	96 26 112 149 10 0 1 0 50 100
+	offset	133 101
+	frame	data/chars/Kenpachi/294.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	132 123
+	frame	data/chars/Kenpachi/295.gif
+	attack	96 62 112 149 10 0 0 1 50 100
+	offset	132 145
+	frame	data/chars/Kenpachi/296.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	132 166
+	frame	data/chars/Kenpachi/297.gif
+	attack	96 77 112 149 10 0 1 0 50 100
+	offset	132 187
+	frame	data/chars/Kenpachi/298.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	131 210
+	frame	data/chars/Kenpachi/299.gif
+	attack	96 98 112 149 10 0 0 1 50 100
+	offset	130 210
+	frame	data/chars/Kenpachi/300.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	127 209
+	frame	data/chars/Kenpachi/301.gif
+	attack	96 114 112 149 10 0 1 0 50 100
+	offset	110 209
+	frame	data/chars/Kenpachi/302.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	81 209
+	frame	data/chars/Kenpachi/303.gif
+	attack	67 96 112 149 10 0 0 1 50 100
+	offset	80 209
+	frame	data/chars/Kenpachi/304.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	80 209
+	frame	data/chars/Kenpachi/305.gif
+	attack	63 90 112 149 10 0 1 0 50 100
+	offset	79 208
+	frame	data/chars/Kenpachi/306.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	79 208
+	frame	data/chars/Kenpachi/307.gif
+	attack	67 93 112 149 10 1 0 1 50 100
+	offset	78 208
+	frame	data/chars/Kenpachi/308.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	77 208
+	frame	data/chars/Kenpachi/309.gif
+	attack	61 102 112 149 10 1 1 0 50 100
+	offset	76 207
+	frame	data/chars/Kenpachi/310.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	73 207
+	frame	data/chars/Kenpachi/311.gif
+	attack	56 85 112 149 10 1 0 1 50 100
+	offset	69 206
+	frame	data/chars/Kenpachi/312.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

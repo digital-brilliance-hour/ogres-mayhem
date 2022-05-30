@@ -1,0 +1,28 @@
+name  kenBankaiSlam
+type none
+shadow 0
+alpha 1
+setlayer 100
+
+
+
+anim	idle
+	delay	1	0
+	drawmethod	scale 0.70
+	offset	190 148
+	frame	data/chars/Kenpachi/1010.gif
+	delay	6
+	offset	213 238
+	frame	data/chars/Kenpachi/1011.gif
+	offset	216 206
+	frame	data/chars/Kenpachi/1012.gif
+	offset	217 109
+	frame	data/chars/Kenpachi/1013.gif
+	offset	203 52
+	frame	data/chars/Kenpachi/1014.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		
