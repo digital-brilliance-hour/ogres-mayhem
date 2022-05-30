@@ -1,0 +1,50 @@
+name	pChidori
+speed   15
+type 	none
+shadow	0
+setlayer 1000
+alpha 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	10004
+	delay	17
+	offset	7 9
+	frame	data/chars/cssasuke/139.gif
+	offset	12 14
+	frame	data/chars/cssasuke/140.gif
+	offset	15 14
+	frame	data/chars/cssasuke/141.gif
+	offset	22 28
+	frame	data/chars/cssasuke/142.gif
+	offset	24 36
+	frame	data/chars/cssasuke/143.gif
+	offset	24 37
+	frame	data/chars/cssasuke/144.gif
+	offset	25 47
+	frame	data/chars/cssasuke/145.gif
+	offset	30 58
+	frame	data/chars/cssasuke/146.gif
+	attack	13 8 52 40 100 0 1 0 0 0
+	offset	34 42
+	frame	data/chars/cssasuke/147.gif
+	offset	42 62
+	frame	data/chars/cssasuke/148.gif
+		
+#|edited by openBor Stats v 0.67
+		

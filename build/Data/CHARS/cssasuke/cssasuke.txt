@@ -5,6 +5,10 @@ running 28 4 2 1 1
 type none 
 shadow	3
 
+load  pChidori
+load  skunai
+load  fireballJutsu
+
 atchain 1 1 3 2 4
 
 anim	attack1
@@ -163,10 +167,6 @@ anim	freespecial5
 	frame	data/chars/cssasuke/127.gif
 	offset	19 40
 	frame	data/chars/cssasuke/128.gif
-	offset	21 40
-	frame	data/chars/cssasuke/129.gif
-	offset	21 37
-	frame	data/chars/cssasuke/130.gif
 	offset	22 34
 	frame	data/chars/cssasuke/131.gif
 	offset	22 35
@@ -177,10 +177,16 @@ anim	freespecial5
 	frame	data/chars/cssasuke/134.gif
 	offset	23 39
 	frame	data/chars/cssasuke/135.gif
+	offset	4 38
+	frame	data/chars/cssasuke/56.gif
+	offset	0 38
+	frame	data/chars/cssasuke/57.gif
 	offset	23 39
 	frame	data/chars/cssasuke/136.gif
 	offset	24 37
 	frame	data/chars/cssasuke/137.gif
+	offset	-3 37
+	frame	data/chars/cssasuke/58.gif
 		
 anim	get
 	delay	7

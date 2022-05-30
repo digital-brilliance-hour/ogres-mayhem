@@ -343,6 +343,10 @@ know adult_gon data/chars/Goku_UI/adult_gon.txt
 know adult_gon-OLD data/chars/Goku_UI/adult_gon-OLD.txt
 know sasukeTransform data/chars/cssasuke/cssasuke.txt
 know sasukeTransformOLD data/chars/cssasuke/cssasuke-old.txt
+know KenpachiTransform data/chars/Kenpachi/kenpachitransform.txt
+know fireballJutsu data/chars/cssasuke/fireball.txt
+know skunai data/chars/cssasuke/kunai.txt
+know pChidori data/chars/cssasuke/chidori.txt
 load KenpachiTransform data/chars/Kenpachi/kenpachitransform.txt
 know KenpachiTransformOLD data/chars/Kenpachi/kenpachitransformold.txt
 know KenpachiOLD data/chars/Kenpachi/kenpachiold.txt
