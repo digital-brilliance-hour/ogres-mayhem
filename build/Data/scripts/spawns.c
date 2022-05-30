@@ -95,8 +95,10 @@ void damage_all_enemies(int damage, int drop, int stay, void atk_type)
         Def = getentityproperty(vEntity, "defense", openborconstant("ATK_NORMAL50"));
 		if(getentityproperty(vEntity, "type")==openborconstant("TYPE_enemy"))
 		{		
-		damageentity(vEntity,self,damage,drop,openborconstant(atk_type));
-		changeentityproperty(vEntity, "staydown", "riseattack", stay);	
+			if(vEntity != self) {
+				damageentity(vEntity,self,damage,drop,openborconstant(atk_type));
+				changeentityproperty(vEntity, "staydown", "riseattack", stay);
+			}	
 		}
 	}	
 }
@@ -114,7 +116,7 @@ void damage_all_players(int damage, int drop, int stay, void atk_type)
     {       
         p = getplayerproperty(iEntity, "entity");
         if(p){
-	        if("Travel"!=getentityproperty(p, "model")) {	
+	        if(p != self) {	
 				damageentity(p,self,damage,drop,openborconstant(atk_type));
 				changeentityproperty(p, "staydown", "riseattack", stay);	
 	        }

@@ -36,4 +36,53 @@ void main()
       }
    }*/
 
+   void self = getlocalvar("self");
+   int mp    = getentityproperty(self, "mp"); //Get entity's MP
+   int maxmp   = getentityproperty(self, "maxmp"); //Get entity's Max MP
+   if(openborvariant("in_level")) {
+      if(mp >= maxmp && getlocalvar("showing_count") != 1) {
+         setlocalvar("mp_full", 1);
+         setlocalvar("showing_count", 1);
+      }
+      else {
+         setlocalvar("showing_count", 0);
+      }
+   }
+
+   //update functions
+   //showMPFull();
+
 }
+
+void oncreate() {
+   setlocalvar("mp_full", 0);
+   setlocalvar("showing_count", 0);
+}
+
+/*void showMPFull() {
+   void self = getlocalvar("self");
+   int mp    = getentityproperty(self, "mp"); //Get entity's MP
+   int maxmp   = getentityproperty(self, "maxmp"); //Get entity's Max MP
+   int mpFull = getlocalvar("mp_full");
+   int col = 0;
+   int vtime = openborvariant("elapsed_time");
+   while (mpFull) {
+
+      changedrawmethod(self, "enabled", 3);
+      //changedrawmethod(self, "alpha", 2);
+      changedrawmethod(self, "tintmode", 4);
+      changedrawmethod(self, "tintcolor", rgbcolor (col, col, col));
+      col+=10;
+      if(col > 240) {
+         vtime = openborvariant("elapsed_time");
+         mpFull = 0;
+         setlocalvar("m_full", 0);
+      }
+   }
+
+   if (vtime <= vtime + 6000){ 
+      changedrawmethod(self, "tintmode",0);
+      changedrawmethod(self, "tintcolor", 0);
+   }
+
+}*/

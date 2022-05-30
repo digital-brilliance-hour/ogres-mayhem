@@ -231,7 +231,64 @@ void main()
   afterImg();
 }
 
+void oncreate(){
+  void Stage1, Stage2, Stage3, Stage4, Stage5; 
+  void Stage6, Stage7, Stage8, Stage9, Stage10;
+
+  Stage1 = loadsprite("sprites/stages/stage1.gif");
+  Stage2 = loadsprite("sprites/stages/stage2.gif");
+  Stage3 = loadsprite("sprites/stages/stage3.gif");
+  Stage4 = loadsprite("sprites/stages/stage4.gif");
+  Stage5 = loadsprite("sprites/stages/stage5.gif");
+  Stage6 = loadsprite("sprites/stages/stage6.gif");
+  Stage7 = loadsprite("sprites/stages/stage7.gif");
+  Stage8 = loadsprite("sprites/stages/stage8.gif");
+  Stage9 = loadsprite("sprites/stages/stage9.gif");
+  Stage10 = loadsprite("sprites/stages/stage10.gif");
+
+  setglobalvar("Stage1", Stage1);
+  setglobalvar("Stage2", Stage2);
+  setglobalvar("Stage3", Stage3);
+  setglobalvar("Stage4", Stage4);
+  setglobalvar("Stage5", Stage5);
+  setglobalvar("Stage6", Stage6);
+  setglobalvar("Stage7", Stage7);
+  setglobalvar("Stage8", Stage8);
+  setglobalvar("Stage9", Stage9);
+  setglobalvar("Stage10", Stage10);
+}
+
 void ondestroy(){
+  void Stage1 = getglobalvar("Stage1");    
+  void Stage2 = getglobalvar("Stage2"); 
+  void Stage3 = getglobalvar("Stage3");    
+  void Stage4 = getglobalvar("Stage4");
+  void Stage5 = getglobalvar("Stage5");    
+  void Stage6 = getglobalvar("Stage6");
+  void Stage7 = getglobalvar("Stage7");    
+  void Stage8 = getglobalvar("Stage8");
+  void Stage9 = getglobalvar("Stage9");    
+  void Stage10 = getglobalvar("Stage10");   
+  free(Stage1);    
+  free(Stage2);   
+  free(Stage3);    
+  free(Stage4);   
+  free(Stage5);    
+  free(Stage6);   
+  free(Stage7);    
+  free(Stage8);   
+  free(Stage9);    
+  free(Stage10); 
+  setglobalvar("Stage1", NULL());
+  setglobalvar("Stage2", NULL());
+  setglobalvar("Stage3", NULL());
+  setglobalvar("Stage4", NULL());
+  setglobalvar("Stage5", NULL());
+  setglobalvar("Stage6", NULL());
+  setglobalvar("Stage7", NULL());
+  setglobalvar("Stage8", NULL());
+  setglobalvar("Stage9", NULL());
+  setglobalvar("Stage10", NULL());
 }
 
 void fileskim(char Line, void Path)

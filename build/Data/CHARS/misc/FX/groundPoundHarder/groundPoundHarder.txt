@@ -1,0 +1,99 @@
+name  groundPoundHarder
+type none
+shadow 0
+alpha 1
+speed 0
+health 1
+
+
+
+
+anim	idle
+	delay	2
+	drawmethod	scale 0.50
+	offset	339 504
+	frame	data/chars/Kenpachi/969.gif
+	offset	363 531
+	frame	data/chars/Kenpachi/970.gif
+	offset	374 479
+	frame	data/chars/Kenpachi/971.gif
+	offset	384 504
+	frame	data/chars/Kenpachi/972.gif
+	offset	323 527
+	frame	data/chars/Kenpachi/973.gif
+	offset	346 544
+	frame	data/chars/Kenpachi/974.gif
+	offset	357 516
+	frame	data/chars/Kenpachi/975.gif
+	offset	378 528
+	frame	data/chars/Kenpachi/976.gif
+	offset	384 537
+	frame	data/chars/Kenpachi/977.gif
+	offset	396 545
+	frame	data/chars/Kenpachi/978.gif
+	offset	402 503
+	frame	data/chars/Kenpachi/979.gif
+	offset	420 525
+	frame	data/chars/Kenpachi/980.gif
+	offset	421 540
+	frame	data/chars/Kenpachi/981.gif
+	offset	427 541
+	frame	data/chars/Kenpachi/982.gif
+	offset	436 515
+	frame	data/chars/Kenpachi/983.gif
+	offset	443 520
+	frame	data/chars/Kenpachi/984.gif
+	offset	446 508
+	frame	data/chars/Kenpachi/985.gif
+	offset	446 519
+	frame	data/chars/Kenpachi/986.gif
+	offset	452 531
+	frame	data/chars/Kenpachi/987.gif
+	offset	460 540
+	frame	data/chars/Kenpachi/988.gif
+	offset	461 527
+	frame	data/chars/Kenpachi/989.gif
+	offset	463 537
+	frame	data/chars/Kenpachi/990.gif
+	offset	464 545
+	frame	data/chars/Kenpachi/991.gif
+	offset	465 527
+	frame	data/chars/Kenpachi/992.gif
+	offset	466 538
+	frame	data/chars/Kenpachi/993.gif
+	offset	466 549
+	frame	data/chars/Kenpachi/994.gif
+	offset	463 558
+	frame	data/chars/Kenpachi/995.gif
+	offset	450 534
+	frame	data/chars/Kenpachi/996.gif
+	offset	452 531
+	frame	data/chars/Kenpachi/997.gif
+	offset	452 528
+	frame	data/chars/Kenpachi/998.gif
+	offset	450 527
+	frame	data/chars/Kenpachi/999.gif
+	offset	453 529
+	frame	data/chars/Kenpachi/1000.gif
+	offset	438 528
+	frame	data/chars/Kenpachi/1001.gif
+	offset	396 523
+	frame	data/chars/Kenpachi/1002.gif
+	offset	397 528
+	frame	data/chars/Kenpachi/1003.gif
+	offset	398 527
+	frame	data/chars/Kenpachi/1004.gif
+	offset	396 527
+	frame	data/chars/Kenpachi/1005.gif
+	offset	376 525
+	frame	data/chars/Kenpachi/1006.gif
+	offset	331 522
+	frame	data/chars/Kenpachi/1007.gif
+	offset	331 490
+	frame	data/chars/Kenpachi/1008.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

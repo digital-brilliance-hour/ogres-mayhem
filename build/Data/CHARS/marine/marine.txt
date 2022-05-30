@@ -18,8 +18,10 @@ animationscript data/scripts/spawns.c
 
 
 
+
 anim	attack1
 	loop	0
+	range	0 30
 	delay	10
 	bbox	39 34 23 37
 	offset	43 77

@@ -15,6 +15,7 @@ jumpheight 5
 icon	data/chars/yugao/43.png
 didhitscript data/scripts/didhit/didhit.c
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -201,6 +202,7 @@ anim	run
 	frame	data/chars/yugao/28.png
 	frame	data/chars/yugao/30.png
 	offset	19 51
+	sound	data/sounds/walk.wav
 	frame	data/chars/yugao/33.png
 	frame	data/chars/yugao/29.png
 	frame	data/chars/yugao/31.png
@@ -362,6 +364,7 @@ anim	walk
 	frame	data/chars/yugao/28.png
 	frame	data/chars/yugao/30.png
 	offset	19 51
+	sound	data/sounds/walk.wav
 	frame	data/chars/yugao/33.png
 	frame	data/chars/yugao/29.png
 	frame	data/chars/yugao/31.png
