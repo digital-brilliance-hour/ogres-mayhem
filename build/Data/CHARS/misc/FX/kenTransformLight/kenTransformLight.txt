@@ -1,0 +1,99 @@
+name  kenTransformLight
+type none
+shadow 0
+alpha 1
+setlayer 300
+
+
+
+
+anim	idle
+	delay	3
+	offset	106 -157
+	frame	data/chars/Kenpachi/501.gif
+	offset	122 -96
+	frame	data/chars/Kenpachi/502.gif
+	offset	174 -6
+	frame	data/chars/Kenpachi/503.gif
+	offset	209 -30
+	frame	data/chars/Kenpachi/504.gif
+	offset	230 101
+	frame	data/chars/Kenpachi/505.gif
+	offset	189 278
+	frame	data/chars/Kenpachi/506.gif
+	offset	190 279
+	frame	data/chars/Kenpachi/507.gif
+	offset	209 274
+	frame	data/chars/Kenpachi/508.gif
+	offset	208 275
+	frame	data/chars/Kenpachi/509.gif
+	offset	186 275
+	frame	data/chars/Kenpachi/510.gif
+	offset	181 275
+	frame	data/chars/Kenpachi/511.gif
+	offset	184 275
+	frame	data/chars/Kenpachi/512.gif
+	offset	181 275
+	frame	data/chars/Kenpachi/513.gif
+	offset	182 275
+	frame	data/chars/Kenpachi/514.gif
+	offset	185 275
+	frame	data/chars/Kenpachi/515.gif
+	offset	181 275
+	frame	data/chars/Kenpachi/516.gif
+	offset	177 274
+	frame	data/chars/Kenpachi/517.gif
+	offset	182 274
+	frame	data/chars/Kenpachi/518.gif
+	offset	181 274
+	frame	data/chars/Kenpachi/519.gif
+	offset	180 274
+	frame	data/chars/Kenpachi/520.gif
+	offset	178 274
+	frame	data/chars/Kenpachi/521.gif
+	offset	179 274
+	frame	data/chars/Kenpachi/522.gif
+	offset	179 274
+	frame	data/chars/Kenpachi/523.gif
+	offset	179 274
+	frame	data/chars/Kenpachi/524.gif
+	offset	180 274
+	frame	data/chars/Kenpachi/525.gif
+	offset	177 274
+	frame	data/chars/Kenpachi/526.gif
+	offset	165 274
+	frame	data/chars/Kenpachi/527.gif
+	offset	168 274
+	frame	data/chars/Kenpachi/528.gif
+	offset	178 274
+	frame	data/chars/Kenpachi/529.gif
+	offset	162 274
+	frame	data/chars/Kenpachi/530.gif
+	offset	164 274
+	frame	data/chars/Kenpachi/531.gif
+	offset	154 274
+	frame	data/chars/Kenpachi/532.gif
+	offset	141 273
+	frame	data/chars/Kenpachi/533.gif
+	offset	112 273
+	frame	data/chars/Kenpachi/534.gif
+	offset	66 273
+	frame	data/chars/Kenpachi/535.gif
+	offset	70 273
+	frame	data/chars/Kenpachi/536.gif
+	offset	39 273
+	frame	data/chars/Kenpachi/537.gif
+	offset	17 274
+	frame	data/chars/Kenpachi/538.gif
+	offset	7 276
+	frame	data/chars/Kenpachi/539.gif
+	offset	3 276
+	frame	data/chars/Kenpachi/540.gif
+	offset	0 276
+	frame	data/chars/Kenpachi/541.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

@@ -1,0 +1,44 @@
+name  kenDownwardSlash
+type none
+shadow 0
+alpha 1
+
+
+
+
+anim	idle
+	delay	2
+	offset	10 -54
+	frame	data/chars/Kenpachi/203.gif
+	offset	12 -20
+	frame	data/chars/Kenpachi/204.gif
+	offset	18 24
+	frame	data/chars/Kenpachi/205.gif
+	offset	22 83
+	frame	data/chars/Kenpachi/206.gif
+	offset	25 63
+	frame	data/chars/Kenpachi/207.gif
+	offset	31 95
+	frame	data/chars/Kenpachi/208.gif
+	offset	26 110
+	frame	data/chars/Kenpachi/209.gif
+	offset	23 104
+	frame	data/chars/Kenpachi/210.gif
+	offset	20 122
+	frame	data/chars/Kenpachi/211.gif
+	offset	31 145
+	frame	data/chars/Kenpachi/212.gif
+	offset	31 160
+	frame	data/chars/Kenpachi/213.gif
+	offset	31 167
+	frame	data/chars/Kenpachi/214.gif
+	offset	31 178
+	frame	data/chars/Kenpachi/215.gif
+	offset	30 183
+	frame	data/chars/Kenpachi/216.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		
