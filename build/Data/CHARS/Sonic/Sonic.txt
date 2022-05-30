@@ -52,6 +52,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	4
 	offset	7 34
@@ -636,13 +637,14 @@ anim	run
 	offset	17 40
 	frame	data/chars/Sonic/31.gif
 	offset	16 40
-	frame	data/chars/Sonic/32.gif
 	sound	data/sounds/walk.wav
+	frame	data/chars/Sonic/32.gif
 	offset	14 35
 	frame	data/chars/Sonic/33.gif
 	offset	18 37
 	frame	data/chars/Sonic/34.gif
 	offset	16 39
+	sound	data/sounds/walk.wav
 	frame	data/chars/Sonic/35.gif
 		
 anim	runattack
@@ -681,7 +683,6 @@ anim	walk
 	offset	13 38
 	frame	data/chars/Sonic/16.gif
 	bbox	11 7 23 32
-	sound	data/sounds/walk.wav
 	offset	19 38
 	frame	data/chars/Sonic/17.gif
 	bbox	9 7 23 32
@@ -698,6 +699,7 @@ anim	walk
 	frame	data/chars/Sonic/21.gif
 	bbox	9 9 23 32
 	offset	16 39
+	sound	data/sounds/walk.wav
 	frame	data/chars/Sonic/22.gif
 		
 #|edited by openBor Stats v 0.67
