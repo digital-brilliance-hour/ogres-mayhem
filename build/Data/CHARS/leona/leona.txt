@@ -1,0 +1,133 @@
+name leona
+type enemy
+health  100
+shadow 3
+speed   10
+
+
+anim	attack1
+	delay	7
+	frame	data/chars/leona/attack1-1.png
+	frame	data/chars/leona/attack1-2.png
+	frame	data/chars/leona/attack1-3.png
+	frame	data/chars/leona/attack1-4.png
+	frame	data/chars/leona/attack1-5.png
+	frame	data/chars/leona/attack1-6.png
+	frame	data/chars/leona/attack1-7.png
+		
+anim	fall
+	delay	7
+	frame	data/chars/leona/death-01.png
+	frame	data/chars/leona/death-02.png
+	frame	data/chars/leona/death-11.png
+	frame	data/chars/leona/death-12.png
+	frame	data/chars/leona/death-13.png
+	frame	data/chars/leona/death-14.png
+	frame	data/chars/leona/death-15.png
+	frame	data/chars/leona/death-16.png
+	frame	data/chars/leona/death-17.png
+	frame	data/chars/leona/death-18.png
+	frame	data/chars/leona/death-03.png
+	frame	data/chars/leona/death-04.png
+	frame	data/chars/leona/death-05.png
+	frame	data/chars/leona/death-06.png
+	frame	data/chars/leona/death-07.png
+	frame	data/chars/leona/death-08.png
+	frame	data/chars/leona/death-09.png
+	frame	data/chars/leona/death-10.png
+		
+anim	idle
+	loop	1
+	delay	7
+	frame	data/chars/leona/idle-1.png
+	frame	data/chars/leona/idle-2.png
+	frame	data/chars/leona/idle-3.png
+	frame	data/chars/leona/idle-4.png
+		
+anim	attack2
+	delay	7
+	frame	data/chars/leona/attack2-01.png
+	frame	data/chars/leona/attack2-02.png
+	frame	data/chars/leona/attack2-08.png
+	frame	data/chars/leona/attack2-09.png
+	frame	data/chars/leona/attack2-10.png
+	frame	data/chars/leona/attack2-11.png
+	frame	data/chars/leona/attack2-12.png
+	frame	data/chars/leona/attack2-13.png
+	frame	data/chars/leona/attack2-14.png
+	frame	data/chars/leona/attack2-15.png
+	frame	data/chars/leona/attack2-03.png
+	frame	data/chars/leona/attack2-04.png
+	frame	data/chars/leona/attack2-05.png
+	frame	data/chars/leona/attack2-06.png
+	frame	data/chars/leona/attack2-07.png
+		
+anim	follow1
+	delay	7
+	frame	data/chars/leona/victory-01.png
+	frame	data/chars/leona/victory-02.png
+	frame	data/chars/leona/victory-08.png
+	frame	data/chars/leona/victory-09.png
+	frame	data/chars/leona/victory-10.png
+	frame	data/chars/leona/victory-11.png
+	frame	data/chars/leona/victory-12.png
+	frame	data/chars/leona/victory-13.png
+	frame	data/chars/leona/victory-14.png
+	frame	data/chars/leona/victory-15.png
+	frame	data/chars/leona/victory-03.png
+	frame	data/chars/leona/victory-04.png
+	frame	data/chars/leona/victory-05.png
+	frame	data/chars/leona/victory-06.png
+	frame	data/chars/leona/victory-07.png
+		
+anim	pain2
+	delay	7
+	frame	data/chars/leona/pain-1.png
+	frame	data/chars/leona/pain-2.png
+	frame	data/chars/leona/pain-3.png
+		
+anim	pain
+	delay	7
+	frame	data/chars/leona/pain-1.png
+	frame	data/chars/leona/pain-2.png
+	frame	data/chars/leona/pain-3.png
+	frame	data/chars/leona/0.png
+	frame	data/chars/leona/1.png
+	frame	data/chars/leona/2.png
+	frame	data/chars/leona/3.png
+	frame	data/chars/leona/4.png
+	frame	data/chars/leona/5.png
+	frame	data/chars/leona/6.png
+	frame	data/chars/leona/7.png
+	frame	data/chars/leona/8.png
+	frame	data/chars/leona/9.png
+	frame	data/chars/leona/10.png
+	frame	data/chars/leona/11.png
+	frame	data/chars/leona/12.png
+	frame	data/chars/leona/13.png
+	frame	data/chars/leona/14.png
+		
+anim	rise
+	delay	7
+	frame	data/chars/leona/12.png
+	frame	data/chars/leona/13.png
+	frame	data/chars/leona/14.png
+		
+anim	walk
+	loop	1
+	delay	7
+	frame	data/chars/leona/walk-01.png
+	frame	data/chars/leona/walk-02.png
+	frame	data/chars/leona/walk-05.png
+	frame	data/chars/leona/walk-06.png
+	frame	data/chars/leona/walk-07.png
+	frame	data/chars/leona/walk-08.png
+	frame	data/chars/leona/walk-09.png
+	frame	data/chars/leona/walk-10.png
+	frame	data/chars/leona/walk-11.png
+	frame	data/chars/leona/walk-12.png
+	frame	data/chars/leona/walk-03.png
+	frame	data/chars/leona/walk-04.png
+		
+#|edited by openBor Stats v 0.67
+		
