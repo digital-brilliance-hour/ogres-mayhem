@@ -59,6 +59,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	4
 	offset	13 44
@@ -551,7 +552,6 @@ anim	walk
 	offset	18 40
 	sound	data/sounds/walk.wav
 	frame	data/chars/Lee/12.gif
-	sound	data/sounds/walk.wav
 	bbox	0 41 36 -40
 	offset	10 40
 	frame	data/chars/Lee/13.gif

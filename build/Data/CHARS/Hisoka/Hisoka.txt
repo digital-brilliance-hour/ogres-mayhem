@@ -33,6 +33,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	7
 	offset	25 59
@@ -451,7 +452,6 @@ anim	run
 	offset	37 41
 	frame	data/chars/Hisoka/33.gif
 	offset	36 37
-	sound	data/sounds/walk.wav
 	frame	data/chars/Hisoka/34.gif
 		
 anim	spawn
@@ -529,7 +529,6 @@ anim	walk
 	bbox	7 6 34 37
 	sound	data/sounds/walk.wav
 	offset	26 42
-	sound	data/sounds/walk.wav
 	frame	data/chars/Hisoka/29.gif
 	bbox	7 8 51 34
 	offset	32 43

@@ -64,6 +64,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	7
 	sound	data/chars/deku/deku_0-0.wav
@@ -526,7 +527,6 @@ anim	run
 	offset	20 43
 	frame	data/chars/Deku/11.gif
 	bbox	1 1 28 40
-	sound	data/sounds/walk.wav
 	offset	9 38
 	sound	data/sounds/walk.wav
 	frame	data/chars/Deku/12.gif
@@ -582,7 +582,6 @@ anim	walk
 	offset	20 43
 	frame	data/chars/Deku/11.gif
 	bbox	1 1 28 40
-	sound	data/sounds/walk.wav
 	offset	9 38
 	sound	data/sounds/walk.wav
 	frame	data/chars/Deku/12.gif
