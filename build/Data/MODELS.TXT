@@ -357,3 +357,5 @@ Know kenTransformLight Data/CHARS/misc/FX/kenTransformLight/kenTransformLight.tx
 Know kenRisingSlash Data/CHARS/misc/FX/kenRisingSlash/kenRisingSlash.txt
 Know kenSliceForwardHit Data/CHARS/misc/FX/kenSliceForwardHit/kenSliceForwardHit.txt
 Know kenHit Data/CHARS/misc/FX/kenHit/kenHit.txt
+Know soldier Data/Chars/soldier/soldier.txt
+know Bakugou data/chars/Bakugou/Bakugou.txt

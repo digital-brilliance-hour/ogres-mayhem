@@ -1,0 +1,281 @@
+name soldier
+type enemy
+health  100
+shadow 2
+speed   10
+subject_to_screen 1
+offscreenkill 200
+
+onspawnscript @script
+void main()
+{
+void self = getlocalvar("self");
+setdrawmethod(self, 1, 256, 256, 1, 0);
+}
+@end_script
+
+takedamagescript data/scripts/enemyhit.c
+
+candamage player npc
+hostile npc player
+
+
+
+
+
+
+
+
+
+
+
+
+anim	attack1
+	range	0 25
+	offset	12 34
+	bbox	2 2 19 33
+	delay	2
+	frame	data/chars/soldier/attack1-01.png
+	offset	12 33
+	frame	data/chars/soldier/attack1-02.png
+	offset	12 32
+	frame	data/chars/soldier/attack1-05.png
+	offset	12 31
+	frame	data/chars/soldier/attack1-07.png
+	offset	12 30
+	bbox	2 2 19 30
+	frame	data/chars/soldier/attack1-10.png
+	offset	12 29
+	frame	data/chars/soldier/attack1-11.png
+	offset	12 30
+	frame	data/chars/soldier/attack1-12.png
+	offset	12 29
+	frame	data/chars/soldier/attack1-09.png
+	offset	12 30
+	frame	data/chars/soldier/attack1-08.png
+	offset	25 30
+	bbox	17 1 25 31
+	frame	data/chars/soldier/attack1-06.png
+	offset	33 29
+	attack	29 2 23 28 10 1 1 0 0 0
+	frame	data/chars/soldier/attack1-03.png
+	offset	31 32
+	frame	data/chars/soldier/attack1-04.png
+		
+anim	attack2
+	range	0 25
+	offset	13 36
+	fastattack	1
+	bbox	1 1 24 37
+	delay	2
+	frame	data/chars/soldier/attack2-01.png
+	offset	14 38
+	frame	data/chars/soldier/attack2-02.png
+	offset	20 36
+	bbox	7 1 24 37
+	frame	data/chars/soldier/attack2-06.png
+	offset	20 36
+	frame	data/chars/soldier/attack2-07.png
+	offset	20 36
+	attack	22 1 15 37 8 0 1 0 0 0
+	frame	data/chars/soldier/attack2-08.png
+	delay	3
+	offset	19 32
+	attack	0 0 0 0 0 0 0 0 0 0
+	bbox	7 1 24 32
+	frame	data/chars/soldier/attack2-09.png
+	offset	23 36
+	bbox	13 1 24 37
+	frame	data/chars/soldier/attack2-10.png
+	offset	30 36
+	attack	27 2 20 36 8 0 1 0 0 0
+	frame	data/chars/soldier/attack2-11.png
+	offset	26 44
+	bbox	14 14 29 34
+	frame	data/chars/soldier/attack2-12.png
+	offset	26 45
+	frame	data/chars/soldier/attack2-13.png
+	offset	29 38
+	attack	0 0 0 0 0 0 0 0 0 0
+	bbox	17 6 29 34
+	frame	data/chars/soldier/attack2-03.png
+	offset	29 36
+	attack	28 2 21 34 10 1 1 0 0 0
+	frame	data/chars/soldier/attack2-04.png
+	offset	29 33
+	bbox	17 6 29 29
+	frame	data/chars/soldier/attack2-05.png
+		
+anim	fall
+	offset	14 36
+	bbox	3 11 35 24
+	delay	7
+	frame	data/chars/soldier/fall2-3.png
+	offset	14 36
+	frame	data/chars/soldier/fall2-4.png
+	offset	14 36
+	bbox	3 11 35 14
+	frame	data/chars/soldier/fall2-5.png
+	offset	22 15
+	bbox	0 0 0 0
+	frame	data/chars/soldier/fall2-6.png
+	offset	22 14
+	bbox	0 0 0 0
+	frame	data/chars/soldier/fall2-7.png
+		
+anim	fall2
+	delay	7
+	frame	data/chars/soldier/fall1-01.png
+	frame	data/chars/soldier/fall1-02.png
+	frame	data/chars/soldier/fall1-04.png
+	frame	data/chars/soldier/fall1-05.png
+	frame	data/chars/soldier/fall1-06.png
+	frame	data/chars/soldier/fall1-07.png
+	frame	data/chars/soldier/fall1-08.png
+	frame	data/chars/soldier/fall1-09.png
+	frame	data/chars/soldier/fall1-10.png
+	frame	data/chars/soldier/fall1-11.png
+	frame	data/chars/soldier/fall1-03.png
+		
+anim	follow1
+	delay	7
+	loop	1 1
+	counterrange	0 8 1 1
+	followanim	2
+	sound	data/chars/soldier/gen_08.wav
+	frame	data/chars/misc/empty.gif
+	@cmd	changeentityproperty getlocalvar("self") "subject_to_screen" 0
+	@cmd	changeentityproperty getlocalvar("self") "offscreenkill" 200
+	@cmd	changeentityproperty getlocalvar("self") "direction" 1
+	@cmd	changeentityproperty getlocalvar("self") "velocity" -1 0 0
+	@cmd	changeentityproperty getlocalvar("self") "noaicontrol" 0
+	@cmd	changeentityproperty getlocalvar("self") "aiflag" "walking" 0
+	@cmd	changeentityproperty getlocalvar("self") "aiflag" "attacking" 0
+	@cmd	changeentityproperty getlocalvar("self") "aiflag" "jumping" 0
+	attack	1 1 43 62 20 1 1 0 0 10
+	offset	23 61
+	bbox	6 25 30 37
+	frame	data/chars/soldier/burn-01.png
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	23 61
+	frame	data/chars/soldier/burn-02.png
+	@cmd	changeentityproperty getlocalvar("self") "noaicontrol" 0
+	attack	1 1 43 62 20 1 0 1 0 10
+	frame	data/chars/soldier/burn-13.png
+	attack	0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/soldier/burn-16.png
+	attack	1 1 43 62 20 1 1 0 0 10
+	frame	data/chars/soldier/burn-17.png
+	attack	0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/soldier/burn-18.png
+	attack	1 1 43 62 20 1 0 1 0 10
+	frame	data/chars/soldier/burn-19.png
+	frame	data/chars/soldier/burn-20.png
+		
+anim	follow2
+	@cmd	changeentityproperty getlocalvar("self") "velocity" 0 0 0
+	offset	19 53
+	delay	7
+	frame	data/chars/soldier/burn-21.png
+	offset	19 58
+	frame	data/chars/soldier/burn-22.png
+	offset	19 60
+	frame	data/chars/soldier/burn-03.png
+	offset	19 60
+	frame	data/chars/soldier/burn-04.png
+	offset	23 59
+	frame	data/chars/soldier/burn-05.png
+	offset	23 59
+	frame	data/chars/soldier/burn-06.png
+	offset	23 59
+	frame	data/chars/soldier/burn-07.png
+	offset	23 60
+	bbox	0 0 0 0
+	frame	data/chars/soldier/burn-08.png
+	offset	23 60
+	frame	data/chars/soldier/burn-09.png
+	offset	23 60
+	frame	data/chars/soldier/burn-10.png
+	offset	23 60
+	frame	data/chars/soldier/burn-11.png
+	offset	23 60
+	frame	data/chars/soldier/burn-12.png
+	offset	19 51
+	frame	data/chars/soldier/burn-14.png
+	delay	20
+	offset	13 14
+	frame	data/chars/soldier/burn-15.png
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+anim	idle
+	offset	13 35
+	loop	1
+	delay	10
+	frame	data/chars/soldier/idle-1.png
+	offset	14 34
+	frame	data/chars/soldier/idle-2.png
+	offset	14 33
+	frame	data/chars/soldier/idle-3.png
+	offset	13 32
+	frame	data/chars/soldier/idle-4.png
+		
+anim	pain
+	offset	14 36
+	delay	10
+	frame	data/chars/soldier/fall2-1.png
+	offset	14 35
+	frame	data/chars/soldier/fall2-2.png
+		
+anim	rise
+	offset	12 23
+	delay	7
+	frame	data/chars/soldier/rise-1.png
+	offset	12 23
+	frame	data/chars/soldier/rise-2.png
+	offset	12 23
+	frame	data/chars/soldier/rise-3.png
+	offset	12 23
+	movea	0
+	frame	data/chars/soldier/rise-4.png
+	offset	12 29
+	frame	data/chars/soldier/rise-5.png
+	offset	12 32
+	frame	data/chars/soldier/rise-6.png
+		
+anim	walk
+	offset	9 35
+	bbox	2 1 16 34
+	loop	1
+	delay	5
+	frame	data/chars/soldier/walk-01.png
+	offset	9 35
+	frame	data/chars/soldier/walk-02.png
+	offset	9 35
+	frame	data/chars/soldier/walk-05.png
+	offset	9 35
+	frame	data/chars/soldier/walk-06.png
+	offset	9 35
+	frame	data/chars/soldier/walk-07.png
+	offset	9 35
+	frame	data/chars/soldier/walk-08.png
+	offset	9 35
+	frame	data/chars/soldier/walk-09.png
+	movez	0
+	movea	0
+	move	0
+	frame	data/chars/soldier/walk-10.png
+	offset	10 37
+	frame	data/chars/soldier/walk-11.png
+	offset	11 35
+	bbox	5 2 16 34
+	frame	data/chars/soldier/walk-12.png
+	offset	10 35
+	bbox	2 1 16 34
+	frame	data/chars/soldier/walk-03.png
+	offset	10 35
+	frame	data/chars/soldier/walk-04.png
+		
+#|edited by openBor Stats v 0.67
+		

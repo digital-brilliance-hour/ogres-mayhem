@@ -14,6 +14,7 @@ knife         kunai_npc
 star          shuri_npc
 didhitscript data/scripts/didhit/didhit.c
 
+
 anim	attack1
 	range	0 50
 	loop	0
@@ -225,6 +226,7 @@ anim	run
 	bbox	3 -1 41 51
 	loop	
 	loop	1
+	sound	data/sounds/walk.wav
 	frame	data/chars/ninja_kunoichi/3.png
 	frame	data/chars/ninja_kunoichi/4.png
 		
@@ -276,6 +278,7 @@ anim	walk
 	bbox	3 -1 41 51
 	frame	data/chars/ninja_kunoichi/3.png
 	offset	27 35
+	sound	data/sounds/walk.wav
 	frame	data/chars/ninja_kunoichi/4.png
 		
 #|edited by openBor Stats v 0.67
