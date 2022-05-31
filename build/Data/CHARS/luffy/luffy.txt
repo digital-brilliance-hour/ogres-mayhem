@@ -49,7 +49,7 @@ anim	attack1
 	sound	data/chars/Luffy/punch.wav
 	frame	data/chars/Luffy/punch01.gif
 	frame	data/chars/Luffy/punch02.gif
-	attack	64 48 24 9 8 0 0 0 0 0
+	attack	64 48 24 9 8 0 0 0 20 0
 	frame	data/chars/Luffy/punch03.gif
 		
 anim	attack2
@@ -60,15 +60,15 @@ anim	attack2
 	sound	data/chars/Luffy/gatl.wav
 	frame	data/chars/Luffy/gatl01.gif
 	frame	data/chars/Luffy/gatl02.gif
-	attack	70 39 34 42 6 0 0 0 0 0
+	attack	70 39 34 42 6 0 0 0 20 0
 	frame	data/chars/Luffy/gatl03.gif
 	blast	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/Luffy/gatl04.gif
-	attack	70 30 35 50 6 0 0 0 0 0
+	attack	70 30 35 50 6 0 0 0 20 0
 	frame	data/chars/Luffy/gatl05.gif
 	blast	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/Luffy/gatl06.gif
-	attack	70 37 37 43 8 1 0 0 0 0
+	attack	70 37 37 43 8 1 0 0 20 0
 	frame	data/chars/Luffy/gatl07.gif
 		
 anim	chargeattack
@@ -80,13 +80,51 @@ anim	chargeattack
 	frame	data/chars/Luffy/raiful01.gif
 	frame	data/chars/Luffy/raiful02.gif
 	@cmd	spawnparent "pdust" -10 0 -20
-	blast	112 37 27 31 12 0 0 0 0 0
-	blast	112 37 27 31 12 0 0 0 0 0
+	blast	112 37 27 31 12 0 0 0 20 0
+	blast	112 37 27 31 12 0 0 0 20 0
 	frame	data/chars/Luffy/raiful03.gif
-	blast	112 37 28 30 12 0 0 0 0 0
-	blast	112 37 28 30 12 0 0 0 0 0
+	blast	112 37 28 30 12 0 0 0 20 0
+	blast	112 37 28 30 12 0 0 0 20 0
 	frame	data/chars/Luffy/raiful04.gif
 	frame	data/chars/Luffy/raiful05.gif
+		
+anim	dodge
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	7
+	offset	38 77
+	frame	data/chars/Luffy/walk07.gif
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	drawmethod	rotate 90
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	delay	7
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	drawmethod	rotate 0
+	fshadow	3
+	delay	7
+	offset	38 77
+	frame	data/chars/Luffy/walk07.gif
 		
 anim	fall
 	loop	0
@@ -120,18 +158,18 @@ anim	freespecial
 	frame	data/chars/Luffy/bazka02.gif
 	frame	data/chars/Luffy/bazka03.gif
 	frame	data/chars/Luffy/bazka04.gif
-	attack	14 28 57 30 20 1 1 0 0 0
+	attack	14 28 57 30 20 1 1 0 20 0
 	frame	data/chars/Luffy/bazka05.gif
-	attack	1 26 72 33 22 1 1 0 0 0
+	attack	1 26 72 33 22 1 1 0 20 0
 	frame	data/chars/Luffy/bazka06.gif
 	frame	data/chars/Luffy/bazka07.gif
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	95 43 49 18 25 1 0 0 0 0
+	attack	95 43 49 18 25 1 0 0 20 0
 	frame	data/chars/Luffy/bazka08.gif
-	attack	98 40 85 24 25 1 0 0 0 0
+	attack	98 40 85 24 25 1 0 0 20 0
 	frame	data/chars/Luffy/bazka09.gif
-	blast	97 40 85 24 30 1 0 0 0 0
-	blast	97 40 85 24 30 1 0 0 0 0
+	blast	97 40 85 24 30 1 0 0 20 0
+	blast	97 40 85 24 30 1 0 0 20 0
 	frame	data/chars/Luffy/bazka10.gif
 	frame	data/chars/Luffy/bazka11.gif
 	frame	data/chars/Luffy/bazka12.gif
@@ -202,27 +240,27 @@ anim	freespecial2
 	offset	51 78
 	frame	data/chars/Luffy/storm07.gif
 	@cmd	spawnparent "pdust" -10 0 -20
-	blast	59 9 41 88 15 0 0 0 0 0
-	blast	59 9 41 88 15 0 0 0 0 0
+	blast	59 9 41 88 15 0 0 0 20 0
+	blast	59 9 41 88 15 0 0 0 20 0
 	@cmd	dasher 5 0 0
 	frame	data/chars/Luffy/storm08.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	attack	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/Luffy/storm09.gif
-	blast	59 2 42 97 15 0 0 0 0 0
-	blast	59 2 42 97 15 0 0 0 0 0
+	blast	59 2 42 97 15 0 0 0 20 0
+	blast	59 2 42 97 15 0 0 0 20 0
 	frame	data/chars/Luffy/storm10.gif
 	blast	0 0 0 0 0 0 0 0 0 0
 	blast	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/Luffy/storm11.gif
-	blast	59 9 41 88 15 0 0 0 0 0
-	blast	59 9 41 88 15 0 0 0 0 0
+	blast	59 9 41 88 15 0 0 0 20 0
+	blast	59 9 41 88 15 0 0 0 20 0
 	frame	data/chars/Luffy/storm08.gif
 	blast	0 0 0 0 0 0 0 0 0 0
 	blast	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/Luffy/storm09.gif
-	blast	59 2 42 97 15 1 0 0 0 0
-	blast	59 2 42 97 15 1 0 0 0 0
+	blast	59 2 42 97 15 1 0 0 20 0
+	blast	59 2 42 97 15 1 0 0 20 0
 	frame	data/chars/Luffy/storm10.gif
 	@cmd	stop
 	blast	0 0 0 0 0 0 0 0 0 0
@@ -342,44 +380,6 @@ anim	land
 	frame	data/chars/Luffy/rise07.gif
 	frame	data/chars/Luffy/rise08.gif
 		
-anim	dodge
-	sound	data/chars/yusuke/broly_5-22.wav
-	delay	7
-	offset	38 77
-	frame	data/chars/Luffy/walk07.gif
-	delay	2
-	fshadow	0
-	drawmethod	scale 0.3 0.2
-	drawmethod	alpha 1
-	drawmethod	rotate 90
-	offset	179 61
-	frame	data/chars/yusuke/840.gif
-	offset	178 63
-	frame	data/chars/yusuke/841.gif
-	offset	219 65
-	frame	data/chars/yusuke/842.gif
-	offset	225 79
-	frame	data/chars/yusuke/843.gif
-	offset	222 82
-	frame	data/chars/yusuke/844.gif
-	offset	223 79
-	frame	data/chars/yusuke/845.gif
-	offset	226 80
-	frame	data/chars/yusuke/846.gif
-	offset	219 83
-	frame	data/chars/yusuke/847.gif
-	offset	209 83
-	frame	data/chars/yusuke/848.gif
-	delay	7
-	frame	data/chars/misc/empty.gif
-	drawmethod	scale 1
-	drawmethod	alpha 0
-	drawmethod	rotate 0
-	fshadow	3
-	delay	7
-	offset	38 77
-	frame	data/chars/Luffy/walk07.gif
-		
 anim	pain
 	loop	0
 	offset	38 77
@@ -434,18 +434,18 @@ anim	runattack
 	frame	data/chars/Luffy/punch3-6.gif
 	frame	data/chars/Luffy/punch3-7.gif
 	frame	data/chars/Luffy/punch3-8.gif
-	attack	64 36 96 32 15 0 1 0 0 0
+	attack	64 36 96 32 15 0 1 0 20 0
 	frame	data/chars/Luffy/punch3-9.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	delay	10
 	@cmd	dasher 1 0 0
 	frame	data/chars/Luffy/punch310.gif
-	attack	65 30 108 43 15 0 1 0 0 0
+	attack	65 30 108 43 15 0 1 0 20 0
 	frame	data/chars/Luffy/punch310.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	@cmd	stop
 	frame	data/chars/Luffy/punch310.gif
-	attack	64 28 98 43 15 1 1 0 0 0
+	attack	64 28 98 43 15 1 1 0 20 0
 	dropv	1 5 0
 	frame	data/chars/Luffy/punch310.gif
 		

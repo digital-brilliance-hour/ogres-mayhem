@@ -113,7 +113,7 @@ anim	attack1
 	frame	data/chars/hiei/12.gif
 	offset	60 120
 	frame	data/chars/hiei/14.gif
-	attack	93 61 38 72 10 0 1 0 0 0
+	attack	93 61 38 72 10 0 1 0 20 0
 	offset	52 120
 	frame	data/chars/hiei/13.gif
 	offset	60 120
@@ -135,7 +135,7 @@ anim	attack2
 	frame	data/chars/hiei/18.gif
 	offset	59 120
 	frame	data/chars/hiei/25.gif
-	attack	59 65 73 50 14 0 0 0 0 0
+	attack	59 65 73 50 14 0 0 0 20 0
 	offset	59 120
 	delay	9
 	frame	data/chars/hiei/24.gif
@@ -164,7 +164,7 @@ anim	attack3
 	delay	2
 	frame	data/chars/hiei/13.gif
 	offset	52 120
-	attack	90 60 44 74 12 0 1 0 0 0
+	attack	90 60 44 74 12 0 1 0 20 0
 	frame	data/chars/hiei/13.gif
 	offset	52 120
 	frame	data/chars/hiei/13.gif
@@ -173,7 +173,7 @@ anim	attack3
 	delay	6
 	frame	data/chars/hiei/25.gif
 	offset	59 120
-	attack	74 67 79 59 20 1 0 0 0 0
+	attack	74 67 79 59 20 1 0 0 20 0
 	frame	data/chars/hiei/24.gif
 	offset	53 120
 	frame	data/chars/hiei/26.gif
@@ -307,14 +307,14 @@ anim	chargeattack
 	@cmd	spawnparent "pdust" -10 0 -20
 	@cmd	leaper 1 3
 	frame	data/chars/hiei/socosfire.gif
-	burn	65 40 63 68 6 0 1 0 0 0
+	burn	65 40 63 68 6 0 1 0 20 0
 	frame	data/chars/hiei/socosfire3.gif
 	attack	0 0 0 0 7 0 0 0 0 0
 	move	0
 	offset	63 120
 	delay	9
 	frame	data/chars/hiei/socosfire2.gif
-	burn	76 57 64 55 6 0 1 0 0 0
+	burn	76 57 64 55 6 0 1 0 20 0
 	move	0
 	offset	63 120
 	delay	9
@@ -323,7 +323,7 @@ anim	chargeattack
 	move	0
 	delay	9
 	frame	data/chars/hiei/socosfire6.gif
-	burn	75 39 58 62 7 1 1 0 0 0
+	burn	75 39 58 62 7 1 1 0 20 0
 	delay	9
 	move	0
 	offset	63 120
@@ -333,7 +333,7 @@ anim	chargeattack
 	offset	63 120
 	delay	9
 	frame	data/chars/hiei/socosfire2.gif
-	burn	83 47 59 72 7 1 1 0 0 0
+	burn	83 47 59 72 7 1 1 0 20 0
 	move	0
 	offset	63 120
 	delay	9
@@ -446,7 +446,7 @@ anim	freespecial1
 	mpcost	0
 	mponly	1
 	@cmd	enoughmp
-	attack	37 104 63 113 0 0 1 0 0 0
+	attack	37 104 63 113 0 0 1 0 20 0
 	offset	63 208
 	sound	data/chars/hiei/kokuryuha.wav
 	custknife	cnegras
@@ -457,37 +457,37 @@ anim	freespecial1
 	@cmd	spawnscreen "Screen_wind" 0 0
 	frame	data/chars/hiei/ara1.gif
 	offset	63 208
-	attack	37 104 63 113 0 0 1 0 0 0
+	attack	37 104 63 113 0 0 1 0 20 0
 	frame	data/chars/hiei/ara2.gif
 	offset	63 208
-	attack	37 104 63 113 0 0 1 0 0 0
+	attack	37 104 63 113 0 0 1 0 20 0
 	frame	data/chars/hiei/ara1.gif
 	offset	63 208
-	attack	37 104 63 113 0 0 1 0 0 0
+	attack	37 104 63 113 0 0 1 0 20 0
 	frame	data/chars/hiei/ara2.gif
 	offset	63 208
-	attack	37 104 63 113 0 0 1 0 0 0
+	attack	37 104 63 113 0 0 1 0 20 0
 	frame	data/chars/hiei/ara1.gif
-	attack	37 104 63 113 0 0 1 0 0 0
+	attack	37 104 63 113 0 0 1 0 20 0
 	offset	63 208
 	frame	data/chars/hiei/ara2.gif
 	offset	63 208
-	attack	37 104 63 113 0 0 1 0 0 0
+	attack	37 104 63 113 0 0 1 0 20 0
 	frame	data/chars/hiei/ara1.gif
 	offset	63 208
-	attack	37 104 63 113 0 0 1 0 0 0
+	attack	37 104 63 113 0 0 1 0 20 0
 	frame	data/chars/hiei/ara2.gif
 	offset	63 208
-	attack	37 104 63 113 0 0 1 0 0 0
+	attack	37 104 63 113 0 0 1 0 20 0
 	frame	data/chars/hiei/ara1.gif
 	offset	63 208
-	attack	37 104 63 113 0 0 1 0 0 0
+	attack	37 104 63 113 0 0 1 0 20 0
 	frame	data/chars/hiei/ara2.gif
 	offset	63 208
-	attack	37 104 63 113 0 0 1 0 0 0
+	attack	37 104 63 113 0 0 1 0 20 0
 	frame	data/chars/hiei/ara1.gif
 	offset	63 208
-	attack	37 104 63 113 0 0 1 0 0 0
+	attack	37 104 63 113 0 0 1 0 20 0
 	frame	data/chars/hiei/ara2.gif
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomout" 0 0 0
@@ -531,13 +531,13 @@ anim	freespecial2
 	hitflash	flash3
 	sound	data/chars/hiei/ensatsuken.wav
 	loop	0
-	delay	8
+	delay	30
 	delay	30
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	spawnscreen "Screen_wind" 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
 	offset	63 120
-	burn	18 38 98 94 20 1 0 0 0 0
+	burn	18 38 98 94 20 1 0 0 20 0
 	frame	data/chars/hiei/10.gif
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomout" 0 0 0
@@ -550,12 +550,12 @@ anim	freespecial2
 	@cmd	spawnparent "pdust" -10 0 -20
 	@cmd	dasher 5 0 0
 	offset	63 120
-	burn	18 38 98 94 20 1 0 0 0 0
+	burn	18 38 98 94 20 1 0 0 20 0
 	frame	data/chars/hiei/19.gif
 	burn	0
 	offset	63 120
 	frame	data/chars/hiei/20.gif
-	burn	41 54 84 77 0 0 1 0 0 0
+	burn	41 54 84 77 0 0 1 0 20 0
 	offset	39 119
 	frame	data/chars/hiei/21.gif
 	offset	33 119
@@ -563,7 +563,7 @@ anim	freespecial2
 	burn	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/hiei/29.gif
 	offset	39 120
-	burn	18 38 98 94 20 1 0 0 0 0
+	burn	18 38 98 94 20 1 0 0 20 0
 	frame	data/chars/hiei/30.gif
 	burn	0 0 0 0 0 0 0 0 0 0
 	offset	39 120
@@ -580,7 +580,7 @@ anim	freespecial3
 	mpcost	0
 	mponly	1
 	@cmd	enoughmp
-	attack	33 100 71 114 0 0 1 0 0 0
+	attack	33 100 71 114 0 0 1 0 20 0
 	followanim	1
 	followcond	1
 	delay	9
@@ -589,12 +589,12 @@ anim	freespecial3
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	spawnscreen "Screen_wind" 0 0
 	frame	data/chars/hiei/ar1.gif
-	attack	36 105 64 110 0 0 1 0 0 0
+	attack	36 105 64 110 0 0 1 0 20 0
 	offset	63 206
 	frame	data/chars/hiei/ar2.gif
 	offset	63 206
 	frame	data/chars/hiei/ar1.gif
-	attack	36 105 64 110 0 0 1 0 0 0
+	attack	36 105 64 110 0 0 1 0 20 0
 	offset	63 206
 	frame	data/chars/hiei/ar2.gif
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
@@ -602,56 +602,56 @@ anim	freespecial3
 	sound	data/chars/hiei/dragon.wav
 	frame	data/chars/hiei/a1.gif
 	offset	28 391
-	attack	5 293 57 103 0 0 1 0 0 0
+	attack	5 293 57 103 0 0 1 0 20 0
 	frame	data/chars/hiei/b1.gif
 	offset	28 391
-	attack	5 293 57 103 0 0 1 0 0 0
+	attack	5 293 57 103 0 0 1 0 20 0
 	frame	data/chars/hiei/c1.gif
 	offset	28 391
-	attack	5 293 57 103 0 0 1 0 0 0
+	attack	5 293 57 103 0 0 1 0 20 0
 	frame	data/chars/hiei/d.gif
 	offset	28 391
-	attack	5 293 57 103 0 0 1 0 0 0
+	attack	5 293 57 103 0 0 1 0 20 0
 	frame	data/chars/hiei/e.gif
 	offset	28 391
-	attack	5 293 57 103 0 0 1 0 0 0
+	attack	5 293 57 103 0 0 1 0 20 0
 	frame	data/chars/hiei/f.gif
 	offset	28 391
-	attack	5 293 57 103 0 0 1 0 0 0
+	attack	5 293 57 103 0 0 1 0 20 0
 	frame	data/chars/hiei/g.gif
 	offset	28 391
-	attack	5 293 57 103 0 0 1 0 0 0
+	attack	5 293 57 103 0 0 1 0 20 0
 	frame	data/chars/hiei/h.gif
 	offset	28 391
-	attack	5 293 57 103 0 0 1 0 0 0
+	attack	5 293 57 103 0 0 1 0 20 0
 	frame	data/chars/hiei/i.gif
 	offset	28 391
-	attack	5 293 57 103 0 0 1 0 0 0
+	attack	5 293 57 103 0 0 1 0 20 0
 	frame	data/chars/hiei/j.gif
 	offset	28 391
-	attack	5 293 57 103 0 0 1 0 0 0
+	attack	5 293 57 103 0 0 1 0 20 0
 	frame	data/chars/hiei/l.gif
 	offset	28 391
-	attack	5 293 57 103 0 0 1 0 0 0
+	attack	5 293 57 103 0 0 1 0 20 0
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/hiei/m.gif
 	@cmd	spawnparent "pdust" -10 0 -20
 	@cmd	dasher 7 0 0
-	attack	62 73 66 57 1 0 1 0 0 0
+	attack	62 73 66 57 1 0 1 0 20 0
 	offset	72 120
 	frame	data/chars/hiei/runas1.gif
 	offset	72 120
 	attack	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/hiei/runas2.gif
 	offset	72 120
-	attack	72 67 56 63 1 0 1 0 0 0
+	attack	72 67 56 63 1 0 1 0 20 0
 	frame	data/chars/hiei/runas1.gif
 	offset	72 120
 	attack	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/hiei/runas2.gif
 	@cmd	stop
 	offset	69 119
-	attack	71 50 59 79 1 0 1 0 0 0
+	attack	71 50 59 79 1 0 1 0 20 0
 	frame	data/chars/hiei/dragaonegra2.gif
 	offset	69 119
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -662,7 +662,7 @@ anim	freespecial3
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	69 119
 	frame	data/chars/hiei/dragaonegra2.gif
-	attack	73 48 56 81 1 0 1 0 0 0
+	attack	73 48 56 81 1 0 1 0 20 0
 	offset	69 119
 	frame	data/chars/hiei/dragaonegra2.gif
 		
@@ -812,17 +812,17 @@ anim	runattack
 	frame	data/chars/hiei/stand1.gif
 	offset	70 120
 	frame	data/chars/hiei/rat1.gif
-	attack	76 44 48 58 8 1 0 0 0 0
+	attack	76 44 48 58 8 1 0 0 20 0
 	offset	70 120
 	delay	9
 	frame	data/chars/hiei/rat2.gif
-	attack	76 44 48 58 0 0 0 0 0 0
+	attack	76 44 48 58 0 0 0 0 20 0
 	offset	70 120
 	frame	data/chars/hiei/rat2.gif
-	attack	73 16 39 69 8 1 0 0 0 0
+	attack	73 16 39 69 8 1 0 0 20 0
 	offset	70 120
 	frame	data/chars/hiei/rat3.gif
-	attack	71 31 48 58 8 1 0 0 0 0
+	attack	71 31 48 58 8 1 0 0 20 0
 	offset	70 150
 	frame	data/chars/hiei/rat3.gif
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -849,7 +849,7 @@ anim	runjumpattack
 	offset	71 107
 	bbox	48 6 40 87
 	frame	data/chars/hiei/57.gif
-	attack	80 58 40 68 7 1 0 0 0 0
+	attack	80 58 40 68 7 1 0 0 20 0
 	offset	71 107
 	bbox	56 10 35 108
 	delay	17
@@ -996,7 +996,7 @@ anim	special
 	sound	data/chars/hiei/sankoda.wav
 	hitflash	flash3
 	offset	34 119
-	blast	1 12 124 122 20 1 0 0 0 0
+	blast	1 12 124 122 20 1 0 0 20 0
 	delay	30
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	spawnscreen "Screen_wind" 0 0

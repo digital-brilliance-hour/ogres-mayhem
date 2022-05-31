@@ -37,7 +37,7 @@ anim	attack1
 	frame	data/chars/Hisoka/45.gif
 	offset	25 52
 	frame	data/chars/Hisoka/46.gif
-	attack	34 5 39 20 10 0 1 0 0 0
+	attack	34 5 39 20 10 0 1 0 20 0
 	offset	21 46
 	frame	data/chars/Hisoka/47.gif
 	offset	25 55
@@ -49,7 +49,7 @@ anim	attack2
 	frame	data/chars/Hisoka/49.gif
 	offset	25 51
 	frame	data/chars/Hisoka/50.gif
-	attack	35 26 40 -22 6 0 1 0 0 0
+	attack	35 26 40 -22 6 0 1 0 20 0
 	offset	22 45
 	frame	data/chars/Hisoka/51.gif
 	offset	23 66
@@ -62,7 +62,7 @@ anim	attack3
 	frame	data/chars/Hisoka/53.gif
 	offset	25 43
 	frame	data/chars/Hisoka/54.gif
-	attack	27 32 57 -25 8 1 1 0 0 0
+	attack	27 32 57 -25 8 1 1 0 20 0
 	offset	24 47
 	frame	data/chars/Hisoka/55.gif
 		
@@ -74,7 +74,7 @@ anim	attack4
 	frame	data/chars/Hisoka/56.gif
 	offset	20 55
 	frame	data/chars/Hisoka/57.gif
-	attack	23 7 30 48 10 0 1 0 0 0
+	attack	23 7 30 48 10 0 1 0 20 0
 	offset	21 55
 	frame	data/chars/Hisoka/58.gif
 		
@@ -85,12 +85,12 @@ anim	attack5
 	frame	data/chars/Hisoka/207.gif
 	offset	34 61
 	frame	data/chars/Hisoka/208.gif
-	attack	11 2 82 60 13 0 1 0 0 0
+	attack	11 2 82 60 13 0 1 0 20 0
 	offset	31 70
 	frame	data/chars/Hisoka/209.gif
 	offset	22 64
 	frame	data/chars/Hisoka/210.gif
-	attack	14 3 71 63 13 1 1 0 0 0
+	attack	14 3 71 63 13 1 1 0 20 0
 	offset	21 57
 	frame	data/chars/Hisoka/211.gif
 	offset	20 54
@@ -106,7 +106,7 @@ anim	chargeattack
 	frame	data/chars/Hisoka/88.gif
 	offset	27 49
 	frame	data/chars/Hisoka/89.gif
-	attack	18 53 55 -70 15 1 1 0 0 0
+	attack	18 53 55 -70 15 1 1 0 20 0
 	offset	27 52
 	frame	data/chars/Hisoka/90.gif
 	offset	28 54
@@ -481,7 +481,7 @@ anim	special
 	delay	7
 	offset	17 50
 	frame	data/chars/Hisoka/61.gif
-	attack	16 7 65 35 10 0 1 0 0 0
+	attack	16 7 65 35 10 0 1 0 20 0
 	offset	16 55
 	frame	data/chars/Hisoka/62.gif
 	offset	15 53
@@ -495,7 +495,7 @@ anim	special
 	frame	data/chars/Hisoka/66.gif
 	offset	25 61
 	frame	data/chars/Hisoka/67.gif
-	attack	17 3 60 68 15 0 1 0 0 0
+	attack	17 3 60 68 15 0 1 0 20 0
 	offset	25 66
 	frame	data/chars/Hisoka/68.gif
 	offset	24 60
@@ -510,7 +510,7 @@ anim	special
 	frame	data/chars/Hisoka/71.gif
 	offset	21 49
 	frame	data/chars/Hisoka/72.gif
-	attack	11 1 60 81 20 1 1 0 0 0
+	attack	11 1 60 81 20 1 1 0 18 0
 	offset	16 53
 	frame	data/chars/Hisoka/73.gif
 		

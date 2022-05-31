@@ -33,7 +33,7 @@ anim	attack1
 	bbox	35 55 17 20
 	offset	38 77
 	frame	data/chars/Gohan/punch00.gif
-	attack	51 58 15 6 8
+	attack	51 58 15 6 8 0 0 0 20 0
 	frame	data/chars/Gohan/punch01.gif
 	frame	data/chars/Gohan/punch02.gif
 		
@@ -46,7 +46,7 @@ anim	attack2
 	frame	data/chars/Gohan/punch03.gif
 	frame	data/chars/Gohan/punch04.gif
 	frame	data/chars/Gohan/punch05.gif
-	attack	54 56 20 9 8
+	attack	54 56 20 9 8 0 0 0 20 0
 	frame	data/chars/Gohan/punch06.gif
 	attack	0
 	frame	data/chars/Gohan/punch07.gif
@@ -69,7 +69,7 @@ anim	attack3
 	bbox	35 55 17 20
 	frame	data/chars/Gohan/kick00.gif
 	frame	data/chars/Gohan/kick01.gif
-	attack	60 52 20 13 10 1
+	attack	60 52 20 13 10 1 0 0 20 0
 	frame	data/chars/Gohan/kick02.gif
 	frame	data/chars/Gohan/kick03.gif
 	frame	data/chars/Gohan/kick04.gif
@@ -119,39 +119,39 @@ anim	freespecial
 	@cmd	changeopenborvariant "slowmotion" 0
 	delay	10
 	sound	data/chars/Gohan/wave.wav
-	attack	60 42 47 40 15 1
+	attack	60 42 47 40 15 1 0 0 20 0
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Gohan/kame06.gif
-	attack	0 0 0 0 0 0
+	attack	60 42 112 40 15 1 0 0 20 0
 	delay	5
-	attack	60 42 112 40 15 1
+	attack	60 42 112 40 15 1 0 0 20 0
 	frame	data/chars/Gohan/kame07.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 192 40 15 1
+	attack	60 42 192 40 15 1 0 0 20 0
+	attack	60 42 192 40 15 1 0 0 20 0
 	frame	data/chars/Gohan/kame08.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 286 40 15 1
+	attack	60 42 286 40 15 1 0 0 20 0
+	attack	60 42 286 40 15 1 0 0 20 0
 	frame	data/chars/Gohan/kame09.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 383 40 15 1
+	attack	60 42 383 40 15 1 0 0 20 0
+	attack	60 42 383 40 15 1 0 0 20 0
 	frame	data/chars/Gohan/kame10.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 480 40 15 1
+	attack	60 42 480 40 15 1 0 0 20 0
+	attack	60 42 480 40 15 1 0 0 20 0
 	frame	data/chars/Gohan/kame11.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 15 1 0 0 20 0
+	attack	60 42 522 41 15 1 0 0 20 0
 	frame	data/chars/Gohan/kame12.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 15 1 0 0 20 0
+	attack	60 42 522 41 15 1 0 0 20 0
 	frame	data/chars/Gohan/kame13.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 15 1 0 0 20 0
+	attack	60 42 522 41 15 1 0 0 20 0
 	frame	data/chars/Gohan/kame14.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 15 1 0 0 20 0
+	attack	60 42 522 41 15 1 0 0 20 0
 	frame	data/chars/Gohan/kame15.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 15 1 0 0 20 0
+	attack	60 42 522 41 15 1 0 0 20 0
 	frame	data/chars/Gohan/kame16.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Gohan/kame00.gif
@@ -201,7 +201,7 @@ anim	jumpattack
 	offset	38 77
 	frame	data/chars/Gohan/jatk00.gif
 	frame	data/chars/Gohan/jatk01.gif
-	attack	48 48 20 10 8 1
+	attack	48 48 20 10 8 1 0 0 20 0
 	frame	data/chars/Gohan/jatk02.gif
 	frame	data/chars/Gohan/jatk03.gif
 	frame	data/chars/Gohan/jatk04.gif
@@ -270,11 +270,11 @@ anim	special
 	delay	7
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Gohan/solar01.gif
-	attack	32 50 29 29 20 0 0 0 0 0
+	attack	32 50 29 29 20 0 0 0 20 0
 	frame	data/chars/Gohan/solar02.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/Gohan/solar03.gif
-	attack	32 50 29 29 20 0 0 0 0 0
+	attack	32 50 29 29 20 0 0 0 20 0
 	frame	data/chars/Gohan/solar04.gif
 	blast	31 47 32 33 20 0 0 0 0 0
 	frame	data/chars/Gohan/solar05.gif
@@ -283,26 +283,26 @@ anim	special
 	frame	data/chars/Gohan/solar07.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/Gohan/solar08.gif
-	attack	23 42 45 45 20 0 0 0 0 0
+	attack	23 42 45 45 20 0 0 0 20 0
 	frame	data/chars/Gohan/solar04.gif
 	blast	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/Gohan/solar08.gif
-	attack	24 39 45 45 20 0 0 0 0 0
+	attack	24 39 45 45 20 0 0 0 20 0
 	frame	data/chars/Gohan/solar04.gif
 	blast	0
 	frame	data/chars/Gohan/solar08.gif
-	blast	24 39 45 45 20 0
+	blast	24 39 45 45 20 0 0 0 20 0
 	frame	data/chars/Gohan/solar04.gif
 	blast	0
 	frame	data/chars/Gohan/solar08.gif
 	blast	0
 	frame	data/chars/Gohan/solar07.gif
 	frame	data/chars/Gohan/solar06.gif
-	blast	24 39 45 45 20 0
+	blast	24 39 45 45 20 0 0 0 20 0
 	frame	data/chars/Gohan/solar05.gif
 	frame	data/chars/Gohan/solar04.gif
 	frame	data/chars/Gohan/solar03.gif
-	blast	24 39 45 45 20 1
+	blast	24 39 45 45 20 1 0 0 20 0
 	frame	data/chars/Gohan/solar02.gif
 	blast	0
 	frame	data/chars/Gohan/solar01.gif

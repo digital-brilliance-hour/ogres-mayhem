@@ -29,7 +29,7 @@ anim	attack1
 	sound	data/sounds/Att.wav
 	frame	data/chars/Kenpachi/Att1.gif
 	frame	data/chars/Kenpachi/Att2.gif
-	attack	69 32 50 86 5
+	attack	69 32 50 86 5 0 0 0 20 0
 	frame	data/chars/Kenpachi/Att3.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Kenpachi/Att4.gif
@@ -42,7 +42,7 @@ anim	attack2
 	sound	data/sounds/Att.wav
 	frame	data/chars/Kenpachi/2Att1.gif
 	frame	data/chars/Kenpachi/2Att2.gif
-	attack	69 32 50 86 10
+	attack	69 32 50 86 10 0 0 0 20 0
 	frame	data/chars/Kenpachi/2Att3.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Kenpachi/2Att4.gif
@@ -55,7 +55,7 @@ anim	attack3
 	sound	data/sounds/Att.wav
 	frame	data/chars/Kenpachi/3Att1.gif
 	frame	data/chars/Kenpachi/3Att2.gif
-	attack	69 32 50 86 20 1
+	attack	69 32 50 86 20 1 0 0 20 0
 	frame	data/chars/Kenpachi/3Att3.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Kenpachi/3Att4.gif
@@ -90,21 +90,21 @@ anim	freespecial
 	sound	data/sounds/Att.wav
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Kenpachi/3Att2.gif
-	attack	69 32 50 86 10
+	attack	69 32 50 86 10 0 0 0 20 0
 	frame	data/chars/Kenpachi/3Att3.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Kenpachi/3Att4.gif
 	sound	data/sounds/Att.wav
 	frame	data/chars/Kenpachi/2Att1.gif
 	frame	data/chars/Kenpachi/2Att2.gif
-	attack	69 32 50 86 10
+	attack	69 32 50 86 10 0 0 0 20 0
 	frame	data/chars/Kenpachi/2Att3.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Kenpachi/2Att4.gif
 	sound	data/sounds/Att.wav
 	frame	data/chars/Kenpachi/Att1.gif
 	frame	data/chars/Kenpachi/Att2.gif
-	attack	69 32 50 86 20 1
+	attack	69 32 50 86 20 1 0 0 20 0
 	frame	data/chars/Kenpachi/Att3.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Kenpachi/Att4.gif
@@ -180,24 +180,24 @@ anim	special
 	@cmd	spawnbind "zoomout" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 0
 	offset	117 224
-	attack	61 0 111 223 20 1
+	attack	61 0 111 223 20 1 0 0 20 0
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Kenpachi/Select.gif
-	attack	0 0 0 0 0 0
+	attack	61 0 111 223 20 0 0 0 20 0
 	delay	15
-	attack	61 0 111 223 20
+	attack	61 0 111 223 20 0 0 0 20 0
 	frame	data/chars/Kenpachi/Select.gif
-	attack	0 0 0 0 0 0
+	attack	61 0 111 223 20 0 0 0 20 0
 	delay	15
-	attack	61 0 111 223 20
+	attack	61 0 111 223 20 0 0 0 20 0
 	frame	data/chars/Kenpachi/Select.gif
-	attack	0 0 0 0 0 0
+	attack	61 0 111 223 20 0 0 0 20 0
 	delay	15
-	attack	61 0 111 223 20
+	attack	61 0 111 223 20 0 0 0 20 0
 	frame	data/chars/Kenpachi/Select.gif
-	attack	0 0 0 0 0 0
+	attack	61 0 111 223 20 1 0 0 20 0
 	delay	15
-	attack	61 0 111 223 20 1
+	attack	61 0 111 223 20 1 0 0 20 0
 	frame	data/chars/Kenpachi/Select.gif
 		
 anim	walk

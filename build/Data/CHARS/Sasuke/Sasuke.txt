@@ -27,6 +27,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -34,7 +35,7 @@ anim	attack1
 	bbox	41 64 34 52
 	sound	data/chars/Sasuke/ha.wav
 	frame	data/chars/Sasuke/jab00.gif
-	attack	52 79 42 11 8
+	attack	52 79 42 11 8 0 0 0 20 0
 	frame	data/chars/Sasuke/jab01.gif
 	frame	data/chars/Sasuke/jab02.gif
 	frame	data/chars/Sasuke/upper00.gif
@@ -45,7 +46,7 @@ anim	attack2
 	offset	60 116
 	bbox	41 64 34 52
 	frame	data/chars/Sasuke/kick00.gif
-	attack	32 79 52 31 14
+	attack	32 79 52 31 14 0 0 0 20 0
 	frame	data/chars/Sasuke/kick01.gif
 	frame	data/chars/Sasuke/kick02.gif
 	frame	data/chars/Sasuke/kick03.gif
@@ -57,7 +58,7 @@ anim	attack3
 	bbox	41 64 34 52
 	frame	data/chars/Sasuke/punch00.gif
 	frame	data/chars/Sasuke/punch01.gif
-	attack	57 82 42 9 18 1
+	attack	57 82 42 9 18 1 0 0 20 0
 	frame	data/chars/Sasuke/punch02.gif
 	frame	data/chars/Sasuke/punch03.gif
 	frame	data/chars/Sasuke/punch04.gif
@@ -103,12 +104,12 @@ anim	freespecial
 	@cmd	spawnbind "zoomout" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 0
 	delay	7
-	burn	86 77 84 23 20 1
+	burn	86 77 84 23 20 1 0 0 20 0
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Sasuke/katon01.gif
-	burn	86 71 150 35 20 1
+	burn	86 71 150 35 20 1 0 0 20 0
 	frame	data/chars/Sasuke/katon02.gif
-	burn	86 53 187 58 20 1
+	burn	86 53 187 58 20 1 0 0 20 0
 	frame	data/chars/Sasuke/katon03.gif
 	frame	data/chars/Sasuke/katon04.gif
 	frame	data/chars/Sasuke/katon05.gif
@@ -123,6 +124,68 @@ anim	freespecial
 	frame	data/chars/Sasuke/katon07.gif
 	delay	30
 	frame	data/chars/Sasuke/katon00.gif
+		
+anim	freespecial3
+	@cmd	isavailable 4
+	mpcost	0
+	mponly	1
+	@cmd	enoughmp
+	loop	0
+	offset	60 116
+	@cmd	spawnbind "zoomin" 0 0 0
+	frame	data/chars/Sasuke/chdri00.gif
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	spawnbind "zoomout" 0 0 0
+	delay	10
+	frame	data/chars/Sasuke/chdri01.gif
+	frame	data/chars/Sasuke/chdri02.gif
+	frame	data/chars/Sasuke/chdri03.gif
+	delay	7
+	frame	data/chars/Sasuke/chdri06.gif
+	frame	data/chars/Sasuke/chdri03.gif
+	frame	data/chars/Sasuke/chdri06.gif
+	frame	data/chars/Sasuke/chdri03.gif
+	frame	data/chars/Sasuke/chdri04.gif
+	frame	data/chars/Sasuke/chdri05.gif
+	frame	data/chars/Sasuke/chdri06.gif
+	frame	data/chars/Sasuke/chdri07.gif
+	frame	data/chars/Sasuke/chdri08.gif
+	blast	37 82 52 41 30 1
+	frame	data/chars/Sasuke/chdri09.gif
+	frame	data/chars/Sasuke/chdri10.gif
+	frame	data/chars/Sasuke/chdri11.gif
+	frame	data/chars/Sasuke/chdri12.gif
+	frame	data/chars/Sasuke/chdri13.gif
+	frame	data/chars/Sasuke/chdri14.gif
+	blast	0
+	frame	data/chars/Sasuke/chdri15.gif
+	@cmd	dasher 1 0 0
+	blast	9 82 66 35 30 1 0 0 20 0
+	@cmd	spawnparent "pdust" -10 0 -20
+	frame	data/chars/Sasuke/chdri16.gif
+	frame	data/chars/Sasuke/chdri17.gif
+	delay	3
+	@cmd	dasher 3 0 0
+	blast	31 69 79 37 30 1 0 0 20 0
+	frame	data/chars/Sasuke/chdri18.gif
+	frame	data/chars/Sasuke/chdri18.gif
+	frame	data/chars/Sasuke/chdri18.gif
+	@cmd	spawnparent "pdust" -10 0 -20
+	frame	data/chars/Sasuke/chdri19.gif
+	frame	data/chars/Sasuke/chdri19.gif
+	frame	data/chars/Sasuke/chdri19.gif
+	move	3
+	frame	data/chars/Sasuke/chdri19.gif
+	frame	data/chars/Sasuke/chdri19.gif
+	frame	data/chars/Sasuke/chdri19.gif
+	delay	7
+	@cmd	stop
+	frame	data/chars/Sasuke/chdri20.gif
+	frame	data/chars/Sasuke/chdri21.gif
+	frame	data/chars/Sasuke/chdri22.gif
+	blast	0
+	delay	30
+	frame	data/chars/Sasuke/chdri23.gif
 		
 anim	get
 	loop	0
@@ -227,7 +290,7 @@ anim	runattack
 	frame	data/chars/Sasuke/rush01.gif
 	frame	data/chars/Sasuke/rush01.gif
 	frame	data/chars/Sasuke/rush01.gif
-	blast	55 89 33 7 14 1
+	blast	55 89 33 7 14 1 0 0 20 0
 	frame	data/chars/Sasuke/rush02.gif
 	frame	data/chars/Sasuke/rush02.gif
 	frame	data/chars/Sasuke/rush02.gif
@@ -237,68 +300,6 @@ anim	runattack
 	frame	data/chars/Sasuke/rush02.gif
 	delay	7
 	frame	data/chars/Sasuke/rush03.gif
-		
-anim	freespecial3
-	@cmd	isavailable 4
-	mpcost	0
-	mponly	1
-	@cmd	enoughmp
-	loop	0
-	offset	60 116
-	@cmd	spawnbind "zoomin" 0 0 0
-	frame	data/chars/Sasuke/chdri00.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
-	@cmd	spawnbind "zoomout" 0 0 0
-	delay	10
-	frame	data/chars/Sasuke/chdri01.gif
-	frame	data/chars/Sasuke/chdri02.gif
-	frame	data/chars/Sasuke/chdri03.gif
-	delay	7
-	frame	data/chars/Sasuke/chdri06.gif
-	frame	data/chars/Sasuke/chdri03.gif
-	frame	data/chars/Sasuke/chdri06.gif
-	frame	data/chars/Sasuke/chdri03.gif
-	frame	data/chars/Sasuke/chdri04.gif
-	frame	data/chars/Sasuke/chdri05.gif
-	frame	data/chars/Sasuke/chdri06.gif
-	frame	data/chars/Sasuke/chdri07.gif
-	frame	data/chars/Sasuke/chdri08.gif
-	blast	37 82 52 41 30 1
-	frame	data/chars/Sasuke/chdri09.gif
-	frame	data/chars/Sasuke/chdri10.gif
-	frame	data/chars/Sasuke/chdri11.gif
-	frame	data/chars/Sasuke/chdri12.gif
-	frame	data/chars/Sasuke/chdri13.gif
-	frame	data/chars/Sasuke/chdri14.gif
-	blast	0
-	frame	data/chars/Sasuke/chdri15.gif
-	@cmd	dasher 1 0 0
-	blast	9 82 66 35 30 1
-	@cmd	spawnparent "pdust" -10 0 -20
-	frame	data/chars/Sasuke/chdri16.gif
-	frame	data/chars/Sasuke/chdri17.gif
-	delay	3
-	@cmd	dasher 3 0 0
-	blast	31 69 79 37 30 1
-	frame	data/chars/Sasuke/chdri18.gif
-	frame	data/chars/Sasuke/chdri18.gif
-	frame	data/chars/Sasuke/chdri18.gif
-	@cmd	spawnparent "pdust" -10 0 -20
-	frame	data/chars/Sasuke/chdri19.gif
-	frame	data/chars/Sasuke/chdri19.gif
-	frame	data/chars/Sasuke/chdri19.gif
-	move	3
-	frame	data/chars/Sasuke/chdri19.gif
-	frame	data/chars/Sasuke/chdri19.gif
-	frame	data/chars/Sasuke/chdri19.gif
-	delay	7
-	@cmd	stop
-	frame	data/chars/Sasuke/chdri20.gif
-	frame	data/chars/Sasuke/chdri21.gif
-	frame	data/chars/Sasuke/chdri22.gif
-	blast	0
-	delay	30
-	frame	data/chars/Sasuke/chdri23.gif
 		
 anim	walk
 	loop	1

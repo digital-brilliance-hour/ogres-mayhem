@@ -89,7 +89,7 @@ anim	attack1
 	frame	data/chars/Ichigo/93.gif
 	offset	18 45
 	frame	data/chars/Ichigo/94.gif
-	attack	18 6 58 37 5 0 1 0 0 0
+	attack	18 6 58 37 5 0 1 0 20 0
 	offset	17 44
 	frame	data/chars/Ichigo/95.gif
 	offset	18 41
@@ -106,7 +106,7 @@ anim	attack2
 	offset	58 116
 	sound	data/sounds/Att.wav
 	frame	data/chars/Ichigo/2Att1.gif
-	attack	80 46 50 70 7 0 0 0 0 0
+	attack	80 46 50 70 7 0 0 0 20 0
 	frame	data/chars/Ichigo/2Att2.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Ichigo/2Att3.gif
@@ -119,7 +119,7 @@ anim	attack3
 	offset	58 116
 	sound	data/sounds/Att.wav
 	frame	data/chars/Ichigo/Att1.gif
-	attack	80 46 50 70 9 1 0 0 0 0
+	attack	80 46 50 70 9 1 0 0 20 0
 	frame	data/chars/Ichigo/Att2.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Ichigo/Att3.gif
@@ -137,7 +137,7 @@ anim	chargeattack
 	offset	58 116
 	sound	data/sounds/Att.wav
 	frame	data/chars/Ichigo/3Att1.gif
-	attack	80 46 50 70 10 1 0 0 0 0
+	attack	80 46 50 70 10 1 0 0 20 0
 	frame	data/chars/Ichigo/3Att2.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Ichigo/3Att3.gif
@@ -205,7 +205,7 @@ anim	freespecial
 	mpcost	10
 	offset	18 45
 	frame	data/chars/Ichigo/94.gif
-	attack	15 1 67 44 8 0 1 0 0 0
+	attack	15 1 67 44 8 0 1 0 20 0
 	offset	17 44
 	frame	data/chars/Ichigo/95.gif
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -221,13 +221,13 @@ anim	freespecial
 	frame	data/chars/Ichigo/100.gif
 	offset	40 41
 	frame	data/chars/Ichigo/101.gif
-	attack	15 1 67 44 8 0 0 1 0 0
+	attack	15 1 67 44 8 0 0 1 20 0
 	offset	19 58
 	frame	data/chars/Ichigo/102.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	25 94
 	frame	data/chars/Ichigo/103.gif
-	attack	42 4 -62 66 8 0 1 0 0 0
+	attack	42 4 -62 66 8 0 1 0 20 0
 	offset	49 70
 	frame	data/chars/Ichigo/104.gif
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -243,7 +243,7 @@ anim	freespecial
 	frame	data/chars/Ichigo/109.gif
 	offset	33 54
 	frame	data/chars/Ichigo/110.gif
-	attack	31 5 72 65 10 1 1 0 0 0
+	attack	31 5 72 65 10 1 1 0 20 0
 	dropv	2 4 0
 	offset	17 71
 	frame	data/chars/Ichigo/111.gif
@@ -276,22 +276,22 @@ anim	freespecial10
 	frame	data/chars/Ichigo/Spec3.gif
 	frame	data/chars/Ichigo/Spec4.gif
 	sound	data/sounds/Att.wav
-	attack	6 40 114 75 15 0 0 0 0 0
+	attack	6 40 114 75 15 0 0 0 20 0
 	frame	data/chars/Ichigo/Spec5.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Ichigo/Spec5.gif
 	sound	data/sounds/Att.wav
-	attack	6 40 114 75 15 0 0 0 0 0
+	attack	6 40 114 75 15 0 0 0 20 0
 	frame	data/chars/Ichigo/Spec6.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Ichigo/Spec6.gif
 	sound	data/sounds/Att.wav
-	attack	6 40 114 75 15 0 0 0 0 0
+	attack	6 40 114 75 15 0 0 0 20 0
 	frame	data/chars/Ichigo/Spec7.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Ichigo/Spec7.gif
 	sound	data/sounds/Att.wav
-	attack	6 40 114 75 50 1 0 0 0 0
+	attack	6 40 114 75 50 1 0 0 20 0
 	frame	data/chars/Ichigo/Spec8.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Ichigo/Duck1.gif
@@ -382,7 +382,7 @@ anim	freespecial2
 	frame	data/chars/Ichigo/127.gif
 	offset	17 56
 	frame	data/chars/Ichigo/128.gif
-	attack	40 0 92 41 15 1 1 0 0 5
+	attack	40 0 92 41 15 1 1 0 20 5
 	dropv	2 4 0
 	offset	47 41
 	frame	data/chars/Ichigo/129.gif
@@ -486,7 +486,7 @@ anim	freespecial5
 	mpcost	30
 	offset	17 56
 	frame	data/chars/Ichigo/166.gif
-	attack	-13 0 137 67 20 1 1 0 0 0
+	attack	-13 0 137 67 20 1 1 0 20 0
 	offset	65 66
 	frame	data/chars/Ichigo/167.gif
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -494,31 +494,31 @@ anim	freespecial5
 	frame	data/chars/Ichigo/168.gif
 	@cmd	spawnbind "windTwirl" 0 0 0
 	sound	data/chars/Ichigo/ichigo_52-0.wav
-	attack	-13 0 137 67 20 1 0 1 0 0
+	attack	-13 0 137 67 20 1 0 1 20 0
 	offset	65 65
 	frame	data/chars/Ichigo/169.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	65 65
 	frame	data/chars/Ichigo/170.gif
-	attack	-13 0 137 67 20 1 1 0 0 0
+	attack	-13 0 137 67 20 1 1 0 20 0
 	offset	66 65
 	frame	data/chars/Ichigo/171.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	66 66
 	frame	data/chars/Ichigo/172.gif
-	attack	-13 0 137 67 20 1 0 1 0 0
+	attack	-13 0 137 67 20 1 0 1 20 0
 	offset	65 65
 	frame	data/chars/Ichigo/173.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	65 65
 	frame	data/chars/Ichigo/174.gif
-	attack	-13 0 137 67 20 1 1 0 0 0
+	attack	-13 0 137 67 20 1 1 0 20 0
 	offset	66 65
 	frame	data/chars/Ichigo/171.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	66 66
 	frame	data/chars/Ichigo/172.gif
-	attack	-13 0 137 67 20 1 0 1 0 0
+	attack	-13 0 137 67 20 1 0 1 20 0
 	offset	65 65
 	frame	data/chars/Ichigo/173.gif
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -717,7 +717,7 @@ anim	runattack
 	frame	data/chars/Ichigo/2Att1.gif
 	frame	data/chars/Ichigo/2Att1.gif
 	delay	4
-	attack	80 46 50 70 8 1 0 0 0 0
+	attack	80 46 50 70 8 1 0 0 20 0
 	frame	data/chars/Ichigo/2Att2.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Ichigo/2Att3.gif

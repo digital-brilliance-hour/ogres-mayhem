@@ -63,7 +63,7 @@ anim	attack1
 	frame	data/chars/Lee/35.gif
 	offset	13 41
 	frame	data/chars/Lee/36.gif
-	attack	19 2 35 25 10 0 1 0 0 0
+	attack	19 2 35 25 10 0 1 0 20 0
 	offset	13 40
 	frame	data/chars/Lee/37.gif
 		
@@ -74,13 +74,13 @@ anim	attack2
 	frame	data/chars/Lee/44.gif
 	offset	13 44
 	frame	data/chars/Lee/45.gif
-	attack	15 3 56 45 10 0 1 0 10 0
+	attack	15 3 56 45 10 0 1 0 20 0
 	offset	14 58
 	frame	data/chars/Lee/46.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	11 55
 	frame	data/chars/Lee/47.gif
-	attack	11 5 53 39 10 0 1 0 10 0
+	attack	11 5 53 39 10 0 1 0 20 0
 	offset	13 44
 	frame	data/chars/Lee/50.gif
 	offset	8 45
@@ -99,19 +99,19 @@ anim	attack3
 	frame	data/chars/Lee/75.gif
 	offset	-2 41
 	frame	data/chars/Lee/76.gif
-	attack	13 3 33 42 12 0 1 0 0 0
+	attack	13 3 33 42 12 0 1 0 20 0
 	offset	-7 43
 	frame	data/chars/Lee/77.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	15 39
 	frame	data/chars/Lee/78.gif
-	attack	11 1 48 39 12 0 1 0 0 0
+	attack	11 1 48 39 12 0 1 0 20 0
 	offset	16 37
 	frame	data/chars/Lee/79.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	15 40
 	frame	data/chars/Lee/80.gif
-	attack	16 1 47 37 14 1 1 0 0 0
+	attack	16 1 47 37 14 1 1 0 20 0
 	offset	9 36
 	frame	data/chars/Lee/81.gif
 		
@@ -133,13 +133,51 @@ anim	chargeattack
 	frame	data/chars/Lee/199.gif
 	offset	24 40
 	frame	data/chars/Lee/200.gif
-	attack	13 51 73 -51 17 1 1 0 0 0
+	attack	13 51 73 -51 17 1 1 0 20 0
 	offset	26 53
 	frame	data/chars/Lee/201.gif
 	offset	26 45
 	frame	data/chars/Lee/202.gif
 	offset	25 42
 	frame	data/chars/Lee/203.gif
+		
+anim	dodge
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	7
+	offset	8 41
+	frame	data/chars/Lee/160.gif
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	drawmethod	rotate 90
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	delay	7
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	drawmethod	rotate 0
+	fshadow	3
+	delay	7
+	offset	8 41
+	frame	data/chars/Lee/160.gif
 		
 anim	faint
 	bbox	8 3 23 30
@@ -195,66 +233,66 @@ anim	freespecial
 	frame	data/chars/Lee/98.gif
 	delay	7
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	14 1 69 30 13 0 1 0 0 0
+	attack	14 1 69 30 13 0 1 0 20 0
 	offset	12 42
 	sound	data/chars/lee/lee_5-6.wav
 	frame	data/chars/Lee/117.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	13 42
 	frame	data/chars/Lee/118.gif
-	attack	14 1 69 30 13 0 0 1 0 0
+	attack	14 1 69 30 13 0 0 1 20 0
 	offset	12 41
 	sound	data/chars/lee/lee_5-6.wav
 	frame	data/chars/Lee/119.gif
 	offset	14 43
 	frame	data/chars/Lee/120.gif
-	attack	14 1 69 30 13 0 1 0 0 0
+	attack	14 1 69 30 13 0 1 0 20 0
 	offset	12 42
 	sound	data/chars/lee/lee_5-6.wav
 	frame	data/chars/Lee/117.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	13 42
 	frame	data/chars/Lee/118.gif
-	attack	14 1 69 30 13 0 0 1 0 0
+	attack	14 1 69 30 13 0 0 1 20 0
 	offset	12 41
 	sound	data/chars/lee/lee_5-6.wav
 	frame	data/chars/Lee/119.gif
 	offset	14 43
 	frame	data/chars/Lee/120.gif
-	attack	14 1 69 30 13 0 1 0 0 0
+	attack	14 1 69 30 13 0 1 0 20 0
 	offset	12 42
 	sound	data/chars/lee/lee_5-6.wav
 	frame	data/chars/Lee/117.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	13 42
 	frame	data/chars/Lee/118.gif
-	attack	14 1 69 30 13 0 0 1 0 0
+	attack	14 1 69 30 13 0 0 1 20 0
 	offset	12 41
 	sound	data/chars/lee/lee_5-6.wav
 	frame	data/chars/Lee/119.gif
 	offset	14 43
 	frame	data/chars/Lee/120.gif
-	attack	14 1 69 30 13 0 1 0 0 0
+	attack	14 1 69 30 13 0 1 0 20 0
 	offset	12 42
 	sound	data/chars/lee/lee_5-6.wav
 	frame	data/chars/Lee/117.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	13 42
 	frame	data/chars/Lee/118.gif
-	attack	14 1 69 30 13 0 0 1 0 0
+	attack	14 1 69 30 13 0 0 1 20 0
 	offset	12 41
 	sound	data/chars/lee/lee_5-6.wav
 	frame	data/chars/Lee/119.gif
 	offset	14 43
 	frame	data/chars/Lee/120.gif
-	attack	14 1 69 30 13 0 1 0 0 0
+	attack	14 1 69 30 13 0 1 0 20 0
 	offset	12 42
 	sound	data/chars/lee/lee_5-6.wav
 	frame	data/chars/Lee/117.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	13 42
 	frame	data/chars/Lee/118.gif
-	attack	14 1 69 30 13 0 0 1 0 0
+	attack	14 1 69 30 13 0 0 1 20 0
 	offset	12 41
 	frame	data/chars/Lee/119.gif
 	offset	14 43
@@ -332,14 +370,14 @@ anim	freespecial2
 	offset	12 42
 	frame	data/chars/Lee/174.gif
 	sound	data/chars/lee/lee_5-6.wav
-	attack	22 3 54 30 14 0 1 0 0 0
+	attack	22 3 54 30 14 0 1 0 20 0
 	offset	12 42
 	frame	data/chars/Lee/175.gif
 	@cmd	dasher 2 0 0
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	13 39
 	frame	data/chars/Lee/176.gif
-	attack	24 1 47 42 15 0 1 0 0 0
+	attack	24 1 47 42 15 0 1 0 20 0
 	offset	24 41
 	frame	data/chars/Lee/180.gif
 	sound	data/chars/lee/lee_5-4.wav
@@ -348,7 +386,7 @@ anim	freespecial2
 	frame	data/chars/Lee/179.gif
 	@cmd	stop
 	delay	20
-	blast	14 1 51 42 16 1 1 0 0 0
+	blast	14 1 51 42 16 1 1 0 20 0
 	offset	25 42
 	frame	data/chars/Lee/178.gif
 	@cmd	spawnparent "pdust" -10 0 -20
@@ -433,44 +471,6 @@ anim	jumpattack2
 	offset	19 38
 	frame	data/chars/Lee/94.gif
 		
-anim	dodge
-	sound	data/chars/yusuke/broly_5-22.wav
-	delay	7
-	offset	8 41
-	frame	data/chars/Lee/160.gif
-	delay	2
-	fshadow	0
-	drawmethod	scale 0.3 0.2
-	drawmethod	alpha 1
-	drawmethod	rotate 90
-	offset	179 61
-	frame	data/chars/yusuke/840.gif
-	offset	178 63
-	frame	data/chars/yusuke/841.gif
-	offset	219 65
-	frame	data/chars/yusuke/842.gif
-	offset	225 79
-	frame	data/chars/yusuke/843.gif
-	offset	222 82
-	frame	data/chars/yusuke/844.gif
-	offset	223 79
-	frame	data/chars/yusuke/845.gif
-	offset	226 80
-	frame	data/chars/yusuke/846.gif
-	offset	219 83
-	frame	data/chars/yusuke/847.gif
-	offset	209 83
-	frame	data/chars/yusuke/848.gif
-	delay	7
-	frame	data/chars/misc/empty.gif
-	drawmethod	scale 1
-	drawmethod	alpha 0
-	drawmethod	rotate 0
-	fshadow	3
-	delay	7
-	offset	8 41
-	frame	data/chars/Lee/160.gif
-		
 anim	pain
 	delay	7
 	offset	12 43
@@ -511,14 +511,14 @@ anim	runattack
 	frame	data/chars/Lee/199.gif
 	offset	24 40
 	frame	data/chars/Lee/200.gif
-	attack	13 51 73 -51 19 0 1 0 0 0
+	attack	13 51 73 -51 19 0 1 0 20 0
 	offset	26 53
 	frame	data/chars/Lee/201.gif
 	@cmd	dasher 1 0 0
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	26 45
 	frame	data/chars/Lee/202.gif
-	attack	21 1 42 42 19 1 1 0 0 0
+	attack	21 1 42 42 19 1 1 0 20 0
 	offset	25 42
 	frame	data/chars/Lee/203.gif
 	@cmd	stop

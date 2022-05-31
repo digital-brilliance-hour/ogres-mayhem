@@ -42,9 +42,9 @@ anim	attack1
 	offset	38 77
 	sound	data/chars/Zoro/punch.wav
 	frame	data/chars/Zoro/punch01.gif
-	attack	74 54 29 11 10
+	attack	74 54 29 11 10 0 0 0 20 0
 	frame	data/chars/Zoro/punch02.gif
-	attack	74 54 29 11 10
+	attack	74 54 29 11 10 0 0 0 20 0
 	frame	data/chars/Zoro/punch03.gif
 	frame	data/chars/Zoro/punch04.gif
 	frame	data/chars/Zoro/punch05.gif
@@ -65,14 +65,14 @@ anim	attack2
 	frame	data/chars/Zoro/Tora07.gif
 	frame	data/chars/Zoro/Tora08.gif
 	frame	data/chars/Zoro/Tora09.gif
-	attack	70 19 33 62 50
-	attack	70 19 33 62 50
+	attack	70 19 33 62 50 0 0 0 20 0
+	attack	70 19 33 62 50 0 0 0 20 0
 	frame	data/chars/Zoro/Tora10.gif
-	attack	70 19 33 62 50
-	attack	70 19 33 62 50
+	attack	70 19 33 62 50 0 0 0 20 0
+	attack	70 19 33 62 50 0 0 0 20 0
 	frame	data/chars/Zoro/Tora11.gif
-	attack	70 19 33 62 50
-	attack	70 19 33 62 50
+	attack	70 19 33 62 50 0 0 0 20 0
+	attack	70 19 33 62 50 0 0 0 20 0
 	frame	data/chars/Zoro/Tora12.gif
 	frame	data/chars/Zoro/Tora13.gif
 	frame	data/chars/Zoro/Tora14.gif
@@ -98,11 +98,11 @@ anim	attack3
 	frame	data/chars/Zoro/Tora07.gif
 	frame	data/chars/Zoro/Tora08.gif
 	frame	data/chars/Zoro/Tora09.gif
-	attack	70 19 33 62 50 1
+	attack	70 19 33 62 50 1 0 0 20 0
 	frame	data/chars/Zoro/Tora10.gif
 	attack	0
 	frame	data/chars/Zoro/Tora11.gif
-	attack	70 19 33 62 50 1
+	attack	70 19 33 62 50 1 0 0 20 0
 	frame	data/chars/Zoro/Tora12.gif
 	attack	0
 	frame	data/chars/Zoro/Tora13.gif
@@ -124,11 +124,11 @@ anim	chargeattack
 	frame	data/chars/Zoro2/oni04.gif
 	frame	data/chars/Zoro2/oni05.gif
 	frame	data/chars/Zoro2/oni06.gif
-	blast	29 28 75 52 50
+	blast	29 28 75 52 50 0 0 0 20 0
 	frame	data/chars/Zoro2/oni07.gif
-	blast	29 28 75 52 50
+	blast	29 28 75 52 50 0 0 0 20 0
 	frame	data/chars/Zoro2/oni08.gif
-	blast	29 28 75 52 50
+	blast	29 28 75 52 50 0 0 0 20 0
 	frame	data/chars/Zoro2/oni09.gif
 	delay	5
 	frame	data/chars/Zoro2/oni10.gif
@@ -185,17 +185,17 @@ anim	freespecial
 	delay	3
 	sound	data/chars/Zoro/son3.wav
 	frame	data/chars/Zoro/son13.gif
-	attack	65 1 145 150 100
-	blast	65 1 145 150 100
+	blast	65 1 145 150 100 0 0 0 20 0
+	blast	65 1 145 150 100 0 0 0 20 0
 	frame	data/chars/Zoro/son14.gif
-	attack	65 1 145 150 100
-	blast	65 1 145 150 100
+	blast	65 1 145 150 100 0 0 0 20 0
+	blast	65 1 145 150 100 0 0 0 20 0
 	frame	data/chars/Zoro/son15.gif
-	attack	65 1 145 150 100
-	blast	65 1 145 150 100
+	blast	65 1 145 150 100 0 0 0 20 0
+	blast	65 1 145 150 100 0 0 0 20 0
 	frame	data/chars/Zoro/son16.gif
-	attack	65 1 145 150 100
-	blast	65 1 145 150 100
+	blast	65 1 145 150 100 0 0 0 20 0
+	blast	65 1 145 150 100 0 0 0 20 0
 	frame	data/chars/Zoro/son17.gif
 	frame	data/chars/Zoro/son18.gif
 	frame	data/chars/Zoro/son19.gif
@@ -328,15 +328,15 @@ anim	runattack
 	frame	data/chars/Zoro/jatk01.gif
 	frame	data/chars/Zoro/jatk02.gif
 	frame	data/chars/Zoro/jatk03.gif
-	attack	10 10 77 66 50 1
+	attack	10 10 77 66 50 1 0 0 20 0
 	frame	data/chars/Zoro/jatk04.gif
 	attack	0
 	frame	data/chars/Zoro/jatk05.gif
-	attack	10 10 77 66 50 1
+	attack	10 10 77 66 50 1 0 0 20 0
 	frame	data/chars/Zoro/jatk06.gif
 	attack	0
 	frame	data/chars/Zoro/jatk07.gif
-	attack	10 10 77 66 50 1
+	attack	10 10 77 66 50 1 0 0 20 0
 	frame	data/chars/Zoro/jatk08.gif
 	bbox	35 39 17 24
 	offset	41 77
@@ -344,15 +344,15 @@ anim	runattack
 	frame	data/chars/Zoro/jatk01.gif
 	frame	data/chars/Zoro/jatk02.gif
 	frame	data/chars/Zoro/jatk03.gif
-	attack	10 10 77 66 50 1
+	attack	10 10 77 66 50 1 0 0 20 0
 	frame	data/chars/Zoro/jatk04.gif
 	attack	0
 	frame	data/chars/Zoro/jatk05.gif
-	attack	10 10 77 66 50 1
+	attack	10 10 77 66 50 1 0 0 20 0
 	frame	data/chars/Zoro/jatk06.gif
 	attack	0
 	frame	data/chars/Zoro/jatk07.gif
-	attack	10 10 77 66 50 1
+	attack	10 10 77 66 50 1 0 0 20 0
 	frame	data/chars/Zoro/jatk08.gif
 		
 anim	select
