@@ -124,11 +124,11 @@ select  data/scenes/main-select.txt
 file data/levels/tutorial.txt
 
 set stage_6
-z 160 270 110
+z 110 270 160
 file	data/levels/stage6.txt
 
 set stage_7
-z 110 270 160
+z 173 220 47
 file	data/levels/stage7.txt
 
 set stage_8

@@ -6,6 +6,8 @@ order a
 
 stagenumber 7
 
+bgspeed	 50	0
+
 spawn ready
 	coords 240 136
 	at 0
@@ -83,24 +85,8 @@ spawn dog
 coords	-30 180
 at 1115
 
-spawn dog
-coords	-30 180
-at 1115
-
-spawn dog
-coords	-30 200
-at 1115
-
-spawn dog
-coords	-30 200
-at 1115
-
-spawn dog
-coords	-30 200
-at 1115
-
-spawn dog
-coords	-30 180
+spawn throw
+coords	510 180
 at 1115
 
 spawn dog
@@ -111,24 +97,40 @@ spawn throw
 coords	510 180
 at 1115
 
-spawn throw
-coords	510 180
+spawn dog
+coords	-30 200
 at 1115
 
 spawn throw
 coords	510 180
 at 1115
 
-spawn throw
-coords	510 200
+spawn dog
+coords	-30 200
 at 1115
 
 spawn throw
 coords	510 200
 at 1115
 
+spawn dog
+coords	-30 200
+at 1115
+
 spawn throw
 coords	510 200
+at 1115
+
+spawn dog
+coords	-30 180
+at 1115
+
+spawn throw
+coords	510 200
+at 1115
+
+spawn dog
+coords	-30 180
 at 1115
 
 spawn pirate
@@ -154,52 +156,6 @@ at 1115
 spawn pirate
 coords	510 200
 at 1115
-
-group 5 5
-at 1325
-
-wait
-at 1325
-
-spawn gunner
-coords	-30 200
-at 1325
-
-spawn gunner
-coords	-30 200
-at 1325
-
-spawn gunner
-coords	-30 200
-at 1325
-
-spawn gunner
-coords	-30 200
-at 1325
-
-spawn gunner
-coords	-30 200
-at 1325
-
-spawn gunner
-coords	-30 200
-at 1325
-
-spawn ninja_
-coords	-30 180
-at 1325
-
-spawn ninja_
-coords	-30 180
-at 1325
-
-spawn ninja_
-coords	-30 180
-at 1325
-
-spawn ninja_
-coords	-30 180
-at 1325
 
 spawn crate
 item hp_hundred
@@ -220,6 +176,12 @@ spawn Story
 alias shanksdialog
 at 1324
 
+group 5 5
+at 1325
+
+wait
+at 1325
+
 spawn shanks
 alias Shanks
 boss 1
@@ -227,5 +189,44 @@ health 800
 coords	405 200
 at 1325
 
-wait
+spawn gunner
+coords	-30 200
 at 1325
+
+spawn gunner
+coords	-30 200
+at 1325
+
+spawn gunner
+coords	-30 200
+at 1325
+
+spawn gunner
+coords	-30 200
+at 1325
+
+spawn gunner
+coords	-30 200
+at 1325
+
+spawn gunner
+coords	-30 200
+at 1325
+
+spawn ninja_
+coords	-30 180
+at 1325
+
+spawn ninja_
+coords	-30 180
+at 1325
+
+spawn ninja_
+coords	-30 180
+at 1325
+
+spawn ninja_
+coords	-30 180
+at 1325
+
+
