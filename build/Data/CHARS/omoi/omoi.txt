@@ -16,6 +16,7 @@ jumpheight 4
 icon	data/chars/omoi/icon.png
 didhitscript data/scripts/didhit/didhit.c
 
+
 anim	attack1
 	loop	0
 	offset	28 59
@@ -219,6 +220,7 @@ anim	run
 	offset	19 51
 	delay	7
 	bbox	3 -1 41 51
+	sound	data/sounds/walk.wav
 	frame	data/chars/omoi/157.png
 	frame	data/chars/omoi/158.png
 	frame	data/chars/omoi/159.png
@@ -309,6 +311,7 @@ anim	walk
 	offset	9 59
 	frame	data/chars/omoi/152.png
 	offset	15 59
+	sound	data/sounds/walk.wav
 	frame	data/chars/omoi/153.png
 	offset	8 59
 	frame	data/chars/omoi/154.png

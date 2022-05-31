@@ -7,6 +7,7 @@ speed   10
 
 
 
+
 anim	attack1
 	range	0 40
 	rangez	0 20
@@ -18,6 +19,7 @@ anim	attack1
 	delay	4
 	frame	data/chars/harpy/attack1-3.png
 	frame	data/chars/harpy/attack1-4.png
+	attack	27 1 43 58 12 1 1 0 0 0
 	frame	data/chars/harpy/attack1-5.png
 		
 anim	fall

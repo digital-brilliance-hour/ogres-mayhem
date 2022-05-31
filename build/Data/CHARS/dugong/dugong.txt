@@ -16,6 +16,7 @@ animationscript data/scripts/spawns.c
 didhitscript data/scripts/didhit/didhit.c
 
 
+
 anim	attack1
 	loop	0
 	delay	4
@@ -171,6 +172,7 @@ anim	run
 	frame	data/chars/Dugong/run01.gif
 	frame	data/chars/Dugong/run02.gif
 	frame	data/chars/Dugong/run03.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Dugong/run04.gif
 	frame	data/chars/Dugong/run05.gif
 	frame	data/chars/Dugong/run04.gif
@@ -232,6 +234,7 @@ anim	walk
 	frame	data/chars/Dugong/walk02.gif
 	frame	data/chars/Dugong/walk03.gif
 	frame	data/chars/Dugong/walk02.gif
+	sound	data/sounds/walk.wav
 		
 #|edited by openBor Stats v 0.67
 		

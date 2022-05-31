@@ -1,0 +1,25 @@
+name  kenHit
+type none
+shadow 0
+alpha 1
+
+
+
+
+anim	idle
+	delay	7
+	drawmethod	scale 0.50
+	offset	79 57
+	frame	data/chars/Kenpachi/119.gif
+	offset	86 64
+	frame	data/chars/Kenpachi/120.gif
+	offset	76 56
+	frame	data/chars/Kenpachi/121.gif
+	offset	57 5
+	frame	data/chars/Kenpachi/122.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

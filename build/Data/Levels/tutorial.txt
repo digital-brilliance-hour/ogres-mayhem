@@ -17,18 +17,13 @@ updatescript data/scripts/levels/freeenergy.c
 
 
 
-scrollx 0 2500
-at 0
 
-spawn ready
-	coords 240 136
-	at 0
 
 spawn tutorialpanel1
 coords -10 0
 at 0
 
-spawn	dummy
+spawn dummy
 health  2047483647
 coords	400 180
 at 0

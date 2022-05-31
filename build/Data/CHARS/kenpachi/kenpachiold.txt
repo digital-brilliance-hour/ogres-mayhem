@@ -2,6 +2,7 @@ name
 
 
 
+
 anim	0002
 	delay	7
 	offset	165 273
@@ -974,7 +975,7 @@ anim	freespecial1056
 	frame	data/chars/Kenpachi/585.gif
 		
 anim	freespecial1057
-	delay	7
+	delay	3
 	offset	246 1
 	frame	data/chars/Kenpachi/219.gif
 	offset	233 55

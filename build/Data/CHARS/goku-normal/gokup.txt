@@ -37,6 +37,8 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
+
 anim	attack1
 	loop	0
 	delay	5
