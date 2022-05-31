@@ -34,7 +34,7 @@ at 200
 group 4 4
 at 200
 
-spawn facce
+spawn leona
 coords 480 130
 at 200
 
