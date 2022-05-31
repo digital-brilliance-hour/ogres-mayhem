@@ -50,6 +50,8 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
+
 anim	attack1
 	delay	7
 	offset	30 47

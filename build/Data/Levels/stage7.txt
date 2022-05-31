@@ -12,6 +12,22 @@ spawn fire
 coords 2000 252
 at 0
 
+spawn soldier
+@script
+void main() {
+     void self = getlocalvar("self");
+     changeentityproperty(self, "noaicontrol", 0);
+     changeentityproperty(self, "subject_to_screen", 0);
+     changeentityproperty(self, "aiflag", "walking", 0);
+     changeentityproperty(self, "aiflag", "idling", 0);
+     changeentityproperty(self, "aiflag", "attacking", 0);
+     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
+}
+@end_script
+noatk_duration 900
+coords 530 115
+at 50
+
 wait
 at 200
 

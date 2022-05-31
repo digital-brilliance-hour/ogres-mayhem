@@ -1,0 +1,45 @@
+name  kenSlashGround
+type none
+alpha 1
+health 1
+speed 20
+
+
+
+
+anim	idle
+	delay	3
+	drawmethod	scale 0.60
+	offset	485 375
+	frame	data/chars/Kenpachi/1018.gif
+	offset	485 375
+	frame	data/chars/Kenpachi/1019.gif
+	attack	370 258 240 124 90 1 1 0 30 80
+	offset	485 375
+	frame	data/chars/Kenpachi/1020.gif
+	offset	485 375
+	frame	data/chars/Kenpachi/1021.gif
+	attack	370 258 240 124 90 1 0 1 30 80
+	offset	485 375
+	frame	data/chars/Kenpachi/1022.gif
+	offset	485 375
+	frame	data/chars/Kenpachi/1023.gif
+	attack	370 258 240 124 90 1 1 0 30 80
+	offset	485 375
+	frame	data/chars/Kenpachi/1024.gif
+	offset	485 375
+	frame	data/chars/Kenpachi/1025.gif
+	attack	370 258 240 124 90 1 0 1 30 80
+	offset	485 376
+	frame	data/chars/Kenpachi/1026.gif
+	offset	485 375
+	frame	data/chars/Kenpachi/1027.gif
+	attack	370 258 240 124 90 1 1 0 30 80
+	offset	485 373
+	frame	data/chars/Kenpachi/1028.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

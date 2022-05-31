@@ -68,6 +68,8 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
+
 anim	attack1
 	sound	data/chars/gon/gon_0-23.wav
 	delay	7
@@ -476,9 +478,9 @@ anim	run
 	frame	data/chars/Gon/11.gif
 	offset	14 38
 	frame	data/chars/Gon/12.gif
+	sound	data/sounds/walk.wav
 	bbox	8 2 13 34
 	offset	5 37
-	sound	data/sounds/walk.wav
 	frame	data/chars/Gon/13.gif
 	bbox	8 2 22 37
 	offset	13 37

@@ -46,6 +46,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	7
 	offset	15 35
@@ -406,6 +407,7 @@ anim	walk
 	frame	data/chars/Shrek/10.gif
 	bbox	3 2 38 42
 	offset	24 44
+	sound	data/sounds/walk.wav
 	frame	data/chars/Shrek/11.gif
 	offset	24 44
 	frame	data/chars/Shrek/12.gif

@@ -2,15 +2,18 @@ name	KenpachiTransform
 health	500
 mp      300
 speed	15
-type player
+type enemy
+atchain 1 1 2
 aggression 32
+palette none
 subject_to_screen 1
 cantgrab 1
 riseinv 2 0
 makeinv 2 0
 escapehits 1
+running 25 4 2 1 1
 candamage player npc obstacle
-candamage player npc
+candamage player npc enemy
 hostile npc player
 shadow 3
 animationscript data/scripts/spawns.c
@@ -20,6 +23,34 @@ nameposition 60 225
 iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
 
+load kenSlashGround
+load groundPoundHarder
+load kenSliceForward
+load kenDownwardSlash
+load kenDownwardSlashImpact
+load kenBankaiSlam
+load kenTransformLight
+load kenRisingSlash
+load kenSliceForwardHit
+load kenHit
+
+com  a3  freespecial
+com u a3 freespecial2
+com d a3 freespecial5
+com a2 freespecial11
+com s freespecial3
+com u s freespecial6
+com d s freespecial4
+com d f s freespecial7
+com d b s freespecial8
+com d u s freespecial9
+
+weaploss 3
+modelflag 3
+
+
+
+
 
 
 
@@ -27,6 +58,7 @@ ondeathscript data/scripts/bossdeath.c
 
 anim	attack1
 	loop	0
+	range	0 30
 	delay	3
 	offset	32 71
 	frame	data/chars/Kenpachi/776.gif
@@ -39,31 +71,14 @@ anim	attack1
 anim	attack2
 	attack	23 3 36 75 20 0 1 0 0 0
 	loop	0
+	@cmd	leaper 0 3 0
+	cancel	1 2 0 a freespecial12
 	delay	7
 	offset	27 78
 	frame	data/chars/Kenpachi/799.gif
+	@cmd	aniexec openborconstant("ANI_FREESPECIAL12")
 	offset	15 77
 	frame	data/chars/Kenpachi/800.gif
-		
-anim	attack3
-	bbox	3 2 23 60
-	delay	7
-	offset	12 61
-	frame	data/chars/Kenpachi/770.gif
-	bbox	0 0 0 0
-	offset	28 63
-	frame	data/chars/Kenpachi/27.gif
-	offset	32 97
-	frame	data/chars/Kenpachi/28.gif
-	attack	31 4 40 59 30 1 0 0 0 0
-	offset	33 57
-	frame	data/chars/Kenpachi/771.gif
-	offset	39 47
-	frame	data/chars/Kenpachi/772.gif
-	offset	33 45
-	frame	data/chars/Kenpachi/773.gif
-	offset	24 60
-	frame	data/chars/Kenpachi/774.gif
 		
 anim	fall
 	bbox	4 21 38 32
@@ -84,8 +99,38 @@ anim	freespecial
 	delay	7
 	offset	22 60
 	frame	data/chars/Kenpachi/798.gif
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
 	offset	44 53
 	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	@cmd	leaper 0 4 0
+	@cmd	spawnparent "kenRisingSlash" 30 0 -40
+	offset	27 78
+	frame	data/chars/Kenpachi/799.gif
+	offset	15 77
+	frame	data/chars/Kenpachi/800.gif
+	offset	27 78
+	frame	data/chars/Kenpachi/799.gif
+	offset	15 77
+	frame	data/chars/Kenpachi/800.gif
+	offset	27 78
+	frame	data/chars/Kenpachi/799.gif
+	offset	15 77
+	frame	data/chars/Kenpachi/800.gif
 	offset	27 78
 	frame	data/chars/Kenpachi/799.gif
 	offset	15 77
@@ -102,10 +147,36 @@ anim	freespecial11
 	offset	19 66
 	frame	data/chars/Kenpachi/842.gif
 		
+anim	freespecial12
+	bbox	3 2 23 60
+	delay	10
+	offset	12 61
+	frame	data/chars/Kenpachi/770.gif
+	bbox	0 0 0 0
+	offset	28 63
+	frame	data/chars/Kenpachi/27.gif
+	offset	32 97
+	frame	data/chars/Kenpachi/28.gif
+	delay	7
+	@cmd	leaper 0 -5 0
+	attack	31 4 40 59 30 1 0 0 0 0
+	offset	33 57
+	frame	data/chars/Kenpachi/771.gif
+	offset	39 47
+	frame	data/chars/Kenpachi/772.gif
+	@cmd	spawn01 "groundpound" 20 0 20
+	@cmd	spawn01 "quake" 0 0 2
+	offset	33 45
+	frame	data/chars/Kenpachi/773.gif
+	offset	24 60
+	frame	data/chars/Kenpachi/774.gif
+		
 anim	freespecial2
 	delay	7
 	offset	18 61
 	frame	data/chars/Kenpachi/785.gif
+	attack	29 1 53 93 10 1 1 0 0 30
+	dropv	4 0 0
 	offset	40 93
 	frame	data/chars/Kenpachi/86.gif
 	offset	64 61
@@ -115,18 +186,55 @@ anim	freespecial2
 		
 anim	freespecial3
 	delay	7
-	offset	22 59
+	@cmd	leaper 0 5 0
+	offset	24 59
 	frame	data/chars/Kenpachi/18.gif
 	offset	42 57
 	frame	data/chars/Kenpachi/19.gif
 	offset	42 57
 	frame	data/chars/Kenpachi/20.gif
+	offset	42 57
+	frame	data/chars/Kenpachi/19.gif
+	offset	42 57
+	frame	data/chars/Kenpachi/20.gif
+	offset	42 57
+	frame	data/chars/Kenpachi/19.gif
+	@cmd	pause_all 1 100
+	@cmd	pause_self 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	offset	42 57
+	frame	data/chars/Kenpachi/20.gif
 	offset	29 65
 	frame	data/chars/Kenpachi/46.gif
+	@cmd	spawnparent "kenDownwardSlash" 0 0 -20
+	@cmd	leaper 0 -5 0
 	offset	34 64
 	frame	data/chars/Kenpachi/787.gif
 	offset	33 58
 	frame	data/chars/Kenpachi/788.gif
+	offset	34 64
+	frame	data/chars/Kenpachi/787.gif
+	@cmd	spawn01 "quake" 0 0 5
+	@cmd	spawn01 "kenDownwardSlashImpact" 0 0 0
+	offset	40 44
+	frame	data/chars/Kenpachi/73.gif
+	@cmd	spawn01 "quake" 0 0 5
+	offset	40 44
+	frame	data/chars/Kenpachi/73.gif
+	@cmd	spawn01 "quake" 0 0 5
+	offset	40 44
+	frame	data/chars/Kenpachi/73.gif
+	@cmd	spawn01 "quake" 0 0 5
+	offset	40 44
+	frame	data/chars/Kenpachi/73.gif
+	@cmd	spawn01 "quake" 0 0 5
+	offset	40 44
+	frame	data/chars/Kenpachi/73.gif
+	@cmd	spawn01 "quake" 0 0 5
+	offset	40 44
+	frame	data/chars/Kenpachi/73.gif
+	@cmd	spawn01 "quake" 0 0 5
+	@cmd	damage_all_players 80 1 0 "ATK_NORMAL"
 	offset	40 44
 	frame	data/chars/Kenpachi/73.gif
 		
@@ -136,16 +244,58 @@ anim	freespecial4
 	frame	data/chars/Kenpachi/825.gif
 	offset	26 62
 	frame	data/chars/Kenpachi/645.gif
+	offset	26 62
+	frame	data/chars/Kenpachi/645.gif
+	@cmd	pause_all 1 300
+	@cmd	pause_self 1 300
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	offset	26 62
+	frame	data/chars/Kenpachi/645.gif
 	offset	34 82
 	frame	data/chars/Kenpachi/845.gif
 	attack	1 21 64 49 20 0 1 0 0 0
+	@cmd	leaper 0.5 6 0
+	offset	79 45
+	frame	data/chars/Kenpachi/867.gif
+	offset	79 45
+	frame	data/chars/Kenpachi/867.gif
+	offset	79 45
+	frame	data/chars/Kenpachi/867.gif
+	offset	79 45
+	frame	data/chars/Kenpachi/867.gif
+	offset	79 45
+	frame	data/chars/Kenpachi/867.gif
+	offset	79 45
+	frame	data/chars/Kenpachi/867.gif
+	offset	79 45
+	frame	data/chars/Kenpachi/867.gif
+	offset	79 45
+	frame	data/chars/Kenpachi/867.gif
+	offset	79 45
+	frame	data/chars/Kenpachi/867.gif
+	offset	79 45
+	frame	data/chars/Kenpachi/867.gif
 	offset	79 45
 	frame	data/chars/Kenpachi/867.gif
 	offset	76 77
 	frame	data/chars/Kenpachi/864.gif
 	offset	49 144
 	frame	data/chars/Kenpachi/865.gif
+	@cmd	leaper 0 -30 0
 	attack	53 18 82 43 40 1 1 0 0 0
+	offset	36 50
+	frame	data/chars/Kenpachi/866.gif
+	attack	53 18 82 43 40 1 1 0 0 0
+	offset	36 50
+	frame	data/chars/Kenpachi/866.gif
+	attack	53 18 82 43 40 1 1 0 0 0
+	offset	36 50
+	frame	data/chars/Kenpachi/866.gif
+	attack	53 18 82 43 40 1 1 0 0 0
+	offset	36 50
+	frame	data/chars/Kenpachi/866.gif
+	@cmd	spawn01 "kenBankaiSlam" 70 0 -140
+	@cmd	spawn01 "quake" 0 0 200
 	offset	36 50
 	frame	data/chars/Kenpachi/866.gif
 		
@@ -153,23 +303,85 @@ anim	freespecial5
 	delay	7
 	offset	48 54
 	frame	data/chars/Kenpachi/775.gif
+	@cmd	pause_all 1 200
+	@cmd	pause_self 1 200
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	offset	48 54
+	frame	data/chars/Kenpachi/775.gif
+	offset	48 54
+	frame	data/chars/Kenpachi/775.gif
+	@cmd	leaper 0 6 0
 	offset	32 71
 	frame	data/chars/Kenpachi/776.gif
+	offset	32 71
+	frame	data/chars/Kenpachi/776.gif
+	offset	32 71
+	frame	data/chars/Kenpachi/776.gif
+	offset	32 71
+	frame	data/chars/Kenpachi/776.gif
+	offset	32 71
+	frame	data/chars/Kenpachi/776.gif
+	offset	32 71
+	frame	data/chars/Kenpachi/776.gif
+	@cmd	spawnbind "kenSlashGround" 0 0 0
+	offset	32 71
+	frame	data/chars/Kenpachi/776.gif
+	@cmd	leaper 0 -18 0
 	offset	26 45
 	frame	data/chars/Kenpachi/777.gif
 	offset	29 45
 	frame	data/chars/Kenpachi/778.gif
+	offset	26 45
+	frame	data/chars/Kenpachi/777.gif
+	offset	29 45
+	frame	data/chars/Kenpachi/778.gif
+	@cmd	spawn01 "quake" 0 0 9
+	@cmd	spawn01 "groundPoundHarder" 0 0 70
+	offset	26 45
+	frame	data/chars/Kenpachi/777.gif
+	@cmd	spawn01 "quake" 0 0 9
+	offset	29 45
+	frame	data/chars/Kenpachi/778.gif
+	@cmd	spawn01 "quake" 0 0 9
 	offset	30 46
 	frame	data/chars/Kenpachi/779.gif
 		
 anim	freespecial6
 	delay	7
+	@cmd	pause_all 1 300
+	@cmd	pause_self 1 300
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	offset	48 54
+	frame	data/chars/Kenpachi/775.gif
 	offset	48 54
 	frame	data/chars/Kenpachi/775.gif
 	offset	27 59
 	frame	data/chars/Kenpachi/794.gif
+	offset	27 59
+	frame	data/chars/Kenpachi/794.gif
+	offset	27 59
+	frame	data/chars/Kenpachi/794.gif
+	offset	27 59
+	frame	data/chars/Kenpachi/794.gif
+	offset	27 59
+	frame	data/chars/Kenpachi/794.gif
+	@cmd	spawnbind "kenSliceForward" 0 0 -40
+	@cmd	dasher 5 0 0
 	offset	24 52
 	frame	data/chars/Kenpachi/795.gif
+	offset	27 52
+	frame	data/chars/Kenpachi/796.gif
+	offset	24 52
+	frame	data/chars/Kenpachi/795.gif
+	offset	27 52
+	frame	data/chars/Kenpachi/796.gif
+	offset	24 52
+	frame	data/chars/Kenpachi/795.gif
+	offset	27 52
+	frame	data/chars/Kenpachi/796.gif
+	offset	24 52
+	frame	data/chars/Kenpachi/795.gif
+	@cmd	stop
 	offset	27 52
 	frame	data/chars/Kenpachi/796.gif
 		
@@ -182,6 +394,16 @@ anim	freespecial7
 		
 anim	freespecial8
 	delay	7
+	offset	22 60
+	frame	data/chars/Kenpachi/798.gif
+	offset	22 60
+	frame	data/chars/Kenpachi/798.gif
+	offset	22 60
+	frame	data/chars/Kenpachi/798.gif
+	offset	22 60
+	frame	data/chars/Kenpachi/798.gif
+	offset	22 60
+	frame	data/chars/Kenpachi/798.gif
 	offset	22 60
 	frame	data/chars/Kenpachi/798.gif
 	offset	36 55
@@ -204,6 +426,10 @@ anim	freespecial8
 	frame	data/chars/Kenpachi/89.gif
 	offset	36 55
 	frame	data/chars/Kenpachi/90.gif
+	offset	22 60
+	frame	data/chars/Kenpachi/798.gif
+	offset	22 60
+	frame	data/chars/Kenpachi/798.gif
 	offset	22 60
 	frame	data/chars/Kenpachi/798.gif
 		
