@@ -2073,6 +2073,22 @@ void pause_all(int iToggle, int iTime){
     }   
 }
 
+void pause_self(int iToggle, int iTime){
+
+    /*
+    pause_self
+    Kevin Epps
+    Pause or unpause action for self.
+    */
+
+    void vSelf      = getlocalvar("self");                  //Caller   
+    int  iETime     = openborvariant("elapsed_time");       //Current time.
+
+
+    changeentityproperty(vSelf, "frozen", iToggle);               //Toggle frozen.
+    changeentityproperty(vSelf, "freezetime", iETime + iTime);    //Toggle frozen time.
+}
+
 void rasengan() {
 	void rObj = spawnbind("rasengan", 0, -1, 1);
 	setlocalvar("rObj", rObj);

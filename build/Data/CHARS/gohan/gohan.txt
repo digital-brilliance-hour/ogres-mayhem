@@ -19,6 +19,10 @@ parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
+didhitscript data/scripts/didhit/didhit.c
+
+
+
 
 
 

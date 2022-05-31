@@ -49,7 +49,7 @@ anim	attack1
 	@cmd	sampleplay "data/chars/kyuubiNaruto/kyuubi_6-2.wav" 0
 	offset	39 63
 	frame	data/chars/kyuubiNaruto/273.gif
-	attack	67 23 31 22 8 0 1 0 0 0
+	attack	67 23 31 22 8 0 1 0 20 0
 	offset	43 63
 	frame	data/chars/kyuubiNaruto/274.gif
 	offset	56 66
@@ -62,7 +62,7 @@ anim	attack2
 	@cmd	sampleplay "data/chars/kyuubiNaruto/kyuubi_6-2.wav" 0
 	offset	33 60
 	frame	data/chars/kyuubiNaruto/269.gif
-	attack	58 5 28 57 10 0 1 0 0 0
+	attack	58 5 28 57 10 0 1 0 20 0
 	offset	41 65
 	frame	data/chars/kyuubiNaruto/270.gif
 	offset	40 65
@@ -75,7 +75,7 @@ anim	attack3
 	@cmd	sampleplay "data/chars/kyuubiNaruto/kyuubi_6-3.wav" 0
 	offset	34 47
 	frame	data/chars/kyuubiNaruto/259.gif
-	attack	54 0 34 41 12 1 1 0 0 0
+	attack	54 0 34 41 12 1 1 0 20 0
 	dropv	2 5 0
 	offset	36 45
 	frame	data/chars/kyuubiNaruto/260.gif
@@ -230,13 +230,13 @@ anim	freespecial
 	sound	data/chars/kyuubiNaruto/kyuubi_3-7.wav
 	offset	39 56
 	frame	data/chars/kyuubiNaruto/238.gif
-	attack	48 3 53 55 13 0 1 0 0 50
+	attack	48 3 53 55 13 0 1 0 20 50
 	offset	36 57
 	frame	data/chars/kyuubiNaruto/239.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	36 80
 	frame	data/chars/kyuubiNaruto/240.gif
-	attack	40 2 51 83 10 1 1 0 0 50
+	attack	40 2 51 83 10 1 1 0 20 50
 	dropv	5 0 0
 	offset	26 86
 	frame	data/chars/kyuubiNaruto/241.gif
@@ -302,7 +302,7 @@ anim	freespecial2
 	@cmd	sampleplay "data/chars/kyuubiNaruto/kyuubi_6-2.wav" 0
 	offset	39 63
 	frame	data/chars/kyuubiNaruto/273.gif
-	attack	65 19 33 27 8 0 1 0 0 0
+	attack	65 19 33 27 8 0 1 0 20 0
 	offset	43 63
 	frame	data/chars/kyuubiNaruto/274.gif
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -313,7 +313,7 @@ anim	freespecial2
 	@cmd	sampleplay "data/chars/kyuubiNaruto/kyuubi_6-2.wav" 0
 	offset	33 60
 	frame	data/chars/kyuubiNaruto/269.gif
-	attack	53 4 42 59 10 0 1 0 0 0
+	attack	53 4 42 59 10 0 1 0 20 0
 	offset	41 65
 	frame	data/chars/kyuubiNaruto/270.gif
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -328,7 +328,7 @@ anim	freespecial2
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	42 58
 	frame	data/chars/kyuubiNaruto/265.gif
-	attack	53 2 45 61 8 0 1 0 0 0
+	attack	53 2 45 61 8 0 1 0 20 0
 	offset	41 62
 	frame	data/chars/kyuubiNaruto/266.gif
 	offset	38 58
@@ -339,7 +339,7 @@ anim	freespecial2
 	offset	34 47
 	frame	data/chars/kyuubiNaruto/259.gif
 	@cmd	sampleplay "data/chars/kyuubiNaruto/kyuubi_6-3.wav" 0
-	attack	47 2 48 41 20 1 1 0 0 20
+	attack	47 2 48 41 20 1 1 0 20 20
 	offset	36 45
 	frame	data/chars/kyuubiNaruto/260.gif
 	offset	25 61
@@ -437,7 +437,7 @@ anim	freespecial5
 	frame	data/chars/kyuubiNaruto/fillkyuubi/404.gif
 	offset	49 57
 	frame	data/chars/kyuubiNaruto/fillkyuubi/405.gif
-	attack	47 31 49 25 10 0 1 0 0 0
+	attack	47 31 49 25 10 0 1 0 20 0
 	offset	46 72
 	frame	data/chars/kyuubiNaruto/fillkyuubi/406.gif
 	offset	54 68
@@ -447,7 +447,7 @@ anim	freespecial5
 	frame	data/chars/kyuubiNaruto/fillkyuubi/404.gif
 	offset	49 57
 	frame	data/chars/kyuubiNaruto/fillkyuubi/405.gif
-	attack	55 30 38 26 10 0 1 0 0 0
+	attack	55 30 38 26 10 0 1 0 20 0
 	offset	46 72
 	frame	data/chars/kyuubiNaruto/fillkyuubi/406.gif
 	offset	54 68
@@ -457,7 +457,7 @@ anim	freespecial5
 	frame	data/chars/kyuubiNaruto/fillkyuubi/404.gif
 	offset	49 57
 	frame	data/chars/kyuubiNaruto/fillkyuubi/405.gif
-	attack	50 31 42 23 10 0 1 0 0 0
+	attack	50 31 42 23 10 0 1 0 20 0
 	offset	46 72
 	frame	data/chars/kyuubiNaruto/fillkyuubi/406.gif
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -473,7 +473,7 @@ anim	freespecial5
 	delay	2
 	offset	49 98
 	frame	data/chars/kyuubiNaruto/fillkyuubi/387.gif
-	attack	76 4 110 61 13 0 1 0 0 30
+	attack	76 4 110 61 13 0 1 0 20 30
 	offset	49 66
 	frame	data/chars/kyuubiNaruto/fillkyuubi/388.gif
 	offset	41 58
@@ -491,7 +491,7 @@ anim	freespecial5
 	frame	data/chars/kyuubiNaruto/fillkyuubi/28.gif
 	offset	48 59
 	frame	data/chars/kyuubiNaruto/fillkyuubi/29.gif
-	attack	69 4 99 55 13 1 1 0 0 30
+	attack	69 4 99 55 13 1 1 0 20 30
 	dropv	3 1 0
 	offset	47 61
 	frame	data/chars/kyuubiNaruto/fillkyuubi/30.gif
@@ -515,21 +515,21 @@ anim	freespecial5
 	frame	data/chars/kyuubiNaruto/fillkyuubi/dragging_4.gif
 	offset	71 55
 	frame	data/chars/kyuubiNaruto/fillkyuubi/dragging_5.gif
-	attack	47 19 44 37 10 0 1 0 0 30
+	attack	47 19 44 37 10 0 1 0 20 30
 	@cmd	dasher 1 0 0
 	offset	42 65
 	frame	data/chars/kyuubiNaruto/fillkyuubi/dragging_6.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	45 57
 	frame	data/chars/kyuubiNaruto/fillkyuubi/dragging_7.gif
-	attack	55 1 63 56 10 0 1 0 0 30
+	attack	55 1 63 56 10 0 1 0 20 30
 	offset	45 58
 	frame	data/chars/kyuubiNaruto/fillkyuubi/dragging_8.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	@cmd	stop
 	offset	45 60
 	frame	data/chars/kyuubiNaruto/fillkyuubi/dragging_9.gif
-	attack	60 1 87 72 18 1 1 0 0 30
+	attack	60 1 87 72 18 1 1 0 20 30
 	dropv	2 4 0
 	offset	43 63
 	frame	data/chars/kyuubiNaruto/fillkyuubi/dragging_10.gif

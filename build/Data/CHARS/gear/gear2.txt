@@ -20,6 +20,7 @@ weaploss 3
 
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -28,7 +29,7 @@ anim	attack1
 	sound	data/chars/Gear/pistol.wav
 	frame	data/chars/Gear/pistol01.gif
 	frame	data/chars/Gear/pistol02.gif
-	blast	70 32 133 48 40
+	blast	70 32 133 48 40 0 0 0 20 0
 	frame	data/chars/Gear/pistol03.gif
 	frame	data/chars/Gear/pistol04.gif
 		
@@ -39,11 +40,11 @@ anim	attack2
 	frame	data/chars/Gear/jetb01.gif
 	frame	data/chars/Gear/jetb02.gif
 	sound	data/chars/Gear/jetb.wav
-	attack	108 35 50 39 100
-	blast	108 35 50 39 100
+	blast	108 35 50 39 100 0 0 0 20 0
+	blast	108 35 50 39 100 0 0 0 20 0
 	frame	data/chars/Gear/jetb03.gif
-	attack	108 35 50 39 100
-	blast	108 35 50 39 100
+	blast	108 35 50 39 100 0 0 0 20 0
+	blast	108 35 50 39 100 0 0 0 20 0
 	frame	data/chars/Gear/jetb04.gif
 	move	5
 	frame	data/chars/Gear/jetb05.gif
@@ -142,145 +143,145 @@ anim	freespecial
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	@cmd	spawnparent "pdust" -10 0 -20
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
-	frame	data/chars/Gear/JetGa08.gif
-	offset	75 77
-	@cmd	spawnparent "pdust" -10 0 -20
-	attack	97 0 199 85 50
-	frame	data/chars/Gear/JetGa05.gif
-	offset	75 77
-	@cmd	spawnparent "pdust" -10 0 -20
-	attack	97 0 199 85 50
-	frame	data/chars/Gear/JetGa06.gif
-	offset	75 77
-	attack	97 0 199 85 50
-	frame	data/chars/Gear/JetGa07.gif
-	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	@cmd	spawnparent "pdust" -10 0 -20
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	@cmd	spawnparent "pdust" -10 0 -20
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
+	frame	data/chars/Gear/JetGa08.gif
+	offset	75 77
+	attack	97 0 199 85 50 0 0 0 20 0
+	frame	data/chars/Gear/JetGa05.gif
+	offset	75 77
+	attack	97 0 199 85 50 0 0 0 20 0
+	frame	data/chars/Gear/JetGa06.gif
+	offset	75 77
+	attack	97 0 199 85 50 0 0 0 20 0
+	frame	data/chars/Gear/JetGa07.gif
+	offset	75 77
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 		
 anim	freespecial11
@@ -333,11 +334,11 @@ anim	freespecial2
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	sound	data/chars/Gear/jetb.wav
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	108 35 50 39 90
-	blast	108 35 50 39 90
+	blast	108 35 50 39 90 0 0 0 20 0
+	blast	108 35 50 39 90 0 0 0 20 0
 	frame	data/chars/Gear/jetb03.gif
-	attack	108 35 50 39 90
-	blast	108 35 50 39 90
+	blast	108 35 50 39 90 0 0 0 20 0
+	blast	108 35 50 39 90 0 0 0 20 0
 	frame	data/chars/Gear/jetb04.gif
 	@cmd	dasher 1 0 0
 	frame	data/chars/Gear/jetb05.gif

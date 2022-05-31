@@ -19,6 +19,9 @@ knife kunai_npc
 load dkunai_npc
 star dkunai_npc
 
+didhitscript data/scripts/didhit/didhit.c
+
+
 
 
 anim	attack1
@@ -276,6 +279,7 @@ anim	run
 	offset	23 59
 	bbox	16 15 19 43
 	frame	data/chars/asuma/53.gif
+	sound	data/sounds/walk.wav
 	offset	28 58
 	bbox	19 7 21 50
 	frame	data/chars/asuma/54.gif
@@ -332,6 +336,7 @@ anim	walk
 	bbox	15 7 24 63
 	frame	data/chars/asuma/66.gif
 	offset	17 71
+	sound	data/sounds/walk.wav
 	frame	data/chars/asuma/67.gif
 	offset	20 71
 	frame	data/chars/asuma/68.gif

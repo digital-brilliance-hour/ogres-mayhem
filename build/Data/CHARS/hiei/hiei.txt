@@ -33,6 +33,8 @@ parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
+didhitscript data/scripts/didhit/didhit.c
+
 
 
 
@@ -799,6 +801,7 @@ anim	run
 	offset	72 120
 	frame	data/chars/hiei/run2.gif
 	offset	72 120
+	sound	data/sounds/walk.wav
 	frame	data/chars/hiei/run1.gif
 	offset	72 120
 	frame	data/chars/hiei/run2.gif
@@ -1025,6 +1028,7 @@ anim	walk
 	frame	data/chars/hiei/andar1.gif
 	frame	data/chars/hiei/andar2.gif
 	frame	data/chars/hiei/andar1.gif
+	sound	data/sounds/walk.wav
 		
 #|edited by openBor Stats v 0.67
 		

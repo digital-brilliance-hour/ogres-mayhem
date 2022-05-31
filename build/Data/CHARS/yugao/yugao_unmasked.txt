@@ -13,6 +13,8 @@ bflash  bflash
 dust	 dust
 jumpheight 5
 icon	data/chars/yugao/unmaska/icon.png
+didhitscript data/scripts/didhit/didhit.c
+
 
 anim	attack1
 	loop	0
@@ -202,6 +204,7 @@ anim	run
 	frame	data/chars/yugao/unmaska/25.png
 	frame	data/chars/yugao/unmaska/28.png
 	offset	19 51
+	sound	data/sounds/walk.wav
 	frame	data/chars/yugao/unmaska/32.png
 	frame	data/chars/yugao/unmaska/26.png
 	frame	data/chars/yugao/unmaska/30.png
@@ -363,6 +366,7 @@ anim	walk
 	frame	data/chars/yugao/unmaska/25.png
 	frame	data/chars/yugao/unmaska/28.png
 	offset	19 51
+	sound	data/sounds/walk.wav
 	frame	data/chars/yugao/unmaska/32.png
 	frame	data/chars/yugao/unmaska/26.png
 	frame	data/chars/yugao/unmaska/30.png

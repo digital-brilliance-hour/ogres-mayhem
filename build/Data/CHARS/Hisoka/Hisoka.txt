@@ -18,6 +18,9 @@ parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
+didhitscript data/scripts/didhit/didhit.c
+
+
 
 
 
@@ -524,8 +527,8 @@ anim	walk
 	offset	32 42
 	frame	data/chars/Hisoka/28.gif
 	bbox	7 6 34 37
-	offset	26 42
 	sound	data/sounds/walk.wav
+	offset	26 42
 	frame	data/chars/Hisoka/29.gif
 	bbox	7 8 51 34
 	offset	32 43

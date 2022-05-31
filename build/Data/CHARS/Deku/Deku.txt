@@ -24,6 +24,11 @@ parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
 
+didhitscript data/scripts/didhit/didhit.c
+
+
+
+
 
 
 
@@ -99,6 +104,7 @@ anim	attack3
 	frame	data/chars/Deku/72.gif
 	attack	20 2 21 31 13 1 1 0 20 0
 	dropv	5 0 -1
+
 	offset	16 48
 	frame	data/chars/Deku/73.gif
 	offset	21 41
