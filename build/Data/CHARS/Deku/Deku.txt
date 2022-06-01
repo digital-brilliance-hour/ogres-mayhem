@@ -65,6 +65,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	7
 	sound	data/chars/deku/deku_0-0.wav
@@ -72,7 +73,7 @@ anim	attack1
 	frame	data/chars/Deku/61.gif
 	offset	16 43
 	frame	data/chars/Deku/62.gif
-	attack	26 12 27 12 8 0 1 0 0 0
+	attack	26 12 27 12 8 0 1 0 20 0
 	offset	16 43
 	frame	data/chars/Deku/63.gif
 		
@@ -86,7 +87,7 @@ anim	attack2
 	frame	data/chars/Deku/66.gif
 	offset	23 42
 	frame	data/chars/Deku/67.gif
-	attack	22 4 52 17 8 0 1 0 0 0
+	attack	22 4 52 17 8 0 1 0 20 0
 	offset	17 37
 	frame	data/chars/Deku/68.gif
 	offset	17 37
@@ -101,8 +102,9 @@ anim	attack3
 	frame	data/chars/Deku/71.gif
 	offset	16 49
 	frame	data/chars/Deku/72.gif
-	attack	20 2 21 31 13 1 1 0 0 0
-	dropv	5 0 0
+	attack	20 2 21 31 13 1 1 0 20 0
+	dropv	5 0 -1
+
 	offset	16 48
 	frame	data/chars/Deku/73.gif
 	offset	21 41
@@ -205,14 +207,14 @@ anim	freespecial
 	@cmd	spawnparent "pdust" -10 0 -20
 	delay	4
 	@cmd	dasher 20 0 0
-	attack	26 1 48 31 18 1 1 0 0 0
+	attack	26 1 48 31 18 1 1 0 20 0
 	dropv	1 10 2
 	offset	24 28
 	frame	data/chars/Deku/95.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	22 27
 	frame	data/chars/Deku/96.gif
-	attack	26 1 65 31 18 1 0 1 0 0
+	attack	26 1 65 31 18 1 0 1 20 0
 	dropv	1 10 5
 	offset	28 28
 	frame	data/chars/Deku/97.gif
@@ -285,7 +287,7 @@ anim	freespecial2
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	25 43
 	frame	data/chars/Deku/156.gif
-	attack	13 1 42 49 20 1 0 1 0 0
+	attack	13 1 42 49 20 1 0 1 20 0
 	dropv	2 2 0
 	offset	16 48
 	frame	data/chars/Deku/157.gif
@@ -295,7 +297,7 @@ anim	freespecial2
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	25 43
 	frame	data/chars/Deku/156.gif
-	attack	14 1 41 48 20 1 0 1 0 0
+	attack	14 1 41 48 20 1 0 1 20 0
 	dropv	2 2 0
 	offset	16 48
 	frame	data/chars/Deku/157.gif
@@ -304,7 +306,7 @@ anim	freespecial2
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	25 43
 	frame	data/chars/Deku/156.gif
-	attack	12 0 47 50 20 1 0 1 0 0
+	attack	12 0 47 50 20 1 0 1 20 0
 	dropv	2 2 0
 	offset	16 48
 	frame	data/chars/Deku/157.gif
@@ -313,12 +315,12 @@ anim	freespecial2
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	25 43
 	frame	data/chars/Deku/156.gif
-	attack	17 1 44 48 30 1 0 1 0 0
+	attack	17 1 44 48 30 1 0 1 20 0
 	dropv	1 12 0
 	offset	16 48
 	frame	data/chars/Deku/157.gif
 	@cmd	stop
-	attack	9 1 51 38 20 1 0 1 0 0
+	attack	9 1 51 38 20 1 0 1 20 0
 	dropv	1 18 0
 	offset	18 40
 	frame	data/chars/Deku/158.gif
@@ -474,13 +476,13 @@ anim	jumpattack
 	frame	data/chars/Deku/114.gif
 	offset	19 41
 	frame	data/chars/Deku/115.gif
-	attack	14 1 63 42 10 0 1 0 0 0
+	attack	14 1 63 42 10 0 1 0 20 0
 	offset	28 41
 	frame	data/chars/Deku/116.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	27 40
 	frame	data/chars/Deku/117.gif
-	attack	14 1 63 42 10 0 0 1 0 0
+	attack	14 1 63 42 10 0 0 1 20 0
 	offset	18 44
 	frame	data/chars/Deku/118.gif
 	offset	21 42
@@ -492,7 +494,7 @@ anim	jumpattack2
 	frame	data/chars/Deku/109.gif
 	offset	15 49
 	frame	data/chars/Deku/110.gif
-	attack	1 1 80 84 10 1 1 0 0 0
+	attack	1 1 80 84 10 1 1 0 20 0
 	offset	19 52
 	frame	data/chars/Deku/111.gif
 	offset	15 42
@@ -552,16 +554,16 @@ anim	runattack
 	@cmd	dasher 1 0 0
 	offset	16 49
 	frame	data/chars/Deku/72.gif
-	attack	20 2 21 31 13 1 1 0 0 0
+	attack	20 2 21 31 13 1 1 0 20 0
 	dropv	5 0 -1
 	@cmd	stop
 	offset	16 48
 	frame	data/chars/Deku/73.gif
-	attack	20 2 21 31 13 1 1 0 0 0
+	attack	20 2 21 31 13 1 1 0 20 0
 	dropv	5 0 -1
 	offset	16 48
 	frame	data/chars/Deku/73.gif
-	attack	20 2 21 31 13 1 1 0 0 0
+	attack	20 2 21 31 13 1 1 0 20 0
 	dropv	5 0 -1
 	offset	16 48
 	frame	data/chars/Deku/73.gif

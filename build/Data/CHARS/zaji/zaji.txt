@@ -29,7 +29,7 @@ anim	attack1
 	offset	19 51
 	frame	data/chars/zaji/72.png
 	offset	19 52
-	attack1	22 -1 29 55 7
+	attack10	22 -1 29 55 7 0 0 0 20 0
 	frame	data/chars/zaji/70.png
 	Attack1	0
 	frame	data/chars/zaji/69.png
@@ -44,7 +44,7 @@ anim	attack2
 	offset	19 51
 	frame	data/chars/zaji/74.png
 	offset	19 52
-	attack1	33 1 32 54 15
+	attack10	33 1 32 54 15 0 0 0 20 0
 	frame	data/chars/zaji/75.png
 		
 anim	attack3
@@ -57,13 +57,13 @@ anim	attack3
 	offset	19 63
 	frame	data/chars/zaji/96.png
 	offset	31 65
-	attack1	33 -2 22 70 15
+	attack10	33 -2 22 70 15 0 0 0 20 0
 	frame	data/chars/zaji/95.png
 	offset	31 79
 	attack1	35
 	frame	data/chars/zaji/92.png
 	offset	30 73
-	attack1	28 -5 28 78 19 3
+	attack10	28 -5 28 78 19 3 0 0 20 0
 	frame	data/chars/zaji/93.png
 		
 anim	attackup
@@ -89,7 +89,7 @@ anim	attackup
 	bbox	0
 	frame	data/chars/tel/4.png
 	frame	data/chars/zaji/36.png
-	attack1	0 25 46 36 45 1
+	attack10	0 25 46 36 45 1 0 0 20 0
 	frame	data/chars/zaji/36.png
 		
 anim	block
@@ -168,7 +168,7 @@ anim	grabattack
 	offset	19 51
 	frame	data/chars/zaji/72.png
 	offset	19 52
-	attack1	23 -2 31 56 7
+	attack10	23 -2 31 56 7 0 0 0 20 0
 	frame	data/chars/zaji/70.png
 	Attack1	0
 	frame	data/chars/zaji/69.png
@@ -183,12 +183,12 @@ anim	grabattack2
 	frame	data/chars/zaji/34.png
 	frame	data/chars/zaji/97.png
 	frame	data/chars/zaji/98.png
-	attack1	21 -2 27 82 15
+	attack10	21 -2 27 82 15 0 0 0 20 0
 	frame	data/chars/zaji/99.png
 	delay	3
 	Attack1	0
 	frame	data/chars/zaji/99.png
-	attack1	22 -1 28 59 15 2
+	attack10	22 -1 28 59 15 2 0 0 20 0
 	frame	data/chars/zaji/100.png
 	Attack1	0
 	frame	data/chars/zaji/101.png
@@ -244,7 +244,7 @@ anim	jumpattack2
 	delay	7
 	offset	13 54
 	bbox	2 0 27 54
-	attack1	2 -1 43 63 15 1
+	attack10	2 -1 43 63 15 1 0 0 20 0
 	frame	data/chars/zaji/102.png
 	offset	13 53
 	frame	data/chars/zaji/103.png
@@ -259,7 +259,7 @@ anim	jumpattack3
 	delay	7
 	offset	13 54
 	bbox	2 0 27 54
-	attack1	0 1 54 56 35 1
+	attack10	0 1 54 56 35 1 0 0 20 0
 	frame	data/chars/zaji/53.png
 		
 anim	land
@@ -320,12 +320,12 @@ anim	runattack
 	offset	26 61
 	delay	7
 	move	0
-	attack1	20 -1 26 62 15 0 1 1
+	attack10	20 -1 26 62 15 0 1 1 20 0
 	frame	data/chars/zaji/65.png
 	Attack1	0
 	frame	data/chars/zaji/65.png
 	offset	17 60
-	attack1	17 -2 51 64 20 1
+	attack10	17 -2 51 64 20 1 0 0 20 0
 	frame	data/chars/zaji/66.png
 	offset	25 62
 	Attack1	0

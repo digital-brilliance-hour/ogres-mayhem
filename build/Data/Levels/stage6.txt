@@ -10,7 +10,7 @@ spawn ready
 	coords 240 136
 	at 0
 
-spawn claw
+spawn hand
 coords	480 250
 at 300
 

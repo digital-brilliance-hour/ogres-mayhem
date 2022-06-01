@@ -38,7 +38,7 @@ anim	attack1
 	frame	data/chars/franky/pun02.gif
 	frame	data/chars/franky/pun03.gif
 	frame	data/chars/franky/pun04.gif
-	attack	63 39 33 41 20
+	attack	63 39 33 41 20 0 0 0 20 0
 	frame	data/chars/franky/pun05.gif
 	frame	data/chars/franky/pun06.gif
 		
@@ -52,9 +52,9 @@ anim	attack2
 	frame	data/chars/franky/punc02.gif
 	frame	data/chars/franky/punc03.gif
 	frame	data/chars/franky/punc04.gif
-	blast	60 38 31 42 30
+	blast	60 38 31 42 30 0 0 0 20 0
 	frame	data/chars/franky/punc05.gif
-	blast	60 38 31 42 30
+	blast	60 38 31 42 30 0 0 0 20 0
 	frame	data/chars/franky/punc06.gif
 	frame	data/chars/franky/punc07.gif
 	frame	data/chars/franky/punc08.gif
@@ -216,7 +216,7 @@ anim	jumpattack
 	frame	data/chars/franky/jatk01.gif
 	frame	data/chars/franky/jatk02.gif
 	frame	data/chars/franky/jatk03.gif
-	blast	34 11 35 69 50
+	blast	34 11 35 69 50 0 0 0 20 0
 	frame	data/chars/franky/jatk04.gif
 	blast	34 11 35 69 50
 	frame	data/chars/franky/jatk05.gif

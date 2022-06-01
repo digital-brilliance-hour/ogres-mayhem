@@ -32,7 +32,7 @@ anim	attack1
 	frame	data/chars/asuma/24.gif
 	offset	25 56
 	frame	data/chars/asuma/25.gif
-	attack1	37 5 31 54 7
+	attack10	37 5 31 54 7 0 0 0 20 0
 	frame	data/chars/asuma/26.gif
 	offset	26 56
 	Attack1	0
@@ -44,13 +44,13 @@ anim	attack2
 	bbox	22 6 30 45
 	frame	data/chars/asuma/235.gif
 	offset	28 58
-	attack1	34 7 38 52 15
+	attack10	34 7 38 52 15 0 0 0 20 0
 	frame	data/chars/asuma/236.gif
 	offset	26 59
 	Attack1	0
 	frame	data/chars/asuma/237.gif
 	offset	26 57
-	attack1	39 9 29 52 20
+	attack10	39 9 29 52 20 0 0 0 20 0
 	frame	data/chars/asuma/238.gif
 	offset	30 59
 	Attack1	0
@@ -72,13 +72,13 @@ anim	attack3
 	frame	data/chars/asuma/245.gif
 	offset	23 57
 	move	15
-	attack1	36 15 43 43 90 0 1
+	attack10	36 15 43 43 90 0 1 0 20 0
 	frame	data/chars/asuma/246.gif
 	offset	53 57
-	attack1	19 11 100 26 90 0 1
+	attack10	19 11 100 26 90 0 1 0 20 0
 	frame	data/chars/asuma/247.gif
 	offset	110 55
-	attack1	36 10 127 25 90 0 1
+	attack10	36 10 127 25 90 0 1 0 20 0
 	frame	data/chars/asuma/248.gif
 	offset	155 57
 	frame	data/chars/asuma/249.gif
@@ -121,7 +121,7 @@ anim	freespecial
 	delay	7
 	offset	32 62
 	throwframe	2
-	attack1	20 17 37 20
+	attack10	20 17 37 20 0 0 0 0 7 0
 	frame	data/chars/asuma/59.gif
 	offset	23 64
 	throwframe	2

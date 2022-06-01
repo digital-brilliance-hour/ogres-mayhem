@@ -32,7 +32,7 @@ anim	attack1
 	frame	data/chars/Toshiro/Att1.gif
 	frame	data/chars/Toshiro/Att2.gif
 	frame	data/chars/Toshiro/Att3.gif
-	attack	70 46 40 70 5
+	attack	70 46 40 70 5 0 0 0 20 0
 	frame	data/chars/Toshiro/Att4.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Toshiro/Att5.gif
@@ -46,7 +46,7 @@ anim	attack2
 	frame	data/chars/Toshiro/2Att1.gif
 	frame	data/chars/Toshiro/2Att2.gif
 	frame	data/chars/Toshiro/2Att3.gif
-	attack	70 46 40 70 10
+	attack	70 46 40 70 10 0 0 0 20 0
 	frame	data/chars/Toshiro/2Att4.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Toshiro/2Att5.gif
@@ -60,7 +60,7 @@ anim	attack3
 	frame	data/chars/Toshiro/3Att1.gif
 	frame	data/chars/Toshiro/3Att2.gif
 	frame	data/chars/Toshiro/3Att3.gif
-	attack	70 46 40 70 20 1
+	attack	70 46 40 70 20 1 0 0 20 0
 	frame	data/chars/Toshiro/3Att4.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Toshiro/3Att5.gif
@@ -96,7 +96,7 @@ anim	freespecial
 	frame	data/chars/Toshiro/Free2.gif
 	frame	data/chars/Toshiro/Free3.gif
 	frame	data/chars/Toshiro/Free4.gif
-	attack	82 70 270 46 30 1
+	attack	82 70 270 46 30 1 0 0 20 0
 	frame	data/chars/Toshiro/Free5.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Toshiro/Duck1.gif
@@ -185,7 +185,7 @@ anim	special
 	frame	data/chars/Toshiro/Spec3.gif
 	@cmd	dasher 8 0 0
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	0 55 112 61 50 1
+	attack	0 55 112 61 50 1 0 0 20 0
 	frame	data/chars/Toshiro/Spec4.gif
 	frame	data/chars/Toshiro/Spec5.gif
 	frame	data/chars/Toshiro/Spec6.gif

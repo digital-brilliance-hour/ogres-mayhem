@@ -34,7 +34,7 @@ anim	attack1
 	sound	data/sounds/Att.wav
 	frame	data/chars/Renji/Att1.gif
 	frame	data/chars/Renji/Att2.gif
-	attack	70 55 40 61 5
+	attack	70 55 40 61 5 0 0 0 20 0
 	frame	data/chars/Renji/Att3.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Renji/Att4.gif
@@ -48,7 +48,7 @@ anim	attack2
 	sound	data/sounds/Att.wav
 	frame	data/chars/Renji/2Att1.gif
 	frame	data/chars/Renji/2Att2.gif
-	attack	70 55 40 61 10
+	attack	70 55 40 61 10 0 0 0 20 0
 	frame	data/chars/Renji/2Att3.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Renji/2Att4.gif
@@ -62,7 +62,7 @@ anim	attack3
 	sound	data/sounds/Att.wav
 	frame	data/chars/Renji/3Att1.gif
 	frame	data/chars/Renji/3Att2.gif
-	attack	70 55 40 61 20 1
+	attack	70 55 40 61 20 1 0 0 20 0
 	frame	data/chars/Renji/3Att3.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Renji/3Att4.gif
@@ -99,7 +99,7 @@ anim	freespecial
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Renji/Free2.gif
 	frame	data/chars/Renji/Free3.gif
-	attack	80 70 144 45 25 1
+	attack	80 70 144 45 25 1 0 0 20 0
 	frame	data/chars/Renji/Free4.gif
 	attack	0 0 0 0 0
 	frame	data/chars/Renji/Free5.gif
@@ -190,7 +190,7 @@ anim	special
 	loop	0
 	offset	58 116
 	sound	data/sounds/Att.wav
-	attack	3 47 92 116 5
+	attack	3 47 92 116 5 0 0 0 20 0
 	delay	30
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	spawnscreen "Screen_wind" 0 0
@@ -204,22 +204,22 @@ anim	special
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Renji/Spec1.gif
 	sound	data/sounds/Att.wav
-	attack	0 37 106 79 5
+	attack	0 37 106 79 5 0 0 0 20 0
 	frame	data/chars/Renji/Spec2.gif
 	attack	0 0 0 0 0
 	frame	data/chars/Renji/Spec2.gif
 	sound	data/sounds/Att.wav
-	attack	21 38 99 78 5
+	attack	21 38 99 78 5 0 0 0 20 0
 	frame	data/chars/Renji/Spec3.gif
 	attack	0 0 0 0 0
 	frame	data/chars/Renji/Spec3.gif
 	sound	data/sounds/Att.wav
-	attack	4 46 91 70 5
+	attack	4 46 91 70 5 0 0 0 20 0
 	frame	data/chars/Renji/Spec4.gif
 	attack	0 0 0 0 0
 	frame	data/chars/Renji/Spec4.gif
 	sound	data/sounds/Att.wav
-	attack	21 38 99 78 30 1
+	attack	21 38 99 78 30 1 0 0 20 0
 	frame	data/chars/Renji/Spec5.gif
 	attack	0 0 0 0 0
 	frame	data/chars/Renji/Duck1.gif

@@ -30,7 +30,7 @@ anim	attack1
 	sound	data/sounds/Att.wav
 	frame	data/chars/Ikkaku/Att1.gif
 	frame	data/chars/Ikkaku/Att2.gif
-	attack	69 32 50 86 5
+	attack	69 32 50 86 5 0 0 0 20 0
 	frame	data/chars/Ikkaku/Att3.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Ikkaku/Att4.gif
@@ -42,7 +42,7 @@ anim	attack2
 	sound	data/sounds/Att.wav
 	frame	data/chars/Ikkaku/2Att1.gif
 	frame	data/chars/Ikkaku/2Att2.gif
-	attack	69 32 50 86 10
+	attack	69 32 50 86 10 0 0 0 20 0
 	frame	data/chars/Ikkaku/2Att3.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Ikkaku/2Att4.gif
@@ -54,7 +54,7 @@ anim	attack3
 	sound	data/sounds/Att.wav
 	frame	data/chars/Ikkaku/3Att1.gif
 	frame	data/chars/Ikkaku/3Att2.gif
-	attack	69 32 50 86 20 1
+	attack	69 32 50 86 20 1 0 0 20 0
 	frame	data/chars/Ikkaku/3Att3.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Ikkaku/3Att4.gif
@@ -90,7 +90,7 @@ anim	freespecial
 	sound	data/sounds/Att.wav
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Ikkaku/Free2.gif
-	attack	80 40 85 75 25 1
+	attack	80 40 85 75 25 1 0 0 20 0
 	frame	data/chars/Ikkaku/Free3.gif
 	frame	data/chars/Ikkaku/Free4.gif
 	attack	0 0 0 0 0 0
@@ -186,7 +186,7 @@ anim	special
 	frame	data/chars/Ikkaku/Special2.gif
 	frame	data/chars/Ikkaku/Special3.gif
 	frame	data/chars/Ikkaku/Special4.gif
-	attack	60 70 115 46 50 1
+	attack	60 70 115 46 50 1 0 0 20 0
 	frame	data/chars/Ikkaku/Special5.gif
 	frame	data/chars/Ikkaku/Special6.gif
 	frame	data/chars/Ikkaku/Special7.gif

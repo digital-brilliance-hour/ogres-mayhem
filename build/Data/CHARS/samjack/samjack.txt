@@ -25,17 +25,17 @@ anim	attack1
 	attack	0 0 0 0 0 0 0 0 0
 	frame	data/chars/samjack/a1.gif
 	offset	20 45
-	attack	24 1 36 48 55 0 0 0 0
+	attack	24 1 36 48 55 0 0 0 20 0
 	frame	data/chars/samjack/a2.gif
-	attack	25 1 32 47 30 0 0 0 0
+	attack	25 1 32 47 30 0 0 0 20 0
 	frame	data/chars/samjack/a3.gif
 	offset	13 35
-	attack	15 1 44 39 30 0 0 0 0
+	attack	15 1 44 39 30 0 0 0 20 0
 	frame	data/chars/samjack/a4.gif
-	attack	16 1 40 38 30 0 0 0 0
+	attack	16 1 40 38 30 0 0 0 20 0
 	frame	data/chars/samjack/a5.gif
 	offset	30 35
-	attack	5 2 36 37 30 0 0 0 0
+	attack	5 2 36 37 30 0 0 0 20 0
 	frame	data/chars/samjack/a6.gif
 	attack	13 0 31 39 60 0 0 0 0
 	frame	data/chars/samjack/a7.gif
@@ -47,10 +47,10 @@ anim	attack2
 	offset	25 22
 	frame	data/chars/samjack/get.gif
 	offset	35 73
-	attack	50 41 38 37 15 1 0 0 0
+	attack	50 41 38 37 15 1 0 0 20 0
 	frame	data/chars/samjack/u1.gif
 	offset	62 72
-	attack	68 24 36 51 15 1 0 0 0
+	attack	68 24 36 51 15 1 0 0 20 0
 	frame	data/chars/samjack/u2.gif
 	offset	33 43
 	frame	data/chars/samjack/a1.gif
@@ -62,17 +62,17 @@ anim	attack3
 	attack	0 0 0 0 0 0 0 0 0
 	frame	data/chars/samjack/a1.gif
 	offset	20 45
-	attack	24 1 36 48 55 1 0 0 0
+	attack	24 1 36 48 55 1 0 0 20 0
 	frame	data/chars/samjack/a2.gif
-	attack	25 1 32 47 30 1 0 0 0
+	attack	25 1 32 47 30 1 0 0 20 0
 	frame	data/chars/samjack/a3.gif
 	offset	13 35
-	attack	15 1 44 39 30 1 0 0 0
+	attack	15 1 44 39 30 1 0 0 20 0
 	frame	data/chars/samjack/a4.gif
-	attack	16 1 40 38 30 1 0 0 0
+	attack	16 1 40 38 30 1 0 0 20 0
 	frame	data/chars/samjack/a5.gif
 	offset	30 35
-	attack	5 2 36 37 30 1 0 0 0
+	attack	5 2 36 37 30 1 0 0 20 0
 	frame	data/chars/samjack/a6.gif
 	attack	13 0 31 39 60 1 0 0 0
 	frame	data/chars/samjack/a7.gif
@@ -96,11 +96,11 @@ anim	freespecial
 	@cmd	dasher 30 0 0
 	attack	0 0 0 0 0 0 0 0 0
 	frame	data/chars/samjack/walk4.gif
-	attack	12 1 31 37 33 0 0 0 0
+	attack	12 1 31 37 33 0 0 0 20 0
 	frame	data/chars/samjack/walk4.gif
-	attack	7 3 37 34 33 0 0 0 0
+	attack	7 3 37 34 33 0 0 0 20 0
 	frame	data/chars/samjack/walk4.gif
-	attack	13 2 29 35 33 0 0 0 0
+	attack	13 2 29 35 33 0 0 0 20 0
 	frame	data/chars/samjack/walk4.gif
 	attack	9 1 35 36 33 0 0 0 0
 	frame	data/chars/samjack/walk4.gif
@@ -175,13 +175,13 @@ anim	special
 	@cmd	dasher 30 0 0
 	attack	12 0 30 36 35 0 0 0 0
 	frame	data/chars/samjack/jump.gif
-	attack	18 1 22 34 35 0 0 0 0
+	attack	18 1 22 34 35 0 0 0 20 0
 	frame	data/chars/samjack/jump.gif
-	attack	17 0 24 35 35 0 0 0 0
+	attack	17 0 24 35 35 0 0 0 20 0
 	frame	data/chars/samjack/jump.gif
-	attack	17 4 24 33 35 0 0 0 0
+	attack	17 4 24 33 35 0 0 0 20 0
 	frame	data/chars/samjack/jump.gif
-	attack	16 4 27 36 35 0 0 0 0
+	attack	16 4 27 36 35 0 0 0 20 0
 	frame	data/chars/samjack/jump.gif
 	delay	10
 	offset	25 22

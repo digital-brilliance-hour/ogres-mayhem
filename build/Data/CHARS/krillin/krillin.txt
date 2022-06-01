@@ -35,7 +35,7 @@ anim	attack1
 	bbox	35 55 17 20
 	offset	38 77
 	frame	data/chars/Krillin/punch00.gif
-	attack	51 58 15 6 8
+	attack	51 58 15 6 8 0 0 0 20 0
 	frame	data/chars/Krillin/punch01.gif
 	frame	data/chars/Krillin/punch02.gif
 		
@@ -48,7 +48,7 @@ anim	attack2
 	frame	data/chars/Krillin/punch03.gif
 	frame	data/chars/Krillin/punch04.gif
 	frame	data/chars/Krillin/punch05.gif
-	attack	54 56 20 9 8
+	attack	54 56 20 9 8 0 0 0 20 0
 	frame	data/chars/Krillin/punch06.gif
 	attack	0
 	frame	data/chars/Krillin/punch07.gif
@@ -56,7 +56,7 @@ anim	attack2
 	frame	data/chars/Krillin/jab00.gif
 	frame	data/chars/Krillin/jab01.gif
 	frame	data/chars/Krillin/jab02.gif
-	attack	54 56 20 9 8
+	attack	54 56 20 9 8 0 0 0 20 0
 	frame	data/chars/Krillin/jab03.gif
 	attack	0
 	frame	data/chars/Krillin/jab04.gif
@@ -69,7 +69,7 @@ anim	attack3
 	bbox	35 55 17 20
 	frame	data/chars/Krillin/kick00.gif
 	frame	data/chars/Krillin/kick01.gif
-	attack	60 52 20 13 10 1
+	attack	60 52 20 13 10 1 0 0 20 0
 	frame	data/chars/Krillin/kick02.gif
 	frame	data/chars/Krillin/kick03.gif
 	frame	data/chars/Krillin/kick04.gif
@@ -117,38 +117,38 @@ anim	freespecial
 	@cmd	changeopenborvariant "slowmotion" 0
 	@cmd	spawnparent "pdust" -10 0 -20
 	sound	data/chars/Krillin/wave.wav
-	attack	60 42 47 40 15 1
+	attack	60 42 47 40 15 1 0 0 20 0
 	frame	data/chars/Krillin/kame06.gif
-	attack	0 0 0 0 0 0
+	attack	60 42 112 40 15 1 0 0 20 0
 	delay	5
-	attack	60 42 112 40 15 1
+	attack	60 42 112 40 15 1 0 0 20 0
 	frame	data/chars/Krillin/kame07.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 192 40 15 1
+	attack	60 42 192 40 15 1 0 0 20 0
+	attack	60 42 192 40 15 1 0 0 20 0
 	frame	data/chars/Krillin/kame08.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 286 40 15 1
+	attack	60 42 286 40 15 1 0 0 20 0
+	attack	60 42 286 40 15 1 0 0 20 0
 	frame	data/chars/Krillin/kame09.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 383 40 15 1
+	attack	60 42 383 40 15 1 0 0 20 0
+	attack	60 42 383 40 15 1 0 0 20 0
 	frame	data/chars/Krillin/kame10.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 480 40 15 1
+	attack	60 42 480 40 15 1 0 0 20 0
+	attack	60 42 480 40 15 1 0 0 20 0
 	frame	data/chars/Krillin/kame11.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 15 1 0 0 20 0
+	attack	60 42 522 41 15 1 0 0 20 0
 	frame	data/chars/Krillin/kame12.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 15 1 0 0 20 0
+	attack	60 42 522 41 15 1 0 0 20 0
 	frame	data/chars/Krillin/kame13.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 15 1 0 0 20 0
+	attack	60 42 522 41 15 1 0 0 20 0
 	frame	data/chars/Krillin/kame14.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 15 1 0 0 20 0
+	attack	60 42 522 41 15 1 0 0 20 0
 	frame	data/chars/Krillin/kame15.gif
-	attack	0 0 0 0 0 0
-	attack	60 42 522 41 15 1
+	attack	60 42 522 41 15 1 0 0 20 0
+	attack	60 42 522 41 15 1 0 0 20 0
 	frame	data/chars/Krillin/kame16.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Krillin/kame00.gif
@@ -276,19 +276,19 @@ anim	special
 	frame	data/chars/Krillin/solar03.gif
 	frame	data/chars/Krillin/solar04.gif
 	frame	data/chars/Krillin/solar05.gif
-	attack	26 45 39 39 20 0
+	attack	26 45 39 39 20 0 0 0 20 0
 	frame	data/chars/Krillin/solar06.gif
 	attack	0
 	frame	data/chars/Krillin/solar07.gif
-	attack	24 39 45 45 20 0
+	attack	24 39 45 45 20 0 0 0 20 0
 	frame	data/chars/Krillin/solar08.gif
 	attack	0
 	frame	data/chars/Krillin/solar04.gif
-	attack	24 39 45 45 20 0
+	attack	24 39 45 45 20 0 0 0 20 0
 	frame	data/chars/Krillin/solar08.gif
 	attack	0
 	frame	data/chars/Krillin/solar04.gif
-	attack	24 39 45 45 20 1
+	attack	24 39 45 45 20 1 0 0 20 0
 	dropv	7 1 0
 	frame	data/chars/Krillin/solar08.gif
 	attack	0
