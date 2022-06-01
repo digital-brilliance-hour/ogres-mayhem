@@ -364,3 +364,4 @@ Know kenSliceForwardHit Data/CHARS/misc/FX/kenSliceForwardHit/kenSliceForwardHit
 Know kenHit Data/CHARS/misc/FX/kenHit/kenHit.txt
 Know soldier Data/Chars/soldier/soldier.txt
 load    empty           data/chars/misc/empty.txt
+know Tsuna data/chars/Tsuna/Tsuna.txt
