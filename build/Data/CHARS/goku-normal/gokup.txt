@@ -39,6 +39,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	loop	0
 	delay	5
@@ -48,9 +49,9 @@ anim	attack1
 	frame	data/chars/Goku-normal/punch01.gif
 	frame	data/chars/Goku-normal/punch02.gif
 	frame	data/chars/Goku-normal/punch03.gif
-	attack	67 43 39 17 8 0 0 0 0 0
+	attack	67 43 39 17 8 0 0 0 20 0
 	frame	data/chars/Goku-normal/punch04.gif
-	attack	64 48 24 9 10
+	attack	64 48 24 9 10 0 0 0 20 0
 	@cmd	spawnparent "pdust" -10 0 -22
 	frame	data/chars/Goku-normal/punch05.gif
 		
@@ -64,15 +65,15 @@ anim	attack2
 	frame	data/chars/Goku-normal/kick02.gif
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Goku-normal/kick03.gif
-	attack	64 51 44 9 8 0 0 0 0 0
+	attack	64 51 44 9 8 0 0 0 20 0
 	frame	data/chars/Goku-normal/kick04.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/Goku-normal/kick05.gif
-	attack	64 59 46 9 8 0 0 0 0 0
+	attack	64 59 46 9 8 0 0 0 20 0
 	frame	data/chars/Goku-normal/kick06.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/Goku-normal/kick07.gif
-	attack	62 67 45 9 8 0 0 0 0 0
+	attack	62 67 45 9 8 0 0 0 20 0
 	frame	data/chars/Goku-normal/kick08.gif
 	frame	data/chars/Goku-normal/kick02.gif
 	frame	data/chars/Goku-normal/kick01.gif
@@ -86,7 +87,7 @@ anim	attack3
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Goku-normal/keri01.gif
 	delay	7
-	attack	45 7 64 68 15 1 1 0 0 0
+	attack	45 7 64 68 15 1 1 0 20 0
 	frame	data/chars/Goku-normal/keri02.gif
 	frame	data/chars/Goku-normal/keri03.gif
 	blast	0 0 0 0 0 0 0 0 0 0
@@ -174,7 +175,7 @@ anim	freespecial
 	loop	0
 	offset	43 78
 	range	0 200
-	delay	30
+	delay	35
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	spawnscreen "Screen_wind" 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
@@ -194,28 +195,28 @@ anim	freespecial
 	frame	data/chars/Goku-normal/kame06.gif
 	sound	data/chars/Goku-normal/ha.wav
 	frame	data/chars/Goku-normal/kame07.gif
-	blast	74 28 174 39 15 0 0 0 0 0
+	blast	74 28 174 39 15 0 0 0 20 0
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Goku-normal/kame08.gif
-	blast	74 28 203 39 15 0 0 0 0 0
+	blast	74 28 203 39 15 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame09.gif
-	blast	74 28 238 39 15 0 0 0 0 0
+	blast	74 28 238 39 15 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame10.gif
-	blast	74 28 266 39 15 0 0 0 0 0
+	blast	74 28 266 39 15 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame11.gif
-	blast	74 28 336 39 15 0 0 0 0 0
+	blast	74 28 336 39 15 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame12.gif
-	blast	74 28 394 39 15 0 0 0 0 0
+	blast	74 28 394 39 15 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame13.gif
-	blast	74 28 532 39 15 0 0 0 0 0
+	blast	74 28 532 39 15 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame14.gif
-	blast	74 28 647 39 15 0 0 0 0 0
+	blast	74 28 647 39 15 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame15.gif
-	blast	74 28 743 39 15 0 0 0 0 0
+	blast	74 28 743 39 15 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame16.gif
-	blast	74 28 743 39 15 0 0 0 0 0
+	blast	74 28 743 39 15 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame17.gif
-	blast	74 28 743 39 15 0 0 0 0 0
+	blast	74 28 743 39 15 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame18.gif
 	blast	74 28 743 39 16 0 0 0 0 0
 	frame	data/chars/Goku-normal/kame19.gif
@@ -225,7 +226,7 @@ anim	freespecial
 		
 anim	freespecial11
 	sound	data/chars/yusuke/broly_5-22.wav
-	delay	7
+	delay	9
 	offset	43 78
 	frame	data/chars/Goku-normal/dash01.gif
 	delay	2
@@ -269,7 +270,7 @@ anim	freespecial2
 	mponly	1
 	loop	0
 	offset	43 86
-	delay	7
+	delay	9
 	sound	data/chars/Goku-normal/ki.wav
 	@cmd	damage_all_enemies 30 1 0 "ATK_NORMAL"
 	frame	data/chars/Goku-normal/ki01.GIF
@@ -286,7 +287,7 @@ anim	freespecial3
 	loop	0
 	weaponframe	7 1
 	offset	43 86
-	delay	7
+	delay	9
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	sound	data/chars/Goku-normal/ki.wav
 	frame	data/chars/Goku-normal/ki01.GIF
@@ -305,7 +306,7 @@ anim	freespecial4
 	loop	0
 	offset	43 78
 	range	0 200
-	delay	30
+	delay	35
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	spawnscreen "Screen_wind" 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
@@ -326,27 +327,27 @@ anim	freespecial4
 	frame	data/chars/Goku-normal/kame06.gif
 	sound	data/chars/Goku-normal/ha.wav
 	frame	data/chars/Goku-normal/kame07.gif
-	blast	74 28 174 39 40 0 0 0 0 0
+	blast	74 28 174 39 40 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame08.gif
-	blast	74 28 203 39 40 0 0 0 0 0
+	blast	74 28 203 39 40 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame09.gif
-	blast	74 28 238 39 40 0 0 0 0 0
+	blast	74 28 238 39 40 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame10.gif
-	blast	74 28 266 39 40 0 0 0 0 0
+	blast	74 28 266 39 40 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame11.gif
-	blast	74 28 336 39 40 0 0 0 0 0
+	blast	74 28 336 39 40 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame12.gif
-	blast	74 28 394 39 40 0 0 0 0 0
+	blast	74 28 394 39 40 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame13.gif
-	blast	74 28 532 39 40 0 0 0 0 0
+	blast	74 28 532 39 40 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame14.gif
-	blast	74 28 647 39 40 0 0 0 0 0
+	blast	74 28 647 39 40 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame15.gif
-	blast	74 28 743 39 40 0 0 0 0 0
+	blast	74 28 743 39 40 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame16.gif
-	blast	74 28 743 39 40 0 0 0 0 0
+	blast	74 28 743 39 40 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame17.gif
-	blast	74 28 743 39 40 0 0 0 0 0
+	blast	74 28 743 39 40 0 0 0 20 0
 	frame	data/chars/Goku-normal/kame18.gif
 	blast	74 28 743 39 40 0 0 0 0 0
 	frame	data/chars/Goku-normal/kame19.gif
@@ -377,7 +378,7 @@ anim	jump
 		
 anim	jumpattack
 	loop	0
-	delay	15
+	delay	17
 	offset	43 78
 	bbox	36 46 17 21
 	movea	-10
@@ -439,14 +440,14 @@ anim	run
 		
 anim	runattack
 	loop	0
-	delay	7
+	delay	9
 	offset	43 78
 	move	20
 	sound	data/chars/Goku-normal/dash.wav
-	blast	51 35 28 40 12 0 0 0 0 0
+	blast	51 35 28 40 12 0 0 0 20 0
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Goku-normal/dash01.gif
-	blast	51 35 28 40 12 0 0 0 0 0
+	blast	51 35 28 40 12 0 0 0 20 0
 	frame	data/chars/Goku-normal/dash02.gif
 		
 anim	spawn

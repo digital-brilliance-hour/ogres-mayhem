@@ -22,7 +22,7 @@ anim	attack1
 	bbox	3 -1 45 61
 	offset	22 52
 	frame	data/chars/yugao/unmaska/130.png
-	attack1	5 1 61 52 7
+	attack10	5 1 61 52 7 0 0 0 20 0
 	delay	3
 	frame	data/chars/yugao/unmaska/129.png
 	frame	data/chars/yugao/unmaska/128.png
@@ -33,7 +33,7 @@ anim	attack2
 	bbox	3 -1 45 61
 	offset	22 52
 	frame	data/chars/yugao/unmaska/130.png
-	attack1	2 -2 59 55 7
+	attack10	2 -2 59 55 7 0 0 0 20 0
 	delay	3
 	frame	data/chars/yugao/unmaska/129.png
 	frame	data/chars/yugao/unmaska/128.png
@@ -44,7 +44,7 @@ anim	attack3
 	delay	7
 	frame	data/chars/yugao/unmaska/88.png
 	offset	22 81
-	attack1	0 0 77 85 25 1
+	attack10	0 0 77 85 25 1 0 0 20 0
 	frame	data/chars/yugao/unmaska/98.png
 	offset	22 78
 	frame	data/chars/yugao/unmaska/99.png
@@ -105,7 +105,7 @@ anim	grabattack
 	delay	7
 	bbox	3 -1 45 61
 	offset	22 52
-	attack1	-1 -2 55 38 7
+	attack10	-1 -2 55 38 7 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/130.png
 	attack1	2
 	delay	2
@@ -120,17 +120,17 @@ anim	grabattack2
 	offset	22 52
 	move	10
 	delay	2
-	attack1	0 1 55 26 40 0
+	attack10	0 1 55 26 40 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/216.png
 	Attack1	0
 	frame	data/chars/yugao/unmaska/216.png
-	attack1	0 0 62 32 40 0
+	attack10	0 0 62 32 40 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/216.png
 	Attack1	0
 	frame	data/chars/yugao/unmaska/216.png
 	offset	49 51
 	delay	20
-	attack1	0 0 81 33 65 1
+	attack10	0 0 81 33 65 1 0 0 20 0
 	frame	data/chars/yugao/unmaska/217.png
 		
 anim	idle
@@ -221,23 +221,23 @@ anim	runattack
 	frame	data/chars/yugao/unmaska/44.png
 	delay	1
 	frame	data/chars/yugao/unmaska/107.png
-	attack1	0 0 46 63 25
+	attack10	0 0 46 63 25 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/107.png
 	Attack1	0
 	frame	data/chars/yugao/unmaska/107.png
-	attack1	0 0 45 61 25
+	attack10	0 0 45 61 25 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/107.png
 	Attack1	0
 	frame	data/chars/yugao/unmaska/107.png
-	attack1	1 0 43 61 18
+	attack10	1 0 43 61 18 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/107.png
 	Attack1	0
 	frame	data/chars/yugao/unmaska/107.png
-	attack1	0 0 45 61 18
+	attack10	0 0 45 61 18 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/107.png
 	Attack1	0
 	frame	data/chars/yugao/unmaska/107.png
-	attack1	0 0 42 61 18
+	attack10	0 0 42 61 18 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/107.png
 		
 anim	runjumpattack
@@ -269,25 +269,25 @@ anim	special
 	frame	data/chars/yugao/unmaska/184.png
 	move	15
 	offset	10 122
-	attack1	0 -1 110 201 25
+	attack10	0 -1 110 201 25 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/186.png
 	Attack1	0
 	frame	data/chars/yugao/unmaska/186.png
-	attack1	2 4 256 120 25
+	attack10	2 4 256 120 25 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/187.png
 	Attack1	0
 	frame	data/chars/yugao/unmaska/187.png
-	attack1	-1 -1 90 193 25
+	attack10	-1 -1 90 193 25 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/200.png
 	Attack1	0
 	frame	data/chars/yugao/unmaska/200.png
 	offset	32 27
-	attack1	-8 -28 84 69 25
+	attack10	-8 -28 84 69 25 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/192.png
 	Attack1	0
 	frame	data/chars/yugao/unmaska/192.png
 	offset	22 104
-	attack1	0 -2 256 126 25
+	attack10	0 -2 256 126 25 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/208.png
 	Attack1	0
 	frame	data/chars/yugao/unmaska/208.png
@@ -296,9 +296,9 @@ anim	special
 	frame	data/chars/yugao/unmaska/184.png
 	offset	22 94
 	move	0
-	attack1	0 2 69 92 120
+	attack10	0 2 69 92 120 0 0 0 20 0
 	frame	data/chars/yugao/unmaska/188.png
-	attack1	0 1 87 189 85
+	attack10	0 1 87 189 85 0 0 0 20 0
 	delay	1
 	frame	data/chars/yugao/unmaska/200.png
 	attack1	-86

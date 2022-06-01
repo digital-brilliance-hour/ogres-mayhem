@@ -33,6 +33,8 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
+
 anim	attack1
 	loop	0
 	delay	3
@@ -45,13 +47,13 @@ anim	attack1
 	frame	data/chars/Ace/punch05.gif
 	frame	data/chars/Ace/punch06.gif
 	sound	data/chars/Ace/punch.wav
-	attack	67 33 49 29 30
+	attack	67 33 49 29 30 0 0 0 20 0
 	frame	data/chars/Ace/punch07.gif
-	attack	67 33 49 29 30
+	attack	67 33 49 29 30 0 0 0 20 0
 	frame	data/chars/Ace/punch08.gif
-	attack	67 33 49 29 30
+	attack	67 33 49 29 30 0 0 0 20 0
 	frame	data/chars/Ace/punch09.gif
-	attack	67 33 49 29 30
+	attack	67 33 49 29 30 0 0 0 20 0
 	frame	data/chars/Ace/punch10.gif
 	frame	data/chars/Ace/punch11.gif
 	frame	data/chars/Ace/punch12.gif
@@ -67,46 +69,46 @@ anim	attack2
 	bbox	36 46 13 20
 	offset	38 77
 	sound	data/chars/Ace/gtl.wav
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl01.gif
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl02.gif
 	sound	data/chars/Ace/gtl.wav
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl03.gif
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl04.gif
 	sound	data/chars/Ace/gtl.wav
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl05.gif
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl06.gif
 	sound	data/chars/Ace/gtl.wav
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl07.gif
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl08.gif
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl09.gif
 	sound	data/chars/Ace/gtl.wav
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl01.gif
 	blast	62 33 35 27 30 2
 	frame	data/chars/Ace/gtl02.gif
 	sound	data/chars/Ace/gtl.wav
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl03.gif
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl04.gif
 	sound	data/chars/Ace/gtl.wav
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl05.gif
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl06.gif
 	sound	data/chars/Ace/gtl.wav
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 20 0
 	frame	data/chars/Ace/gtl07.gif
-	blast	62 33 35 27 30 2
+	blast	62 33 35 27 30 2 0 0 0 0
 	frame	data/chars/Ace/gtl08.gif
 	blast	62 33 35 27 30 2
 	frame	data/chars/Ace/gtl09.gif
@@ -178,11 +180,11 @@ anim	freespecial
 	attack	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/Ace/punch07.gif
 	@cmd	spawnparent "pdust" -10 0 -20
-	attack	67 33 49 29 30
+	attack	67 33 49 29 30 0 0 0 20 0
 	frame	data/chars/Ace/punch08.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	frame	data/chars/Ace/punch09.gif
-	attack	67 33 49 29 30 1 0 0 0 0
+	attack	67 33 49 29 30 1 0 0 20 0
 	frame	data/chars/Ace/punch10.gif
 	frame	data/chars/Ace/punch11.gif
 	frame	data/chars/Ace/punch12.gif

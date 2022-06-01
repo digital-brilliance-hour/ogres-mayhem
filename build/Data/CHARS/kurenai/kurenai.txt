@@ -18,6 +18,7 @@ knife         kurenai_throw
 didhitscript data/scripts/didhit/didhit.c
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -27,7 +28,7 @@ anim	attack1
 	attack1	8
 	offset	21 44
 	frame	data/chars/Kurenai/115.png
-	attack1	21 2 29 40 5
+	attack10	21 2 29 40 5 0 0 0 20 0
 	frame	data/chars/Kurenai/116.png
 		
 anim	attack2
@@ -39,7 +40,7 @@ anim	attack2
 	attack1	8
 	offset	21 44
 	frame	data/chars/Kurenai/115.png
-	attack1	23 0 27 46 5
+	attack10	23 0 27 46 5 0 0 0 20 0
 	frame	data/chars/Kurenai/116.png
 		
 anim	attack3
@@ -51,7 +52,7 @@ anim	attack3
 	attack1	8
 	offset	21 44
 	frame	data/chars/Kurenai/115.png
-	attack1	27 0 23 46 25 1
+	attack10	27 0 23 46 25 1 0 0 20 0
 	frame	data/chars/Kurenai/116.png
 		
 anim	block
@@ -111,7 +112,7 @@ anim	grabattack
 	attack1	8
 	offset	21 44
 	frame	data/chars/Kurenai/115.png
-	attack1	23 0 27 45 15
+	attack10	23 0 27 45 15 0 0 0 20 0
 	frame	data/chars/Kurenai/116.png
 		
 anim	grabattack2
@@ -123,7 +124,7 @@ anim	grabattack2
 	attack1	8
 	offset	21 44
 	frame	data/chars/Kurenai/115.png
-	attack1	28 0 23 45 15
+	attack10	28 0 23 45 15 0 0 0 20 0
 	frame	data/chars/Kurenai/116.png
 		
 anim	idle
