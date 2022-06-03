@@ -15,16 +15,15 @@ facing 1
 
 
 
+
+
 anim	idle
-	loop	1 1
 	delay	10
+	drawmethod	alpha 6
 	offset	1 1
 	@cmd	changeentityproperty getlocalvar("self") "direction" 1
 	frame	data/chars/misc/blackscreen/black.gif
-	@cmd	changeentityproperty getlocalvar("self") "setlayer" 1000
-	frame	data/chars/misc/blackscreen/black.gif
-	frame	data/chars/misc/blackscreen/black.gif
-	frame	data/chars/misc/blackscreen/black.gif
+	@cmd	changeentityproperty getlocalvar("self") "setlayer" 5000
 	frame	data/chars/misc/blackscreen/black.gif
 		
 #|edited by openBor Stats v 0.67
