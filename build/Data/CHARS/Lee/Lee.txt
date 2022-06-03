@@ -60,13 +60,14 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	4
 	offset	13 44
 	frame	data/chars/Lee/35.gif
 	offset	13 41
 	frame	data/chars/Lee/36.gif
-	attack	19 2 35 25 10 0 1 0 20 0
+	attack	19 2 35 25 10 0 1 0 0 0
 	offset	13 40
 	frame	data/chars/Lee/37.gif
 		
@@ -77,13 +78,13 @@ anim	attack2
 	frame	data/chars/Lee/44.gif
 	offset	13 44
 	frame	data/chars/Lee/45.gif
-	attack	15 3 56 45 10 0 1 0 20 0
+	attack	15 3 56 45 10 0 1 0 0 0
 	offset	14 58
 	frame	data/chars/Lee/46.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	11 55
 	frame	data/chars/Lee/47.gif
-	attack	11 5 53 39 10 0 1 0 20 0
+	attack	11 5 53 39 10 0 1 0 0 0
 	offset	13 44
 	frame	data/chars/Lee/50.gif
 	offset	8 45
@@ -102,19 +103,19 @@ anim	attack3
 	frame	data/chars/Lee/75.gif
 	offset	-2 41
 	frame	data/chars/Lee/76.gif
-	attack	13 3 33 42 12 0 1 0 20 0
+	attack	13 3 33 42 12 0 1 0 0 0
 	offset	-7 43
 	frame	data/chars/Lee/77.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	15 39
 	frame	data/chars/Lee/78.gif
-	attack	11 1 48 39 12 0 1 0 20 0
+	attack	11 1 48 39 12 0 1 0 0 0
 	offset	16 37
 	frame	data/chars/Lee/79.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	15 40
 	frame	data/chars/Lee/80.gif
-	attack	16 1 47 37 14 1 1 0 20 0
+	attack	16 1 47 37 14 1 1 0 0 0
 	offset	9 36
 	frame	data/chars/Lee/81.gif
 		

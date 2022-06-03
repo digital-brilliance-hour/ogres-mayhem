@@ -70,6 +70,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	sound	data/chars/gon/gon_0-23.wav
 	delay	7
@@ -77,7 +78,7 @@ anim	attack1
 	frame	data/chars/Gon/127.gif
 	offset	15 39
 	frame	data/chars/Gon/128.gif
-	attack	33 11 35 16 7 0 1 0 20 0
+	attack	33 11 35 16 7 0 1 0 0 0
 	offset	15 39
 	frame	data/chars/Gon/129.gif
 		
@@ -93,7 +94,7 @@ anim	attack2
 	frame	data/chars/Gon/132.gif
 	offset	14 39
 	frame	data/chars/Gon/133.gif
-	attack	22 15 41 25 8 0 1 0 20 0
+	attack	22 15 41 25 8 0 1 0 0 0
 	offset	14 40
 	frame	data/chars/Gon/134.gif
 	offset	13 43
@@ -117,7 +118,7 @@ anim	attack3
 	frame	data/chars/Gon/143.gif
 	offset	18 43
 	frame	data/chars/Gon/144.gif
-	attack	22 43 44 -42 8 0 1 0 20 0
+	attack	22 43 44 -42 8 1 1 0 0 0
 	offset	21 42
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Gon/145.gif
