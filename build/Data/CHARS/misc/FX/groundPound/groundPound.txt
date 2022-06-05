@@ -1,0 +1,48 @@
+name  groundPound
+type 	none
+shadow	0
+alpha 1
+
+
+
+
+
+anim	idle
+	delay	4
+	drawmethod	scale 0.55
+	offset	165 273
+	frame	data/chars/Kenpachi/181.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/182.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/183.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/184.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/185.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/186.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/187.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/188.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/189.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/190.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/191.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/192.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/193.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/194.gif
+	offset	165 273
+	frame	data/chars/Kenpachi/195.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

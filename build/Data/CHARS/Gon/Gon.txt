@@ -68,6 +68,9 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
+
+
 anim	attack1
 	sound	data/chars/gon/gon_0-23.wav
 	delay	7
@@ -115,14 +118,14 @@ anim	attack3
 	frame	data/chars/Gon/143.gif
 	offset	18 43
 	frame	data/chars/Gon/144.gif
-	attack	22 43 44 -42 8 0 1 0 0 0
+	attack	22 43 44 -42 8 1 1 0 0 0
 	offset	21 42
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Gon/145.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	20 54
 	frame	data/chars/Gon/146.gif
-	attack	5 0 73 51 8 1 1 0 0 0
+	attack	5 0 73 51 8 1 1 0 20 0
 	offset	19 53
 	frame	data/chars/Gon/147.gif
 	offset	32 52
@@ -436,7 +439,7 @@ anim	jumpattack
 	frame	data/chars/Gon/151.gif
 	offset	26 57
 	frame	data/chars/Gon/152.gif
-	attack	22 8 56 28 9 0 1 0 0 0
+	attack	22 8 56 28 9 0 1 0 14 0
 	offset	15 32
 	frame	data/chars/Gon/153.gif
 	offset	13 38
@@ -476,9 +479,9 @@ anim	run
 	frame	data/chars/Gon/11.gif
 	offset	14 38
 	frame	data/chars/Gon/12.gif
+	sound	data/sounds/walk.wav
 	bbox	8 2 13 34
 	offset	5 37
-	sound	data/sounds/walk.wav
 	frame	data/chars/Gon/13.gif
 	bbox	8 2 22 37
 	offset	13 37
@@ -505,14 +508,14 @@ anim	runattack
 	offset	18 43
 	frame	data/chars/Gon/144.gif
 	@cmd	leaper 2 2 0
-	attack	22 43 44 -42 8 0 1 0 0 0
+	attack	22 43 44 -42 8 0 1 0 20 0
 	offset	21 42
 	@cmd	spawnparent "pdust" -10 0 -20
 	frame	data/chars/Gon/145.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	20 54
 	frame	data/chars/Gon/146.gif
-	attack	5 0 73 51 8 1 1 0 0 0
+	attack	5 0 73 51 8 1 1 0 20 0
 	offset	19 53
 	frame	data/chars/Gon/147.gif
 	offset	32 52

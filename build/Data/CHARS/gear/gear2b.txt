@@ -21,6 +21,7 @@ flash break
 weaploss 1
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -29,7 +30,7 @@ anim	attack1
 	sound	data/chars/Gear/pistol.wav
 	frame	data/chars/Gear/pistol01.gif
 	frame	data/chars/Gear/pistol02.gif
-	blast	70 32 133 48 40
+	blast	70 32 133 48 40 0 0 0 20 0
 	frame	data/chars/Gear/pistol03.gif
 	frame	data/chars/Gear/pistol04.gif
 		
@@ -41,11 +42,11 @@ anim	attack2
 	frame	data/chars/Gear/jetb01.gif
 	frame	data/chars/Gear/jetb02.gif
 	sound	data/chars/Gear/jetb.wav
-	attack	108 35 50 39 90
-	blast	108 35 50 39 90
+	blast	108 35 50 39 90 0 0 0 20 0
+	blast	108 35 50 39 90 0 0 0 20 0
 	frame	data/chars/Gear/jetb03.gif
-	attack	108 35 50 39 90
-	blast	108 35 50 39 90
+	blast	108 35 50 39 90 0 0 0 20 0
+	blast	108 35 50 39 90 0 0 0 20 0
 	frame	data/chars/Gear/jetb04.gif
 	move	5
 	frame	data/chars/Gear/jetb05.gif
@@ -70,6 +71,44 @@ anim	block
 	frame	data/chars/Gear/BLO02.gif
 	frame	data/chars/Gear/BLO02.gif
 		
+anim	dodge
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	7
+	offset	38 77
+	frame	data/chars/Gear/run01.gif
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	drawmethod	rotate 90
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	delay	7
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	drawmethod	rotate 0
+	delay	7
+	offset	38 77
+	frame	data/chars/Gear/run03.gif
+		
 anim	fall
 		
 anim	freespecial
@@ -89,134 +128,134 @@ anim	freespecial
 	blast	97 0 199 85 80 0 0 0 50 200
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
-	frame	data/chars/Gear/JetGa08.gif
-	offset	75 77
-	attack	97 0 199 85 50
-	frame	data/chars/Gear/JetGa05.gif
-	offset	75 77
-	attack	97 0 199 85 50
-	frame	data/chars/Gear/JetGa06.gif
-	offset	75 77
-	attack	97 0 199 85 50
-	frame	data/chars/Gear/JetGa07.gif
-	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa05.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa06.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa07.gif
 	offset	75 77
-	attack	97 0 199 85 50
+	attack	97 0 199 85 50 0 0 0 20 0
+	frame	data/chars/Gear/JetGa08.gif
+	offset	75 77
+	attack	97 0 199 85 50 0 0 0 20 0
+	frame	data/chars/Gear/JetGa05.gif
+	offset	75 77
+	attack	97 0 199 85 50 0 0 0 20 0
+	frame	data/chars/Gear/JetGa06.gif
+	offset	75 77
+	attack	97 0 199 85 50 0 0 0 20 0
+	frame	data/chars/Gear/JetGa07.gif
+	offset	75 77
+	attack	97 0 199 85 50 0 0 0 20 0
 	frame	data/chars/Gear/JetGa08.gif
 		
 anim	get
@@ -289,44 +328,6 @@ anim	land
 	frame	data/chars/Gear/rise07.gif
 	frame	data/chars/Gear/rise08.gif
 		
-anim	dodge
-	sound	data/chars/yusuke/broly_5-22.wav
-	delay	7
-	offset	38 77
-	frame	data/chars/Gear/run01.gif
-	delay	2
-	fshadow	0
-	drawmethod	scale 0.3 0.2
-	drawmethod	alpha 1
-	drawmethod	rotate 90
-	offset	179 61
-	frame	data/chars/yusuke/840.gif
-	offset	178 63
-	frame	data/chars/yusuke/841.gif
-	offset	219 65
-	frame	data/chars/yusuke/842.gif
-	offset	225 79
-	frame	data/chars/yusuke/843.gif
-	offset	222 82
-	frame	data/chars/yusuke/844.gif
-	offset	223 79
-	frame	data/chars/yusuke/845.gif
-	offset	226 80
-	frame	data/chars/yusuke/846.gif
-	offset	219 83
-	frame	data/chars/yusuke/847.gif
-	offset	209 83
-	frame	data/chars/yusuke/848.gif
-	delay	7
-	frame	data/chars/misc/empty.gif
-	frame	data/chars/misc/empty.gif
-	drawmethod	scale 1
-	drawmethod	alpha 0
-	drawmethod	rotate 0
-	delay	7
-	offset	38 77
-	frame	data/chars/Gear/run03.gif
-		
 anim	pain
 	loop	0
 	offset	38 77
@@ -371,11 +372,11 @@ anim	special2
 	frame	data/chars/Gear/jetb01.gif
 	frame	data/chars/Gear/jetb02.gif
 	sound	data/chars/Gear/jetb.wav
-	attack	108 35 50 39 90
-	blast	108 35 50 39 90
+	blast	108 35 50 39 90 0 0 0 20 0
+	blast	108 35 50 39 90 0 0 0 20 0
 	frame	data/chars/Gear/jetb03.gif
-	attack	108 35 50 39 90
-	blast	108 35 50 39 90
+	blast	108 35 50 39 90 0 0 0 20 0
+	blast	108 35 50 39 90 0 0 0 20 0
 	frame	data/chars/Gear/jetb04.gif
 	move	5
 	frame	data/chars/Gear/jetb05.gif

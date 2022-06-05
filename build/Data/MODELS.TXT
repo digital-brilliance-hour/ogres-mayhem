@@ -255,6 +255,7 @@ know	kurenai_throw	data/chars/misc/kurenai_throw.txt
 know	dsnakes_enemy	data/chars/misc/dsnakes_enemy.txt
 know	scythe_enemy	data/chars/misc/scythe_enemy.txt
 know	dummy			data/chars/dummy/dummy.txt
+Know harpy Data/Chars/harpy/harpy.txt
 
 # Not a real enemy... ;)
 know	Ramon		data/chars/ramon/ramon.txt
@@ -339,3 +340,28 @@ know sonicWhirlwindBottom data/chars/Sonic/sonicWhirlwindBottom.txt
 know blackScreen data/chars/misc/blackscreen.txt
 Load blankP Data/Chars/blankP/blankP.txt
 Know moveList Data/CHARS/misc/moveList/moveList.txt
+know adult_gon data/chars/Goku_UI/adult_gon.txt
+know adult_gon-OLD data/chars/Goku_UI/adult_gon-OLD.txt
+know sasukeTransform data/chars/cssasuke/cssasuke.txt
+know sasukeTransformOLD data/chars/cssasuke/cssasuke-old.txt
+know KenpachiTransform data/chars/Kenpachi/kenpachitransform.txt
+know fireballJutsu data/chars/cssasuke/fireball.txt
+know skunai data/chars/cssasuke/kunai.txt
+know pChidori data/chars/cssasuke/chidori.txt
+load KenpachiTransform data/chars/Kenpachi/kenpachitransform.txt
+Know leona Data/Chars/leona/leona.txt
+know KenpachiTransformOLD data/chars/Kenpachi/kenpachitransformold.txt
+know KenpachiOLD data/chars/Kenpachi/kenpachiold.txt
+load groundPound Data/CHARS/misc/FX/groundPound/groundPound.txt
+Know kenSlashGround Data/CHARS/misc/FX/kenSlashGround/kenSlashGround.txt
+Know groundPoundHarder Data/CHARS/misc/FX/groundPoundHarder/groundPoundHarder.txt
+Know kenSliceForward Data/CHARS/misc/FX/kenSliceForward/kenSliceForward.txt
+Know kenDownwardSlash Data/CHARS/misc/FX/kenDownwardSlash/kenDownwardSlash.txt
+Know kenDownwardSlashImpact Data/CHARS/misc/FX/kenDownwardSlashImpact/kenDownwardSlashImpact.txt
+Know kenBankaiSlam Data/CHARS/misc/FX/kenBankaiSlam/kenBankaiSlam.txt
+Know kenTransformLight Data/CHARS/misc/FX/kenTransformLight/kenTransformLight.txt
+Know kenRisingSlash Data/CHARS/misc/FX/kenRisingSlash/kenRisingSlash.txt
+Know kenSliceForwardHit Data/CHARS/misc/FX/kenSliceForwardHit/kenSliceForwardHit.txt
+Know kenHit Data/CHARS/misc/FX/kenHit/kenHit.txt
+Know soldier Data/Chars/soldier/soldier.txt
+load    empty           data/chars/misc/empty.txt

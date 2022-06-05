@@ -1,0 +1,40 @@
+name  kenSliceForward
+type none
+shadow 0
+alpha 1
+candamage player
+setlayer 100
+
+load kenSliceForwardHit
+
+didhitscript data/scripts/didhit/fx.c
+
+anim	idle
+	attack	133 30 239 126 100 1 1 0 100 50
+	drawmethod	scale 0.60
+	drawmethod	flipx 1
+	delay	3
+	offset	255 131
+	frame	data/chars/Kenpachi/399.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	255 131
+	frame	data/chars/Kenpachi/400.gif
+	attack	133 30 239 126 100 1 0 1 100 50
+	offset	255 131
+	frame	data/chars/Kenpachi/401.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	255 131
+	frame	data/chars/Kenpachi/402.gif
+	attack	133 30 239 126 100 1 1 0 100 50
+	offset	255 131
+	frame	data/chars/Kenpachi/403.gif
+	offset	255 131
+	frame	data/chars/Kenpachi/404.gif
+	offset	255 131
+	frame	data/chars/Kenpachi/405.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

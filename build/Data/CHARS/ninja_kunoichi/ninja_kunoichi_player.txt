@@ -14,13 +14,14 @@ knife         kunai_npc
 star          shuri_npc
 didhitscript data/scripts/didhit/didhit.c
 
+
 anim	attack1
 	range	0 50
 	loop	0
 	delay	7
 	offset	19 50
 	bbox	14 -2 29 57
-	attack1	32 -2 33 57 7
+	attack10	32 -2 33 57 7 0 0 0 20 0
 	sound	data/sounds/fattack5.wav
 	frame	data/chars/ninja_kunoichi/16.png
 	bbox	9 -1 33 58
@@ -32,7 +33,7 @@ anim	attack2
 	delay	7
 	offset	19 50
 	bbox	14 -2 29 57
-	attack1	32 -1 34 58 8
+	attack10	32 -1 34 58 8 0 0 0 20 0
 	sound	data/sounds/fattack2.wav
 	frame	data/chars/ninja_kunoichi/16.png
 	bbox	9 -1 33 58
@@ -50,8 +51,8 @@ anim	attack3
 	frame	data/chars/ninja_kunoichi/11.png
 	frame	data/chars/ninja_kunoichi/5.png
 	frame	data/chars/ninja_kunoichi/7.png
-	attack1	17 -2 29 63 15 2
-	bbox	0
+	attack10	17 -2 29 63 15 2 0 0 20 0
+	bbox	0 0 0 0
 	frame	data/chars/ninja_kunoichi/6.png
 	attack1	17 -2 29 63 15 1
 	frame	data/chars/ninja_kunoichi/6.png
@@ -98,7 +99,7 @@ anim	freespecial
 	delay	7
 	offset	19 50
 	bbox	14 -2 29 57
-	attack1	32
+	attack10	32 0 0 0 0 0 0 0 20 0
 	throwframe	
 	throwframe	1
 	sound	data/sounds/fattack11.wav
@@ -126,7 +127,7 @@ anim	grabattack
 	delay	7
 	offset	19 50
 	bbox	14 -2 29 57
-	attack1	31 -1 34 58 12
+	attack10	31 -1 34 58 12 0 0 0 20 0
 	sound	data/sounds/fattack37.wav
 	frame	data/chars/ninja_kunoichi/16.png
 	bbox	9 -1 33 58
@@ -138,7 +139,7 @@ anim	grabattack2
 	delay	7
 	offset	19 50
 	bbox	14 -2 29 57
-	attack1	32 0 33 57 12
+	attack10	32 0 33 57 12 0 0 0 20 0
 	sound	data/sounds/fattack19.wav
 	frame	data/chars/ninja_kunoichi/16.png
 	bbox	9 -1 33 58
@@ -225,6 +226,7 @@ anim	run
 	bbox	3 -1 41 51
 	loop	
 	loop	1
+	sound	data/sounds/walk.wav
 	frame	data/chars/ninja_kunoichi/3.png
 	frame	data/chars/ninja_kunoichi/4.png
 		
@@ -276,6 +278,7 @@ anim	walk
 	bbox	3 -1 41 51
 	frame	data/chars/ninja_kunoichi/3.png
 	offset	27 35
+	sound	data/sounds/walk.wav
 	frame	data/chars/ninja_kunoichi/4.png
 		
 #|edited by openBor Stats v 0.67

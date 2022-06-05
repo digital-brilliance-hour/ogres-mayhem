@@ -16,6 +16,7 @@ jumpheight 4
 icon	data/chars/omoi/icon.png
 didhitscript data/scripts/didhit/didhit.c
 
+
 anim	attack1
 	loop	0
 	offset	28 59
@@ -23,7 +24,7 @@ anim	attack1
 	bbox	3 -1 45 61
 	frame	data/chars/omoi/214.png
 	offset	22 52
-	attack1	5 1 61 52 7
+	attack10	5 1 61 52 7 0 0 0 20 0
 	frame	data/chars/omoi/216.png
 		
 anim	attack2
@@ -32,12 +33,12 @@ anim	attack2
 	delay	7
 	frame	data/chars/omoi/228.png
 	offset	24 52
-	attack1	32 -6 26 58 18
+	attack10	32 -6 26 58 18 0 0 0 20 0
 	frame	data/chars/omoi/229.png
 	offset	24 50
-	attack1	34 -3 42 51 18
+	attack10	34 -3 42 51 18 0 0 0 20 0
 	frame	data/chars/omoi/232.png
-	attack1	34 -3 42 51 16
+	attack10	34 -3 42 51 16 0 0 0 20 0
 	frame	data/chars/omoi/233.png
 	Attack1	0
 	frame	data/chars/omoi/234.png
@@ -50,7 +51,7 @@ anim	attack3
 	frame	data/chars/omoi/215.png
 	frame	data/chars/omoi/212.png
 	offset	25 60
-	attack1	21 2 43 62 14 1
+	attack10	21 2 43 62 14 1 0 0 20 0
 	frame	data/chars/omoi/211.png
 	offset	25 57
 	Attack1	0
@@ -100,18 +101,18 @@ anim	freespecial
 	delay	7
 	offset	63 85
 	bbox	39 33 39 54
-	attack1	1 3 99 88 15 1
+	attack10	1 3 99 88 15 1 0 0 20 0
 	move	25
 	frame	data/chars/omoi/208a.PNG
 	frame	data/chars/omoi/208a.PNG
-	attack1	1 3 99 88 25 1
+	attack10	1 3 99 88 25 1 0 0 20 0
 	frame	data/chars/omoi/208a.PNG
 	offset	63 92
-	attack1	5 1 84 93 45 1
+	attack10	5 1 84 93 45 1 0 0 20 0
 	frame	data/chars/omoi/208.PNG
 	delay	45
 	offset	34 87
-	attack1	5 1 84 93 25 1
+	attack10	5 1 84 93 25 1 0 0 20 0
 	frame	data/chars/omoi/209.PNG
 		
 anim	get
@@ -134,7 +135,7 @@ anim	grabattack
 	delay	7
 	frame	data/chars/omoi/214.png
 	offset	22 52
-	attack1	0 0 65 26 7
+	attack10	0 0 65 26 7 0 0 0 20 0
 	frame	data/chars/omoi/216.png
 		
 anim	grabattack2
@@ -145,7 +146,7 @@ anim	grabattack2
 	frame	data/chars/omoi/215.png
 	frame	data/chars/omoi/212.png
 	offset	25 60
-	attack1	27 0 40 61 15
+	attack10	27 0 40 61 15 0 0 0 20 0
 	frame	data/chars/omoi/211.png
 	offset	25 57
 	Attack1	0
@@ -219,6 +220,7 @@ anim	run
 	offset	19 51
 	delay	7
 	bbox	3 -1 41 51
+	sound	data/sounds/walk.wav
 	frame	data/chars/omoi/157.png
 	frame	data/chars/omoi/158.png
 	frame	data/chars/omoi/159.png
@@ -232,7 +234,7 @@ anim	runattack
 	offset	23 47
 	bbox	14 -1 36 48
 	move	16
-	attack1	23 2 86 23 19 1
+	attack10	23 2 86 23 19 1 0 0 20 0
 	frame	data/chars/omoi/334.png
 	Attack1	0
 	frame	data/chars/omoi/334.png
@@ -244,15 +246,15 @@ anim	runattack
 	frame	data/chars/omoi/334.png
 	Attack1	0
 	frame	data/chars/omoi/334.png
-	attack1	37 -1 73 28 18
+	attack10	37 -1 73 28 18 0 0 0 20 0
 	frame	data/chars/omoi/334.png
 	Attack1	0
 	frame	data/chars/omoi/334.png
-	attack1	39 0 72 25 18
+	attack10	39 0 72 25 18 0 0 0 20 0
 	frame	data/chars/omoi/334.png
 	Attack1	0
 	frame	data/chars/omoi/334.png
-	attack1	37 4 71 14 18
+	attack10	37 4 71 14 18 0 0 0 20 0
 	frame	data/chars/omoi/334.png
 		
 anim	special
@@ -309,6 +311,7 @@ anim	walk
 	offset	9 59
 	frame	data/chars/omoi/152.png
 	offset	15 59
+	sound	data/sounds/walk.wav
 	frame	data/chars/omoi/153.png
 	offset	8 59
 	frame	data/chars/omoi/154.png

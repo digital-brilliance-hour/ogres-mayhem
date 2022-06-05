@@ -46,11 +46,13 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
+
 anim	attack1
 	delay	7
 	offset	15 35
 	frame	data/chars/Shrek/39.gif
-	attack	24 8 33 23 5 0 1 0 0 0
+	attack	24 8 33 23 5 0 1 0 20 0
 	offset	15 36
 	frame	data/chars/Shrek/40.gif
 		
@@ -60,13 +62,13 @@ anim	attack2
 	fastattack	1
 	offset	19 40
 	frame	data/chars/Shrek/54.gif
-	attack	31 8 36 23 5 0 1 0 0 0
+	attack	31 8 36 23 5 0 1 0 20 0
 	offset	18 41
 	frame	data/chars/Shrek/55.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	15 42
 	frame	data/chars/Shrek/56.gif
-	attack	27 10 36 21 5 0 1 0 0 0
+	attack	27 10 36 21 5 0 1 0 20 0
 	offset	15 42
 	frame	data/chars/Shrek/57.gif
 		
@@ -74,7 +76,7 @@ anim	attack3
 	delay	7
 	offset	25 45
 	frame	data/chars/Shrek/67.gif
-	attack	26 7 42 41 7 1 1 0 0 0
+	attack	26 7 42 41 7 1 1 0 20 0
 	offset	22 46
 	frame	data/chars/Shrek/68.gif
 		
@@ -116,7 +118,7 @@ anim	freespecial
 	delay	7
 	offset	21 36
 	frame	data/chars/Shrek/26.gif
-	attack	20 2 36 34 15 0 1 0 0 0
+	attack	20 2 36 34 15 0 1 0 20 0
 	offset	21 36
 	@cmd	dasher 2 0 0
 	@cmd	spawnparent "pdust" -10 0 -20
@@ -124,7 +126,7 @@ anim	freespecial
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	21 36
 	frame	data/chars/Shrek/28.gif
-	attack	20 2 36 34 20 1 0 1 0 0
+	attack	20 2 36 34 20 1 0 1 20 0
 	offset	21 36
 	frame	data/chars/Shrek/29.gif
 	offset	21 36
@@ -135,29 +137,29 @@ anim	freespecial
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	21 36
 	frame	data/chars/Shrek/28.gif
-	attack	20 2 36 34 20 1 0 1 0 0
+	attack	20 2 36 34 20 1 0 1 20 0
 	offset	21 36
 	frame	data/chars/Shrek/29.gif
 	offset	21 36
 	frame	data/chars/Shrek/26.gif
-	attack	20 2 36 34 15 0 1 0 0 0
+	attack	20 2 36 34 15 0 1 0 20 0
 	offset	21 36
 	frame	data/chars/Shrek/27.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	21 36
 	frame	data/chars/Shrek/28.gif
-	attack	20 2 36 34 20 1 0 1 0 0
+	attack	20 2 36 34 20 1 0 1 20 0
 	offset	21 36
 	frame	data/chars/Shrek/29.gif
 	offset	21 36
 	frame	data/chars/Shrek/26.gif
-	attack	20 2 36 34 15 0 1 0 0 0
+	attack	20 2 36 34 15 0 1 0 20 0
 	offset	21 36
 	frame	data/chars/Shrek/27.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	21 36
 	frame	data/chars/Shrek/28.gif
-	attack	20 2 36 34 20 1 0 1 0 0
+	attack	20 2 36 34 20 1 0 1 20 0
 	@cmd	stop
 	offset	21 36
 	frame	data/chars/Shrek/29.gif
@@ -167,7 +169,7 @@ anim	freespecial2
 	mponly	1
 	@cmd	enoughmp
 	fastattack	1
-	attack	13 1 37 44 20 0 1 0 0 0
+	attack	13 1 37 44 20 0 1 0 20 0
 	delay	7
 	offset	13 44
 	frame	data/chars/Shrek/58.gif
@@ -176,25 +178,25 @@ anim	freespecial2
 	frame	data/chars/Shrek/59.gif
 	@cmd	spawnparent "pdust" -10 0 -20
 	@cmd	dasher 3 0 0
-	attack	13 1 37 44 20 0 0 1 0 0
+	attack	13 1 37 44 20 0 0 1 20 0
 	offset	12 43
 	frame	data/chars/Shrek/60.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	15 42
 	frame	data/chars/Shrek/61.gif
-	attack	13 1 37 44 20 0 1 0 0 0
+	attack	13 1 37 44 20 0 1 0 20 0
 	offset	13 41
 	frame	data/chars/Shrek/62.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	12 39
 	frame	data/chars/Shrek/63.gif
-	attack	13 1 37 44 20 0 0 1 0 0
+	attack	13 1 37 44 20 0 0 1 20 0
 	offset	13 42
 	frame	data/chars/Shrek/64.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	13 44
 	frame	data/chars/Shrek/65.gif
-	attack	13 1 37 44 20 1 1 0 0 0
+	attack	13 1 37 44 20 1 1 0 20 0
 	offset	13 44
 	@cmd	stop
 	frame	data/chars/Shrek/66.gif
@@ -331,14 +333,14 @@ anim	rise
 		
 anim	runattack
 	fastattack	1
-	attack	15 9 55 30 20 0 1 0 0 0
+	attack	15 9 55 30 20 0 1 0 20 0
 	delay	7
 	offset	25 35
 	frame	data/chars/Shrek/48.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	25 33
 	frame	data/chars/Shrek/49.gif
-	attack	15 9 55 30 20 1 0 1 0 0
+	attack	15 9 55 30 20 1 0 1 20 0
 	offset	26 34
 	frame	data/chars/Shrek/50.gif
 		
@@ -406,6 +408,7 @@ anim	walk
 	frame	data/chars/Shrek/10.gif
 	bbox	3 2 38 42
 	offset	24 44
+	sound	data/sounds/walk.wav
 	frame	data/chars/Shrek/11.gif
 	offset	24 44
 	frame	data/chars/Shrek/12.gif
