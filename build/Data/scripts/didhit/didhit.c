@@ -12,18 +12,16 @@ void main()
 		int height	= getentityproperty(target,"y");
 		int base	= getentityproperty(target,"base");
 		float xVel	= getentityproperty(target,"xdir");
-		float xMult	= 2;
-		float yVel	= 1.3;
+		float xMult	= 4;
+		float yVel	= 1;
 
 		if(health >= 1){
 			if(dmg > 0){
 				if(blocked == 0){
 					if(drop == 0){
 						if(sType != openborconstant("SUBTYPE_NOTGRAB")){
-							//if(height <= base){yVel = 0;}
-							changeentityproperty(target, "velocity", 0, 0, yVel);
-							changeentityproperty(target, "speed", 0, 0, 0);
-							//tossentity(target, yVel, 0, 0);
+							if(height <= base){yVel = 0;}
+							changeentityproperty(target, "velocity", xVel/xMult, 0, yVel);
 						}
 					}
 				}
