@@ -1,0 +1,67 @@
+name  bLargeFireball
+type none
+shadow 0
+alpha 1
+
+
+
+anim	idle
+	loop	1 13
+	delay	7
+	offset	147 127
+	frame	data/chars/Bakugou/620.gif
+	offset	147 127
+	frame	data/chars/Bakugou/621.gif
+	offset	147 127
+	frame	data/chars/Bakugou/622.gif
+	offset	147 127
+	frame	data/chars/Bakugou/623.gif
+	offset	147 127
+	frame	data/chars/Bakugou/624.gif
+	offset	147 127
+	frame	data/chars/Bakugou/625.gif
+	offset	147 127
+	frame	data/chars/Bakugou/626.gif
+	offset	147 127
+	frame	data/chars/Bakugou/627.gif
+	offset	147 127
+	frame	data/chars/Bakugou/628.gif
+	offset	147 127
+	frame	data/chars/Bakugou/629.gif
+	offset	147 127
+	frame	data/chars/Bakugou/630.gif
+	offset	147 127
+	frame	data/chars/Bakugou/631.gif
+	offset	147 127
+	frame	data/chars/Bakugou/632.gif
+	offset	147 127
+	frame	data/chars/Bakugou/633.gif
+	offset	147 127
+	frame	data/chars/Bakugou/634.gif
+	offset	147 127
+	frame	data/chars/Bakugou/635.gif
+	offset	147 127
+	frame	data/chars/Bakugou/636.gif
+	offset	147 127
+	frame	data/chars/Bakugou/637.gif
+	offset	147 127
+	frame	data/chars/Bakugou/638.gif
+	offset	147 127
+	frame	data/chars/Bakugou/639.gif
+	offset	147 127
+	frame	data/chars/Bakugou/640.gif
+	offset	147 127
+	frame	data/chars/Bakugou/641.gif
+	offset	147 127
+	frame	data/chars/Bakugou/642.gif
+	offset	147 127
+	frame	data/chars/Bakugou/643.gif
+	offset	147 127
+	frame	data/chars/Bakugou/644.gif
+	offset	147 127
+	frame	data/chars/Bakugou/645.gif
+	offset	147 127
+	frame	data/chars/Bakugou/646.gif
+		
+#|edited by openBor Stats v 0.67
+		

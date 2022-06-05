@@ -1,0 +1,249 @@
+name    Bakugo
+type player
+health 500
+speed 25
+shadow 3
+subtype chase
+
+icon data/chars/Bakugou/0.gif
+
+anim	jump
+	delay	30
+	offset	15 50
+	frame	data/chars/Bakugou/20.gif
+	offset	14 50
+	frame	data/chars/Bakugou/21.gif
+		
+anim	follow5
+	delay	7
+	offset	17 45
+	frame	data/chars/Bakugou/23.gif
+	offset	16 45
+	frame	data/chars/Bakugou/26.gif
+	offset	9 47
+	frame	data/chars/Bakugou/27.gif
+	offset	16 44
+	frame	data/chars/Bakugou/28.gif
+		
+anim	charge
+	delay	7
+	offset	16 38
+	frame	data/chars/Bakugou/29.gif
+	offset	16 38
+	frame	data/chars/Bakugou/30.gif
+		
+anim	follow6
+	delay	7
+	offset	16 50
+	frame	data/chars/Bakugou/41.gif
+	offset	16 51
+	frame	data/chars/Bakugou/42.gif
+		
+anim	chargeattack
+	delay	7
+	offset	18 46
+	frame	data/chars/Bakugou/103.gif
+	offset	20 51
+	frame	data/chars/Bakugou/104.gif
+	offset	20 42
+	frame	data/chars/Bakugou/105.gif
+		
+anim	attack1
+	delay	7
+	offset	17 39
+	frame	data/chars/Bakugou/48.gif
+	offset	17 39
+	frame	data/chars/Bakugou/49.gif
+		
+anim	attack2
+	delay	7
+	offset	19 46
+	frame	data/chars/Bakugou/50.gif
+	offset	23 51
+	frame	data/chars/Bakugou/51.gif
+	offset	20 42
+	frame	data/chars/Bakugou/52.gif
+		
+anim	attack3
+	delay	7
+	offset	15 42
+	frame	data/chars/Bakugou/53.gif
+	offset	18 37
+	frame	data/chars/Bakugou/54.gif
+	offset	18 37
+	frame	data/chars/Bakugou/55.gif
+		
+anim	idle
+	delay	7
+	offset	15 47
+	frame	data/chars/Bakugou/2.gif
+	offset	15 46
+	frame	data/chars/Bakugou/3.gif
+	offset	15 45
+	frame	data/chars/Bakugou/4.gif
+	offset	15 46
+	frame	data/chars/Bakugou/5.gif
+		
+anim	jumpattack
+	delay	7
+	offset	13 49
+	frame	data/chars/Bakugou/75.gif
+	offset	16 55
+	frame	data/chars/Bakugou/76.gif
+	offset	16 44
+	frame	data/chars/Bakugou/77.gif
+		
+anim	walk
+	delay	7
+	offset	13 47
+	frame	data/chars/Bakugou/6.gif
+	offset	12 48
+	frame	data/chars/Bakugou/7.gif
+	offset	13 46
+	frame	data/chars/Bakugou/8.gif
+	offset	15 48
+	frame	data/chars/Bakugou/9.gif
+	offset	14 47
+	frame	data/chars/Bakugou/10.gif
+	offset	14 46
+	frame	data/chars/Bakugou/11.gif
+	offset	14 47
+	frame	data/chars/Bakugou/12.gif
+	offset	17 47
+	frame	data/chars/Bakugou/18.gif
+		
+anim	jumpdelay
+	delay	4
+	offset	19 38
+	frame	data/chars/Bakugou/19.gif
+		
+anim	jumpland
+	delay	4
+	offset	19 38
+	frame	data/chars/Bakugou/22.gif
+		
+anim	freespecial
+	delay	7
+	offset	18 43
+	frame	data/chars/Bakugou/85.gif
+	offset	19 45
+	frame	data/chars/Bakugou/86.gif
+	delay	15
+	offset	19 45
+	frame	data/chars/Bakugou/87.gif
+	delay	7
+	offset	18 43
+	frame	data/chars/Bakugou/88.gif
+	offset	17 43
+	frame	data/chars/Bakugou/89.gif
+	delay	15
+	offset	17 43
+	frame	data/chars/Bakugou/90.gif
+		
+anim	rise
+	delay	7
+	offset	19 27
+	frame	data/chars/Bakugou/37.gif
+	offset	25 31
+	frame	data/chars/Bakugou/38.gif
+	offset	19 48
+	frame	data/chars/Bakugou/39.gif
+	offset	12 29
+	frame	data/chars/Bakugou/40.gif
+		
+anim	pain
+	delay	7
+	offset	17 47
+	frame	data/chars/Bakugou/31.gif
+	offset	19 42
+	frame	data/chars/Bakugou/32.gif
+		
+anim	run
+	delay	7
+	offset	18 40
+	frame	data/chars/Bakugou/14.gif
+	offset	22 40
+	frame	data/chars/Bakugou/15.gif
+	offset	18 40
+	frame	data/chars/Bakugou/14.gif
+	offset	18 40
+	frame	data/chars/Bakugou/14.gif
+		
+anim	freespecial2
+	delay	7
+	offset	15 44
+	frame	data/chars/Bakugou/99.gif
+	offset	17 43
+	frame	data/chars/Bakugou/100.gif
+	offset	17 43
+	frame	data/chars/Bakugou/101.gif
+		
+anim	freespecial3
+	delay	7
+	offset	14 44
+	frame	data/chars/Bakugou/43.gif
+	offset	14 40
+	frame	data/chars/Bakugou/44.gif
+	offset	14 40
+	frame	data/chars/Bakugou/45.gif
+	offset	17 42
+	frame	data/chars/Bakugou/46.gif
+	offset	18 43
+	frame	data/chars/Bakugou/47.gif
+		
+anim	freespecial5
+	delay	7
+	offset	18 42
+	frame	data/chars/Bakugou/70.gif
+	offset	16 47
+	frame	data/chars/Bakugou/71.gif
+	offset	16 47
+	frame	data/chars/Bakugou/72.gif
+		
+anim	freespecial4
+	delay	6
+	offset	16 38
+	frame	data/chars/Bakugou/91.gif
+	offset	18 37
+	frame	data/chars/Bakugou/92.gif
+	offset	17 42
+	frame	data/chars/Bakugou/93.gif
+	offset	16 47
+	frame	data/chars/Bakugou/94.gif
+	offset	16 47
+	frame	data/chars/Bakugou/95.gif
+	offset	16 47
+	frame	data/chars/Bakugou/96.gif
+		
+anim	runattack
+	delay	7
+	offset	15 42
+	frame	data/chars/Bakugou/56.gif
+	offset	16 39
+	frame	data/chars/Bakugou/57.gif
+	offset	16 39
+	frame	data/chars/Bakugou/58.gif
+	offset	14 39
+	frame	data/chars/Bakugou/59.gif
+	offset	15 43
+	frame	data/chars/Bakugou/60.gif
+	offset	18 46
+	frame	data/chars/Bakugou/61.gif
+	offset	16 38
+	frame	data/chars/Bakugou/63.gif
+	offset	18 38
+	frame	data/chars/Bakugou/62.gif
+		
+anim	fall
+	delay	7
+	offset	18 42
+	frame	data/chars/Bakugou/34.gif
+	offset	34 41
+	frame	data/chars/Bakugou/33.gif
+	offset	27 22
+	frame	data/chars/Bakugou/35.gif
+	offset	30 14
+	frame	data/chars/Bakugou/36.gif
+		
+#|edited by openBor Stats v 0.67
+		
