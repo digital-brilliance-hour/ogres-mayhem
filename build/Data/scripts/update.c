@@ -155,7 +155,7 @@ void main()
            if("Travel"!=getentityproperty(p, "model")) {
              //HP text script
              hp = getentityproperty(p, "health"); if(hp<0) hp=0;
-             settextobj(10*i, 6+120*i, 221, 0, -10, getentityproperty(p,"offense",openborconstant("ATK_NORMAL"))+"/"+getglobalvar("offense_"+num+"P"));
+             //settextobj(10*i, 6+120*i, 221, 0, -10, getentityproperty(p,"offense",openborconstant("ATK_NORMAL"))+"/"+getglobalvar("offense_"+num+"P"));
              //settextobj(10*i, 6+120*i, 221, 0, -10, hp+"/"+getentityproperty(p, "maxhealth"));
              //MP text script
              mp = getentityproperty(p, "mp"); if(mp<0) mp=0;

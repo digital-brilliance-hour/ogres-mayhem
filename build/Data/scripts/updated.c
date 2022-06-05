@@ -175,6 +175,29 @@ void showMoves() {
       settextobj(101, 370, 85, 1, 99999999999999,  "Jump Attack");
       settextobj(111, 370, 100, 2, 99999999999999,  "Jump + ");
 
+      //Special Moves
+      settextobj(121, 30, 133, 1, 99999999999999,  "LvL2 Move - 10MP");
+      drawsprite(SButton, 30, 143, 99999999999999);
+
+      settextobj(131, 175, 133, 1, 99999999999999,  "LvL3 Move  - 20MP");
+      settextobj(141, 175, 148, 2, 99999999999999,  "Up + ");
+      drawsprite(SButton, 195, 143, 99999999999999);
+
+      settextobj(151, 320, 133, 1, 99999999999999,  "LvL4 Move  - ALL MP");
+      drawsprite(PButton, 320, 143, 99999999999999);
+
+      settextobj(161, 30, 173, 1, 99999999999999,  "LvL5 Move  - 30MP");
+      settextobj(171, 30, 188, 2, 99999999999999,  "Down + ");
+      drawsprite(SButton, 60, 183, 99999999999999);
+
+      settextobj(181, 175, 173, 1, 99999999999999,  "LvL6 Move  - ALL MP");
+      settextobj(191, 175, 188, 2, 99999999999999,  "Up + ");
+      drawsprite(PButton, 195, 183, 99999999999999);
+
+      settextobj(201, 320, 173, 1, 99999999999999,  "LvL7 Move  - ALL MP");
+      settextobj(211, 320, 188, 2, 99999999999999,  "Down + ");
+      drawsprite(PButton, 350, 183, 99999999999999);
+
       //Black Overlay
       changedrawmethod(NULL(), "reset", 1);
       changedrawmethod(NULL(), "alpha", 6);
@@ -184,6 +207,36 @@ void showMoves() {
       drawsprite(black, 0, 0, 99999999999998);
       //changedrawmethod(NULL(), "enabled", 1);
       //changedrawmethod(NULL(), "flag", 1);
+    }
+    else {
+      cleartextobj(11);
+      cleartextobj(21);
+      cleartextobj(31);
+      cleartextobj(41);
+      cleartextobj(51);
+      cleartextobj(61);
+      cleartextobj(71);
+      cleartextobj(81);
+      cleartextobj(91);
+      cleartextobj(101);
+      cleartextobj(111);
+
+      //Special Moves
+      cleartextobj(121);
+
+      cleartextobj(131);
+      cleartextobj(141);
+
+      cleartextobj(151);
+
+      cleartextobj(161);
+      cleartextobj(171);
+
+      cleartextobj(181);
+      cleartextobj(191);
+
+      cleartextobj(201);
+      cleartextobj(211);
     }
 }
 

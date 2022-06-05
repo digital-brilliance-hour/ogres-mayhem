@@ -11,7 +11,7 @@ spawn2 120 40
 
 stagenumber 1
 
-spawn movelist
+spawn ready
 	coords 240 136
 	at 0
 
