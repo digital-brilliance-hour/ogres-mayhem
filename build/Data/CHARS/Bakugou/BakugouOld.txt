@@ -1,0 +1,1625 @@
+name    Bakugo
+type none
+health 500
+speed 25
+shadow 2
+
+
+anim	0001
+	delay	7
+	offset	13 47
+	frame	data/chars/Bakugou/6.gif
+	offset	12 48
+	frame	data/chars/Bakugou/7.gif
+	offset	13 46
+	frame	data/chars/Bakugou/8.gif
+	offset	15 48
+	frame	data/chars/Bakugou/9.gif
+	offset	14 47
+	frame	data/chars/Bakugou/10.gif
+	offset	14 46
+	frame	data/chars/Bakugou/11.gif
+	offset	14 47
+	frame	data/chars/Bakugou/12.gif
+	offset	16 42
+	frame	data/chars/Bakugou/13.gif
+	offset	18 40
+	frame	data/chars/Bakugou/14.gif
+	offset	22 40
+	frame	data/chars/Bakugou/15.gif
+	offset	18 40
+	frame	data/chars/Bakugou/16.gif
+	offset	21 40
+	frame	data/chars/Bakugou/17.gif
+	offset	17 47
+	frame	data/chars/Bakugou/18.gif
+		
+anim	0002
+	delay	7
+	offset	19 38
+	frame	data/chars/Bakugou/19.gif
+	offset	15 50
+	frame	data/chars/Bakugou/20.gif
+	offset	14 50
+	frame	data/chars/Bakugou/21.gif
+	offset	19 38
+	frame	data/chars/Bakugou/22.gif
+		
+anim	0003
+	delay	7
+	offset	17 45
+	frame	data/chars/Bakugou/23.gif
+	offset	15 44
+	frame	data/chars/Bakugou/24.gif
+	offset	17 45
+	frame	data/chars/Bakugou/25.gif
+	offset	16 45
+	frame	data/chars/Bakugou/26.gif
+	offset	9 47
+	frame	data/chars/Bakugou/27.gif
+	offset	16 44
+	frame	data/chars/Bakugou/28.gif
+		
+anim	0004
+	delay	7
+	offset	16 38
+	frame	data/chars/Bakugou/29.gif
+	offset	16 38
+	frame	data/chars/Bakugou/30.gif
+		
+anim	0006
+	delay	7
+	offset	16 50
+	frame	data/chars/Bakugou/41.gif
+	offset	16 51
+	frame	data/chars/Bakugou/42.gif
+		
+anim	0007
+	delay	7
+	offset	14 44
+	frame	data/chars/Bakugou/43.gif
+	offset	14 40
+	frame	data/chars/Bakugou/44.gif
+	offset	14 40
+	frame	data/chars/Bakugou/45.gif
+	offset	17 42
+	frame	data/chars/Bakugou/46.gif
+	offset	18 43
+	frame	data/chars/Bakugou/47.gif
+	offset	17 39
+	frame	data/chars/Bakugou/64.gif
+	offset	18 42
+	frame	data/chars/Bakugou/65.gif
+	offset	16 42
+	frame	data/chars/Bakugou/66.gif
+	offset	26 35
+	frame	data/chars/Bakugou/67.gif
+	offset	38 66
+	frame	data/chars/Bakugou/68.gif
+	offset	27 48
+	frame	data/chars/Bakugou/69.gif
+	offset	18 42
+	frame	data/chars/Bakugou/70.gif
+	offset	16 47
+	frame	data/chars/Bakugou/71.gif
+	offset	16 47
+	frame	data/chars/Bakugou/72.gif
+	offset	15 44
+	frame	data/chars/Bakugou/73.gif
+	offset	19 43
+	frame	data/chars/Bakugou/74.gif
+	offset	18 43
+	frame	data/chars/Bakugou/78.gif
+	offset	18 47
+	frame	data/chars/Bakugou/79.gif
+	offset	12 47
+	frame	data/chars/Bakugou/80.gif
+	offset	15 48
+	frame	data/chars/Bakugou/81.gif
+	offset	15 48
+	frame	data/chars/Bakugou/82.gif
+	offset	16 40
+	frame	data/chars/Bakugou/83.gif
+	offset	16 40
+	frame	data/chars/Bakugou/84.gif
+	offset	18 43
+	frame	data/chars/Bakugou/85.gif
+	offset	19 45
+	frame	data/chars/Bakugou/86.gif
+	offset	19 45
+	frame	data/chars/Bakugou/87.gif
+	offset	18 43
+	frame	data/chars/Bakugou/88.gif
+	offset	17 43
+	frame	data/chars/Bakugou/89.gif
+	offset	17 43
+	frame	data/chars/Bakugou/90.gif
+	offset	16 38
+	frame	data/chars/Bakugou/91.gif
+	offset	18 37
+	frame	data/chars/Bakugou/92.gif
+	offset	17 42
+	frame	data/chars/Bakugou/93.gif
+	offset	16 47
+	frame	data/chars/Bakugou/94.gif
+	offset	16 47
+	frame	data/chars/Bakugou/95.gif
+	offset	16 47
+	frame	data/chars/Bakugou/96.gif
+	offset	18 43
+	frame	data/chars/Bakugou/97.gif
+	offset	17 45
+	frame	data/chars/Bakugou/98.gif
+	offset	15 44
+	frame	data/chars/Bakugou/99.gif
+	offset	17 43
+	frame	data/chars/Bakugou/100.gif
+	offset	17 43
+	frame	data/chars/Bakugou/101.gif
+	offset	21 44
+	frame	data/chars/Bakugou/102.gif
+		
+anim	0008
+	delay	7
+	offset	18 46
+	frame	data/chars/Bakugou/103.gif
+	offset	20 51
+	frame	data/chars/Bakugou/104.gif
+	offset	20 42
+	frame	data/chars/Bakugou/105.gif
+		
+anim	0009
+	delay	7
+	offset	27 44
+	frame	data/chars/Bakugou/106.gif
+	offset	25 44
+	frame	data/chars/Bakugou/107.gif
+	offset	15 43
+	frame	data/chars/Bakugou/108.gif
+	offset	31 35
+	frame	data/chars/Bakugou/109.gif
+		
+anim	0035
+	delay	7
+	offset	154 76
+	frame	data/chars/Bakugou/647.gif
+	offset	154 76
+	frame	data/chars/Bakugou/648.gif
+	offset	154 76
+	frame	data/chars/Bakugou/649.gif
+	offset	154 76
+	frame	data/chars/Bakugou/650.gif
+	offset	154 76
+	frame	data/chars/Bakugou/651.gif
+	offset	154 76
+	frame	data/chars/Bakugou/652.gif
+	offset	154 76
+	frame	data/chars/Bakugou/653.gif
+	offset	154 76
+	frame	data/chars/Bakugou/654.gif
+	offset	154 76
+	frame	data/chars/Bakugou/655.gif
+	offset	154 76
+	frame	data/chars/Bakugou/656.gif
+		
+anim	0161
+	delay	7
+	offset	24 20
+	frame	data/chars/Bakugou/334.gif
+	offset	24 57
+	frame	data/chars/Bakugou/335.gif
+	offset	23 96
+	frame	data/chars/Bakugou/336.gif
+	offset	23 96
+	frame	data/chars/Bakugou/337.gif
+	offset	2 92
+	frame	data/chars/Bakugou/338.gif
+	offset	3 88
+	frame	data/chars/Bakugou/339.gif
+	offset	-11 87
+	frame	data/chars/Bakugou/340.gif
+		
+anim	0950
+	delay	7
+	offset	105 294
+	frame	data/chars/Bakugou/341.gif
+	offset	300 290
+	frame	data/chars/Bakugou/342.gif
+	offset	300 288
+	frame	data/chars/Bakugou/343.gif
+	offset	300 296
+	frame	data/chars/Bakugou/344.gif
+	offset	300 325
+	frame	data/chars/Bakugou/345.gif
+	offset	300 354
+	frame	data/chars/Bakugou/346.gif
+	offset	300 382
+	frame	data/chars/Bakugou/347.gif
+	offset	300 400
+	frame	data/chars/Bakugou/348.gif
+	offset	300 384
+	frame	data/chars/Bakugou/349.gif
+	offset	300 400
+	frame	data/chars/Bakugou/350.gif
+	offset	300 400
+	frame	data/chars/Bakugou/351.gif
+	offset	293 384
+	frame	data/chars/Bakugou/352.gif
+	offset	233 391
+	frame	data/chars/Bakugou/353.gif
+	offset	214 399
+	frame	data/chars/Bakugou/354.gif
+	offset	208 391
+	frame	data/chars/Bakugou/355.gif
+	offset	183 365
+	frame	data/chars/Bakugou/356.gif
+	offset	158 341
+	frame	data/chars/Bakugou/357.gif
+	offset	151 338
+	frame	data/chars/Bakugou/358.gif
+	offset	148 337
+	frame	data/chars/Bakugou/359.gif
+	offset	147 338
+	frame	data/chars/Bakugou/360.gif
+	offset	146 336
+	frame	data/chars/Bakugou/361.gif
+	offset	142 333
+	frame	data/chars/Bakugou/362.gif
+	offset	137 332
+	frame	data/chars/Bakugou/363.gif
+	offset	136 332
+	frame	data/chars/Bakugou/364.gif
+	offset	134 332
+	frame	data/chars/Bakugou/365.gif
+	offset	132 331
+	frame	data/chars/Bakugou/366.gif
+	offset	125 330
+	frame	data/chars/Bakugou/367.gif
+	offset	110 328
+	frame	data/chars/Bakugou/368.gif
+	offset	67 323
+	frame	data/chars/Bakugou/369.gif
+	offset	62 314
+	frame	data/chars/Bakugou/370.gif
+	offset	100 292
+	frame	data/chars/Bakugou/371.gif
+	offset	273 289
+	frame	data/chars/Bakugou/372.gif
+	offset	273 287
+	frame	data/chars/Bakugou/373.gif
+	offset	273 295
+	frame	data/chars/Bakugou/374.gif
+	offset	273 324
+	frame	data/chars/Bakugou/375.gif
+	offset	273 353
+	frame	data/chars/Bakugou/376.gif
+	offset	273 382
+	frame	data/chars/Bakugou/377.gif
+	offset	273 396
+	frame	data/chars/Bakugou/378.gif
+	offset	273 384
+	frame	data/chars/Bakugou/379.gif
+	offset	273 396
+	frame	data/chars/Bakugou/380.gif
+	offset	273 396
+	frame	data/chars/Bakugou/381.gif
+	offset	273 383
+	frame	data/chars/Bakugou/382.gif
+	offset	236 390
+	frame	data/chars/Bakugou/383.gif
+	offset	214 396
+	frame	data/chars/Bakugou/384.gif
+	offset	208 390
+	frame	data/chars/Bakugou/385.gif
+	offset	182 365
+	frame	data/chars/Bakugou/386.gif
+	offset	157 340
+	frame	data/chars/Bakugou/387.gif
+	offset	145 332
+	frame	data/chars/Bakugou/388.gif
+	offset	141 331
+	frame	data/chars/Bakugou/389.gif
+	offset	137 330
+	frame	data/chars/Bakugou/390.gif
+	offset	133 329
+	frame	data/chars/Bakugou/391.gif
+	offset	133 327
+	frame	data/chars/Bakugou/392.gif
+	offset	129 327
+	frame	data/chars/Bakugou/393.gif
+	offset	128 324
+	frame	data/chars/Bakugou/394.gif
+	offset	122 323
+	frame	data/chars/Bakugou/395.gif
+	offset	118 320
+	frame	data/chars/Bakugou/396.gif
+	offset	106 319
+	frame	data/chars/Bakugou/397.gif
+	offset	71 314
+	frame	data/chars/Bakugou/398.gif
+	offset	59 305
+	frame	data/chars/Bakugou/399.gif
+	offset	55 287
+	frame	data/chars/Bakugou/400.gif
+		
+anim	7000
+	delay	7
+	offset	24 24
+	frame	data/chars/Bakugou/272.gif
+	offset	19 19
+	frame	data/chars/Bakugou/273.gif
+	offset	14 15
+	frame	data/chars/Bakugou/274.gif
+	offset	9 16
+	frame	data/chars/Bakugou/275.gif
+	offset	11 19
+	frame	data/chars/Bakugou/276.gif
+	offset	12 22
+	frame	data/chars/Bakugou/277.gif
+	offset	7 25
+	frame	data/chars/Bakugou/278.gif
+	offset	11 23
+	frame	data/chars/Bakugou/279.gif
+	offset	12 23
+	frame	data/chars/Bakugou/280.gif
+	offset	12 24
+	frame	data/chars/Bakugou/281.gif
+	offset	13 31
+	frame	data/chars/Bakugou/282.gif
+	offset	13 32
+	frame	data/chars/Bakugou/283.gif
+	offset	13 33
+	frame	data/chars/Bakugou/284.gif
+	offset	13 35
+	frame	data/chars/Bakugou/285.gif
+	offset	13 36
+	frame	data/chars/Bakugou/286.gif
+	offset	13 36
+	frame	data/chars/Bakugou/287.gif
+	offset	11 37
+	frame	data/chars/Bakugou/288.gif
+	offset	10 38
+	frame	data/chars/Bakugou/289.gif
+	offset	7 40
+	frame	data/chars/Bakugou/290.gif
+	offset	8 41
+	frame	data/chars/Bakugou/291.gif
+	offset	2 43
+	frame	data/chars/Bakugou/292.gif
+		
+anim	7009
+	delay	7
+	offset	102 170
+	frame	data/chars/Bakugou/501.gif
+	offset	102 170
+	frame	data/chars/Bakugou/502.gif
+	offset	102 170
+	frame	data/chars/Bakugou/503.gif
+	offset	102 170
+	frame	data/chars/Bakugou/504.gif
+	offset	102 170
+	frame	data/chars/Bakugou/505.gif
+	offset	102 170
+	frame	data/chars/Bakugou/506.gif
+	offset	102 170
+	frame	data/chars/Bakugou/507.gif
+	offset	102 170
+	frame	data/chars/Bakugou/508.gif
+		
+anim	7012
+	delay	7
+	offset	118 104
+	frame	data/chars/Bakugou/517.gif
+	offset	118 104
+	frame	data/chars/Bakugou/518.gif
+	offset	118 104
+	frame	data/chars/Bakugou/519.gif
+	offset	118 104
+	frame	data/chars/Bakugou/520.gif
+		
+anim	7015
+	delay	7
+	offset	37 280
+	frame	data/chars/Bakugou/568.gif
+	offset	37 280
+	frame	data/chars/Bakugou/569.gif
+	offset	37 280
+	frame	data/chars/Bakugou/570.gif
+	offset	37 280
+	frame	data/chars/Bakugou/571.gif
+	offset	37 280
+	frame	data/chars/Bakugou/572.gif
+	offset	37 280
+	frame	data/chars/Bakugou/573.gif
+	offset	37 280
+	frame	data/chars/Bakugou/574.gif
+	offset	37 280
+	frame	data/chars/Bakugou/575.gif
+	offset	37 280
+	frame	data/chars/Bakugou/576.gif
+		
+anim	7020
+	delay	7
+	offset	86 20
+	frame	data/chars/Bakugou/521.gif
+	offset	86 20
+	frame	data/chars/Bakugou/522.gif
+	offset	86 20
+	frame	data/chars/Bakugou/523.gif
+	offset	86 20
+	frame	data/chars/Bakugou/524.gif
+	offset	86 20
+	frame	data/chars/Bakugou/525.gif
+	offset	86 20
+	frame	data/chars/Bakugou/526.gif
+	offset	86 20
+	frame	data/chars/Bakugou/527.gif
+	offset	86 20
+	frame	data/chars/Bakugou/528.gif
+	offset	86 20
+	frame	data/chars/Bakugou/529.gif
+	offset	86 20
+	frame	data/chars/Bakugou/530.gif
+		
+anim	7030
+	delay	7
+	offset	140 96
+	frame	data/chars/Bakugou/531.gif
+	offset	140 96
+	frame	data/chars/Bakugou/532.gif
+	offset	140 96
+	frame	data/chars/Bakugou/533.gif
+	offset	140 96
+	frame	data/chars/Bakugou/534.gif
+	offset	140 96
+	frame	data/chars/Bakugou/535.gif
+	offset	140 96
+	frame	data/chars/Bakugou/536.gif
+	offset	140 96
+	frame	data/chars/Bakugou/537.gif
+	offset	140 96
+	frame	data/chars/Bakugou/538.gif
+	offset	140 96
+	frame	data/chars/Bakugou/539.gif
+	offset	140 96
+	frame	data/chars/Bakugou/540.gif
+	offset	140 96
+	frame	data/chars/Bakugou/541.gif
+	offset	140 96
+	frame	data/chars/Bakugou/542.gif
+		
+anim	7036
+	delay	7
+	offset	640 360
+	frame	data/chars/Bakugou/509.gif
+	offset	640 360
+	frame	data/chars/Bakugou/510.gif
+	offset	640 360
+	frame	data/chars/Bakugou/511.gif
+	offset	640 360
+	frame	data/chars/Bakugou/512.gif
+	offset	640 360
+	frame	data/chars/Bakugou/513.gif
+	offset	640 360
+	frame	data/chars/Bakugou/514.gif
+	offset	640 360
+	frame	data/chars/Bakugou/515.gif
+	offset	640 360
+	frame	data/chars/Bakugou/516.gif
+		
+anim	7052
+	delay	7
+	offset	179 41
+	frame	data/chars/Bakugou/310.gif
+	offset	178 43
+	frame	data/chars/Bakugou/311.gif
+	offset	219 45
+	frame	data/chars/Bakugou/312.gif
+	offset	225 59
+	frame	data/chars/Bakugou/313.gif
+	offset	222 62
+	frame	data/chars/Bakugou/314.gif
+	offset	223 59
+	frame	data/chars/Bakugou/315.gif
+	offset	226 60
+	frame	data/chars/Bakugou/316.gif
+	offset	219 63
+	frame	data/chars/Bakugou/317.gif
+	offset	209 63
+	frame	data/chars/Bakugou/318.gif
+		
+anim	7053
+	delay	7
+	offset	0 -102
+	frame	data/chars/Bakugou/319.gif
+	offset	0 -92
+	frame	data/chars/Bakugou/320.gif
+	offset	0 -70
+	frame	data/chars/Bakugou/321.gif
+	offset	0 -3
+	frame	data/chars/Bakugou/322.gif
+	offset	0 -3
+	frame	data/chars/Bakugou/323.gif
+	offset	0 -3
+	frame	data/chars/Bakugou/324.gif
+	offset	0 -3
+	frame	data/chars/Bakugou/325.gif
+	offset	0 0
+	frame	data/chars/Bakugou/326.gif
+	offset	0 0
+	frame	data/chars/Bakugou/327.gif
+	offset	0 0
+	frame	data/chars/Bakugou/328.gif
+	offset	0 0
+	frame	data/chars/Bakugou/329.gif
+	offset	0 -1
+	frame	data/chars/Bakugou/330.gif
+	offset	0 -8
+	frame	data/chars/Bakugou/331.gif
+	offset	0 -6
+	frame	data/chars/Bakugou/332.gif
+		
+anim	8200
+	delay	7
+	offset	108 237
+	frame	data/chars/Bakugou/293.gif
+	offset	114 256
+	frame	data/chars/Bakugou/294.gif
+	offset	121 276
+	frame	data/chars/Bakugou/295.gif
+	offset	128 193
+	frame	data/chars/Bakugou/296.gif
+	offset	135 198
+	frame	data/chars/Bakugou/297.gif
+	offset	126 199
+	frame	data/chars/Bakugou/298.gif
+	offset	125 186
+	frame	data/chars/Bakugou/299.gif
+	offset	127 180
+	frame	data/chars/Bakugou/300.gif
+	offset	124 124
+	frame	data/chars/Bakugou/301.gif
+	offset	115 109
+	frame	data/chars/Bakugou/302.gif
+		
+anim	8230
+	delay	7
+	offset	68 31
+	frame	data/chars/Bakugou/130.gif
+	offset	83 92
+	frame	data/chars/Bakugou/131.gif
+	offset	99 149
+	frame	data/chars/Bakugou/132.gif
+	offset	98 178
+	frame	data/chars/Bakugou/133.gif
+	offset	100 196
+	frame	data/chars/Bakugou/134.gif
+	offset	100 203
+	frame	data/chars/Bakugou/135.gif
+	offset	98 210
+	frame	data/chars/Bakugou/136.gif
+	offset	98 219
+	frame	data/chars/Bakugou/137.gif
+	offset	97 226
+	frame	data/chars/Bakugou/138.gif
+	offset	96 230
+	frame	data/chars/Bakugou/139.gif
+	offset	97 232
+	frame	data/chars/Bakugou/140.gif
+	offset	99 234
+	frame	data/chars/Bakugou/141.gif
+	offset	100 232
+	frame	data/chars/Bakugou/142.gif
+	offset	101 236
+	frame	data/chars/Bakugou/143.gif
+	offset	100 222
+	frame	data/chars/Bakugou/144.gif
+	offset	88 224
+	frame	data/chars/Bakugou/145.gif
+	offset	88 224
+	frame	data/chars/Bakugou/146.gif
+	offset	89 224
+	frame	data/chars/Bakugou/147.gif
+	offset	89 226
+	frame	data/chars/Bakugou/148.gif
+	offset	90 227
+	frame	data/chars/Bakugou/149.gif
+	offset	90 231
+	frame	data/chars/Bakugou/150.gif
+	offset	90 232
+	frame	data/chars/Bakugou/151.gif
+	offset	93 232
+	frame	data/chars/Bakugou/152.gif
+	offset	95 232
+	frame	data/chars/Bakugou/153.gif
+	offset	96 232
+	frame	data/chars/Bakugou/154.gif
+	offset	96 233
+	frame	data/chars/Bakugou/155.gif
+	offset	97 232
+	frame	data/chars/Bakugou/156.gif
+	offset	98 233
+	frame	data/chars/Bakugou/157.gif
+	offset	99 233
+	frame	data/chars/Bakugou/158.gif
+	offset	101 234
+	frame	data/chars/Bakugou/159.gif
+	offset	101 234
+	frame	data/chars/Bakugou/160.gif
+	offset	103 240
+	frame	data/chars/Bakugou/161.gif
+	offset	103 235
+	frame	data/chars/Bakugou/162.gif
+	offset	105 217
+	frame	data/chars/Bakugou/163.gif
+	offset	105 217
+	frame	data/chars/Bakugou/164.gif
+	offset	106 219
+	frame	data/chars/Bakugou/165.gif
+	offset	105 221
+	frame	data/chars/Bakugou/166.gif
+	offset	106 224
+	frame	data/chars/Bakugou/167.gif
+	offset	98 226
+	frame	data/chars/Bakugou/168.gif
+	offset	98 227
+	frame	data/chars/Bakugou/169.gif
+	offset	98 229
+	frame	data/chars/Bakugou/170.gif
+	offset	98 229
+	frame	data/chars/Bakugou/171.gif
+	offset	97 228
+	frame	data/chars/Bakugou/172.gif
+	offset	97 223
+	frame	data/chars/Bakugou/173.gif
+	offset	94 222
+	frame	data/chars/Bakugou/174.gif
+	offset	93 195
+	frame	data/chars/Bakugou/175.gif
+	offset	91 194
+	frame	data/chars/Bakugou/176.gif
+	offset	90 194
+	frame	data/chars/Bakugou/177.gif
+	offset	76 192
+	frame	data/chars/Bakugou/178.gif
+	offset	76 191
+	frame	data/chars/Bakugou/179.gif
+	offset	76 191
+	frame	data/chars/Bakugou/180.gif
+	offset	76 188
+	frame	data/chars/Bakugou/181.gif
+	offset	76 187
+	frame	data/chars/Bakugou/182.gif
+	offset	74 186
+	frame	data/chars/Bakugou/183.gif
+	offset	67 168
+	frame	data/chars/Bakugou/184.gif
+	offset	55 157
+	frame	data/chars/Bakugou/185.gif
+	offset	39 128
+	frame	data/chars/Bakugou/186.gif
+		
+anim	8240
+	delay	7
+	offset	198 30
+	frame	data/chars/Bakugou/187.gif
+	offset	198 30
+	frame	data/chars/Bakugou/188.gif
+	offset	198 30
+	frame	data/chars/Bakugou/189.gif
+	offset	198 30
+	frame	data/chars/Bakugou/190.gif
+	offset	198 30
+	frame	data/chars/Bakugou/191.gif
+	offset	198 30
+	frame	data/chars/Bakugou/192.gif
+	offset	198 30
+	frame	data/chars/Bakugou/193.gif
+	offset	198 30
+	frame	data/chars/Bakugou/194.gif
+	offset	198 30
+	frame	data/chars/Bakugou/195.gif
+	offset	198 30
+	frame	data/chars/Bakugou/196.gif
+	offset	198 30
+	frame	data/chars/Bakugou/197.gif
+	offset	198 30
+	frame	data/chars/Bakugou/198.gif
+	offset	198 30
+	frame	data/chars/Bakugou/199.gif
+	offset	197 29
+	frame	data/chars/Bakugou/200.gif
+	offset	198 29
+	frame	data/chars/Bakugou/201.gif
+	offset	197 29
+	frame	data/chars/Bakugou/202.gif
+	offset	198 30
+	frame	data/chars/Bakugou/203.gif
+	offset	198 30
+	frame	data/chars/Bakugou/204.gif
+	offset	198 30
+	frame	data/chars/Bakugou/205.gif
+	offset	198 30
+	frame	data/chars/Bakugou/206.gif
+		
+anim	8250
+	delay	7
+	offset	57 10
+	frame	data/chars/Bakugou/207.gif
+	offset	91 20
+	frame	data/chars/Bakugou/208.gif
+	offset	122 29
+	frame	data/chars/Bakugou/209.gif
+	offset	150 38
+	frame	data/chars/Bakugou/210.gif
+	offset	174 45
+	frame	data/chars/Bakugou/211.gif
+	offset	195 50
+	frame	data/chars/Bakugou/212.gif
+	offset	212 53
+	frame	data/chars/Bakugou/213.gif
+	offset	226 54
+	frame	data/chars/Bakugou/214.gif
+	offset	237 54
+	frame	data/chars/Bakugou/215.gif
+	offset	245 54
+	frame	data/chars/Bakugou/216.gif
+	offset	252 53
+	frame	data/chars/Bakugou/217.gif
+	offset	266 52
+	frame	data/chars/Bakugou/218.gif
+	offset	284 50
+	frame	data/chars/Bakugou/219.gif
+	offset	298 48
+	frame	data/chars/Bakugou/220.gif
+	offset	313 49
+	frame	data/chars/Bakugou/221.gif
+	offset	328 50
+	frame	data/chars/Bakugou/222.gif
+	offset	343 50
+	frame	data/chars/Bakugou/223.gif
+	offset	359 51
+	frame	data/chars/Bakugou/224.gif
+	offset	373 51
+	frame	data/chars/Bakugou/225.gif
+	offset	388 51
+	frame	data/chars/Bakugou/226.gif
+	offset	404 51
+	frame	data/chars/Bakugou/227.gif
+	offset	418 51
+	frame	data/chars/Bakugou/228.gif
+	offset	411 50
+	frame	data/chars/Bakugou/229.gif
+	offset	421 50
+	frame	data/chars/Bakugou/230.gif
+	offset	431 49
+	frame	data/chars/Bakugou/231.gif
+	offset	446 48
+	frame	data/chars/Bakugou/232.gif
+	offset	462 47
+	frame	data/chars/Bakugou/233.gif
+	offset	446 45
+	frame	data/chars/Bakugou/234.gif
+	offset	443 44
+	frame	data/chars/Bakugou/235.gif
+	offset	456 42
+	frame	data/chars/Bakugou/236.gif
+	offset	468 40
+	frame	data/chars/Bakugou/237.gif
+	offset	482 38
+	frame	data/chars/Bakugou/238.gif
+	offset	392 36
+	frame	data/chars/Bakugou/239.gif
+	offset	345 34
+	frame	data/chars/Bakugou/240.gif
+	offset	319 31
+	frame	data/chars/Bakugou/241.gif
+	offset	322 29
+	frame	data/chars/Bakugou/242.gif
+	offset	327 27
+	frame	data/chars/Bakugou/243.gif
+	offset	336 20
+	frame	data/chars/Bakugou/244.gif
+	offset	339 20
+	frame	data/chars/Bakugou/245.gif
+	offset	343 13
+	frame	data/chars/Bakugou/246.gif
+	offset	348 12
+	frame	data/chars/Bakugou/247.gif
+	offset	346 -14
+	frame	data/chars/Bakugou/248.gif
+	offset	389 -73
+	frame	data/chars/Bakugou/249.gif
+	offset	298 -92
+	frame	data/chars/Bakugou/250.gif
+	offset	399 -85
+	frame	data/chars/Bakugou/251.gif
+	offset	299 -100
+	frame	data/chars/Bakugou/252.gif
+	offset	409 -102
+	frame	data/chars/Bakugou/253.gif
+	offset	414 -116
+	frame	data/chars/Bakugou/254.gif
+	offset	308 -111
+	frame	data/chars/Bakugou/255.gif
+	offset	342 -126
+	frame	data/chars/Bakugou/256.gif
+	offset	370 -116
+	frame	data/chars/Bakugou/257.gif
+	offset	433 -132
+	frame	data/chars/Bakugou/258.gif
+	offset	438 -127
+	frame	data/chars/Bakugou/259.gif
+	offset	443 -135
+	frame	data/chars/Bakugou/260.gif
+	offset	448 -155
+	frame	data/chars/Bakugou/261.gif
+	offset	453 -148
+	frame	data/chars/Bakugou/262.gif
+	offset	458 -148
+	frame	data/chars/Bakugou/263.gif
+	offset	339 -150
+	frame	data/chars/Bakugou/264.gif
+	offset	344 -164
+	frame	data/chars/Bakugou/265.gif
+	offset	345 -169
+	frame	data/chars/Bakugou/266.gif
+	offset	351 -187
+	frame	data/chars/Bakugou/267.gif
+	offset	351 -184
+	frame	data/chars/Bakugou/268.gif
+	offset	365 -182
+	frame	data/chars/Bakugou/269.gif
+	offset	359 -200
+	frame	data/chars/Bakugou/270.gif
+	offset	365 -197
+	frame	data/chars/Bakugou/271.gif
+		
+anim	9000
+	delay	7
+	offset	0 0
+	frame	data/chars/Bakugou/0.gif
+	offset	0 0
+	frame	data/chars/Bakugou/1.gif
+		
+anim	9007
+	delay	7
+	offset	75 10
+	frame	data/chars/Bakugou/303.gif
+	offset	93 12
+	frame	data/chars/Bakugou/304.gif
+	offset	111 14
+	frame	data/chars/Bakugou/305.gif
+	offset	124 16
+	frame	data/chars/Bakugou/306.gif
+	offset	122 16
+	frame	data/chars/Bakugou/307.gif
+		
+anim	9008
+	delay	7
+	offset	110 8
+	frame	data/chars/Bakugou/308.gif
+		
+anim	9021
+	delay	7
+	offset	320 240
+	frame	data/chars/Bakugou/309.gif
+		
+anim	9022
+	delay	7
+	offset	88 130
+	frame	data/chars/Bakugou/455.gif
+	offset	93 218
+	frame	data/chars/Bakugou/456.gif
+	offset	80 250
+	frame	data/chars/Bakugou/457.gif
+	offset	63 249
+	frame	data/chars/Bakugou/458.gif
+	offset	55 248
+	frame	data/chars/Bakugou/459.gif
+	offset	58 242
+	frame	data/chars/Bakugou/460.gif
+	offset	53 250
+	frame	data/chars/Bakugou/461.gif
+	offset	62 259
+	frame	data/chars/Bakugou/462.gif
+	offset	64 258
+	frame	data/chars/Bakugou/463.gif
+	offset	66 258
+	frame	data/chars/Bakugou/464.gif
+	offset	34 257
+	frame	data/chars/Bakugou/465.gif
+	offset	21 258
+	frame	data/chars/Bakugou/466.gif
+	offset	36 255
+	frame	data/chars/Bakugou/467.gif
+	offset	36 250
+	frame	data/chars/Bakugou/468.gif
+	offset	34 246
+	frame	data/chars/Bakugou/469.gif
+	offset	-92 226
+	frame	data/chars/Bakugou/470.gif
+		
+anim	attack250
+	delay	7
+	offset	147 127
+	frame	data/chars/Bakugou/620.gif
+	offset	147 127
+	frame	data/chars/Bakugou/621.gif
+	offset	147 127
+	frame	data/chars/Bakugou/622.gif
+	offset	147 127
+	frame	data/chars/Bakugou/623.gif
+	offset	147 127
+	frame	data/chars/Bakugou/624.gif
+	offset	147 127
+	frame	data/chars/Bakugou/625.gif
+	offset	147 127
+	frame	data/chars/Bakugou/626.gif
+	offset	147 127
+	frame	data/chars/Bakugou/627.gif
+	offset	147 127
+	frame	data/chars/Bakugou/628.gif
+	offset	147 127
+	frame	data/chars/Bakugou/629.gif
+	offset	147 127
+	frame	data/chars/Bakugou/630.gif
+	offset	147 127
+	frame	data/chars/Bakugou/631.gif
+	offset	147 127
+	frame	data/chars/Bakugou/632.gif
+	offset	147 127
+	frame	data/chars/Bakugou/633.gif
+	offset	147 127
+	frame	data/chars/Bakugou/634.gif
+	offset	147 127
+	frame	data/chars/Bakugou/635.gif
+	offset	147 127
+	frame	data/chars/Bakugou/636.gif
+	offset	147 127
+	frame	data/chars/Bakugou/637.gif
+	offset	147 127
+	frame	data/chars/Bakugou/638.gif
+	offset	147 127
+	frame	data/chars/Bakugou/639.gif
+	offset	147 127
+	frame	data/chars/Bakugou/640.gif
+	offset	147 127
+	frame	data/chars/Bakugou/641.gif
+	offset	147 127
+	frame	data/chars/Bakugou/642.gif
+	offset	147 127
+	frame	data/chars/Bakugou/643.gif
+	offset	147 127
+	frame	data/chars/Bakugou/644.gif
+	offset	147 127
+	frame	data/chars/Bakugou/645.gif
+	offset	147 127
+	frame	data/chars/Bakugou/646.gif
+		
+anim	attack330
+	delay	7
+	offset	72 81
+	frame	data/chars/Bakugou/121.gif
+	offset	88 98
+	frame	data/chars/Bakugou/122.gif
+	offset	104 107
+	frame	data/chars/Bakugou/123.gif
+	offset	108 114
+	frame	data/chars/Bakugou/124.gif
+	offset	95 118
+	frame	data/chars/Bakugou/125.gif
+		
+anim	attack340
+	delay	7
+	offset	80 57
+	frame	data/chars/Bakugou/126.gif
+	offset	86 64
+	frame	data/chars/Bakugou/127.gif
+	offset	76 56
+	frame	data/chars/Bakugou/128.gif
+	offset	57 5
+	frame	data/chars/Bakugou/129.gif
+		
+anim	attack550
+	delay	7
+	offset	91 197
+	frame	data/chars/Bakugou/110.gif
+	offset	91 197
+	frame	data/chars/Bakugou/111.gif
+	offset	91 197
+	frame	data/chars/Bakugou/112.gif
+		
+anim	attack560
+	delay	7
+	offset	64 63
+	frame	data/chars/Bakugou/113.gif
+	offset	64 63
+	frame	data/chars/Bakugou/114.gif
+	offset	64 63
+	frame	data/chars/Bakugou/115.gif
+	offset	64 63
+	frame	data/chars/Bakugou/116.gif
+	offset	64 63
+	frame	data/chars/Bakugou/117.gif
+	offset	64 63
+	frame	data/chars/Bakugou/118.gif
+	offset	64 63
+	frame	data/chars/Bakugou/119.gif
+	offset	64 63
+	frame	data/chars/Bakugou/120.gif
+		
+anim	freespecial1054
+	delay	7
+	offset	262 239
+	frame	data/chars/Bakugou/544.gif
+	offset	262 239
+	frame	data/chars/Bakugou/545.gif
+	offset	262 239
+	frame	data/chars/Bakugou/546.gif
+	offset	262 239
+	frame	data/chars/Bakugou/547.gif
+	offset	262 239
+	frame	data/chars/Bakugou/548.gif
+	offset	262 239
+	frame	data/chars/Bakugou/549.gif
+	offset	262 239
+	frame	data/chars/Bakugou/550.gif
+	offset	262 239
+	frame	data/chars/Bakugou/551.gif
+	offset	262 239
+	frame	data/chars/Bakugou/552.gif
+	offset	262 239
+	frame	data/chars/Bakugou/553.gif
+	offset	262 239
+	frame	data/chars/Bakugou/554.gif
+	offset	262 239
+	frame	data/chars/Bakugou/555.gif
+	offset	262 239
+	frame	data/chars/Bakugou/556.gif
+	offset	262 239
+	frame	data/chars/Bakugou/557.gif
+	offset	262 239
+	frame	data/chars/Bakugou/558.gif
+	offset	262 239
+	frame	data/chars/Bakugou/559.gif
+	offset	262 239
+	frame	data/chars/Bakugou/560.gif
+	offset	262 239
+	frame	data/chars/Bakugou/561.gif
+	offset	262 239
+	frame	data/chars/Bakugou/562.gif
+	offset	262 239
+	frame	data/chars/Bakugou/563.gif
+	offset	262 239
+	frame	data/chars/Bakugou/564.gif
+	offset	262 239
+	frame	data/chars/Bakugou/565.gif
+	offset	262 239
+	frame	data/chars/Bakugou/566.gif
+	offset	262 239
+	frame	data/chars/Bakugou/567.gif
+		
+anim	freespecial1056
+	delay	7
+	offset	142 169
+	frame	data/chars/Bakugou/577.gif
+	offset	142 169
+	frame	data/chars/Bakugou/578.gif
+	offset	142 169
+	frame	data/chars/Bakugou/579.gif
+	offset	142 169
+	frame	data/chars/Bakugou/580.gif
+	offset	142 169
+	frame	data/chars/Bakugou/581.gif
+	offset	142 169
+	frame	data/chars/Bakugou/582.gif
+	offset	142 169
+	frame	data/chars/Bakugou/583.gif
+	offset	142 169
+	frame	data/chars/Bakugou/584.gif
+	offset	142 169
+	frame	data/chars/Bakugou/585.gif
+		
+anim	freespecial1059
+	delay	7
+	offset	54 56
+	frame	data/chars/Bakugou/472.gif
+	offset	51 59
+	frame	data/chars/Bakugou/473.gif
+	offset	46 61
+	frame	data/chars/Bakugou/474.gif
+	offset	42 61
+	frame	data/chars/Bakugou/475.gif
+	offset	41 61
+	frame	data/chars/Bakugou/476.gif
+	offset	36 60
+	frame	data/chars/Bakugou/477.gif
+	offset	36 59
+	frame	data/chars/Bakugou/478.gif
+	offset	46 59
+	frame	data/chars/Bakugou/479.gif
+	offset	50 58
+	frame	data/chars/Bakugou/480.gif
+	offset	56 58
+	frame	data/chars/Bakugou/481.gif
+	offset	59 57
+	frame	data/chars/Bakugou/482.gif
+	offset	64 58
+	frame	data/chars/Bakugou/483.gif
+	offset	64 58
+	frame	data/chars/Bakugou/484.gif
+	offset	64 59
+	frame	data/chars/Bakugou/485.gif
+	offset	64 61
+	frame	data/chars/Bakugou/486.gif
+	offset	64 61
+	frame	data/chars/Bakugou/487.gif
+		
+anim	freespecial1064
+	delay	7
+	offset	12 18
+	frame	data/chars/Bakugou/471.gif
+		
+anim	freespecial1065
+	delay	7
+	offset	73 159
+	frame	data/chars/Bakugou/657.gif
+	offset	73 159
+	frame	data/chars/Bakugou/658.gif
+	offset	73 159
+	frame	data/chars/Bakugou/659.gif
+	offset	73 159
+	frame	data/chars/Bakugou/660.gif
+	offset	73 159
+	frame	data/chars/Bakugou/661.gif
+	offset	73 159
+	frame	data/chars/Bakugou/662.gif
+	offset	73 159
+	frame	data/chars/Bakugou/663.gif
+	offset	73 159
+	frame	data/chars/Bakugou/664.gif
+		
+anim	freespecial1066
+	delay	7
+	offset	316 475
+	frame	data/chars/Bakugou/677.gif
+	offset	316 475
+	frame	data/chars/Bakugou/678.gif
+	offset	316 475
+	frame	data/chars/Bakugou/679.gif
+	offset	316 475
+	frame	data/chars/Bakugou/680.gif
+	offset	316 475
+	frame	data/chars/Bakugou/681.gif
+	offset	316 475
+	frame	data/chars/Bakugou/682.gif
+	offset	316 475
+	frame	data/chars/Bakugou/683.gif
+	offset	316 475
+	frame	data/chars/Bakugou/684.gif
+	offset	316 475
+	frame	data/chars/Bakugou/685.gif
+	offset	316 475
+	frame	data/chars/Bakugou/686.gif
+	offset	316 475
+	frame	data/chars/Bakugou/687.gif
+	offset	316 475
+	frame	data/chars/Bakugou/688.gif
+	offset	316 475
+	frame	data/chars/Bakugou/689.gif
+	offset	316 475
+	frame	data/chars/Bakugou/690.gif
+	offset	316 475
+	frame	data/chars/Bakugou/691.gif
+	offset	316 475
+	frame	data/chars/Bakugou/692.gif
+	offset	316 475
+	frame	data/chars/Bakugou/693.gif
+	offset	316 475
+	frame	data/chars/Bakugou/694.gif
+	offset	316 475
+	frame	data/chars/Bakugou/695.gif
+	offset	316 475
+	frame	data/chars/Bakugou/696.gif
+	offset	316 475
+	frame	data/chars/Bakugou/697.gif
+	offset	316 475
+	frame	data/chars/Bakugou/698.gif
+	offset	316 475
+	frame	data/chars/Bakugou/699.gif
+	offset	316 475
+	frame	data/chars/Bakugou/700.gif
+	offset	316 475
+	frame	data/chars/Bakugou/701.gif
+		
+anim	freespecial1080
+	delay	7
+	offset	483 253
+	frame	data/chars/Bakugou/586.gif
+	offset	483 253
+	frame	data/chars/Bakugou/587.gif
+	offset	483 253
+	frame	data/chars/Bakugou/588.gif
+	offset	483 253
+	frame	data/chars/Bakugou/589.gif
+	offset	483 253
+	frame	data/chars/Bakugou/590.gif
+	offset	483 253
+	frame	data/chars/Bakugou/591.gif
+	offset	483 253
+	frame	data/chars/Bakugou/592.gif
+	offset	483 253
+	frame	data/chars/Bakugou/593.gif
+	offset	483 253
+	frame	data/chars/Bakugou/594.gif
+	offset	483 253
+	frame	data/chars/Bakugou/595.gif
+	offset	483 253
+	frame	data/chars/Bakugou/596.gif
+	offset	483 253
+	frame	data/chars/Bakugou/597.gif
+	offset	483 253
+	frame	data/chars/Bakugou/598.gif
+	offset	483 253
+	frame	data/chars/Bakugou/599.gif
+	offset	483 253
+	frame	data/chars/Bakugou/600.gif
+	offset	483 253
+	frame	data/chars/Bakugou/601.gif
+	offset	483 253
+	frame	data/chars/Bakugou/602.gif
+	offset	483 253
+	frame	data/chars/Bakugou/603.gif
+	offset	483 253
+	frame	data/chars/Bakugou/604.gif
+	offset	483 253
+	frame	data/chars/Bakugou/605.gif
+	offset	483 253
+	frame	data/chars/Bakugou/606.gif
+	offset	483 253
+	frame	data/chars/Bakugou/607.gif
+	offset	483 253
+	frame	data/chars/Bakugou/608.gif
+	offset	483 253
+	frame	data/chars/Bakugou/609.gif
+	offset	483 253
+	frame	data/chars/Bakugou/610.gif
+	offset	483 253
+	frame	data/chars/Bakugou/611.gif
+	offset	483 253
+	frame	data/chars/Bakugou/612.gif
+	offset	483 253
+	frame	data/chars/Bakugou/613.gif
+	offset	483 253
+	frame	data/chars/Bakugou/614.gif
+	offset	483 253
+	frame	data/chars/Bakugou/615.gif
+	offset	483 253
+	frame	data/chars/Bakugou/616.gif
+	offset	483 253
+	frame	data/chars/Bakugou/617.gif
+	offset	483 253
+	frame	data/chars/Bakugou/618.gif
+	offset	483 253
+	frame	data/chars/Bakugou/619.gif
+		
+anim	freespecial1095
+	delay	7
+	offset	140 126
+	frame	data/chars/Bakugou/702.gif
+	offset	140 126
+	frame	data/chars/Bakugou/703.gif
+	offset	140 126
+	frame	data/chars/Bakugou/704.gif
+	offset	140 126
+	frame	data/chars/Bakugou/705.gif
+	offset	140 126
+	frame	data/chars/Bakugou/706.gif
+	offset	140 126
+	frame	data/chars/Bakugou/707.gif
+	offset	140 126
+	frame	data/chars/Bakugou/708.gif
+	offset	140 126
+	frame	data/chars/Bakugou/709.gif
+	offset	140 126
+	frame	data/chars/Bakugou/710.gif
+	offset	140 126
+	frame	data/chars/Bakugou/711.gif
+	offset	140 126
+	frame	data/chars/Bakugou/712.gif
+	offset	140 126
+	frame	data/chars/Bakugou/713.gif
+	offset	140 126
+	frame	data/chars/Bakugou/714.gif
+	offset	140 126
+	frame	data/chars/Bakugou/715.gif
+	offset	140 126
+	frame	data/chars/Bakugou/716.gif
+	offset	140 126
+	frame	data/chars/Bakugou/717.gif
+	offset	140 126
+	frame	data/chars/Bakugou/718.gif
+	offset	140 126
+	frame	data/chars/Bakugou/719.gif
+	offset	140 126
+	frame	data/chars/Bakugou/720.gif
+	offset	140 126
+	frame	data/chars/Bakugou/721.gif
+	offset	140 126
+	frame	data/chars/Bakugou/722.gif
+	offset	140 126
+	frame	data/chars/Bakugou/723.gif
+	offset	140 126
+	frame	data/chars/Bakugou/724.gif
+		
+anim	freespecial1299
+	delay	7
+	offset	127 127
+	frame	data/chars/Bakugou/543.gif
+		
+anim	freespecial1888
+	delay	7
+	offset	12 4
+	frame	data/chars/Bakugou/488.gif
+		
+anim	freespecial2222
+	delay	7
+	offset	91 86
+	frame	data/chars/Bakugou/489.gif
+	offset	91 86
+	frame	data/chars/Bakugou/490.gif
+	offset	91 86
+	frame	data/chars/Bakugou/491.gif
+	offset	91 86
+	frame	data/chars/Bakugou/492.gif
+	offset	91 86
+	frame	data/chars/Bakugou/493.gif
+	offset	91 86
+	frame	data/chars/Bakugou/494.gif
+	offset	91 86
+	frame	data/chars/Bakugou/495.gif
+	offset	91 86
+	frame	data/chars/Bakugou/496.gif
+		
+anim	freespecial3050
+	delay	7
+	offset	172 310
+	frame	data/chars/Bakugou/665.gif
+	offset	172 310
+	frame	data/chars/Bakugou/666.gif
+	offset	172 310
+	frame	data/chars/Bakugou/667.gif
+	offset	172 310
+	frame	data/chars/Bakugou/668.gif
+	offset	172 310
+	frame	data/chars/Bakugou/669.gif
+	offset	172 310
+	frame	data/chars/Bakugou/670.gif
+		
+anim	freespecial3051
+	delay	7
+	offset	86 90
+	frame	data/chars/Bakugou/401.gif
+	offset	86 90
+	frame	data/chars/Bakugou/402.gif
+	offset	88 96
+	frame	data/chars/Bakugou/403.gif
+	offset	92 100
+	frame	data/chars/Bakugou/404.gif
+	offset	100 101
+	frame	data/chars/Bakugou/405.gif
+	offset	100 104
+	frame	data/chars/Bakugou/406.gif
+	offset	104 118
+	frame	data/chars/Bakugou/407.gif
+	offset	114 121
+	frame	data/chars/Bakugou/408.gif
+	offset	126 122
+	frame	data/chars/Bakugou/409.gif
+	offset	138 113
+	frame	data/chars/Bakugou/410.gif
+	offset	137 122
+	frame	data/chars/Bakugou/411.gif
+	offset	125 147
+	frame	data/chars/Bakugou/412.gif
+	offset	130 217
+	frame	data/chars/Bakugou/413.gif
+	offset	154 230
+	frame	data/chars/Bakugou/414.gif
+	offset	170 254
+	frame	data/chars/Bakugou/415.gif
+	offset	182 268
+	frame	data/chars/Bakugou/416.gif
+	offset	188 270
+	frame	data/chars/Bakugou/417.gif
+	offset	193 254
+	frame	data/chars/Bakugou/418.gif
+	offset	162 265
+	frame	data/chars/Bakugou/419.gif
+	offset	176 273
+	frame	data/chars/Bakugou/420.gif
+	offset	186 260
+	frame	data/chars/Bakugou/421.gif
+	offset	190 266
+	frame	data/chars/Bakugou/422.gif
+	offset	198 270
+	frame	data/chars/Bakugou/423.gif
+	offset	202 274
+	frame	data/chars/Bakugou/424.gif
+	offset	208 254
+	frame	data/chars/Bakugou/425.gif
+	offset	212 264
+	frame	data/chars/Bakugou/426.gif
+	offset	214 272
+	frame	data/chars/Bakugou/427.gif
+	offset	215 274
+	frame	data/chars/Bakugou/428.gif
+	offset	224 259
+	frame	data/chars/Bakugou/429.gif
+	offset	224 263
+	frame	data/chars/Bakugou/430.gif
+	offset	224 255
+	frame	data/chars/Bakugou/431.gif
+	offset	224 261
+	frame	data/chars/Bakugou/432.gif
+	offset	227 267
+	frame	data/chars/Bakugou/433.gif
+	offset	230 271
+	frame	data/chars/Bakugou/434.gif
+	offset	231 264
+	frame	data/chars/Bakugou/435.gif
+	offset	232 270
+	frame	data/chars/Bakugou/436.gif
+	offset	232 274
+	frame	data/chars/Bakugou/437.gif
+	offset	233 264
+	frame	data/chars/Bakugou/438.gif
+	offset	233 270
+	frame	data/chars/Bakugou/439.gif
+	offset	233 276
+	frame	data/chars/Bakugou/440.gif
+	offset	232 281
+	frame	data/chars/Bakugou/441.gif
+	offset	226 269
+	frame	data/chars/Bakugou/442.gif
+	offset	226 267
+	frame	data/chars/Bakugou/443.gif
+	offset	228 268
+	frame	data/chars/Bakugou/444.gif
+	offset	228 266
+	frame	data/chars/Bakugou/445.gif
+	offset	228 266
+	frame	data/chars/Bakugou/446.gif
+	offset	221 268
+	frame	data/chars/Bakugou/447.gif
+	offset	198 263
+	frame	data/chars/Bakugou/448.gif
+	offset	199 265
+	frame	data/chars/Bakugou/449.gif
+	offset	199 265
+	frame	data/chars/Bakugou/450.gif
+	offset	199 265
+	frame	data/chars/Bakugou/451.gif
+	offset	196 264
+	frame	data/chars/Bakugou/452.gif
+	offset	185 262
+	frame	data/chars/Bakugou/453.gif
+	offset	166 260
+	frame	data/chars/Bakugou/454.gif
+		
+anim	freespecial3055
+	delay	7
+	offset	61 138
+	frame	data/chars/Bakugou/671.gif
+	offset	61 138
+	frame	data/chars/Bakugou/672.gif
+	offset	61 138
+	frame	data/chars/Bakugou/673.gif
+	offset	61 138
+	frame	data/chars/Bakugou/674.gif
+	offset	61 138
+	frame	data/chars/Bakugou/675.gif
+	offset	61 138
+	frame	data/chars/Bakugou/676.gif
+		
+anim	idle
+	delay	7
+	offset	15 47
+	frame	data/chars/Bakugou/2.gif
+	offset	15 46
+	frame	data/chars/Bakugou/3.gif
+	offset	15 45
+	frame	data/chars/Bakugou/4.gif
+	offset	15 46
+	frame	data/chars/Bakugou/5.gif
+		
+anim	jumpattack700
+	delay	7
+	offset	9 14
+	frame	data/chars/Bakugou/497.gif
+	offset	5 21
+	frame	data/chars/Bakugou/498.gif
+	offset	5 18
+	frame	data/chars/Bakugou/499.gif
+	offset	-2 12
+	frame	data/chars/Bakugou/500.gif
+		
+anim	attack1
+	delay	7
+	offset	17 39
+	frame	data/chars/Bakugou/48.gif
+	offset	17 39
+	frame	data/chars/Bakugou/49.gif
+		
+anim	attack2
+	delay	7
+	offset	19 46
+	frame	data/chars/Bakugou/50.gif
+	offset	23 51
+	frame	data/chars/Bakugou/51.gif
+	offset	20 42
+	frame	data/chars/Bakugou/52.gif
+		
+anim	attack3
+	delay	7
+	offset	15 42
+	frame	data/chars/Bakugou/53.gif
+	offset	18 37
+	frame	data/chars/Bakugou/54.gif
+	offset	18 37
+	frame	data/chars/Bakugou/55.gif
+		
+anim	runattack
+	delay	7
+	offset	15 42
+	frame	data/chars/Bakugou/56.gif
+	offset	16 39
+	frame	data/chars/Bakugou/57.gif
+	offset	16 39
+	frame	data/chars/Bakugou/58.gif
+	offset	14 39
+	frame	data/chars/Bakugou/59.gif
+	offset	15 43
+	frame	data/chars/Bakugou/60.gif
+	offset	18 46
+	frame	data/chars/Bakugou/61.gif
+	offset	16 38
+	frame	data/chars/Bakugou/63.gif
+	offset	18 38
+	frame	data/chars/Bakugou/62.gif
+		
+anim	jumpattack
+	delay	7
+	offset	13 49
+	frame	data/chars/Bakugou/75.gif
+	offset	16 55
+	frame	data/chars/Bakugou/76.gif
+	offset	16 44
+	frame	data/chars/Bakugou/77.gif
+		
+anim	turn
+	delay	7
+	offset	17 47
+	frame	data/chars/Bakugou/31.gif
+	offset	19 42
+	frame	data/chars/Bakugou/32.gif
+	offset	34 41
+	frame	data/chars/Bakugou/33.gif
+	offset	18 42
+	frame	data/chars/Bakugou/34.gif
+	offset	27 22
+	frame	data/chars/Bakugou/35.gif
+	offset	30 14
+	frame	data/chars/Bakugou/36.gif
+	offset	19 27
+	frame	data/chars/Bakugou/37.gif
+	offset	25 31
+	frame	data/chars/Bakugou/38.gif
+	offset	19 48
+	frame	data/chars/Bakugou/39.gif
+	offset	12 29
+	frame	data/chars/Bakugou/40.gif
+		
+#|edited by openBor Stats v 0.67
+		

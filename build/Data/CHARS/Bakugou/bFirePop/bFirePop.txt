@@ -1,0 +1,32 @@
+name  bFirePop
+type none
+shadow 0
+alpha 1
+
+
+
+
+anim	idle
+	delay	7
+	offset	640 360
+	frame	data/chars/Bakugou/509.gif
+	offset	640 360
+	frame	data/chars/Bakugou/510.gif
+	offset	640 360
+	frame	data/chars/Bakugou/511.gif
+	offset	640 360
+	frame	data/chars/Bakugou/512.gif
+	offset	640 360
+	frame	data/chars/Bakugou/513.gif
+	offset	640 360
+	frame	data/chars/Bakugou/514.gif
+	offset	640 360
+	frame	data/chars/Bakugou/515.gif
+	offset	640 360
+	frame	data/chars/Bakugou/516.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		
