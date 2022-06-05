@@ -7,6 +7,7 @@ diesound data/sounds/die2.wav
 icon	data/chars/Ninja/icon.gif
 bflash  bflash
 dust	 dust
+falldie 2
 jumpheight 3
 subject_to_screen 1
 animationscript data/scripts/spawns.c
@@ -96,6 +97,11 @@ anim	idle
 	frame	data/chars/Ninja/idle01.gif
 	frame	data/chars/Ninja/idle02.gif
 	frame	data/chars/Ninja/idle01.gif
+		
+anim	death
+	delay	7
+	delay	20
+	frame	data/chars/Ninja/fall01.gif
 		
 anim	pain
 	loop	0

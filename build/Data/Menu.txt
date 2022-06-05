@@ -1,4 +1,5 @@
 renamekey attack Attack
 renamekey attack2 Dash
 renamekey special Power_Move
-renamekey attack3 Action
+renamekey attack3 Special
+renamekey attack4 Move_List
