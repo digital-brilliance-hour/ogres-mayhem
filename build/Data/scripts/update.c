@@ -281,6 +281,7 @@ void oncreate(){
     setglobalvar("jump-button", JButton);
     setglobalvar("special-button", SButton);
     setglobalvar("power-button", PButton);
+    setglobalvar("bossInterlude", 0);
 }
 
 void ondestroy(){
@@ -339,6 +340,7 @@ void ondestroy(){
     setglobalvar("jump-button", NULL());
     setglobalvar("special-button", NULL());
     setglobalvar("power-button", NULL());
+  setglobalvar("bossInterlude", NULL());
 }
 
 void fileskim(char Line, void Path)

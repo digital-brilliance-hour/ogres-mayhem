@@ -5,6 +5,7 @@ bossmusic data/music/stage1-boss.ogg
 panel data/bgs/stage-1/n.gif none none
 order a
 
+updatescript data/scripts/levels/stage-engine.c
 
 spawn1 110 20
 spawn2 120 40
@@ -14,6 +15,7 @@ stagenumber 1
 spawn ready
 	coords 240 136
 	at 0
+
 
 spawn Ninja
 coords	480 215
@@ -32,7 +34,7 @@ coords	-30 230
 at 310
 
 wait
-at      310
+at 310
 
 spawn mp_twentyfive
 coords 600 220
@@ -80,15 +82,18 @@ spawn hp_hundred
 coords 600 220
 at 2270
 
-spawn	warning
-	coords 240 136
-flip    1
-at      2919
 
-spawn Story
-alias sasukedialog
-at 2920
 
+spawn empty
+@script
+void main() {
+setglobalvar("bossInterlude", 1);
+setglobalvar("bossStopX", 3041);
+setglobalvar("bossStopY0", 107);
+}
+@end_script
+coords 1 1
+at 2801
 
 spawn sasuke_e
 boss 1
