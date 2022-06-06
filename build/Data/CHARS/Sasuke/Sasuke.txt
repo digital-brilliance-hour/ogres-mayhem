@@ -29,6 +29,9 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
+
+
 anim	attack1
 	loop	0
 	delay	7
@@ -90,6 +93,19 @@ anim	fall
 	frame	data/chars/Sasuke/fall00.gif
 	delay	20
 	frame	data/chars/Sasuke/fall01.gif
+		
+anim	freespecial4
+	delay	7
+	offset	17 32
+	frame	data/chars/sasuke/417.gif
+	offset	17 32
+	frame	data/chars/sasuke/418.gif
+	offset	17 32
+	frame	data/chars/sasuke/419.gif
+	offset	17 32
+	frame	data/chars/sasuke/420.gif
+	offset	17 32
+	frame	data/chars/sasuke/421.gif
 		
 anim	freespecial
 	@cmd	isavailable 2
@@ -248,19 +264,6 @@ anim	land
 	delay	10
 	offset	60 116
 	frame	data/chars/Sasuke/get02.gif
-		
-anim	freespecial4
-	delay	7
-	offset	17 32
-	frame	data/chars/sasuke/417.gif
-	offset	17 32
-	frame	data/chars/sasuke/418.gif
-	offset	17 32
-	frame	data/chars/sasuke/419.gif
-	offset	17 32
-	frame	data/chars/sasuke/420.gif
-	offset	17 32
-	frame	data/chars/sasuke/421.gif
 		
 anim	pain
 	loop	0

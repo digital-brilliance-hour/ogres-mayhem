@@ -33,6 +33,9 @@ load  fireballJutsu
 
 atchain 1 1 3 2 4
 
+weaploss 3
+modelflag 3
+
 anim	attack1
 	delay	7
 	offset	21 49
