@@ -1,0 +1,18 @@
+name  InoNPC
+speed 1
+type none
+shadow 3
+
+
+anim	idle
+	offset	15 31
+	delay	15
+	loop	1
+	frame	data/chars/inonpc/0.png
+	offset	15 29
+	frame	data/chars/inonpc/1.png
+	offset	15 28
+	frame	data/chars/inonpc/2.png
+		
+#|edited by openBor Stats v 0.67
+		
