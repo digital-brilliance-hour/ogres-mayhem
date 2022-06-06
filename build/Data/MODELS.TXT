@@ -342,7 +342,7 @@ Load blankP Data/Chars/blankP/blankP.txt
 Know moveList Data/CHARS/misc/moveList/moveList.txt
 know adult_gon data/chars/Goku_UI/adult_gon.txt
 know adult_gon-OLD data/chars/Goku_UI/adult_gon-OLD.txt
-know sasukeTransform data/chars/cssasuke/cssasuke.txt
+load sasukeTransform data/chars/cssasuke/cssasuke.txt
 know sasukeTransformOLD data/chars/cssasuke/cssasuke-old.txt
 know KenpachiTransform data/chars/Kenpachi/kenpachitransform.txt
 know fireballJutsu data/chars/cssasuke/fireball.txt

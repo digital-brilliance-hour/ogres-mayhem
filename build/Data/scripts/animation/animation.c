@@ -2089,6 +2089,22 @@ void pause_self(int iToggle, int iTime){
     changeentityproperty(vSelf, "freezetime", iETime + iTime);    //Toggle frozen time.
 }
 
+void pause_enemy(int iToggle, int iTime){
+
+    /*
+    pause_self
+    Kevin Epps
+    Pause or unpause action for self.
+    */
+
+    void vEnemy      = getentityvar(getlocalvar("self"), "currentenemy");                  //Caller   
+    int  iETime     = openborvariant("elapsed_time");       //Current time.
+
+
+    changeentityproperty(vEnemy, "frozen", iToggle);               //Toggle frozen.
+    changeentityproperty(vEnemy, "freezetime", iETime + iTime);    //Toggle frozen time.
+}
+
 void rasengan() {
 	void rObj = spawnbind("rasengan", 0, -1, 1);
 	setlocalvar("rObj", rObj);
