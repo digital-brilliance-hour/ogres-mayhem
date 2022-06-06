@@ -29,7 +29,7 @@ iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
 script data/scripts/bosses/update.c
 
-weapons Sasuketransform Sasuke_E
+weapons sasukeTransform Sasuke_E
 weaploss 3
 
 
