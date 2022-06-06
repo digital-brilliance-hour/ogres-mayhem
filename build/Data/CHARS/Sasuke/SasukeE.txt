@@ -28,10 +28,10 @@ lifeposition 50 235
 nameposition 60 225
 iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
+script data/scripts/bosses/update.c
 
 weapons sasukeTransform Sasuke_E
 weaploss 3
-
 
 
 
@@ -125,8 +125,9 @@ anim	freespecial
 	delay	30
 	frame	data/chars/Sasuke/katon00.gif
 		
-anim	freespecial4
+anim	follow1
 	delay	7
+	weaponframe	4 1
 	offset	17 32
 	frame	data/chars/sasuke/417.gif
 	offset	17 32
