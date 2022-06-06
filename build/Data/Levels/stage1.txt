@@ -9,6 +9,8 @@ updatescript data/scripts/levels/stage-engine.c
 
 spawn1 110 20
 spawn2 120 40
+spawn3 110 60
+spawn4 120 80
 
 stagenumber 1
 
@@ -83,6 +85,22 @@ coords 600 220
 at 2270
 
 
+spawn sasuke_e
+boss 1
+@script
+void main() {
+     void self = getlocalvar("self");
+     changeentityproperty(self, "noaicontrol", 1);
+     changeentityproperty(self, "subject_to_screen", 0);
+     changeentityproperty(self, "aiflag", "walking", 0);
+     changeentityproperty(self, "aiflag", "idling", 0);
+     changeentityproperty(self, "aiflag", "attacking", 0);
+     changeentityproperty(self, "animation", openborconstant("ANI_IDLE"));
+}
+@end_script
+alias  Sasuke
+coords	530 200
+at 2800
 
 spawn empty
 @script
@@ -90,51 +108,47 @@ void main() {
 setglobalvar("bossInterlude", 1);
 setglobalvar("bossStopX", 3041);
 setglobalvar("bossStopY0", 107);
+setglobalvar("bossDialog", "sasukedialog");
 }
 @end_script
 coords 1 1
 at 2801
 
-spawn sasuke_e
-boss 1
-alias  Sasuke
-coords	450 200
-at 2921
-
 wait
-at      2921
+at      2922
+
 #Boss help
 group 2 4
 at 2921
 
 spawn Ninja
 coords    480 215
-at 2921
+at 2922
 
 spawn Ninja
 coords    480 230
-at 2921
+at 2922
 
 spawn Ninja
 coords    -30 220
-at 2921
+at 2922
 
 spawn Ninja
 coords    -30 230
-at 2921
+at 2922
 
 spawn Ninja
 coords    480 215
-at 2921
+at 2922
 
 spawn Ninja
 coords    480 230
-at 2921
+at 2922
 
 spawn Ninja
 coords    -30 220
-at 2921
+at 2922
 
 spawn Ninja
 coords    -30 230
-at 2921
+at 2922
