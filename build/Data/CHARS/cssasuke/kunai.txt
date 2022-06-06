@@ -3,7 +3,6 @@ speed   15
 type 	none
 shadow	0
 setlayer 1000
-alpha 1
 
 
 
@@ -21,8 +20,7 @@ alpha 1
 
 
 
-
-anim	10001
+anim	idle
 	attack	0 0 24 10 10 0 1 0 0 0
 	delay	7
 	offset	10 24

@@ -1,6 +1,6 @@
 music		data/music/story.ogg
 
-background	data/bgs/ogres-story.png
+background	data/bgs/new-ogres-story.png 1 1 0 -251
 
 #frontpanel	data/bgs/story.gif
 
@@ -16,7 +16,8 @@ nopause		1
 nolife 1
 type 2
 stagenumber 13
-direction left
+#direction left
+bgspeed 10 1
 
 spawn1 500 -20 0
 spawn2 250 20
@@ -28,3 +29,7 @@ updatedscript	data/levels/scenes/story/story.c
 spawn	stop
 coords	1 1
 at	0
+
+spawn blackscreen 
+coords 1 1
+at 0

@@ -1,13 +1,15 @@
 name	sasukeTransform
 health	500
 speed 20
-type	enemy
-shadow	2
+type	player
+shadow  3
 aimove chase
 aggression  20
 escapehits 1
 riseinv 2 0
-candamage player npc
+running 25 4 2 1 1
+candamage player npc obstacle
+candamage player npc enemy
 subject_to_screen 1
 hostile npc player
 grabdistance 23
@@ -16,11 +18,14 @@ icon	data/chars/Sasuke/icon.gif
 bflash  bflash
 dust	 dust
 jumpheight 3
+atchain 1 1 3 2 4
+palette none
 
 animationscript data/scripts/spawns.c
-com      a2 freespecial
-com      a3 freespecial2
-com      a4 freespecial3
+com  a3  freespecial
+com u a3 freespecial2
+com d a3 freespecial5
+com s freespecial3
 lifebarstatus 380 5 0 1 0 0 0 0 0
 lifeposition 50 235
 nameposition 60 225
@@ -31,7 +36,12 @@ load  pChidori
 load  skunai
 load  fireballJutsu
 
-atchain 1 1 3 2 4
+weaploss 3
+modelflag 3
+
+didhitscript data/scripts/bosses/didhit.c
+
+
 
 weaploss 3
 modelflag 3
@@ -42,7 +52,7 @@ anim	attack1
 	frame	data/chars/cssasuke/47.gif
 	offset	18 48
 	frame	data/chars/cssasuke/48.gif
-	attack	30 5 26 17 16 0 1 0 0 0
+	attack	29 4 31 25 16 0 1 0 0 0
 	offset	21 44
 	frame	data/chars/cssasuke/49.gif
 	offset	21 47
@@ -80,7 +90,8 @@ anim	attack4
 	delay	7
 	offset	18 48
 	frame	data/chars/cssasuke/51.gif
-	attack	30 7 31 21 30 0 1 0 0 0
+	attack	30 7 31 21 30 1 1 0 0 0
+	dropv	1 3 0
 	offset	8 45
 	frame	data/chars/cssasuke/52.gif
 	offset	7 42
@@ -89,9 +100,11 @@ anim	attack4
 	frame	data/chars/cssasuke/54.gif
 		
 anim	fall
+	bbox	2 2 31 32
 	delay	7
 	offset	16 43
 	frame	data/chars/cssasuke/42.gif
+	bbox	1 2 46 16
 	offset	23 20
 	frame	data/chars/cssasuke/43.gif
 	offset	25 15
@@ -102,12 +115,13 @@ anim	freespecial
 	offset	20 41
 	frame	data/chars/cssasuke/84.gif
 	offset	20 43
+	@cmd	projectile 1 "skunai" 25 1 8 1 0
 	frame	data/chars/cssasuke/85.gif
 	offset	21 41
 	frame	data/chars/cssasuke/86.gif
 		
 anim	freespecial2
-	delay	7
+	delay	5
 	fastattack	1
 	offset	19 38
 	frame	data/chars/cssasuke/90.gif
@@ -115,8 +129,9 @@ anim	freespecial2
 	frame	data/chars/cssasuke/91.gif
 	offset	15 53
 	frame	data/chars/cssasuke/92.gif
-	attack	-4 1 41 55 0 0 1 0 0 0
+	attack	-4 1 41 55 15 1 1 0 0 0
 	offset	14 52
+	dropv	4 0 0
 	frame	data/chars/cssasuke/93.gif
 	offset	14 51
 	frame	data/chars/cssasuke/94.gif
@@ -134,40 +149,22 @@ anim	freespecial2
 	offset	35 27
 	frame	data/chars/cssasuke/73.gif
 	offset	36 27
+	@cmd	leaper 0 5
+	@cmd	pause_enemy 1 100
 	frame	data/chars/cssasuke/74.gif
-	offset	24 38
-	frame	data/chars/cssasuke/97.gif
-	offset	27 48
-	frame	data/chars/cssasuke/98.gif
-	offset	23 38
-	frame	data/chars/cssasuke/99.gif
-	attack	26 2 -39 31 0 0 0 0 0 0
-	offset	21 34
-	frame	data/chars/cssasuke/100.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	23 32
-	frame	data/chars/cssasuke/101.gif
-	attack	9 19 33 33 0 0 0 0 0 0
-	offset	26 44
-	frame	data/chars/cssasuke/102.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	23 33
-	frame	data/chars/cssasuke/103.gif
-	attack	1 39 39 19 0 0 1 0 0 0
-	offset	21 49
-	frame	data/chars/cssasuke/104.gif
-	offset	21 36
-	frame	data/chars/cssasuke/105.gif
+	delay	10
+	frame	data/chars/misc/empty.gif
+	delay	5
 	offset	23 28
 	frame	data/chars/cssasuke/106.gif
-	attack	0 0 0 0 0 0 0 0 0 0
 	offset	20 31
 	frame	data/chars/cssasuke/107.gif
 	offset	18 45
 	frame	data/chars/cssasuke/108.gif
 	offset	21 40
 	frame	data/chars/cssasuke/109.gif
-	attack	30 22 -38 22 0 0 1 0 0 0
+	attack	0 19 33 20 20 0 1 0 40 60
+	dropv	-5 0 0
 	offset	20 36
 	frame	data/chars/cssasuke/110.gif
 	offset	20 32
@@ -182,8 +179,11 @@ anim	freespecial3
 	offset	19 50
 	frame	data/chars/cssasuke/79.gif
 	offset	19 46
+	delay	30
 	frame	data/chars/cssasuke/80.gif
 	offset	19 43
+	delay	50
+	@cmd	spawnbind "fireballJutsu" -50 0 0
 	frame	data/chars/cssasuke/81.gif
 		
 anim	freespecial5
@@ -208,21 +208,11 @@ anim	freespecial5
 	frame	data/chars/cssasuke/57.gif
 	offset	23 39
 	frame	data/chars/cssasuke/136.gif
+	attack	42 6 24 20 50 0 1 0 0 0
 	offset	24 37
 	frame	data/chars/cssasuke/137.gif
 	offset	-3 37
 	frame	data/chars/cssasuke/58.gif
-		
-anim	get
-	delay	7
-	offset	21 47
-	frame	data/chars/cssasuke/46.gif
-	offset	19 33
-	frame	data/chars/cssasuke/45.gif
-	offset	21 29
-	frame	data/chars/cssasuke/26.gif
-	offset	20 29
-	frame	data/chars/cssasuke/27.gif
 		
 anim	idle
 	bbox	3 1 33 49
@@ -243,11 +233,11 @@ anim	idle
 anim	jump
 	bbox	3 0 28 44
 	delay	7
-	offset	16 47
+	offset	16 51
 	frame	data/chars/cssasuke/20.gif
-	offset	16 46
+	offset	16 49
 	frame	data/chars/cssasuke/21.gif
-	offset	14 46
+	offset	14 49
 	frame	data/chars/cssasuke/22.gif
 		
 anim	jumpattack
@@ -300,21 +290,28 @@ anim	run
 		
 anim	runattack
 	delay	7
+	@cmd	spawnparent "pdust" -10 0 -20
 	offset	21 39
 	frame	data/chars/cssasuke/55.gif
+	attack	32 4 40 19 10 0 1 0 0 0
 	offset	4 38
+	@cmd	dasher 4 0 0
 	frame	data/chars/cssasuke/56.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	@cmd	dasher 1 0 0
 	offset	0 38
 	frame	data/chars/cssasuke/57.gif
-	attack	39 7 29 15 0 0 1 0 0 0
+	attack	35 6 29 23 20 1 1 0 0 0
 	offset	-3 37
 	frame	data/chars/cssasuke/58.gif
 	offset	3 38
+	@cmd	stop
 	frame	data/chars/cssasuke/59.gif
 		
 anim	walk
 	bbox	2 1 31 41
 	delay	7
+	loop	1
 	offset	15 41
 	frame	data/chars/cssasuke/8.gif
 	offset	15 40

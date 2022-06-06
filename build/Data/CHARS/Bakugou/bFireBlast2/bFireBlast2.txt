@@ -1,0 +1,63 @@
+name  bFireBlast2
+type none
+shadow 0
+alpha 1
+
+
+
+anim	idle
+	delay	5
+	offset	262 239
+	frame	data/chars/Bakugou/544.gif
+	offset	262 239
+	frame	data/chars/Bakugou/545.gif
+	offset	262 239
+	frame	data/chars/Bakugou/546.gif
+	offset	262 239
+	frame	data/chars/Bakugou/547.gif
+	offset	262 239
+	frame	data/chars/Bakugou/548.gif
+	offset	262 239
+	frame	data/chars/Bakugou/549.gif
+	offset	262 239
+	frame	data/chars/Bakugou/550.gif
+	offset	262 239
+	frame	data/chars/Bakugou/551.gif
+	offset	262 239
+	frame	data/chars/Bakugou/552.gif
+	offset	262 239
+	frame	data/chars/Bakugou/553.gif
+	offset	262 239
+	frame	data/chars/Bakugou/554.gif
+	offset	262 239
+	frame	data/chars/Bakugou/555.gif
+	offset	262 239
+	frame	data/chars/Bakugou/556.gif
+	offset	262 239
+	frame	data/chars/Bakugou/557.gif
+	offset	262 239
+	frame	data/chars/Bakugou/558.gif
+	offset	262 239
+	frame	data/chars/Bakugou/559.gif
+	offset	262 239
+	frame	data/chars/Bakugou/560.gif
+	offset	262 239
+	frame	data/chars/Bakugou/561.gif
+	offset	262 239
+	frame	data/chars/Bakugou/562.gif
+	offset	262 239
+	frame	data/chars/Bakugou/563.gif
+	offset	262 239
+	frame	data/chars/Bakugou/564.gif
+	offset	262 239
+	frame	data/chars/Bakugou/565.gif
+	offset	262 239
+	frame	data/chars/Bakugou/566.gif
+	offset	262 239
+	frame	data/chars/Bakugou/567.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

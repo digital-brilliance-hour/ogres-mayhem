@@ -1,0 +1,27 @@
+name  bFireBlastSmall
+type none
+shadow 0
+alpha 1
+
+
+
+anim	idle
+	delay	4
+	offset	61 138
+	frame	data/chars/Bakugou/671.gif
+	offset	61 138
+	frame	data/chars/Bakugou/672.gif
+	offset	61 138
+	frame	data/chars/Bakugou/673.gif
+	offset	61 138
+	frame	data/chars/Bakugou/674.gif
+	offset	61 138
+	frame	data/chars/Bakugou/675.gif
+	offset	61 138
+	frame	data/chars/Bakugou/676.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		
