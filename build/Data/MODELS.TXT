@@ -365,6 +365,7 @@ Know kenSliceForwardHit Data/CHARS/misc/FX/kenSliceForwardHit/kenSliceForwardHit
 Know kenHit Data/CHARS/misc/FX/kenHit/kenHit.txt
 Know soldier Data/Chars/soldier/soldier.txt
 load    empty           data/chars/misc/empty.txt
+Know SakuraNPC Data/Chars/SakuraNPC/SakuraNPC.txt
 load Bakugou data/chars/bakugou/bakugou.txt
 know BakugouOLD data/chars/bakugou/bakugouold.txt
 Know bLargeFireball Data/CHARS/Bakugou/bLargeFireball/bLargeFireball.txt
