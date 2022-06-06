@@ -1,0 +1,33 @@
+name Tsuna
+health  3
+subtype biker
+speed 12
+running	24	4	2	1    1
+type	enemy
+shadow	3
+
+anim	pain
+	delay	7
+	offset	17 51
+	frame	data/chars/Tsuna/152.gif
+	offset	17 51
+	frame	data/chars/Tsuna/152.gif
+	offset	17 51
+	frame	data/chars/Tsuna/152.gif
+	offset	13 41
+	frame	data/chars/Tsuna/153.gif
+	offset	13 41
+	frame	data/chars/Tsuna/154.gif
+		
+anim	idle
+	attack	35 1 27 29 10 1 1 0 0 0
+	bbox	17 53 28 -32
+	delay	7
+	offset	30 51
+	frame	data/chars/Tsuna/16.gif
+	attack	37 0 29 27 10 1 1 0 0 0
+	offset	36 50
+	frame	data/chars/Tsuna/17.gif
+		
+#|edited by openBor Stats v 0.67
+		
