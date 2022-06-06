@@ -17,6 +17,7 @@ icon	data/chars/Sasuke/icon.gif
 bflash  bflash
 dust	 dust
 jumpheight 3
+palette none
 
 animationscript data/scripts/spawns.c
 com      a2 freespecial
