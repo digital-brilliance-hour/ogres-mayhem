@@ -155,7 +155,7 @@ void main()
            if("Travel"!=getentityproperty(p, "model")) {
              //HP text script
              hp = getentityproperty(p, "health"); if(hp<0) hp=0;
-             settextobj(10*i, 6+120*i, 221, 0, -10, getentityproperty(p,"offense",openborconstant("ATK_NORMAL"))+"/"+getglobalvar("offense_"+num+"P"));
+             //settextobj(10*i, 6+120*i, 221, 0, -10, getentityproperty(p,"offense",openborconstant("ATK_NORMAL"))+"/"+getglobalvar("offense_"+num+"P"));
              //settextobj(10*i, 6+120*i, 221, 0, -10, hp+"/"+getentityproperty(p, "maxhealth"));
              //MP text script
              mp = getentityproperty(p, "mp"); if(mp<0) mp=0;
@@ -233,18 +233,23 @@ void main()
 
 void oncreate(){
   void Stage1, Stage2, Stage3, Stage4, Stage5; 
-  void Stage6, Stage7, Stage8, Stage9, Stage10;
+  void Stage6, Stage7, Stage8, Stage9, Stage10;    
+  void Title2;
 
-  Stage1 = loadsprite("sprites/stages/stage1.gif");
-  Stage2 = loadsprite("sprites/stages/stage2.gif");
-  Stage3 = loadsprite("sprites/stages/stage3.gif");
-  Stage4 = loadsprite("sprites/stages/stage4.gif");
-  Stage5 = loadsprite("sprites/stages/stage5.gif");
-  Stage6 = loadsprite("sprites/stages/stage6.gif");
-  Stage7 = loadsprite("sprites/stages/stage7.gif");
-  Stage8 = loadsprite("sprites/stages/stage8.gif");
-  Stage9 = loadsprite("sprites/stages/stage9.gif");
-  Stage10 = loadsprite("sprites/stages/stage10.gif");
+  Title2 = loadsprite("data/bgs/black.gif");
+
+  Stage1 = loadsprite("data/sprites/stages/stage1.gif");
+  Stage2 = loadsprite("data/sprites/stages/stage2.gif");
+  Stage3 = loadsprite("data/sprites/stages/stage3.gif");
+  Stage4 = loadsprite("data/sprites/stages/stage4.gif");
+  Stage5 = loadsprite("data/sprites/stages/stage5.gif");
+  Stage6 = loadsprite("data/sprites/stages/stage6.gif");
+  Stage7 = loadsprite("data/sprites/stages/stage7.gif");
+  Stage8 = loadsprite("data/sprites/stages/stage8.gif");
+  Stage9 = loadsprite("data/sprites/stages/stage9.gif");
+  Stage10 = loadsprite("data/sprites/stages/stage10.gif");
+      
+  setglobalvar("Title2", Title2);
 
   setglobalvar("Stage1", Stage1);
   setglobalvar("Stage2", Stage2);
@@ -256,6 +261,26 @@ void oncreate(){
   setglobalvar("Stage8", Stage8);
   setglobalvar("Stage9", Stage9);
   setglobalvar("Stage10", Stage10);
+  
+    void mTitle;
+    void black;
+    void AButton, DButton, JButton, SButton, PButton;
+
+    mTitle = loadsprite("data/sprites/movelist/movelist-title.gif");
+    black = loadsprite("data/bgs/black.gif");
+    AButton = loadsprite("data/sprites/movelist/a-letter.gif");
+    DButton = loadsprite("data/sprites/movelist/d-letter.gif");
+    JButton = loadsprite("data/sprites/movelist/j-letter.gif");
+    SButton = loadsprite("data/sprites/movelist/s-letter.gif");
+    PButton = loadsprite("data/sprites/movelist/p-letter.gif");
+
+    setglobalvar("mTitle", mTitle); 
+    setglobalvar("black_screen", black);
+    setglobalvar("attack-button", AButton);
+    setglobalvar("dash-button", DButton);
+    setglobalvar("jump-button", JButton);
+    setglobalvar("special-button", SButton);
+    setglobalvar("power-button", PButton);
 }
 
 void ondestroy(){
@@ -268,7 +293,16 @@ void ondestroy(){
   void Stage7 = getglobalvar("Stage7");    
   void Stage8 = getglobalvar("Stage8");
   void Stage9 = getglobalvar("Stage9");    
-  void Stage10 = getglobalvar("Stage10");   
+  void Stage10 = getglobalvar("Stage10"); 
+      
+  void Title2 = getglobalvar("Title2");  
+  void mTitle = getglobalvar("mTitle"); 
+  void black = getglobalvar("black_screen");  
+  void AButton = getglobalvar("attack-button"); 
+  void DButton = getglobalvar("dash-button"); 
+  void JButton = getglobalvar("jump-button"); 
+  void SButton = getglobalvar("special-button"); 
+  void PButton = getglobalvar("power-button"); 
   free(Stage1);    
   free(Stage2);   
   free(Stage3);    
@@ -278,7 +312,15 @@ void ondestroy(){
   free(Stage7);    
   free(Stage8);   
   free(Stage9);    
-  free(Stage10); 
+  free(Stage10);    
+  free(Title2);  
+  free(mTitle);   
+  free(black);
+  free(AButton);
+  free(DButton);
+  free(JButton);
+  free(SButton);
+  free(PButton); 
   setglobalvar("Stage1", NULL());
   setglobalvar("Stage2", NULL());
   setglobalvar("Stage3", NULL());
@@ -288,7 +330,15 @@ void ondestroy(){
   setglobalvar("Stage7", NULL());
   setglobalvar("Stage8", NULL());
   setglobalvar("Stage9", NULL());
-  setglobalvar("Stage10", NULL());
+  setglobalvar("Stage10", NULL());      
+  setglobalvar("Title2", NULL()); 
+  setglobalvar("mTitle", NULL()); 
+  setglobalvar("black_screen", NULL()); 
+    setglobalvar("attack-button", NULL());
+    setglobalvar("dash-button", NULL());
+    setglobalvar("jump-button", NULL());
+    setglobalvar("special-button", NULL());
+    setglobalvar("power-button", NULL());
 }
 
 void fileskim(char Line, void Path)

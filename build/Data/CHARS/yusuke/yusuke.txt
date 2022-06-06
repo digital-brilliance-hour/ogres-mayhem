@@ -64,12 +64,13 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	3
 	sound	data/chars/yusuke/yusuke-_0-7.wav
 	offset	14 45
 	frame	data/chars/yusuke/77.gif
-	attack	25 2 36 24 8 0 1 0 20 0
+	attack	25 2 36 24 8 0 1 0 0 0
 	offset	12 47
 	frame	data/chars/yusuke/78.gif
 	offset	12 47
@@ -83,7 +84,7 @@ anim	attack2
 	sound	data/chars/yusuke/yusuke-_0-7.wav
 	offset	13 37
 	frame	data/chars/yusuke/81.gif
-	attack	26 1 35 37 9 0 1 0 20 0
+	attack	26 1 35 37 9 0 1 0 0 0
 	offset	13 47
 	frame	data/chars/yusuke/82.gif
 	offset	13 48
@@ -117,7 +118,7 @@ anim	attack4
 	offset	21 41
 	frame	data/chars/yusuke/74.gif
 	sound	data/chars/yusuke/yusuke-_0-7.wav
-	attack	12 1 51 40 9 0 1 0 20 4
+	attack	12 1 51 40 9 0 1 0 0 4
 	offset	14 38
 	frame	data/chars/yusuke/75.gif
 	offset	12 36
@@ -128,7 +129,7 @@ anim	attack5
 	offset	14 45
 	frame	data/chars/yusuke/54.gif
 	sound	data/chars/yusuke/yusuke-_0-7.wav
-	attack	23 5 42 38 9 0 1 0 20 0
+	attack	23 5 42 38 9 0 1 0 0 0
 	offset	13 42
 	frame	data/chars/yusuke/55.gif
 	offset	13 42
