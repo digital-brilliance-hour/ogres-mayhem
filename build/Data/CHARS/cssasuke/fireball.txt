@@ -3,7 +3,6 @@ speed   15
 type 	none
 shadow	0
 setlayer 1000
-alpha 1
 
 
 
@@ -22,13 +21,35 @@ alpha 1
 
 
 
-anim	10000
+anim	idle
 	delay	7
+	fastattack	1
 	offset	-64 63
 	frame	data/chars/cssasuke/82.gif
-	attack	19 10 119 122 70 0 1 0 0 0
+	attack	19 10 119 122 70 0 1 0 0 50
 	offset	-66 77
 	frame	data/chars/cssasuke/83.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	-64 63
+	frame	data/chars/cssasuke/82.gif
+	attack	19 10 119 122 70 0 1 0 0 50
+	offset	-66 77
+	frame	data/chars/cssasuke/83.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	-64 63
+	frame	data/chars/cssasuke/82.gif
+	attack	19 10 119 122 70 0 1 0 0 50
+	offset	-66 77
+	frame	data/chars/cssasuke/83.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	-64 63
+	frame	data/chars/cssasuke/82.gif
+	attack	19 10 119 122 70 1 1 0 50 50
+	offset	-66 77
+	frame	data/chars/cssasuke/83.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
 		
 #|edited by openBor Stats v 0.67
 		

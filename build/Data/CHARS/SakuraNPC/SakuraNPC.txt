@@ -1,0 +1,19 @@
+name SakuraNPC
+speed 1
+type none
+shadow 3
+
+anim	idle
+	delay	12
+	offset	17 37
+	loop	1
+	frame	data/chars/sakuranpc/0.png
+	offset	17 31
+	frame	data/chars/sakuranpc/1.png
+	offset	17 30
+	frame	data/chars/sakuranpc/2.png
+	offset	17 31
+	frame	data/chars/sakuranpc/1.png
+		
+#|edited by openBor Stats v 0.67
+		

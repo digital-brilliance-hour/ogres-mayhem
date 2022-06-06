@@ -22,7 +22,7 @@ alpha 1
 
 
 
-anim	10004
+anim	idle
 	delay	17
 	offset	7 9
 	frame	data/chars/cssasuke/139.gif

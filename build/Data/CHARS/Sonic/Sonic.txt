@@ -54,6 +54,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	4
 	offset	7 34
@@ -62,7 +63,7 @@ anim	attack1
 	frame	data/chars/Sonic/61.gif
 	offset	11 36
 	frame	data/chars/Sonic/62.gif
-	attack	20 18 26 14 8 0 1 0 20 0
+	attack	20 18 26 14 8 0 1 0 0 0
 	offset	15 39
 	frame	data/chars/Sonic/63.gif
 		
@@ -72,7 +73,7 @@ anim	attack2
 	frame	data/chars/Sonic/225.gif
 	offset	11 36
 	frame	data/chars/Sonic/226.gif
-	attack	24 17 25 16 9 0 1 0 20 0
+	attack	24 17 25 16 9 0 1 0 0 0
 	offset	12 40
 	frame	data/chars/Sonic/227.gif
 	offset	11 40
@@ -90,7 +91,7 @@ anim	attack3
 	@cmd	leaper 0 1 0
 	offset	20 42
 	frame	data/chars/Sonic/266.gif
-	attack	21 5 35 48 10 1 1 0 20 0
+	attack	21 5 35 48 10 1 1 0 0 0
 	dropv	2 4 0
 	offset	24 47
 	frame	data/chars/Sonic/267.gif
