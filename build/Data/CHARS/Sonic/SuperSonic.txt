@@ -36,6 +36,7 @@ modelflag 3
 
 
 
+
 anim	attack1
 	delay	3
 	offset	13 38
@@ -225,6 +226,9 @@ anim	fall
 	frame	data/chars/Sonic/664.gif
 		
 anim	freespecial
+	@cmd	isavailable 2
+	mponly	1
+	energycost	10
 	offset	20 29
 	frame	data/chars/Sonic/450.gif
 	offset	19 29
@@ -272,6 +276,9 @@ anim	freespecial11
 	frame	data/chars/Sonic/373.gif
 		
 anim	freespecial2
+	@cmd	isavailable 3
+	mponly	1
+	energycost	20
 	offset	30 39
 	frame	data/chars/Sonic/425.gif
 	offset	31 44
@@ -282,6 +289,9 @@ anim	freespecial2
 	frame	data/chars/Sonic/428.gif
 		
 anim	freespecial6
+	@cmd	isavailable 6
+	mponly	1
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	offset	14 32
 	frame	data/chars/Sonic/537.gif
 	offset	17 32
@@ -412,6 +422,10 @@ anim	pain
 	offset	13 33
 	frame	data/chars/Sonic/658.gif
 		
+anim	rise
+	offset	11 36
+	frame	data/chars/Sonic/339.gif
+		
 anim	run
 	offset	20 22
 	frame	data/chars/Sonic/356.gif
@@ -467,6 +481,10 @@ anim	select
 	frame	data/chars/Sonic/527.gif
 	offset	12 42
 	frame	data/chars/Sonic/528.gif
+		
+anim	spawn
+	offset	11 36
+	frame	data/chars/Sonic/339.gif
 		
 anim	walk
 	bbox	-1 -1 27 36
