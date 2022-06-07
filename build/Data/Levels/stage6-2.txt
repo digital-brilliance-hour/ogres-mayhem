@@ -1,0 +1,114 @@
+music data/music/stage7.ogg 341115
+panel data/bgs/stage-5/n.gif none none
+order aaaa
+
+stagenumber 6
+
+spawn ready
+	coords 240 136
+	at 0
+
+spawn fire
+coords 2000 252
+at 0
+
+spawn soldier
+@script
+void main() {
+     void self = getlocalvar("self");
+     changeentityproperty(self, "noaicontrol", 0);
+     changeentityproperty(self, "subject_to_screen", 0);
+     changeentityproperty(self, "aiflag", "walking", 0);
+     changeentityproperty(self, "aiflag", "idling", 0);
+     changeentityproperty(self, "aiflag", "attacking", 0);
+     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
+}
+@end_script
+noatk_duration 900
+coords 530 110
+at 0
+
+spawn soldier
+@script
+void main() {
+     void self = getlocalvar("self");
+     changeentityproperty(self, "noaicontrol", 0);
+     changeentityproperty(self, "subject_to_screen", 0);
+     changeentityproperty(self, "aiflag", "walking", 0);
+     changeentityproperty(self, "aiflag", "idling", 0);
+     changeentityproperty(self, "aiflag", "attacking", 0);
+     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
+}
+@end_script
+noatk_duration 900
+coords 530 130
+at 0
+
+spawn soldier
+@script
+void main() {
+     void self = getlocalvar("self");
+     changeentityproperty(self, "noaicontrol", 0);
+     changeentityproperty(self, "subject_to_screen", 0);
+     changeentityproperty(self, "aiflag", "walking", 0);
+     changeentityproperty(self, "aiflag", "idling", 0);
+     changeentityproperty(self, "aiflag", "attacking", 0);
+     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
+}
+@end_script
+noatk_duration 900
+coords 530 150
+at 0
+
+spawn soldier
+@script
+void main() {
+     void self = getlocalvar("self");
+     changeentityproperty(self, "noaicontrol", 0);
+     changeentityproperty(self, "subject_to_screen", 0);
+     changeentityproperty(self, "aiflag", "walking", 0);
+     changeentityproperty(self, "aiflag", "idling", 0);
+     changeentityproperty(self, "aiflag", "attacking", 0);
+     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
+}
+@end_script
+noatk_duration 900
+coords 530 170
+at 0
+
+wait
+at 1061
+
+
+spawn tsuna
+health 50
+coords 250 130
+at  1061
+
+spawn tsuna
+health 50
+coords 250 170
+at  1061
+
+spawn tsuna
+health 50
+coords 250 191
+at  1061
+
+spawn soldier
+health 50
+coords 43 158
+at 1061
+
+spawn soldier
+health 50
+coords 130 140
+at 1061
+
+
+
+
+
+
+
+
