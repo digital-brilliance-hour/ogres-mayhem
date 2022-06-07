@@ -1,4 +1,4 @@
-`name SuperSonic
+name SuperSonic
 type player
 shadow 3
 health 100
