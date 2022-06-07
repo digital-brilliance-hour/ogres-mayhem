@@ -57,6 +57,8 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
+
 anim	attack1
 	delay	4
 	offset	7 34
@@ -108,7 +110,7 @@ anim	attack3
 	offset	13 41
 	frame	data/chars/Sonic/272.gif
 		
-anim chargeattack
+anim	chargeattack
 	delay	7
 	offset	16 34
 	frame	data/chars/Sonic/297.gif
@@ -202,6 +204,7 @@ anim	forwardjump
 anim	freespecial
 	@cmd	isavailable 2
 	mponly	1
+	energycost	10
 	delay	5
 	fastattack	1
 	offset	18 36
@@ -292,6 +295,7 @@ anim	freespecial11
 anim	freespecial2
 	@cmd	isavailable 3
 	mponly	1
+	energycost	20
 	delay	4
 	offset	13 32
 	frame	data/chars/Sonic/234.gif
@@ -348,6 +352,7 @@ anim	freespecial2
 		
 anim	freespecial3
 	@cmd	isavailable 4
+	mponly	1
 	delay	10
 	offset	16 35
 	frame	data/chars/Sonic/329.gif
@@ -368,26 +373,19 @@ anim	freespecial3
 	offset	13 44
 	frame	data/chars/Sonic/333.gif
 		
-anim freespecial4
-
-
-
-
-
-@cmd isavailable 7
-mponly1
-@cmd changeentityproperty getlocalvar("self") "mp" 0
-@cmd pause_all 1 10
-weaponframe 13 1
-
-
-	delay 10
-    offset	15 36
-    @cmd	spawnbind "zoomin" 0 0 0
-@cmd	changeopenborvariant "slowmotion" 1
+anim	freespecial4
+	@cmd	isavailable 7
+	mponly	1
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	pause_all 1 10
+	weaponframe	13 1
+	delay	10
+	offset	15 36
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 1
 	frame	data/chars/Sonic/69.gif
 	@cmd	changeopenborvariant "slowmotion" 0
-delay 7
+	delay	7
 	offset	15 36
 	frame	data/chars/Sonic/70.gif
 	offset	12 33
@@ -417,10 +415,11 @@ delay 7
 	frame	data/chars/Sonic/530.gif
 	offset	16 35
 	frame	data/chars/Sonic/531.gif
-	
+		
 anim	freespecial5
 	@cmd	isavailable 5
 	mponly	1
+	energycost	50
 	delay	5
 	fastattack	1
 	attack	24 11 60 35 10 0 1 0 20 10
@@ -496,6 +495,7 @@ anim	freespecial5
 		
 anim	freespecial6
 	@cmd	isavailable 6
+	mponly	1
 	delay	20
 	offset	17 40
 	frame	data/chars/Sonic/573.gif
@@ -709,6 +709,10 @@ anim	select
 	frame	data/chars/Sonic/54.gif
 	offset	13 37
 	frame	data/chars/Sonic/55.gif
+		
+anim	spawn
+	offset	13 41
+	frame	data/chars/Sonic/2.gif
 		
 anim	walk
 	bbox	8 11 23 32
