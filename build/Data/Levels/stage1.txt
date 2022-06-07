@@ -84,6 +84,9 @@ spawn hp_hundred
 coords 600 220
 at 2270
 
+spawn sakuranpc
+coords 530 97
+at 2756
 
 spawn sasuke_e
 boss 1
@@ -100,6 +103,17 @@ void main() {
 @end_script
 alias  Sasuke
 coords	530 200
+at 2800
+
+spawn inonpc
+@script
+void main()
+{
+void self = getlocalvar("self");
+setdrawmethod(self, 1, 256, 256, 1, 0);
+}
+@end_script
+coords 569 97
 at 2800
 
 spawn empty
