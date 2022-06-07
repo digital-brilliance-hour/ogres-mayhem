@@ -38,6 +38,7 @@ weaploss 3
 
 
 
+
 anim	attack1
 	loop	0
 	range	0 30
@@ -230,9 +231,9 @@ anim	freespecial3
 	offset	40 44
 	frame	data/chars/Kenpachi/73.gif
 		
-anim	freespecial4
+anim	follow1
 	delay	7
-	weaponframe	26 1
+	weaponframe	28 1
 	offset	51 61
 	frame	data/chars/Kenpachi/81.gif
 	offset	51 61

@@ -15,6 +15,8 @@ nohit   1
 
 stagenumber 2
 
+updatescript data/scripts/levels/stage-engine.c
+
 spawn ready
 	coords 240 136
 	at 0
@@ -82,61 +84,76 @@ health 100
 coords    20 230
 at 20
 
-spawn	warning
-	coords 240 136
-flip    1
-at      398
-
-spawn Story
-alias kenpachidialog
-at 399
+spawn empty
+@script
+void main() {
+setglobalvar("bossInterlude", 1);
+setglobalvar("bossStopX", 410);
+setglobalvar("bossStopY0", 107);
+setglobalvar("bossDialog", "kenpachidialog");
+}
+@end_script
+coords 1 1
+at 140
 
 spawn EKenpachi
 alias Kenpachi
 boss 1
-coords	450 220
-at      400
+@script
+void main() {
+     void self = getlocalvar("self");
+     changeentityproperty(self, "noaicontrol", 1);
+     changeentityproperty(self, "subject_to_screen", 0);
+     changeentityproperty(self, "aiflag", "walking", 0);
+     changeentityproperty(self, "aiflag", "idling", 0);
+     changeentityproperty(self, "aiflag", "attacking", 0);
+     changeentityproperty(self, "animation", openborconstant("ANI_IDLE"));
+}
+@end_script
+coords	530 220
+at      200
+
 
 wait
-at 400
+at 401
 
 group 2 4
 at 400
 
 spawn menos
 coords    460 215
-at 400
+at 401
 
 spawn grand_fisher
 health 100
 coords    460 230
-at 400
+at 401
 
 spawn tsukaima
 health 100
 coords    20 220
-at 400
+at 401
 
 spawn shrieker
 health 100
 coords    20 230
-at 400
+at 401
 
 spawn menos
 coords    460 215
-at 400
+at 401
 
 spawn grand_fisher
 health 100
 coords    460 230
-at 400
+at 401
 
 spawn tsukaima
 health 100
 coords    20 220
-at 400
+at 401
 
 spawn shrieker
 health 100
 coords    20 230
-at 400
+at 401

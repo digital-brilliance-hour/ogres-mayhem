@@ -1,0 +1,36 @@
+music		data/music/stage-intro.ogg
+
+background	data/bgs/ogres-story.png 1 1
+
+#frontpanel	data/bgs/story.gif
+
+#fglayer path                         z xratio zratio xposition zposition xspacing zspacing xrepeat zrepeat transparency alpha watermode amplitude wavelength wavespeed bgspeedratio
+#fglayer	 data/bgs/ogres-story.png  0  1     1        0         0       1000      1       -1       1         0         0       0         0         0          0         -1.5
+
+panel		data/bgs/fullscreen.gif none none
+
+order	        aaaaa
+settime         0
+notime          1
+nopause		1
+nolife 1
+type 2
+stagenumber 25
+#direction left
+bgspeed 10 1
+
+
+spawn1 500 -20 0
+spawn2 250 20
+spawn3 250 20
+spawn4 250 20
+
+updatedscript	data/scripts/scenes/stage-intro.c
+
+spawn	stop
+coords	1 1
+at	0
+
+spawn blackscreen 
+coords 1 1
+at 0

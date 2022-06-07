@@ -1,0 +1,61 @@
+name  bFireBlast3
+type none
+shadow 0
+alpha 1
+
+
+
+anim	idle
+	delay	4
+	offset	140 126
+	frame	data/chars/Bakugou/702.gif
+	offset	140 126
+	frame	data/chars/Bakugou/703.gif
+	offset	140 126
+	frame	data/chars/Bakugou/704.gif
+	offset	140 126
+	frame	data/chars/Bakugou/705.gif
+	offset	140 126
+	frame	data/chars/Bakugou/706.gif
+	offset	140 126
+	frame	data/chars/Bakugou/707.gif
+	offset	140 126
+	frame	data/chars/Bakugou/708.gif
+	offset	140 126
+	frame	data/chars/Bakugou/709.gif
+	offset	140 126
+	frame	data/chars/Bakugou/710.gif
+	offset	140 126
+	frame	data/chars/Bakugou/711.gif
+	offset	140 126
+	frame	data/chars/Bakugou/712.gif
+	offset	140 126
+	frame	data/chars/Bakugou/713.gif
+	offset	140 126
+	frame	data/chars/Bakugou/714.gif
+	offset	140 126
+	frame	data/chars/Bakugou/715.gif
+	offset	140 126
+	frame	data/chars/Bakugou/716.gif
+	offset	140 126
+	frame	data/chars/Bakugou/717.gif
+	offset	140 126
+	frame	data/chars/Bakugou/718.gif
+	offset	140 126
+	frame	data/chars/Bakugou/719.gif
+	offset	140 126
+	frame	data/chars/Bakugou/720.gif
+	offset	140 126
+	frame	data/chars/Bakugou/721.gif
+	offset	140 126
+	frame	data/chars/Bakugou/722.gif
+	offset	140 126
+	frame	data/chars/Bakugou/723.gif
+	offset	140 126
+	frame	data/chars/Bakugou/724.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

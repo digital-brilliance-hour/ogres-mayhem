@@ -1,5 +1,5 @@
 name SuperSonic
-type none
+type player
 shadow 3
 health 100
 speed 20
@@ -26,7 +26,8 @@ parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
-
+weaploss 3
+modelflag 3
 
 
 
@@ -342,7 +343,7 @@ anim	jump
 	offset	13 26
 	frame	data/chars/Sonic/492.gif
 		
-anim	jumpattack1
+anim	jumpattack
 	delay	3
 	offset	11 32
 	frame	data/chars/Sonic/417.gif

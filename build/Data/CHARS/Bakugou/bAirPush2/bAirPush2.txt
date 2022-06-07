@@ -1,0 +1,23 @@
+name  bAirPush2
+type none
+shadow 0
+alpha 1
+
+
+
+anim	idle
+	delay	5
+	offset	64 63
+	frame	data/chars/Bakugou/117.gif
+	offset	64 63
+	frame	data/chars/Bakugou/118.gif
+	offset	64 63
+	frame	data/chars/Bakugou/119.gif
+	offset	64 63
+	frame	data/chars/Bakugou/120.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

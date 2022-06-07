@@ -66,6 +66,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	7
 	sound	data/chars/deku/deku_0-0.wav
@@ -73,7 +74,7 @@ anim	attack1
 	frame	data/chars/Deku/61.gif
 	offset	16 43
 	frame	data/chars/Deku/62.gif
-	attack	26 12 27 12 8 0 1 0 20 0
+	attack	26 12 27 12 8 0 1 0 0 0
 	offset	16 43
 	frame	data/chars/Deku/63.gif
 		
@@ -87,7 +88,7 @@ anim	attack2
 	frame	data/chars/Deku/66.gif
 	offset	23 42
 	frame	data/chars/Deku/67.gif
-	attack	22 4 52 17 8 0 1 0 20 0
+	attack	22 4 52 17 8 0 1 0 0 0
 	offset	17 37
 	frame	data/chars/Deku/68.gif
 	offset	17 37
@@ -102,9 +103,8 @@ anim	attack3
 	frame	data/chars/Deku/71.gif
 	offset	16 49
 	frame	data/chars/Deku/72.gif
-	attack	20 2 21 31 13 1 1 0 20 0
-	dropv	5 0 -1
-
+	attack	20 2 21 31 13 1 1 0 0 0
+	dropv	5 0 0
 	offset	16 48
 	frame	data/chars/Deku/73.gif
 	offset	21 41

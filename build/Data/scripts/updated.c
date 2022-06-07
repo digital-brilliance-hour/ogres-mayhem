@@ -108,6 +108,10 @@ void inLevelLoop()
 {
 	turnWhite();
 	storySystem();
+  showMoves();
+  //log(openborvariant("viewportx"));
+  //log(openborvariant("xpos"));
+  //("\n");
 }
 
 void oncreate()
@@ -116,6 +120,124 @@ void oncreate()
     setglobalvar("Load", C);
 
     setindexedvar(1, 0);
+}
+
+void showMoves() {
+
+    int showM = getglobalvar("showM");
+    if(showM) {
+      void mTitle = getglobalvar("mTitle");
+      void black = getglobalvar("black_screen"); 
+      void AButton = getglobalvar("attack-button"); 
+      void DButton = getglobalvar("dash-button"); 
+      void JButton = getglobalvar("jump-button"); 
+      void SButton = getglobalvar("special-button"); 
+      void PButton = getglobalvar("power-button"); 
+      //log(openborconstant("FLAG_ATTACK"));
+      //SDL_GetKeyName(openborconstant("FLAG_ATTACK"));
+      //mTitle = loadsprite("data/sprites/movelist/movelist-title.png");
+      //Start of drawmethod enablement
+      changedrawmethod(NULL(), "enabled", 1);
+      changedrawmethod(NULL(), "flag", 1);
+
+      //Title
+      changedrawmethod(NULL(), "reset", 1);
+      changedrawmethod(NULL(), "centerx", 108);
+      changedrawmethod(NULL(), "centery", 12);
+      drawsprite(mTitle, 240, 30, 99999999999999);
+      
+      //Buttons
+      changedrawmethod(NULL(), "reset", 1);
+      changedrawmethod(NULL(), "centerx", 8);
+      changedrawmethod(NULL(), "centery", 8);
+      drawsprite(AButton, 109, 60, 99999999999999); 
+      drawsprite(DButton, 177, 60, 99999999999999);
+      drawsprite(JButton, 229, 60, 99999999999999);
+      drawsprite(SButton, 281, 60, 99999999999999);
+      drawsprite(PButton, 351, 60, 99999999999999);
+
+      //Buttons for Moves
+
+      drawsprite(AButton, 132, 103, 99999999999999); 
+      drawsprite(AButton, 412, 103, 99999999999999);
+
+      //Fonts
+      changedrawmethod(NULL(), "reset", 1);
+      settextobj(11, 117, 57, 0, 99999999999999,  ": Attack");
+      settextobj(21, 186, 57, 0, 99999999999999,  ": Dash");
+      settextobj(31, 239, 57, 0, 99999999999999,  ": Jump");
+      settextobj(41, 291, 57, 0, 99999999999999,  ": Special");
+      settextobj(51, 361, 57, 0, 99999999999999,  ": Power");
+      settextobj(61, 40, 85, 1, 99999999999999,  "Attack Combo");
+      settextobj(71, 40, 100, 2, 99999999999999,  "Repeatedly Press");
+      settextobj(81, 180, 85, 1, 99999999999999,  "Dash");
+      settextobj(91, 180, 100, 2, 99999999999999,  "Parry or Dash through attacks");
+      settextobj(101, 370, 85, 1, 99999999999999,  "Jump Attack");
+      settextobj(111, 370, 100, 2, 99999999999999,  "Jump + ");
+
+      //Special Moves
+      settextobj(121, 30, 133, 1, 99999999999999,  "LvL2 Move - 10MP");
+      drawsprite(SButton, 30, 143, 99999999999999);
+
+      settextobj(131, 175, 133, 1, 99999999999999,  "LvL3 Move  - 20MP");
+      settextobj(141, 175, 148, 2, 99999999999999,  "Up + ");
+      drawsprite(SButton, 195, 143, 99999999999999);
+
+      settextobj(151, 320, 133, 1, 99999999999999,  "LvL4 Move  - ALL MP");
+      drawsprite(PButton, 320, 143, 99999999999999);
+
+      settextobj(161, 30, 173, 1, 99999999999999,  "LvL5 Move  - 30MP");
+      settextobj(171, 30, 188, 2, 99999999999999,  "Down + ");
+      drawsprite(SButton, 60, 183, 99999999999999);
+
+      settextobj(181, 175, 173, 1, 99999999999999,  "LvL6 Move  - ALL MP");
+      settextobj(191, 175, 188, 2, 99999999999999,  "Up + ");
+      drawsprite(PButton, 195, 183, 99999999999999);
+
+      settextobj(201, 320, 173, 1, 99999999999999,  "LvL7 Move  - ALL MP");
+      settextobj(211, 320, 188, 2, 99999999999999,  "Down + ");
+      drawsprite(PButton, 350, 183, 99999999999999);
+
+      //Black Overlay
+      changedrawmethod(NULL(), "reset", 1);
+      changedrawmethod(NULL(), "alpha", 6);
+      //changedrawmethod(NULL(), "channelr", 0.5);
+      //changedrawmethod(NULL(), "channelg", 0.5);
+      //changedrawmethod(NULL(), "channelb", 0.5);
+      drawsprite(black, 0, 0, 99999999999998);
+      //changedrawmethod(NULL(), "enabled", 1);
+      //changedrawmethod(NULL(), "flag", 1);
+    }
+    else {
+      cleartextobj(11);
+      cleartextobj(21);
+      cleartextobj(31);
+      cleartextobj(41);
+      cleartextobj(51);
+      cleartextobj(61);
+      cleartextobj(71);
+      cleartextobj(81);
+      cleartextobj(91);
+      cleartextobj(101);
+      cleartextobj(111);
+
+      //Special Moves
+      cleartextobj(121);
+
+      cleartextobj(131);
+      cleartextobj(141);
+
+      cleartextobj(151);
+
+      cleartextobj(161);
+      cleartextobj(171);
+
+      cleartextobj(181);
+      cleartextobj(191);
+
+      cleartextobj(201);
+      cleartextobj(211);
+    }
 }
 
 void fileskim(char Line)
