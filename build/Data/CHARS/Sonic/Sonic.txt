@@ -13,6 +13,8 @@ com d s freespecial4
 com a2 freespecial11
 secret 0 1
 
+weapons supersonic Sonic
+weaploss 3
 animationscript data/scripts/spawns.c
 script data/scripts/playerscript.c
 
@@ -106,21 +108,28 @@ anim	attack3
 	offset	13 41
 	frame	data/chars/Sonic/272.gif
 		
-anim	chargeattack
-	attack	0 0 0 0 0 0 0 0 0 0
+anim chargeattack
 	delay	7
-	offset	19 38
-	frame	data/chars/Sonic/242.gif
-	offset	17 38
-	frame	data/chars/Sonic/243.gif
-	attack	18 4 33 39 10 1 1 0 20 0
-	dropv	2 4 0
-	offset	19 41
-	frame	data/chars/Sonic/244.gif
-	offset	18 40
-	frame	data/chars/Sonic/245.gif
-	offset	18 41
-	frame	data/chars/Sonic/246.gif
+	offset	16 34
+	frame	data/chars/Sonic/297.gif
+	@cmd	dasher 4 0 0
+	@cmd	spawnparent "sonicDash" 30 0 -5
+	offset	12 28
+	frame	data/chars/Sonic/298.gif
+	attack	5 5 21 22 30 1 1 0 20 0
+	offset	13 24
+	frame	data/chars/Sonic/299.gif
+	offset	14 23
+	frame	data/chars/Sonic/300.gif
+	attack	8 6 21 22 30 1 0 1 20 0
+	offset	16 25
+	frame	data/chars/Sonic/301.gif
+	@cmd	dasher 1 0 0
+	offset	14 33
+	frame	data/chars/Sonic/302.gif
+	@cmd	stop
+	offset	16 25
+	frame	data/chars/Sonic/303.gif
 		
 anim	dodge
 	delay	1
@@ -359,31 +368,56 @@ anim	freespecial3
 	offset	13 44
 	frame	data/chars/Sonic/333.gif
 		
-anim	freespecial4
-	@cmd	isavailable 7
-	delay	7
-	offset	16 34
-	frame	data/chars/Sonic/297.gif
-	@cmd	dasher 4 0 0
-	@cmd	spawnparent "sonicDash" 30 0 -5
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
-	offset	12 28
-	frame	data/chars/Sonic/298.gif
-	attack	5 5 21 22 30 1 1 0 20 0
-	offset	13 24
-	frame	data/chars/Sonic/299.gif
-	offset	14 23
-	frame	data/chars/Sonic/300.gif
-	attack	8 6 21 22 30 1 0 1 20 0
-	offset	16 25
-	frame	data/chars/Sonic/301.gif
-	@cmd	dasher 1 0 0
-	offset	14 33
-	frame	data/chars/Sonic/302.gif
-	@cmd	stop
-	offset	16 25
-	frame	data/chars/Sonic/303.gif
-		
+anim freespecial4
+
+
+
+
+
+@cmd isavailable 7
+mponly1
+@cmd changeentityproperty getlocalvar("self") "mp" 0
+@cmd pause_all 1 10
+weaponframe 13 1
+
+
+	delay 10
+    offset	15 36
+    @cmd	spawnbind "zoomin" 0 0 0
+@cmd	changeopenborvariant "slowmotion" 1
+	frame	data/chars/Sonic/69.gif
+	@cmd	changeopenborvariant "slowmotion" 0
+delay 7
+	offset	15 36
+	frame	data/chars/Sonic/70.gif
+	offset	12 33
+	frame	data/chars/Sonic/71.gif
+	offset	12 33
+	frame	data/chars/Sonic/72.gif
+	@cmd	spawnbind "zoomout" 0 0 0
+	offset	12 33
+	frame	data/chars/Sonic/73.gif
+	offset	12 33
+	frame	data/chars/Sonic/74.gif
+	offset	14 40
+	frame	data/chars/Sonic/75.gif
+	offset	12 35
+	frame	data/chars/Sonic/76.gif
+	offset	18 32
+	frame	data/chars/Sonic/77.gif
+	offset	21 24
+	frame	data/chars/Sonic/78.gif
+	offset	16 24
+	frame	data/chars/Sonic/79.gif
+	offset	15 35
+	frame	data/chars/Sonic/530.gif
+	offset	16 35
+	frame	data/chars/Sonic/531.gif
+	offset	15 35
+	frame	data/chars/Sonic/530.gif
+	offset	16 35
+	frame	data/chars/Sonic/531.gif
+	
 anim	freespecial5
 	@cmd	isavailable 5
 	mponly	1

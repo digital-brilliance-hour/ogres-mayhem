@@ -302,7 +302,7 @@ Load Levelup data/chars/Misc/levelup/levelup.txt
 #know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
 load Sonic data/chars/Sonic/Sonic.txt
 know SonicOLD data/chars/Sonic/Sonicold.txt
-know SuperSonic data/chars/Sonic/SuperSonic.txt
+load SuperSonic data/chars/Sonic/SuperSonic.txt
 load ichigoTransfomation data/chars/Ichigo_Bankai/Ichigo_Bankai.txt
 know ichigoTransfomationOLD data/chars/Ichigo_Bankai/Ichigo_Bankai-old.txt
 #know 	Yusuke-original data/chars/yusuke/yusuke-original.txt
