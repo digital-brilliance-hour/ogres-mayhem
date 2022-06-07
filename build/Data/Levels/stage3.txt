@@ -3,7 +3,7 @@ bossmusic data/music/stage3-boss.ogg
 
 background data/bgs/stage-7/back.gif
 panel data/bgs/stage-7/n01.gif none none
-order aa
+order aaa
 
 stagenumber 3
 
@@ -182,6 +182,9 @@ health 200
 coords 460 260
 at 1600
 
+wait
+at 2100
+
 spawn db_boar
 coords 460 210
 item mp_hundred
@@ -221,6 +224,13 @@ at 2100
 coords 20 250
 item hp_hundred
 at 2100
+
+
+wait
+at      2984
+
+group 1 4
+at 2984
 
 spawn   buggy
 health 400
@@ -248,52 +258,48 @@ item mp_hundred
 coords	350 230
 at      2984
 
+spawn pirate
+health 200
+coords 20 210
+at 2984
+
+spawn marine
+health 150
+coords 460 210
+at 2984
+
+spawn marine
+health 150
+coords 20 260
+at 2984
+
+spawn pirate
+health 200
+coords 460 260
+at 2984
+
+spawn pirate
+health 200
+coords 20 210
+at 2984
+
+spawn marine
+health 150
+coords 460 210
+at 2984
+
+spawn marine
+health 150
+coords 20 260
+at 2984
+
+spawn pirate
+health 200
+coords 460 260
+at 2984
 
 wait
-at      2984
-
-group 1 4
-at 2984
-
-spawn pirate
-health 200
-coords 20 210
-at 2984
-
-spawn marine
-health 150
-coords 460 210
-at 2984
-
-spawn marine
-health 150
-coords 20 260
-at 2984
-
-spawn pirate
-health 200
-coords 460 260
-at 2984
-
-spawn pirate
-health 200
-coords 20 210
-at 2984
-
-spawn marine
-health 150
-coords 460 210
-at 2984
-
-spawn marine
-health 150
-coords 20 260
-at 2984
-
-spawn pirate
-health 200
-coords 460 260
-at 2984
+at 3800
 
 spawn db_boar
 coords 460 210
@@ -335,6 +341,7 @@ coords 20 250
 item hp_hundred
 at 3800
 
+
 spawn empty
 @script
 void main() {
@@ -345,6 +352,9 @@ setglobalvar("bossDialog", "kingpiccolodialog");
 }
 @end_script
 coords 1 1
+at 5601
+
+group 3 4
 at 5601
 
 spawn   King_Piccolo2
@@ -367,74 +377,71 @@ health  500
 coords  530 200
 at      5730
 
+wait
+at 6021
+
 spawn   kizaru
 aggression  10
 health  200
 coords  300 270
-at      5960
-
-wait
-at 5961
-
-group 3 4
-at 5960
+at      6021
 
 spawn   dino
 health 100
 coords  20 210
-at      5961
+at      6021
 
 spawn   wolf
 health 100
 coords  460 270
-at      5961
+at      6021
 
 spawn   dino
 health 100
 coords  20 210
-at      5961
+at      6021
 
 spawn   wolf
 health 100
 coords  460 270
-at      5961
+at      6021
 
 spawn   db_theif
 health 100
 coords  20 210
-at      5961
+at      6021
 
 spawn   db_dino
 health 100
 coords  460 270
-at      5961
+at      6021
 
 spawn   marine
 health 100
 coords  20 210
-at      5961
+at      6021
 
 spawn   pirate
 health 100
 coords  460 270
-at      5961
+at      6021
 
 spawn   marine
 health 100
 coords  20 210
-at      5961
+at      6021
 
 spawn   db_theif
 health 100
 coords  460 270
-at      5961
+at      6021
 
 spawn   gunner
 health 100
 coords  20 210
-at      5961
+at      6021
 
 spawn   pirate
 health 100
 coords  460 270
-at      5961
+at      6021
