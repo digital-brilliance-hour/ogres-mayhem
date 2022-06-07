@@ -1,5 +1,5 @@
 name SuperSonic
-type none
+type player
 shadow 3
 health 100
 speed 20
@@ -343,7 +343,7 @@ anim	jump
 	offset	13 26
 	frame	data/chars/Sonic/492.gif
 		
-anim	jumpattack1
+anim	jumpattack
 	delay	3
 	offset	11 32
 	frame	data/chars/Sonic/417.gif
