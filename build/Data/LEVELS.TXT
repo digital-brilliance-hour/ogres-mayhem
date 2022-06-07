@@ -142,6 +142,14 @@ set stage_9
 z 120 226 106
 file	data/levels/stage9.txt
 
+set stage_2
+z 121 265 160
+file	data/levels/stage2.txt
+
+set stage_3
+z 160 265 160
+file	data/levels/stage3.txt
+
 #z 229 272 50
 #file	data/levels/stage4.txt
 #next

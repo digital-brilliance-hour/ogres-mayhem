@@ -3,9 +3,11 @@ bossmusic data/music/stage3-boss.ogg
 
 background data/bgs/stage-7/back.gif
 panel data/bgs/stage-7/n01.gif none none
-order aa
+order aaa
 
 stagenumber 3
+
+updatescript data/scripts/levels/stage-engine.c
 
 spawn ready
 	coords 240 136
@@ -180,6 +182,9 @@ health 200
 coords 460 260
 at 1600
 
+wait
+at 2100
+
 spawn db_boar
 coords 460 210
 item mp_hundred
@@ -219,6 +224,13 @@ at 2100
 coords 20 250
 item hp_hundred
 at 2100
+
+
+wait
+at      2984
+
+group 1 4
+at 2984
 
 spawn   buggy
 health 400
@@ -246,52 +258,48 @@ item mp_hundred
 coords	350 230
 at      2984
 
+spawn pirate
+health 200
+coords 20 210
+at 2984
+
+spawn marine
+health 150
+coords 460 210
+at 2984
+
+spawn marine
+health 150
+coords 20 260
+at 2984
+
+spawn pirate
+health 200
+coords 460 260
+at 2984
+
+spawn pirate
+health 200
+coords 20 210
+at 2984
+
+spawn marine
+health 150
+coords 460 210
+at 2984
+
+spawn marine
+health 150
+coords 20 260
+at 2984
+
+spawn pirate
+health 200
+coords 460 260
+at 2984
 
 wait
-at      2984
-
-group 1 4
-at 2984
-
-spawn pirate
-health 200
-coords 20 210
-at 2984
-
-spawn marine
-health 150
-coords 460 210
-at 2984
-
-spawn marine
-health 150
-coords 20 260
-at 2984
-
-spawn pirate
-health 200
-coords 460 260
-at 2984
-
-spawn pirate
-health 200
-coords 20 210
-at 2984
-
-spawn marine
-health 150
-coords 460 210
-at 2984
-
-spawn marine
-health 150
-coords 20 260
-at 2984
-
-spawn pirate
-health 200
-coords 460 260
-at 2984
+at 3800
 
 spawn db_boar
 coords 460 210
@@ -333,92 +341,107 @@ coords 20 250
 item hp_hundred
 at 3800
 
-spawn	warning
-	coords 240 136
-flip    1
-at      5958
 
-spawn Story
-alias kingpiccolodialog
-at 5959
+spawn empty
+@script
+void main() {
+setglobalvar("bossInterlude", 1);
+setglobalvar("bossStopX", 6140);
+setglobalvar("bossStopY0", 107);
+setglobalvar("bossDialog", "kingpiccolodialog");
+}
+@end_script
+coords 1 1
+at 5601
+
+group 3 4
+at 5601
 
 spawn   King_Piccolo2
 alias King_Piccolo
 boss 1
+@script
+void main() {
+     void self = getlocalvar("self");
+     changeentityproperty(self, "noaicontrol", 1);
+     changeentityproperty(self, "subject_to_screen", 0);
+     changeentityproperty(self, "aiflag", "walking", 0);
+     changeentityproperty(self, "aiflag", "idling", 0);
+     changeentityproperty(self, "aiflag", "attacking", 0);
+     changeentityproperty(self, "animation", openborconstant("ANI_IDLE"));
+}
+@end_script
 health  500
 3phealth 1000
 4phealth 1500
-coords  300 200
-at      5960
+coords  530 200
+at      5730
+
+wait
+at 6021
 
 spawn   kizaru
 aggression  10
 health  200
 coords  300 270
-at      5960
-
-wait
-at 5960
-
-group 3 4
-at 5960
+at      6021
 
 spawn   dino
 health 100
 coords  20 210
-at      5960
+at      6021
 
 spawn   wolf
 health 100
 coords  460 270
-at      5960
+at      6021
 
 spawn   dino
 health 100
 coords  20 210
-at      5960
+at      6021
 
 spawn   wolf
 health 100
 coords  460 270
-at      5960
+at      6021
 
 spawn   db_theif
 health 100
 coords  20 210
-at      5960
+at      6021
 
 spawn   db_dino
 health 100
 coords  460 270
-at      5960
+at      6021
 
 spawn   marine
 health 100
 coords  20 210
-at      5960
+at      6021
 
 spawn   pirate
 health 100
 coords  460 270
-at      5960
+at      6021
 
 spawn   marine
 health 100
 coords  20 210
-at      5960
+at      6021
 
 spawn   db_theif
 health 100
 coords  460 270
-at      5960
+at      6021
 
 spawn   gunner
 health 100
 coords  20 210
-at      5960
+at      6021
 
 spawn   pirate
 health 100
 coords  460 270
-at      5960
+at      6021

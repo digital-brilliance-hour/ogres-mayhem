@@ -72,6 +72,17 @@ void main()
 	    }
 	}
 
+	/*if(getglobalvar("bossInterlude")) {
+		if(vSelf) {
+			changeplayerproperty(iPlIndex, "disablekeys", openborconstant("FLAG_SPECIAL")+openborconstant("FLAG_ATTACK")+openborconstant("FLAG_ATTACK2")+openborconstant("FLAG_ATTACK3")+openborconstant("FLAG_ATTACK4")+openborconstant("FLAG_JUMP")+openborconstant("FLAG_MOVEUP")+openborconstant("FLAG_MOVEDOWN")+openborconstant("FLAG_MOVELEFT")+openborconstant("FLAG_MOVERIGHT"));
+		}
+	}
+	else {
+		if(vSelf) {
+			changeplayerproperty(iPlIndex, "disablekeys",0);
+		}
+	}*/
+
     /*if(getentityvar(vSelf, "movepressed" && iAttack4)) {
     }*/
 }
