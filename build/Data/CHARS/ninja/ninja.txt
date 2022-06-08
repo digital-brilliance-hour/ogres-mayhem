@@ -19,6 +19,7 @@ hostile npc player
 
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -75,11 +76,6 @@ anim	burn
 	frame	data/chars/misc/burn1.gif
 	frame	data/chars/misc/burn2.gif
 	frame	data/chars/misc/burn3.gif
-		
-anim	death
-	delay	7
-	delay	20
-	frame	data/chars/Ninja/fall01.gif
 		
 anim	fall
 	bbox	43 69 41 39
