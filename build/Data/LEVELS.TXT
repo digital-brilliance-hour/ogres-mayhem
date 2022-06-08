@@ -94,7 +94,7 @@ scene data/scenes/stage1-3ending.txt
 
 set Stages_4-5
 typemp 0
-ifcomplete 1
+#ifcomplete 1
 versusdamage 0
 lives 3
 credits 5
@@ -129,7 +129,7 @@ file data/levels/tutorial.txt
 set stage_6
 z 110 270 160
 file	data/levels/stage6-1.txt
-file	data/levels/stage6.txt
+file	data/levels/stage6-2.txt
 
 set stage_6-2
 z 110 270 160
