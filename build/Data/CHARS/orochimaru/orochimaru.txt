@@ -27,7 +27,6 @@ lifeposition 50 235
 nameposition 60 225
 iconposition 50 360
 
-takedamagescript data/scripts/enemyhit.c
 
 anim	attack1
 	range	0 50
