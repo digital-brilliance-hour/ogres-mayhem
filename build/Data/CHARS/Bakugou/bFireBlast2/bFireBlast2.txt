@@ -5,8 +5,9 @@ alpha 1
 
 
 
+
 anim	idle
-	delay	5
+	delay	1
 	offset	262 239
 	frame	data/chars/Bakugou/544.gif
 	offset	262 239

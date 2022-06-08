@@ -58,6 +58,7 @@ script data/scripts/bosses/update.c
 
 
 
+
 anim	attack1
 	loop	0
 	range	0 30

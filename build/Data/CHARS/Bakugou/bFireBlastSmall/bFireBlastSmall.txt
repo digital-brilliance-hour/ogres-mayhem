@@ -1,8 +1,8 @@
 name  bFireBlastSmall
 type none
 shadow 0
+palette none
 alpha 1
-
 
 
 anim	idle
