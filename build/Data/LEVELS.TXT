@@ -131,6 +131,10 @@ z 110 270 160
 file	data/levels/stage6-1.txt
 file	data/levels/stage6.txt
 
+set stage_6-2
+z 110 270 160
+file	data/levels/stage6-2.txt
+
 set stage_7
 z 173 220 47
 file	data/levels/stage7.txt

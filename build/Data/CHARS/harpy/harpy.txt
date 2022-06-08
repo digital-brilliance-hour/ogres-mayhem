@@ -4,6 +4,15 @@ health  100
 shadow 2
 speed   10
 
+subject_to_screen 1
+candamage player npc obstacle
+candamage player npc
+hostile npc player
+
+takedamagescript data/scripts/enemyhit.c
+animationscript data/scripts/spawns.c
+
+
 
 
 
@@ -40,6 +49,11 @@ anim	idle
 	frame	data/chars/harpy/idle-2.png
 	delay	13
 	frame	data/chars/harpy/idle-1.png
+		
+anim	spawn
+	delay	75
+	@cmd	spawnparent "e_spawn" 0 0 0
+	frame	data/chars/misc/empty.gif
 		
 anim	pain
 	offset	12 45
