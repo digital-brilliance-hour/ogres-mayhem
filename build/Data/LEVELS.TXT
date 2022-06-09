@@ -106,6 +106,7 @@ scene 	data/scenes/howto.txt
 file 	data/levels/scenes/story/story.txt
 skipselect
 select  data/scenes/main-select.txt
+file 	data/levels/scenes/intro/stage4-intro.txt
 z 130 227 97
 file	data/levels/stage4-1.txt
 z 122 238 116
@@ -113,6 +114,7 @@ file	data/levels/stage4-2.txt
 z 152 235 118
 file	data/levels/stage4-3.txt
 next
+file 	data/levels/scenes/intro/stage5-intro.txt
 z 157 240 240
 file	data/levels/stage5-1.txt
 z 160 270 110
@@ -134,10 +136,12 @@ scene 	data/scenes/howto.txt
 file 	data/levels/scenes/story/story.txt
 skipselect
 select  data/scenes/main-select.txt
+file 	data/levels/scenes/intro/stage6-intro.txt
 z 110 270 160
 file	data/levels/stage6-1.txt
 file	data/levels/stage6-2.txt
 next
+file 	data/levels/scenes/intro/stage7-intro.txt
 z 173 220 47
 file	data/levels/stage7.txt
 next
