@@ -731,6 +731,7 @@ void spawn01(void vName, float fX, float fY, float fZ)
 
 	changeentityproperty(vSpawn, "position", fX, fZ, fY); //Set spawn location.
 	changeentityproperty(vSpawn, "direction", iDirection); //Set direction.
+	setlocalvar("currentSpawn", vSpawn);
     return vSpawn; //Return spawn.
 }
 
@@ -840,6 +841,7 @@ void shoot(void Shot, float dx, float dy, float dz)
 	vShot = projectile(Shot, x+dx, z+dz, y+dy, Direction, 0, 0, 0);
 	changeentityproperty(vShot, "parent", self);
 	changeentityproperty(vShot, "subject_to_platform", 0);
+	setlocalvar("currentSpawn", vShot);
 	return vShot;
 }
 
@@ -1003,6 +1005,20 @@ void spawnbind(void Name, float dx, float dy, float dz)
 	vSpawn = spawn01(Name, dx, dy, 0);
 
 	bindentity(vSpawn, self, dx, dz, dy, 0, 0);
+	changeentityproperty(vSpawn, "parent", self); //Set caller as parent.
+
+	return vSpawn; //Return vSpawn.
+}
+
+void scaledSpawn (void Name, float dx, float dy, float dz, int scale)
+{// Spawn and scale entity
+	//scale is size, default is 256
+	void self = getlocalvar("self");
+	void vSpawn;
+
+	vSpawn = spawn01(Name, dx, dy, 0);
+
+	//setdrawmethod(vSpawn, 1, scale, scale);
 	changeentityproperty(vSpawn, "parent", self); //Set caller as parent.
 
 	return vSpawn; //Return vSpawn.

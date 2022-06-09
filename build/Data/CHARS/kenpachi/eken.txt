@@ -3,6 +3,8 @@ health	500
 mp      300
 speed	15
 type	enemy
+subtype chase
+aimove chase
 aggression 32
 subject_to_screen 1
 cantgrab 1
@@ -104,6 +106,73 @@ anim	fall
 	bbox	3 2 65 16
 	offset	39 17
 	frame	data/chars/Kenpachi/101.gif
+		
+anim	follow1
+	delay	7
+	weaponframe	28 1
+	offset	51 61
+	frame	data/chars/Kenpachi/81.gif
+	offset	51 61
+	frame	data/chars/Kenpachi/81.gif
+	offset	51 61
+	frame	data/chars/Kenpachi/81.gif
+	offset	51 61
+	frame	data/chars/Kenpachi/81.gif
+	offset	51 61
+	frame	data/chars/Kenpachi/81.gif
+	offset	51 61
+	frame	data/chars/Kenpachi/81.gif
+	offset	51 61
+	frame	data/chars/Kenpachi/81.gif
+	offset	51 61
+	frame	data/chars/Kenpachi/82.gif
+	@cmd	pause_all 1 400
+	@cmd	pause_self 1 400
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	offset	51 61
+	frame	data/chars/Kenpachi/83.gif
+	@cmd	spawnbind "kenTransformLight" 0 0 -230
+	@cmd	pause_all 1 200
+	offset	36 55
+	frame	data/chars/Kenpachi/71.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/72.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/71.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/72.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/71.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/72.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/71.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/72.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/71.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/72.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/71.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/72.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/71.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/72.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/71.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/72.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/71.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/72.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/71.gif
+	offset	36 55
+	frame	data/chars/Kenpachi/72.gif
 		
 anim	freespecial
 	bbox	6 3 33 56
@@ -230,73 +299,6 @@ anim	freespecial3
 	@cmd	damage_all_players 40 1 0 "ATK_NORMAL"
 	offset	40 44
 	frame	data/chars/Kenpachi/73.gif
-		
-anim	follow1
-	delay	7
-	weaponframe	28 1
-	offset	51 61
-	frame	data/chars/Kenpachi/81.gif
-	offset	51 61
-	frame	data/chars/Kenpachi/81.gif
-	offset	51 61
-	frame	data/chars/Kenpachi/81.gif
-	offset	51 61
-	frame	data/chars/Kenpachi/81.gif
-	offset	51 61
-	frame	data/chars/Kenpachi/81.gif
-	offset	51 61
-	frame	data/chars/Kenpachi/81.gif
-	offset	51 61
-	frame	data/chars/Kenpachi/81.gif
-	offset	51 61
-	frame	data/chars/Kenpachi/82.gif
-	@cmd	pause_all 1 400
-	@cmd	pause_self 1 400
-	@cmd	spawnbind "g_charge2" -10 0 -20
-	offset	51 61
-	frame	data/chars/Kenpachi/83.gif
-	@cmd	spawnbind "kenTransformLight" 0 0 -230
-	@cmd	pause_all 1 200
-	offset	36 55
-	frame	data/chars/Kenpachi/71.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/72.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/71.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/72.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/71.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/72.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/71.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/72.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/71.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/72.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/71.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/72.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/71.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/72.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/71.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/72.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/71.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/72.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/71.gif
-	offset	36 55
-	frame	data/chars/Kenpachi/72.gif
 		
 anim	idle
 	bbox	7 4 24 60

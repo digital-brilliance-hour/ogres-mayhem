@@ -2,27 +2,36 @@ name  bFireBlast1
 type none
 shadow 0
 alpha 1
-
+palette none
 
 
 anim	idle
-	delay	7
+	attack	105 30 94 92 50 1 1 0 40 50
+	delay	2
 	offset	154 76
 	frame	data/chars/Bakugou/647.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	154 76
 	frame	data/chars/Bakugou/648.gif
+	attack	105 30 94 92 50 1 0 1 40 50
 	offset	154 76
 	frame	data/chars/Bakugou/649.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	154 76
 	frame	data/chars/Bakugou/650.gif
+	attack	105 30 94 92 50 1 1 0 40 50
 	offset	154 76
 	frame	data/chars/Bakugou/651.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	154 76
 	frame	data/chars/Bakugou/652.gif
+	attack	105 30 94 92 50 1 0 1 40 50
 	offset	154 76
 	frame	data/chars/Bakugou/653.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	154 76
 	frame	data/chars/Bakugou/654.gif
+	attack	105 30 94 92 40 1 1 0 40 50
 	offset	154 76
 	frame	data/chars/Bakugou/655.gif
 	offset	154 76

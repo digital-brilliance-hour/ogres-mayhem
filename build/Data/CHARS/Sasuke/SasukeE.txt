@@ -35,6 +35,7 @@ weaploss 3
 
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -99,6 +100,20 @@ anim	fall
 	delay	20
 	frame	data/chars/Sasuke/fall01.gif
 		
+anim	follow1
+	delay	7
+	weaponframe	4 1
+	offset	17 32
+	frame	data/chars/sasuke/417.gif
+	offset	17 32
+	frame	data/chars/sasuke/418.gif
+	offset	17 32
+	frame	data/chars/sasuke/419.gif
+	offset	17 32
+	frame	data/chars/sasuke/420.gif
+	offset	17 32
+	frame	data/chars/sasuke/421.gif
+		
 anim	freespecial
 	loop	0
 	delay	7
@@ -124,20 +139,6 @@ anim	freespecial
 	frame	data/chars/Sasuke/katon07.gif
 	delay	30
 	frame	data/chars/Sasuke/katon00.gif
-		
-anim	follow1
-	delay	7
-	weaponframe	4 1
-	offset	17 32
-	frame	data/chars/sasuke/417.gif
-	offset	17 32
-	frame	data/chars/sasuke/418.gif
-	offset	17 32
-	frame	data/chars/sasuke/419.gif
-	offset	17 32
-	frame	data/chars/sasuke/420.gif
-	offset	17 32
-	frame	data/chars/sasuke/421.gif
 		
 anim	get
 	loop	0

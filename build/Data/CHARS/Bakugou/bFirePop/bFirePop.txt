@@ -6,8 +6,9 @@ alpha 1
 
 
 
+
 anim	idle
-	delay	7
+	delay	2
 	offset	640 360
 	frame	data/chars/Bakugou/509.gif
 	offset	640 360

@@ -15,6 +15,7 @@ load hiken
 knife hiken
 knife tei
 subtype chase
+aimove chase
 escapehits 1
 hostile player npc
 hostile npc player
@@ -24,6 +25,11 @@ candamage player npc
 takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 ondeathscript data/scripts/bossdeath.c
+
+lifebarstatus 380 5 0 1 0 0 0 0 0
+lifeposition 50 235
+nameposition 60 225
+iconposition 50 360
 
 
 

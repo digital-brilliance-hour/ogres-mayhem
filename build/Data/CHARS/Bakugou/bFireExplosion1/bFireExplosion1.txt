@@ -6,44 +6,65 @@ alpha 1
 
 
 
+
+
+
 anim	idle
-	delay	7
+	attack	222 294 176 125 80 1 0 0 70 100
+	dropv	2 6 0
+	delay	2
 	offset	316 475
 	frame	data/chars/Bakugou/677.gif
 	offset	316 475
 	frame	data/chars/Bakugou/678.gif
+	attack	222 294 176 125 80 1 0 0 70 100
+	dropv	2 6 0
 	offset	316 475
 	frame	data/chars/Bakugou/679.gif
 	offset	316 475
 	frame	data/chars/Bakugou/680.gif
+	attack	222 294 176 125 80 1 0 0 70 100
+	dropv	2 6 0
 	offset	316 475
 	frame	data/chars/Bakugou/681.gif
 	offset	316 475
 	frame	data/chars/Bakugou/682.gif
+	attack	222 294 176 125 80 1 0 0 70 100
+	dropv	2 6 0
 	offset	316 475
 	frame	data/chars/Bakugou/683.gif
 	offset	316 475
 	frame	data/chars/Bakugou/684.gif
+	attack	222 294 176 125 80 1 0 0 70 100
+	dropv	2 5 0
 	offset	316 475
 	frame	data/chars/Bakugou/685.gif
 	offset	316 475
 	frame	data/chars/Bakugou/686.gif
+	attack	222 294 176 125 80 1 0 0 70 100
+	dropv	2 5 0
 	offset	316 475
 	frame	data/chars/Bakugou/687.gif
 	offset	316 475
 	frame	data/chars/Bakugou/688.gif
+	attack	222 294 176 125 80 1 0 0 70 100
+	dropv	1 4 0
 	offset	316 475
 	frame	data/chars/Bakugou/689.gif
 	offset	316 475
 	frame	data/chars/Bakugou/690.gif
+	attack	222 294 176 125 80 1 0 0 70 100
+	dropv	1 4 0
 	offset	316 475
 	frame	data/chars/Bakugou/691.gif
 	offset	316 475
 	frame	data/chars/Bakugou/692.gif
+	attack	222 294 176 125 80 1 0 0 70 100
 	offset	316 475
 	frame	data/chars/Bakugou/693.gif
 	offset	316 475
 	frame	data/chars/Bakugou/694.gif
+	attack	222 294 176 125 80 1 0 0 70 100
 	offset	316 475
 	frame	data/chars/Bakugou/695.gif
 	offset	316 475
