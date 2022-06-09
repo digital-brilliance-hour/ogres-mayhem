@@ -28,6 +28,7 @@ nameposition 60 225
 iconposition 50 360
 
 
+
 anim	attack1
 	range	0 50
 	loop	0
@@ -521,11 +522,13 @@ anim	run
 	frame	data/chars/orochimaru/11.png
 	offset	27 47
 	frame	data/chars/orochimaru/12.png
+	sound	data/sounds/walk.wav
 	frame	data/chars/orochimaru/13.png
 	offset	27 45
 	frame	data/chars/orochimaru/14.png
 	frame	data/chars/orochimaru/15.png
 	offset	27 44
+	sound	data/sounds/walk.wav
 	frame	data/chars/orochimaru/16.png
 		
 anim	runattack
@@ -595,11 +598,13 @@ anim	walk
 	frame	data/chars/orochimaru/11.png
 	offset	27 47
 	frame	data/chars/orochimaru/12.png
+	sound	data/sounds/walk.wav
 	frame	data/chars/orochimaru/13.png
 	offset	27 45
 	frame	data/chars/orochimaru/14.png
 	frame	data/chars/orochimaru/15.png
 	offset	27 44
+	sound	data/sounds/walk.wav
 	frame	data/chars/orochimaru/16.png
 		
 #|edited by openBor Stats v 0.67

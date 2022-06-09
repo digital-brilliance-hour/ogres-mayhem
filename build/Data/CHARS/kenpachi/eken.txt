@@ -2,7 +2,7 @@ name	EKenpachi
 health	500
 mp      300
 speed	15
-type	enemy
+type enemy
 subtype chase
 aimove chase
 aggression 32
@@ -24,6 +24,7 @@ ondeathscript data/scripts/bossdeath.c
 palette none
 atchain 1 1 2 3
 
+
 load kenSlashGround
 load groundPoundHarder
 load kenSliceForward
@@ -41,6 +42,9 @@ weaploss 3
 
 
 
+
+
+
 anim	attack1
 	loop	0
 	range	0 30
@@ -51,6 +55,7 @@ anim	attack1
 	frame	data/chars/Kenpachi/Att1.gif
 	frame	data/chars/Kenpachi/Att2.gif
 	attack	69 32 50 86 5
+	hitfx	data/chars/kenpachi/kenpachi_1-21-hit.wav
 	frame	data/chars/Kenpachi/Att3.gif
 	attack	0 0 0 0 0 0
 	frame	data/chars/Kenpachi/Att4.gif
@@ -65,6 +70,7 @@ anim	attack2
 	frame	data/chars/Kenpachi/2Att2.gif
 	bbox	46 68 47 48
 	attack	69 32 50 86 10 0 0 0 0 0
+	hitfx	data/chars/kenpachi/kenpachi_1-21-hit.wav
 	frame	data/chars/Kenpachi/2Att3.gif
 	bbox	40 70 43 47
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -82,6 +88,7 @@ anim	attack3
 	offset	32 97
 	frame	data/chars/Kenpachi/28.gif
 	attack	34 10 36 52 15 1 1 0 0 0
+	hitfx	data/chars/kenpachi/kenpachi_1-21-hit.wav
 	@cmd	leaper 0 -6 0
 	offset	33 57
 	frame	data/chars/Kenpachi/29.gif
@@ -181,6 +188,7 @@ anim	freespecial
 	frame	data/chars/Kenpachi/63.gif
 	@cmd	pause_all 1 100
 	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/kenpachi/kenpachi_0-106-charge.wav
 	offset	44 54
 	frame	data/chars/Kenpachi/64.gif
 	offset	44 54
@@ -199,6 +207,7 @@ anim	freespecial
 	frame	data/chars/Kenpachi/64.gif
 	bbox	0 0 0 0
 	offset	27 78
+	sound	data/chars/kenpachi/kenpachi_5-47-free.wav
 	@cmd	leaper 0 4 0
 	@cmd	spawnparent "kenRisingSlash" 30 0 -40
 	frame	data/chars/Kenpachi/65.gif
@@ -236,6 +245,7 @@ anim	freespecial2
 	bbox	20 35 36 59
 	attack	29 1 53 93 10 1 1 0 0 30
 	dropv	4 0 0
+	sound	data/chars/kenpachi/kenpachi_5-36-swing.wav
 	offset	40 93
 	frame	data/chars/Kenpachi/43.gif
 	bbox	45 4 34 57
@@ -264,6 +274,7 @@ anim	freespecial3
 	@cmd	pause_all 1 100
 	@cmd	pause_self 1 100
 	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/kenpachi/kenpachi_0-111-laugh.wav
 	offset	42 57
 	frame	data/chars/Kenpachi/20.gif
 	bbox	0 0 0 0
@@ -284,6 +295,7 @@ anim	freespecial3
 	frame	data/chars/Kenpachi/48.gif
 	bbox	0 0 0 0
 	@cmd	spawn01 "quake" 0 0 4
+	sound	data/chars/kenpachi/kenpachi_5-27-free-3.wav
 	offset	40 44
 	frame	data/chars/Kenpachi/73.gif
 	bbox	0 0 0 0
@@ -339,6 +351,7 @@ anim	jumpattack
 	offset	33 57
 	frame	data/chars/Kenpachi/29.gif
 	attack	20 22 59 31 15 1 1 0 30 20
+	sound	data/chars/kenpachi/kenpachi_5-36-swing.wav
 	offset	39 47
 	frame	data/chars/Kenpachi/30.gif
 		
@@ -365,6 +378,7 @@ anim	run
 	offset	26 44
 	frame	data/chars/Kenpachi/11.gif
 	offset	21 43
+	sound	data/sounds/walk.wav
 	frame	data/chars/Kenpachi/12.gif
 	offset	26 44
 	frame	data/chars/Kenpachi/13.gif
@@ -373,6 +387,7 @@ anim	run
 	offset	22 46
 	frame	data/chars/Kenpachi/15.gif
 	offset	19 45
+	sound	data/sounds/walk.wav
 	frame	data/chars/Kenpachi/16.gif
 	offset	21 44
 	frame	data/chars/Kenpachi/17.gif
@@ -386,6 +401,7 @@ anim	walk
 	offset	26 44
 	frame	data/chars/Kenpachi/11.gif
 	offset	21 43
+	sound	data/sounds/walk.wav
 	frame	data/chars/Kenpachi/12.gif
 	offset	26 44
 	frame	data/chars/Kenpachi/13.gif
@@ -394,6 +410,7 @@ anim	walk
 	offset	22 46
 	frame	data/chars/Kenpachi/15.gif
 	offset	19 45
+	sound	data/sounds/walk.wav
 	frame	data/chars/Kenpachi/16.gif
 	offset	21 44
 	frame	data/chars/Kenpachi/17.gif

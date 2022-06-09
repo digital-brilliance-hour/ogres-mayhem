@@ -9,11 +9,13 @@ load kenSliceForwardHit
 
 didhitscript data/scripts/didhit/fx.c
 
+
 anim	idle
 	attack	133 30 239 126 100 1 1 0 100 50
 	drawmethod	scale 0.60
 	drawmethod	flipx 1
 	delay	3
+	hitfx	data/chars/kenpachi/kenpachi_1-21-hit.wav
 	offset	255 131
 	frame	data/chars/Kenpachi/399.gif
 	attack	0 0 0 0 0 0 0 0 0 0
