@@ -20,7 +20,7 @@ blockodds 1
 riseinv 2 0
 makeinv 2 0
 
-subtype		chase
+aimove		chase
 
 lifebarstatus 380 5 0 1 0 0 0 0 0
 lifeposition 50 235

@@ -4,7 +4,9 @@ mp      300
 speed	15
 type enemy
 atchain 1 1 2
-aggression 32
+aggression 3
+subtype chase
+aimove chase
 palette none
 subject_to_screen 1
 cantgrab 1

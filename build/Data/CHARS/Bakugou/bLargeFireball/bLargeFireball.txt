@@ -2,64 +2,78 @@ name  bLargeFireball
 type none
 shadow 0
 alpha 1
-
-
+palette none
+remove 0
 
 anim	idle
-	loop	1 13
+	attack	91 76 128 106 100 1 1 0 20 100
+	loop	0
 	delay	7
 	offset	147 127
 	frame	data/chars/Bakugou/620.gif
 	offset	147 127
 	frame	data/chars/Bakugou/621.gif
+	attack	91 76 128 106 100 1 0 1 20 100
 	offset	147 127
 	frame	data/chars/Bakugou/622.gif
 	offset	147 127
 	frame	data/chars/Bakugou/623.gif
+	attack	91 76 128 106 100 1 1 0 20 100
 	offset	147 127
 	frame	data/chars/Bakugou/624.gif
 	offset	147 127
 	frame	data/chars/Bakugou/625.gif
+	attack	91 76 128 106 100 1 0 1 20 100
 	offset	147 127
 	frame	data/chars/Bakugou/626.gif
 	offset	147 127
 	frame	data/chars/Bakugou/627.gif
+	attack	91 76 128 106 100 1 1 0 20 100
 	offset	147 127
 	frame	data/chars/Bakugou/628.gif
 	offset	147 127
 	frame	data/chars/Bakugou/629.gif
+	attack	91 76 128 106 100 1 0 1 20 100
 	offset	147 127
 	frame	data/chars/Bakugou/630.gif
 	offset	147 127
 	frame	data/chars/Bakugou/631.gif
+	attack	91 76 128 106 100 1 1 0 20 100
 	offset	147 127
 	frame	data/chars/Bakugou/632.gif
 	offset	147 127
 	frame	data/chars/Bakugou/633.gif
+	attack	91 76 128 106 100 1 0 1 20 100
 	offset	147 127
 	frame	data/chars/Bakugou/634.gif
 	offset	147 127
 	frame	data/chars/Bakugou/635.gif
+	attack	91 76 128 106 100 1 1 0 20 100
 	offset	147 127
 	frame	data/chars/Bakugou/636.gif
 	offset	147 127
 	frame	data/chars/Bakugou/637.gif
+	attack	91 76 128 106 100 1 0 1 20 100
 	offset	147 127
 	frame	data/chars/Bakugou/638.gif
 	offset	147 127
 	frame	data/chars/Bakugou/639.gif
+	attack	91 76 128 106 100 1 1 0 20 100
 	offset	147 127
 	frame	data/chars/Bakugou/640.gif
 	offset	147 127
 	frame	data/chars/Bakugou/641.gif
+	attack	91 76 128 106 100 1 0 1 20 100
 	offset	147 127
 	frame	data/chars/Bakugou/642.gif
 	offset	147 127
 	frame	data/chars/Bakugou/643.gif
+	attack	91 76 128 106 100 1 1 0 20 100
 	offset	147 127
 	frame	data/chars/Bakugou/644.gif
 	offset	147 127
 	frame	data/chars/Bakugou/645.gif
+	attack	91 76 128 106 100 1 0 1 20 100
 	offset	147 127
 	frame	data/chars/Bakugou/646.gif
 		

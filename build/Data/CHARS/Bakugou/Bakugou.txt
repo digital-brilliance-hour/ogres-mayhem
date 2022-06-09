@@ -1,14 +1,22 @@
 name    Bakugo
-type player
+type enemy
 health 500
 speed 25
 shadow 3
 subtype chase
 running 35 4 2 1 1
 palette none
+aggression 60
+aimove chase
+escapehits 1
+subject_to_screen 1
+riseinv 2 0
+candamage player npc
+hostile npc player
 
 icon data/chars/Bakugou/0.gif
 animationscript data/scripts/spawns.c
+ondeathscript data/scripts/bossdeath.c
 
 load bAirPush
 load bAirPush2
@@ -20,6 +28,11 @@ load bFireExplosion1
 load bFireExplosion2
 load bFirePop
 load bLargeFireball
+
+lifebarstatus 380 5 0 1 0 0 0 0 0
+lifeposition 50 235
+nameposition 60 225
+iconposition 50 360
 
 
 com  a3  freespecial
@@ -257,6 +270,19 @@ anim	freespecial4
 	frame	data/chars/Bakugou/94.gif
 	offset	16 47
 	frame	data/chars/Bakugou/95.gif
+	@cmd	spawn01 "bFirePop" 20 0 -25
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "enabled" 1
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scalex" 64
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scaley" 64
+	@cmd	changeentityproperty getlocalvar("currentSpawn") "setlayer" 1000
+	offset	16 47
+	frame	data/chars/Bakugou/96.gif
+	@cmd	spawn01 "bFireExplosion1" 50 0 50
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "enabled" 1
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scalex" 128
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scaley" 128
+	@cmd	changeentityproperty getlocalvar("currentSpawn") "setlayer" 1000
+	@cmd	changeentityproperty getlocalvar("currentSpawn") "candamage" "type_player" "type_npc"
 	offset	16 47
 	frame	data/chars/Bakugou/96.gif
 		
@@ -284,6 +310,19 @@ anim	freespecial5
 	frame	data/chars/Bakugou/70.gif
 	offset	16 47
 	frame	data/chars/Bakugou/71.gif
+	@cmd	spawn01 "bFirePop" 20 0 -32
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "enabled" 1
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scalex" 64
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scaley" 64
+	@cmd	changeentityproperty getlocalvar("currentSpawn") "setlayer" 1000
+	offset	16 47
+	frame	data/chars/Bakugou/72.gif
+	@cmd	shoot "bLargeFireball" 50 0 -20
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "enabled" 1
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scalex" 128
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scaley" 128
+	@cmd	changeentityproperty getlocalvar("currentSpawn") "setlayer" 1000
+	@cmd	changeentityproperty getlocalvar("currentSpawn") "candamage" "type_player" "type_npc"
 	offset	16 47
 	frame	data/chars/Bakugou/72.gif
 		
