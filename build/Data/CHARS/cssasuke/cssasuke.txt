@@ -1,7 +1,7 @@
 name	sasukeTransform
 health	500
 speed 20
-type	player
+type enemy
 shadow  3
 aimove chase
 aggression  20
@@ -9,7 +9,7 @@ escapehits 1
 riseinv 2 0
 running 25 4 2 1 1
 candamage player npc obstacle
-candamage player npc enemy
+candamage player npc
 subject_to_screen 1
 hostile npc player
 grabdistance 23

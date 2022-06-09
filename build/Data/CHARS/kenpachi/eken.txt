@@ -21,6 +21,8 @@ lifeposition 50 235
 nameposition 60 225
 iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
+script data/scripts/bosses/update.c
+takedamagescript data/scripts/bosses/attacked.c
 palette none
 atchain 1 1 2 3
 

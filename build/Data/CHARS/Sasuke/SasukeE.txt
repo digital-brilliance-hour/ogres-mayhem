@@ -29,9 +29,11 @@ nameposition 60 225
 iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
 script data/scripts/bosses/update.c
+takedamagescript data/scripts/bosses/attacked.c
 
 weapons sasukeTransform Sasuke_E
 weaploss 3
+
 
 
 
@@ -101,10 +103,14 @@ anim	fall
 	frame	data/chars/Sasuke/fall01.gif
 		
 anim	follow1
-	delay	7
+	delay	10
 	weaponframe	4 1
+	@cmd	pause_all 1 400
+	@cmd	pause_self 1 400
+	@cmd	spawnbind "g_charge2" -10 0 -20
 	offset	17 32
 	frame	data/chars/sasuke/417.gif
+	delay	10
 	offset	17 32
 	frame	data/chars/sasuke/418.gif
 	offset	17 32
