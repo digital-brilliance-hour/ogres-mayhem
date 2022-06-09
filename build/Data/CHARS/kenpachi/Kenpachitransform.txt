@@ -2,7 +2,7 @@ name	KenpachiTransform
 health	500
 mp      300
 speed	15
-type player
+type enemy
 atchain 1 1 2
 aggression 3
 subtype chase
@@ -72,6 +72,7 @@ anim	attack1
 	attack	36 2 39 47 10 0 0 0 0 0
 	hitfx	data/chars/kenpachi/kenpachi_1-21-hit.wav
 	offset	26 45
+	sound	data/chars/kenpachi/kenpachi_0-55.wav
 	frame	data/chars/Kenpachi/777.gif
 	offset	29 45
 	frame	data/chars/Kenpachi/778.gif
@@ -84,6 +85,7 @@ anim	attack2
 	delay	7
 	hitfx	data/chars/kenpachi/kenpachi_1-21-hit.wav
 	offset	27 78
+	sound	data/chars/kenpachi/kenpachi_0-54.wav
 	frame	data/chars/Kenpachi/799.gif
 	@cmd	aniexec openborconstant("ANI_FREESPECIAL12")
 	offset	15 77

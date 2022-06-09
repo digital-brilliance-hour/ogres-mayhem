@@ -2,7 +2,7 @@ name	Kenpachi
 health	100
 mp	100
 speed	15
-type	enemy
+type player
 shadow 3
 cantgrab 1
 
