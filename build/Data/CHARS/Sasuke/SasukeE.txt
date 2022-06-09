@@ -235,9 +235,11 @@ anim	run
 	bbox	41 64 34 52
 	frame	data/chars/Sasuke/run00.gif
 	frame	data/chars/Sasuke/run01.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Sasuke/run02.gif
 	frame	data/chars/Sasuke/run03.gif
 	frame	data/chars/Sasuke/run04.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Sasuke/run05.gif
 		
 anim	runattack
@@ -332,9 +334,11 @@ anim	walk
 	bbox	41 64 34 52
 	frame	data/chars/Sasuke/walk00.gif
 	frame	data/chars/Sasuke/walk01.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Sasuke/walk02.gif
 	frame	data/chars/Sasuke/walk03.gif
 	frame	data/chars/Sasuke/walk04.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Sasuke/walk05.gif
 		
 #|edited by openBor Stats v 0.67

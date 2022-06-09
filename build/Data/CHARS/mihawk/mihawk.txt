@@ -26,6 +26,7 @@ lifeposition 50 235
 nameposition 60 225
 iconposition 50 360
 
+
 anim	attack1
 	loop	0
 	delay	10
@@ -180,9 +181,11 @@ anim	walk
 	bbox	35 30 12 42
 	frame	data/chars/Mihawk/walk01.gif
 	frame	data/chars/Mihawk/walk02.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Mihawk/walk03.gif
 	frame	data/chars/Mihawk/walk04.gif
 	frame	data/chars/Mihawk/walk05.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Mihawk/walk06.gif
 		
 #|edited by openBor Stats v 0.67

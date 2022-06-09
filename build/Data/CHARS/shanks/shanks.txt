@@ -24,6 +24,7 @@ iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -256,10 +257,12 @@ anim	walk
 	bbox	38 27 19 40
 	frame	data/chars/shanks/walk01.gif
 	frame	data/chars/shanks/walk02.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/shanks/walk03.gif
 	frame	data/chars/shanks/walk04.gif
 	frame	data/chars/shanks/walk05.gif
 	frame	data/chars/shanks/walk06.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/shanks/walk07.gif
 	frame	data/chars/shanks/walk08.gif
 		

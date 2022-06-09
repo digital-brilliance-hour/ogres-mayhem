@@ -35,6 +35,7 @@ iconposition 50 360
 
 
 
+
 anim	attack1
 	loop	0
 	delay	3
@@ -328,10 +329,12 @@ anim	run
 	frame	data/chars/Ace/run01.gif
 	frame	data/chars/Ace/run02.gif
 	frame	data/chars/Ace/run03.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Ace/run04.gif
 	frame	data/chars/Ace/run05.gif
 	frame	data/chars/Ace/run06.gif
 	frame	data/chars/Ace/run07.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Ace/run08.gif
 		
 anim	spawn
@@ -382,10 +385,12 @@ anim	walk
 	bbox	36 46 13 20
 	frame	data/chars/Ace/walk01.gif
 	frame	data/chars/Ace/walk02.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Ace/walk03.gif
 	frame	data/chars/Ace/walk04.gif
 	frame	data/chars/Ace/walk05.gif
 	frame	data/chars/Ace/walk06.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Ace/walk07.gif
 	frame	data/chars/Ace/walk08.gif
 		

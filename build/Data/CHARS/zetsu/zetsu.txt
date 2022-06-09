@@ -23,6 +23,7 @@ iconposition 50 360
 
 
 
+
 anim	attack1
 	range	0 60
 	loop	0
@@ -157,6 +158,7 @@ anim	walk
 	frame	data/chars/zetsu/64.png
 	frame	data/chars/zetsu/67.png
 	offset	36 58
+	sound	data/sounds/walk.wav
 	frame	data/chars/zetsu/65.png
 	offset	38 58
 	frame	data/chars/zetsu/63.png
@@ -164,6 +166,7 @@ anim	walk
 	delay	7
 	frame	data/chars/zetsu/62.png
 	offset	27 58
+	sound	data/sounds/walk.wav
 	frame	data/chars/zetsu/66.png
 		
 #|edited by openBor Stats v 0.67

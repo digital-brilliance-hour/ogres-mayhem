@@ -46,9 +46,13 @@ didhitscript data/scripts/bosses/didhit.c
 weaploss 3
 modelflag 3
 
+
+
+
 anim	attack1
 	delay	7
 	offset	21 49
+	sound	data/chars/Sasuke/ha.wav
 	frame	data/chars/cssasuke/47.gif
 	offset	18 48
 	frame	data/chars/cssasuke/48.gif
@@ -103,6 +107,7 @@ anim	fall
 	bbox	2 2 31 32
 	delay	7
 	offset	16 43
+	sound	data/chars/Sasuke/ugh.wav
 	frame	data/chars/cssasuke/42.gif
 	bbox	1 2 46 16
 	offset	23 20
@@ -134,6 +139,7 @@ anim	freespecial2
 	dropv	4 0 0
 	frame	data/chars/cssasuke/93.gif
 	offset	14 51
+	sound	data/chars/Sasuke/ha.wav
 	frame	data/chars/cssasuke/94.gif
 	offset	21 53
 	frame	data/chars/cssasuke/68.gif
@@ -162,6 +168,7 @@ anim	freespecial2
 	offset	18 45
 	frame	data/chars/cssasuke/108.gif
 	offset	21 40
+	sound	data/chars/Sasuke/ha2.wav
 	frame	data/chars/cssasuke/109.gif
 	attack	0 19 33 20 20 0 1 0 40 60
 	dropv	-5 0 0
@@ -173,6 +180,7 @@ anim	freespecial2
 anim	freespecial3
 	delay	7
 	offset	19 51
+	sound	data/chars/Sasuke/katon.wav
 	frame	data/chars/cssasuke/77.gif
 	offset	19 50
 	frame	data/chars/cssasuke/78.gif
@@ -189,6 +197,7 @@ anim	freespecial3
 anim	freespecial5
 	delay	7
 	offset	19 41
+	sound	data/chars/Sasuke/ha.wav
 	frame	data/chars/cssasuke/127.gif
 	offset	19 40
 	frame	data/chars/cssasuke/128.gif
@@ -243,6 +252,7 @@ anim	jump
 anim	jumpattack
 	delay	7
 	offset	15 66
+	sound	data/chars/Sasuke/ha2.wav
 	frame	data/chars/cssasuke/65.gif
 	offset	8 69
 	frame	data/chars/cssasuke/66.gif
@@ -258,6 +268,7 @@ anim	jumpland
 anim	pain
 	delay	7
 	offset	16 40
+	sound	data/chars/Sasuke/ugh.wav
 	frame	data/chars/cssasuke/41.gif
 		
 anim	rise
@@ -278,6 +289,7 @@ anim	run
 	offset	21 40
 	frame	data/chars/cssasuke/15.gif
 	offset	19 40
+	sound	data/sounds/walk.wav
 	frame	data/chars/cssasuke/16.gif
 	offset	21 41
 	frame	data/chars/cssasuke/17.gif
@@ -286,6 +298,7 @@ anim	run
 	frame	data/chars/cssasuke/18.gif
 	bbox	4 2 29 36
 	offset	21 39
+	sound	data/sounds/walk.wav
 	frame	data/chars/cssasuke/19.gif
 		
 anim	runattack

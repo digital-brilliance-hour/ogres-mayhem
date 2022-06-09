@@ -23,6 +23,7 @@ iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
 
 
+
 anim	attack1
 	delay	7
 	offset	25 59
@@ -416,6 +417,7 @@ anim	run
 	offset	37 41
 	frame	data/chars/Hisoka/33.gif
 	offset	36 37
+	sound	data/sounds/walk.wav
 	frame	data/chars/Hisoka/34.gif
 		
 anim	spawn
@@ -481,6 +483,7 @@ anim	walk
 	frame	data/chars/Hisoka/28.gif
 	bbox	7 6 34 37
 	offset	26 42
+	sound	data/sounds/walk.wav
 	frame	data/chars/Hisoka/29.gif
 	bbox	7 8 51 34
 	offset	32 43
@@ -490,6 +493,7 @@ anim	walk
 	frame	data/chars/Hisoka/31.gif
 	bbox	6 6 31 41
 	offset	25 45
+	sound	data/sounds/walk.wav
 	frame	data/chars/Hisoka/32.gif
 		
 #|edited by openBor Stats v 0.67
