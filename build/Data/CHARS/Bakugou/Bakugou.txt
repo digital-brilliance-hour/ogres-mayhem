@@ -1,4 +1,4 @@
-name    Bakugo
+name    Bakugou
 type enemy
 health 500
 speed 25

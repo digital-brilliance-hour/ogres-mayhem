@@ -17,7 +17,9 @@ animationscript data/scripts/spawns.c
 
 
 
+
 anim	attack1
+	bbox	7 5 20 31
 	range	0 40
 	rangez	0 20
 	offset	18 50
@@ -32,11 +34,13 @@ anim	attack1
 	frame	data/chars/harpy/attack1-5.png
 		
 anim	fall
+	bbox	8 11 40 42
 	offset	27 33
 	delay	7
 	frame	data/chars/harpy/pain-1.png
 		
 anim	idle
+	bbox	3 6 28 30
 	offset	16 39
 	loop	1
 	delay	13
@@ -50,11 +54,6 @@ anim	idle
 	delay	13
 	frame	data/chars/harpy/idle-1.png
 		
-anim	spawn
-	delay	75
-	@cmd	spawnparent "e_spawn" 0 0 0
-	frame	data/chars/misc/empty.gif
-		
 anim	pain
 	offset	12 45
 	delay	8
@@ -65,7 +64,13 @@ anim	rise
 	delay	7
 	frame	data/chars/harpy/idle-1.png
 		
+anim	spawn
+	delay	75
+	@cmd	spawnparent "e_spawn" 0 0 0
+	frame	data/chars/misc/empty.gif
+		
 anim	walk
+	bbox	5 3 23 32
 	offset	16 39
 	loop	1
 	delay	7
