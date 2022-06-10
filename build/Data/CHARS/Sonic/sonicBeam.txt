@@ -4,6 +4,9 @@ type 	none
 shadow	0
 remove 0
 alpha 1
+candamage enemy
+
+
 
 
 
@@ -17,31 +20,35 @@ alpha 1
 anim	idle
 	loop	0
 	drawmethod	scale 0.3
-	delay	7
-	offset	130 302
+	drawmethod	scalex 0.4
+	delay	3
+	offset	312 302
 	frame	data/chars/Sonic/2767.gif
-	offset	118 307
+	attack	236 69 131 231 100 1 0 0 0 100
+	offset	300 307
 	frame	data/chars/Sonic/2768.gif
-	offset	115 310
+	offset	297 310
 	frame	data/chars/Sonic/2769.gif
-	attack	434 98 106 176 0 0 1 0 0 0
-	offset	131 317
+	attack	260 104 176 180 100 1 1 0 0 100
+	offset	313 317
 	frame	data/chars/Sonic/2770.gif
-	attack	329 124 297 128 0 0 0 1 0 0
 	frame	data/chars/Sonic/2771.gif
+	attack	260 94 293 190 100 1 1 0 0 100
 	frame	data/chars/Sonic/2772.gif
 	frame	data/chars/Sonic/2773.gif
+	attack	260 88 291 197 100 1 1 0 0 100
 	frame	data/chars/Sonic/2774.gif
-	attack	467 103 327 174 0 0 1 0 0 0
 	frame	data/chars/Sonic/2775.gif
+	attack	260 106 291 171 100 1 1 0 0 100
 	frame	data/chars/Sonic/2776.gif
 	frame	data/chars/Sonic/2777.gif
-	attack	432 105 413 176 0 0 1 0 0 0
+	attack	260 114 291 169 100 1 1 0 0 100
 	frame	data/chars/Sonic/2778.gif
 	frame	data/chars/Sonic/2779.gif
-	attack	593 121 292 138 0 0 1 0 0 0
+	attack	260 112 291 167 100 1 1 0 0 100
 	frame	data/chars/Sonic/2809.gif
 	frame	data/chars/Sonic/2810.gif
+	attack	260 108 291 180 80 1 1 0 0 100
 	frame	data/chars/Sonic/2811.gif
 	frame	data/chars/Sonic/2812.gif
 	frame	data/chars/misc/empty.gif

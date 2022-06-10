@@ -43,6 +43,8 @@ modelflag 3
 
 
 
+
+
 anim	attack1
 	delay	3
 	offset	13 38
@@ -129,32 +131,35 @@ anim	fall
 	offset	19 25
 	frame	data/chars/Sonic/664.gif
 		
-anim	freespecial2
-	attack	26 10 22 17 10 0 1 0 0 0
-	@cmd	isavailable 2
-	mponly	1
-	energycost	10
-	delay	5
+anim	freespecial
+	delay	7
 	fastattack	1
-	offset	20 29
-	sound	data/chars/sonic/sonic_180-5-free.wav
-	frame	data/chars/Sonic/450.gif
+	offset	11 23
+	sound	data/chars/sonic/sonic_1-300-dash.wav
+	frame	data/chars/Sonic/504.gif
+	attack	-1 -1 23 23 10 0 1 0 0 0
+	offset	10 21
+	frame	data/chars/Sonic/505.gif
 	attack	0 0 0 0 0 0 0 0 0 0
-	offset	19 35
-	frame	data/chars/Sonic/451.gif
-	attack	24 10 22 18 10 0 1 0 0 0
-	offset	19 35
-	hitfx	data/chars/sonic/sonic_5-73-hit.wav
-	sound	data/chars/sonic/sonic_180-5-free.wav
-	frame	data/chars/Sonic/452.gif
+	offset	11 22
+	frame	data/chars/Sonic/506.gif
+	attack	-2 -2 26 26 20 0 0 1 0 0
+	offset	11 23
+	frame	data/chars/Sonic/507.gif
 	attack	0 0 0 0 0 0 0 0 0 0
-	offset	18 35
-	frame	data/chars/Sonic/453.gif
-	attack	25 11 27 17 10 0 1 0 0 0
-	offset	21 35
-	hitfx	data/chars/sonic/sonic_5-73-hit.wav
-	sound	data/chars/sonic/sonic_180-5-free.wav
-	frame	data/chars/Sonic/454.gif
+	@cmd	dasher 4 0 0
+	@cmd	spawnparent "pdust" -10 0 -20
+	offset	11 25
+	frame	data/chars/Sonic/500.gif
+	attack	-2 -2 26 26 20 0 0 1 0 0
+	offset	10 23
+	frame	data/chars/Sonic/501.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	10 23
+	frame	data/chars/Sonic/502.gif
+	attack	-2 -2 26 26 20 0 0 1 0 0
+	offset	11 25
+	frame	data/chars/Sonic/503.gif
 		
 anim	freespecial11
 	@cmd	dasher 3 0 0
@@ -191,21 +196,32 @@ anim	freespecial11
 	offset	22 32
 	frame	data/chars/Sonic/373.gif
 		
-anim	freespecial5
-	@cmd	isavailable 3
+anim	freespecial2
+	attack	26 10 22 17 10 0 1 0 0 0
+	@cmd	isavailable 2
 	mponly	1
-	energycost	20
-	offset	30 39
-	sound	data/chars/sonic/sonic_180-20-how-this.wav
-	frame	data/chars/Sonic/425.gif
-	attack	42 4 30 42 15 1 1 0 0 0
+	energycost	10
+	delay	5
+	fastattack	1
+	offset	20 29
+	sound	data/chars/sonic/sonic_180-5-free.wav
+	frame	data/chars/Sonic/450.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	19 35
+	frame	data/chars/Sonic/451.gif
+	attack	24 10 22 18 10 0 1 0 0 0
+	offset	19 35
 	hitfx	data/chars/sonic/sonic_5-73-hit.wav
-	offset	31 44
-	frame	data/chars/Sonic/426.gif
-	offset	29 37
-	frame	data/chars/Sonic/427.gif
-	offset	24 39
-	frame	data/chars/Sonic/428.gif
+	sound	data/chars/sonic/sonic_180-5-free.wav
+	frame	data/chars/Sonic/452.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	18 35
+	frame	data/chars/Sonic/453.gif
+	attack	25 11 27 17 10 0 1 0 0 0
+	offset	21 35
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
+	sound	data/chars/sonic/sonic_180-5-free.wav
+	frame	data/chars/Sonic/454.gif
 		
 anim	freespecial3
 	delay	5
@@ -305,35 +321,21 @@ anim	freespecial4
 	offset	15 32
 	frame	data/chars/Sonic/449.gif
 		
-anim	freespecial
-	delay	7
-	fastattack	1
-	offset	11 23
-	sound	data/chars/sonic/sonic_1-300-dash.wav
-	frame	data/chars/Sonic/504.gif
-	attack	-1 -1 23 23 10 0 1 0 0 0
-	offset	10 21
-	frame	data/chars/Sonic/505.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	11 22
-	frame	data/chars/Sonic/506.gif
-	attack	-2 -2 26 26 20 0 0 1 0 0
-	offset	11 23
-	frame	data/chars/Sonic/507.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	@cmd	dasher 4 0 0
-	@cmd	spawnparent "pdust" -10 0 -20
-	offset	11 25
-	frame	data/chars/Sonic/500.gif
-	attack	-2 -2 26 26 20 0 0 1 0 0
-	offset	10 23
-	frame	data/chars/Sonic/501.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	10 23
-	frame	data/chars/Sonic/502.gif
-	attack	-2 -2 26 26 20 0 0 1 0 0
-	offset	11 25
-	frame	data/chars/Sonic/503.gif
+anim	freespecial5
+	@cmd	isavailable 3
+	mponly	1
+	energycost	20
+	offset	30 39
+	sound	data/chars/sonic/sonic_180-20-how-this.wav
+	frame	data/chars/Sonic/425.gif
+	attack	42 4 30 42 15 1 1 0 0 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
+	offset	31 44
+	frame	data/chars/Sonic/426.gif
+	offset	29 37
+	frame	data/chars/Sonic/427.gif
+	offset	24 39
+	frame	data/chars/Sonic/428.gif
 		
 anim	freespecial6
 	delay	7
@@ -353,28 +355,29 @@ anim	freespecial6
 	frame	data/chars/Sonic/542.gif
 	offset	13 33
 	frame	data/chars/Sonic/543.gif
+	attack	1 1 53 31 100 1 1 0 0 100
 	offset	15 32
 	sound	data/chars/sonic/sonic_5-72-beam.wav
-	@cmd	spawnbind "sonicBeam" 45 -15 0
+	@cmd	spawnbind "sonicBeam" 130 -15 0
 	frame	data/chars/Sonic/544.gif
+	offset	15 32
+	frame	data/chars/Sonic/544.gif
+	attack	1 1 53 31 100 1 1 0 0 100
 	offset	15 32
 	frame	data/chars/Sonic/544.gif
 	offset	15 32
 	frame	data/chars/Sonic/544.gif
+	attack	1 1 53 31 100 1 1 0 0 100
 	offset	15 32
 	frame	data/chars/Sonic/544.gif
 	offset	15 32
 	frame	data/chars/Sonic/544.gif
+	attack	1 1 53 31 100 1 1 0 0 100
 	offset	15 32
 	frame	data/chars/Sonic/544.gif
 	offset	15 32
 	frame	data/chars/Sonic/544.gif
-	offset	15 32
-	frame	data/chars/Sonic/544.gif
-	offset	15 32
-	frame	data/chars/Sonic/544.gif
-	offset	15 32
-	frame	data/chars/Sonic/544.gif
+	attack	1 1 53 31 100 1 1 0 0 100
 	offset	15 32
 	frame	data/chars/Sonic/544.gif
 	offset	15 32
