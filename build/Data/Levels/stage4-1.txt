@@ -11,8 +11,16 @@ spawn1  20  10
 spawn2  5  30
 
 stagenumber 4
+updatescript data/scripts/levels/stage-engine.c
 
-updatescript data/scripts/levels/set2-update.c
+spawn empty
+@script
+void main() {
+	setglobalvar("setupdate", 4);
+}
+@end_script
+coords 1 1
+at 0
 
 spawn ready
 	coords 240 136

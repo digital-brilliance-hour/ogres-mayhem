@@ -1,4 +1,5 @@
 #include "data/scripts/traileru.c"
+#include "data/scripts/levelup/lvup.c"
 
 #define   MODEL_NAME 2
 #define   SELECTABLE 4
@@ -24,6 +25,10 @@ int getScoreLevel(int lvl){
  }else{
  return (lvl - 1) * (lvl/2) * 1000;
  }
+}
+
+int scoreExists(int pindex, int sindex) {
+  return getsaveinfo(sindex, "SCORE", pindex);
 }
 
 void lockBehavior(char player) {
@@ -173,6 +178,7 @@ void main()
          }
       }
       show_enemy_health();
+      setUpdate();
     }
 
     if (openborvariant("game_paused")) {
@@ -229,6 +235,60 @@ void main()
       }*/
 }
   afterImg();
+}
+
+void setUpdate() {
+  if(getglobalvar("setupdate") > 0) {
+    int setnumber = 1;
+    int currentStage = getglobalvar("setupdate");
+    if(currentStage == 6) {
+      setnumber = 2;
+    }
+    log(getsaveinfo(setnumber, "SCORE", 0));
+    int checkScore = getglobalvar("checkSet1Score");
+    if(checkScore != 1) {
+        void p;
+        int i, hp, mp, lv, num;
+        for(i=0; i<4; i++){
+            p = getplayerproperty(i, "entity");
+            num = i+1;
+            if(p){
+                if("Travel"!=getentityproperty(p, "model")) {
+                  if(currentStage == 4) {
+                    if(scoreExists(i, 1) < 1) {
+                      if(scoreExists(i, 0) < 21000) {
+                        changeplayerproperty(i, "score", 21500);
+                        lvup(i);
+
+                      }
+                      else {
+                        changeplayerproperty(i, "score", scoreExists(i, 0));
+                      lvup(i);
+
+                      }
+                    }
+                  }
+                  if(currentStage == 6) {
+                    if(scoreExists(i, 2) < 1) {
+                      if(scoreExists(i, 1) < 45000) {
+                        changeplayerproperty(i, "score", 45500);
+                        lvup(i);
+
+                      }
+                      else {
+                        changeplayerproperty(i, "score", scoreExists(i, 0));
+                      lvup(i);
+
+                      }
+                    }
+                  }
+                }
+            }
+        }
+        setglobalvar("checkSet1Score", 1);
+        setglobalvar("setupdate", NULL());
+    }
+  }
 }
 
 void oncreate(){
