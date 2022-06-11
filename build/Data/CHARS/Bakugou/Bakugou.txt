@@ -1,4 +1,4 @@
-name    Bakugo
+name    Bakugou
 type enemy
 health 500
 speed 25
@@ -45,6 +45,7 @@ com d s freespecial4
 com d f s freespecial7
 com d b s freespecial8
 com d u s freespecial9
+
 
 
 
@@ -236,6 +237,7 @@ anim	freespecial3
 	@cmd	changedrawmethod getlocalvar("currentSpawn") "scaley" 64
 	@cmd	changeentityproperty getlocalvar("currentSpawn") "setlayer" 1000
 	frame	data/chars/Bakugou/45.gif
+	attack	11 1 72 41 60 1 1 0 50 50
 	@cmd	shoot "bFireBlast1" 40 0 -20
 	@cmd	changedrawmethod getlocalvar("currentSpawn") "enabled" 1
 	@cmd	changedrawmethod getlocalvar("currentSpawn") "scalex" 128
