@@ -21,6 +21,7 @@ alpha 1
 
 
 
+
 anim	idle
 	drawmethod	scale 0.5
 	drawmethod	tintmode 4
@@ -28,6 +29,7 @@ anim	idle
 	drawmethod	channel 0.50
 	delay	5
 	offset	207 450
+	sound	data/chars/sonic/sonic_5-65-wind.wav
 	frame	data/chars/Sonic/2930.gif
 	offset	207 450
 	frame	data/chars/Sonic/2931.gif

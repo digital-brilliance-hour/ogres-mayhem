@@ -334,6 +334,7 @@ know redAura data/chars/Yusuke/redAura.txt
 know blueAura data/chars/Yusuke/blueAura.txt
 know yellowAura data/chars/Yusuke/yellowAura.txt
 know sonicBlast data/chars/Sonic/sonicBlast.txt
+know sonicBeam data/chars/Sonic/sonicBeam.txt
 know sonicDash data/chars/Sonic/sonicDash.txt
 know sonicWhirlwind data/chars/Sonic/sonicWhirlwind.txt
 know sonicWhirlwindBottom data/chars/Sonic/sonicWhirlwindBottom.txt

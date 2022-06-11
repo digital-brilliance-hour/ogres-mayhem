@@ -59,16 +59,22 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
+
+
+
 anim	attack1
 	delay	4
 	offset	7 34
 	frame	data/chars/Sonic/60.gif
 	offset	10 35
+	sound	data/chars/sonic/sonic_180-50-attack.wav
 	frame	data/chars/Sonic/61.gif
 	offset	11 36
 	frame	data/chars/Sonic/62.gif
 	attack	20 18 26 14 8 0 1 0 0 0
 	offset	15 39
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	frame	data/chars/Sonic/63.gif
 		
 anim	attack2
@@ -79,6 +85,7 @@ anim	attack2
 	frame	data/chars/Sonic/226.gif
 	attack	24 17 25 16 9 0 1 0 0 0
 	offset	12 40
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	frame	data/chars/Sonic/227.gif
 	offset	11 40
 	frame	data/chars/Sonic/228.gif
@@ -91,12 +98,14 @@ anim	attack3
 	attack	0 0 0 0 0 0 0 0 0 0
 	delay	7
 	offset	17 33
+	sound	data/chars/sonic/sonic_180-50-attack.wav
 	frame	data/chars/Sonic/265.gif
 	@cmd	leaper 0 1 0
 	offset	20 42
 	frame	data/chars/Sonic/266.gif
 	attack	21 5 35 48 10 1 1 0 0 0
 	dropv	2 4 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	24 47
 	frame	data/chars/Sonic/267.gif
 	offset	24 51
@@ -113,6 +122,7 @@ anim	attack3
 anim	chargeattack
 	delay	7
 	offset	16 34
+	sound	data/chars/sonic/sonic_1-300-dash.wav
 	frame	data/chars/Sonic/297.gif
 	@cmd	dasher 4 0 0
 	@cmd	spawnparent "sonicDash" 30 0 -5
@@ -210,46 +220,57 @@ anim	freespecial
 	offset	18 36
 	frame	data/chars/Sonic/251.gif
 	attack	19 3 24 41 10 0 1 0 20 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	18 39
 	mpcost	10
+	sound	data/chars/sonic/sonic_180-5-free.wav
 	frame	data/chars/Sonic/252.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	16 38
 	frame	data/chars/Sonic/253.gif
 	attack	18 5 28 35 10 0 1 0 20 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	16 35
 	frame	data/chars/Sonic/254.gif
 	offset	18 36
 	frame	data/chars/Sonic/251.gif
 	attack	19 3 24 41 10 0 1 0 20 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	18 39
 	frame	data/chars/Sonic/252.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	16 38
 	frame	data/chars/Sonic/253.gif
 	attack	18 5 28 35 10 0 1 0 20 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	16 35
 	frame	data/chars/Sonic/254.gif
 	offset	18 36
 	frame	data/chars/Sonic/251.gif
 	attack	19 3 24 41 10 0 1 0 20 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	18 39
+	sound	data/chars/sonic/sonic_180-5-free.wav
 	frame	data/chars/Sonic/252.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	16 38
 	frame	data/chars/Sonic/253.gif
 	attack	18 5 28 35 10 0 1 0 20 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	16 35
 	frame	data/chars/Sonic/254.gif
 	offset	18 36
 	frame	data/chars/Sonic/251.gif
 	attack	19 3 24 41 10 0 1 0 20 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	18 39
+	sound	data/chars/sonic/sonic_180-5-free.wav
 	frame	data/chars/Sonic/252.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	16 38
 	frame	data/chars/Sonic/253.gif
 	attack	18 5 28 35 10 0 1 0 20 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	16 35
 	frame	data/chars/Sonic/254.gif
 		
@@ -298,6 +319,7 @@ anim	freespecial2
 	energycost	20
 	delay	4
 	offset	13 32
+	sound	data/chars/sonic/sonic_180-13-free-2.wav
 	frame	data/chars/Sonic/234.gif
 	offset	8 36
 	frame	data/chars/Sonic/235.gif
@@ -305,6 +327,7 @@ anim	freespecial2
 	frame	data/chars/Sonic/236.gif
 	attack	17 10 23 18 8 0 1 0 20 0
 	offset	9 37
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	mpcost	20
 	frame	data/chars/Sonic/237.gif
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -314,6 +337,7 @@ anim	freespecial2
 	frame	data/chars/Sonic/239.gif
 	attack	17 12 29 17 10 0 1 0 20 0
 	offset	12 35
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	frame	data/chars/Sonic/240.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	15 36
@@ -322,6 +346,7 @@ anim	freespecial2
 	frame	data/chars/Sonic/247.gif
 	attack	25 7 30 34 8 0 1 0 20 0
 	offset	23 40
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	frame	data/chars/Sonic/248.gif
 	offset	21 40
 	frame	data/chars/Sonic/249.gif
@@ -334,13 +359,16 @@ anim	freespecial2
 	frame	data/chars/Sonic/308.gif
 	attack	20 11 16 23 5 0 1 0 20 0
 	offset	12 33
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	frame	data/chars/Sonic/309.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	15 37
 	frame	data/chars/Sonic/313.gif
 	offset	14 40
 	frame	data/chars/Sonic/314.gif
 	attack	22 8 29 35 18 1 1 0 20 0
 	dropv	2 5 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	17 40
 	frame	data/chars/Sonic/315.gif
 	offset	15 42
@@ -355,6 +383,7 @@ anim	freespecial3
 	mponly	1
 	delay	10
 	offset	16 35
+	sound	data/chars/sonic/sonic_180-50-attack.wav
 	frame	data/chars/Sonic/329.gif
 	attack	18 4 24 39 10 0 1 0 20 0
 	delay	3
@@ -365,6 +394,7 @@ anim	freespecial3
 	frame	data/chars/Sonic/331.gif
 	attack	18 6 43 45 20 1 1 0 20 10
 	dropv	5 3 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	13 47
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	projectile 1 "sonicBlast" 40 1 -7 1 0
@@ -398,10 +428,12 @@ anim	freespecial4
 	offset	12 33
 	frame	data/chars/Sonic/74.gif
 	offset	14 40
+	sound	data/chars/sonic/sonic_180-57-free-4.wav
 	frame	data/chars/Sonic/75.gif
 	offset	12 35
 	frame	data/chars/Sonic/76.gif
 	offset	18 32
+	@cmd	spawnbind "g_charge2" -5 0 -20
 	frame	data/chars/Sonic/77.gif
 	offset	21 24
 	frame	data/chars/Sonic/78.gif
@@ -423,6 +455,8 @@ anim	freespecial5
 	delay	5
 	fastattack	1
 	attack	24 11 60 35 10 0 1 0 20 10
+	sound	data/chars/sonic/sonic_180-71-free-5.wav
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	19 40
 	frame	data/chars/Sonic/310.gif
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -430,30 +464,35 @@ anim	freespecial5
 	mpcost	30
 	frame	data/chars/Sonic/311.gif
 	attack	24 11 60 41 10 0 0 1 20 10
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	20 46
 	frame	data/chars/Sonic/312.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	19 40
 	frame	data/chars/Sonic/310.gif
 	attack	24 11 60 41 10 0 1 0 20 10
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	20 47
 	frame	data/chars/Sonic/311.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	20 46
 	frame	data/chars/Sonic/312.gif
 	attack	24 11 60 35 10 0 1 0 20 10
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	19 40
 	frame	data/chars/Sonic/310.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	20 47
 	frame	data/chars/Sonic/311.gif
 	attack	24 11 60 41 10 0 0 1 20 10
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	stun	1
 	offset	20 46
 	frame	data/chars/Sonic/312.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	17 40
 	delay	10
+	sound	data/chars/sonic/sonic_180-13-free-2.wav
 	frame	data/chars/Sonic/51.gif
 	offset	13 39
 	frame	data/chars/Sonic/52.gif
@@ -478,6 +517,7 @@ anim	freespecial5
 	offset	16 35
 	frame	data/chars/Sonic/329.gif
 	attack	18 4 24 39 10 0 1 0 20 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	delay	3
 	@cmd	stop
 	offset	16 39
@@ -486,6 +526,7 @@ anim	freespecial5
 	offset	14 50
 	frame	data/chars/Sonic/331.gif
 	attack	18 6 43 45 20 1 1 0 20 10
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	dropv	5 3 0
 	offset	13 47
 	frame	data/chars/Sonic/332.gif
@@ -500,6 +541,7 @@ anim	freespecial6
 	offset	17 40
 	frame	data/chars/Sonic/573.gif
 	offset	20 42
+	sound	data/chars/sonic/sonic_180-33-free-6.wav
 	frame	data/chars/Sonic/574.gif
 	delay	5
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
@@ -592,12 +634,14 @@ anim	jumpattack
 	offset	13 37
 	frame	data/chars/Sonic/275.gif
 	attack	19 17 27 32 7 0 1 0 0 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	12 38
 	frame	data/chars/Sonic/276.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	12 37
 	frame	data/chars/Sonic/277.gif
 	attack	16 10 22 32 7 1 1 0 0 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	11 37
 	frame	data/chars/Sonic/278.gif
 	offset	14 39
@@ -616,6 +660,7 @@ anim	jumpattack2
 	offset	20 41
 	frame	data/chars/Sonic/284.gif
 	attack	18 6 29 36 10 1 1 0 0 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	dropv	0 -4 0
 	offset	16 41
 	frame	data/chars/Sonic/285.gif
@@ -640,6 +685,7 @@ anim	jumpattack3
 anim	pain
 	delay	7
 	offset	16 36
+	sound	data/chars/sonic/sonic_180-11-pain.wav
 	frame	data/chars/Sonic/577.gif
 	offset	14 34
 	frame	data/chars/Sonic/580.gif
@@ -686,8 +732,10 @@ anim	run
 anim	runattack
 	delay	7
 	offset	15 40
+	sound	data/chars/sonic/sonic_180-50-attack.wav
 	frame	data/chars/Sonic/258.gif
 	attack	24 3 32 56 10 1 1 0 20 0
+	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	@cmd	leaper 1 1 0
 	dropv	2 5 0
 	offset	19 43
@@ -700,6 +748,7 @@ anim	runattack
 anim	select
 	delay	7
 	offset	17 40
+	sound	data/chars/sonic/sonic_180-88-select.wav
 	frame	data/chars/Sonic/51.gif
 	offset	13 39
 	frame	data/chars/Sonic/52.gif
@@ -724,6 +773,7 @@ anim	walk
 	frame	data/chars/Sonic/16.gif
 	bbox	11 7 23 32
 	offset	19 38
+	sound	data/sounds/walk.wav
 	frame	data/chars/Sonic/17.gif
 	bbox	9 7 23 32
 	offset	16 37

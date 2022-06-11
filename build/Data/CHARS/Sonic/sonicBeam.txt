@@ -1,0 +1,59 @@
+name	sonicBeam
+speed   30
+type 	none
+shadow	0
+remove 0
+alpha 1
+candamage enemy
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	loop	0
+	drawmethod	scale 0.3
+	drawmethod	scalex 0.4
+	delay	3
+	offset	312 302
+	frame	data/chars/Sonic/2767.gif
+	attack	236 69 131 231 100 1 0 0 0 100
+	offset	300 307
+	frame	data/chars/Sonic/2768.gif
+	offset	297 310
+	frame	data/chars/Sonic/2769.gif
+	attack	260 104 176 180 100 1 1 0 0 100
+	offset	313 317
+	frame	data/chars/Sonic/2770.gif
+	frame	data/chars/Sonic/2771.gif
+	attack	260 94 293 190 100 1 1 0 0 100
+	frame	data/chars/Sonic/2772.gif
+	frame	data/chars/Sonic/2773.gif
+	attack	260 88 291 197 100 1 1 0 0 100
+	frame	data/chars/Sonic/2774.gif
+	frame	data/chars/Sonic/2775.gif
+	attack	260 106 291 171 100 1 1 0 0 100
+	frame	data/chars/Sonic/2776.gif
+	frame	data/chars/Sonic/2777.gif
+	attack	260 114 291 169 100 1 1 0 0 100
+	frame	data/chars/Sonic/2778.gif
+	frame	data/chars/Sonic/2779.gif
+	attack	260 112 291 167 100 1 1 0 0 100
+	frame	data/chars/Sonic/2809.gif
+	frame	data/chars/Sonic/2810.gif
+	attack	260 108 291 180 80 1 1 0 0 100
+	frame	data/chars/Sonic/2811.gif
+	frame	data/chars/Sonic/2812.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		
