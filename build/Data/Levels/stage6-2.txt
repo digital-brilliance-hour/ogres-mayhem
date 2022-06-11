@@ -3,6 +3,7 @@ panel data/bgs/stage-5/n.gif none none
 order aaaa
 
 stagenumber 6
+updatescript data/scripts/levels/stage-engine.c
 
 spawn ready
 	coords 240 136
@@ -397,7 +398,8 @@ noatk_duration 900
 coords 530 250
 at 1532
 
-
+group 100 100
+at 2000
 
 spawn soldier
 @script
@@ -795,13 +797,13 @@ spawn empty
 @script
 void main() {
 setglobalvar("bossInterlude", 1);
-setglobalvar("bossStopX", 3646);
+setglobalvar("bossStopX", 3846);
 setglobalvar("bossStopY0", 107);
 setglobalvar("bossDialog", "sasukedialog");
 }
 @end_script
 coords 1 1
-at 3146
+at 3346
 
 spawn bakugou
 boss 1
@@ -818,10 +820,10 @@ void main() {
 @end_script
 alias  Bakugo
 coords	530 156
-at 3312
+at 3512
 
 wait
-at 3527
+at 3728
 
 ##Place reinforcements at 3527
 
