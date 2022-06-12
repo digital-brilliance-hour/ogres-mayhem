@@ -1,3 +1,5 @@
+_playmusic 0 data/music/dialog.ogg
 Asuma 0 Battle_is_just_like_shogi,_you_have_to_be
 Asuma 0 _2_steps_ahead_of_your_opponent.
+_playmusic 0 data/music/stage4-2boss.ogg
 end

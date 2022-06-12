@@ -1,5 +1,5 @@
 name SuperSonic
-type player
+type none
 shadow 3
 health 100
 speed 20
@@ -31,6 +31,7 @@ parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
 weaploss 3
 modelflag 3
+
 
 
 
@@ -120,6 +121,42 @@ anim	attack5
 	frame	data/chars/Sonic/471.gif
 	offset	17 33
 	frame	data/chars/Sonic/472.gif
+		
+anim	dodge
+	delay	7
+	offset	11 36
+	frame	data/chars/Sonic/339.gif
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	drawmethod	rotate 90 sound	data/chars/yusuke/broly_5-22.wav
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	delay	7
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	drawmethod	rotate 0
+	offset	11 36
+	frame	data/chars/Sonic/339.gif
 		
 anim	fall
 	offset	18 39

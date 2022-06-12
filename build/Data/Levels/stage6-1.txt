@@ -161,7 +161,7 @@ void main() {
 setglobalvar("bossInterlude", 1);
 setglobalvar("bossStopX", 2070);
 setglobalvar("bossStopY0", 107);
-setglobalvar("bossDialog", "zetsudialog"); //This is whatever the dialog alias is for the stage
+setglobalvar("bossDialog", "acedialog"); //This is whatever the dialog alias is for the stage
 }
 @end_script
 coords 1 1

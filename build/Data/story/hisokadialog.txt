@@ -1,3 +1,5 @@
+_playmusic 0 data/music/dialog.ogg
 Hisoka 0 Don't_look_at_me_like_that! You're_making_me_all...
 Hisoka 0 _EXCITED!
+_playmusic 0 data/music/stage5-2boss.ogg
 end

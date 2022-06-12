@@ -799,7 +799,7 @@ void main() {
 setglobalvar("bossInterlude", 1);
 setglobalvar("bossStopX", 3846);
 setglobalvar("bossStopY0", 107);
-setglobalvar("bossDialog", "sasukedialog");
+setglobalvar("bossDialog", "bakugodialog");
 }
 @end_script
 coords 1 1

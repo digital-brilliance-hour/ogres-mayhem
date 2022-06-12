@@ -63,6 +63,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	4
 	offset	7 34
@@ -416,6 +417,7 @@ anim	freespecial4
 	frame	data/chars/Sonic/69.gif
 	@cmd	changeopenborvariant "slowmotion" 0
 	delay	7
+	sound	data/chars/sonic/sonic_180-57-free-4.wav
 	offset	15 36
 	frame	data/chars/Sonic/70.gif
 	offset	12 33
@@ -428,7 +430,6 @@ anim	freespecial4
 	offset	12 33
 	frame	data/chars/Sonic/74.gif
 	offset	14 40
-	sound	data/chars/sonic/sonic_180-57-free-4.wav
 	frame	data/chars/Sonic/75.gif
 	offset	12 35
 	frame	data/chars/Sonic/76.gif

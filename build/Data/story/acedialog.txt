@@ -1,0 +1,4 @@
+_playmusic 0 data/music/dialog.ogg
+Ace 0 I_am_fire_itself. You_can't_even_touch_me.
+_playmusic 0 data/music/stage6-1boss.ogg
+end
