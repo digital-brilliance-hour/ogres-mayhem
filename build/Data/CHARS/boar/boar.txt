@@ -20,6 +20,7 @@ hostile npc player
 
 
 
+
 anim	attack1
 	loop	0
 	delay	5
@@ -52,7 +53,7 @@ anim	idle
 	loop	1
 	delay	15
 	offset	38 77
-	bbox	50 56 22 24
+	bbox	5 23 32 55
 	frame	data/chars/Boar/idle00.gif
 	frame	data/chars/Boar/idle01.gif
 	frame	data/chars/Boar/idle02.gif
@@ -80,7 +81,7 @@ anim	walk
 	loop	1
 	delay	10
 	offset	38 77
-	bbox	50 56 22 24
+	bbox	17 28 24 52
 	frame	data/chars/Boar/walk00.gif
 	frame	data/chars/Boar/walk01.gif
 	frame	data/chars/Boar/walk02.gif
