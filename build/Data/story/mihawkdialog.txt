@@ -1,3 +1,5 @@
+_playmusic 0 data/music/dialog.ogg
 Mihawk 0 Is_it_your_courage_or_your_ignorance_that_causes
 Mihawk 0 _you_to_raise_a_sword_against_me?
+_playmusic 0 data/music/stage4-1boss.ogg
 end

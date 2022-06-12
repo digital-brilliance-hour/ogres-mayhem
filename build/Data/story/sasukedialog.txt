@@ -1,3 +1,5 @@
+_playmusic 0 data/music/dialog.ogg
 Sasuke 0 I_spent_my_life_seeking_revenge._Now_I_only_seek_
 Sasuke 0 power._To_protect_the_Uchiha_name,_I_will_defeat_you
+_playmusic 0 data/music/stage1-boss.ogg
 end

@@ -81,6 +81,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	delay	4
 	sound	data/chars/deku/deku_0-0.wav
@@ -88,7 +89,7 @@ anim	attack1
 	frame	data/chars/Deku/61.gif
 	offset	16 43
 	frame	data/chars/Deku/62.gif
-	attack	26 12 27 12 16 0 1 0 20 0
+	attack	23 1 35 29 16 0 1 0 20 0
 	offset	16 43
 	frame	data/chars/Deku/63.gif
 		

@@ -3,6 +3,7 @@ type none
 shadow	0
 alpha 5
 setlayer 1000
+palette none
 
 
 

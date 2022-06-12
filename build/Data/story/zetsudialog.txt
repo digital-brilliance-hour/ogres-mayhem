@@ -1,3 +1,5 @@
+_playmusic 0 data/music/dialog.ogg
 Zetsu 0 When_you're_sad_and_alone..._
 Zetsu 0 The_only_one_you_can_count_on_is_yourself.
+_playmusic 0 data/music/stage5-1boss.ogg
 end

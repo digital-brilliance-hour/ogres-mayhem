@@ -1,0 +1,5 @@
+_playmusic 0 data/music/dialog.ogg
+Bakugou 0 I'll_Win..._Because_THAT'S_what_it_means
+Bakugou 0 to_be_a_HERO!!
+_playmusic 0 data/music/stage6-2boss.ogg 
+end
