@@ -5,6 +5,15 @@ order aaa
 stagenumber 6
 updatescript data/scripts/levels/stage-engine.c
 
+spawn empty
+@script
+void main() {
+	setglobalvar("setupdate", 6);
+}
+@end_script
+coords 1 1
+at 0
+
 spawn ready
 	coords 240 136
 	at 0

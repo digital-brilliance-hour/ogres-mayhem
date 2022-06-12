@@ -11,8 +11,16 @@ spawn1  20  10
 spawn2  5  30
 
 stagenumber 4
+updatescript data/scripts/levels/stage-engine.c
 
-updatescript data/scripts/levels/set2-update.c
+spawn empty
+@script
+void main() {
+	setglobalvar("setupdate", 4);
+}
+@end_script
+coords 1 1
+at 0
 
 spawn ready
 	coords 240 136
@@ -149,29 +157,43 @@ health 50
 coords  80 188
 at      170
 
-spawn warning
-coords 240 136
-flip 1
-at 698
+spawn empty
+@script
+void main() {
+setglobalvar("bossInterlude", 1);
+setglobalvar("bossStopX", 715);
+setglobalvar("bossStopY0", 107);
+setglobalvar("bossDialog", "mihawkdialog"); //This is whatever the dialog alias is for the stage
+}
+@end_script
+coords 1 1
+at 200
 
-spawn Story
-alias mihawkdialog
-at 699
+spawn   mihawk
+boss 1
+@script
+void main() {
+     void self = getlocalvar("self");
+     changeentityproperty(self, "noaicontrol", 1);
+     changeentityproperty(self, "subject_to_screen", 0);
+     changeentityproperty(self, "aiflag", "walking", 0);
+     changeentityproperty(self, "aiflag", "idling", 0);
+     changeentityproperty(self, "aiflag", "attacking", 0);
+     changeentityproperty(self, "animation", openborconstant("ANI_IDLE"));
+}
+@end_script
+alias Mihawk
+health  400
+3phealth 800
+4phealth 1200
+coords  530 180
+at      470
 
 wait
 at 700
 
 group 2 4
-at 700
-
-spawn   mihawk
-boss 1
-alias Mihawk
-health  400
-3phealth 800
-4phealth 1200
-coords  300 180
-at      700
+at 594
 
 spawn   Sogeking
 item mp_hundred
