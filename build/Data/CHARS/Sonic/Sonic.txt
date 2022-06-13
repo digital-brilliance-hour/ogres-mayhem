@@ -64,6 +64,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	4
 	offset	7 34
@@ -214,8 +215,8 @@ anim	forwardjump
 		
 anim	freespecial
 	@cmd	isavailable 2
-	mponly	1
 	energycost	10
+	mponly	1
 	delay	5
 	fastattack	1
 	offset	18 36
@@ -316,8 +317,8 @@ anim	freespecial11
 		
 anim	freespecial2
 	@cmd	isavailable 3
-	mponly	1
 	energycost	20
+	mponly	1
 	delay	4
 	offset	13 32
 	sound	data/chars/sonic/sonic_180-13-free-2.wav
@@ -451,8 +452,8 @@ anim	freespecial4
 		
 anim	freespecial5
 	@cmd	isavailable 5
+	energycost	30
 	mponly	1
-	energycost	50
 	delay	5
 	fastattack	1
 	attack	24 11 60 35 10 0 1 0 20 10

@@ -819,6 +819,7 @@ void main() {
 }
 @end_script
 alias  Bakugo
+health 1100
 coords	530 156
 at 3512
 

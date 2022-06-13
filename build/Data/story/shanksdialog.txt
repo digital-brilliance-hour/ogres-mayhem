@@ -1,4 +1,6 @@
 _playmusic 0 data/music/dialog.ogg
-Shanks 0 Shrek_thinks_he’s_won._Maybe_he_has._Let_me_see_if_you
-Shanks 0 have_what_it_takes_to_bring_him_down.
+Shanks 0 Shrek_thinks_he's_won._Maybe_he_has.
+Shanks 0 Let_me_see_if_you_have_what_it_takes
+Shanks 0 to_bring_him_down.
+_playmusic 0 data/music/stage7-boss.ogg 
 end

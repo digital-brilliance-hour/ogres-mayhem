@@ -117,6 +117,10 @@ void sendDialogMsg()
 			loop = 892353;
 			playmusic(message,1, loop);
 		}
+		else if(name == "Shanks") {
+			loop = 884092;
+			playmusic(message,1, loop);
+		}
 		else {
 			playmusic(message,1);
 		}
