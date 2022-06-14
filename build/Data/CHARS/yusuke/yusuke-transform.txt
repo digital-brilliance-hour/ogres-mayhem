@@ -52,6 +52,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	delay	3
 	offset	23 47
@@ -155,7 +156,7 @@ anim	freespecial
 	@cmd	dasher 1 0 0
 	offset	21 49
 	frame	data/chars/yusuke/283.gif
-	attack	38 5 37 30 40 1 1 0 20 20
+	attack	1 2 99 37 40 1 1 0 40 40
 	dropv	2 6 0
 	offset	15 39
 	frame	data/chars/yusuke/284.gif
