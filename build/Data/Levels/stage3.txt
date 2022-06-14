@@ -117,6 +117,9 @@ health 200
 coords 460 260
 at 500
 
+wait
+at 1300
+
 spawn   facce
 coords	100 270
 at      1300
