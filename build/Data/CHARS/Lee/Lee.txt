@@ -62,6 +62,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	4
 	offset	13 44
@@ -213,7 +214,7 @@ anim	follow1
 		
 anim	freespecial
 	@cmd	isavailable 2
-	mpcost	10
+	@cmd	mpcost	10
 	mponly	1
 	fastattack	1
 	mponly	1

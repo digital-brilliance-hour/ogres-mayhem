@@ -47,6 +47,7 @@ modelflag 3
 
 
 
+
 anim	attack1
 	delay	3
 	offset	13 38
@@ -172,8 +173,7 @@ anim	fall
 anim	freespecial
 	delay	7
 	fastattack	1
-	energycost	10
-	mponly	1
+	@cmd	mpcost 10
 	offset	11 23
 	sound	data/chars/sonic/sonic_1-300-dash.wav
 	frame	data/chars/Sonic/504.gif
@@ -239,7 +239,7 @@ anim	freespecial11
 anim	freespecial2
 	attack	26 10 22 17 10 0 1 0 0 0
 	mponly	1
-	energycost	20
+	@cmd	mpcost	20
 	delay	5
 	fastattack	1
 	offset	20 29
@@ -363,8 +363,9 @@ anim	freespecial4
 	frame	data/chars/Sonic/449.gif
 		
 anim	freespecial5
+	delay	5
 	mponly	1
-	energycost	30
+	@cmd	mpcost	30
 	offset	30 39
 	sound	data/chars/sonic/sonic_180-20-how-this.wav
 	frame	data/chars/Sonic/425.gif

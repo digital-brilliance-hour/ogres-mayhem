@@ -39,6 +39,7 @@ weaploss 3
 
 
 
+
 anim	attack1
 	shadowcoords	18 77
 	delay	7
@@ -322,7 +323,7 @@ anim	freespecial2
 	frame	data/chars/Goku/spec21.gif
 		
 anim	freespecial3
-	mpcost	20
+	@cmd	mpcost	20
 	mponly	1
 	loop	0
 	shadowcoords	18 77
@@ -375,7 +376,7 @@ anim	freespecial3
 	frame	data/chars/Goku/ppole10.gif
 		
 anim	freespecial4
-	mpcost	15
+	@cmd	mpcost	10
 	mponly	1
 	delay	9
 	offset	25 77

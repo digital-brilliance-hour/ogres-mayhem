@@ -16,7 +16,6 @@ com      a2 freespecial
 com      a3 freespecial2
 com      a4 freespecial3
 
-script data/scripts/playerscript.c
 ondeathscript data/scripts/bossdeath.c
 
 lifebarstatus 380 5 0 1 0 0 0 0 0
@@ -175,7 +174,7 @@ anim	land
 anim	pain
 	loop	0
 	offset	58 116
-	delay	30
+	delay	3
 	frame	data/chars/Ikkaku/Free1.gif
 		
 anim	rise
@@ -202,7 +201,7 @@ anim	select
 	frame	data/chars/Ikkaku/Select11.gif
 	frame	data/chars/Ikkaku/Select12.gif
 		
-anim	special
+anim	freespecial2
 	mpcost	0
 	mponly	1
 	loop	0

@@ -64,6 +64,7 @@ modelflag 3
 
 
 
+
 anim	attack1
 	delay	3
 	offset	25 47
@@ -201,7 +202,7 @@ anim	follow1
 		
 anim	freespecial
 	@cmd	isavailable 2
-	mpcost	10
+	@cmd	mpcost	10
 	delay	7
 	offset	25 47
 	frame	data/chars/Ichigo_Bankai/123.gif
@@ -283,7 +284,7 @@ anim	freespecial11
 		
 anim	freespecial2
 	@cmd	isavailable 3
-	mpcost	20
+	@cmd	mpcost	20
 	delay	7
 	offset	44 44
 	frame	data/chars/Ichigo_Bankai/161.gif
@@ -343,7 +344,7 @@ anim	freespecial3
 		
 anim	freespecial5
 	@cmd	isavailable 5
-	mpcost	30
+	@cmd	mpcost	30
 	delay	7
 	offset	25 47
 	frame	data/chars/Ichigo_Bankai/181.gif

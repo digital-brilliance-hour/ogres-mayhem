@@ -40,6 +40,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	loop	0
 	delay	5
@@ -169,9 +170,8 @@ anim	fall
 	frame	data/chars/Goku-normal/fall04.gif
 		
 anim	freespecial
-	mpcost	10
-	mponly	1
 	@cmd	isavailable 2
+	@cmd	mpcost 10
 	loop	0
 	offset	43 78
 	range	0 200
@@ -266,7 +266,7 @@ anim	freespecial11
 		
 anim	freespecial2
 	@cmd	isavailable 3
-	mpcost	20
+	@cmd	mpcost	20
 	mponly	1
 	loop	0
 	offset	43 86

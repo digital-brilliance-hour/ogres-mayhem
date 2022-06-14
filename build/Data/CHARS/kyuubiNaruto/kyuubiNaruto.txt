@@ -42,6 +42,7 @@ weaploss 3
 
 
 
+
 anim	attack1
 	delay	2
 	offset	32 61
@@ -224,6 +225,7 @@ anim	follow4
 anim	freespecial
 	delay	3
 	fastattack	1
+	@cmd	mpcost 10
 	offset	50 60
 	frame	data/chars/kyuubiNaruto/237.gif
 	@cmd	sampleplay "data/chars/kyuubiNaruto/kyuubi_15-1.wav" 0
@@ -295,6 +297,7 @@ anim	freespecial11
 		
 anim	freespecial2
 	delay	3
+	@cmd	mpcost 20
 	fastattack	1
 	sound	data/chars/kyuubiNaruto/kyuubi_3-10.wav
 	offset	32 61
@@ -350,6 +353,7 @@ anim	freespecial2
 anim	freespecial3
 	delay	7
 	offset	36 70
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	frame	data/chars/kyuubiNaruto/209.gif
 	sound	data/chars/kyuubiNaruto/kyuubi_5-2.wav
 	offset	29 67
@@ -382,6 +386,7 @@ anim	freespecial3
 anim	freespecial5
 	delay	10
 	fastattack	1
+	@cmd	mpcost 30
 	@cmd	pause_all 1 470
 	offset	48 54
 	frame	data/chars/kyuubiNaruto/228.gif
@@ -537,6 +542,7 @@ anim	freespecial5
 anim	freespecial6
 	delay	5
 	offset	42 57
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	frame	data/chars/kyuubiNaruto/fillkyuubi/combo_22.gif
 	offset	32 64
 	frame	data/chars/kyuubiNaruto/fillkyuubi/495.gif

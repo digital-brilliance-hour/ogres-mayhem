@@ -4,9 +4,10 @@ speed 12
 running	18	3	2	1
 type	enemy
 shadow	2
+subtype chase
 aimove chase
 aggression  20
-escapehits 1
+escapehits 2
 riseinv 2 0
 candamage player npc
 subject_to_screen 1
@@ -29,7 +30,6 @@ nameposition 60 225
 iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
 script data/scripts/bosses/update.c
-takedamagescript data/scripts/bosses/attacked.c
 
 weapons sasukeTransform Sasuke_E
 weaploss 3
@@ -145,6 +145,59 @@ anim	freespecial
 	frame	data/chars/Sasuke/katon07.gif
 	delay	30
 	frame	data/chars/Sasuke/katon00.gif
+		
+anim	freespecial2
+	loop	0
+	delay	10
+	offset	60 116
+	frame	data/chars/Sasuke/chdri00.gif
+	frame	data/chars/Sasuke/chdri01.gif
+	frame	data/chars/Sasuke/chdri02.gif
+	frame	data/chars/Sasuke/chdri03.gif
+	delay	7
+	frame	data/chars/Sasuke/chdri06.gif
+	frame	data/chars/Sasuke/chdri03.gif
+	frame	data/chars/Sasuke/chdri06.gif
+	frame	data/chars/Sasuke/chdri03.gif
+	frame	data/chars/Sasuke/chdri04.gif
+	frame	data/chars/Sasuke/chdri05.gif
+	frame	data/chars/Sasuke/chdri06.gif
+	frame	data/chars/Sasuke/chdri07.gif
+	frame	data/chars/Sasuke/chdri08.gif
+	blast	37 82 52 41 30 1
+	frame	data/chars/Sasuke/chdri09.gif
+	frame	data/chars/Sasuke/chdri10.gif
+	frame	data/chars/Sasuke/chdri11.gif
+	frame	data/chars/Sasuke/chdri12.gif
+	frame	data/chars/Sasuke/chdri13.gif
+	frame	data/chars/Sasuke/chdri14.gif
+	blast	0
+	frame	data/chars/Sasuke/chdri15.gif
+	move	3
+	blast	9 82 66 35 30 1
+	frame	data/chars/Sasuke/chdri16.gif
+	frame	data/chars/Sasuke/chdri17.gif
+	delay	3
+	move	20
+	blast	31 69 79 37 30 1
+	frame	data/chars/Sasuke/chdri18.gif
+	frame	data/chars/Sasuke/chdri18.gif
+	frame	data/chars/Sasuke/chdri18.gif
+	frame	data/chars/Sasuke/chdri19.gif
+	frame	data/chars/Sasuke/chdri19.gif
+	frame	data/chars/Sasuke/chdri19.gif
+	move	3
+	frame	data/chars/Sasuke/chdri19.gif
+	frame	data/chars/Sasuke/chdri19.gif
+	frame	data/chars/Sasuke/chdri19.gif
+	delay	7
+	move	0
+	frame	data/chars/Sasuke/chdri20.gif
+	frame	data/chars/Sasuke/chdri21.gif
+	frame	data/chars/Sasuke/chdri22.gif
+	blast	0
+	delay	30
+	frame	data/chars/Sasuke/chdri23.gif
 		
 anim	get
 	loop	0
@@ -265,58 +318,22 @@ anim	runattack
 	delay	7
 	frame	data/chars/Sasuke/rush03.gif
 		
-anim	special
-	loop	0
-	delay	10
+anim	special2
+	delay	2
 	offset	60 116
-	frame	data/chars/Sasuke/chdri00.gif
-	frame	data/chars/Sasuke/chdri01.gif
-	frame	data/chars/Sasuke/chdri02.gif
-	frame	data/chars/Sasuke/chdri03.gif
-	delay	7
-	frame	data/chars/Sasuke/chdri06.gif
-	frame	data/chars/Sasuke/chdri03.gif
-	frame	data/chars/Sasuke/chdri06.gif
-	frame	data/chars/Sasuke/chdri03.gif
-	frame	data/chars/Sasuke/chdri04.gif
-	frame	data/chars/Sasuke/chdri05.gif
-	frame	data/chars/Sasuke/chdri06.gif
-	frame	data/chars/Sasuke/chdri07.gif
-	frame	data/chars/Sasuke/chdri08.gif
-	blast	37 82 52 41 30 1
-	frame	data/chars/Sasuke/chdri09.gif
-	frame	data/chars/Sasuke/chdri10.gif
-	frame	data/chars/Sasuke/chdri11.gif
-	frame	data/chars/Sasuke/chdri12.gif
-	frame	data/chars/Sasuke/chdri13.gif
-	frame	data/chars/Sasuke/chdri14.gif
+	frame	data/chars/Sasuke/rush01.gif
+	frame	data/chars/Sasuke/rush01.gif
+	frame	data/chars/Sasuke/rush01.gif
+	blast	71 76 33 33 14 1 0 0 15 10
+	frame	data/chars/Sasuke/rush02.gif
+	frame	data/chars/Sasuke/rush02.gif
+	frame	data/chars/Sasuke/rush02.gif
 	blast	0
-	frame	data/chars/Sasuke/chdri15.gif
-	move	3
-	blast	9 82 66 35 30 1
-	frame	data/chars/Sasuke/chdri16.gif
-	frame	data/chars/Sasuke/chdri17.gif
-	delay	3
-	move	20
-	blast	31 69 79 37 30 1
-	frame	data/chars/Sasuke/chdri18.gif
-	frame	data/chars/Sasuke/chdri18.gif
-	frame	data/chars/Sasuke/chdri18.gif
-	frame	data/chars/Sasuke/chdri19.gif
-	frame	data/chars/Sasuke/chdri19.gif
-	frame	data/chars/Sasuke/chdri19.gif
-	move	3
-	frame	data/chars/Sasuke/chdri19.gif
-	frame	data/chars/Sasuke/chdri19.gif
-	frame	data/chars/Sasuke/chdri19.gif
-	delay	7
 	move	0
-	frame	data/chars/Sasuke/chdri20.gif
-	frame	data/chars/Sasuke/chdri21.gif
-	frame	data/chars/Sasuke/chdri22.gif
-	blast	0
 	delay	30
-	frame	data/chars/Sasuke/chdri23.gif
+	frame	data/chars/Sasuke/rush02.gif
+	delay	7
+	frame	data/chars/Sasuke/rush03.gif
 		
 anim	throw
 	loop	0

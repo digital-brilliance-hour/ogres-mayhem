@@ -114,45 +114,45 @@ at      200
 
 
 wait
-at 401
+at 291
 
 group 2 4
-at 400
+at 290
 
-spawn menos
+2pspawn menos
 coords    460 215
-at 401
+at 291
 
-spawn grand_fisher
+2pspawn grand_fisher
 health 100
 coords    460 230
-at 401
+at 291
 
-spawn tsukaima
+2pspawn tsukaima
 health 100
 coords    20 220
-at 401
+at 291
 
-spawn shrieker
+2pspawn shrieker
 health 100
 coords    20 230
-at 401
+at 291
 
-spawn menos
+2pspawn menos
 coords    460 215
-at 401
+at 291
 
-spawn grand_fisher
+2pspawn grand_fisher
 health 100
 coords    460 230
-at 401
+at 291
 
-spawn tsukaima
+2pspawn tsukaima
 health 100
 coords    20 220
-at 401
+at 291
 
-spawn shrieker
+2pspawn shrieker
 health 100
 coords    20 230
-at 401
+at 291

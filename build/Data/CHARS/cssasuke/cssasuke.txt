@@ -1,15 +1,18 @@
 name	sasukeTransform
 health	500
 speed 20
-type enemy
+type none
 shadow  3
+subtype chase
 aimove chase
-aggression  20
+aggression  30
 escapehits 1
+holdblock 1
+cantgrab 1
+blockodds 1
 riseinv 2 0
 running 25 4 2 1 1
 candamage player npc obstacle
-candamage player npc
 subject_to_screen 1
 hostile npc player
 grabdistance 23
@@ -40,12 +43,6 @@ weaploss 3
 modelflag 3
 
 didhitscript data/scripts/bosses/didhit.c
-
-
-
-weaploss 3
-modelflag 3
-
 
 
 
@@ -196,6 +193,7 @@ anim	freespecial3
 		
 anim	freespecial5
 	delay	7
+	fastattack	1
 	offset	19 41
 	sound	data/chars/Sasuke/ha.wav
 	frame	data/chars/cssasuke/127.gif
@@ -203,8 +201,15 @@ anim	freespecial5
 	frame	data/chars/cssasuke/128.gif
 	offset	22 34
 	frame	data/chars/cssasuke/131.gif
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	@cmd	pause_all 1 100
+	@cmd	pause_self 1 100
 	offset	22 35
 	frame	data/chars/cssasuke/132.gif
+	offset	22 35
+	frame	data/chars/cssasuke/132.gif
+	@cmd	target 2 2
+	@cmd	dash
 	offset	16 29
 	frame	data/chars/cssasuke/133.gif
 	offset	22 28
@@ -213,17 +218,21 @@ anim	freespecial5
 	frame	data/chars/cssasuke/135.gif
 	offset	4 38
 	frame	data/chars/cssasuke/56.gif
+	attack	17 1 51 30 50 0 0 1 20 30
 	offset	0 38
 	frame	data/chars/cssasuke/57.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	23 39
 	frame	data/chars/cssasuke/136.gif
-	attack	42 6 24 20 50 0 1 0 0 0
+	attack	20 1 50 29 50 1 1 0 30 30
+	dropv	2 4 0
+	offset	23 39
+	frame	data/chars/cssasuke/58.gif
 	offset	24 37
 	frame	data/chars/cssasuke/137.gif
-	offset	-3 37
-	frame	data/chars/cssasuke/58.gif
 		
 anim	idle
+	loop	1
 	bbox	3 1 33 49
 	delay	7
 	offset	19 49
@@ -264,6 +273,11 @@ anim	jumpland
 	delay	7
 	offset	21 49
 	frame	data/chars/cssasuke/24.gif
+		
+anim	block
+	delay	7
+	offset	19 49
+	frame	data/chars/cssasuke/2.gif
 		
 anim	pain
 	delay	7
@@ -320,6 +334,22 @@ anim	runattack
 	offset	3 38
 	@cmd	stop
 	frame	data/chars/cssasuke/59.gif
+		
+anim	special2
+	loop	0
+	delay	7
+	offset	15 39
+	frame	data/chars/cssasuke/60.gif
+	offset	3 44
+	frame	data/chars/cssasuke/61.gif
+	attack	17 1 45 49 16 1 1 0 30 20
+	drop	3 2 0
+	offset	2 48
+	frame	data/chars/cssasuke/62.gif
+	offset	-1 46
+	frame	data/chars/cssasuke/63.gif
+	offset	-2 38
+	frame	data/chars/cssasuke/64.gif
 		
 anim	walk
 	bbox	2 1 31 41
