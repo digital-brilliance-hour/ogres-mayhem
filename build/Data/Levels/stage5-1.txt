@@ -1,5 +1,4 @@
 music data/music/stage5-1.ogg
-bossmusic data/music/stage5-1boss.ogg
 background	data/bgs/stage-5/back2
 bglayer         data/bgs/stage-5/back1b 0.3 0.3 0 0 0 0 100 1 1 0
 bglayer         data/bgs/stage-5/back1a 0.3 0.3 0 0 0 0 100 1 1 6
