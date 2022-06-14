@@ -69,6 +69,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	sound	data/chars/gon/gon_0-23.wav
 	delay	7
@@ -200,6 +201,7 @@ anim	fall
 		
 anim	freespecial1
 	@cmd	isavailable 2
+	@cmd	mpcost 10
 	delay	10
 	@cmd	pause_all 1 250
 	@cmd	spawnbind "zoomin" 0 0 0
@@ -315,9 +317,8 @@ anim	freespecial2
 	frame	data/chars/Gon/165.gif
 		
 anim	freespecial3
-	mpcost	0
-	mponly	1
 	@cmd	isavailable 5
+	@cmd	mpcost 30
 	delay	40
 	@cmd	pause_all 1 250
 	@cmd	spawnbind "zoomin" 0 0 0

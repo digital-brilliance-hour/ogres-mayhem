@@ -21,6 +21,7 @@ weaploss 3
 
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -124,7 +125,7 @@ anim	fall
 	frame	data/chars/Gear/down03.GIF
 		
 anim	freespecial
-	mpcost	15
+	@cmd	mpcost	10
 	mponly	1
 	loop	0
 	offset	75 77

@@ -5,33 +5,35 @@ shadow	0
 load bom
 flash bom
 
-anim idle
+
+anim	idle
 	loop	1
 	delay	3
 	offset	40 118
-        sound   data/chars/misc/ent.wav
-        burn  0 0 122 140 100 1
+	burn	0 0 122 140 100 1
 	frame	data/chars/misc/tei01.gif
-        burn  0 0 122 140 100 1
+	burn	0 0 122 140 100 1
 	frame	data/chars/misc/tei02.gif
-        burn  0 0 122 140 100 1
+	burn	0 0 122 140 100 1
 	frame	data/chars/misc/tei03.gif
-        burn  0 0 122 140 100 1
+	burn	0 0 122 140 100 1
 	frame	data/chars/misc/tei04.gif
-        burn  0 0 122 140 100 1
+	burn	0 0 122 140 100 1
 	frame	data/chars/misc/tei01.gif
-        burn  0 0 122 140 100 1
+	burn	0 0 122 140 100 1
 	frame	data/chars/misc/tei02.gif
-        burn  0 0 122 140 100 1
+	burn	0 0 122 140 100 1
 	frame	data/chars/misc/tei03.gif
-        burn  0 0 122 140 100 1
+	burn	0 0 122 140 100 1
 	frame	data/chars/misc/tei04.gif
-        burn  0 0 122 140 100 1
+	burn	0 0 122 140 100 1
 	frame	data/chars/misc/tei01.gif
-        burn  0 0 122 140 100 1
+	burn	0 0 122 140 100 1
 	frame	data/chars/misc/tei02.gif
-        burn  0 0 122 140 100 1
+	burn	0 0 122 140 100 1
 	frame	data/chars/misc/tei03.gif
-        burn  0 0 122 140 100 1
+	burn	0 0 122 140 100 1
 	frame	data/chars/misc/tei04.gif
-
+		
+#|edited by openBor Stats v 0.67
+		

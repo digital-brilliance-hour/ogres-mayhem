@@ -68,6 +68,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	7
 	sound	data/chars/deku/deku_0-0.wav
@@ -188,9 +189,8 @@ anim	fall
 	frame	data/chars/Deku/35.gif
 		
 anim	freespecial
-	mpcost	10
-	mponly	1
 	@cmd	isavailable 2
+	@cmd	mpcost 10
 	delay	7
 	fastattack	1
 	delay	30
@@ -268,9 +268,8 @@ anim	freespecial11
 	frame	data/chars/Deku/18.gif
 		
 anim	freespecial2
-	mpcost	30
-	mponly	1
 	@cmd	isavailable 5
+	@cmd	mpcost 30
 	delay	10
 	fastattack	1
 	delay	30
@@ -393,9 +392,8 @@ anim	freespecial4
 	frame	data/chars/Deku/56.gif
 		
 anim	freespecial5
-	mpcost	20
-	mponly	1
 	@cmd	isavailable 3
+	@cmd	mpcost 20
 	fastattack	1
 	delay	30
 	@cmd	spawnbind "zoomin" 0 0 0

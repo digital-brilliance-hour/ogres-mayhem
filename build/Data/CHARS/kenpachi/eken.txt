@@ -6,12 +6,9 @@ type enemy
 subtype chase
 aimove chase
 aggression 32
-subject_to_screen 1
 cantgrab 1
 riseinv 2 0
 makeinv 2 0
-escapehits 1
-candamage player npc obstacle
 candamage player npc
 hostile npc player
 shadow 3
@@ -22,7 +19,6 @@ nameposition 60 225
 iconposition 50 360
 ondeathscript data/scripts/bossdeath.c
 script data/scripts/bosses/update.c
-takedamagescript data/scripts/bosses/attacked.c
 palette none
 atchain 1 1 2 3
 
@@ -120,7 +116,7 @@ anim	fall
 		
 anim	follow1
 	delay	7
-	weaponframe	28 1
+	weaponframe	20 1
 	sound	data/chars/kenpachi/kenpachi_0-36-transform.wav
 	offset	51 61
 	frame	data/chars/Kenpachi/81.gif
@@ -364,6 +360,11 @@ anim	land
 	delay	7
 	offset	33 43
 	frame	data/chars/Kenpachi/7.gif
+		
+anim	pain
+	delay	7
+	offset	19 62
+	frame	data/chars/Kenpachi/3.gif
 		
 anim	rise
 	delay	7

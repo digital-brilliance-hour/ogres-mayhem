@@ -2,20 +2,21 @@ name	KenpachiTransform
 health	500
 mp      300
 speed	15
-type enemy
+type none
 atchain 1 1 2
-aggression 3
+aggression 35
 subtype chase
 aimove chase
 palette none
 subject_to_screen 1
+escapehits 1
+holdblock 1
 cantgrab 1
+blockodds 1
 riseinv 2 0
 makeinv 2 0
-escapehits 1
 running 25 4 2 1 1
 candamage player npc obstacle
-candamage player npc enemy
 hostile npc player
 shadow 3
 animationscript data/scripts/spawns.c
@@ -36,20 +37,8 @@ load kenRisingSlash
 load kenSliceForwardHit
 load kenHit
 
-com  a3  freespecial
-com u a3 freespecial2
-com d a3 freespecial5
-com a2 freespecial11
-com s freespecial3
-com u s freespecial6
-com d s freespecial4
-com d f s freespecial7
-com d b s freespecial8
-com d u s freespecial9
-
 weaploss 3
 modelflag 3
-script data/scripts/bosses/update.c
 
 
 
@@ -106,7 +95,7 @@ anim	fall
 	offset	39 17
 	frame	data/chars/Kenpachi/101.gif
 		
-anim	follow1
+anim	freespecial7
 	delay	7
 	offset	45 62
 	frame	data/chars/Kenpachi/825.gif
@@ -405,13 +394,6 @@ anim	freespecial6
 	offset	27 52
 	frame	data/chars/Kenpachi/796.gif
 		
-anim	freespecial7
-	delay	7
-	offset	35 48
-	frame	data/chars/Kenpachi/783.gif
-	offset	35 47
-	frame	data/chars/Kenpachi/784.gif
-		
 anim	freespecial8
 	delay	7
 	offset	22 60
@@ -499,6 +481,16 @@ anim	land
 	offset	33 43
 	frame	data/chars/Kenpachi/761.gif
 		
+anim	block
+	delay	7
+	offset	19 62
+	frame	data/chars/Kenpachi/745.gif
+		
+anim	pain
+	delay	7
+	offset	19 62
+	frame	data/chars/Kenpachi/745.gif
+		
 anim	rise
 	delay	7
 	offset	33 43
@@ -530,6 +522,53 @@ anim	run
 	frame	data/chars/Kenpachi/759.gif
 	offset	21 44
 	frame	data/chars/Kenpachi/760.gif
+		
+anim	special
+	delay	7
+	offset	22 60
+	frame	data/chars/Kenpachi/798.gif
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/kenpachi/kenpachi_0-106-charge.wav
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	offset	44 53
+	frame	data/chars/Kenpachi/903.gif
+	@cmd	leaper 0 4 0
+	@cmd	spawnparent "kenRisingSlash" 30 0 -40
+	sound	data/chars/kenpachi/kenpachi_5-47-free.wav
+	offset	27 78
+	frame	data/chars/Kenpachi/799.gif
+	offset	15 77
+	frame	data/chars/Kenpachi/800.gif
+	offset	27 78
+	frame	data/chars/Kenpachi/799.gif
+	offset	15 77
+	frame	data/chars/Kenpachi/800.gif
+	offset	27 78
+	frame	data/chars/Kenpachi/799.gif
+	offset	15 77
+	frame	data/chars/Kenpachi/800.gif
+	offset	27 78
+	frame	data/chars/Kenpachi/799.gif
+	offset	15 77
+	frame	data/chars/Kenpachi/800.gif
+	offset	22 49
+	frame	data/chars/Kenpachi/801.gif
+	offset	34 52
+	frame	data/chars/Kenpachi/802.gif
 		
 anim	walk
 	bbox	14 4 37 43

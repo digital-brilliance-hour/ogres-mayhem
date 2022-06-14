@@ -65,6 +65,9 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
+
+
 anim	attack1
 	delay	4
 	offset	7 34
@@ -183,6 +186,7 @@ anim	dodge
 	frame	data/chars/Sonic/35.gif
 		
 anim	faint
+	bbox	5 6 22 33
 	delay	7
 	offset	14 37
 	frame	data/chars/Sonic/655.gif
@@ -214,9 +218,8 @@ anim	forwardjump
 	frame	data/chars/Sonic/296.gif
 		
 anim	freespecial
+	bbox	5 5 19 31
 	@cmd	isavailable 2
-	energycost	10
-	mponly	1
 	delay	5
 	fastattack	1
 	offset	18 36
@@ -224,7 +227,7 @@ anim	freespecial
 	attack	19 3 24 41 10 0 1 0 20 0
 	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	18 39
-	mpcost	10
+	@cmd	mpcost	10
 	sound	data/chars/sonic/sonic_180-5-free.wav
 	frame	data/chars/Sonic/252.gif
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -257,21 +260,8 @@ anim	freespecial
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	16 38
 	frame	data/chars/Sonic/253.gif
-	attack	18 5 28 35 10 0 1 0 20 0
-	hitfx	data/chars/sonic/sonic_5-73-hit.wav
-	offset	16 35
-	frame	data/chars/Sonic/254.gif
-	offset	18 36
-	frame	data/chars/Sonic/251.gif
-	attack	19 3 24 41 10 0 1 0 20 0
-	hitfx	data/chars/sonic/sonic_5-73-hit.wav
-	offset	18 39
-	sound	data/chars/sonic/sonic_180-5-free.wav
-	frame	data/chars/Sonic/252.gif
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	16 38
-	frame	data/chars/Sonic/253.gif
-	attack	18 5 28 35 10 0 1 0 20 0
+	attack	18 5 28 35 10 1 1 0 20 0
+	dropv	2 4 0
 	hitfx	data/chars/sonic/sonic_5-73-hit.wav
 	offset	16 35
 	frame	data/chars/Sonic/254.gif
@@ -317,8 +307,6 @@ anim	freespecial11
 		
 anim	freespecial2
 	@cmd	isavailable 3
-	energycost	20
-	mponly	1
 	delay	4
 	offset	13 32
 	sound	data/chars/sonic/sonic_180-13-free-2.wav
@@ -330,7 +318,7 @@ anim	freespecial2
 	attack	17 10 23 18 8 0 1 0 20 0
 	offset	9 37
 	hitfx	data/chars/sonic/sonic_5-73-hit.wav
-	mpcost	20
+	@cmd	mpcost	20
 	frame	data/chars/Sonic/237.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	12 37
@@ -452,8 +440,6 @@ anim	freespecial4
 		
 anim	freespecial5
 	@cmd	isavailable 5
-	energycost	30
-	mponly	1
 	delay	5
 	fastattack	1
 	attack	24 11 60 35 10 0 1 0 20 10
@@ -463,7 +449,7 @@ anim	freespecial5
 	frame	data/chars/Sonic/310.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	20 47
-	mpcost	30
+	@cmd	mpcost	30
 	frame	data/chars/Sonic/311.gif
 	attack	24 11 60 41 10 0 0 1 20 10
 	hitfx	data/chars/sonic/sonic_5-73-hit.wav

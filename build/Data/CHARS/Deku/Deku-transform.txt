@@ -82,6 +82,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	delay	4
 	sound	data/chars/deku/deku_0-0.wav
@@ -204,7 +205,7 @@ anim	fall
 	frame	data/chars/Deku/35.gif
 		
 anim	freespecial
-	mpcost	10
+	@cmd	mpcost	10
 	mponly	1
 	fastattack	1
 	attack	0 0 0 0 0 0 0 0 0 0
@@ -484,7 +485,7 @@ anim	freespecial6
 	frame	data/chars/Deku/60.gif
 		
 anim	freespecial7
-	mpcost	20
+	@cmd	mpcost	20
 	mponly	1
 	delay	10
 	sound	data/chars/Deku/Deku_0-28.wav

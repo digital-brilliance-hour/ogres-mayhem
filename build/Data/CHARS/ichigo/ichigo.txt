@@ -83,6 +83,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	4
 	offset	17 44
@@ -204,7 +205,7 @@ anim	freespecial
 	offset	17 44
 	sound	data/chars/Ichigo/ichigo_53-0.wav
 	frame	data/chars/Ichigo/93.gif
-	mpcost	10
+	@cmd	mpcost	10
 	offset	18 45
 	frame	data/chars/Ichigo/94.gif
 	attack	15 1 67 44 8 0 1 0 20 0
@@ -350,7 +351,7 @@ anim	freespecial2
 	frame	data/chars/Ichigo/140.gif
 	offset	23 49
 	frame	data/chars/Ichigo/141.gif
-	mpcost	20
+	@cmd	mpcost	20
 	offset	52 47
 	frame	data/chars/Ichigo/142.gif
 	offset	50 47
@@ -485,7 +486,7 @@ anim	freespecial5
 	frame	data/chars/Ichigo/164.gif
 	offset	17 78
 	frame	data/chars/Ichigo/165.gif
-	mpcost	30
+	@cmd	mpcost	30
 	offset	17 56
 	frame	data/chars/Ichigo/166.gif
 	attack	-13 0 137 67 20 1 1 0 20 0

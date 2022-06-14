@@ -76,6 +76,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	loop	0
 	delay	3
@@ -190,8 +191,7 @@ anim	fall
 		
 anim	freespecial
 	@cmd	isavailable 2
-	mpcost	10
-	mponly	1
+	@cmd	mpcost	10
 	loop	0
 	@cmd	pause_all 1 10
 	delay	30
@@ -265,8 +265,7 @@ anim	freespecial11
 		
 anim	freespecial2
 	@cmd	isavailable 3
-	mponly	1
-	mpcost	20
+	@cmd	mpcost	20
 	@cmd	pause_all 1 10
 	delay	6
 	fastattack	1
@@ -459,8 +458,7 @@ anim	freespecial4
 		
 anim	freespecial5
 	@cmd	isavailable 5
-	mponly	1
-	mpcost	30
+	@cmd	mpcost	30
 	@cmd	pause_all 1 10
 	@cmd	npc_check 2
 	delay	3
