@@ -111,15 +111,15 @@ void sendDialogMsg()
 		log(" message2: " + message2 + " ");
 		if(name == "Kenpachi") {
 			loop = 2899970;
-			playmusic(message,1, loop);
+			playmusic(message,1, 2899970);
 		}
 		else if(name == "Bakugo") {
 			loop = 892353;
-			playmusic(message,1, loop);
+			playmusic(message,1, 892353);
 		}
 		else if(name == "Shanks") {
 			loop = 884092;
-			playmusic(message,1, loop);
+			playmusic(message,1, 884092);
 		}
 		else {
 			playmusic(message,1);
