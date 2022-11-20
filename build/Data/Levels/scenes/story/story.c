@@ -29,8 +29,8 @@ void main()
 	    	opacity = 150;
 	    }
 	      
-	    changedrawmethod(NULL(), "alpha", 6);  
 	    changedrawmethod(NULL(), "enabled", 1);
+	    changedrawmethod(NULL(), "alpha", 6);  
 	    changedrawmethod(NULL(), "channelb", opacity);
 	    changedrawmethod(NULL(), "channelg", opacity);
 	    changedrawmethod(NULL(), "channelr", opacity);
