@@ -1,0 +1,170 @@
+name  tint
+type none
+shadow 0
+setlayer 999
+#icon	Data/CHARS/misc/effects/tint/tinticon.gif
+
+
+
+
+
+anim	idle
+	loop	1 2
+	delay	1
+	@script
+	void self = getlocalvar("self");
+	int frame = getlocalvar("frame");
+	void parent = getentityproperty(self, "parent");
+    int tintto = getentityvar(self, "tintTo");
+    int tintto2 = getentityvar(self, "tintTo2");
+	int tintspeed = getentityvar(self, "tintSpeed");
+	int tintdirection = getentityvar(self, "tintDirection");
+    int tintmode = getentityvar(self, "tintMode");
+    long tintstart = getentityvar(self, "tintStart");
+	long tintcolor = getdrawmethod(parent, "tintcolor");
+	int blink = getentityvar(self, "blink");
+	long blinkstart = getentityvar(self, "blinkStart");
+    int reset = getentityvar(self, "reset");
+	int rto = tintto % 256;
+	int gto = ((tintto-rto)/256) % 256;
+	int gtocomp = gto/256;
+	int bto = ((tintto-rto)/65536) - gtocomp;
+	int r = tintcolor % 256;
+	int g = ((tintcolor-r)/256) % 256;
+	int gcomp = g/256;
+	int b = ((tintcolor-r)/65536) - gcomp;
+	log("Tint color: " + tintcolor + ". ");
+	log("R: " + r + ", G: " + g + ", B: " + b + ". ");
+	log("RTo: " + rto + ", GTo: " + gto + ", BTo: " + bto + ". ");
+	log("Tint Direction: " + tintdirection + ". ");
+	changedrawmethod(parent, "enabled", 1);
+	changedrawmethod(parent, "tintmode", tintmode);
+	if(frame < 2) {
+		if(tintmode == 2) {
+			changedrawmethod(parent, "tintcolor", rgbcolor(254,254,254));
+    		//setentityvar(self, "tintDirection", 0);
+		}
+	}
+    if(frame > 1) {
+		/*if(tintcolor < tintto && tintdirection) {
+	         tintcolor += tintspeed;
+			 changedrawmethod(parent, "tintcolor", tintcolor);
+		}
+		else if(tintcolor > tintto && !tintdirection) {
+	         tintcolor -= tintspeed;
+			 changedrawmethod(parent, "tintcolor", tintcolor);
+		}*/
+		if((r < rto || b < bto || g < gto) && tintdirection) {
+			 if(r < rto) {
+	         	r += tintspeed;
+	         	if(r > 255) {
+	         		r = 255;
+	         	}
+	         }
+	         else {
+	         	r = rto;
+	         }
+			 if(g < gto) {
+	         	g += tintspeed;
+	         	if(g > 255) {
+	         		g = 255;
+	         	}
+	         }
+	         else {
+	         	g = gto;
+	         }
+			 if(b < bto) {
+	         	b += tintspeed;
+	         	if(b > 255) {
+	         		b = 255;
+	         	}
+	         }
+	         else {
+	         	b = bto;
+	         }
+			 changedrawmethod(parent, "tintcolor", rgbcolor(r, g, b));
+		}
+		else if((r > rto || b > bto || g > gto) && !tintdirection) {
+			 if(r > rto) {
+	         	r -= tintspeed;
+	         	if(r < 0) {
+	         		r = 0;
+	         	}
+	         }
+	         else {
+	         	r = rto;
+	         }
+			 if(g > gto) {
+	         	g -= tintspeed;
+	         	if(g < 0) {
+	         		g = 0;
+	         	}
+	         }
+	         else {
+	         	g = gto;
+	         }
+			 if(b > bto) {
+	         	b -= tintspeed;
+	         	if(b < 0) {
+	         		b = 0;
+	         	}
+	         }
+	         else {
+	         	b = bto;
+	         }
+			 changedrawmethod(parent, "tintcolor", rgbcolor(r, g, b));
+		}
+		else {
+			 changedrawmethod(parent, "tintcolor", tintto);
+		     //changedrawmethod(parent, "enabled", 0);
+		     if(blink < 1) {
+		     	killentity(self);
+		     }
+		     else {
+		     	if(tintdirection == 1) {
+		     		log("Direction: " + tintdirection + ", Blink: " + blink);
+		     		setentityvar(self, "tintTo2", tintto);
+		     		if(blinkstart) {
+		     			setentityvar(self, "tintTo", blinkstart);
+		     		}
+		     		else {
+		     			setentityvar(self, "tintTo", tintstart);
+		     		}
+		     		setentityvar(self, "tintDirection", 0);
+		     	}
+		     	else {
+		     		log("Direction: " + tintdirection + ", Blink: " + blink);
+		     		setentityvar(self, "tintTo2", tintto2);
+		     		setentityvar(self, "tintTo", tintto2);
+		     		setentityvar(self, "tintDirection", 1);
+		     	}
+		     }
+		}
+	}
+	@end_script	
+	offset	0 0
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+		
+anim	spawn
+	delay	1
+	loop	0
+	@script
+	void self = getlocalvar("self");
+	void parent = getentityproperty(self, "parent");
+    setentityvar(self, "tintTo", rgbcolor(255, 255, 255));
+    setentityvar(self, "tintSpeed", 1);
+    setentityvar(self, "tintDirection", 1);
+    setentityvar(self, "tintMode", 4);
+    setentityvar(self, "blink", 0);
+    setentityvar(self, "tintStart", getdrawmethod(parent, "tintcolor"));
+    executeanimation(self, openborconstant("ANI_IDLE"));
+	@end_script	
+	offset	0 0
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

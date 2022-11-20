@@ -1,0 +1,69 @@
+name  fade
+type none
+shadow 0
+setlayer 999
+
+
+
+
+
+
+
+
+anim	idle
+	loop	1 1
+	delay	1
+	@script
+	void self = getlocalvar("self");
+	int frame = getlocalvar("frame");
+	void parent = getentityproperty(self, "parent");
+        int fadeto = getentityvar(self, "fadeTo");
+	int fadespeed = getentityvar(self, "fadeSpeed");
+	int fadedirection = getentityvar(self, "fadeDirection");
+	int fadecurrent = getdrawmethod(parent, "channelb");
+	changedrawmethod(parent, "enabled", 1);
+        changedrawmethod(parent, "alpha", 6);
+        if(frame > 1) {
+	if(fadecurrent < fadeto && fadedirection) {
+             fadecurrent += fadespeed;
+	     changedrawmethod(parent, "channelb", fadecurrent);
+	     changedrawmethod(parent, "channelg", fadecurrent);
+	     changedrawmethod(parent, "channelr", fadecurrent);
+	}
+	else if(fadecurrent > fadeto && !fadedirection) {
+             fadecurrent -= fadespeed;
+	     changedrawmethod(parent, "channelb", fadecurrent);
+	     changedrawmethod(parent, "channelg", fadecurrent);
+	     changedrawmethod(parent, "channelr", fadecurrent);
+	}
+	else {
+	     changedrawmethod(parent, "channelb", fadeto);
+	     changedrawmethod(parent, "channelg", fadeto);
+	     changedrawmethod(parent, "channelr", fadeto);
+	     //changedrawmethod(parent, "enabled", 0);
+	     killentity(self);
+	}
+	}
+	@end_script	
+	offset	0 0
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+		
+anim	spawn
+	delay	1
+	loop	0
+	@script
+	void self = getlocalvar("self");
+     	setentityvar(self, "fadeTo", 150);
+     	setentityvar(self, "fadeSpeed", 8);
+     	setentityvar(self, "fadeDirection", 1);
+     	executeanimation(self, openborconstant("ANI_IDLE"));
+	@end_script	
+	offset	0 0
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		
