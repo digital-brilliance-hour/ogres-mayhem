@@ -2148,6 +2148,28 @@ void pause_enemy(int iToggle, int iTime){
     changeentityproperty(vEnemy, "freezetime", iETime + iTime);    //Toggle frozen time.
 }
 
+void unpause() {
+	void vSelf      = getlocalvar("self");                  //Caller   
+    int  iETime     = openborvariant("elapsed_time");       //Current time.
+    int  iMax       = openborvariant("ent_max");            //Entity count.
+    int  iEntity;                                           //Loop counter.
+    void vEntity;                                           //Target entity.
+    void vFrozen;											//Target parent
+
+    for(iEntity=0; iEntity<iMax; iEntity++)
+    {   
+        vEntity = getentity(iEntity); 
+        vFrozen = getentityproperty(vEntity, "frozen"); 
+
+        if(vFrozen) {
+	        //Get target entity from current loop.
+	        changeentityproperty(vEntity, "frozen", 0);               //Toggle frozen.
+	        changeentityproperty(vEntity, "freezetime", 0);    //Toggle frozen time.
+        	
+        }
+    }  
+}
+
 void rasengan() {
 	void rObj = spawnbind("rasengan", 0, -1, 1);
 	setlocalvar("rObj", rObj);
