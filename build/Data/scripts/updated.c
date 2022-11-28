@@ -109,6 +109,15 @@ void inLevelLoop()
 	turnWhite();
 	storySystem();
   showMoves();
+  int j, num, maxmp;
+  for(j=0; j<4; j++){
+    num = j + 1;
+    void p = getplayerproperty(j, "entity"); 
+    maxmp = getentityproperty(p, "maxmp");
+    if(maxmp != 0) {
+      fullmp(p, num);
+    }
+  }
   //log(openborvariant("viewportx"));
   //log(openborvariant("xpos"));
   //("\n");
@@ -120,6 +129,65 @@ void oncreate()
     setglobalvar("Load", C);
 
     setindexedvar(1, 0);
+}
+
+void resetMethod(char Name)
+{/*
+    Kills all entities with defined alias 
+  
+    Name: Name of entity to be killed
+    */
+
+    void vEntity;                                       //Target entity placeholder.
+    int  iEntity;                                       //Entity enumeration holder.
+    void self = getlocalvar("self");
+    char iName;                                         //Entity Name.
+    int  iMax      = openborvariant("count_entities");  //Entity count.
+
+    //Enumerate and loop through entity collection.
+    for(iEntity=0; iEntity<iMax; iEntity++){
+      vEntity = getentity(iEntity);                 //Get target entity from current loop.
+      iName   = getentityproperty(vEntity, "name"); //Get target name.
+      
+      if(iName == Name){ //Same alias?
+        if(Name == "tint") {
+          changedrawmethod(self, "tintmode", 0);
+        }
+        killentity(vEntity);
+      }
+    }
+}
+
+void fullmp(void p, int num) {
+  int mp, maxmp;
+  void subent;
+  mp = getentityproperty(p, "mp");
+  maxmp = getentityproperty(p, "maxmp");
+  log("mp = " + mp + ". maxmp = " + maxmp + ". ");
+  int tintmode = getdrawmethod(p, "tintmode");
+  void blinking = getglobalvar("fullmp" + num);
+  if(mp == maxmp && blinking != 1) {
+    log("madeithere ");
+    loadmodel("tint"); // name of the entity to be loaded        
+        clearspawnentry(); // clean the spawn entry        
+         setspawnentry("name", "tint"); // define the entity to be spawn        
+         setspawnentry("coords", -1,-1,-1000); // set the position of the entity       
+         subent=spawn();  //  spawn the entity
+         bindentity(subent, p, 0, 0, 0, 0, 0);
+    changeentityproperty(subent, "parent", p); //Set caller as parent.
+    setentityvar(subent, "blink", 1);
+        setentityvar(subent, "tintSpeed", 10);
+        setentityvar(subent, "tintMode", 1);
+        setentityvar(subent, "tintTo", rgbcolor(11, 222, 67));
+        setentityvar(subent, "blinkStart", rgbcolor(67, 140, 13));
+        setglobalvar("fullmp" + num, 1);
+  }
+  else if (mp < maxmp && blinking == 1){
+    resetMethod("tint");
+  }
+  else {
+    return 0;
+  }
 }
 
 void showMoves() {

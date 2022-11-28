@@ -9,7 +9,7 @@ void main()
 		 p = getplayerproperty(i, "entity");
 		num = i+1;
 		 if(p){
-		 	fullmp(p);
+		 	
 		 	score=getplayerproperty(i,"score");
 		 	changeentityproperty(p, "maxhealth", getglobalvar("maxhealth_"+num+"P"));
 			stage = openborvariant("current_stage");
@@ -40,7 +40,6 @@ void main()
 				}
 				
 				changeentityproperty(p, "mp",0);
-
 				changeentityproperty(p,"offense",openborconstant("ATK_NORMAL"),getglobalvar("offense_"+num+"P"));
 				changeentityproperty(p,"defense",openborconstant("ATK_NORMAL"),getglobalvar("defense_"+num+"P"));
 				//log(getglobalvar("offense_"+num+"P"));
@@ -54,7 +53,10 @@ void fullmp(void p) {
 	void subent;
 	mp = getentityproperty(p, "mp");
 	maxmp = getentityproperty(p, "maxmp");
-	if(mp == maxmp) {
+	log("mp = " + mp + ". maxmp = " + maxmp + ". ");
+	int tintmode = getdrawmethod(p, "tintmode");
+	if(mp == maxmp && !tintmode) {
+		log("madeithere ");
 		loadmodel("tint"); // name of the entity to be loaded        
         clearspawnentry(); // clean the spawn entry        
          setspawnentry("name", "tint"); // define the entity to be spawn        
@@ -63,7 +65,7 @@ void fullmp(void p) {
          bindentity(subent, p, 0, 0, 0, 0, 0);
 		changeentityproperty(subent, "parent", p); //Set caller as parent.
 		setentityvar(subent, "blink", 1);
-        setentityvar(subent, "tintSpeed", 40);
+        setentityvar(subent, "tintSpeed", 10);
         setentityvar(subent, "tintMode", 1);
         setentityvar(subent, "tintTo", rgbcolor(11, 222, 67));
         setentityvar(subent, "blinkStart", rgbcolor(67, 140, 13));
