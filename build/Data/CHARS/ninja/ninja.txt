@@ -19,7 +19,6 @@ hostile npc player
 
 
 
-
 anim	attack1
 	loop	0
 	delay	7

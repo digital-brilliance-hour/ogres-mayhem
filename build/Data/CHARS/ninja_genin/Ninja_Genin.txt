@@ -24,6 +24,7 @@ knife         kunai_enemy
 subtype		chase
 
 takedamagescript data/scripts/enemyhit.c
+onblocksscript data/scripts/enemy/screenedge.c
 
 anim	attack1
 	range	0 50
