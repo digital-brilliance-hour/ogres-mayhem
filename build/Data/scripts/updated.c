@@ -131,7 +131,7 @@ void oncreate()
     setindexedvar(1, 0);
 }
 
-void resetMethod(char Name)
+void resetMethod(char Name, void self)
 {/*
     Kills all entities with defined alias 
   
@@ -140,7 +140,6 @@ void resetMethod(char Name)
 
     void vEntity;                                       //Target entity placeholder.
     int  iEntity;                                       //Entity enumeration holder.
-    void self = getlocalvar("self");
     char iName;                                         //Entity Name.
     int  iMax      = openborvariant("count_entities");  //Entity count.
 
@@ -152,6 +151,7 @@ void resetMethod(char Name)
       if(iName == Name){ //Same alias?
         if(Name == "tint") {
           changedrawmethod(self, "tintmode", 0);
+          changedrawmethod(self, "tintcolor", 0);
         }
         killentity(vEntity);
       }
@@ -163,7 +163,7 @@ void fullmp(void p, int num) {
   void subent;
   mp = getentityproperty(p, "mp");
   maxmp = getentityproperty(p, "maxmp");
-  log("mp = " + mp + ". maxmp = " + maxmp + ". ");
+  //log("mp = " + mp + ". maxmp = " + maxmp + ". ");
   int tintmode = getdrawmethod(p, "tintmode");
   void blinking = getglobalvar("fullmp" + num);
   if(mp == maxmp && blinking != 1) {
@@ -183,7 +183,8 @@ void fullmp(void p, int num) {
         setglobalvar("fullmp" + num, 1);
   }
   else if (mp < maxmp && blinking == 1){
-    resetMethod("tint");
+    resetMethod("tint", p);
+    setglobalvar("fullmp" + num, NULL());
   }
   else {
     return 0;

@@ -47,27 +47,3 @@ void main()
 	 	}
 	} 
 }
-
-void fullmp(void p) {
-	int mp, maxmp;
-	void subent;
-	mp = getentityproperty(p, "mp");
-	maxmp = getentityproperty(p, "maxmp");
-	log("mp = " + mp + ". maxmp = " + maxmp + ". ");
-	int tintmode = getdrawmethod(p, "tintmode");
-	if(mp == maxmp && !tintmode) {
-		log("madeithere ");
-		loadmodel("tint"); // name of the entity to be loaded        
-        clearspawnentry(); // clean the spawn entry        
-         setspawnentry("name", "tint"); // define the entity to be spawn        
-         setspawnentry("coords", -1,-1,-1000); // set the position of the entity       
-         subent=spawn();  //  spawn the entity
-         bindentity(subent, p, 0, 0, 0, 0, 0);
-		changeentityproperty(subent, "parent", p); //Set caller as parent.
-		setentityvar(subent, "blink", 1);
-        setentityvar(subent, "tintSpeed", 10);
-        setentityvar(subent, "tintMode", 1);
-        setentityvar(subent, "tintTo", rgbcolor(11, 222, 67));
-        setentityvar(subent, "blinkStart", rgbcolor(67, 140, 13));
-	}
-}
