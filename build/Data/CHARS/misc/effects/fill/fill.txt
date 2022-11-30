@@ -1,0 +1,63 @@
+name  fill
+type none
+shadow 0
+setlayer 999
+#icon	Data/CHARS/misc/effects/fill/fillicon.gif
+
+
+
+
+
+anim	idle
+	loop	1 1
+	delay	1
+	@script
+	void self = getlocalvar("self");
+	int frame = getlocalvar("frame");
+	void parent = getentityproperty(self, "parent");
+        int scaleto = getentityvar(self, "scaleTo");
+	int scalespeed = getentityvar(self, "scaleSpeed");
+	int scaledirection = getentityvar(self, "scaleDirection");
+	int scalesize = getdrawmethod(parent, "scalex");
+	changedrawmethod(parent, "enabled", 1);
+    if(frame > 1) {
+		if(scalesize < scaleto && scaledirection) {
+	             scalesize += scalespeed;
+		     changedrawmethod(parent, "scalex", scalesize);
+		     changedrawmethod(parent, "scaley", scalesize);
+		}
+		else if(scalesize > scaleto && !scaledirection) {
+	             scalesize -= scalespeed;
+		     changedrawmethod(parent, "scalex", scalesize);
+		     changedrawmethod(parent, "scaley", scalesize);
+		}
+		else {
+		     changedrawmethod(parent, "scalex", scaleto);
+		     changedrawmethod(parent, "scaley", scaleto);
+		     //changedrawmethod(parent, "enabled", 0);
+		     killentity(self);
+		}
+	}
+	@end_script	
+	offset	0 0
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+		
+anim	spawn
+	delay	1
+	loop	0
+	@script
+	void self = getlocalvar("self");
+     	setentityvar(self, "scaleTo", 512);
+     	setentityvar(self, "scaleSpeed", 8);
+     	setentityvar(self, "scaleDirection", 1);
+     	executeanimation(self, openborconstant("ANI_IDLE"));
+	@end_script	
+	offset	0 0
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

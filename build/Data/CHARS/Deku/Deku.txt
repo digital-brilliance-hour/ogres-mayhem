@@ -70,6 +70,19 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 anim	attack1
 	delay	7
 	sound	data/chars/deku/deku_0-0.wav
@@ -338,6 +351,7 @@ anim	freespecial3
 	@cmd	pause_all 1 100
 	delay	7
 	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	setentityvar getlocalvar("currentSpawn") "zoomspeed" 4
 	offset	21 41
 	frame	data/chars/Deku/121.gif
 	offset	17 43
@@ -349,6 +363,7 @@ anim	freespecial3
 	sound	data/chars/deku/deku_0-45.wav
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	setentityvar getlocalvar("currentSpawn") "zoomspeed" 1
 	@cmd	changeopenborvariant "slowmotion" 0
 	delay	5
 	offset	16 43
