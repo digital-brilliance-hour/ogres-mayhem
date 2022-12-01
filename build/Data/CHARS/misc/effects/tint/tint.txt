@@ -33,12 +33,10 @@ anim	idle
 	int g = ((tintcolor-r)/256) % 256;
 	int gcomp = g/256;
 	int b = ((tintcolor-r)/65536) - gcomp;
-	log("Tint color: " + tintcolor + ". ");
-	log("R: " + r + ", G: " + g + ", B: " + b + ". ");
-	log("RTo: " + rto + ", GTo: " + gto + ", BTo: " + bto + ". ");
-	log("Tint Direction: " + tintdirection + ". ");
-	changedrawmethod(parent, "enabled", 1);
-	changedrawmethod(parent, "tintmode", tintmode);
+	//log("Tint color: " + tintcolor + ". ");
+	//log("R: " + r + ", G: " + g + ", B: " + b + ". ");
+	//log("RTo: " + rto + ", GTo: " + gto + ", BTo: " + bto + ". ");
+	//log("Tint Direction: " + tintdirection + ". ");
 	if(frame < 2) {
 		if(tintmode == 2) {
 			changedrawmethod(parent, "tintcolor", rgbcolor(254,254,254));
@@ -46,6 +44,8 @@ anim	idle
 		}
 	}
     if(frame > 1) {
+		changedrawmethod(parent, "enabled", 1);
+		changedrawmethod(parent, "tintmode", tintmode);
 		/*if(tintcolor < tintto && tintdirection) {
 	         tintcolor += tintspeed;
 			 changedrawmethod(parent, "tintcolor", tintcolor);
