@@ -86,11 +86,11 @@ void show_enemy_health()
 					barsize = 50 * ratio;
 					//entity,flag,scalex, int scaley, int flipx, int flipy, int shiftx, int alpha, int remap, int fillcolor, int rotate, int fliprotate, int transparencybg, void* colourmap);
 					if (color==0){
-						setdrawmethod(NULL(), 1, 256, 256, facing, 0, 0,alpha, 0,color ,0,0,0,getglobalvar("enemy_"+getentityproperty(vEntity, "name")+iEntity+".colormap"));
+						//setdrawmethod(NULL(), 1, 256, 256, facing, 0, 0,alpha, 0,color ,0,0,0,getglobalvar("enemy_"+getentityproperty(vEntity, "name")+iEntity+".colormap"));
 						//drawstring(2,180,1,getglobalvar("trailer"+i+".colormap"));
 						//setdrawmethod(NULL(), 1, 256, 256, facing, 0, 0,alpha, 0,color ,0,0,0,1);
 					}else{
-						setdrawmethod(NULL(), 1, 256, 256, facing, 0, 0,alpha, 0,color ,0,0,0,NULL());
+						//setdrawmethod(NULL(), 1, 256, 256, facing, 0, 0,alpha, 0,color ,0,0,0,NULL());
 					}
 					drawbox(x-openborvariant("xpos")-1, z-a-openborvariant("ypos")+1, barsize/100, 10, 9998, rgbcolor(0,0,0), 6);
 					if(ratio <= 25) {

@@ -1006,7 +1006,34 @@ void spawnbind(void Name, float dx, float dy, float dz)
 
 	bindentity(vSpawn, self, dx, dz, dy, 0, 0);
 	changeentityproperty(vSpawn, "parent", self); //Set caller as parent.
+	setlocalvar("currentSpawn", vSpawn);
+	return vSpawn; //Return vSpawn.
+}
 
+void spawn2bind(void Name, float dx, float dy, float dz, void parent)
+{// Spawn and bind other entity
+	void self = getlocalvar("self");
+	void vSpawn;
+
+	vSpawn = spawn01(Name, dx, dy, 0);
+
+	bindentity(vSpawn, self, dx, dz, dy, 0, 0);
+	changeentityproperty(vSpawn, "parent", parent); //Set caller as parent.
+	setlocalvar("currentSpawn", vSpawn);
+	return vSpawn; //Return vSpawn.
+}
+
+void spawn2parent(void Name, float dx, float dy, float dz)
+{// Spawn and bind other entity
+	void self = getlocalvar("self");
+	void parent = getentityproperty(self, "parent");
+	void vSpawn;
+
+	vSpawn = spawn01(Name, dx, dy, 0);
+
+	bindentity(vSpawn, self, dx, dz, dy, 0, 0);
+	changeentityproperty(vSpawn, "parent", parent); //Set caller as parent.
+	setlocalvar("currentSpawn", vSpawn);
 	return vSpawn; //Return vSpawn.
 }
 
@@ -2121,6 +2148,28 @@ void pause_enemy(int iToggle, int iTime){
     changeentityproperty(vEnemy, "freezetime", iETime + iTime);    //Toggle frozen time.
 }
 
+void unpause() {
+	void vSelf      = getlocalvar("self");                  //Caller   
+    int  iETime     = openborvariant("elapsed_time");       //Current time.
+    int  iMax       = openborvariant("ent_max");            //Entity count.
+    int  iEntity;                                           //Loop counter.
+    void vEntity;                                           //Target entity.
+    void vFrozen;											//Target parent
+
+    for(iEntity=0; iEntity<iMax; iEntity++)
+    {   
+        vEntity = getentity(iEntity); 
+        vFrozen = getentityproperty(vEntity, "frozen"); 
+
+        if(vFrozen) {
+	        //Get target entity from current loop.
+	        changeentityproperty(vEntity, "frozen", 0);               //Toggle frozen.
+	        changeentityproperty(vEntity, "freezetime", 0);    //Toggle frozen time.
+        	
+        }
+    }  
+}
+
 void rasengan() {
 	void rObj = spawnbind("rasengan", 0, -1, 1);
 	setlocalvar("rObj", rObj);
@@ -2554,4 +2603,33 @@ void spawnTextAni(void vName, float fX, float fY, float fZ, void Ani, float Vx, 
 	//changeentityproperty(vSpawn, "velocity", Vx, Vy, Vz);
 
 	return vSpawn; //Return spawn.
+}
+
+// DrawMethod resets
+
+void resetMethod(char Name)
+{/*
+    Kills all entities with defined alias 
+  
+    Name: Name of entity to be killed
+    */
+
+    void vEntity;                                       //Target entity placeholder.
+    int  iEntity;                                       //Entity enumeration holder.
+    void self = getlocalvar("self");
+    char iName;                                         //Entity Name.
+    int  iMax      = openborvariant("count_entities");  //Entity count.
+
+    //Enumerate and loop through entity collection.
+    for(iEntity=0; iEntity<iMax; iEntity++){
+      vEntity = getentity(iEntity);                 //Get target entity from current loop.
+      iName   = getentityproperty(vEntity, "name"); //Get target name.
+      
+      if(iName == Name){ //Same alias?
+      	if(Name == "tint") {
+      		changedrawmethod(self, "tintmode", 0);
+      	}
+        killentity(vEntity);
+      }
+    }
 }

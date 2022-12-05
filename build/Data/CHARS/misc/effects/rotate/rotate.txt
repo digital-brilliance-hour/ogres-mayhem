@@ -1,0 +1,62 @@
+name  rotate
+type none
+shadow 0
+setlayer 999
+#icon	Data/CHARS/misc/effects/rotate/rotateicon.gif
+
+
+
+
+
+anim	idle
+	loop	1 1
+	delay	1
+	@script
+	void self = getlocalvar("self");
+	int frame = getlocalvar("frame");
+	void parent = getentityproperty(self, "parent");
+    int rotateto = getentityvar(self, "rotateTo");
+	int rotatespeed = getentityvar(self, "rotateSpeed");
+	int rotatedirection = getentityvar(self, "rotateDirection");
+	int rotatesize = getdrawmethod(parent, "rotate");
+	changedrawmethod(parent, "enabled", 1);
+	//changedrawmethod(parent, "centerx", -20);
+	changedrawmethod(parent, "centery", -20);
+    if(frame > 1) {
+		if(rotatesize < rotateto && rotatedirection) {
+	         rotatesize += rotatespeed;
+		     changedrawmethod(parent, "rotate", rotatesize);
+		}
+		else if(rotatesize > rotateto && !rotatedirection) {
+	         rotatesize -= rotatespeed;
+		     changedrawmethod(parent, "rotate", rotatesize);
+		}
+		else {
+		     changedrawmethod(parent, "rotate", rotateto);
+		     //changedrawmethod(parent, "enabled", 0);
+		     killentity(self);
+		}
+	}
+	@end_script	
+	offset	0 0
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+		
+anim	spawn
+	delay	1
+	loop	0
+	@script
+	void self = getlocalvar("self");
+     	setentityvar(self, "rotateTo", 359);
+     	setentityvar(self, "rotateSpeed", 1);
+     	setentityvar(self, "rotateDirection", 1);
+     	executeanimation(self, openborconstant("ANI_IDLE"));
+	@end_script	
+	offset	0 0
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		
