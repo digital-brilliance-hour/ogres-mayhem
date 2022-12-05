@@ -20,7 +20,7 @@ load Kunai_
 star Kunai_
 animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c
-
+onblocksscript data/scripts/enemy/screenedge.c
 
 
 

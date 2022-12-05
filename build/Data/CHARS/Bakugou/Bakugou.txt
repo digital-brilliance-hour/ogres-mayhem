@@ -45,7 +45,7 @@ com d s freespecial4
 com d f s freespecial7
 com d b s freespecial8
 com d u s freespecial9
-
+onblocksscript data/scripts/enemy/screenedge.c
 
 
 

@@ -14,7 +14,7 @@ takedamagescript data/scripts/enemyhit.c
 animationscript data/scripts/spawns.c
 candamage player npc
 hostile npc player
-
+onblocksscript data/scripts/enemy/screenedge.c
 
 
 anim	attack1

@@ -21,7 +21,7 @@ knife lay
 hostile npc player
 animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c
-
+onblocksscript data/scripts/enemy/screenedge.c
 
 
 anim	attack1

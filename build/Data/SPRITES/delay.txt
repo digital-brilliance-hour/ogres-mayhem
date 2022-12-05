@@ -3,7 +3,7 @@ health       30
 type       enemy
 shadow     0
 nomove     1
-
+onblocksscript data/scripts/enemy/screenedge.c
 
 
 anim	idle

@@ -29,6 +29,7 @@ nodieblink 3
 ondeathscript data/scripts/bossdeath.c
 candamage player npc
 hostile npc player
+onblocksscript data/scripts/enemy/screenedge.c
 
 anim	attack1
 	range	0	340

@@ -5,6 +5,7 @@ shadow	0
 
 candamage player npc
 hostile npc player
+onblocksscript data/scripts/enemy/screenedge.c
 
 anim	idle
 	loop	0

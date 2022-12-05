@@ -6,6 +6,7 @@ candamage    player npc
 hostile npc player
 shadow	0
 icon	data/chars/misc/474.gif
+onblocksscript data/scripts/enemy/screenedge.c
 
 anim	idle
 	delay	25
