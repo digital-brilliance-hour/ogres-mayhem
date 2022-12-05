@@ -382,3 +382,4 @@ Know bAirPush2 Data/CHARS/Bakugou/bAirPush2/bAirPush2.txt
 Know bFireBlast2 Data/CHARS/Bakugou/bFireBlast2/bFireBlast2.txt
 Know bFireBlast3 Data/CHARS/Bakugou/bFireBlast3/bFireBlast3.txt
 Know InoNPC Data/Chars/InoNPC/InoNPC.txt
+know RMXCM-X data/chars/RMXCM-X/RMXCM-X.txt

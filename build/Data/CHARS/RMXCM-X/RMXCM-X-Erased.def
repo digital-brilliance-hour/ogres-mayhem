@@ -1,0 +1,27 @@
+[Info]
+name="RMXCM-X"
+displayname="NOT X"
+versiondate=
+mugenversion=1.1
+author="Berkana & Sigma"
+pal.defaults=1,2,3,4,5,6
+[Files]
+sprite=RMXCM-X.sff
+sound=RMXCM-X.snd
+anim=RMXCM-X.air
+cmd=RMXCM-X.cmd
+cns=RMXCM-X.cns
+st=RMXCM-X.cns
+stcommon=RMXCM-X-Common.cns
+pal1=RMXCM-X-Erased.act
+pal2=RMXCM-X-Erased.act
+pal3=RMXCM-X-Erased.act
+pal4=RMXCM-X-Erased.act
+pal5=RMXCM-X-Erased.act
+pal6=RMXCM-X-Erased.act
+st1=RMXCM-X-Helpers.cns
+st2=RMXCM-X-SS-2.cns
+st3=RMXCM-X-SS-3.cns
+[Arcade]
+intro.storyboard=
+ending.storyboard=
