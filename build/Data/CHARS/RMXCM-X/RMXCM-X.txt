@@ -1,4 +1,4 @@
-name Megaman X
+name Megaman_X
 health 100
 mp 100
 speed 15
