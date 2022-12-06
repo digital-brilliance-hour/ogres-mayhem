@@ -10,6 +10,8 @@ candamage player npc
 hostile npc player
 
 takedamagescript data/scripts/enemyhit.c
+onblocksscript data/scripts/enemy/screenedge.c
+
 
 anim	attack1
 	delay	7

@@ -14,7 +14,7 @@ subject_to_screen 1
 
 candamage player npc
 hostile npc player
-
+onblocksscript data/scripts/enemy/screenedge.c
 
 
 anim	attack1

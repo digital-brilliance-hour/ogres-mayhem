@@ -18,7 +18,7 @@ animationscript data/scripts/spawns.c
 
 candamage player npc
 hostile npc player
-
+onblocksscript data/scripts/enemy/screenedge.c
 
 
 

@@ -22,7 +22,7 @@ lifebarstatus 380 5 0 1 0 0 0 0 0
 lifeposition 50 235
 nameposition 60 225
 iconposition 50 360
-
+onblocksscript data/scripts/enemy/screenedge.c
 
 
 
@@ -97,6 +97,28 @@ anim	freespecial
 	attack	0 0 0 0 0 0
 	frame	data/chars/Ikkaku/Free5.gif
 	frame	data/chars/Ikkaku/Free6.gif
+		
+anim	freespecial2
+	mpcost	0
+	mponly	1
+	loop	0
+	offset	58 116
+	delay	5
+	frame	data/chars/Ikkaku/Special1.gif
+	delay	5
+	@cmd	spawnparent "pdust" -10 0 -20
+	frame	data/chars/Ikkaku/Special2.gif
+	frame	data/chars/Ikkaku/Special3.gif
+	frame	data/chars/Ikkaku/Special4.gif
+	attack	60 70 115 46 50 1
+	frame	data/chars/Ikkaku/Special5.gif
+	frame	data/chars/Ikkaku/Special6.gif
+	frame	data/chars/Ikkaku/Special7.gif
+	frame	data/chars/Ikkaku/Special8.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/Ikkaku/Special9.gif
+	frame	data/chars/Ikkaku/Special9.gif
+	frame	data/chars/Ikkaku/Special9.gif
 		
 anim	get
 	loop	0
@@ -200,28 +222,6 @@ anim	select
 	frame	data/chars/Ikkaku/Select10.gif
 	frame	data/chars/Ikkaku/Select11.gif
 	frame	data/chars/Ikkaku/Select12.gif
-		
-anim	freespecial2
-	mpcost	0
-	mponly	1
-	loop	0
-	offset	58 116
-	delay	5
-	frame	data/chars/Ikkaku/Special1.gif
-	delay	5
-	@cmd	spawnparent "pdust" -10 0 -20
-	frame	data/chars/Ikkaku/Special2.gif
-	frame	data/chars/Ikkaku/Special3.gif
-	frame	data/chars/Ikkaku/Special4.gif
-	attack	60 70 115 46 50 1
-	frame	data/chars/Ikkaku/Special5.gif
-	frame	data/chars/Ikkaku/Special6.gif
-	frame	data/chars/Ikkaku/Special7.gif
-	frame	data/chars/Ikkaku/Special8.gif
-	attack	0 0 0 0 0 0
-	frame	data/chars/Ikkaku/Special9.gif
-	frame	data/chars/Ikkaku/Special9.gif
-	frame	data/chars/Ikkaku/Special9.gif
 		
 anim	throw
 	loop	0

@@ -25,7 +25,7 @@ candamage player npc
 remap data/chars/facce/stand1.gif data/chars/facce/fmap.gif
 animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c
-
+onblocksscript data/scripts/enemy/screenedge.c
 
 anim	attack1
 	range	1 70

@@ -33,7 +33,7 @@ script data/scripts/bosses/update.c
 
 weapons sasukeTransform Sasuke_E
 weaploss 3
-
+onblocksscript data/scripts/enemy/screenedge.c
 
 
 

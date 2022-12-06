@@ -10,6 +10,7 @@ candamage player npc
 hostile npc player
 
 takedamagescript data/scripts/enemyhit.c
+onblocksscript data/scripts/enemy/screenedge.c
 
 anim	idle
 	loop	1

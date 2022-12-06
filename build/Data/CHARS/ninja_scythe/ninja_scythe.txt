@@ -19,6 +19,7 @@ knife  scythe_enemy
 blockodds 1
 
 takedamagescript data/scripts/enemyhit.c
+onblocksscript data/scripts/enemy/screenedge.c
 
 anim	attack1
 	loop	0
