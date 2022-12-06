@@ -1,0 +1,2267 @@
+name Megaman X-old
+health 100
+mp 100
+speed 15
+type player
+shadow 3
+
+
+anim 9000
+ delay 7
+ offset 0 0
+ frame data/chars/RMXCM-X/0.gif
+ offset 853 0
+ frame data/chars/RMXCM-X/1.gif
+ offset 426 0
+ frame data/chars/RMXCM-X/2.gif
+ offset 0 0
+ frame data/chars/RMXCM-X/3.gif
+
+anim idle
+ delay 7
+ offset 19 43
+ frame data/chars/RMXCM-X/4.gif
+ offset 19 42
+ frame data/chars/RMXCM-X/5.gif
+ offset 19 41
+ frame data/chars/RMXCM-X/6.gif
+ offset 19 41
+ frame data/chars/RMXCM-X/7.gif
+ offset 19 41
+ frame data/chars/RMXCM-X/8.gif
+ offset 18 43
+ frame data/chars/RMXCM-X/9.gif
+ offset 18 42
+ frame data/chars/RMXCM-X/10.gif
+ offset 18 41
+ frame data/chars/RMXCM-X/11.gif
+ offset 18 42
+ frame data/chars/RMXCM-X/12.gif
+ offset 18 43
+ frame data/chars/RMXCM-X/13.gif
+ offset 20 44
+ frame data/chars/RMXCM-X/14.gif
+ offset 20 43
+ frame data/chars/RMXCM-X/15.gif
+ offset 20 42
+ frame data/chars/RMXCM-X/16.gif
+ offset 20 42
+ frame data/chars/RMXCM-X/17.gif
+ offset 20 42
+ frame data/chars/RMXCM-X/18.gif
+ offset 20 43
+ frame data/chars/RMXCM-X/19.gif
+ offset 20 44
+ frame data/chars/RMXCM-X/20.gif
+ offset 20 45
+ frame data/chars/RMXCM-X/21.gif
+ offset 20 44
+ frame data/chars/RMXCM-X/22.gif
+ offset 20 43
+ frame data/chars/RMXCM-X/23.gif
+ offset 20 43
+ frame data/chars/RMXCM-X/24.gif
+
+anim 0002
+ delay 7
+ offset 18 45
+ frame data/chars/RMXCM-X/25.gif
+ offset 18 44
+ frame data/chars/RMXCM-X/26.gif
+ offset 18 42
+ frame data/chars/RMXCM-X/27.gif
+ offset 18 44
+ frame data/chars/RMXCM-X/28.gif
+ offset 18 48
+ frame data/chars/RMXCM-X/29.gif
+ offset 18 47
+ frame data/chars/RMXCM-X/30.gif
+ offset 18 45
+ frame data/chars/RMXCM-X/31.gif
+ offset 18 47
+ frame data/chars/RMXCM-X/32.gif
+
+anim 0010
+ delay 7
+ offset 21 35
+ frame data/chars/RMXCM-X/33.gif
+ offset 21 36
+ frame data/chars/RMXCM-X/34.gif
+
+anim 0011
+ delay 7
+ offset 25 29
+ frame data/chars/RMXCM-X/35.gif
+ offset 25 30
+ frame data/chars/RMXCM-X/36.gif
+
+anim walk
+ delay 7
+ offset 18 43
+ frame data/chars/RMXCM-X/37.gif
+ offset 16 43
+ frame data/chars/RMXCM-X/38.gif
+ offset 18 43
+ frame data/chars/RMXCM-X/39.gif
+ offset 22 43
+ frame data/chars/RMXCM-X/40.gif
+ offset 27 42
+ frame data/chars/RMXCM-X/41.gif
+ offset 26 41
+ frame data/chars/RMXCM-X/42.gif
+ offset 21 42
+ frame data/chars/RMXCM-X/43.gif
+ offset 16 43
+ frame data/chars/RMXCM-X/44.gif
+ offset 12 43
+ frame data/chars/RMXCM-X/45.gif
+ offset 18 43
+ frame data/chars/RMXCM-X/46.gif
+ offset 21 43
+ frame data/chars/RMXCM-X/47.gif
+ offset 24 42
+ frame data/chars/RMXCM-X/48.gif
+ offset 23 41
+ frame data/chars/RMXCM-X/49.gif
+ offset 21 42
+ frame data/chars/RMXCM-X/50.gif
+ offset 16 43
+ frame data/chars/RMXCM-X/51.gif
+ offset 13 43
+ frame data/chars/RMXCM-X/52.gif
+ offset 18 43
+ frame data/chars/RMXCM-X/53.gif
+ offset 15 44
+ frame data/chars/RMXCM-X/54.gif
+ offset 18 44
+ frame data/chars/RMXCM-X/55.gif
+ offset 23 44
+ frame data/chars/RMXCM-X/56.gif
+ offset 28 43
+ frame data/chars/RMXCM-X/57.gif
+ offset 27 42
+ frame data/chars/RMXCM-X/58.gif
+ offset 22 43
+ frame data/chars/RMXCM-X/59.gif
+ offset 16 44
+ frame data/chars/RMXCM-X/60.gif
+ offset 12 44
+ frame data/chars/RMXCM-X/61.gif
+ offset 18 44
+ frame data/chars/RMXCM-X/62.gif
+ offset 21 45
+ frame data/chars/RMXCM-X/63.gif
+ offset 24 44
+ frame data/chars/RMXCM-X/64.gif
+ offset 23 43
+ frame data/chars/RMXCM-X/65.gif
+ offset 21 44
+ frame data/chars/RMXCM-X/66.gif
+ offset 16 45
+ frame data/chars/RMXCM-X/67.gif
+ offset 13 44
+ frame data/chars/RMXCM-X/68.gif
+
+anim 0040
+ delay 7
+ offset 10 43
+ frame data/chars/RMXCM-X/69.gif
+ offset 9 44
+ frame data/chars/RMXCM-X/70.gif
+
+anim jump
+ delay 7
+ offset 9 43
+ frame data/chars/RMXCM-X/71.gif
+ offset 11 42
+ frame data/chars/RMXCM-X/72.gif
+ offset 13 45
+ frame data/chars/RMXCM-X/73.gif
+ offset 9 44
+ frame data/chars/RMXCM-X/74.gif
+ offset 11 43
+ frame data/chars/RMXCM-X/75.gif
+ offset 13 45
+ frame data/chars/RMXCM-X/76.gif
+
+anim 0044
+ delay 7
+ offset 16 44
+ frame data/chars/RMXCM-X/77.gif
+ offset 19 42
+ frame data/chars/RMXCM-X/78.gif
+ offset 18 42
+ frame data/chars/RMXCM-X/79.gif
+ offset 16 42
+ frame data/chars/RMXCM-X/80.gif
+ offset 15 44
+ frame data/chars/RMXCM-X/81.gif
+ offset 18 42
+ frame data/chars/RMXCM-X/82.gif
+ offset 17 43
+ frame data/chars/RMXCM-X/83.gif
+ offset 16 43
+ frame data/chars/RMXCM-X/84.gif
+
+anim jumpland
+ delay 7
+ offset 16 42
+ frame data/chars/RMXCM-X/85.gif
+ offset 14 41
+ frame data/chars/RMXCM-X/86.gif
+ offset 17 40
+ frame data/chars/RMXCM-X/87.gif
+ offset 16 44
+ frame data/chars/RMXCM-X/88.gif
+ offset 14 44
+ frame data/chars/RMXCM-X/89.gif
+ offset 18 43
+ frame data/chars/RMXCM-X/90.gif
+
+anim run
+ delay 7
+ offset 20 40
+ frame data/chars/RMXCM-X/91.gif
+ offset 23 34
+ frame data/chars/RMXCM-X/92.gif
+ offset 26 29
+ frame data/chars/RMXCM-X/93.gif
+ offset 30 29
+ frame data/chars/RMXCM-X/94.gif
+ offset 14 38
+ frame data/chars/RMXCM-X/95.gif
+ offset 14 40
+ frame data/chars/RMXCM-X/96.gif
+ offset 26 40
+ frame data/chars/RMXCM-X/97.gif
+ offset 18 40
+ frame data/chars/RMXCM-X/98.gif
+ offset 20 43
+ frame data/chars/RMXCM-X/99.gif
+ offset 24 35
+ frame data/chars/RMXCM-X/100.gif
+ offset 27 30
+ frame data/chars/RMXCM-X/101.gif
+ offset 31 30
+ frame data/chars/RMXCM-X/102.gif
+ offset 15 39
+ frame data/chars/RMXCM-X/103.gif
+ offset 15 41
+ frame data/chars/RMXCM-X/104.gif
+ offset 26 43
+ frame data/chars/RMXCM-X/105.gif
+ offset 19 43
+ frame data/chars/RMXCM-X/106.gif
+ offset 13 40
+ frame data/chars/RMXCM-X/107.gif
+ offset 19 35
+ frame data/chars/RMXCM-X/108.gif
+
+anim block120
+ delay 7
+ offset 18 42
+ frame data/chars/RMXCM-X/109.gif
+ offset 18 40
+ frame data/chars/RMXCM-X/110.gif
+ offset 20 43
+ frame data/chars/RMXCM-X/111.gif
+ offset 20 41
+ frame data/chars/RMXCM-X/112.gif
+
+anim block121
+ delay 7
+ offset 25 32
+ frame data/chars/RMXCM-X/113.gif
+ offset 25 30
+ frame data/chars/RMXCM-X/114.gif
+ offset 25 33
+ frame data/chars/RMXCM-X/115.gif
+ offset 25 30
+ frame data/chars/RMXCM-X/116.gif
+
+anim block122
+ delay 7
+ offset 15 43
+ frame data/chars/RMXCM-X/117.gif
+ offset 13 41
+ frame data/chars/RMXCM-X/118.gif
+ offset 14 44
+ frame data/chars/RMXCM-X/119.gif
+ offset 13 41
+ frame data/chars/RMXCM-X/120.gif
+
+anim 0180
+ delay 7
+ offset 25 45
+ frame data/chars/RMXCM-X/121.gif
+ offset 23 46
+ frame data/chars/RMXCM-X/122.gif
+ offset 22 46
+ frame data/chars/RMXCM-X/123.gif
+ offset 22 47
+ frame data/chars/RMXCM-X/124.gif
+ offset 22 46
+ frame data/chars/RMXCM-X/125.gif
+ offset 23 46
+ frame data/chars/RMXCM-X/126.gif
+ offset 22 46
+ frame data/chars/RMXCM-X/127.gif
+ offset 22 47
+ frame data/chars/RMXCM-X/128.gif
+ offset 22 46
+ frame data/chars/RMXCM-X/129.gif
+ offset 22 46
+ frame data/chars/RMXCM-X/130.gif
+ offset 22 47
+ frame data/chars/RMXCM-X/131.gif
+ offset 22 46
+ frame data/chars/RMXCM-X/132.gif
+ offset 20 46
+ frame data/chars/RMXCM-X/133.gif
+ offset 20 46
+ frame data/chars/RMXCM-X/134.gif
+ offset 22 46
+ frame data/chars/RMXCM-X/135.gif
+ offset 19 43
+ frame data/chars/RMXCM-X/136.gif
+ offset 19 47
+ frame data/chars/RMXCM-X/137.gif
+
+anim 0181
+ delay 7
+ offset 18 37
+ frame data/chars/RMXCM-X/138.gif
+ offset 27 40
+ frame data/chars/RMXCM-X/139.gif
+ offset 33 69
+ frame data/chars/RMXCM-X/140.gif
+ offset 29 69
+ frame data/chars/RMXCM-X/141.gif
+ offset 26 69
+ frame data/chars/RMXCM-X/142.gif
+ offset 6 69
+ frame data/chars/RMXCM-X/143.gif
+ offset 18 39
+ frame data/chars/RMXCM-X/144.gif
+ offset 27 40
+ frame data/chars/RMXCM-X/145.gif
+
+anim respawn
+ delay 7
+ offset 4 94
+ frame data/chars/RMXCM-X/146.gif
+ offset 12 78
+ frame data/chars/RMXCM-X/147.gif
+ offset 21 39
+ frame data/chars/RMXCM-X/148.gif
+ offset 31 49
+ frame data/chars/RMXCM-X/149.gif
+ offset 33 53
+ frame data/chars/RMXCM-X/150.gif
+ offset 48 69
+ frame data/chars/RMXCM-X/151.gif
+ offset 48 69
+ frame data/chars/RMXCM-X/152.gif
+ offset 32 49
+ frame data/chars/RMXCM-X/153.gif
+ offset 24 47
+ frame data/chars/RMXCM-X/154.gif
+ offset 18 39
+ frame data/chars/RMXCM-X/155.gif
+ offset 18 41
+ frame data/chars/RMXCM-X/156.gif
+ offset 16 44
+ frame data/chars/RMXCM-X/157.gif
+ offset 12 52
+ frame data/chars/RMXCM-X/158.gif
+ offset 12 53
+ frame data/chars/RMXCM-X/159.gif
+ offset 41 51
+ frame data/chars/RMXCM-X/160.gif
+ offset 38 51
+ frame data/chars/RMXCM-X/161.gif
+ offset 25 51
+ frame data/chars/RMXCM-X/162.gif
+ offset 25 51
+ frame data/chars/RMXCM-X/163.gif
+ offset 23 55
+ frame data/chars/RMXCM-X/164.gif
+ offset 19 51
+ frame data/chars/RMXCM-X/165.gif
+ offset 23 52
+ frame data/chars/RMXCM-X/166.gif
+ offset 21 42
+ frame data/chars/RMXCM-X/167.gif
+ offset 20 44
+ frame data/chars/RMXCM-X/168.gif
+ offset 18 46
+ frame data/chars/RMXCM-X/169.gif
+ offset 12 52
+ frame data/chars/RMXCM-X/170.gif
+ offset 12 53
+ frame data/chars/RMXCM-X/171.gif
+ offset 25 52
+ frame data/chars/RMXCM-X/172.gif
+ offset 25 52
+ frame data/chars/RMXCM-X/173.gif
+ offset 20 53
+ frame data/chars/RMXCM-X/174.gif
+ offset 24 62
+ frame data/chars/RMXCM-X/175.gif
+ offset 24 63
+ frame data/chars/RMXCM-X/176.gif
+
+anim attack200
+ delay 7
+ offset 26 42
+ frame data/chars/RMXCM-X/177.gif
+ offset 18 44
+ frame data/chars/RMXCM-X/178.gif
+ offset 17 44
+ frame data/chars/RMXCM-X/179.gif
+ offset 17 44
+ frame data/chars/RMXCM-X/180.gif
+ offset 16 44
+ frame data/chars/RMXCM-X/181.gif
+ offset 19 43
+ frame data/chars/RMXCM-X/182.gif
+ offset 18 46
+ frame data/chars/RMXCM-X/183.gif
+ offset 16 46
+ frame data/chars/RMXCM-X/184.gif
+ offset 16 46
+ frame data/chars/RMXCM-X/185.gif
+ offset 18 46
+ frame data/chars/RMXCM-X/186.gif
+
+anim attack201
+ delay 7
+ offset 19 44
+ frame data/chars/RMXCM-X/187.gif
+ offset 19 41
+ frame data/chars/RMXCM-X/188.gif
+ offset 25 42
+ frame data/chars/RMXCM-X/189.gif
+ offset 19 41
+ frame data/chars/RMXCM-X/190.gif
+ offset 21 46
+ frame data/chars/RMXCM-X/191.gif
+ offset 21 46
+ frame data/chars/RMXCM-X/192.gif
+ offset 20 44
+ frame data/chars/RMXCM-X/193.gif
+ offset 21 46
+ frame data/chars/RMXCM-X/194.gif
+
+anim attack202
+ delay 7
+ offset 18 44
+ frame data/chars/RMXCM-X/195.gif
+ offset 18 43
+ frame data/chars/RMXCM-X/196.gif
+ offset 18 41
+ frame data/chars/RMXCM-X/197.gif
+ offset 18 41
+ frame data/chars/RMXCM-X/198.gif
+ offset 18 43
+ frame data/chars/RMXCM-X/199.gif
+ offset 20 44
+ frame data/chars/RMXCM-X/200.gif
+ offset 20 42
+ frame data/chars/RMXCM-X/201.gif
+ offset 20 43
+ frame data/chars/RMXCM-X/202.gif
+ offset 19 42
+ frame data/chars/RMXCM-X/203.gif
+ offset 19 41
+ frame data/chars/RMXCM-X/204.gif
+
+anim attack210
+ delay 7
+ offset 25 30
+ frame data/chars/RMXCM-X/205.gif
+ offset 25 32
+ frame data/chars/RMXCM-X/206.gif
+ offset 25 32
+ frame data/chars/RMXCM-X/207.gif
+ offset 25 32
+ frame data/chars/RMXCM-X/208.gif
+ offset 25 31
+ frame data/chars/RMXCM-X/209.gif
+ offset 25 31
+ frame data/chars/RMXCM-X/210.gif
+ offset 25 36
+ frame data/chars/RMXCM-X/211.gif
+ offset 25 36
+ frame data/chars/RMXCM-X/212.gif
+ offset 25 36
+ frame data/chars/RMXCM-X/213.gif
+ offset 25 36
+ frame data/chars/RMXCM-X/214.gif
+
+anim attack211
+ delay 7
+ offset 19 33
+ frame data/chars/RMXCM-X/215.gif
+ offset 22 39
+ frame data/chars/RMXCM-X/216.gif
+ offset 34 37
+ frame data/chars/RMXCM-X/217.gif
+ offset 19 36
+ frame data/chars/RMXCM-X/218.gif
+ offset 22 37
+ frame data/chars/RMXCM-X/219.gif
+ offset 27 41
+ frame data/chars/RMXCM-X/220.gif
+
+anim attack220
+ delay 7
+ offset 21 40
+ frame data/chars/RMXCM-X/221.gif
+ offset 16 42
+ frame data/chars/RMXCM-X/222.gif
+ offset 15 43
+ frame data/chars/RMXCM-X/223.gif
+ offset 15 43
+ frame data/chars/RMXCM-X/224.gif
+ offset 10 41
+ frame data/chars/RMXCM-X/225.gif
+ offset 20 42
+ frame data/chars/RMXCM-X/226.gif
+ offset 14 45
+ frame data/chars/RMXCM-X/227.gif
+ offset 14 46
+ frame data/chars/RMXCM-X/228.gif
+ offset 14 46
+ frame data/chars/RMXCM-X/229.gif
+ offset 17 45
+ frame data/chars/RMXCM-X/230.gif
+
+anim attack221
+ delay 7
+ offset 15 41
+ frame data/chars/RMXCM-X/231.gif
+ offset 21 42
+ frame data/chars/RMXCM-X/232.gif
+ offset 22 43
+ frame data/chars/RMXCM-X/233.gif
+ offset 18 42
+ frame data/chars/RMXCM-X/234.gif
+ offset 17 44
+ frame data/chars/RMXCM-X/235.gif
+ offset 17 44
+ frame data/chars/RMXCM-X/236.gif
+ offset 24 45
+ frame data/chars/RMXCM-X/237.gif
+ offset 19 45
+ frame data/chars/RMXCM-X/238.gif
+
+anim attack222
+ delay 7
+ offset 10 43
+ frame data/chars/RMXCM-X/239.gif
+ offset 6 43
+ frame data/chars/RMXCM-X/240.gif
+ offset 8 43
+ frame data/chars/RMXCM-X/241.gif
+
+anim attack420
+ delay 7
+ offset 9 43
+ frame data/chars/RMXCM-X/242.gif
+
+anim attack222
+ delay 7
+ offset 9 44
+ frame data/chars/RMXCM-X/243.gif
+ offset 8 44
+ frame data/chars/RMXCM-X/244.gif
+ offset 9 49
+ frame data/chars/RMXCM-X/245.gif
+
+anim attack420
+ delay 7
+ offset 10 44
+ frame data/chars/RMXCM-X/246.gif
+
+anim attack300
+ delay 7
+ offset 31 40
+ frame data/chars/RMXCM-X/247.gif
+ offset 20 43
+ frame data/chars/RMXCM-X/248.gif
+ offset 20 43
+ frame data/chars/RMXCM-X/249.gif
+ offset 20 43
+ frame data/chars/RMXCM-X/250.gif
+
+anim attack410
+ delay 7
+ offset 19 41
+ frame data/chars/RMXCM-X/251.gif
+ offset 19 41
+ frame data/chars/RMXCM-X/252.gif
+ offset 19 41
+ frame data/chars/RMXCM-X/253.gif
+ offset 19 41
+ frame data/chars/RMXCM-X/254.gif
+ offset 19 41
+ frame data/chars/RMXCM-X/255.gif
+ offset 19 40
+ frame data/chars/RMXCM-X/256.gif
+ offset 21 42
+ frame data/chars/RMXCM-X/257.gif
+ offset 21 42
+ frame data/chars/RMXCM-X/258.gif
+ offset 21 44
+ frame data/chars/RMXCM-X/259.gif
+ offset 21 42
+ frame data/chars/RMXCM-X/260.gif
+ offset 21 47
+ frame data/chars/RMXCM-X/261.gif
+ offset 19 46
+ frame data/chars/RMXCM-X/262.gif
+
+anim attack420
+ delay 7
+ offset 13 43
+ frame data/chars/RMXCM-X/263.gif
+ offset 13 43
+ frame data/chars/RMXCM-X/264.gif
+ offset 13 43
+ frame data/chars/RMXCM-X/265.gif
+ offset 13 43
+ frame data/chars/RMXCM-X/266.gif
+ offset 13 43
+ frame data/chars/RMXCM-X/267.gif
+ offset 11 43
+ frame data/chars/RMXCM-X/268.gif
+ offset 11 43
+ frame data/chars/RMXCM-X/269.gif
+ offset 11 45
+ frame data/chars/RMXCM-X/270.gif
+ offset 13 44
+ frame data/chars/RMXCM-X/271.gif
+ offset 13 49
+ frame data/chars/RMXCM-X/272.gif
+
+anim attack400
+ delay 7
+ offset 19 49
+ frame data/chars/RMXCM-X/273.gif
+ offset 19 48
+ frame data/chars/RMXCM-X/274.gif
+ offset 20 50
+ frame data/chars/RMXCM-X/275.gif
+ offset 20 49
+ frame data/chars/RMXCM-X/276.gif
+
+anim attack212
+ delay 7
+ offset 15 45
+ frame data/chars/RMXCM-X/277.gif
+ offset 16 53
+ frame data/chars/RMXCM-X/278.gif
+ offset 17 52
+ frame data/chars/RMXCM-X/279.gif
+ offset 12 51
+ frame data/chars/RMXCM-X/280.gif
+ offset 21 48
+ frame data/chars/RMXCM-X/281.gif
+ offset 14 48
+ frame data/chars/RMXCM-X/282.gif
+ offset 16 53
+ frame data/chars/RMXCM-X/283.gif
+ offset 17 50
+ frame data/chars/RMXCM-X/284.gif
+ offset 13 49
+ frame data/chars/RMXCM-X/285.gif
+ offset 21 48
+ frame data/chars/RMXCM-X/286.gif
+
+anim attack450
+ delay 7
+ offset 11 42
+ frame data/chars/RMXCM-X/287.gif
+ offset 13 45
+ frame data/chars/RMXCM-X/288.gif
+ offset 13 45
+ frame data/chars/RMXCM-X/289.gif
+ offset 18 41
+ frame data/chars/RMXCM-X/290.gif
+ offset 16 44
+ frame data/chars/RMXCM-X/291.gif
+ offset 16 44
+ frame data/chars/RMXCM-X/292.gif
+ offset 11 43
+ frame data/chars/RMXCM-X/293.gif
+ offset 13 45
+ frame data/chars/RMXCM-X/294.gif
+ offset 13 45
+ frame data/chars/RMXCM-X/295.gif
+ offset 17 41
+ frame data/chars/RMXCM-X/296.gif
+ offset 15 44
+ frame data/chars/RMXCM-X/297.gif
+ offset 15 44
+ frame data/chars/RMXCM-X/298.gif
+
+anim attack460
+ delay 7
+ offset 19 43
+ frame data/chars/RMXCM-X/299.gif
+ offset 20 46
+ frame data/chars/RMXCM-X/300.gif
+ offset 21 44
+ frame data/chars/RMXCM-X/301.gif
+ offset 22 35
+ frame data/chars/RMXCM-X/302.gif
+ offset 22 34
+ frame data/chars/RMXCM-X/303.gif
+ offset 22 40
+ frame data/chars/RMXCM-X/304.gif
+ offset 19 43
+ frame data/chars/RMXCM-X/305.gif
+ offset 26 46
+ frame data/chars/RMXCM-X/306.gif
+ offset 26 51
+ frame data/chars/RMXCM-X/307.gif
+ offset 21 44
+ frame data/chars/RMXCM-X/308.gif
+ offset 24 36
+ frame data/chars/RMXCM-X/309.gif
+ offset 25 38
+ frame data/chars/RMXCM-X/310.gif
+ offset 28 44
+ frame data/chars/RMXCM-X/311.gif
+ offset 26 46
+ frame data/chars/RMXCM-X/312.gif
+
+anim attack470
+ delay 7
+ offset 12 45
+ frame data/chars/RMXCM-X/313.gif
+ offset 7 41
+ frame data/chars/RMXCM-X/314.gif
+ offset 8 41
+ frame data/chars/RMXCM-X/315.gif
+ offset 22 40
+ frame data/chars/RMXCM-X/316.gif
+ offset 21 40
+ frame data/chars/RMXCM-X/317.gif
+ offset 15 44
+ frame data/chars/RMXCM-X/318.gif
+ offset 21 50
+ frame data/chars/RMXCM-X/319.gif
+ offset 14 46
+ frame data/chars/RMXCM-X/320.gif
+ offset 12 43
+ frame data/chars/RMXCM-X/321.gif
+ offset 20 42
+ frame data/chars/RMXCM-X/322.gif
+ offset 25 50
+ frame data/chars/RMXCM-X/323.gif
+ offset 25 47
+ frame data/chars/RMXCM-X/324.gif
+
+anim attack480
+ delay 7
+ offset 20 50
+ frame data/chars/RMXCM-X/325.gif
+ offset 20 50
+ frame data/chars/RMXCM-X/326.gif
+ offset 20 58
+ frame data/chars/RMXCM-X/327.gif
+ offset 26 58
+ frame data/chars/RMXCM-X/328.gif
+ offset 20 50
+ frame data/chars/RMXCM-X/329.gif
+ offset 29 61
+ frame data/chars/RMXCM-X/330.gif
+
+anim jumpattack600
+ delay 7
+ offset 20 43
+ frame data/chars/RMXCM-X/331.gif
+ offset 24 35
+ frame data/chars/RMXCM-X/332.gif
+ offset 27 30
+ frame data/chars/RMXCM-X/333.gif
+ offset 30 30
+ frame data/chars/RMXCM-X/334.gif
+
+anim jumpattack601
+ delay 7
+ offset 15 40
+ frame data/chars/RMXCM-X/335.gif
+ offset 15 42
+ frame data/chars/RMXCM-X/336.gif
+ offset 20 42
+ frame data/chars/RMXCM-X/337.gif
+ offset 20 41
+ frame data/chars/RMXCM-X/338.gif
+
+anim jumpattack610
+ delay 7
+ offset 21 43
+ frame data/chars/RMXCM-X/339.gif
+ offset 23 42
+ frame data/chars/RMXCM-X/340.gif
+ offset 18 42
+ frame data/chars/RMXCM-X/341.gif
+ offset 18 43
+ frame data/chars/RMXCM-X/342.gif
+ offset 18 43
+ frame data/chars/RMXCM-X/343.gif
+ offset 18 43
+ frame data/chars/RMXCM-X/344.gif
+ offset 18 44
+ frame data/chars/RMXCM-X/345.gif
+ offset 18 45
+ frame data/chars/RMXCM-X/346.gif
+
+anim jumpattack620
+ delay 7
+ offset 35 50
+ frame data/chars/RMXCM-X/347.gif
+ offset 35 50
+ frame data/chars/RMXCM-X/348.gif
+ offset 34 49
+ frame data/chars/RMXCM-X/349.gif
+ offset 28 48
+ frame data/chars/RMXCM-X/350.gif
+ offset 29 48
+ frame data/chars/RMXCM-X/351.gif
+
+anim jumpattack621
+ delay 7
+ offset 33 62
+ frame data/chars/RMXCM-X/352.gif
+ offset 28 56
+ frame data/chars/RMXCM-X/353.gif
+ offset 28 64
+ frame data/chars/RMXCM-X/354.gif
+ offset 37 67
+ frame data/chars/RMXCM-X/355.gif
+ offset 38 67
+ frame data/chars/RMXCM-X/356.gif
+
+anim jumpattack622
+ delay 7
+ offset 33 49
+ frame data/chars/RMXCM-X/357.gif
+ offset 33 57
+ frame data/chars/RMXCM-X/358.gif
+ offset 33 59
+ frame data/chars/RMXCM-X/359.gif
+ offset 33 58
+ frame data/chars/RMXCM-X/360.gif
+
+anim freespecial4020
+ delay 7
+ offset 34 38
+ frame data/chars/RMXCM-X/361.gif
+ offset 32 33
+ frame data/chars/RMXCM-X/362.gif
+ offset 24 30
+ frame data/chars/RMXCM-X/363.gif
+ offset 25 29
+ frame data/chars/RMXCM-X/364.gif
+ offset 23 30
+ frame data/chars/RMXCM-X/365.gif
+ offset 23 33
+ frame data/chars/RMXCM-X/366.gif
+ offset 26 37
+ frame data/chars/RMXCM-X/367.gif
+ offset 30 35
+ frame data/chars/RMXCM-X/368.gif
+ offset 29 32
+ frame data/chars/RMXCM-X/369.gif
+ offset 29 30
+ frame data/chars/RMXCM-X/370.gif
+ offset 29 30
+ frame data/chars/RMXCM-X/371.gif
+ offset 29 30
+ frame data/chars/RMXCM-X/372.gif
+ offset 28 35
+ frame data/chars/RMXCM-X/373.gif
+ offset 29 37
+ frame data/chars/RMXCM-X/374.gif
+
+anim freespecial4040
+ delay 7
+ offset 14 30
+ frame data/chars/RMXCM-X/375.gif
+ offset 21 28
+ frame data/chars/RMXCM-X/376.gif
+ offset 26 27
+ frame data/chars/RMXCM-X/377.gif
+ offset 27 28
+ frame data/chars/RMXCM-X/378.gif
+ offset 31 37
+ frame data/chars/RMXCM-X/379.gif
+ offset 30 43
+ frame data/chars/RMXCM-X/380.gif
+ offset 24 50
+ frame data/chars/RMXCM-X/381.gif
+ offset 21 36
+ frame data/chars/RMXCM-X/382.gif
+
+anim freespecial4100
+ delay 7
+ offset 13 32
+ frame data/chars/RMXCM-X/383.gif
+ offset 28 25
+ frame data/chars/RMXCM-X/384.gif
+ offset 27 23
+ frame data/chars/RMXCM-X/385.gif
+ offset 14 34
+ frame data/chars/RMXCM-X/386.gif
+
+anim freespecial4190
+ delay 7
+ offset 52 67
+ frame data/chars/RMXCM-X/387.gif
+ offset 52 67
+ frame data/chars/RMXCM-X/388.gif
+ offset 52 67
+ frame data/chars/RMXCM-X/389.gif
+
+anim pain5000
+ delay 7
+ offset 18 42
+ frame data/chars/RMXCM-X/390.gif
+ offset 21 43
+ frame data/chars/RMXCM-X/391.gif
+
+anim pain5001
+ delay 7
+ offset 19 22
+ frame data/chars/RMXCM-X/392.gif
+ offset 22 23
+ frame data/chars/RMXCM-X/393.gif
+
+anim pain5002
+ delay 7
+ offset 14 6
+ frame data/chars/RMXCM-X/394.gif
+ offset 17 7
+ frame data/chars/RMXCM-X/395.gif
+
+anim pain5010
+ delay 7
+ offset 24 40
+ frame data/chars/RMXCM-X/396.gif
+ offset 21 34
+ frame data/chars/RMXCM-X/397.gif
+
+anim pain5011
+ delay 7
+ offset 18 21
+ frame data/chars/RMXCM-X/398.gif
+ offset 22 14
+ frame data/chars/RMXCM-X/399.gif
+
+anim pain5012
+ delay 7
+ offset 22 10
+ frame data/chars/RMXCM-X/400.gif
+ offset 17 -2
+ frame data/chars/RMXCM-X/401.gif
+
+anim pain5020
+ delay 7
+ offset 25 31
+ frame data/chars/RMXCM-X/402.gif
+ offset 25 23
+ frame data/chars/RMXCM-X/403.gif
+ offset 25 32
+ frame data/chars/RMXCM-X/404.gif
+ offset 25 24
+ frame data/chars/RMXCM-X/405.gif
+
+anim fall5030
+ delay 7
+ offset 15 40
+ frame data/chars/RMXCM-X/406.gif
+ offset 22 51
+ frame data/chars/RMXCM-X/407.gif
+ offset 15 40
+ frame data/chars/RMXCM-X/408.gif
+ offset 23 50
+ frame data/chars/RMXCM-X/409.gif
+
+anim fall5031
+ delay 7
+ offset 18 19
+ frame data/chars/RMXCM-X/410.gif
+ offset 19 14
+ frame data/chars/RMXCM-X/411.gif
+ offset 18 20
+ frame data/chars/RMXCM-X/412.gif
+ offset 20 13
+ frame data/chars/RMXCM-X/413.gif
+
+anim fall5032
+ delay 7
+ offset 11 7
+ frame data/chars/RMXCM-X/414.gif
+ offset 7 21
+ frame data/chars/RMXCM-X/415.gif
+ offset 11 8
+ frame data/chars/RMXCM-X/416.gif
+ offset 8 20
+ frame data/chars/RMXCM-X/417.gif
+
+anim fall5040
+ delay 7
+ offset 21 21
+ frame data/chars/RMXCM-X/418.gif
+ offset 13 18
+ frame data/chars/RMXCM-X/419.gif
+ offset 23 16
+ frame data/chars/RMXCM-X/420.gif
+ offset 22 20
+ frame data/chars/RMXCM-X/421.gif
+ offset 13 18
+ frame data/chars/RMXCM-X/422.gif
+ offset 25 10
+ frame data/chars/RMXCM-X/423.gif
+
+anim fall5041
+ delay 7
+ offset 19 14
+ frame data/chars/RMXCM-X/424.gif
+ offset 12 10
+ frame data/chars/RMXCM-X/425.gif
+ offset 22 11
+ frame data/chars/RMXCM-X/426.gif
+ offset 20 13
+ frame data/chars/RMXCM-X/427.gif
+ offset 12 10
+ frame data/chars/RMXCM-X/428.gif
+ offset 23 6
+ frame data/chars/RMXCM-X/429.gif
+
+anim fall5042
+ delay 7
+ offset 6 21
+ frame data/chars/RMXCM-X/430.gif
+ offset 3 22
+ frame data/chars/RMXCM-X/431.gif
+ offset 9 14
+ frame data/chars/RMXCM-X/432.gif
+ offset 7 20
+ frame data/chars/RMXCM-X/433.gif
+ offset 3 22
+ frame data/chars/RMXCM-X/434.gif
+ offset 10 8
+ frame data/chars/RMXCM-X/435.gif
+
+anim fall5060
+ delay 7
+ offset 18 32
+ frame data/chars/RMXCM-X/436.gif
+ offset 20 35
+ frame data/chars/RMXCM-X/437.gif
+ offset 20 35
+ frame data/chars/RMXCM-X/438.gif
+ offset 24 39
+ frame data/chars/RMXCM-X/439.gif
+ offset 28 40
+ frame data/chars/RMXCM-X/440.gif
+ offset 18 32
+ frame data/chars/RMXCM-X/441.gif
+ offset 22 36
+ frame data/chars/RMXCM-X/442.gif
+ offset 21 36
+ frame data/chars/RMXCM-X/443.gif
+ offset 27 41
+ frame data/chars/RMXCM-X/444.gif
+ offset 28 42
+ frame data/chars/RMXCM-X/445.gif
+
+anim fall5061
+ delay 7
+ offset 21 11
+ frame data/chars/RMXCM-X/446.gif
+ offset 23 14
+ frame data/chars/RMXCM-X/447.gif
+ offset 23 14
+ frame data/chars/RMXCM-X/448.gif
+ offset 27 18
+ frame data/chars/RMXCM-X/449.gif
+ offset 31 19
+ frame data/chars/RMXCM-X/450.gif
+ offset 21 11
+ frame data/chars/RMXCM-X/451.gif
+ offset 24 15
+ frame data/chars/RMXCM-X/452.gif
+ offset 24 16
+ frame data/chars/RMXCM-X/453.gif
+ offset 30 20
+ frame data/chars/RMXCM-X/454.gif
+ offset 31 21
+ frame data/chars/RMXCM-X/455.gif
+
+anim fall5062
+ delay 7
+ offset 7 2
+ frame data/chars/RMXCM-X/456.gif
+ offset 9 5
+ frame data/chars/RMXCM-X/457.gif
+ offset 9 5
+ frame data/chars/RMXCM-X/458.gif
+ offset 13 9
+ frame data/chars/RMXCM-X/459.gif
+ offset 17 10
+ frame data/chars/RMXCM-X/460.gif
+ offset 7 2
+ frame data/chars/RMXCM-X/461.gif
+ offset 10 7
+ frame data/chars/RMXCM-X/462.gif
+ offset 10 8
+ frame data/chars/RMXCM-X/463.gif
+ offset 16 11
+ frame data/chars/RMXCM-X/464.gif
+ offset 17 12
+ frame data/chars/RMXCM-X/465.gif
+
+anim faint
+ delay 7
+ offset 15 40
+ frame data/chars/RMXCM-X/466.gif
+ offset 19 40
+ frame data/chars/RMXCM-X/467.gif
+ offset 15 40
+ frame data/chars/RMXCM-X/468.gif
+ offset 17 41
+ frame data/chars/RMXCM-X/469.gif
+ offset 15 41
+ frame data/chars/RMXCM-X/470.gif
+ offset 17 47
+ frame data/chars/RMXCM-X/471.gif
+ offset 17 41
+ frame data/chars/RMXCM-X/472.gif
+ offset 17 42
+ frame data/chars/RMXCM-X/473.gif
+
+anim 6004
+ delay 7
+ offset 42 40
+ frame data/chars/RMXCM-X/474.gif
+ offset 54 49
+ frame data/chars/RMXCM-X/475.gif
+ offset 58 52
+ frame data/chars/RMXCM-X/476.gif
+ offset 71 68
+ frame data/chars/RMXCM-X/477.gif
+
+anim 6010
+ delay 7
+ offset 37 55
+ frame data/chars/RMXCM-X/478.gif
+ offset 53 80
+ frame data/chars/RMXCM-X/479.gif
+ offset 57 83
+ frame data/chars/RMXCM-X/480.gif
+ offset 83 89
+ frame data/chars/RMXCM-X/481.gif
+ offset 69 89
+ frame data/chars/RMXCM-X/482.gif
+ offset 48 83
+ frame data/chars/RMXCM-X/483.gif
+ offset 28 57
+ frame data/chars/RMXCM-X/484.gif
+ offset 19 51
+ frame data/chars/RMXCM-X/485.gif
+ offset 20 53
+ frame data/chars/RMXCM-X/486.gif
+
+anim 6011
+ delay 7
+ offset 65 25
+ frame data/chars/RMXCM-X/487.gif
+ offset 71 31
+ frame data/chars/RMXCM-X/488.gif
+ offset 77 27
+ frame data/chars/RMXCM-X/489.gif
+ offset 79 32
+ frame data/chars/RMXCM-X/490.gif
+ offset 81 33
+ frame data/chars/RMXCM-X/491.gif
+ offset 77 29
+ frame data/chars/RMXCM-X/492.gif
+ offset 83 34
+ frame data/chars/RMXCM-X/493.gif
+ offset 81 31
+ frame data/chars/RMXCM-X/494.gif
+ offset 79 33
+ frame data/chars/RMXCM-X/495.gif
+ offset 84 36
+ frame data/chars/RMXCM-X/496.gif
+
+anim 6100
+ delay 7
+ offset 20 31
+ frame data/chars/RMXCM-X/497.gif
+ offset 21 32
+ frame data/chars/RMXCM-X/498.gif
+ offset 24 34
+ frame data/chars/RMXCM-X/499.gif
+ offset 26 36
+ frame data/chars/RMXCM-X/500.gif
+ offset 25 32
+ frame data/chars/RMXCM-X/501.gif
+
+anim 6102
+ delay 7
+ offset 51 59
+ frame data/chars/RMXCM-X/502.gif
+ offset 61 75
+ frame data/chars/RMXCM-X/503.gif
+ offset 71 85
+ frame data/chars/RMXCM-X/504.gif
+ offset 77 91
+ frame data/chars/RMXCM-X/505.gif
+ offset 79 96
+ frame data/chars/RMXCM-X/506.gif
+ offset 77 95
+ frame data/chars/RMXCM-X/507.gif
+
+anim 6103
+ delay 7
+ offset 58 58
+ frame data/chars/RMXCM-X/508.gif
+ offset 56 56
+ frame data/chars/RMXCM-X/509.gif
+ offset 53 53
+ frame data/chars/RMXCM-X/510.gif
+ offset 51 50
+ frame data/chars/RMXCM-X/511.gif
+ offset 47 46
+ frame data/chars/RMXCM-X/512.gif
+ offset 43 44
+ frame data/chars/RMXCM-X/513.gif
+ offset 38 38
+ frame data/chars/RMXCM-X/514.gif
+ offset 33 33
+ frame data/chars/RMXCM-X/515.gif
+ offset 27 27
+ frame data/chars/RMXCM-X/516.gif
+ offset 53 53
+ frame data/chars/RMXCM-X/517.gif
+
+anim 6104
+ delay 7
+ offset 30 31
+ frame data/chars/RMXCM-X/518.gif
+ offset 36 35
+ frame data/chars/RMXCM-X/519.gif
+ offset 44 41
+ frame data/chars/RMXCM-X/520.gif
+ offset 53 51
+ frame data/chars/RMXCM-X/521.gif
+
+anim 6105
+ delay 7
+ offset 42 28
+ frame data/chars/RMXCM-X/522.gif
+ offset 128 24
+ frame data/chars/RMXCM-X/523.gif
+ offset 49 27
+ frame data/chars/RMXCM-X/524.gif
+ offset 142 34
+ frame data/chars/RMXCM-X/525.gif
+ offset 52 21
+ frame data/chars/RMXCM-X/526.gif
+ offset 141 39
+ frame data/chars/RMXCM-X/527.gif
+ offset 58 23
+ frame data/chars/RMXCM-X/528.gif
+ offset 141 26
+ frame data/chars/RMXCM-X/529.gif
+
+anim 6110
+ delay 7
+ offset 19 20
+ frame data/chars/RMXCM-X/530.gif
+ offset 19 19
+ frame data/chars/RMXCM-X/531.gif
+ offset 19 20
+ frame data/chars/RMXCM-X/532.gif
+ offset 21 21
+ frame data/chars/RMXCM-X/533.gif
+ offset 21 21
+ frame data/chars/RMXCM-X/534.gif
+
+anim 6111
+ delay 7
+ offset -15 54
+ frame data/chars/RMXCM-X/535.gif
+ offset -16 59
+ frame data/chars/RMXCM-X/536.gif
+ offset -20 53
+ frame data/chars/RMXCM-X/537.gif
+ offset -18 48
+ frame data/chars/RMXCM-X/538.gif
+
+anim 6112
+ delay 7
+ offset -4 56
+ frame data/chars/RMXCM-X/539.gif
+ offset -5 58
+ frame data/chars/RMXCM-X/540.gif
+ offset -2 67
+ frame data/chars/RMXCM-X/541.gif
+ offset -2 71
+ frame data/chars/RMXCM-X/542.gif
+ offset 3 72
+ frame data/chars/RMXCM-X/543.gif
+ offset -10 68
+ frame data/chars/RMXCM-X/544.gif
+
+anim 6113
+ delay 7
+ offset 70 71
+ frame data/chars/RMXCM-X/545.gif
+ offset 64 59
+ frame data/chars/RMXCM-X/546.gif
+ offset 64 59
+ frame data/chars/RMXCM-X/547.gif
+ offset 54 54
+ frame data/chars/RMXCM-X/548.gif
+ offset 49 49
+ frame data/chars/RMXCM-X/549.gif
+ offset 44 39
+ frame data/chars/RMXCM-X/550.gif
+ offset 42 34
+ frame data/chars/RMXCM-X/551.gif
+ offset 50 30
+ frame data/chars/RMXCM-X/552.gif
+ offset 43 26
+ frame data/chars/RMXCM-X/553.gif
+ offset 44 24
+ frame data/chars/RMXCM-X/554.gif
+ offset 45 21
+ frame data/chars/RMXCM-X/555.gif
+ offset 46 17
+ frame data/chars/RMXCM-X/556.gif
+ offset 46 14
+ frame data/chars/RMXCM-X/557.gif
+ offset 49 11
+ frame data/chars/RMXCM-X/558.gif
+
+anim 6114
+ delay 7
+ offset 32 13
+ frame data/chars/RMXCM-X/559.gif
+ offset 31 22
+ frame data/chars/RMXCM-X/560.gif
+ offset 31 21
+ frame data/chars/RMXCM-X/561.gif
+ offset 33 17
+ frame data/chars/RMXCM-X/562.gif
+ offset 32 13
+ frame data/chars/RMXCM-X/563.gif
+ offset 31 22
+ frame data/chars/RMXCM-X/564.gif
+ offset 31 21
+ frame data/chars/RMXCM-X/565.gif
+ offset 33 17
+ frame data/chars/RMXCM-X/566.gif
+
+anim 6115
+ delay 7
+ offset 6 9
+ frame data/chars/RMXCM-X/567.gif
+ offset 10 13
+ frame data/chars/RMXCM-X/568.gif
+ offset 13 17
+ frame data/chars/RMXCM-X/569.gif
+ offset 16 21
+ frame data/chars/RMXCM-X/570.gif
+ offset 19 24
+ frame data/chars/RMXCM-X/571.gif
+ offset 21 26
+ frame data/chars/RMXCM-X/572.gif
+ offset 23 28
+ frame data/chars/RMXCM-X/573.gif
+ offset 26 30
+ frame data/chars/RMXCM-X/574.gif
+ offset 28 32
+ frame data/chars/RMXCM-X/575.gif
+ offset 30 34
+ frame data/chars/RMXCM-X/576.gif
+ offset 32 35
+ frame data/chars/RMXCM-X/577.gif
+ offset 34 36
+ frame data/chars/RMXCM-X/578.gif
+ offset 36 37
+ frame data/chars/RMXCM-X/579.gif
+
+anim 6116
+ delay 7
+ offset 47 63
+ frame data/chars/RMXCM-X/580.gif
+ offset 72 79
+ frame data/chars/RMXCM-X/581.gif
+ offset 73 80
+ frame data/chars/RMXCM-X/582.gif
+ offset 89 92
+ frame data/chars/RMXCM-X/583.gif
+ offset 72 91
+ frame data/chars/RMXCM-X/584.gif
+
+anim 6117
+ delay 7
+ offset 16 17
+ frame data/chars/RMXCM-X/585.gif
+ offset 20 20
+ frame data/chars/RMXCM-X/586.gif
+
+anim 6118
+ delay 7
+ offset 20 20
+ frame data/chars/RMXCM-X/587.gif
+ offset 35 35
+ frame data/chars/RMXCM-X/588.gif
+ offset 42 54
+ frame data/chars/RMXCM-X/589.gif
+ offset 57 71
+ frame data/chars/RMXCM-X/590.gif
+
+anim 6119
+ delay 7
+ offset 70 92
+ frame data/chars/RMXCM-X/591.gif
+ offset 71 118
+ frame data/chars/RMXCM-X/592.gif
+ offset 24 126
+ frame data/chars/RMXCM-X/593.gif
+ offset -4 123
+ frame data/chars/RMXCM-X/594.gif
+ offset -3 99
+ frame data/chars/RMXCM-X/595.gif
+ offset -3 44
+ frame data/chars/RMXCM-X/596.gif
+ offset -1 24
+ frame data/chars/RMXCM-X/597.gif
+ offset -2 26
+ frame data/chars/RMXCM-X/598.gif
+ offset -4 25
+ frame data/chars/RMXCM-X/599.gif
+ offset -7 23
+ frame data/chars/RMXCM-X/600.gif
+
+anim 6120
+ delay 7
+ offset 33 110
+ frame data/chars/RMXCM-X/601.gif
+ offset 2 116
+ frame data/chars/RMXCM-X/602.gif
+ offset 33 114
+ frame data/chars/RMXCM-X/603.gif
+ offset 72 88
+ frame data/chars/RMXCM-X/604.gif
+ offset 76 83
+ frame data/chars/RMXCM-X/605.gif
+ offset 64 84
+ frame data/chars/RMXCM-X/606.gif
+
+anim 6121
+ delay 7
+ offset 42 45
+ frame data/chars/RMXCM-X/607.gif
+ offset 43 46
+ frame data/chars/RMXCM-X/608.gif
+ offset 45 47
+ frame data/chars/RMXCM-X/609.gif
+ offset 47 48
+ frame data/chars/RMXCM-X/610.gif
+ offset 47 49
+ frame data/chars/RMXCM-X/611.gif
+ offset 48 51
+ frame data/chars/RMXCM-X/612.gif
+ offset 48 52
+ frame data/chars/RMXCM-X/613.gif
+ offset 48 51
+ frame data/chars/RMXCM-X/614.gif
+ offset 47 52
+ frame data/chars/RMXCM-X/615.gif
+ offset 48 53
+ frame data/chars/RMXCM-X/616.gif
+ offset 47 54
+ frame data/chars/RMXCM-X/617.gif
+ offset 47 49
+ frame data/chars/RMXCM-X/618.gif
+ offset 45 49
+ frame data/chars/RMXCM-X/619.gif
+ offset 44 47
+ frame data/chars/RMXCM-X/620.gif
+ offset 39 46
+ frame data/chars/RMXCM-X/621.gif
+ offset 39 45
+ frame data/chars/RMXCM-X/622.gif
+
+anim 6122
+ delay 7
+ offset 58 43
+ frame data/chars/RMXCM-X/623.gif
+ offset 59 62
+ frame data/chars/RMXCM-X/624.gif
+ offset 89 71
+ frame data/chars/RMXCM-X/625.gif
+ offset 117 68
+ frame data/chars/RMXCM-X/626.gif
+ offset 159 78
+ frame data/chars/RMXCM-X/627.gif
+ offset 233 83
+ frame data/chars/RMXCM-X/628.gif
+ offset 247 83
+ frame data/chars/RMXCM-X/629.gif
+ offset 246 84
+ frame data/chars/RMXCM-X/630.gif
+ offset 252 84
+ frame data/chars/RMXCM-X/631.gif
+ offset 257 83
+ frame data/chars/RMXCM-X/632.gif
+ offset 260 83
+ frame data/chars/RMXCM-X/633.gif
+ offset 260 83
+ frame data/chars/RMXCM-X/634.gif
+ offset 260 83
+ frame data/chars/RMXCM-X/635.gif
+ offset 260 68
+ frame data/chars/RMXCM-X/636.gif
+ offset 260 68
+ frame data/chars/RMXCM-X/637.gif
+ offset 260 68
+ frame data/chars/RMXCM-X/638.gif
+ offset 260 68
+ frame data/chars/RMXCM-X/639.gif
+ offset 260 68
+ frame data/chars/RMXCM-X/640.gif
+ offset 256 68
+ frame data/chars/RMXCM-X/641.gif
+ offset 254 68
+ frame data/chars/RMXCM-X/642.gif
+ offset 255 68
+ frame data/chars/RMXCM-X/643.gif
+ offset 251 68
+ frame data/chars/RMXCM-X/644.gif
+ offset 256 2
+ frame data/chars/RMXCM-X/645.gif
+ offset 263 2
+ frame data/chars/RMXCM-X/646.gif
+
+anim 6123
+ delay 7
+ offset 81 103
+ frame data/chars/RMXCM-X/647.gif
+ offset 83 118
+ frame data/chars/RMXCM-X/648.gif
+ offset 91 133
+ frame data/chars/RMXCM-X/649.gif
+ offset 97 143
+ frame data/chars/RMXCM-X/650.gif
+ offset 101 153
+ frame data/chars/RMXCM-X/651.gif
+ offset 101 156
+ frame data/chars/RMXCM-X/652.gif
+ offset 102 161
+ frame data/chars/RMXCM-X/653.gif
+
+anim 6124
+ delay 7
+ offset 11 11
+ frame data/chars/RMXCM-X/654.gif
+ offset 13 13
+ frame data/chars/RMXCM-X/655.gif
+ offset 17 17
+ frame data/chars/RMXCM-X/656.gif
+ offset 20 20
+ frame data/chars/RMXCM-X/657.gif
+ offset 20 20
+ frame data/chars/RMXCM-X/658.gif
+ offset 17 17
+ frame data/chars/RMXCM-X/659.gif
+ offset 18 18
+ frame data/chars/RMXCM-X/660.gif
+ offset 20 21
+ frame data/chars/RMXCM-X/661.gif
+ offset 20 20
+ frame data/chars/RMXCM-X/662.gif
+ offset 19 19
+ frame data/chars/RMXCM-X/663.gif
+
+anim 6125
+ delay 7
+ offset 29 46
+ frame data/chars/RMXCM-X/664.gif
+ offset 26 61
+ frame data/chars/RMXCM-X/665.gif
+ offset 31 77
+ frame data/chars/RMXCM-X/666.gif
+ offset 35 88
+ frame data/chars/RMXCM-X/667.gif
+ offset 43 93
+ frame data/chars/RMXCM-X/668.gif
+ offset 47 98
+ frame data/chars/RMXCM-X/669.gif
+ offset 49 100
+ frame data/chars/RMXCM-X/670.gif
+ offset 52 95
+ frame data/chars/RMXCM-X/671.gif
+
+anim 6101
+ delay 7
+ offset 70 76
+ frame data/chars/RMXCM-X/672.gif
+ offset 84 92
+ frame data/chars/RMXCM-X/673.gif
+ offset 96 104
+ frame data/chars/RMXCM-X/674.gif
+ offset 99 108
+ frame data/chars/RMXCM-X/675.gif
+ offset 94 109
+ frame data/chars/RMXCM-X/676.gif
+ offset 40 92
+ frame data/chars/RMXCM-X/677.gif
+
+anim 6129
+ delay 7
+ offset 18 13
+ frame data/chars/RMXCM-X/678.gif
+
+anim 6130
+ delay 7
+ offset -2 13
+ frame data/chars/RMXCM-X/679.gif
+ offset -2 55
+ frame data/chars/RMXCM-X/680.gif
+ offset -3 54
+ frame data/chars/RMXCM-X/681.gif
+ offset -2 53
+ frame data/chars/RMXCM-X/682.gif
+ offset -1 54
+ frame data/chars/RMXCM-X/683.gif
+ offset 3 54
+ frame data/chars/RMXCM-X/684.gif
+ offset 5 53
+ frame data/chars/RMXCM-X/685.gif
+ offset 5 51
+ frame data/chars/RMXCM-X/686.gif
+
+anim 7000
+ delay 7
+ offset 77 28
+ frame data/chars/RMXCM-X/687.gif
+ offset 82 28
+ frame data/chars/RMXCM-X/688.gif
+ offset 73 25
+ frame data/chars/RMXCM-X/689.gif
+ offset 86 30
+ frame data/chars/RMXCM-X/690.gif
+
+anim 7001
+ delay 7
+ offset 159 85
+ frame data/chars/RMXCM-X/691.gif
+ offset 181 93
+ frame data/chars/RMXCM-X/692.gif
+ offset 145 87
+ frame data/chars/RMXCM-X/693.gif
+
+anim 7002
+ delay 7
+ offset 259 66
+ frame data/chars/RMXCM-X/694.gif
+ offset 365 61
+ frame data/chars/RMXCM-X/695.gif
+ offset 252 73
+ frame data/chars/RMXCM-X/696.gif
+ offset 244 73
+ frame data/chars/RMXCM-X/697.gif
+ offset 291 72
+ frame data/chars/RMXCM-X/698.gif
+ offset 211 89
+ frame data/chars/RMXCM-X/699.gif
+
+anim 7003
+ delay 7
+ offset 139 93
+ frame data/chars/RMXCM-X/700.gif
+ offset 138 91
+ frame data/chars/RMXCM-X/701.gif
+ offset 122 91
+ frame data/chars/RMXCM-X/702.gif
+ offset 127 80
+ frame data/chars/RMXCM-X/703.gif
+ offset 138 87
+ frame data/chars/RMXCM-X/704.gif
+ offset 138 96
+ frame data/chars/RMXCM-X/705.gif
+ offset 125 73
+ frame data/chars/RMXCM-X/706.gif
+ offset 142 96
+ frame data/chars/RMXCM-X/707.gif
+
+anim 7004
+ delay 7
+ offset 114 112
+ frame data/chars/RMXCM-X/708.gif
+ offset 111 109
+ frame data/chars/RMXCM-X/709.gif
+ offset 111 109
+ frame data/chars/RMXCM-X/710.gif
+ offset 108 109
+ frame data/chars/RMXCM-X/711.gif
+ offset 108 105
+ frame data/chars/RMXCM-X/712.gif
+ offset 111 109
+ frame data/chars/RMXCM-X/713.gif
+ offset 114 112
+ frame data/chars/RMXCM-X/714.gif
+ offset 111 109
+ frame data/chars/RMXCM-X/715.gif
+ offset 111 109
+ frame data/chars/RMXCM-X/716.gif
+ offset 108 105
+ frame data/chars/RMXCM-X/717.gif
+ offset 108 105
+ frame data/chars/RMXCM-X/718.gif
+ offset 108 105
+ frame data/chars/RMXCM-X/719.gif
+ offset 114 112
+ frame data/chars/RMXCM-X/720.gif
+ offset 111 109
+ frame data/chars/RMXCM-X/721.gif
+ offset 111 109
+ frame data/chars/RMXCM-X/722.gif
+ offset 106 107
+ frame data/chars/RMXCM-X/723.gif
+ offset 108 105
+ frame data/chars/RMXCM-X/724.gif
+ offset 111 109
+ frame data/chars/RMXCM-X/725.gif
+ offset 114 112
+ frame data/chars/RMXCM-X/726.gif
+ offset 109 107
+ frame data/chars/RMXCM-X/727.gif
+ offset 111 109
+ frame data/chars/RMXCM-X/728.gif
+ offset 108 105
+ frame data/chars/RMXCM-X/729.gif
+ offset 108 105
+ frame data/chars/RMXCM-X/730.gif
+ offset 107 104
+ frame data/chars/RMXCM-X/731.gif
+
+anim 7010
+ delay 7
+ offset 40 26
+ frame data/chars/RMXCM-X/732.gif
+ offset 48 25
+ frame data/chars/RMXCM-X/733.gif
+ offset 38 25
+ frame data/chars/RMXCM-X/734.gif
+ offset 47 25
+ frame data/chars/RMXCM-X/735.gif
+
+anim 7011
+ delay 7
+ offset 21 28
+ frame data/chars/RMXCM-X/736.gif
+ offset 23 36
+ frame data/chars/RMXCM-X/737.gif
+ offset 37 60
+ frame data/chars/RMXCM-X/738.gif
+ offset 40 71
+ frame data/chars/RMXCM-X/739.gif
+ offset 40 72
+ frame data/chars/RMXCM-X/740.gif
+ offset 31 30
+ frame data/chars/RMXCM-X/741.gif
+ offset 38 68
+ frame data/chars/RMXCM-X/742.gif
+ offset 39 70
+ frame data/chars/RMXCM-X/743.gif
+
+anim 7013
+ delay 7
+ offset 37 36
+ frame data/chars/RMXCM-X/744.gif
+ offset 45 40
+ frame data/chars/RMXCM-X/745.gif
+ offset 69 63
+ frame data/chars/RMXCM-X/746.gif
+ offset 69 63
+ frame data/chars/RMXCM-X/747.gif
+ offset 71 66
+ frame data/chars/RMXCM-X/748.gif
+ offset 74 70
+ frame data/chars/RMXCM-X/749.gif
+ offset 79 76
+ frame data/chars/RMXCM-X/750.gif
+ offset 75 72
+ frame data/chars/RMXCM-X/751.gif
+ offset 72 69
+ frame data/chars/RMXCM-X/752.gif
+ offset 72 68
+ frame data/chars/RMXCM-X/753.gif
+ offset 73 70
+ frame data/chars/RMXCM-X/754.gif
+
+anim 7015
+ delay 7
+ offset 39 45
+ frame data/chars/RMXCM-X/755.gif
+ offset 54 50
+ frame data/chars/RMXCM-X/756.gif
+ offset 83 55
+ frame data/chars/RMXCM-X/757.gif
+ offset 88 54
+ frame data/chars/RMXCM-X/758.gif
+ offset 86 53
+ frame data/chars/RMXCM-X/759.gif
+ offset 86 54
+ frame data/chars/RMXCM-X/760.gif
+
+anim 7016
+ delay 7
+ offset 111 65
+ frame data/chars/RMXCM-X/761.gif
+ offset 109 68
+ frame data/chars/RMXCM-X/762.gif
+ offset 107 67
+ frame data/chars/RMXCM-X/763.gif
+ offset 110 65
+ frame data/chars/RMXCM-X/764.gif
+
+anim 7017
+ delay 7
+ offset 55 31
+ frame data/chars/RMXCM-X/765.gif
+ offset 57 30
+ frame data/chars/RMXCM-X/766.gif
+ offset 52 30
+ frame data/chars/RMXCM-X/767.gif
+ offset 54 28
+ frame data/chars/RMXCM-X/768.gif
+ offset 53 31
+ frame data/chars/RMXCM-X/769.gif
+ offset 52 35
+ frame data/chars/RMXCM-X/770.gif
+ offset 53 35
+ frame data/chars/RMXCM-X/771.gif
+
+anim 7018
+ delay 7
+ offset 54 23
+ frame data/chars/RMXCM-X/772.gif
+ offset 61 22
+ frame data/chars/RMXCM-X/773.gif
+ offset 63 22
+ frame data/chars/RMXCM-X/774.gif
+ offset 64 26
+ frame data/chars/RMXCM-X/775.gif
+ offset 64 26
+ frame data/chars/RMXCM-X/776.gif
+ offset 70 33
+ frame data/chars/RMXCM-X/777.gif
+ offset 70 32
+ frame data/chars/RMXCM-X/778.gif
+ offset 64 34
+ frame data/chars/RMXCM-X/779.gif
+ offset 68 37
+ frame data/chars/RMXCM-X/780.gif
+ offset 71 37
+ frame data/chars/RMXCM-X/781.gif
+ offset 71 44
+ frame data/chars/RMXCM-X/782.gif
+ offset 70 43
+ frame data/chars/RMXCM-X/783.gif
+ offset 68 44
+ frame data/chars/RMXCM-X/784.gif
+ offset 71 47
+ frame data/chars/RMXCM-X/785.gif
+ offset 72 47
+ frame data/chars/RMXCM-X/786.gif
+ offset 71 54
+ frame data/chars/RMXCM-X/787.gif
+ offset 69 51
+ frame data/chars/RMXCM-X/788.gif
+ offset 70 53
+ frame data/chars/RMXCM-X/789.gif
+ offset 72 57
+ frame data/chars/RMXCM-X/790.gif
+ offset 72 57
+ frame data/chars/RMXCM-X/791.gif
+
+anim 7019
+ delay 7
+ offset 34 32
+ frame data/chars/RMXCM-X/792.gif
+ offset 34 32
+ frame data/chars/RMXCM-X/793.gif
+ offset 28 32
+ frame data/chars/RMXCM-X/794.gif
+ offset 28 32
+ frame data/chars/RMXCM-X/795.gif
+ offset 28 32
+ frame data/chars/RMXCM-X/796.gif
+
+anim 7020
+ delay 7
+ offset 51 44
+ frame data/chars/RMXCM-X/797.gif
+ offset 51 44
+ frame data/chars/RMXCM-X/798.gif
+ offset 49 44
+ frame data/chars/RMXCM-X/799.gif
+ offset 48 44
+ frame data/chars/RMXCM-X/800.gif
+ offset 50 44
+ frame data/chars/RMXCM-X/801.gif
+ offset 50 44
+ frame data/chars/RMXCM-X/802.gif
+ offset 72 37
+ frame data/chars/RMXCM-X/803.gif
+ offset 65 23
+ frame data/chars/RMXCM-X/804.gif
+
+anim 7026
+ delay 7
+ offset 33 87
+ frame data/chars/RMXCM-X/805.gif
+ offset 40 108
+ frame data/chars/RMXCM-X/806.gif
+ offset 61 104
+ frame data/chars/RMXCM-X/807.gif
+ offset 61 130
+ frame data/chars/RMXCM-X/808.gif
+ offset 51 119
+ frame data/chars/RMXCM-X/809.gif
+ offset 44 244
+ frame data/chars/RMXCM-X/810.gif
+ offset 96 240
+ frame data/chars/RMXCM-X/811.gif
+ offset 167 234
+ frame data/chars/RMXCM-X/812.gif
+ offset 163 244
+ frame data/chars/RMXCM-X/813.gif
+ offset 165 253
+ frame data/chars/RMXCM-X/814.gif
+ offset 164 249
+ frame data/chars/RMXCM-X/815.gif
+ offset 157 255
+ frame data/chars/RMXCM-X/816.gif
+ offset 156 245
+ frame data/chars/RMXCM-X/817.gif
+ offset 160 245
+ frame data/chars/RMXCM-X/818.gif
+ offset 162 251
+ frame data/chars/RMXCM-X/819.gif
+ offset 159 255
+ frame data/chars/RMXCM-X/820.gif
+ offset 161 255
+ frame data/chars/RMXCM-X/821.gif
+ offset 160 255
+ frame data/chars/RMXCM-X/822.gif
+ offset 162 251
+ frame data/chars/RMXCM-X/823.gif
+ offset 163 243
+ frame data/chars/RMXCM-X/824.gif
+ offset 166 234
+ frame data/chars/RMXCM-X/825.gif
+ offset 167 234
+ frame data/chars/RMXCM-X/826.gif
+ offset 163 233
+ frame data/chars/RMXCM-X/827.gif
+ offset 163 235
+ frame data/chars/RMXCM-X/828.gif
+ offset 162 240
+ frame data/chars/RMXCM-X/829.gif
+ offset 163 248
+ frame data/chars/RMXCM-X/830.gif
+ offset 159 255
+ frame data/chars/RMXCM-X/831.gif
+ offset 158 255
+ frame data/chars/RMXCM-X/832.gif
+ offset 158 245
+ frame data/chars/RMXCM-X/833.gif
+ offset 159 254
+ frame data/chars/RMXCM-X/834.gif
+ offset 161 255
+ frame data/chars/RMXCM-X/835.gif
+ offset 159 255
+ frame data/chars/RMXCM-X/836.gif
+ offset 161 256
+ frame data/chars/RMXCM-X/837.gif
+ offset 162 255
+ frame data/chars/RMXCM-X/838.gif
+ offset 165 251
+ frame data/chars/RMXCM-X/839.gif
+ offset 164 242
+ frame data/chars/RMXCM-X/840.gif
+ offset 163 242
+ frame data/chars/RMXCM-X/841.gif
+ offset 161 226
+ frame data/chars/RMXCM-X/842.gif
+ offset 158 227
+ frame data/chars/RMXCM-X/843.gif
+ offset 158 231
+ frame data/chars/RMXCM-X/844.gif
+ offset 158 241
+ frame data/chars/RMXCM-X/845.gif
+ offset 159 237
+ frame data/chars/RMXCM-X/846.gif
+ offset 162 235
+ frame data/chars/RMXCM-X/847.gif
+ offset 164 239
+ frame data/chars/RMXCM-X/848.gif
+ offset 161 241
+ frame data/chars/RMXCM-X/849.gif
+ offset 156 245
+ frame data/chars/RMXCM-X/850.gif
+ offset 154 248
+ frame data/chars/RMXCM-X/851.gif
+ offset 155 250
+ frame data/chars/RMXCM-X/852.gif
+ offset 158 249
+ frame data/chars/RMXCM-X/853.gif
+ offset 151 245
+ frame data/chars/RMXCM-X/854.gif
+ offset 152 248
+ frame data/chars/RMXCM-X/855.gif
+ offset 109 229
+ frame data/chars/RMXCM-X/856.gif
+ offset 147 232
+ frame data/chars/RMXCM-X/857.gif
+ offset 111 233
+ frame data/chars/RMXCM-X/858.gif
+ offset 94 235
+ frame data/chars/RMXCM-X/859.gif
+ offset 85 238
+ frame data/chars/RMXCM-X/860.gif
+ offset 92 231
+ frame data/chars/RMXCM-X/861.gif
+ offset 118 244
+ frame data/chars/RMXCM-X/862.gif
+ offset 90 247
+ frame data/chars/RMXCM-X/863.gif
+ offset 34 167
+ frame data/chars/RMXCM-X/864.gif
+
+anim 7033
+ delay 7
+ offset 58 72
+ frame data/chars/RMXCM-X/865.gif
+ offset 68 56
+ frame data/chars/RMXCM-X/866.gif
+ offset 97 92
+ frame data/chars/RMXCM-X/867.gif
+ offset 100 101
+ frame data/chars/RMXCM-X/868.gif
+ offset 144 210
+ frame data/chars/RMXCM-X/869.gif
+ offset 119 187
+ frame data/chars/RMXCM-X/870.gif
+ offset 82 139
+ frame data/chars/RMXCM-X/871.gif
+ offset 119 180
+ frame data/chars/RMXCM-X/872.gif
+ offset 150 252
+ frame data/chars/RMXCM-X/873.gif
+ offset 166 286
+ frame data/chars/RMXCM-X/874.gif
+ offset 163 312
+ frame data/chars/RMXCM-X/875.gif
+ offset 166 331
+ frame data/chars/RMXCM-X/876.gif
+ offset 166 340
+ frame data/chars/RMXCM-X/877.gif
+ offset 165 346
+ frame data/chars/RMXCM-X/878.gif
+ offset 163 350
+ frame data/chars/RMXCM-X/879.gif
+ offset 162 354
+ frame data/chars/RMXCM-X/880.gif
+ offset 161 357
+ frame data/chars/RMXCM-X/881.gif
+ offset 158 355
+ frame data/chars/RMXCM-X/882.gif
+ offset 156 349
+ frame data/chars/RMXCM-X/883.gif
+ offset 155 347
+ frame data/chars/RMXCM-X/884.gif
+ offset 154 345
+ frame data/chars/RMXCM-X/885.gif
+ offset 155 348
+ frame data/chars/RMXCM-X/886.gif
+ offset 154 348
+ frame data/chars/RMXCM-X/887.gif
+ offset 152 344
+ frame data/chars/RMXCM-X/888.gif
+ offset 143 344
+ frame data/chars/RMXCM-X/889.gif
+ offset 138 344
+ frame data/chars/RMXCM-X/890.gif
+ offset 137 344
+ frame data/chars/RMXCM-X/891.gif
+ offset 135 343
+ frame data/chars/RMXCM-X/892.gif
+ offset 136 343
+ frame data/chars/RMXCM-X/893.gif
+ offset 132 343
+ frame data/chars/RMXCM-X/894.gif
+ offset 134 342
+ frame data/chars/RMXCM-X/895.gif
+ offset 79 336
+ frame data/chars/RMXCM-X/896.gif
+ offset 131 335
+ frame data/chars/RMXCM-X/897.gif
+ offset 72 332
+ frame data/chars/RMXCM-X/898.gif
+
+anim 7200
+ delay 7
+ offset 27 29
+ frame data/chars/RMXCM-X/899.gif
+ offset 39 39
+ frame data/chars/RMXCM-X/900.gif
+ offset 49 64
+ frame data/chars/RMXCM-X/901.gif
+ offset 55 70
+ frame data/chars/RMXCM-X/902.gif
+
+anim 7201
+ delay 7
+ offset 74 85
+ frame data/chars/RMXCM-X/903.gif
+ offset 100 108
+ frame data/chars/RMXCM-X/904.gif
+ offset 110 113
+ frame data/chars/RMXCM-X/905.gif
+ offset 108 118
+ frame data/chars/RMXCM-X/906.gif
+
+anim 7202
+ delay 7
+ offset 81 76
+ frame data/chars/RMXCM-X/907.gif
+ offset 105 88
+ frame data/chars/RMXCM-X/908.gif
+ offset 121 94
+ frame data/chars/RMXCM-X/909.gif
+ offset 127 109
+ frame data/chars/RMXCM-X/910.gif
+ offset 128 114
+ frame data/chars/RMXCM-X/911.gif
+
+anim 7203
+ delay 7
+ offset 46 79
+ frame data/chars/RMXCM-X/912.gif
+ offset 76 88
+ frame data/chars/RMXCM-X/913.gif
+ offset 77 109
+ frame data/chars/RMXCM-X/914.gif
+ offset 82 129
+ frame data/chars/RMXCM-X/915.gif
+
+anim 7210
+ delay 7
+ offset 27 28
+ frame data/chars/RMXCM-X/916.gif
+ offset 56 57
+ frame data/chars/RMXCM-X/917.gif
+ offset 86 87
+ frame data/chars/RMXCM-X/918.gif
+ offset 98 98
+ frame data/chars/RMXCM-X/919.gif
+ offset 100 99
+ frame data/chars/RMXCM-X/920.gif
+ offset 96 95
+ frame data/chars/RMXCM-X/921.gif
+ offset 90 90
+ frame data/chars/RMXCM-X/922.gif
+ offset 79 80
+ frame data/chars/RMXCM-X/923.gif
+ offset 72 72
+ frame data/chars/RMXCM-X/924.gif
+ offset 71 72
+ frame data/chars/RMXCM-X/925.gif
+ offset 75 77
+ frame data/chars/RMXCM-X/926.gif
+ offset 80 81
+ frame data/chars/RMXCM-X/927.gif
+ offset 86 85
+ frame data/chars/RMXCM-X/928.gif
+ offset 92 90
+ frame data/chars/RMXCM-X/929.gif
+ offset 98 95
+ frame data/chars/RMXCM-X/930.gif
+ offset 103 101
+ frame data/chars/RMXCM-X/931.gif
+ offset 109 106
+ frame data/chars/RMXCM-X/932.gif
+ offset 114 110
+ frame data/chars/RMXCM-X/933.gif
+ offset 118 115
+ frame data/chars/RMXCM-X/934.gif
+ offset 122 119
+ frame data/chars/RMXCM-X/935.gif
+ offset 127 123
+ frame data/chars/RMXCM-X/936.gif
+ offset 131 128
+ frame data/chars/RMXCM-X/937.gif
+ offset 136 131
+ frame data/chars/RMXCM-X/938.gif
+ offset 139 134
+ frame data/chars/RMXCM-X/939.gif
+ offset 144 137
+ frame data/chars/RMXCM-X/940.gif
+ offset 148 140
+ frame data/chars/RMXCM-X/941.gif
+ offset 152 144
+ frame data/chars/RMXCM-X/942.gif
+ offset 156 147
+ frame data/chars/RMXCM-X/943.gif
+ offset 160 150
+ frame data/chars/RMXCM-X/944.gif
+ offset 166 156
+ frame data/chars/RMXCM-X/945.gif
+ offset 171 160
+ frame data/chars/RMXCM-X/946.gif
+ offset 177 164
+ frame data/chars/RMXCM-X/947.gif
+ offset 181 167
+ frame data/chars/RMXCM-X/948.gif
+ offset 185 169
+ frame data/chars/RMXCM-X/949.gif
+ offset 187 171
+ frame data/chars/RMXCM-X/950.gif
+ offset 190 173
+ frame data/chars/RMXCM-X/951.gif
+ offset 192 173
+ frame data/chars/RMXCM-X/952.gif
+ offset 193 173
+ frame data/chars/RMXCM-X/953.gif
+ offset 194 172
+ frame data/chars/RMXCM-X/954.gif
+ offset 194 171
+ frame data/chars/RMXCM-X/955.gif
+ offset 193 170
+ frame data/chars/RMXCM-X/956.gif
+ offset 193 166
+ frame data/chars/RMXCM-X/957.gif
+ offset 193 144
+ frame data/chars/RMXCM-X/958.gif
+ offset 192 142
+ frame data/chars/RMXCM-X/959.gif
+ offset 190 141
+ frame data/chars/RMXCM-X/960.gif
+ offset 151 97
+ frame data/chars/RMXCM-X/961.gif
