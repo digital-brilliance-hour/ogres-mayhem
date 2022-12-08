@@ -7,7 +7,7 @@ void main()
     int Vz = getentityproperty(self,"zdir");
 
 	if(drop == 1){
-		//changeentityproperty(self, "velocity", -Vx*0.5, -Vz*0.5, Vy+1);
-		changeentityproperty(self, "velocity", -2, -Vz*0.5, 2);
+		changeentityproperty(self, "velocity", -Vx*0.5, -Vz*0.5, Vy+1);
+		//changeentityproperty(self, "velocity", -2, -Vz*0.5, 2);
 	}
 }
