@@ -12,6 +12,7 @@ shadow 3
 
 
 
+
 anim	0180
 	delay	7
 	offset	25 45
@@ -195,6 +196,42 @@ anim	freespecial
 	offset	18 42
 	frame	data/chars/RMXCM-X/234.gif
 		
+anim	freespecial11
+	delay	1
+	sound	data/chars/yusuke/broly_5-22.wav
+	offset	30 29
+	frame	data/chars/RMXCM-X/94.gif
+	@cmd	dasher 3 0 0
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	@cmd	stop
+	@cmd	dasher 7 0 0
+	delay	7
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	offset	26 29
+	frame	data/chars/RMXCM-X/93.gif
+		
 anim	freespecial2
 	delay	7
 	offset	10 43
@@ -306,42 +343,6 @@ anim	jumpattack
 	offset	15 44
 	frame	data/chars/RMXCM-X/298.gif
 		
-anim	freespecial11
-	delay	1
-	sound	data/chars/yusuke/broly_5-22.wav
-	offset	30 29
-	frame	data/chars/RMXCM-X/94.gif
-	@cmd	dasher 3 0 0
-	delay	2
-	fshadow	0
-	drawmethod	scale 0.3 0.2
-	drawmethod	alpha 1
-	offset	179 61
-	frame	data/chars/yusuke/840.gif
-	offset	178 63
-	frame	data/chars/yusuke/841.gif
-	offset	219 65
-	frame	data/chars/yusuke/842.gif
-	offset	225 79
-	frame	data/chars/yusuke/843.gif
-	offset	222 82
-	frame	data/chars/yusuke/844.gif
-	offset	223 79
-	frame	data/chars/yusuke/845.gif
-	offset	226 80
-	frame	data/chars/yusuke/846.gif
-	offset	219 83
-	frame	data/chars/yusuke/847.gif
-	offset	209 83
-	frame	data/chars/yusuke/848.gif
-	@cmd	stop
-	@cmd	dasher 7 0 0
-	delay	7
-	frame	data/chars/misc/empty.gif
-	frame	data/chars/misc/empty.gif
-	offset	26 29
-	frame	data/chars/RMXCM-X/93.gif
-		
 anim	pain
 	delay	7
 	offset	15 40
@@ -428,10 +429,6 @@ anim	spawn
 		
 anim	walk
 	delay	7
-	offset	18 43
-	frame	data/chars/RMXCM-X/37.gif
-	offset	16 43
-	frame	data/chars/RMXCM-X/38.gif
 	offset	18 43
 	frame	data/chars/RMXCM-X/39.gif
 	offset	22 43
