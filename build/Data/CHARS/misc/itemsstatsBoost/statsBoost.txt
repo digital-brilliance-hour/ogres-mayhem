@@ -14,28 +14,29 @@ anim	idle
 	void self = getlocalvar("self");
 	int frame = getlocalvar("frame");
 	void parent = getentityproperty(self, "parent");
-	int currattack = getentityproperty(parent, "offense");
+	float currattack = getentityproperty(parent, "offense", openborconstant("ATK_NORMAL"));
 	int currhealth = getentityproperty(parent, "health");
 	int currmaxhealth = getentityproperty(parent, "maxhealth");
-	int currdefense = getentityproperty(parent, "defense");
+	float currdefense = getentityproperty(parent, "defense", openborconstant("ATK_NORMAL"));
+	log("got parent");
 	int count = getentityvar(self, "count");
 	if(frame == 1) {
-	         setentityvar(self, "attack", currattack);
+	     setentityvar(self, "attack", currattack);
 		 setentityvar(self, "defense", currdefense);
 		 setentityvar(self, "health", currhealth);
 		 float attackper = 0.15 * currattack;
-		 setentityproperty(parent, "offense", openborconstant("ATK_NORMAL"), attackper + currattack);
+		 changeentityproperty(parent, "offense", openborconstant("ATK_NORMAL"), 0.2 + currattack);
 		 float defenseper = 0.15 * currdefense;
-		 setentityproperty(parent, "defense", openborconstant("ATK_NORMAL"), defenseper + currdefense);
+		 changeentityproperty(parent, "defense", openborconstant("ATK_NORMAL"), 0.2 + currdefense);
 	}
  	if(frame > 1) {
 		 log("statsup");
 		 if(currhealth < currmaxhealth) {
    		      currhealth += 5;
-      		      setentityproperty(parent, "health", currhealth);
+      		      changeentityproperty(parent, "health", currhealth);
                  }
                  else {
-                      setentityproperty(parent, "health", currmaxhealth);
+                      changeentityproperty(parent, "health", currmaxhealth);
                  }
 
 		 if(count < 1000){
@@ -43,8 +44,8 @@ anim	idle
 		      setentityvar(self, "count", count);
 		 }
 		 else {
-           	      setentityproperty(parent, "offense", getentityvar(self, "attack"));
-   		      setentityproperty(parent, "defense", getentityvar(self, "defense"));
+           	  changeentityproperty(parent, "offense", openborconstant("ATK_NORMAL"), getentityvar(self, "attack"));
+   		      changeentityproperty(parent, "defense", openborconstant("ATK_NORMAL"), getentityvar(self, "defense"));
 		      killentity(self);
 		 }
 	}
