@@ -27,6 +27,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	attack	0 0 0 0 0 0 0 0 0 0
 	delay	7
@@ -312,6 +313,7 @@ anim	jumpattack
 	frame	data/chars/RMXCM-X/288.gif
 	offset	13 45
 	frame	data/chars/RMXCM-X/289.gif
+
 		
 anim	pain
 	delay	7
@@ -402,10 +404,6 @@ anim	walk
 	loop	1
 	bbox	7 1 23 43
 	delay	7
-	offset	18 43
-	frame	data/chars/RMXCM-X/37.gif
-	offset	16 43
-	frame	data/chars/RMXCM-X/38.gif
 	offset	18 43
 	frame	data/chars/RMXCM-X/39.gif
 	offset	22 43

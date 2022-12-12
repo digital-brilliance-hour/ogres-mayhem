@@ -15,6 +15,7 @@ anim	idle
 	void self = getlocalvar("self");
 	int frame = getlocalvar("frame");
 	void parent = getentityproperty(self, "parent");
+	void ani = getentityproperty(parent,"animationID");
     int tintto = getentityvar(self, "tintTo");
     int tintto2 = getentityvar(self, "tintTo2");
 	int tintspeed = getentityvar(self, "tintSpeed");
@@ -82,7 +83,14 @@ anim	idle
 	         else {
 	         	b = bto;
 	         }
-			 changedrawmethod(parent, "tintcolor", rgbcolor(r, g, b));
+			   
+			if(ani == openborconstant("ANI_DODGE") || ani == openborconstant("ANI_FREESPECIAL11")) {
+		 	changedrawmethod(parent, "tintmode", 0);
+		 	changedrawmethod(parent, "enabled", 0);
+
+         	} else {
+		 	changedrawmethod(parent, "tintcolor", rgbcolor(r, g, b));
+		 	}
 		}
 		else if((r > rto || b > bto || g > gto) && !tintdirection) {
 			 if(r > rto) {
@@ -112,7 +120,13 @@ anim	idle
 	         else {
 	         	b = bto;
 	         }
-			 changedrawmethod(parent, "tintcolor", rgbcolor(r, g, b));
+	        
+	        if(ani == openborconstant("ANI_DODGE") || ani == openborconstant("ANI_FREESPECIAL11")) {
+		 	changedrawmethod(parent, "tintmode", 0);
+		 	changedrawmethod(parent, "enabled", 0);
+		 	} else {
+		 	changedrawmethod(parent, "tintcolor", rgbcolor(r, g, b));
+		 	}
 		}
 		else {
 			 changedrawmethod(parent, "tintcolor", tintto);
