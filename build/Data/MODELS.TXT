@@ -387,3 +387,4 @@ Load fade Data/CHARS/misc/effects/fade/fade.txt
 Load tint Data/CHARS/misc/effects/tint/tint.txt
 Load rotate Data/CHARS/misc/effects/rotate/rotate.txt
 Load fill Data/CHARS/misc/effects/fill/fill.txt
+know Sora data/chars/Sora/Sora.txt
