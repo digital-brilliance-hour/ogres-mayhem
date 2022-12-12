@@ -382,7 +382,7 @@ Know bAirPush2 Data/CHARS/Bakugou/bAirPush2/bAirPush2.txt
 Know bFireBlast2 Data/CHARS/Bakugou/bFireBlast2/bFireBlast2.txt
 Know bFireBlast3 Data/CHARS/Bakugou/bFireBlast3/bFireBlast3.txt
 Know InoNPC Data/Chars/InoNPC/InoNPC.txt
-know Megaman_X data/chars/RMXCM-X/RMXCM-X.txt
+Load Megaman_X data/chars/RMXCM-X/RMXCM-X.txt
 Load scaler Data/CHARS/misc/effects/scaler/scaler.txt
 Load fade Data/CHARS/misc/effects/fade/fade.txt
 Load tint Data/CHARS/misc/effects/tint/tint.txt
