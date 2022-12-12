@@ -83,6 +83,8 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
+
 anim	attack1
 	delay	7
 	sound	data/chars/deku/deku_0-0.wav
@@ -350,6 +352,7 @@ anim	freespecial3
 	@cmd	isavailable 4
 	@cmd	pause_all 1 100
 	delay	7
+	@cmd	spawnbind "statsBoost" 0 0 0
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	setentityvar getlocalvar("currentSpawn") "zoomspeed" 4
 	offset	21 41
