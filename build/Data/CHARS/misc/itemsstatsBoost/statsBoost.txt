@@ -1,0 +1,75 @@
+name statsBoost
+type none
+shadow 0
+setlayer 999
+
+
+
+
+
+anim	idle
+	loop	1 1
+	delay	1
+	@script
+	void self = getlocalvar("self");
+	int frame = getlocalvar("frame");
+	void parent = getentityproperty(self, "parent");
+	float currattack = getentityproperty(parent, "offense", openborconstant("ATK_NORMAL"));
+	int currhealth = getentityproperty(parent, "health");
+	int currmaxhealth = getentityproperty(parent, "maxhealth");
+	float currdefense = getentityproperty(parent, "defense", openborconstant("ATK_NORMAL"));
+	log("got parent");
+	int count = getentityvar(self, "count");
+	if(frame == 1) {
+	     setentityvar(self, "attack", currattack);
+		 setentityvar(self, "defense", currdefense);
+		 setentityvar(self, "health", currhealth);
+		 float attackper = 0.15 * currattack;
+		 changeentityproperty(parent, "offense", openborconstant("ATK_NORMAL"), 0.2 + currattack);
+		 float defenseper = 0.15 * currdefense;
+		 changeentityproperty(parent, "defense", openborconstant("ATK_NORMAL"), 0.2 + currdefense);
+	}
+ 	if(frame > 1) {
+		 log("statsup");
+		 if(currhealth < currmaxhealth) {
+   		      currhealth += 5;
+      		      changeentityproperty(parent, "health", currhealth);
+                 }
+                 else {
+                      changeentityproperty(parent, "health", currmaxhealth);
+                 }
+
+		 if(count < 1000){
+		      count += 1;
+		      setentityvar(self, "count", count);
+		 }
+		 else {
+           	  changeentityproperty(parent, "offense", openborconstant("ATK_NORMAL"), getentityvar(self, "attack"));
+   		      changeentityproperty(parent, "defense", openborconstant("ATK_NORMAL"), getentityvar(self, "defense"));
+		      killentity(self);
+		 }
+	}
+	@end_script	
+	offset	0 0
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+		
+anim	spawn
+	delay	1
+	loop	0
+	@script
+	void self = getlocalvar("self");
+     	setentityvar(self, "health", 0);
+     	setentityvar(self, "attack", 0);
+     	setentityvar(self, "defense", 0);
+     	setentityvar(self, "count", 0);
+     	executeanimation(self, openborconstant("ANI_IDLE"));
+	@end_script	
+	offset	0 0
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

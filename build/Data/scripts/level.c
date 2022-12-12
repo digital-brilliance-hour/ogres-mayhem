@@ -9,6 +9,7 @@ void main()
 		 p = getplayerproperty(i, "entity");
 		num = i+1;
 		 if(p){
+		 	
 		 	score=getplayerproperty(i,"score");
 		 	changeentityproperty(p, "maxhealth", getglobalvar("maxhealth_"+num+"P"));
 			stage = openborvariant("current_stage");
@@ -39,7 +40,6 @@ void main()
 				}
 				
 				changeentityproperty(p, "mp",0);
-
 				changeentityproperty(p,"offense",openborconstant("ATK_NORMAL"),getglobalvar("offense_"+num+"P"));
 				changeentityproperty(p,"defense",openborconstant("ATK_NORMAL"),getglobalvar("defense_"+num+"P"));
 				//log(getglobalvar("offense_"+num+"P"));

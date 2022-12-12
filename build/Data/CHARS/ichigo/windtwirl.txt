@@ -10,25 +10,25 @@ candamage enemy obstacle
 anim	idle
 	delay	7
 	attack	7 5 132 92 15 1 1 0 0 100
-	dropv	3 2 0
+	dropv	3 5 0
 	offset	66 83
 	frame	data/chars/Ichigo/281.gif
 	offset	70 92
 	frame	data/chars/Ichigo/282.gif
 	attack	1 5 178 108 15 1 0 1 0 100
-	dropv	3 2 0
+	dropv	3 5 0
 	offset	78 104
 	frame	data/chars/Ichigo/283.gif
 	offset	101 106
 	frame	data/chars/Ichigo/284.gif
 	attack	1 5 251 129 15 1 1 0 0 100
-	dropv	3 2 0
+	dropv	3 5 0
 	offset	119 128
 	frame	data/chars/Ichigo/285.gif
 	offset	125 137
 	frame	data/chars/Ichigo/286.gif
 	attack	1 5 273 148 10 1 0 1 0 100
-	dropv	3 2 0
+	dropv	3 5 0
 	offset	125 148
 	frame	data/chars/Ichigo/287.gif
 	offset	132 154

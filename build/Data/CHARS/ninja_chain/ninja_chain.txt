@@ -15,7 +15,7 @@ jumpheight 4
 subject_to_screen 1
 
 takedamagescript data/scripts/enemyhit.c
-
+onblocksscript data/scripts/enemy/screenedge.c
 
 
 

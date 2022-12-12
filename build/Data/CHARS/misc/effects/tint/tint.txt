@@ -15,6 +15,7 @@ anim	idle
 	void self = getlocalvar("self");
 	int frame = getlocalvar("frame");
 	void parent = getentityproperty(self, "parent");
+	void ani = getentityproperty(parent,"animationID");
     int tintto = getentityvar(self, "tintTo");
     int tintto2 = getentityvar(self, "tintTo2");
 	int tintspeed = getentityvar(self, "tintSpeed");
@@ -33,12 +34,10 @@ anim	idle
 	int g = ((tintcolor-r)/256) % 256;
 	int gcomp = g/256;
 	int b = ((tintcolor-r)/65536) - gcomp;
-	log("Tint color: " + tintcolor + ". ");
-	log("R: " + r + ", G: " + g + ", B: " + b + ". ");
-	log("RTo: " + rto + ", GTo: " + gto + ", BTo: " + bto + ". ");
-	log("Tint Direction: " + tintdirection + ". ");
-	changedrawmethod(parent, "enabled", 1);
-	changedrawmethod(parent, "tintmode", tintmode);
+	//log("Tint color: " + tintcolor + ". ");
+	//log("R: " + r + ", G: " + g + ", B: " + b + ". ");
+	//log("RTo: " + rto + ", GTo: " + gto + ", BTo: " + bto + ". ");
+	//log("Tint Direction: " + tintdirection + ". ");
 	if(frame < 2) {
 		if(tintmode == 2) {
 			changedrawmethod(parent, "tintcolor", rgbcolor(254,254,254));
@@ -46,6 +45,8 @@ anim	idle
 		}
 	}
     if(frame > 1) {
+		changedrawmethod(parent, "enabled", 1);
+		changedrawmethod(parent, "tintmode", tintmode);
 		/*if(tintcolor < tintto && tintdirection) {
 	         tintcolor += tintspeed;
 			 changedrawmethod(parent, "tintcolor", tintcolor);
@@ -82,7 +83,14 @@ anim	idle
 	         else {
 	         	b = bto;
 	         }
-			 changedrawmethod(parent, "tintcolor", rgbcolor(r, g, b));
+			   
+			if(ani == openborconstant("ANI_DODGE") || ani == openborconstant("ANI_FREESPECIAL11")) {
+		 	changedrawmethod(parent, "tintmode", 0);
+		 	changedrawmethod(parent, "enabled", 0);
+
+         	} else {
+		 	changedrawmethod(parent, "tintcolor", rgbcolor(r, g, b));
+		 	}
 		}
 		else if((r > rto || b > bto || g > gto) && !tintdirection) {
 			 if(r > rto) {
@@ -112,7 +120,13 @@ anim	idle
 	         else {
 	         	b = bto;
 	         }
-			 changedrawmethod(parent, "tintcolor", rgbcolor(r, g, b));
+	        
+	        if(ani == openborconstant("ANI_DODGE") || ani == openborconstant("ANI_FREESPECIAL11")) {
+		 	changedrawmethod(parent, "tintmode", 0);
+		 	changedrawmethod(parent, "enabled", 0);
+		 	} else {
+		 	changedrawmethod(parent, "tintcolor", rgbcolor(r, g, b));
+		 	}
 		}
 		else {
 			 changedrawmethod(parent, "tintcolor", tintto);

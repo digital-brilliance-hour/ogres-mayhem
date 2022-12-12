@@ -23,7 +23,7 @@ load break
 animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c
 ondeathscript data/scripts/bossdeath.c
-
+onblocksscript data/scripts/enemy/screenedge.c
 
 anim	attack1
 	loop	0

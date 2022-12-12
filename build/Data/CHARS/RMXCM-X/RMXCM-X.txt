@@ -1,0 +1,462 @@
+name Megaman_X
+health 100
+mp 100
+speed 15
+type player
+shadow 3
+
+
+
+
+
+
+
+
+
+anim	0180
+	delay	7
+	offset	25 45
+	frame	data/chars/RMXCM-X/121.gif
+	offset	23 46
+	frame	data/chars/RMXCM-X/122.gif
+	offset	22 46
+	frame	data/chars/RMXCM-X/123.gif
+	offset	22 47
+	frame	data/chars/RMXCM-X/124.gif
+	offset	22 46
+	frame	data/chars/RMXCM-X/125.gif
+	offset	23 46
+	frame	data/chars/RMXCM-X/126.gif
+	offset	22 46
+	frame	data/chars/RMXCM-X/127.gif
+	offset	22 47
+	frame	data/chars/RMXCM-X/128.gif
+	offset	22 46
+	frame	data/chars/RMXCM-X/129.gif
+	offset	22 46
+	frame	data/chars/RMXCM-X/130.gif
+	offset	22 47
+	frame	data/chars/RMXCM-X/131.gif
+	offset	22 46
+	frame	data/chars/RMXCM-X/132.gif
+	offset	20 46
+	frame	data/chars/RMXCM-X/133.gif
+	offset	20 46
+	frame	data/chars/RMXCM-X/134.gif
+	offset	22 46
+	frame	data/chars/RMXCM-X/135.gif
+	offset	19 43
+	frame	data/chars/RMXCM-X/136.gif
+	offset	19 47
+	frame	data/chars/RMXCM-X/137.gif
+		
+anim	0181
+	delay	7
+	offset	18 37
+	frame	data/chars/RMXCM-X/138.gif
+	offset	27 40
+	frame	data/chars/RMXCM-X/139.gif
+	offset	33 69
+	frame	data/chars/RMXCM-X/140.gif
+	offset	29 69
+	frame	data/chars/RMXCM-X/141.gif
+	offset	26 69
+	frame	data/chars/RMXCM-X/142.gif
+	offset	6 69
+	frame	data/chars/RMXCM-X/143.gif
+	offset	18 39
+	frame	data/chars/RMXCM-X/144.gif
+	offset	27 40
+	frame	data/chars/RMXCM-X/145.gif
+		
+anim	attack1
+	delay	7
+	offset	19 44
+	frame	data/chars/RMXCM-X/187.gif
+	offset	19 41
+	frame	data/chars/RMXCM-X/188.gif
+	offset	25 42
+	frame	data/chars/RMXCM-X/189.gif
+	offset	19 41
+	frame	data/chars/RMXCM-X/190.gif
+		
+anim	attack2
+	delay	7
+	offset	19 33
+	frame	data/chars/RMXCM-X/215.gif
+	offset	22 39
+	frame	data/chars/RMXCM-X/216.gif
+	offset	34 37
+	frame	data/chars/RMXCM-X/217.gif
+		
+anim	attack3
+	delay	7
+	offset	15 45
+	frame	data/chars/RMXCM-X/277.gif
+	offset	16 53
+	frame	data/chars/RMXCM-X/278.gif
+	offset	17 52
+	frame	data/chars/RMXCM-X/279.gif
+	offset	12 51
+	frame	data/chars/RMXCM-X/280.gif
+	offset	21 48
+	frame	data/chars/RMXCM-X/281.gif
+	offset	21 40
+	frame	data/chars/RMXCM-X/221.gif
+	offset	16 42
+	frame	data/chars/RMXCM-X/222.gif
+	offset	15 43
+	frame	data/chars/RMXCM-X/223.gif
+	offset	15 43
+	frame	data/chars/RMXCM-X/224.gif
+	offset	10 41
+	frame	data/chars/RMXCM-X/225.gif
+		
+anim	chargeattack
+	delay	7
+	offset	19 41
+	frame	data/chars/RMXCM-X/251.gif
+	offset	19 41
+	frame	data/chars/RMXCM-X/252.gif
+	offset	19 41
+	frame	data/chars/RMXCM-X/253.gif
+	offset	19 41
+	frame	data/chars/RMXCM-X/254.gif
+	offset	19 41
+	frame	data/chars/RMXCM-X/255.gif
+	offset	19 40
+	frame	data/chars/RMXCM-X/256.gif
+		
+anim	dodge
+	offset	30 29
+	frame	data/chars/RMXCM-X/94.gif
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	drawmethod	rotate 90
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	delay	7
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	drawmethod	rotate 0
+	offset	26 29
+	frame	data/chars/RMXCM-X/93.gif
+		
+anim	fall
+	delay	7
+	offset	19 14
+	frame	data/chars/RMXCM-X/424.gif
+	offset	12 10
+	frame	data/chars/RMXCM-X/425.gif
+	offset	22 11
+	frame	data/chars/RMXCM-X/426.gif
+		
+anim	freespecial
+	delay	7
+	offset	21 43
+	frame	data/chars/RMXCM-X/339.gif
+	offset	23 42
+	frame	data/chars/RMXCM-X/340.gif
+	offset	18 42
+	frame	data/chars/RMXCM-X/341.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/343.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/344.gif
+	offset	18 44
+	frame	data/chars/RMXCM-X/345.gif
+	offset	18 45
+	frame	data/chars/RMXCM-X/346.gif
+	offset	15 41
+	frame	data/chars/RMXCM-X/231.gif
+	offset	21 42
+	frame	data/chars/RMXCM-X/232.gif
+	offset	22 43
+	frame	data/chars/RMXCM-X/233.gif
+	offset	18 42
+	frame	data/chars/RMXCM-X/234.gif
+		
+anim	freespecial11
+	delay	1
+	sound	data/chars/yusuke/broly_5-22.wav
+	offset	30 29
+	frame	data/chars/RMXCM-X/94.gif
+	@cmd	dasher 3 0 0
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	@cmd	stop
+	@cmd	dasher 7 0 0
+	delay	7
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	offset	26 29
+	frame	data/chars/RMXCM-X/93.gif
+		
+anim	freespecial2
+	delay	7
+	offset	10 43
+	frame	data/chars/RMXCM-X/239.gif
+	offset	6 43
+	frame	data/chars/RMXCM-X/240.gif
+	offset	8 43
+	frame	data/chars/RMXCM-X/241.gif
+		
+anim	freespecial3
+	delay	7
+	offset	18 44
+	frame	data/chars/RMXCM-X/195.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/196.gif
+	offset	18 41
+	frame	data/chars/RMXCM-X/197.gif
+	offset	18 41
+	frame	data/chars/RMXCM-X/198.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/199.gif
+		
+anim	freespecial5
+	delay	7
+	offset	19 43
+	frame	data/chars/RMXCM-X/299.gif
+	offset	20 46
+	frame	data/chars/RMXCM-X/300.gif
+	offset	21 44
+	frame	data/chars/RMXCM-X/301.gif
+	offset	22 35
+	frame	data/chars/RMXCM-X/302.gif
+	offset	22 34
+	frame	data/chars/RMXCM-X/303.gif
+	offset	22 40
+	frame	data/chars/RMXCM-X/304.gif
+	offset	19 43
+	frame	data/chars/RMXCM-X/305.gif
+		
+anim	freespecial6
+	delay	7
+	offset	18 44
+	frame	data/chars/RMXCM-X/195.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/196.gif
+	offset	18 41
+	frame	data/chars/RMXCM-X/197.gif
+	offset	20 50
+	frame	data/chars/RMXCM-X/325.gif
+	offset	20 50
+	frame	data/chars/RMXCM-X/326.gif
+		
+anim	idle
+	delay	7
+	offset	19 43
+	frame	data/chars/RMXCM-X/4.gif
+	offset	19 42
+	frame	data/chars/RMXCM-X/5.gif
+	offset	19 41
+	frame	data/chars/RMXCM-X/6.gif
+	offset	19 41
+	frame	data/chars/RMXCM-X/7.gif
+	offset	19 41
+	frame	data/chars/RMXCM-X/8.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/9.gif
+	offset	18 42
+	frame	data/chars/RMXCM-X/10.gif
+	offset	18 41
+	frame	data/chars/RMXCM-X/11.gif
+	offset	18 42
+	frame	data/chars/RMXCM-X/12.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/13.gif
+		
+anim	jump
+	delay	7
+	offset	9 43
+	frame	data/chars/RMXCM-X/71.gif
+	offset	11 42
+	frame	data/chars/RMXCM-X/72.gif
+	offset	13 45
+	frame	data/chars/RMXCM-X/73.gif
+		
+anim	jumpattack
+	delay	7
+	offset	11 42
+	frame	data/chars/RMXCM-X/287.gif
+	offset	13 45
+	frame	data/chars/RMXCM-X/288.gif
+	offset	13 45
+	frame	data/chars/RMXCM-X/289.gif
+	offset	18 41
+	frame	data/chars/RMXCM-X/290.gif
+	offset	16 44
+	frame	data/chars/RMXCM-X/291.gif
+	offset	16 44
+	frame	data/chars/RMXCM-X/292.gif
+	offset	11 43
+	frame	data/chars/RMXCM-X/293.gif
+	offset	13 45
+	frame	data/chars/RMXCM-X/294.gif
+	offset	13 45
+	frame	data/chars/RMXCM-X/295.gif
+	offset	17 41
+	frame	data/chars/RMXCM-X/296.gif
+	offset	15 44
+	frame	data/chars/RMXCM-X/297.gif
+	offset	15 44
+	frame	data/chars/RMXCM-X/298.gif
+		
+anim	pain
+	delay	7
+	offset	15 40
+	frame	data/chars/RMXCM-X/466.gif
+	offset	19 40
+	frame	data/chars/RMXCM-X/467.gif
+	offset	15 40
+	frame	data/chars/RMXCM-X/468.gif
+	offset	17 41
+	frame	data/chars/RMXCM-X/469.gif
+		
+anim	run
+	delay	7
+	offset	20 40
+	frame	data/chars/RMXCM-X/91.gif
+	offset	23 34
+	frame	data/chars/RMXCM-X/92.gif
+	offset	26 29
+	frame	data/chars/RMXCM-X/93.gif
+	offset	30 29
+	frame	data/chars/RMXCM-X/94.gif
+	offset	14 38
+	frame	data/chars/RMXCM-X/95.gif
+	offset	14 40
+	frame	data/chars/RMXCM-X/96.gif
+	offset	26 40
+	frame	data/chars/RMXCM-X/97.gif
+	offset	18 40
+	frame	data/chars/RMXCM-X/98.gif
+		
+anim	runattack
+	delay	7
+	offset	11 42
+	frame	data/chars/RMXCM-X/287.gif
+	offset	13 45
+	frame	data/chars/RMXCM-X/288.gif
+	offset	13 45
+	frame	data/chars/RMXCM-X/289.gif
+	offset	18 41
+	frame	data/chars/RMXCM-X/290.gif
+	offset	16 44
+	frame	data/chars/RMXCM-X/291.gif
+	offset	16 44
+	frame	data/chars/RMXCM-X/292.gif
+		
+anim	spawn
+	delay	7
+	offset	4 94
+	frame	data/chars/RMXCM-X/146.gif
+	offset	12 78
+	frame	data/chars/RMXCM-X/147.gif
+	offset	21 39
+	frame	data/chars/RMXCM-X/148.gif
+	offset	31 49
+	frame	data/chars/RMXCM-X/149.gif
+	offset	33 53
+	frame	data/chars/RMXCM-X/150.gif
+	offset	48 69
+	frame	data/chars/RMXCM-X/151.gif
+	offset	48 69
+	frame	data/chars/RMXCM-X/152.gif
+	offset	32 49
+	frame	data/chars/RMXCM-X/153.gif
+	offset	24 47
+	frame	data/chars/RMXCM-X/154.gif
+	offset	18 39
+	frame	data/chars/RMXCM-X/155.gif
+	offset	18 41
+	frame	data/chars/RMXCM-X/156.gif
+	offset	16 44
+	frame	data/chars/RMXCM-X/157.gif
+	offset	12 52
+	frame	data/chars/RMXCM-X/158.gif
+	offset	12 53
+	frame	data/chars/RMXCM-X/159.gif
+	offset	41 51
+	frame	data/chars/RMXCM-X/160.gif
+	offset	38 51
+	frame	data/chars/RMXCM-X/161.gif
+	offset	25 51
+	frame	data/chars/RMXCM-X/162.gif
+	offset	25 51
+	frame	data/chars/RMXCM-X/163.gif
+		
+anim	walk
+	delay	7
+	offset	18 43
+	frame	data/chars/RMXCM-X/39.gif
+	offset	22 43
+	frame	data/chars/RMXCM-X/40.gif
+	offset	27 42
+	frame	data/chars/RMXCM-X/41.gif
+	offset	26 41
+	frame	data/chars/RMXCM-X/42.gif
+	offset	21 42
+	frame	data/chars/RMXCM-X/43.gif
+	offset	16 43
+	frame	data/chars/RMXCM-X/44.gif
+	offset	12 43
+	frame	data/chars/RMXCM-X/45.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/46.gif
+	offset	21 43
+	frame	data/chars/RMXCM-X/47.gif
+	offset	24 42
+	frame	data/chars/RMXCM-X/48.gif
+	offset	23 41
+	frame	data/chars/RMXCM-X/49.gif
+	offset	21 42
+	frame	data/chars/RMXCM-X/50.gif
+	offset	16 43
+	frame	data/chars/RMXCM-X/51.gif
+	offset	13 43
+	frame	data/chars/RMXCM-X/52.gif
+		
+#|edited by openBor Stats v 0.67
+		

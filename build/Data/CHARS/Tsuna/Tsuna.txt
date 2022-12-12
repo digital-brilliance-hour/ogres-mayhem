@@ -6,6 +6,7 @@ speed 12
 running	24	4	2	1    1
 
 shadow	3
+onblocksscript data/scripts/enemy/screenedge.c
 
 anim	idle
 	attack	35 1 27 29 10 1 1 0 0 0
