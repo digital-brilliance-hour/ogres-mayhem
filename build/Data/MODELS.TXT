@@ -128,7 +128,7 @@ know 	hp_fifty		data/chars/misc/drink.txt
 know	hp_seventyfive		data/chars/misc/apple.txt
 know	hp_hundred		data/chars/misc/meat.txt
 know	xp_twentyfive		data/chars/misc/gold.txt
-know 	xp_fifty 		data/chars/misc/misc18.txt
+know 	statsItem 		data/chars/misc/misc18.txt
 know 	xp_seventyfive 		data/chars/misc/misc17.txt
 know	xp_hundred		data/chars/misc/money.txt
 know 	xp_twohundred	 	data/chars/misc/game.txt
