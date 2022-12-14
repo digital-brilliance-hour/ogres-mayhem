@@ -76,7 +76,7 @@ void mainLoop()
     //highScoreMusic();
   }
   if(SYS_INMENU || SYS_INTITLE){
-      drawstring(400,10,1,"Version: 0.9.5 - beta");
+      drawstring(350,10,1,"Version: 0.9.5 - beta");
   } 
 
 	if(openborvariant("in_selectscreen")==1){
