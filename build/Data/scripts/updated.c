@@ -207,15 +207,6 @@ void fullmp(void p, int num) {
 }
 
 
-  else if (mp < maxmp && blinking == 1){
-    resetMethod("tint", p);
-    setglobalvar("fullmp" + num, NULL());
-  }
-  else {
-    return 0;
-  }
-}
-
 void showMoves() {
 
     int showM = getglobalvar("showM");
