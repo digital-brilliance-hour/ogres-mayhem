@@ -166,12 +166,13 @@ void fullmp(void p, int num) {
   //log("mp = " + mp + ". maxmp = " + maxmp + ". ");
   int tintmode = getdrawmethod(p, "tintmode");
   void blinking = getglobalvar("fullmp" + num);
-  if(mp == maxmp && blinking != 1) {
-    log("madeithere ");
+  void count = getglobalvar("fullmpcount" + num);
+  void blinkcount = getglobalvar("fullmpbcount" + num);
+  if(mp == maxmp && blinking != 1 && blinkcount != 1) {
     loadmodel("tint"); // name of the entity to be loaded        
         clearspawnentry(); // clean the spawn entry        
          setspawnentry("name", "tint"); // define the entity to be spawn        
-         setspawnentry("coords", -1,-1,-1000); // set the position of the entity       
+         setspawnentry("coords", -1,-1,-1000); // set the position of the entity 
          subent=spawn();  //  spawn the entity
          bindentity(subent, p, 0, 0, 0, 0, 0);
     changeentityproperty(subent, "parent", p); //Set caller as parent.
@@ -181,7 +182,31 @@ void fullmp(void p, int num) {
         setentityvar(subent, "tintTo", rgbcolor(11, 222, 67));
         setentityvar(subent, "blinkStart", rgbcolor(67, 140, 13));
         setglobalvar("fullmp" + num, 1);
+        setglobalvar("fullmpcount" + num, 0);
+        setglobalvar("fullmpbcount" + num, 1);
   }
+  else if (mp < maxmp && blinking == 1 && blinkcount == 1){
+    resetMethod("tint", p);
+    setglobalvar("fullmp" + num, NULL());
+    setglobalvar("fullmpcount" + num, NULL());
+    setglobalvar("fullmpbcount" + num, NULL());
+  }
+  else {
+    if(blinking == 1 && blinkcount == 1) {
+      count++;
+      log("count: " + count + ". ");
+      setglobalvar("fullmpcount" + num, count);
+    }
+    if(blinking == 1 && count > 600) {
+      resetMethod("tint", p);
+      setglobalvar("fullmp" + num, NULL());
+      setglobalvar("fullmpcount" + num, NULL());
+    }
+    return 0;
+  }
+}
+
+
   else if (mp < maxmp && blinking == 1){
     resetMethod("tint", p);
     setglobalvar("fullmp" + num, NULL());
