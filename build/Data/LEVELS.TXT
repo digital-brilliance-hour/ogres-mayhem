@@ -8,7 +8,7 @@
 #	scene	[filename]	Show a cut-scene
 #
 
-maxplayers 4
+maxplayers 2
 
 lbarsize 70 5 0 1
 mpbarsize   70 5 0 1
