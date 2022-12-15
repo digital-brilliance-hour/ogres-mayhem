@@ -153,9 +153,9 @@ skipselect blankP
 select  data/scenes/main-select.txt
 file data/levels/tutorial.txt
 
-#set stage_8
-#z 110 270 160
-#file	data/levels/stage8.txt
+set stage_8
+z 275 508 233
+file	data/levels/stage8.txt
 
 #set stage_9
 #z 120 226 106
