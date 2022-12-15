@@ -1,0 +1,49 @@
+name  soraFireball
+type none
+shadow 0
+alpha 1
+speed 50
+remove 1
+
+
+
+
+
+
+
+
+anim	idle
+	attack	3 2 116 58 25 1 1 0 0 20
+	loop	1
+	delay	7
+	offset	58 30
+	frame	data/chars/Sora/607.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	59 25
+	frame	data/chars/Sora/608.gif
+	attack	3 2 108 58 25 1 0 1 0 20
+	offset	49 29
+	frame	data/chars/Sora/609.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	49 31
+	frame	data/chars/Sora/610.gif
+	attack	3 2 116 58 25 1 1 0 0 20
+	offset	60 30
+	frame	data/chars/Sora/611.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	57 30
+	frame	data/chars/Sora/612.gif
+	attack	3 2 116 58 25 1 0 1 0 20
+	offset	62 28
+	frame	data/chars/Sora/613.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	37 28
+	frame	data/chars/Sora/614.gif
+	attack	3 2 107 58 25 1 1 0 0 20
+	offset	49 31
+	frame	data/chars/Sora/615.gif
+	offset	58 29
+	frame	data/chars/Sora/616.gif
+		
+#|edited by openBor Stats v 0.67
+		

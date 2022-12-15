@@ -388,5 +388,13 @@ Load fade Data/CHARS/misc/effects/fade/fade.txt
 Load tint Data/CHARS/misc/effects/tint/tint.txt
 Load rotate Data/CHARS/misc/effects/rotate/rotate.txt
 Load fill Data/CHARS/misc/effects/fill/fill.txt
-know Sora data/chars/Sora/Sora.txt
+load Sora data/chars/Sora/Sora.txt
+know Sora-OLD data/chars/Sora/Sora-OLD.txt
 Load statsBoost Data/CHARS/misc/itemsstatsBoost/statsBoost.txt
+Load soraThunder Data/CHARS/misc/FX/soraThunder/soraThunder.txt
+Load soraIce Data/CHARS/misc/FX/soraIce/soraIce.txt
+Load soraFireball Data/CHARS/misc/FX/soraFireball/soraFireball.txt
+Load soraIcespray Data/CHARS/misc/FX/soraIcespray/soraIcespray.txt
+Load soraFireballBlast Data/CHARS/misc/FX/soraFireballBlast/soraFireballBlast.txt
+Load soraWind Data/CHARS/misc/FX/soraWind/soraWind.txt
+Load soraStatic Data/CHARS/misc/FX/soraStatic/soraStatic.txt

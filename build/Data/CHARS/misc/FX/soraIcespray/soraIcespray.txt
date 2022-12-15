@@ -1,0 +1,53 @@
+name  soraIcespray
+type none
+shadow 0
+alpha 1
+
+
+
+
+anim	idle
+	loop	0
+	delay	1
+	offset	0 14
+	frame	data/chars/Sora/669.gif
+	offset	1 23
+	frame	data/chars/Sora/670.gif
+	offset	1 48
+	frame	data/chars/Sora/671.gif
+	offset	1 62
+	frame	data/chars/Sora/672.gif
+	offset	1 70
+	frame	data/chars/Sora/673.gif
+	offset	2 75
+	frame	data/chars/Sora/674.gif
+	offset	2 77
+	frame	data/chars/Sora/675.gif
+	offset	2 78
+	frame	data/chars/Sora/676.gif
+	offset	4 86
+	frame	data/chars/Sora/677.gif
+	offset	14 96
+	frame	data/chars/Sora/678.gif
+	offset	12 102
+	frame	data/chars/Sora/679.gif
+	offset	14 108
+	frame	data/chars/Sora/680.gif
+	offset	13 114
+	frame	data/chars/Sora/681.gif
+	offset	12 113
+	frame	data/chars/Sora/682.gif
+	offset	12 115
+	frame	data/chars/Sora/683.gif
+	offset	13 113
+	frame	data/chars/Sora/684.gif
+	offset	14 108
+	frame	data/chars/Sora/685.gif
+	offset	15 121
+	frame	data/chars/Sora/686.gif
+	offset	15 101
+	frame	data/chars/Sora/687.gif
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

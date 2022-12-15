@@ -1,0 +1,39 @@
+name  soraThunder
+type none
+shadow 0
+alpha 1
+
+
+
+
+anim	idle
+	loop	0
+	delay	7
+	offset	109 300
+	frame	data/chars/Sora/657.gif
+	offset	109 300
+	frame	data/chars/Sora/658.gif
+	offset	113 300
+	frame	data/chars/Sora/659.gif
+	offset	113 300
+	frame	data/chars/Sora/660.gif
+	offset	114 300
+	frame	data/chars/Sora/661.gif
+	offset	113 300
+	frame	data/chars/Sora/662.gif
+	offset	112 300
+	frame	data/chars/Sora/663.gif
+	offset	109 296
+	frame	data/chars/Sora/664.gif
+	offset	109 280
+	frame	data/chars/Sora/665.gif
+	offset	109 280
+	frame	data/chars/Sora/666.gif
+	offset	109 273
+	frame	data/chars/Sora/667.gif
+	offset	109 267
+	frame	data/chars/Sora/668.gif
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

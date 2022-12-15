@@ -1,0 +1,37 @@
+name  soraWind
+type none
+shadow 0
+alpha 1
+
+animationscript data/scripts/animation/looper.c
+
+
+
+
+
+anim	idle
+	loop	1
+	fastattack	1
+	delay	7
+	offset	145 61
+	frame	data/chars/Sora/786.gif
+	attack	1 0 283 124 20 0 1 0 0 100
+	offset	136 62
+	frame	data/chars/Sora/787.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	145 58
+	frame	data/chars/Sora/788.gif
+	attack	1 0 292 115 20 0 0 1 0 100
+	offset	149 55
+	frame	data/chars/Sora/789.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	149 52
+	frame	data/chars/Sora/790.gif
+	attack	1 0 292 114 20 1 1 0 0 100
+	dropv	3 5 0
+	@cmd looper 3
+	offset	150 57
+	frame	data/chars/Sora/791.gif
+		
+#|edited by openBor Stats v 0.67
+		
