@@ -154,6 +154,7 @@ select  data/scenes/main-select.txt
 file data/levels/tutorial.txt
 
 set Bonus
+z 199 232 43
 file data/levels/bonus.txt
 
 set stage_8
