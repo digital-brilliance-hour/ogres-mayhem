@@ -1,0 +1,28 @@
+name	powerShot
+speed   20
+type 	none
+shadow	0
+remove 0
+alpha 1
+
+
+
+
+
+
+
+
+anim	idle
+	attack	97 15 145 143 25 1 1 0 0 0
+	loop	1
+	drawmethod	scale 0.25
+	delay	7
+	offset	159 85
+	frame	data/chars/RMXCM-X/691.gif
+	offset	181 93
+	frame	data/chars/RMXCM-X/692.gif
+	offset	145 87
+	frame	data/chars/RMXCM-X/693.gif
+		
+#|edited by openBor Stats v 0.67
+		

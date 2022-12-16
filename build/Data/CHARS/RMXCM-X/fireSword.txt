@@ -1,0 +1,40 @@
+name	fireSword
+speed   20
+type 	none
+shadow	0
+remove 0
+alpha 1
+
+# for freespecial 2
+
+
+
+
+
+anim	idle
+	loop	1
+	drawmethod	scale 0.25
+	delay	7
+	offset	70 92
+	frame	data/chars/RMXCM-X/591.gif
+	offset	71 118
+	frame	data/chars/RMXCM-X/592.gif
+	offset	24 126
+	frame	data/chars/RMXCM-X/593.gif
+	offset	-4 123
+	frame	data/chars/RMXCM-X/594.gif
+	offset	-3 99
+	frame	data/chars/RMXCM-X/595.gif
+	offset	-3 44
+	frame	data/chars/RMXCM-X/596.gif
+	offset	-1 24
+	frame	data/chars/RMXCM-X/597.gif
+	offset	-2 26
+	frame	data/chars/RMXCM-X/598.gif
+	offset	-4 25
+	frame	data/chars/RMXCM-X/599.gif
+	offset	-7 23
+	frame	data/chars/RMXCM-X/600.gif
+
+#|edited by openBor Stats v 0.67
+		

@@ -82,10 +82,12 @@ file 	data/levels/scenes/intro/stage1-intro.txt
 z 105 265 160
 file 	data/levels/stage1.txt
 next
+select  data/scenes/main-select.txt
 file 	data/levels/scenes/intro/stage2-intro.txt
 z 121 265 160
 file	data/levels/stage2.txt
 next
+select  data/scenes/main-select.txt
 file 	data/levels/scenes/intro/stage3-intro.txt
 z 160 265 160
 file	data/levels/stage3.txt
@@ -114,6 +116,7 @@ file	data/levels/stage4-2.txt
 z 152 235 118
 file	data/levels/stage4-3.txt
 next
+select  data/scenes/main-select.txt
 file 	data/levels/scenes/intro/stage5-intro.txt
 z 157 240 240
 file	data/levels/stage5-1.txt
@@ -141,6 +144,7 @@ z 110 270 160
 file	data/levels/stage6-1.txt
 file	data/levels/stage6-2.txt
 next
+select  data/scenes/main-select.txt
 file 	data/levels/scenes/intro/stage7-intro.txt
 z 173 220 47
 file	data/levels/stage7.txt
