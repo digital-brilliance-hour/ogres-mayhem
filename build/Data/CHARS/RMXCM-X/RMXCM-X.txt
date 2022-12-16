@@ -5,6 +5,8 @@ speed 15
 running	24	4	2	1    1
 type player
 shadow 3
+icon data/chars/RMXCM-X/0.gif
+
 com  a3  freespecial
 com u a3 freespecial2
 com d a3 freespecial5
@@ -63,15 +65,18 @@ anim	attack2
 	frame	data/chars/RMXCM-X/217.gif
 		
 anim	attack3
-	delay	7
-	jumpframe	8 15 1 1
+	delay	10
 	offset	15 45
 	frame	data/chars/RMXCM-X/277.gif
+	delay	5
+	@cmd	leaper 0 2.5 0
 	offset	16 65
 	frame	data/chars/RMXCM-X/278.gif
+	delay	30
 	attack	16 -1 21 61 20 1 1 0 0 0
 	offset	17 66
 	frame	data/chars/RMXCM-X/279.gif
+	delay	7
 	offset	12 68
 	frame	data/chars/RMXCM-X/280.gif
 	offset	21 68
@@ -276,17 +281,23 @@ anim	freespecial6
 anim	idle
 	loop	1
 	bbox	6 0 25 43
-	delay	7
+	delay	15
 	offset	19 43
 	frame	data/chars/RMXCM-X/4.gif
 	offset	19 42
 	frame	data/chars/RMXCM-X/5.gif
+	delay	60
 	offset	19 41
 	frame	data/chars/RMXCM-X/6.gif
+	delay	7
 	offset	19 41
 	frame	data/chars/RMXCM-X/7.gif
 	offset	19 41
 	frame	data/chars/RMXCM-X/8.gif
+	offset	19 41
+	frame	data/chars/RMXCM-X/7.gif
+	offset	19 41
+	frame	data/chars/RMXCM-X/6.gif
 		
 anim	jump
 	bbox	4 1 15 50
