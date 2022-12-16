@@ -178,7 +178,7 @@ Know hiei_E data/chars/hiei/hieiE.txt
 Know Sasuke_E data/chars/Sasuke/SasukeE.txt
 Know Shrek_E data/chars/Shrek/ShrekE.txt
 Know samjack_E data/chars/samjack/samjackE.txt
-know Broly_E data/chars/Broly_SSB/Broly_SSBE.txt  
+know BrolyE data/chars/Broly_SSB/Broly_SSBE.txt  
 know King_Piccolo2 data/chars/King_Piccolo/King_PiccoloE.txt  
 know	EIkkaku		data/chars/Ikkaku/Ikkakue.txt
 know	ERenji		data/chars/Renji/ERenji.txt
