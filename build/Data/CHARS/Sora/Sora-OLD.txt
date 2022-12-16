@@ -1,0 +1,1785 @@
+name Sora-OLD
+health	100
+speed 12
+type	none
+
+
+
+
+
+
+
+anim	0006
+	delay	7
+	offset	19 40
+	frame	data/chars/Sora/12.gif
+	offset	21 37
+	frame	data/chars/Sora/13.gif
+	offset	17 27
+	frame	data/chars/Sora/14.gif
+		
+anim	0011
+	delay	1
+	offset	0 14
+	frame	data/chars/Sora/669.gif
+	offset	1 23
+	frame	data/chars/Sora/670.gif
+	offset	1 48
+	frame	data/chars/Sora/671.gif
+	offset	1 62
+	frame	data/chars/Sora/672.gif
+	offset	1 70
+	frame	data/chars/Sora/673.gif
+	offset	2 75
+	frame	data/chars/Sora/674.gif
+	offset	2 77
+	frame	data/chars/Sora/675.gif
+	offset	2 78
+	frame	data/chars/Sora/676.gif
+	offset	4 86
+	frame	data/chars/Sora/677.gif
+	offset	14 96
+	frame	data/chars/Sora/678.gif
+	offset	12 102
+	frame	data/chars/Sora/679.gif
+	offset	14 108
+	frame	data/chars/Sora/680.gif
+	offset	13 114
+	frame	data/chars/Sora/681.gif
+	offset	12 113
+	frame	data/chars/Sora/682.gif
+	offset	12 115
+	frame	data/chars/Sora/683.gif
+	offset	13 113
+	frame	data/chars/Sora/684.gif
+	offset	14 108
+	frame	data/chars/Sora/685.gif
+	offset	15 121
+	frame	data/chars/Sora/686.gif
+	offset	15 101
+	frame	data/chars/Sora/687.gif
+		
+anim	0040
+	delay	7
+	offset	32 48
+	frame	data/chars/Sora/22.gif
+	offset	12 49
+	frame	data/chars/Sora/23.gif
+	offset	17 45
+	frame	data/chars/Sora/24.gif
+		
+anim	0161
+	delay	7
+	offset	24 20
+	frame	data/chars/Sora/443.gif
+	offset	24 57
+	frame	data/chars/Sora/444.gif
+	offset	23 96
+	frame	data/chars/Sora/445.gif
+	offset	23 96
+	frame	data/chars/Sora/446.gif
+	offset	2 92
+	frame	data/chars/Sora/447.gif
+	offset	3 88
+	frame	data/chars/Sora/448.gif
+	offset	-11 87
+	frame	data/chars/Sora/449.gif
+		
+anim	0950
+	delay	7
+	offset	105 294
+	frame	data/chars/Sora/450.gif
+	offset	300 290
+	frame	data/chars/Sora/451.gif
+	offset	300 288
+	frame	data/chars/Sora/452.gif
+	offset	300 296
+	frame	data/chars/Sora/453.gif
+	offset	300 325
+	frame	data/chars/Sora/454.gif
+	offset	300 354
+	frame	data/chars/Sora/455.gif
+	offset	300 382
+	frame	data/chars/Sora/456.gif
+	offset	300 400
+	frame	data/chars/Sora/457.gif
+	offset	300 384
+	frame	data/chars/Sora/458.gif
+	offset	300 400
+	frame	data/chars/Sora/459.gif
+	offset	300 400
+	frame	data/chars/Sora/460.gif
+	offset	293 384
+	frame	data/chars/Sora/461.gif
+	offset	233 391
+	frame	data/chars/Sora/462.gif
+	offset	214 399
+	frame	data/chars/Sora/463.gif
+	offset	208 391
+	frame	data/chars/Sora/464.gif
+	offset	183 365
+	frame	data/chars/Sora/465.gif
+	offset	158 341
+	frame	data/chars/Sora/466.gif
+	offset	151 338
+	frame	data/chars/Sora/467.gif
+	offset	148 337
+	frame	data/chars/Sora/468.gif
+	offset	147 338
+	frame	data/chars/Sora/469.gif
+	offset	146 336
+	frame	data/chars/Sora/470.gif
+	offset	142 333
+	frame	data/chars/Sora/471.gif
+	offset	137 332
+	frame	data/chars/Sora/472.gif
+	offset	136 332
+	frame	data/chars/Sora/473.gif
+	offset	134 332
+	frame	data/chars/Sora/474.gif
+	offset	132 331
+	frame	data/chars/Sora/475.gif
+	offset	125 330
+	frame	data/chars/Sora/476.gif
+	offset	110 328
+	frame	data/chars/Sora/477.gif
+	offset	67 323
+	frame	data/chars/Sora/478.gif
+	offset	62 314
+	frame	data/chars/Sora/479.gif
+	offset	100 292
+	frame	data/chars/Sora/480.gif
+	offset	273 289
+	frame	data/chars/Sora/481.gif
+	offset	273 287
+	frame	data/chars/Sora/482.gif
+	offset	273 295
+	frame	data/chars/Sora/483.gif
+	offset	273 324
+	frame	data/chars/Sora/484.gif
+	offset	273 353
+	frame	data/chars/Sora/485.gif
+	offset	273 382
+	frame	data/chars/Sora/486.gif
+	offset	273 396
+	frame	data/chars/Sora/487.gif
+	offset	273 384
+	frame	data/chars/Sora/488.gif
+	offset	273 396
+	frame	data/chars/Sora/489.gif
+	offset	273 396
+	frame	data/chars/Sora/490.gif
+	offset	273 383
+	frame	data/chars/Sora/491.gif
+	offset	236 390
+	frame	data/chars/Sora/492.gif
+	offset	214 396
+	frame	data/chars/Sora/493.gif
+	offset	208 390
+	frame	data/chars/Sora/494.gif
+	offset	182 365
+	frame	data/chars/Sora/495.gif
+	offset	157 340
+	frame	data/chars/Sora/496.gif
+	offset	145 332
+	frame	data/chars/Sora/497.gif
+	offset	141 331
+	frame	data/chars/Sora/498.gif
+	offset	137 330
+	frame	data/chars/Sora/499.gif
+	offset	133 329
+	frame	data/chars/Sora/500.gif
+	offset	133 327
+	frame	data/chars/Sora/501.gif
+	offset	129 327
+	frame	data/chars/Sora/502.gif
+	offset	128 324
+	frame	data/chars/Sora/503.gif
+	offset	122 323
+	frame	data/chars/Sora/504.gif
+	offset	118 320
+	frame	data/chars/Sora/505.gif
+	offset	106 319
+	frame	data/chars/Sora/506.gif
+	offset	71 314
+	frame	data/chars/Sora/507.gif
+	offset	59 305
+	frame	data/chars/Sora/508.gif
+	offset	55 287
+	frame	data/chars/Sora/509.gif
+		
+anim	6008
+	delay	7
+	offset	114 119
+	frame	data/chars/Sora/754.gif
+	offset	114 119
+	frame	data/chars/Sora/755.gif
+	offset	114 119
+	frame	data/chars/Sora/756.gif
+	offset	114 119
+	frame	data/chars/Sora/757.gif
+	offset	114 119
+	frame	data/chars/Sora/758.gif
+	offset	114 119
+	frame	data/chars/Sora/759.gif
+	offset	114 119
+	frame	data/chars/Sora/760.gif
+	offset	114 119
+	frame	data/chars/Sora/761.gif
+	offset	114 119
+	frame	data/chars/Sora/762.gif
+	offset	114 119
+	frame	data/chars/Sora/763.gif
+	offset	113 113
+	frame	data/chars/Sora/764.gif
+	offset	113 113
+	frame	data/chars/Sora/765.gif
+	offset	113 113
+	frame	data/chars/Sora/766.gif
+	offset	112 111
+	frame	data/chars/Sora/767.gif
+	offset	111 110
+	frame	data/chars/Sora/768.gif
+	offset	109 109
+	frame	data/chars/Sora/769.gif
+	offset	106 104
+	frame	data/chars/Sora/770.gif
+	offset	93 94
+	frame	data/chars/Sora/771.gif
+		
+anim	6016
+	delay	7
+	offset	83 20
+	frame	data/chars/Sora/792.gif
+	offset	87 20
+	frame	data/chars/Sora/793.gif
+	offset	80 15
+	frame	data/chars/Sora/794.gif
+	offset	80 15
+	frame	data/chars/Sora/795.gif
+	offset	79 15
+	frame	data/chars/Sora/796.gif
+	offset	80 15
+	frame	data/chars/Sora/797.gif
+	offset	79 15
+	frame	data/chars/Sora/798.gif
+	offset	80 15
+	frame	data/chars/Sora/799.gif
+	offset	78 15
+	frame	data/chars/Sora/800.gif
+	offset	78 14
+	frame	data/chars/Sora/801.gif
+		
+anim	7000
+	delay	7
+	offset	24 24
+	frame	data/chars/Sora/383.gif
+	offset	19 19
+	frame	data/chars/Sora/384.gif
+	offset	14 15
+	frame	data/chars/Sora/385.gif
+	offset	9 16
+	frame	data/chars/Sora/386.gif
+	offset	11 19
+	frame	data/chars/Sora/387.gif
+	offset	12 22
+	frame	data/chars/Sora/388.gif
+	offset	7 25
+	frame	data/chars/Sora/389.gif
+	offset	11 23
+	frame	data/chars/Sora/390.gif
+	offset	12 23
+	frame	data/chars/Sora/391.gif
+	offset	12 24
+	frame	data/chars/Sora/392.gif
+	offset	13 31
+	frame	data/chars/Sora/393.gif
+	offset	13 32
+	frame	data/chars/Sora/394.gif
+	offset	13 33
+	frame	data/chars/Sora/395.gif
+	offset	13 35
+	frame	data/chars/Sora/396.gif
+	offset	13 36
+	frame	data/chars/Sora/397.gif
+	offset	13 36
+	frame	data/chars/Sora/398.gif
+	offset	11 37
+	frame	data/chars/Sora/399.gif
+	offset	10 38
+	frame	data/chars/Sora/400.gif
+	offset	7 40
+	frame	data/chars/Sora/401.gif
+	offset	8 41
+	frame	data/chars/Sora/402.gif
+	offset	2 43
+	frame	data/chars/Sora/403.gif
+		
+anim	7002
+	delay	7
+	offset	219 209
+	frame	data/chars/Sora/587.gif
+	offset	219 209
+	frame	data/chars/Sora/588.gif
+	offset	219 209
+	frame	data/chars/Sora/589.gif
+	offset	219 209
+	frame	data/chars/Sora/590.gif
+	offset	219 209
+	frame	data/chars/Sora/591.gif
+	offset	219 209
+	frame	data/chars/Sora/592.gif
+	offset	219 209
+	frame	data/chars/Sora/593.gif
+	offset	219 209
+	frame	data/chars/Sora/594.gif
+	offset	219 209
+	frame	data/chars/Sora/595.gif
+	offset	219 209
+	frame	data/chars/Sora/596.gif
+	offset	219 209
+	frame	data/chars/Sora/597.gif
+		
+anim	7006
+	delay	7
+	offset	130 102
+	frame	data/chars/Sora/580.gif
+	offset	127 111
+	frame	data/chars/Sora/581.gif
+	offset	116 120
+	frame	data/chars/Sora/582.gif
+	offset	106 116
+	frame	data/chars/Sora/583.gif
+		
+anim	7007
+	delay	7
+	offset	80 57
+	frame	data/chars/Sora/802.gif
+	offset	86 64
+	frame	data/chars/Sora/803.gif
+	offset	76 56
+	frame	data/chars/Sora/804.gif
+	offset	57 5
+	frame	data/chars/Sora/805.gif
+		
+anim	7016
+	delay	7
+	offset	29 36
+	frame	data/chars/Sora/780.gif
+	offset	67 66
+	frame	data/chars/Sora/781.gif
+	offset	68 62
+	frame	data/chars/Sora/782.gif
+	offset	66 56
+	frame	data/chars/Sora/783.gif
+	offset	57 41
+	frame	data/chars/Sora/784.gif
+	offset	41 21
+	frame	data/chars/Sora/785.gif
+		
+anim	7052
+	delay	7
+	offset	179 41
+	frame	data/chars/Sora/420.gif
+	offset	178 43
+	frame	data/chars/Sora/421.gif
+	offset	219 45
+	frame	data/chars/Sora/422.gif
+	offset	225 59
+	frame	data/chars/Sora/423.gif
+	offset	222 62
+	frame	data/chars/Sora/424.gif
+	offset	223 59
+	frame	data/chars/Sora/425.gif
+	offset	226 60
+	frame	data/chars/Sora/426.gif
+	offset	219 63
+	frame	data/chars/Sora/427.gif
+	offset	209 63
+	frame	data/chars/Sora/428.gif
+		
+anim	7053
+	delay	7
+	offset	0 -102
+	frame	data/chars/Sora/429.gif
+	offset	0 -92
+	frame	data/chars/Sora/430.gif
+	offset	0 -70
+	frame	data/chars/Sora/431.gif
+	offset	0 -3
+	frame	data/chars/Sora/432.gif
+	offset	0 -3
+	frame	data/chars/Sora/433.gif
+	offset	0 -3
+	frame	data/chars/Sora/434.gif
+	offset	0 -3
+	frame	data/chars/Sora/435.gif
+	offset	0 0
+	frame	data/chars/Sora/436.gif
+	offset	0 0
+	frame	data/chars/Sora/437.gif
+	offset	0 0
+	frame	data/chars/Sora/438.gif
+	offset	0 0
+	frame	data/chars/Sora/439.gif
+	offset	0 -1
+	frame	data/chars/Sora/440.gif
+	offset	0 -8
+	frame	data/chars/Sora/441.gif
+	offset	0 -6
+	frame	data/chars/Sora/442.gif
+		
+anim	7062
+	delay	7
+	offset	137 97
+	frame	data/chars/Sora/720.gif
+	offset	137 97
+	frame	data/chars/Sora/721.gif
+	offset	137 97
+	frame	data/chars/Sora/722.gif
+	offset	137 97
+	frame	data/chars/Sora/723.gif
+	offset	137 97
+	frame	data/chars/Sora/724.gif
+	offset	137 97
+	frame	data/chars/Sora/725.gif
+	offset	137 97
+	frame	data/chars/Sora/726.gif
+	offset	137 97
+	frame	data/chars/Sora/727.gif
+	offset	137 97
+	frame	data/chars/Sora/728.gif
+	offset	137 97
+	frame	data/chars/Sora/729.gif
+	offset	137 97
+	frame	data/chars/Sora/730.gif
+	offset	137 97
+	frame	data/chars/Sora/731.gif
+	offset	137 97
+	frame	data/chars/Sora/732.gif
+	offset	137 97
+	frame	data/chars/Sora/733.gif
+	offset	137 97
+	frame	data/chars/Sora/734.gif
+	offset	137 97
+	frame	data/chars/Sora/735.gif
+	offset	137 97
+	frame	data/chars/Sora/736.gif
+	offset	137 97
+	frame	data/chars/Sora/737.gif
+	offset	137 97
+	frame	data/chars/Sora/738.gif
+	offset	137 97
+	frame	data/chars/Sora/739.gif
+	offset	137 97
+	frame	data/chars/Sora/740.gif
+	offset	137 97
+	frame	data/chars/Sora/741.gif
+	offset	137 97
+	frame	data/chars/Sora/742.gif
+	offset	137 97
+	frame	data/chars/Sora/743.gif
+		
+anim	8200
+	delay	7
+	offset	108 237
+	frame	data/chars/Sora/404.gif
+	offset	114 256
+	frame	data/chars/Sora/405.gif
+	offset	121 276
+	frame	data/chars/Sora/406.gif
+	offset	128 193
+	frame	data/chars/Sora/407.gif
+	offset	135 198
+	frame	data/chars/Sora/408.gif
+	offset	126 199
+	frame	data/chars/Sora/409.gif
+	offset	125 186
+	frame	data/chars/Sora/410.gif
+	offset	127 180
+	frame	data/chars/Sora/411.gif
+	offset	124 124
+	frame	data/chars/Sora/412.gif
+	offset	115 109
+	frame	data/chars/Sora/413.gif
+		
+anim	8230
+	delay	7
+	offset	68 31
+	frame	data/chars/Sora/241.gif
+	offset	83 92
+	frame	data/chars/Sora/242.gif
+	offset	99 149
+	frame	data/chars/Sora/243.gif
+	offset	98 178
+	frame	data/chars/Sora/244.gif
+	offset	100 196
+	frame	data/chars/Sora/245.gif
+	offset	100 203
+	frame	data/chars/Sora/246.gif
+	offset	98 210
+	frame	data/chars/Sora/247.gif
+	offset	98 219
+	frame	data/chars/Sora/248.gif
+	offset	97 226
+	frame	data/chars/Sora/249.gif
+	offset	96 230
+	frame	data/chars/Sora/250.gif
+	offset	97 232
+	frame	data/chars/Sora/251.gif
+	offset	99 234
+	frame	data/chars/Sora/252.gif
+	offset	100 232
+	frame	data/chars/Sora/253.gif
+	offset	101 236
+	frame	data/chars/Sora/254.gif
+	offset	100 222
+	frame	data/chars/Sora/255.gif
+	offset	88 224
+	frame	data/chars/Sora/256.gif
+	offset	88 224
+	frame	data/chars/Sora/257.gif
+	offset	89 224
+	frame	data/chars/Sora/258.gif
+	offset	89 226
+	frame	data/chars/Sora/259.gif
+	offset	90 227
+	frame	data/chars/Sora/260.gif
+	offset	90 231
+	frame	data/chars/Sora/261.gif
+	offset	90 232
+	frame	data/chars/Sora/262.gif
+	offset	93 232
+	frame	data/chars/Sora/263.gif
+	offset	95 232
+	frame	data/chars/Sora/264.gif
+	offset	96 232
+	frame	data/chars/Sora/265.gif
+	offset	96 233
+	frame	data/chars/Sora/266.gif
+	offset	97 232
+	frame	data/chars/Sora/267.gif
+	offset	98 233
+	frame	data/chars/Sora/268.gif
+	offset	99 233
+	frame	data/chars/Sora/269.gif
+	offset	101 234
+	frame	data/chars/Sora/270.gif
+	offset	101 234
+	frame	data/chars/Sora/271.gif
+	offset	103 240
+	frame	data/chars/Sora/272.gif
+	offset	103 235
+	frame	data/chars/Sora/273.gif
+	offset	105 217
+	frame	data/chars/Sora/274.gif
+	offset	105 217
+	frame	data/chars/Sora/275.gif
+	offset	106 219
+	frame	data/chars/Sora/276.gif
+	offset	105 221
+	frame	data/chars/Sora/277.gif
+	offset	106 224
+	frame	data/chars/Sora/278.gif
+	offset	98 226
+	frame	data/chars/Sora/279.gif
+	offset	98 227
+	frame	data/chars/Sora/280.gif
+	offset	98 229
+	frame	data/chars/Sora/281.gif
+	offset	98 229
+	frame	data/chars/Sora/282.gif
+	offset	97 228
+	frame	data/chars/Sora/283.gif
+	offset	97 223
+	frame	data/chars/Sora/284.gif
+	offset	94 222
+	frame	data/chars/Sora/285.gif
+	offset	93 195
+	frame	data/chars/Sora/286.gif
+	offset	91 194
+	frame	data/chars/Sora/287.gif
+	offset	90 194
+	frame	data/chars/Sora/288.gif
+	offset	76 192
+	frame	data/chars/Sora/289.gif
+	offset	76 191
+	frame	data/chars/Sora/290.gif
+	offset	76 191
+	frame	data/chars/Sora/291.gif
+	offset	76 188
+	frame	data/chars/Sora/292.gif
+	offset	76 187
+	frame	data/chars/Sora/293.gif
+	offset	74 186
+	frame	data/chars/Sora/294.gif
+	offset	67 168
+	frame	data/chars/Sora/295.gif
+	offset	55 157
+	frame	data/chars/Sora/296.gif
+	offset	39 128
+	frame	data/chars/Sora/297.gif
+		
+anim	8240
+	delay	7
+	offset	198 30
+	frame	data/chars/Sora/298.gif
+	offset	198 30
+	frame	data/chars/Sora/299.gif
+	offset	198 30
+	frame	data/chars/Sora/300.gif
+	offset	198 30
+	frame	data/chars/Sora/301.gif
+	offset	198 30
+	frame	data/chars/Sora/302.gif
+	offset	198 30
+	frame	data/chars/Sora/303.gif
+	offset	198 30
+	frame	data/chars/Sora/304.gif
+	offset	198 30
+	frame	data/chars/Sora/305.gif
+	offset	198 30
+	frame	data/chars/Sora/306.gif
+	offset	198 30
+	frame	data/chars/Sora/307.gif
+	offset	198 30
+	frame	data/chars/Sora/308.gif
+	offset	198 30
+	frame	data/chars/Sora/309.gif
+	offset	198 30
+	frame	data/chars/Sora/310.gif
+	offset	197 29
+	frame	data/chars/Sora/311.gif
+	offset	198 29
+	frame	data/chars/Sora/312.gif
+	offset	197 29
+	frame	data/chars/Sora/313.gif
+	offset	198 30
+	frame	data/chars/Sora/314.gif
+	offset	198 30
+	frame	data/chars/Sora/315.gif
+	offset	198 30
+	frame	data/chars/Sora/316.gif
+	offset	198 30
+	frame	data/chars/Sora/317.gif
+		
+anim	8250
+	delay	7
+	offset	57 10
+	frame	data/chars/Sora/318.gif
+	offset	91 20
+	frame	data/chars/Sora/319.gif
+	offset	122 29
+	frame	data/chars/Sora/320.gif
+	offset	150 38
+	frame	data/chars/Sora/321.gif
+	offset	174 45
+	frame	data/chars/Sora/322.gif
+	offset	195 50
+	frame	data/chars/Sora/323.gif
+	offset	212 53
+	frame	data/chars/Sora/324.gif
+	offset	226 54
+	frame	data/chars/Sora/325.gif
+	offset	237 54
+	frame	data/chars/Sora/326.gif
+	offset	245 54
+	frame	data/chars/Sora/327.gif
+	offset	252 53
+	frame	data/chars/Sora/328.gif
+	offset	266 52
+	frame	data/chars/Sora/329.gif
+	offset	284 50
+	frame	data/chars/Sora/330.gif
+	offset	298 48
+	frame	data/chars/Sora/331.gif
+	offset	313 49
+	frame	data/chars/Sora/332.gif
+	offset	328 50
+	frame	data/chars/Sora/333.gif
+	offset	343 50
+	frame	data/chars/Sora/334.gif
+	offset	359 51
+	frame	data/chars/Sora/335.gif
+	offset	373 51
+	frame	data/chars/Sora/336.gif
+	offset	388 51
+	frame	data/chars/Sora/337.gif
+	offset	404 51
+	frame	data/chars/Sora/338.gif
+	offset	418 51
+	frame	data/chars/Sora/339.gif
+	offset	411 50
+	frame	data/chars/Sora/340.gif
+	offset	421 50
+	frame	data/chars/Sora/341.gif
+	offset	431 49
+	frame	data/chars/Sora/342.gif
+	offset	446 48
+	frame	data/chars/Sora/343.gif
+	offset	462 47
+	frame	data/chars/Sora/344.gif
+	offset	446 45
+	frame	data/chars/Sora/345.gif
+	offset	443 44
+	frame	data/chars/Sora/346.gif
+	offset	456 42
+	frame	data/chars/Sora/347.gif
+	offset	468 40
+	frame	data/chars/Sora/348.gif
+	offset	482 38
+	frame	data/chars/Sora/349.gif
+	offset	392 36
+	frame	data/chars/Sora/350.gif
+	offset	345 34
+	frame	data/chars/Sora/351.gif
+	offset	319 31
+	frame	data/chars/Sora/352.gif
+	offset	322 29
+	frame	data/chars/Sora/353.gif
+	offset	327 27
+	frame	data/chars/Sora/354.gif
+	offset	336 20
+	frame	data/chars/Sora/355.gif
+	offset	339 20
+	frame	data/chars/Sora/356.gif
+	offset	343 13
+	frame	data/chars/Sora/357.gif
+	offset	348 12
+	frame	data/chars/Sora/358.gif
+	offset	346 -14
+	frame	data/chars/Sora/359.gif
+	offset	389 -73
+	frame	data/chars/Sora/360.gif
+	offset	298 -92
+	frame	data/chars/Sora/361.gif
+	offset	399 -85
+	frame	data/chars/Sora/362.gif
+	offset	299 -100
+	frame	data/chars/Sora/363.gif
+	offset	409 -102
+	frame	data/chars/Sora/364.gif
+	offset	414 -116
+	frame	data/chars/Sora/365.gif
+	offset	308 -111
+	frame	data/chars/Sora/366.gif
+	offset	342 -126
+	frame	data/chars/Sora/367.gif
+	offset	370 -116
+	frame	data/chars/Sora/368.gif
+	offset	433 -132
+	frame	data/chars/Sora/369.gif
+	offset	438 -127
+	frame	data/chars/Sora/370.gif
+	offset	443 -135
+	frame	data/chars/Sora/371.gif
+	offset	448 -155
+	frame	data/chars/Sora/372.gif
+	offset	453 -148
+	frame	data/chars/Sora/373.gif
+	offset	458 -148
+	frame	data/chars/Sora/374.gif
+	offset	339 -150
+	frame	data/chars/Sora/375.gif
+	offset	344 -164
+	frame	data/chars/Sora/376.gif
+	offset	345 -169
+	frame	data/chars/Sora/377.gif
+	offset	351 -187
+	frame	data/chars/Sora/378.gif
+	offset	351 -184
+	frame	data/chars/Sora/379.gif
+	offset	365 -182
+	frame	data/chars/Sora/380.gif
+	offset	359 -200
+	frame	data/chars/Sora/381.gif
+	offset	365 -197
+	frame	data/chars/Sora/382.gif
+		
+anim	9000
+	delay	7
+	offset	0 0
+	frame	data/chars/Sora/0.gif
+	offset	0 0
+	frame	data/chars/Sora/1.gif
+	offset	320 100
+	frame	data/chars/Sora/2.gif
+		
+anim	attack1
+	delay	7
+	offset	16 43
+	frame	data/chars/Sora/77.gif
+	offset	19 42
+	frame	data/chars/Sora/78.gif
+	offset	20 35
+	frame	data/chars/Sora/79.gif
+	offset	28 35
+	frame	data/chars/Sora/80.gif
+	offset	29 34
+	frame	data/chars/Sora/81.gif
+	offset	16 51
+	frame	data/chars/Sora/82.gif
+	offset	15 63
+	frame	data/chars/Sora/83.gif
+	offset	17 31
+	frame	data/chars/Sora/84.gif
+	offset	17 29
+	frame	data/chars/Sora/85.gif
+		
+anim	attack2
+	delay	7
+	offset	8 44
+	frame	data/chars/Sora/86.gif
+	offset	19 37
+	frame	data/chars/Sora/87.gif
+	offset	17 39
+	frame	data/chars/Sora/88.gif
+	offset	22 34
+	frame	data/chars/Sora/89.gif
+		
+anim	attack200
+	delay	7
+	offset	14 47
+	frame	data/chars/Sora/46.gif
+	offset	14 47
+	frame	data/chars/Sora/47.gif
+	offset	14 49
+	frame	data/chars/Sora/48.gif
+	offset	15 47
+	frame	data/chars/Sora/49.gif
+	offset	17 39
+	frame	data/chars/Sora/50.gif
+	offset	16 47
+	frame	data/chars/Sora/51.gif
+	offset	15 48
+	frame	data/chars/Sora/52.gif
+	offset	15 46
+	frame	data/chars/Sora/53.gif
+	offset	15 42
+	frame	data/chars/Sora/54.gif
+	offset	15 42
+	frame	data/chars/Sora/55.gif
+	offset	20 46
+	frame	data/chars/Sora/56.gif
+	offset	21 54
+	frame	data/chars/Sora/57.gif
+	offset	21 47
+	frame	data/chars/Sora/58.gif
+	offset	21 47
+	frame	data/chars/Sora/59.gif
+	offset	21 47
+	frame	data/chars/Sora/60.gif
+	offset	21 49
+	frame	data/chars/Sora/61.gif
+	offset	16 64
+	frame	data/chars/Sora/62.gif
+	offset	15 75
+	frame	data/chars/Sora/63.gif
+	offset	15 57
+	frame	data/chars/Sora/64.gif
+	offset	15 51
+	frame	data/chars/Sora/65.gif
+	offset	15 43
+	frame	data/chars/Sora/66.gif
+	offset	20 53
+	frame	data/chars/Sora/67.gif
+	offset	13 68
+	frame	data/chars/Sora/68.gif
+	offset	19 57
+	frame	data/chars/Sora/69.gif
+	offset	21 53
+	frame	data/chars/Sora/70.gif
+	offset	31 47
+	frame	data/chars/Sora/71.gif
+	offset	21 45
+	frame	data/chars/Sora/72.gif
+	offset	11 44
+	frame	data/chars/Sora/73.gif
+	offset	25 60
+	frame	data/chars/Sora/74.gif
+	offset	11 63
+	frame	data/chars/Sora/75.gif
+	offset	11 48
+	frame	data/chars/Sora/76.gif
+	offset	16 43
+	frame	data/chars/Sora/77.gif
+	offset	19 42
+	frame	data/chars/Sora/78.gif
+	offset	20 35
+	frame	data/chars/Sora/79.gif
+	offset	28 35
+	frame	data/chars/Sora/80.gif
+	offset	29 34
+	frame	data/chars/Sora/81.gif
+	offset	16 51
+	frame	data/chars/Sora/82.gif
+	offset	15 63
+	frame	data/chars/Sora/83.gif
+	offset	17 31
+	frame	data/chars/Sora/84.gif
+	offset	17 29
+	frame	data/chars/Sora/85.gif
+	offset	13 44
+	frame	data/chars/Sora/86.gif
+	offset	19 37
+	frame	data/chars/Sora/87.gif
+	offset	17 39
+	frame	data/chars/Sora/88.gif
+	offset	22 34
+	frame	data/chars/Sora/89.gif
+	offset	16 42
+	frame	data/chars/Sora/90.gif
+	offset	19 31
+	frame	data/chars/Sora/91.gif
+	offset	17 32
+	frame	data/chars/Sora/92.gif
+	offset	38 37
+	frame	data/chars/Sora/93.gif
+	offset	18 37
+	frame	data/chars/Sora/94.gif
+	offset	18 33
+	frame	data/chars/Sora/95.gif
+	offset	25 29
+	frame	data/chars/Sora/96.gif
+	offset	33 28
+	frame	data/chars/Sora/97.gif
+	offset	11 42
+	frame	data/chars/Sora/98.gif
+	offset	28 46
+	frame	data/chars/Sora/99.gif
+	offset	13 53
+	frame	data/chars/Sora/100.gif
+	offset	15 46
+	frame	data/chars/Sora/101.gif
+	offset	15 44
+	frame	data/chars/Sora/102.gif
+	offset	20 77
+	frame	data/chars/Sora/103.gif
+	offset	20 77
+	frame	data/chars/Sora/104.gif
+	offset	19 46
+	frame	data/chars/Sora/105.gif
+	offset	30 43
+	frame	data/chars/Sora/106.gif
+	offset	32 50
+	frame	data/chars/Sora/107.gif
+	offset	38 50
+	frame	data/chars/Sora/108.gif
+	offset	30 54
+	frame	data/chars/Sora/109.gif
+	offset	23 39
+	frame	data/chars/Sora/110.gif
+	offset	33 39
+	frame	data/chars/Sora/111.gif
+	offset	20 38
+	frame	data/chars/Sora/112.gif
+	offset	29 40
+	frame	data/chars/Sora/113.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	17 38
+	frame	data/chars/Sora/114.gif
+	offset	11 55
+	frame	data/chars/Sora/115.gif
+	offset	14 44
+	frame	data/chars/Sora/116.gif
+	offset	21 60
+	frame	data/chars/Sora/117.gif
+	offset	50 42
+	frame	data/chars/Sora/118.gif
+	offset	29 39
+	frame	data/chars/Sora/119.gif
+	offset	19 33
+	frame	data/chars/Sora/120.gif
+	offset	19 35
+	frame	data/chars/Sora/121.gif
+	offset	19 44
+	frame	data/chars/Sora/122.gif
+	offset	22 51
+	frame	data/chars/Sora/123.gif
+	offset	36 55
+	frame	data/chars/Sora/124.gif
+	offset	12 49
+	frame	data/chars/Sora/125.gif
+	offset	29 43
+	frame	data/chars/Sora/126.gif
+	offset	40 42
+	frame	data/chars/Sora/127.gif
+	offset	25 56
+	frame	data/chars/Sora/128.gif
+	offset	22 48
+	frame	data/chars/Sora/129.gif
+	offset	28 52
+	frame	data/chars/Sora/130.gif
+	offset	32 42
+	frame	data/chars/Sora/131.gif
+	offset	11 46
+	frame	data/chars/Sora/132.gif
+	offset	19 73
+	frame	data/chars/Sora/133.gif
+	offset	20 62
+	frame	data/chars/Sora/134.gif
+	offset	25 48
+	frame	data/chars/Sora/135.gif
+	offset	19 57
+	frame	data/chars/Sora/136.gif
+	offset	20 40
+	frame	data/chars/Sora/137.gif
+	offset	15 83
+	frame	data/chars/Sora/138.gif
+	offset	13 81
+	frame	data/chars/Sora/139.gif
+	offset	33 66
+	frame	data/chars/Sora/140.gif
+	offset	21 70
+	frame	data/chars/Sora/141.gif
+	offset	9 65
+	frame	data/chars/Sora/142.gif
+	offset	11 55
+	frame	data/chars/Sora/143.gif
+	offset	29 53
+	frame	data/chars/Sora/144.gif
+	offset	40 76
+	frame	data/chars/Sora/145.gif
+	offset	37 55
+	frame	data/chars/Sora/146.gif
+	offset	27 44
+	frame	data/chars/Sora/147.gif
+	offset	16 51
+	frame	data/chars/Sora/148.gif
+	offset	23 50
+	frame	data/chars/Sora/149.gif
+	offset	13 68
+	frame	data/chars/Sora/150.gif
+	offset	11 44
+	frame	data/chars/Sora/151.gif
+	offset	10 38
+	frame	data/chars/Sora/152.gif
+	offset	11 41
+	frame	data/chars/Sora/153.gif
+	offset	43 51
+	frame	data/chars/Sora/154.gif
+	offset	21 75
+	frame	data/chars/Sora/155.gif
+	offset	23 46
+	frame	data/chars/Sora/156.gif
+	offset	13 29
+	frame	data/chars/Sora/157.gif
+	offset	21 34
+	frame	data/chars/Sora/158.gif
+	offset	25 37
+	frame	data/chars/Sora/159.gif
+	offset	37 47
+	frame	data/chars/Sora/160.gif
+	offset	16 41
+	frame	data/chars/Sora/161.gif
+	offset	29 36
+	frame	data/chars/Sora/162.gif
+	offset	44 34
+	frame	data/chars/Sora/163.gif
+	offset	37 57
+	frame	data/chars/Sora/164.gif
+	offset	53 46
+	frame	data/chars/Sora/165.gif
+	offset	18 52
+	frame	data/chars/Sora/166.gif
+	offset	18 38
+	frame	data/chars/Sora/167.gif
+	offset	16 33
+	frame	data/chars/Sora/168.gif
+	offset	15 34
+	frame	data/chars/Sora/169.gif
+	offset	17 41
+	frame	data/chars/Sora/170.gif
+	offset	18 38
+	frame	data/chars/Sora/171.gif
+	offset	19 54
+	frame	data/chars/Sora/172.gif
+	offset	22 35
+	frame	data/chars/Sora/173.gif
+	offset	35 32
+	frame	data/chars/Sora/174.gif
+	offset	57 31
+	frame	data/chars/Sora/175.gif
+	offset	44 40
+	frame	data/chars/Sora/176.gif
+	offset	24 41
+	frame	data/chars/Sora/177.gif
+	offset	11 41
+	frame	data/chars/Sora/178.gif
+	offset	9 48
+	frame	data/chars/Sora/179.gif
+	offset	32 56
+	frame	data/chars/Sora/180.gif
+	offset	20 43
+	frame	data/chars/Sora/181.gif
+	offset	21 40
+	frame	data/chars/Sora/182.gif
+	offset	17 38
+	frame	data/chars/Sora/183.gif
+	offset	21 42
+	frame	data/chars/Sora/184.gif
+	offset	31 46
+	frame	data/chars/Sora/185.gif
+	offset	25 48
+	frame	data/chars/Sora/186.gif
+	offset	33 60
+	frame	data/chars/Sora/187.gif
+	offset	49 55
+	frame	data/chars/Sora/188.gif
+	offset	23 69
+	frame	data/chars/Sora/189.gif
+	offset	14 41
+	frame	data/chars/Sora/190.gif
+	offset	16 37
+	frame	data/chars/Sora/191.gif
+	offset	14 49
+	frame	data/chars/Sora/192.gif
+	offset	13 52
+	frame	data/chars/Sora/193.gif
+	offset	35 32
+	frame	data/chars/Sora/194.gif
+	offset	22 66
+	frame	data/chars/Sora/195.gif
+	offset	31 46
+	frame	data/chars/Sora/196.gif
+	offset	36 32
+	frame	data/chars/Sora/197.gif
+	offset	30 33
+	frame	data/chars/Sora/198.gif
+	offset	22 40
+	frame	data/chars/Sora/199.gif
+	offset	21 40
+	frame	data/chars/Sora/200.gif
+	offset	29 33
+	frame	data/chars/Sora/201.gif
+	offset	18 49
+	frame	data/chars/Sora/202.gif
+	offset	15 61
+	frame	data/chars/Sora/203.gif
+	offset	20 43
+	frame	data/chars/Sora/204.gif
+	offset	15 38
+	frame	data/chars/Sora/205.gif
+	offset	18 36
+	frame	data/chars/Sora/206.gif
+	offset	20 42
+	frame	data/chars/Sora/207.gif
+	offset	14 43
+	frame	data/chars/Sora/208.gif
+	offset	14 45
+	frame	data/chars/Sora/209.gif
+	offset	15 43
+	frame	data/chars/Sora/210.gif
+	offset	17 47
+	frame	data/chars/Sora/211.gif
+	offset	15 56
+	frame	data/chars/Sora/212.gif
+	offset	15 56
+	frame	data/chars/Sora/213.gif
+	offset	15 50
+	frame	data/chars/Sora/214.gif
+	offset	14 49
+	frame	data/chars/Sora/215.gif
+	offset	15 41
+	frame	data/chars/Sora/216.gif
+	offset	29 36
+	frame	data/chars/Sora/217.gif
+	offset	44 34
+	frame	data/chars/Sora/218.gif
+	offset	37 57
+	frame	data/chars/Sora/219.gif
+	offset	37 57
+	frame	data/chars/Sora/220.gif
+	offset	37 57
+	frame	data/chars/Sora/221.gif
+	offset	36 33
+	frame	data/chars/Sora/222.gif
+	offset	57 32
+	frame	data/chars/Sora/223.gif
+	offset	45 39
+	frame	data/chars/Sora/224.gif
+	offset	25 40
+	frame	data/chars/Sora/225.gif
+	offset	13 43
+	frame	data/chars/Sora/226.gif
+	offset	12 44
+	frame	data/chars/Sora/227.gif
+	offset	12 37
+	frame	data/chars/Sora/228.gif
+		
+anim	attack205
+	attack	0 0 0 0 0 0 0 0 0 0
+	delay	7
+	offset	14 12
+	frame	data/chars/Sora/229.gif
+	offset	10 12
+	frame	data/chars/Sora/230.gif
+	offset	18 7
+	frame	data/chars/Sora/231.gif
+	offset	16 7
+	frame	data/chars/Sora/232.gif
+	offset	16 13
+	frame	data/chars/Sora/233.gif
+	offset	16 13
+	frame	data/chars/Sora/234.gif
+	offset	13 13
+	frame	data/chars/Sora/235.gif
+	offset	13 13
+	frame	data/chars/Sora/236.gif
+	offset	20 9
+	frame	data/chars/Sora/237.gif
+	offset	20 9
+	frame	data/chars/Sora/238.gif
+	offset	16 13
+	frame	data/chars/Sora/239.gif
+	offset	16 11
+	frame	data/chars/Sora/240.gif
+		
+anim	attack210
+	delay	7
+	offset	111 195
+	frame	data/chars/Sora/688.gif
+	offset	111 195
+	frame	data/chars/Sora/689.gif
+	offset	111 195
+	frame	data/chars/Sora/690.gif
+	offset	111 195
+	frame	data/chars/Sora/691.gif
+	offset	111 195
+	frame	data/chars/Sora/692.gif
+	offset	111 195
+	frame	data/chars/Sora/693.gif
+	offset	111 195
+	frame	data/chars/Sora/694.gif
+	offset	111 195
+	frame	data/chars/Sora/695.gif
+	offset	111 195
+	frame	data/chars/Sora/696.gif
+	offset	111 195
+	frame	data/chars/Sora/697.gif
+	offset	111 195
+	frame	data/chars/Sora/698.gif
+	offset	111 195
+	frame	data/chars/Sora/699.gif
+	offset	111 195
+	frame	data/chars/Sora/700.gif
+	offset	111 195
+	frame	data/chars/Sora/701.gif
+	offset	111 195
+	frame	data/chars/Sora/702.gif
+	offset	111 195
+	frame	data/chars/Sora/703.gif
+	offset	111 195
+	frame	data/chars/Sora/704.gif
+	offset	111 195
+	frame	data/chars/Sora/705.gif
+	offset	111 195
+	frame	data/chars/Sora/706.gif
+	offset	111 195
+	frame	data/chars/Sora/707.gif
+	offset	111 195
+	frame	data/chars/Sora/708.gif
+	offset	111 195
+	frame	data/chars/Sora/709.gif
+	offset	111 195
+	frame	data/chars/Sora/710.gif
+	offset	111 195
+	frame	data/chars/Sora/711.gif
+	offset	111 195
+	frame	data/chars/Sora/712.gif
+	offset	111 195
+	frame	data/chars/Sora/713.gif
+	offset	111 195
+	frame	data/chars/Sora/714.gif
+	offset	111 195
+	frame	data/chars/Sora/715.gif
+	offset	111 195
+	frame	data/chars/Sora/716.gif
+	offset	111 195
+	frame	data/chars/Sora/717.gif
+	offset	111 195
+	frame	data/chars/Sora/718.gif
+	offset	111 195
+	frame	data/chars/Sora/719.gif
+		
+anim	attack3
+	delay	9
+	offset	16 42
+	frame	data/chars/Sora/90.gif
+	offset	19 31
+	frame	data/chars/Sora/91.gif
+	offset	17 32
+	frame	data/chars/Sora/92.gif
+	offset	38 37
+	frame	data/chars/Sora/93.gif
+	offset	18 37
+	frame	data/chars/Sora/94.gif
+	offset	18 33
+	frame	data/chars/Sora/95.gif
+	offset	25 29
+	frame	data/chars/Sora/96.gif
+	offset	33 28
+	frame	data/chars/Sora/97.gif
+		
+anim	attack450
+	delay	7
+	offset	58 30
+	frame	data/chars/Sora/607.gif
+	offset	59 25
+	frame	data/chars/Sora/608.gif
+	offset	49 29
+	frame	data/chars/Sora/609.gif
+	offset	49 31
+	frame	data/chars/Sora/610.gif
+	offset	60 30
+	frame	data/chars/Sora/611.gif
+	offset	57 30
+	frame	data/chars/Sora/612.gif
+	offset	62 28
+	frame	data/chars/Sora/613.gif
+	offset	37 28
+	frame	data/chars/Sora/614.gif
+	offset	49 31
+	frame	data/chars/Sora/615.gif
+	offset	58 29
+	frame	data/chars/Sora/616.gif
+		
+anim	fall
+	delay	7
+	offset	21 37
+	frame	data/chars/Sora/29.gif
+	offset	16 43
+	frame	data/chars/Sora/30.gif
+	offset	30 35
+	frame	data/chars/Sora/31.gif
+	offset	23 34
+	frame	data/chars/Sora/32.gif
+	offset	18 45
+	frame	data/chars/Sora/33.gif
+	offset	17 39
+	frame	data/chars/Sora/34.gif
+	offset	25 30
+	frame	data/chars/Sora/35.gif
+	offset	29 17
+	frame	data/chars/Sora/36.gif
+		
+anim	freespecial1
+	delay	7
+	offset	16 41
+	frame	data/chars/Sora/161.gif
+	offset	29 36
+	frame	data/chars/Sora/162.gif
+	offset	44 34
+	frame	data/chars/Sora/163.gif
+	offset	37 57
+	frame	data/chars/Sora/164.gif
+	offset	53 46
+	frame	data/chars/Sora/165.gif
+	offset	18 52
+	frame	data/chars/Sora/166.gif
+	offset	18 38
+	frame	data/chars/Sora/167.gif
+	offset	16 33
+	frame	data/chars/Sora/168.gif
+	offset	15 34
+	frame	data/chars/Sora/169.gif
+	offset	17 41
+	frame	data/chars/Sora/170.gif
+	offset	18 38
+	frame	data/chars/Sora/171.gif
+	offset	19 54
+	frame	data/chars/Sora/172.gif
+	offset	22 35
+	frame	data/chars/Sora/173.gif
+	offset	35 32
+	frame	data/chars/Sora/174.gif
+	offset	57 31
+	frame	data/chars/Sora/175.gif
+	offset	44 40
+	frame	data/chars/Sora/176.gif
+		
+anim	freespecial1009
+	delay	7
+	offset	22 22
+	frame	data/chars/Sora/584.gif
+	offset	22 23
+	frame	data/chars/Sora/585.gif
+	offset	23 25
+	frame	data/chars/Sora/586.gif
+		
+anim	freespecial1051
+	delay	7
+	offset	145 61
+	frame	data/chars/Sora/786.gif
+	offset	136 62
+	frame	data/chars/Sora/787.gif
+	offset	145 58
+	frame	data/chars/Sora/788.gif
+	offset	149 55
+	frame	data/chars/Sora/789.gif
+	offset	149 52
+	frame	data/chars/Sora/790.gif
+	offset	150 57
+	frame	data/chars/Sora/791.gif
+		
+anim	freespecial1054
+	delay	7
+	offset	109 300
+	frame	data/chars/Sora/657.gif
+	offset	109 300
+	frame	data/chars/Sora/658.gif
+	offset	113 300
+	frame	data/chars/Sora/659.gif
+	offset	113 300
+	frame	data/chars/Sora/660.gif
+	offset	114 300
+	frame	data/chars/Sora/661.gif
+	offset	113 300
+	frame	data/chars/Sora/662.gif
+	offset	112 300
+	frame	data/chars/Sora/663.gif
+	offset	109 296
+	frame	data/chars/Sora/664.gif
+	offset	109 280
+	frame	data/chars/Sora/665.gif
+	offset	109 280
+	frame	data/chars/Sora/666.gif
+	offset	109 273
+	frame	data/chars/Sora/667.gif
+	offset	109 267
+	frame	data/chars/Sora/668.gif
+		
+anim	freespecial1065
+	delay	7
+	offset	104 83
+	frame	data/chars/Sora/640.gif
+	offset	111 95
+	frame	data/chars/Sora/641.gif
+	offset	173 147
+	frame	data/chars/Sora/642.gif
+	offset	168 144
+	frame	data/chars/Sora/643.gif
+	offset	154 155
+	frame	data/chars/Sora/644.gif
+	offset	144 150
+	frame	data/chars/Sora/645.gif
+	offset	141 152
+	frame	data/chars/Sora/646.gif
+	offset	147 161
+	frame	data/chars/Sora/647.gif
+	offset	165 143
+	frame	data/chars/Sora/648.gif
+	offset	142 146
+	frame	data/chars/Sora/649.gif
+	offset	142 141
+	frame	data/chars/Sora/650.gif
+	offset	120 107
+	frame	data/chars/Sora/651.gif
+	offset	65 89
+	frame	data/chars/Sora/652.gif
+		
+anim	freespecial1070
+	delay	7
+	offset	54 104
+	frame	data/chars/Sora/653.gif
+	offset	119 150
+	frame	data/chars/Sora/654.gif
+	offset	175 210
+	frame	data/chars/Sora/655.gif
+	offset	157 272
+	frame	data/chars/Sora/656.gif
+		
+anim	freespecial1093
+	delay	7
+	offset	122 25
+	frame	data/chars/Sora/744.gif
+	offset	152 35
+	frame	data/chars/Sora/745.gif
+	offset	175 75
+	frame	data/chars/Sora/746.gif
+	offset	208 104
+	frame	data/chars/Sora/747.gif
+	offset	207 100
+	frame	data/chars/Sora/748.gif
+	offset	210 112
+	frame	data/chars/Sora/749.gif
+	offset	214 113
+	frame	data/chars/Sora/750.gif
+	offset	217 115
+	frame	data/chars/Sora/751.gif
+	offset	217 114
+	frame	data/chars/Sora/752.gif
+	offset	217 114
+	frame	data/chars/Sora/753.gif
+		
+anim	freespecial2
+	delay	10
+	offset	30 43
+	frame	data/chars/Sora/106.gif
+	offset	32 50
+	frame	data/chars/Sora/107.gif
+	offset	38 50
+	frame	data/chars/Sora/108.gif
+	offset	30 54
+	frame	data/chars/Sora/109.gif
+	offset	23 39
+	frame	data/chars/Sora/110.gif
+	offset	33 39
+	frame	data/chars/Sora/111.gif
+	offset	20 38
+	frame	data/chars/Sora/112.gif
+	offset	29 40
+	frame	data/chars/Sora/113.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	17 38
+	frame	data/chars/Sora/114.gif
+		
+anim	freespecial3
+	delay	14
+	offset	28 46
+	frame	data/chars/Sora/99.gif
+	offset	13 53
+	frame	data/chars/Sora/100.gif
+	offset	15 46
+	frame	data/chars/Sora/101.gif
+	offset	15 44
+	frame	data/chars/Sora/102.gif
+	offset	20 77
+	frame	data/chars/Sora/103.gif
+	offset	20 77
+	frame	data/chars/Sora/104.gif
+		
+anim	freespecial3051
+	delay	7
+	offset	86 90
+	frame	data/chars/Sora/510.gif
+	offset	86 90
+	frame	data/chars/Sora/511.gif
+	offset	88 96
+	frame	data/chars/Sora/512.gif
+	offset	92 100
+	frame	data/chars/Sora/513.gif
+	offset	100 101
+	frame	data/chars/Sora/514.gif
+	offset	100 104
+	frame	data/chars/Sora/515.gif
+	offset	104 118
+	frame	data/chars/Sora/516.gif
+	offset	114 121
+	frame	data/chars/Sora/517.gif
+	offset	126 122
+	frame	data/chars/Sora/518.gif
+	offset	138 113
+	frame	data/chars/Sora/519.gif
+	offset	137 122
+	frame	data/chars/Sora/520.gif
+	offset	125 147
+	frame	data/chars/Sora/521.gif
+	offset	130 217
+	frame	data/chars/Sora/522.gif
+	offset	154 230
+	frame	data/chars/Sora/523.gif
+	offset	170 254
+	frame	data/chars/Sora/524.gif
+	offset	182 268
+	frame	data/chars/Sora/525.gif
+	offset	188 270
+	frame	data/chars/Sora/526.gif
+	offset	193 254
+	frame	data/chars/Sora/527.gif
+	offset	162 265
+	frame	data/chars/Sora/528.gif
+	offset	176 273
+	frame	data/chars/Sora/529.gif
+	offset	186 260
+	frame	data/chars/Sora/530.gif
+	offset	190 266
+	frame	data/chars/Sora/531.gif
+	offset	198 270
+	frame	data/chars/Sora/532.gif
+	offset	202 274
+	frame	data/chars/Sora/533.gif
+	offset	208 254
+	frame	data/chars/Sora/534.gif
+	offset	212 264
+	frame	data/chars/Sora/535.gif
+	offset	214 272
+	frame	data/chars/Sora/536.gif
+	offset	215 274
+	frame	data/chars/Sora/537.gif
+	offset	224 259
+	frame	data/chars/Sora/538.gif
+	offset	224 263
+	frame	data/chars/Sora/539.gif
+	offset	224 255
+	frame	data/chars/Sora/540.gif
+	offset	224 261
+	frame	data/chars/Sora/541.gif
+	offset	227 267
+	frame	data/chars/Sora/542.gif
+	offset	230 271
+	frame	data/chars/Sora/543.gif
+	offset	231 264
+	frame	data/chars/Sora/544.gif
+	offset	232 270
+	frame	data/chars/Sora/545.gif
+	offset	232 274
+	frame	data/chars/Sora/546.gif
+	offset	233 264
+	frame	data/chars/Sora/547.gif
+	offset	233 270
+	frame	data/chars/Sora/548.gif
+	offset	233 276
+	frame	data/chars/Sora/549.gif
+	offset	232 281
+	frame	data/chars/Sora/550.gif
+	offset	226 269
+	frame	data/chars/Sora/551.gif
+	offset	226 267
+	frame	data/chars/Sora/552.gif
+	offset	228 268
+	frame	data/chars/Sora/553.gif
+	offset	228 266
+	frame	data/chars/Sora/554.gif
+	offset	228 266
+	frame	data/chars/Sora/555.gif
+	offset	221 268
+	frame	data/chars/Sora/556.gif
+	offset	198 263
+	frame	data/chars/Sora/557.gif
+	offset	199 265
+	frame	data/chars/Sora/558.gif
+	offset	199 265
+	frame	data/chars/Sora/559.gif
+	offset	199 265
+	frame	data/chars/Sora/560.gif
+	offset	196 264
+	frame	data/chars/Sora/561.gif
+	offset	185 262
+	frame	data/chars/Sora/562.gif
+	offset	166 260
+	frame	data/chars/Sora/563.gif
+		
+anim	freespecial4
+	delay	14
+	offset	28 46
+	frame	data/chars/Sora/99.gif
+	offset	13 53
+	frame	data/chars/Sora/100.gif
+	offset	15 46
+	frame	data/chars/Sora/101.gif
+	offset	15 44
+	frame	data/chars/Sora/102.gif
+	offset	20 77
+	frame	data/chars/Sora/103.gif
+	offset	20 77
+	frame	data/chars/Sora/104.gif
+		
+anim	idle
+	delay	7
+	offset	30 41
+	frame	data/chars/Sora/3.gif
+	offset	29 41
+	frame	data/chars/Sora/4.gif
+	offset	30 41
+	frame	data/chars/Sora/5.gif
+	offset	30 41
+	frame	data/chars/Sora/6.gif
+		
+anim	pain5000
+	delay	7
+	offset	15 36
+	frame	data/chars/Sora/27.gif
+	offset	26 41
+	frame	data/chars/Sora/28.gif
+	offset	21 37
+	frame	data/chars/Sora/29.gif
+	offset	16 43
+	frame	data/chars/Sora/30.gif
+	offset	30 35
+	frame	data/chars/Sora/31.gif
+	offset	25 34
+	frame	data/chars/Sora/32.gif
+	offset	18 45
+	frame	data/chars/Sora/33.gif
+	offset	17 39
+	frame	data/chars/Sora/34.gif
+	offset	25 30
+	frame	data/chars/Sora/35.gif
+	offset	29 17
+	frame	data/chars/Sora/36.gif
+	offset	18 41
+	frame	data/chars/Sora/37.gif
+	offset	15 44
+	frame	data/chars/Sora/38.gif
+	offset	23 32
+	frame	data/chars/Sora/39.gif
+	offset	20 39
+	frame	data/chars/Sora/40.gif
+	offset	43 13
+	frame	data/chars/Sora/41.gif
+	offset	23 41
+	frame	data/chars/Sora/42.gif
+	offset	14 48
+	frame	data/chars/Sora/43.gif
+	offset	-2 24
+	frame	data/chars/Sora/44.gif
+	offset	26 41
+	frame	data/chars/Sora/45.gif
+		
+anim	rise
+	delay	14
+	offset	18 41
+	frame	data/chars/Sora/37.gif
+	offset	15 44
+	frame	data/chars/Sora/38.gif
+	offset	23 32
+	frame	data/chars/Sora/39.gif
+	offset	13 43
+	frame	data/chars/Sora/226.gif
+	offset	12 44
+	frame	data/chars/Sora/227.gif
+	offset	12 37
+	frame	data/chars/Sora/228.gif
+		
+anim	run
+	delay	8
+	offset	17 40
+	frame	data/chars/Sora/15.gif
+	offset	25 41
+	frame	data/chars/Sora/16.gif
+	offset	21 43
+	frame	data/chars/Sora/17.gif
+	offset	14 41
+	frame	data/chars/Sora/18.gif
+	offset	22 41
+	frame	data/chars/Sora/19.gif
+	offset	25 40
+	frame	data/chars/Sora/20.gif
+	offset	22 41
+	frame	data/chars/Sora/21.gif
+		
+anim	turn
+	delay	7
+	offset	18 40
+	frame	data/chars/Sora/11.gif
+		
+anim	walk
+	delay	10
+	offset	17 40
+	frame	data/chars/Sora/15.gif
+	offset	25 41
+	frame	data/chars/Sora/16.gif
+	offset	21 43
+	frame	data/chars/Sora/17.gif
+	offset	14 41
+	frame	data/chars/Sora/18.gif
+	offset	22 41
+	frame	data/chars/Sora/19.gif
+	offset	25 40
+	frame	data/chars/Sora/20.gif
+	offset	22 41
+	frame	data/chars/Sora/21.gif
+		
+#|edited by openBor Stats v 0.67
+		

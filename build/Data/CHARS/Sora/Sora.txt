@@ -1,0 +1,483 @@
+name Sora
+health	100
+type	player
+shadow 3
+speed 15
+running	26	4	2	1    1
+
+icon data/chars/Sora/0.gif
+
+animationscript data/scripts/spawns.c
+script data/scripts/playerscript.c
+
+com  a3  freespecial
+com u a3 freespecial2
+com d a3 freespecial5
+com a2 freespecial11
+com s freespecial3
+com u s freespecial6
+com d s freespecial4
+
+parrow data/chars/misc/picon/1picon.gif -18 -100
+parrow2 data/chars/misc/picon/2picon.gif -18 -100
+parrow3 data/chars/misc/picon/3picon.gif -18 -100
+parrow4 data/chars/misc/picon/4picon.gif -18 -100
+makeinv 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	attack1
+	delay	2
+	offset	29 34
+	frame	data/chars/Sora/81.gif
+	offset	16 51
+	frame	data/chars/Sora/82.gif
+	offset	15 63
+	frame	data/chars/Sora/83.gif
+	attack	33 1 33 25 10 0 1 0 0 0
+	offset	17 31
+	frame	data/chars/Sora/84.gif
+	offset	17 29
+	frame	data/chars/Sora/85.gif
+		
+anim	attack2
+	delay	4
+	offset	8 44
+	frame	data/chars/Sora/86.gif
+	offset	19 37
+	frame	data/chars/Sora/87.gif
+	offset	17 39
+	frame	data/chars/Sora/88.gif
+	attack	40 1 36 23 8 0 1 0 0 0
+	offset	22 34
+	frame	data/chars/Sora/89.gif
+		
+anim	attack3
+	delay	9
+	offset	16 42
+	frame	data/chars/Sora/90.gif
+	offset	19 31
+	frame	data/chars/Sora/91.gif
+	offset	17 32
+	frame	data/chars/Sora/92.gif
+	offset	38 37
+	frame	data/chars/Sora/93.gif
+	attack	29 1 43 32 12 1 1 0 0 0
+	dropv	2 4 0
+	offset	18 37
+	frame	data/chars/Sora/94.gif
+	offset	18 33
+	frame	data/chars/Sora/95.gif
+	offset	25 29
+	frame	data/chars/Sora/96.gif
+	offset	33 28
+	frame	data/chars/Sora/97.gif
+		
+anim	chargeattack
+	delay	9
+	offset	16 42
+	frame	data/chars/Sora/90.gif
+	offset	19 31
+	frame	data/chars/Sora/91.gif
+	offset	17 32
+	frame	data/chars/Sora/92.gif
+	offset	38 37
+	frame	data/chars/Sora/93.gif
+	attack	37 3 35 29 20 1 1 0 0 0
+	dropv	2 5 0
+	offset	18 37
+	frame	data/chars/Sora/94.gif
+	offset	18 33
+	frame	data/chars/Sora/95.gif
+	offset	25 29
+	frame	data/chars/Sora/96.gif
+	offset	33 28
+	frame	data/chars/Sora/97.gif
+		
+anim	dodge
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	7
+	offset	17 40
+	frame	data/chars/Sora/15.gif
+	delay	2
+	@cmd	dasher 3 0 0
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	@cmd	stop
+	@cmd	dasher 7 0 0
+	delay	7
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	@cmd	stop
+	fshadow	3
+	delay	7
+	offset	22 41
+	frame	data/chars/Sora/21.gif
+		
+anim	fall
+	delay	7
+	offset	21 37
+	frame	data/chars/Sora/29.gif
+	offset	16 43
+	frame	data/chars/Sora/30.gif
+	offset	30 35
+	frame	data/chars/Sora/31.gif
+	offset	23 34
+	frame	data/chars/Sora/32.gif
+	offset	25 30
+	frame	data/chars/Sora/35.gif
+	offset	29 17
+	frame	data/chars/Sora/36.gif
+		
+anim	freespecial
+	attack	12 0 22 75 20 1 1 0 0 0
+	delay	40
+	@cmd	leaper 0.5 3 0
+	offset	19 73
+	frame	data/chars/Sora/133.gif
+	delay	3
+	offset	20 62
+	frame	data/chars/Sora/134.gif
+	offset	13 68
+	frame	data/chars/Sora/150.gif
+		
+anim	freespecial11
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	7
+	offset	17 40
+	frame	data/chars/Sora/15.gif
+	delay	2
+	@cmd	dasher 3 0 0
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	@cmd	stop
+	@cmd	dasher 7 0 0
+	delay	7
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	@cmd	stop
+	fshadow	3
+	delay	7
+	offset	22 41
+	frame	data/chars/Sora/21.gif
+		
+anim	freespecial2
+	delay	14
+	offset	28 46
+	frame	data/chars/Sora/99.gif
+	offset	13 53
+	frame	data/chars/Sora/100.gif
+	offset	15 46
+	frame	data/chars/Sora/101.gif
+	offset	15 44
+	frame	data/chars/Sora/102.gif
+	offset	20 77
+	frame	data/chars/Sora/103.gif
+	offset	20 77
+	frame	data/chars/Sora/104.gif
+		
+anim	freespecial3
+	delay	7
+	offset	20 43
+	frame	data/chars/Sora/204.gif
+	offset	15 38
+	frame	data/chars/Sora/205.gif
+	delay	20
+	offset	18 36
+	frame	data/chars/Sora/206.gif
+	@cmd	spawnbind "soraFireballBlast" 75 23 0
+	@cmd	shoot "soraFireball" 50 23 0
+	offset	18 36
+	frame	data/chars/Sora/206.gif
+	offset	18 36
+	frame	data/chars/Sora/206.gif
+	offset	18 36
+	frame	data/chars/Sora/206.gif
+	delay	7
+	offset	20 42
+	frame	data/chars/Sora/207.gif
+	offset	14 43
+	frame	data/chars/Sora/208.gif
+		
+anim	freespecial4
+	delay	14
+	offset	45 39
+	frame	data/chars/Sora/224.gif
+	offset	25 40
+	frame	data/chars/Sora/225.gif
+	offset	13 43
+	frame	data/chars/Sora/226.gif
+	offset	12 44
+	frame	data/chars/Sora/227.gif
+	@cmd	spawn01 "soraWind" 0 0 0
+	@cmd	spawn01 "soraWind" 0 0 -50
+	@cmd	spawnbind "soraWind" 0 50 0
+	@cmd	spawnbind "soraWind" 0 50 -50
+	offset	12 37
+	frame	data/chars/Sora/228.gif
+	@cmd	spawn01 "soraWind" 140 0 -50
+	@cmd	spawnbind "soraWind" 140 50 -50
+	offset	12 37
+	frame	data/chars/Sora/228.gif
+	@cmd	spawn01 "soraWind" -140 0 -50
+	@cmd	spawnbind "soraWind" -140 50 -50
+	offset	12 37
+	frame	data/chars/Sora/228.gif
+	@cmd	spawn01 "soraWind" 140 0 50
+	@cmd	spawnbind "soraWind" 140 50 50
+	offset	12 37
+	frame	data/chars/Sora/228.gif
+	@cmd	spawn01 "soraWind" -140 0 50
+	@cmd	spawnbind "soraWind" -140 50 50
+	offset	12 37
+	frame	data/chars/Sora/228.gif
+	delay	150
+	offset	12 37
+	frame	data/chars/Sora/228.gif
+		
+anim	freespecial5
+	delay	7
+	offset	50 42
+	frame	data/chars/Sora/118.gif
+	offset	29 39
+	frame	data/chars/Sora/119.gif
+	offset	19 33
+	frame	data/chars/Sora/120.gif
+	offset	19 35
+	frame	data/chars/Sora/121.gif
+	offset	19 44
+	frame	data/chars/Sora/122.gif
+		
+anim	freespecial6
+	delay	7
+	offset	14 45
+	frame	data/chars/Sora/209.gif
+	offset	15 43
+	frame	data/chars/Sora/210.gif
+	offset	17 47
+	frame	data/chars/Sora/211.gif
+	offset	15 56
+	frame	data/chars/Sora/212.gif
+	offset	15 56
+	frame	data/chars/Sora/213.gif
+	offset	15 50
+	frame	data/chars/Sora/214.gif
+	offset	14 49
+	frame	data/chars/Sora/215.gif
+		
+anim	idle
+	delay	15
+	loop	1
+	offset	30 41
+	frame	data/chars/Sora/3.gif
+	offset	29 41
+	frame	data/chars/Sora/4.gif
+	offset	30 41
+	frame	data/chars/Sora/5.gif
+	delay	25
+	offset	30 41
+	frame	data/chars/Sora/6.gif
+		
+anim	jump
+	bbox	6 2 15 52
+	delay	7
+	offset	12 49
+	frame	data/chars/Sora/23.gif
+	offset	17 45
+	frame	data/chars/Sora/24.gif
+	bbox	6 2 32 35
+	offset	21 37
+	frame	data/chars/Sora/13.gif
+		
+anim	jumpattack
+	delay	7
+	offset	16 51
+	frame	data/chars/Sora/148.gif
+	offset	23 50
+	frame	data/chars/Sora/149.gif
+	offset	13 68
+	frame	data/chars/Sora/150.gif
+	offset	11 44
+	frame	data/chars/Sora/151.gif
+	attack	14 18 28 30 12 1 1 0 0 0
+	offset	10 38
+	frame	data/chars/Sora/152.gif
+		
+anim	pain
+	delay	7
+	offset	26 41
+	frame	data/chars/Sora/28.gif
+		
+anim	rise
+	delay	14
+	offset	18 41
+	frame	data/chars/Sora/37.gif
+	offset	15 44
+	frame	data/chars/Sora/38.gif
+	offset	4 44
+	frame	data/chars/Sora/227.gif
+	offset	12 37
+	frame	data/chars/Sora/226.gif
+	offset	15 48
+	frame	data/chars/Sora/52.gif
+		
+anim	run
+	delay	8
+	loop	1
+	bbox	16 2 26 39
+	offset	21 43
+	frame	data/chars/Sora/17.gif
+	offset	25 41
+	frame	data/chars/Sora/16.gif
+	bbox	4 2 26 39
+	offset	17 40
+	frame	data/chars/Sora/15.gif
+	bbox	4 2 26 39
+	offset	14 41
+	frame	data/chars/Sora/18.gif
+	bbox	12 2 26 39
+	offset	22 41
+	frame	data/chars/Sora/21.gif
+	offset	25 40
+	frame	data/chars/Sora/20.gif
+	offset	22 41
+	frame	data/chars/Sora/19.gif
+		
+anim	runattack
+	delay	25
+	offset	50 42
+	frame	data/chars/Sora/118.gif
+	offset	29 39
+	frame	data/chars/Sora/119.gif
+	delay	7
+	offset	19 33
+	frame	data/chars/Sora/120.gif
+	attack	34 2 42 23 12 1 1 0 0 0
+	dropv	2 4 0
+	offset	19 35
+	frame	data/chars/Sora/121.gif
+		
+anim	select
+	delay	7
+	offset	14 47
+	frame	data/chars/Sora/46.gif
+	offset	14 47
+	frame	data/chars/Sora/47.gif
+	offset	14 49
+	frame	data/chars/Sora/48.gif
+	offset	15 47
+	frame	data/chars/Sora/49.gif
+	offset	17 39
+	frame	data/chars/Sora/50.gif
+	offset	16 47
+	frame	data/chars/Sora/51.gif
+	offset	15 48
+	frame	data/chars/Sora/52.gif
+	offset	15 46
+	frame	data/chars/Sora/53.gif
+	offset	15 42
+	frame	data/chars/Sora/54.gif
+	offset	15 42
+	frame	data/chars/Sora/55.gif
+	offset	20 46
+	frame	data/chars/Sora/56.gif
+	offset	21 54
+	frame	data/chars/Sora/57.gif
+	offset	21 47
+	frame	data/chars/Sora/58.gif
+	offset	21 47
+	frame	data/chars/Sora/59.gif
+	offset	21 47
+	frame	data/chars/Sora/60.gif
+	offset	21 49
+	frame	data/chars/Sora/61.gif
+	offset	16 64
+	frame	data/chars/Sora/62.gif
+	offset	15 75
+	frame	data/chars/Sora/63.gif
+	offset	15 57
+	frame	data/chars/Sora/64.gif
+	offset	15 51
+	frame	data/chars/Sora/65.gif
+		
+anim	turn
+	delay	7
+	offset	18 40
+	frame	data/chars/Sora/11.gif
+		
+anim	walk
+	delay	10
+	loop	1
+	bbox	18 2 21 39
+	offset	21 43
+	frame	data/chars/Sora/17.gif
+	offset	25 41
+	frame	data/chars/Sora/16.gif
+	bbox	8 2 21 39
+	offset	17 40
+	frame	data/chars/Sora/15.gif
+	bbox	8 2 21 39
+	offset	14 41
+	frame	data/chars/Sora/18.gif
+	bbox	13 2 21 39
+	offset	22 41
+	frame	data/chars/Sora/21.gif
+	offset	25 40
+	frame	data/chars/Sora/20.gif
+	offset	22 41
+	frame	data/chars/Sora/19.gif
+		
+#|edited by openBor Stats v 0.67
+		

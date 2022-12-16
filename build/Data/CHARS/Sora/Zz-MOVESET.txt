@@ -1,0 +1,28 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Key Throw
+
+S - Power Charge
+
+
+SPECIALS:
+
+D,DF,F,a - Fire Force
+
+D,DB,B,a - Freeze Force
+
+D,DF,F,b - Energy Blast
+
+D,DB,B,b - Fire Force II
+
+D,DF,F,c - Thunder Force
+
+D,DB,B,c - Sonic Blade
+
+
+SUPER: 
+
+x - Meteor Crash

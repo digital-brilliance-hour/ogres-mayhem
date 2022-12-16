@@ -1,0 +1,82 @@
+name  soraIce
+type none
+shadow 0
+alpha 1
+
+
+
+
+
+
+
+anim	idle
+	loop	0
+	delay	7
+	offset	111 195
+	frame	data/chars/Sora/688.gif
+	offset	111 195
+	frame	data/chars/Sora/689.gif
+	offset	111 195
+	frame	data/chars/Sora/690.gif
+	offset	111 195
+	frame	data/chars/Sora/691.gif
+	offset	111 195
+	frame	data/chars/Sora/692.gif
+	offset	111 195
+	frame	data/chars/Sora/693.gif
+	offset	111 195
+	frame	data/chars/Sora/694.gif
+	offset	111 195
+	frame	data/chars/Sora/695.gif
+	offset	111 195
+	frame	data/chars/Sora/696.gif
+	offset	111 195
+	frame	data/chars/Sora/697.gif
+	offset	111 195
+	frame	data/chars/Sora/698.gif
+	offset	111 195
+	frame	data/chars/Sora/699.gif
+	offset	111 195
+	frame	data/chars/Sora/700.gif
+	offset	111 195
+	frame	data/chars/Sora/701.gif
+	offset	111 195
+	frame	data/chars/Sora/702.gif
+	offset	111 195
+	frame	data/chars/Sora/703.gif
+	offset	111 195
+	frame	data/chars/Sora/704.gif
+	offset	111 195
+	frame	data/chars/Sora/705.gif
+	offset	111 195
+	frame	data/chars/Sora/706.gif
+	offset	111 195
+	frame	data/chars/Sora/707.gif
+	offset	111 195
+	frame	data/chars/Sora/708.gif
+	offset	111 195
+	frame	data/chars/Sora/709.gif
+	offset	111 195
+	frame	data/chars/Sora/710.gif
+	offset	111 195
+	frame	data/chars/Sora/711.gif
+	offset	111 195
+	frame	data/chars/Sora/712.gif
+	offset	111 195
+	frame	data/chars/Sora/713.gif
+	offset	111 195
+	frame	data/chars/Sora/714.gif
+	offset	111 195
+	frame	data/chars/Sora/715.gif
+	offset	111 195
+	frame	data/chars/Sora/716.gif
+	offset	111 195
+	frame	data/chars/Sora/717.gif
+	offset	111 195
+	frame	data/chars/Sora/718.gif
+	offset	111 195
+	frame	data/chars/Sora/719.gif
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

@@ -1,0 +1,41 @@
+name  soraStatic
+type none
+shadow 0
+alpha 1
+
+
+
+
+anim	idle
+	loop	0
+	delay	7
+	offset	104 83
+	frame	data/chars/Sora/640.gif
+	offset	111 95
+	frame	data/chars/Sora/641.gif
+	offset	173 147
+	frame	data/chars/Sora/642.gif
+	offset	168 144
+	frame	data/chars/Sora/643.gif
+	offset	154 155
+	frame	data/chars/Sora/644.gif
+	offset	144 150
+	frame	data/chars/Sora/645.gif
+	offset	141 152
+	frame	data/chars/Sora/646.gif
+	offset	147 161
+	frame	data/chars/Sora/647.gif
+	offset	165 143
+	frame	data/chars/Sora/648.gif
+	offset	142 146
+	frame	data/chars/Sora/649.gif
+	offset	142 141
+	frame	data/chars/Sora/650.gif
+	offset	120 107
+	frame	data/chars/Sora/651.gif
+	offset	65 89
+	frame	data/chars/Sora/652.gif
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

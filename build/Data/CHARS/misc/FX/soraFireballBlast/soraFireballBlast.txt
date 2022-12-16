@@ -1,0 +1,33 @@
+name  soraFireballBlast
+type none
+shadow 0
+alpha 1
+
+
+
+
+anim	idle
+	loop	0
+	delay	3
+	offset	48 22
+	frame	data/chars/Sora/598.gif
+	offset	57 39
+	frame	data/chars/Sora/599.gif
+	offset	61 50
+	frame	data/chars/Sora/600.gif
+	offset	62 52
+	frame	data/chars/Sora/601.gif
+	offset	62 52
+	frame	data/chars/Sora/602.gif
+	offset	62 52
+	frame	data/chars/Sora/603.gif
+	offset	62 52
+	frame	data/chars/Sora/604.gif
+	offset	62 50
+	frame	data/chars/Sora/605.gif
+	offset	37 48
+	frame	data/chars/Sora/606.gif
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		
