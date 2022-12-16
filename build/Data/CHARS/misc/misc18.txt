@@ -1,9 +1,9 @@
-name	xp_fifty
+name    statsItem
 type	item
 shadow	0
 subtype touch
 nolife 1
-didhitscript data/scripts/item.c
+didhitscript data/scripts/items/stats.c
 
 anim	idle
 	loop	0

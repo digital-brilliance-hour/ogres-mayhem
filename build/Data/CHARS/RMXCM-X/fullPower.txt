@@ -1,0 +1,36 @@
+name	fullPower
+speed   20
+type 	none
+shadow	0
+remove 0
+alpha 1
+
+# for freespecial 5
+
+
+
+
+
+anim	idle
+	loop	1
+	drawmethod	scale 0.25
+	delay	7
+	offset	139 93
+	frame	data/chars/RMXCM-X/700.gif
+	offset	138 91
+	frame	data/chars/RMXCM-X/701.gif
+	offset	122 91
+	frame	data/chars/RMXCM-X/702.gif
+	offset	127 80
+	frame	data/chars/RMXCM-X/703.gif
+	offset	138 87
+	frame	data/chars/RMXCM-X/704.gif
+	offset	138 96
+	frame	data/chars/RMXCM-X/705.gif
+	offset	125 73
+	frame	data/chars/RMXCM-X/706.gif
+	offset	142 96
+	frame	data/chars/RMXCM-X/707.gif
+		
+#|edited by openBor Stats v 0.67
+		
