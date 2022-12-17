@@ -5,8 +5,6 @@ speed 15
 running	24	4	2	1    1
 type player
 shadow 3
-icon data/chars/RMXCM-X/0.gif
-
 com  a3  freespecial
 com u a3 freespecial2
 com d a3 freespecial5
@@ -41,18 +39,36 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
-
-anim	attack1
+anim	attack3
 	delay	7
-	offset	19 44
-	frame	data/chars/RMXCM-X/187.gif
-	offset	19 41
-	frame	data/chars/RMXCM-X/188.gif
-	attack	15 4 42 40 10 0 1 0 0 0
-	offset	25 42
-	frame	data/chars/RMXCM-X/189.gif
-	offset	19 41
-	frame	data/chars/RMXCM-X/190.gif
+	throwframe	8
+	offset	15 45
+	frame	data/chars/RMXCM-X/277.gif
+	attack	16 3 21 58 15 0 1 0 0 0
+	offset	16 65
+	frame	data/chars/RMXCM-X/278.gif
+	offset	17 68
+	frame	data/chars/RMXCM-X/279.gif
+	offset	12 68
+	frame	data/chars/RMXCM-X/280.gif
+	offset	21 68
+	frame	data/chars/RMXCM-X/281.gif
+	offset	21 68
+	frame	data/chars/RMXCM-X/221.gif
+	offset	16 68
+	frame	data/chars/RMXCM-X/222.gif
+	offset	15 68
+	@cmd	shoot "regShot" 30 -21 -20
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "enabled" 1
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scalex" 128
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scaley" 128
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "fliprotate" 1
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "rotate" 30
+	frame	data/chars/RMXCM-X/223.gif
+	offset	15 60
+	frame	data/chars/RMXCM-X/224.gif
+	offset	10 50
+	frame	data/chars/RMXCM-X/225.gif
 		
 anim	attack2
 	delay	7
@@ -64,23 +80,17 @@ anim	attack2
 	offset	34 37
 	frame	data/chars/RMXCM-X/217.gif
 		
-anim	attack3
-	delay	10
-	offset	15 45
-	frame	data/chars/RMXCM-X/277.gif
-	delay	5
-	@cmd	leaper 0 2.5 0
-	offset	16 65
-	frame	data/chars/RMXCM-X/278.gif
-	delay	30
-	attack	16 -1 21 61 20 1 1 0 0 0
-	offset	17 66
-	frame	data/chars/RMXCM-X/279.gif
+anim	attack1
 	delay	7
-	offset	12 68
-	frame	data/chars/RMXCM-X/280.gif
-	offset	21 68
-	frame	data/chars/RMXCM-X/281.gif
+	offset	19 44
+	frame	data/chars/RMXCM-X/187.gif
+	offset	19 41
+	frame	data/chars/RMXCM-X/188.gif
+	attack	15 4 42 40 10 0 1 0 0 0
+	offset	25 42
+	frame	data/chars/RMXCM-X/189.gif
+	offset	19 41
+	frame	data/chars/RMXCM-X/190.gif
 		
 anim	chargeattack
 	bbox	6 2 30 39
@@ -141,7 +151,6 @@ anim	fall
 		
 anim	freespecial
 	delay	7
-	mpcost	10
 	offset	21 43
 	frame	data/chars/RMXCM-X/339.gif
 	offset	23 42
@@ -224,7 +233,6 @@ anim	freespecial2
 		
 anim	freespecial3
 	delay	7
-	mpcost	15
 	offset	18 44
 	frame	data/chars/RMXCM-X/195.gif
 	offset	18 43
@@ -281,23 +289,17 @@ anim	freespecial6
 anim	idle
 	loop	1
 	bbox	6 0 25 43
-	delay	15
+	delay	7
 	offset	19 43
 	frame	data/chars/RMXCM-X/4.gif
 	offset	19 42
 	frame	data/chars/RMXCM-X/5.gif
-	delay	60
 	offset	19 41
 	frame	data/chars/RMXCM-X/6.gif
-	delay	7
 	offset	19 41
 	frame	data/chars/RMXCM-X/7.gif
 	offset	19 41
 	frame	data/chars/RMXCM-X/8.gif
-	offset	19 41
-	frame	data/chars/RMXCM-X/7.gif
-	offset	19 41
-	frame	data/chars/RMXCM-X/6.gif
 		
 anim	jump
 	bbox	4 1 15 50

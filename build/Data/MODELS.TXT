@@ -178,7 +178,7 @@ Know hiei_E data/chars/hiei/hieiE.txt
 Know Sasuke_E data/chars/Sasuke/SasukeE.txt
 Know Shrek_E data/chars/Shrek/ShrekE.txt
 Know samjack_E data/chars/samjack/samjackE.txt
-know Broly_E data/chars/Broly_SSB/Broly_SSBE.txt  
+know BrolyE data/chars/Broly_SSB/Broly_SSBE.txt  
 know King_Piccolo2 data/chars/King_Piccolo/King_PiccoloE.txt  
 know	EIkkaku		data/chars/Ikkaku/Ikkakue.txt
 know	ERenji		data/chars/Renji/ERenji.txt
@@ -382,7 +382,12 @@ Know bAirPush2 Data/CHARS/Bakugou/bAirPush2/bAirPush2.txt
 Know bFireBlast2 Data/CHARS/Bakugou/bFireBlast2/bFireBlast2.txt
 Know bFireBlast3 Data/CHARS/Bakugou/bFireBlast3/bFireBlast3.txt
 Know InoNPC Data/Chars/InoNPC/InoNPC.txt
-know Megaman_X data/chars/RMXCM-X/RMXCM-X.txt
+load Megaman_X data/chars/RMXCM-X/RMXCM-X.txt
+know fireSword data/chars/RMXCM-X/fireSword.txt
+know fullPower data/chars/RMXCM-X/fullPower.txt
+know powerBeam data/chars/RMXCM-X/powerBeam.txt
+know powerShot data/chars/RMXCM-X/powerShot.txt
+know regShot data/chars/RMXCM-X/regShot.txt
 Load scaler Data/CHARS/misc/effects/scaler/scaler.txt
 Load fade Data/CHARS/misc/effects/fade/fade.txt
 Load tint Data/CHARS/misc/effects/tint/tint.txt

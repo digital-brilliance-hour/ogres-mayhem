@@ -187,6 +187,7 @@ void fullmp(void p, int num) {
   }
   else if (mp < maxmp && blinking == 1 && blinkcount == 1){
     resetMethod("tint", p);
+    changedrawmethod(p, "enabled", 0);
     setglobalvar("fullmp" + num, NULL());
     setglobalvar("fullmpcount" + num, NULL());
     setglobalvar("fullmpbcount" + num, NULL());
@@ -199,6 +200,7 @@ void fullmp(void p, int num) {
     }
     if(blinking == 1 && count > 600) {
       resetMethod("tint", p);
+      changedrawmethod(p, "enabled", 0);
       setglobalvar("fullmp" + num, NULL());
       setglobalvar("fullmpcount" + num, NULL());
     }

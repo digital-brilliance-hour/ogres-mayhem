@@ -1,0 +1,140 @@
+name	powerBeam
+speed   20
+type 	none
+shadow	0
+remove 0
+alpha 1
+
+# for freespecial 6
+
+
+
+
+
+anim	idle
+	loop	1
+	drawmethod	scale 0.25
+	delay	7
+	offset	33 87
+	frame	data/chars/RMXCM-X/805.gif
+	offset	40 108
+	frame	data/chars/RMXCM-X/806.gif
+	offset	61 104
+	frame	data/chars/RMXCM-X/807.gif
+	offset	61 130
+	frame	data/chars/RMXCM-X/808.gif
+	offset	51 119
+	frame	data/chars/RMXCM-X/809.gif
+	offset	44 244
+	frame	data/chars/RMXCM-X/810.gif
+	offset	96 240
+	frame	data/chars/RMXCM-X/811.gif
+	offset	167 234
+	frame	data/chars/RMXCM-X/812.gif
+	offset	163 244
+	frame	data/chars/RMXCM-X/813.gif
+	offset	165 253
+	frame	data/chars/RMXCM-X/814.gif
+	offset	164 249
+	frame	data/chars/RMXCM-X/815.gif
+	offset	157 255
+	frame	data/chars/RMXCM-X/816.gif
+	offset	156 245
+	frame	data/chars/RMXCM-X/817.gif
+	offset	160 245
+	frame	data/chars/RMXCM-X/818.gif
+	offset	162 251
+	frame	data/chars/RMXCM-X/819.gif
+	offset	159 255
+	frame	data/chars/RMXCM-X/820.gif
+	offset	161 255
+	frame	data/chars/RMXCM-X/821.gif
+	offset	160 255
+	frame	data/chars/RMXCM-X/822.gif
+	offset	162 251
+	frame	data/chars/RMXCM-X/823.gif
+	offset	163 243
+	frame	data/chars/RMXCM-X/824.gif
+	offset	166 234
+	frame	data/chars/RMXCM-X/825.gif
+	offset	167 234
+	frame	data/chars/RMXCM-X/826.gif
+	offset	163 233
+	frame	data/chars/RMXCM-X/827.gif
+	offset	163 235
+	frame	data/chars/RMXCM-X/828.gif
+	offset	162 240
+	frame	data/chars/RMXCM-X/829.gif
+	offset	163 248
+	frame	data/chars/RMXCM-X/830.gif
+	offset	159 255
+	frame	data/chars/RMXCM-X/831.gif
+	offset	158 255
+	frame	data/chars/RMXCM-X/832.gif
+	offset	158 245
+	frame	data/chars/RMXCM-X/833.gif
+	offset	159 254
+	frame	data/chars/RMXCM-X/834.gif
+	offset	161 255
+	frame	data/chars/RMXCM-X/835.gif
+	offset	159 255
+	frame	data/chars/RMXCM-X/836.gif
+	offset	161 256
+	frame	data/chars/RMXCM-X/837.gif
+	offset	162 255
+	frame	data/chars/RMXCM-X/838.gif
+	offset	165 251
+	frame	data/chars/RMXCM-X/839.gif
+	offset	164 242
+	frame	data/chars/RMXCM-X/840.gif
+	offset	163 242
+	frame	data/chars/RMXCM-X/841.gif
+	offset	161 226
+	frame	data/chars/RMXCM-X/842.gif
+	offset	158 227
+	frame	data/chars/RMXCM-X/843.gif
+	offset	158 231
+	frame	data/chars/RMXCM-X/844.gif
+	offset	158 241
+	frame	data/chars/RMXCM-X/845.gif
+	offset	159 237
+	frame	data/chars/RMXCM-X/846.gif
+	offset	162 235
+	frame	data/chars/RMXCM-X/847.gif
+	offset	164 239
+	frame	data/chars/RMXCM-X/848.gif
+	offset	161 241
+	frame	data/chars/RMXCM-X/849.gif
+	offset	156 245
+	frame	data/chars/RMXCM-X/850.gif
+	offset	154 248
+	frame	data/chars/RMXCM-X/851.gif
+	offset	155 250
+	frame	data/chars/RMXCM-X/852.gif
+	offset	158 249
+	frame	data/chars/RMXCM-X/853.gif
+	offset	151 245
+	frame	data/chars/RMXCM-X/854.gif
+	offset	152 248
+	frame	data/chars/RMXCM-X/855.gif
+	offset	109 229
+	frame	data/chars/RMXCM-X/856.gif
+	offset	147 232
+	frame	data/chars/RMXCM-X/857.gif
+	offset	111 233
+	frame	data/chars/RMXCM-X/858.gif
+	offset	94 235
+	frame	data/chars/RMXCM-X/859.gif
+	offset	85 238
+	frame	data/chars/RMXCM-X/860.gif
+	offset	92 231
+	frame	data/chars/RMXCM-X/861.gif
+	offset	118 244
+	frame	data/chars/RMXCM-X/862.gif
+	offset	90 247
+	frame	data/chars/RMXCM-X/863.gif
+	offset	34 167
+	frame	data/chars/RMXCM-X/864.gif
+
+#|edited by openBor Stats v 0.67
+		
