@@ -24,6 +24,12 @@ parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
 
+load sFireBlast1
+
+
+
+
+
 
 
 
@@ -162,6 +168,9 @@ anim	fall
 	frame	data/chars/Sora/36.gif
 		
 anim	freespecial
+	@cmd	isavailable 2
+	mponly	1
+	@cmd	mpcost 10
 	attack	12 0 22 75 20 1 1 0 0 0
 	delay	40
 	@cmd	leaper 0.5 3 0
@@ -213,8 +222,11 @@ anim	freespecial11
 	offset	22 41
 	frame	data/chars/Sora/21.gif
 		
-anim	freespecial2
+anim	freespecial3
 	delay	14
+	@cmd	isavailable 4
+	@cmd	pause_all 1 999
+	@cmd	spawnbind "zoomin" 0 0 0
 	offset	28 46
 	frame	data/chars/Sora/99.gif
 	offset	13 53
@@ -223,13 +235,24 @@ anim	freespecial2
 	frame	data/chars/Sora/101.gif
 	offset	15 44
 	frame	data/chars/Sora/102.gif
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	unpause
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	spawnscreen "angerExplosion" 240 0 240
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "enabled" 1
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scalex" 256
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scaley" 256
+	@cmd	damage_all_enemies 40 1 0 "ATK_NORMAL"
 	offset	20 77
 	frame	data/chars/Sora/103.gif
 	offset	20 77
 	frame	data/chars/Sora/104.gif
 		
-anim	freespecial3
+anim	freespecial2
 	delay	7
+	@cmd	isavailable 3
+	mponly	1
+	@cmd	mpcost 20
 	offset	20 43
 	frame	data/chars/Sora/204.gif
 	offset	15 38
@@ -253,12 +276,16 @@ anim	freespecial3
 		
 anim	freespecial4
 	delay	14
+	@cmd	isavailable 7
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	spawnbind "zoomin" 0 0 0
 	offset	45 39
 	frame	data/chars/Sora/224.gif
 	offset	25 40
 	frame	data/chars/Sora/225.gif
 	offset	13 43
 	frame	data/chars/Sora/226.gif
+	@cmd	spawnbind "zoomout" 0 0 0
 	offset	12 44
 	frame	data/chars/Sora/227.gif
 	@cmd	spawn01 "soraWind" 0 0 0
@@ -289,12 +316,21 @@ anim	freespecial4
 		
 anim	freespecial5
 	delay	7
+	@cmd	isavailable 5
+	mponly	1
+	@cmd	mpcost 30
 	offset	50 42
 	frame	data/chars/Sora/118.gif
 	offset	29 39
 	frame	data/chars/Sora/119.gif
+	delay	30
+	@cmd	spawnbind "sFireBlast1" 129 18 0
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "enabled" 1
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scalex" 128
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scaley" 128
 	offset	19 33
 	frame	data/chars/Sora/120.gif
+	delay	7
 	offset	19 35
 	frame	data/chars/Sora/121.gif
 	offset	19 44
@@ -302,16 +338,27 @@ anim	freespecial5
 		
 anim	freespecial6
 	delay	7
+	@cmd	isavailable 6
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	offset	14 45
 	frame	data/chars/Sora/209.gif
+	@cmd	pause_all 1 999
 	offset	15 43
 	frame	data/chars/Sora/210.gif
 	offset	17 47
 	frame	data/chars/Sora/211.gif
+	@cmd	unpause
+	delay	30
+	@cmd	spawnscreen "soraThunder" 240 0 240
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "enabled" 1
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scalex" 512
+	@cmd	changedrawmethod getlocalvar("currentSpawn") "scaley" 512
+	@cmd	damage_all_enemies 100 1 0 "ATK_NORMAL"
 	offset	15 56
 	frame	data/chars/Sora/212.gif
 	offset	15 56
 	frame	data/chars/Sora/213.gif
+	delay	7
 	offset	15 50
 	frame	data/chars/Sora/214.gif
 	offset	14 49
@@ -399,11 +446,22 @@ anim	runattack
 	delay	25
 	offset	50 42
 	frame	data/chars/Sora/118.gif
+	delay	3
 	offset	29 39
 	frame	data/chars/Sora/119.gif
 	delay	7
+	@cmd	dasher 3 0 0
 	offset	19 33
 	frame	data/chars/Sora/120.gif
+	attack	44 2 42 23 12 1 0 1 0 0
+	dropv	2 4 0
+	offset	19 33
+	frame	data/chars/Sora/120.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	@cmd	dasher 1 0 0
+	offset	19 33
+	frame	data/chars/Sora/120.gif
+	@cmd	stop
 	attack	34 2 42 23 12 1 1 0 0 0
 	dropv	2 4 0
 	offset	19 35

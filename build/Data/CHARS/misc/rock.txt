@@ -1,0 +1,25 @@
+name	rock
+health	999999999999999
+type	obstacle
+gfxshadow 1
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	delay	1000
+	offset	42 120
+	bbox	0 -10 94 135
+	platform	42 128 -85 -85 85 85 25 132
+	frame	data/chars/misc/rock.png
+		
+#|edited by openBor Stats v 0.67
+		

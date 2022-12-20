@@ -6,11 +6,13 @@ order aaaaaaaaaa
 stagenumber 8
 updatescript data/scripts/levels/stage-engine.c
 spawn1 50 6
+spawn2 50 36
 
-spawn	warning
+
+
+spawn ready
 	coords 240 136
-flip    1
-at      0
+	at 0
 
 spawn brolye
 boss 1
@@ -25,11 +27,20 @@ void main() {
      changeentityproperty(self, "animation", openborconstant("ANI_IDLE"));
 }
 @end_script
-health 2000
+health 100
 2phealth 2500
 3phealth 3000
 4phealth 4000
 coords 530 415
+at 2500
+
+shadowcolor -1
+at 2500
+
+shadowalpha 6
+at 2500
+
+shadowopacity 0
 at 2500
 
 spawn empty
@@ -45,4 +56,4 @@ coords 1 1
 at 2580
 
 wait
-at 5000
+at 2661

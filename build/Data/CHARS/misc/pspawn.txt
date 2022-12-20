@@ -6,9 +6,32 @@ type	none
 lifespan	2
 alpha	1
 
+
+
+
+
+
+
 anim	idle
 	delay	3
 	offset	81 347
+	@script
+	void self = getlocalvar("self");
+	int frame = getlocalvar("frame");
+	void parent = getentityproperty(self, "parent");
+
+	if(frame == 7) {
+	    changedrawmethod(parent, "enabled", 1);
+	    changedrawmethod(parent, "alpha", 6);
+	    changedrawmethod(parent, "channelr", 0);
+	    changedrawmethod(parent, "channelg", 0);
+	    changedrawmethod(parent, "channelb", 0);
+	    changeentityproperty(parent, "gfxshadow", 1);
+	    changeentityproperty(parent, "shadowbase", 0);
+	    //killentity(parent);
+	}
+	@end_script	
+	sound	data/sounds/spawner.wav
 	frame	data/chars/misc/spawn/maif00.png
 	frame	data/chars/misc/spawn/maif01.png
 	frame	data/chars/misc/spawn/maif02.png
@@ -55,8 +78,21 @@ anim	idle
 	frame	data/chars/misc/spawn/maif43.png
 	frame	data/chars/misc/spawn/maif44.png
 	frame	data/chars/misc/spawn/maif45.png
-	frame	data/chars/misc/empty.png
-
-
-
-
+	@cmd	jumptobranch getentityvar(self "jumpTo") 1
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+anim	spawn
+	delay	1
+	loop	0
+	@script
+	void self = getlocalvar("self");
+     	setentityvar(self, "jumpTo", "");
+     	executeanimation(self, openborconstant("ANI_IDLE"));
+	@end_script	
+	offset	0 0
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

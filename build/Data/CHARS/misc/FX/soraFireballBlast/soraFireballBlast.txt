@@ -6,6 +6,7 @@ alpha 1
 
 
 
+
 anim	idle
 	loop	0
 	delay	3
@@ -27,6 +28,8 @@ anim	idle
 	frame	data/chars/Sora/605.gif
 	offset	37 48
 	frame	data/chars/Sora/606.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
 	frame	data/chars/misc/empty.gif
 		
 #|edited by openBor Stats v 0.67
