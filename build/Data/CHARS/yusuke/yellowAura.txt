@@ -21,17 +21,17 @@ alpha 1
 
 
 
+
 anim	idle
-	delay	3
+	delay	10
+	loop	1
 	offset	147 313
 	frame	data/chars/yusuke/1121.gif
-	offset	156 323
-	frame	data/chars/yusuke/1122.gif
+	delay	9
 	offset	130 311
 	frame	data/chars/yusuke/1123.gif
-	frame	data/chars/misc/empty.gif
-	@cmd	killentity getlocalvar("self")
-	frame	data/chars/misc/empty.gif
+	offset	156 323
+	frame	data/chars/yusuke/1122.gif
 		
 #|edited by openBor Stats v 0.67
 		

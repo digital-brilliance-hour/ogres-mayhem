@@ -28,6 +28,10 @@ health  2047483647
 coords	400 180
 at 0
 
+spawn statsitem
+coords 300 240
+at 0
+
 spawn tutorialpanel2
 coords 235 0
 at 0

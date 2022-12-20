@@ -47,6 +47,7 @@ load 	g_hit2		data/chars/gon/hit2.txt
 load 	pdust		data/chars/misc/dust.txt
 load 	h_card		data/chars/hisoka/card.txt
 load 	e_spawn 	data/chars/misc/espawn/espawn.txt
+load 	pspawn 	data/chars/misc/pspawn.txt
 load 	quake 		data/chars/misc/quake.txt
 load deku_redcharge data/chars/deku/red_charge.txt
 load deku_greencharge data/chars/deku/green_charge.txt
@@ -403,3 +404,6 @@ Load soraIcespray Data/CHARS/misc/FX/soraIcespray/soraIcespray.txt
 Load soraFireballBlast Data/CHARS/misc/FX/soraFireballBlast/soraFireballBlast.txt
 Load soraWind Data/CHARS/misc/FX/soraWind/soraWind.txt
 Load soraStatic Data/CHARS/misc/FX/soraStatic/soraStatic.txt
+know rock data/chars/misc/rock.txt
+Know soulsocietyIntro Data/CHARS/misc/soulsociety-intro/soulsociety-intro.txt
+Know sFireBlast1 Data/CHARS/Bakugou/bFireBlast1/sFireBlast1.txt

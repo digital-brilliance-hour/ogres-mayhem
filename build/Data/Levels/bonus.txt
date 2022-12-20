@@ -1,24 +1,32 @@
-music		data/music/remix.bor
+music		data/music/bonus.ogg
 
 background data/bgs/soulsociety/stback_0-0.png 0.3 1 0 -240
 bglayer data/bgs/soulsociety/stback_0-1.png 0.5 1 0 -240 0 0 -1 1 1 0 0 0 0 0 1
 bglayer data/bgs/soulsociety/stback_1-0.png 0 1 0 92 0 0 -1 1 1 0 0 0 0 0 1
-cameraoffset -240 0
-direction leftright
+cameraoffset 120 0
+#direction leftright
+scrollspeed 8
+#nofadeout 1
 
-bgspeed 20 0
+#bgspeed 20 0
 
 updatescript Data/scripts/levels/running.c
 
 panel		data/bgs/soulsociety/panel.gif none none
 
-order	aaaaaaa
+order	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 direction both
 type 1
 
 
+light -192 -64
+at 0
 
+
+spawn ready
+	coords 240 136
+	at 0
 
 #---------------------
 
@@ -26,12 +34,69 @@ spawn bLargeFireball
 @script
 void main() {
     changeentityproperty(getlocalvar("self"), "shadowbase", 3 );
-    changeentityproperty(getlocalvar("self"), "velocity", 30, 0, 0 );
+    changeentityproperty(getlocalvar("self"), "velocity", 4, 0, 0 );
     changeentityproperty(getlocalvar("self"), "type", openborconstant("TYPE_ENEMY") );
     changeentityproperty(getlocalvar("self"), "type", openborconstant("SUBTYPE_ARROW") );
 }
 @end_script
-coords	300 216
-at	0
+flip 1
+coords	-150 216
+at 0
+
+spawn bLargeFireball
+@script
+void main() {
+    changeentityproperty(getlocalvar("self"), "shadowbase", 3 );
+    changeentityproperty(getlocalvar("self"), "velocity", 4, 0, 0 );
+    changeentityproperty(getlocalvar("self"), "type", openborconstant("TYPE_ENEMY") );
+    changeentityproperty(getlocalvar("self"), "type", openborconstant("SUBTYPE_ARROW") );
+}
+@end_script
+flip 1
+coords	-170 140
+at 0
+
+spawn bLargeFireball
+@script
+void main() {
+    changeentityproperty(getlocalvar("self"), "shadowbase", 3 );
+    changeentityproperty(getlocalvar("self"), "velocity", 4, 0, 0 );
+    changeentityproperty(getlocalvar("self"), "type", openborconstant("TYPE_ENEMY") );
+    changeentityproperty(getlocalvar("self"), "type", openborconstant("SUBTYPE_ARROW") );
+}
+@end_script
+flip 1
+coords	-170 256
+at 0
+
+spawn rock
+flip 1
+coords 530 215
+at 1200
+
+spawn rock
+flip 1
+coords 530 235
+at 1800
+
+
+spawn rock
+flip 1
+coords 530 215
+at 2400
+
+spawn rock
+flip 1
+coords 530 235
+at 3000
+
+shadowcolor -1
+at 4000
+
+shadowalpha 6
+at 4000
+
+shadowopacity 0
+at 4000
 
 

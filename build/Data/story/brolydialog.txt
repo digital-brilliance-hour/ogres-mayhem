@@ -1,4 +1,6 @@
 _playmusic 0 data/music/dialog.ogg
-Broly 0 None_of_you_stand_a_chance_against_me,_let_alone_Shrek.
-Broly 0 Let_me_show_you_what_true_power_is!
+Broly 0 None_of_you_stand_a_chance_against_me,
+Broly 0 let_alone_Shrek._Let_me_show_you_what_
+Broly 0 TRUE_POWER_IS!!!
+_playmusic 0 data/music/stage8-boss.ogg
 end

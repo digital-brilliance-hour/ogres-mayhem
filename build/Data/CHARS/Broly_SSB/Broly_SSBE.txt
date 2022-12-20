@@ -26,6 +26,11 @@ com      a3 freespecial2
 com      a4 freespecial3
 ondeathscript data/scripts/bossdeath.c
 onblocksscript data/scripts/enemy/screenedge.c
+script data/scripts/bosses/broly.c
+
+
+
+
 
 
 
@@ -199,6 +204,53 @@ anim	fall
 	bbox	0 2 89 33
 	offset	36 23
 	frame	data/chars/Broly_SSB/256.gif
+		
+anim	follow1
+	delay	20
+	@script
+	void self = getlocalvar("self");
+	int frame = getlocalvar("frame");
+	if(frame == 7) {
+	void p;
+        int i, hp, mp, lv, num;
+        for(i=0; i<4; i++){
+            p = getplayerproperty(i, "entity");
+            num = i+1;
+            if(p){
+                void subent;
+                loadmodel("pspawn"); // name of the entity to be loaded
+                clearspawnentry(); // clean the spawn entry
+                setspawnentry("name", "pspawn"); // define the entity to be spawn
+                setspawnentry("coords", -1,-1,200); // set the position of the entity
+                subent=spawn();  //  spawn the entity
+                bindentity(subent, p, 0, 0, 0, 0, 0);
+                changeentityproperty(subent, "parent", p); //Set caller as parent.
+                changeentityproperty(subent, "setlayer", 200);
+                changeentityproperty(subent, "position", 0, 0, 200);
+                setentityvar(subent, "jumpTo", "SIntro");
+            }
+        }
+	}
+	@end_script	
+	offset	26 64
+	frame	data/chars/Broly_SSB/13.gif
+	offset	26 64
+	frame	data/chars/Broly_SSB/13.gif
+	offset	26 64
+	frame	data/chars/Broly_SSB/13.gif
+	offset	26 64
+	frame	data/chars/Broly_SSB/13.gif
+	offset	26 64
+	frame	data/chars/Broly_SSB/13.gif
+	offset	26 64
+	frame	data/chars/Broly_SSB/13.gif
+	offset	26 64
+	frame	data/chars/Broly_SSB/13.gif
+	offset	26 64
+	frame	data/chars/Broly_SSB/13.gif
+	sound	data/chars/broly_ssb/broly_0-6.wav
+	offset	26 64
+	frame	data/chars/Broly_SSB/13.gif
 		
 anim	freespecial
 	delay	7

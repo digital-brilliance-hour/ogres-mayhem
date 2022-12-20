@@ -7,6 +7,7 @@ setlayer 999
 
 
 
+
 anim	idle
 	loop	1 1
 	delay	1
@@ -20,6 +21,7 @@ anim	idle
 	float currdefense = getentityproperty(parent, "defense", openborconstant("ATK_NORMAL"));
 	log("got parent");
 	int count = getentityvar(self, "count");
+
 	if(frame == 1) {
 	     setentityvar(self, "attack", currattack);
 		 setentityvar(self, "defense", currdefense);
@@ -28,6 +30,20 @@ anim	idle
 		 changeentityproperty(parent, "offense", openborconstant("ATK_NORMAL"), 0.2 + currattack);
 		 float defenseper = 0.15 * currdefense;
 		 changeentityproperty(parent, "defense", openborconstant("ATK_NORMAL"), 0.2 + currdefense);
+		 void subent;
+		 if(count < 1) {
+		 loadmodel("yellowAura"); // name of the entity to be loaded
+    		 clearspawnentry(); // clean the spawn entry
+    		 setspawnentry("name", "yellowAura"); // define the entity to be spawn
+    		 setspawnentry("coords", -1,-1,-1000); // set the position of the entity
+    		 subent=spawn();  //  spawn the entity
+    		 bindentity(subent, parent, 0, 0, -10, 0, 0);
+    		 changeentityproperty(subent, "parent", parent); //Set caller as parent.
+    		 changedrawmethod(subent, "enabled", 1);
+		 changedrawmethod(subent, "scalex", 96);
+		 changedrawmethod(subent, "scaley", 96);
+    		 setentityvar(self, "aura", subent);
+    		 }
 	}
  	if(frame > 1) {
 		 log("statsup");
@@ -46,6 +62,9 @@ anim	idle
 		 else {
            	  changeentityproperty(parent, "offense", openborconstant("ATK_NORMAL"), getentityvar(self, "attack"));
    		      changeentityproperty(parent, "defense", openborconstant("ATK_NORMAL"), getentityvar(self, "defense"));
+   		      if(getentityvar(self, "aura") != NULL()) {
+			 killentity(getentityvar(self, "aura"));
+		      }
 		      killentity(self);
 		 }
 	}
