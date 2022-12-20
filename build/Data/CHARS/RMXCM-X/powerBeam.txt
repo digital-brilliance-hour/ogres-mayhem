@@ -5,15 +5,25 @@ shadow	0
 remove 0
 alpha 1
 
-# for freespecial 6
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 anim	idle
-	loop	1
-	drawmethod	scale 0.25
+	drawmethod	scale 0.50
+	drawmethod	scalex 1.5
 	delay	7
 	offset	33 87
 	frame	data/chars/RMXCM-X/805.gif
@@ -29,88 +39,57 @@ anim	idle
 	frame	data/chars/RMXCM-X/810.gif
 	offset	96 240
 	frame	data/chars/RMXCM-X/811.gif
+	attack	85 2 515 461 200 1 1 0 0 200
 	offset	167 234
 	frame	data/chars/RMXCM-X/812.gif
 	offset	163 244
 	frame	data/chars/RMXCM-X/813.gif
+	attack	342 3 518 491 200 1 1 0 0 200
 	offset	165 253
 	frame	data/chars/RMXCM-X/814.gif
 	offset	164 249
 	frame	data/chars/RMXCM-X/815.gif
+	attack	490 5 469 484 200 1 1 0 0 200
 	offset	157 255
 	frame	data/chars/RMXCM-X/816.gif
 	offset	156 245
 	frame	data/chars/RMXCM-X/817.gif
+	attack	635 4 348 460 200 1 1 0 0 200
 	offset	160 245
 	frame	data/chars/RMXCM-X/818.gif
 	offset	162 251
 	frame	data/chars/RMXCM-X/819.gif
+	attack	685 1 275 495 200 1 1 0 0 200
 	offset	159 255
 	frame	data/chars/RMXCM-X/820.gif
 	offset	161 255
 	frame	data/chars/RMXCM-X/821.gif
+	attack	589 1 372 478 200 1 1 0 0 200
 	offset	160 255
 	frame	data/chars/RMXCM-X/822.gif
 	offset	162 251
 	frame	data/chars/RMXCM-X/823.gif
-	offset	163 243
-	frame	data/chars/RMXCM-X/824.gif
-	offset	166 234
-	frame	data/chars/RMXCM-X/825.gif
-	offset	167 234
-	frame	data/chars/RMXCM-X/826.gif
-	offset	163 233
-	frame	data/chars/RMXCM-X/827.gif
-	offset	163 235
-	frame	data/chars/RMXCM-X/828.gif
-	offset	162 240
-	frame	data/chars/RMXCM-X/829.gif
-	offset	163 248
-	frame	data/chars/RMXCM-X/830.gif
-	offset	159 255
-	frame	data/chars/RMXCM-X/831.gif
-	offset	158 255
-	frame	data/chars/RMXCM-X/832.gif
-	offset	158 245
-	frame	data/chars/RMXCM-X/833.gif
-	offset	159 254
-	frame	data/chars/RMXCM-X/834.gif
-	offset	161 255
-	frame	data/chars/RMXCM-X/835.gif
-	offset	159 255
-	frame	data/chars/RMXCM-X/836.gif
-	offset	161 256
-	frame	data/chars/RMXCM-X/837.gif
-	offset	162 255
-	frame	data/chars/RMXCM-X/838.gif
-	offset	165 251
-	frame	data/chars/RMXCM-X/839.gif
-	offset	164 242
-	frame	data/chars/RMXCM-X/840.gif
-	offset	163 242
-	frame	data/chars/RMXCM-X/841.gif
-	offset	161 226
-	frame	data/chars/RMXCM-X/842.gif
-	offset	158 227
-	frame	data/chars/RMXCM-X/843.gif
-	offset	158 231
-	frame	data/chars/RMXCM-X/844.gif
+	attack	683 11 299 447 200 1 1 0 0 200
 	offset	158 241
 	frame	data/chars/RMXCM-X/845.gif
 	offset	159 237
 	frame	data/chars/RMXCM-X/846.gif
+	attack	659 8 303 465 200 1 1 0 0 200
 	offset	162 235
 	frame	data/chars/RMXCM-X/847.gif
 	offset	164 239
 	frame	data/chars/RMXCM-X/848.gif
+	attack	460 33 527 406 200 1 1 0 0 200
 	offset	161 241
 	frame	data/chars/RMXCM-X/849.gif
 	offset	156 245
 	frame	data/chars/RMXCM-X/850.gif
+	attack	607 35 372 407 200 1 1 0 0 200
 	offset	154 248
 	frame	data/chars/RMXCM-X/851.gif
 	offset	155 250
 	frame	data/chars/RMXCM-X/852.gif
+	attack	638 65 333 377 200 1 1 0 0 200
 	offset	158 249
 	frame	data/chars/RMXCM-X/853.gif
 	offset	151 245
@@ -127,14 +106,9 @@ anim	idle
 	frame	data/chars/RMXCM-X/859.gif
 	offset	85 238
 	frame	data/chars/RMXCM-X/860.gif
-	offset	92 231
-	frame	data/chars/RMXCM-X/861.gif
-	offset	118 244
-	frame	data/chars/RMXCM-X/862.gif
-	offset	90 247
-	frame	data/chars/RMXCM-X/863.gif
-	offset	34 167
-	frame	data/chars/RMXCM-X/864.gif
-
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
 #|edited by openBor Stats v 0.67
 		

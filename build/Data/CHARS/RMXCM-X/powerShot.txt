@@ -12,10 +12,11 @@ alpha 1
 
 
 
+
 anim	idle
 	attack	97 15 145 143 25 1 1 0 0 0
 	loop	1
-	drawmethod	scale 0.25
+	drawmethod	scale 0.75
 	delay	7
 	offset	159 85
 	frame	data/chars/RMXCM-X/691.gif

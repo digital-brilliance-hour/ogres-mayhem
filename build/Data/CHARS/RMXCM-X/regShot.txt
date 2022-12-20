@@ -2,7 +2,7 @@ name	regShot
 speed   20
 type 	none
 shadow	0
-remove 0
+remove 1
 alpha 1
 speed	15
 
