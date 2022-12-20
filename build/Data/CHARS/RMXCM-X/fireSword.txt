@@ -5,36 +5,44 @@ shadow	0
 remove 0
 alpha 1
 
-# for freespecial 2
+
+
+
+
+
+
+
 
 
 
 
 
 anim	idle
-	loop	1
-	drawmethod	scale 0.25
+	drawmethod	scale 1
 	delay	7
 	offset	70 92
 	frame	data/chars/RMXCM-X/591.gif
 	offset	71 118
 	frame	data/chars/RMXCM-X/592.gif
+	attack	45 5 146 122 30 1 1 0 0 0
 	offset	24 126
 	frame	data/chars/RMXCM-X/593.gif
+	attack	71 1 95 157 30 1 0 0 0 0
 	offset	-4 123
 	frame	data/chars/RMXCM-X/594.gif
+	attack	80 1 104 141 25 1 1 0 0 0
 	offset	-3 99
 	frame	data/chars/RMXCM-X/595.gif
+	attack	1 37 173 44 30 1 1 0 0 0
 	offset	-3 44
 	frame	data/chars/RMXCM-X/596.gif
 	offset	-1 24
 	frame	data/chars/RMXCM-X/597.gif
 	offset	-2 26
 	frame	data/chars/RMXCM-X/598.gif
-	offset	-4 25
-	frame	data/chars/RMXCM-X/599.gif
-	offset	-7 23
-	frame	data/chars/RMXCM-X/600.gif
-
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
 #|edited by openBor Stats v 0.67
 		

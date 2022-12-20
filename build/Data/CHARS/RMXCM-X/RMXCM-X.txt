@@ -12,9 +12,11 @@ com u a3 freespecial2
 com d a3 freespecial5
 com s freespecial3
 com u s freespecial6
-com d s freespecial4
 com a2 freespecial11
 
+load fullPower
+load powerBeam
+load fireSword
 load powerShot
 load regShot
 star regShot
@@ -22,6 +24,10 @@ star regShot
 animationscript data/scripts/spawns.c
 script data/scripts/playerscript.c
 didhitscript data/scripts/didhit/didhit.c
+
+
+
+
 
 
 
@@ -90,7 +96,7 @@ anim	chargeattack
 	offset	19 41
 	frame	data/chars/RMXCM-X/252.gif
 	offset	19 41
-	@cmd	projectile 1 "regShot" 55 5 35 1 0
+	@cmd	projectile 1 "powerShot" 55 5 35 1 0
 	frame	data/chars/RMXCM-X/253.gif
 	offset	19 41
 	frame	data/chars/RMXCM-X/254.gif
@@ -140,6 +146,7 @@ anim	fall
 	frame	data/chars/RMXCM-X/426.gif
 		
 anim	freespecial
+	@cmd	isavailable 2
 	delay	7
 	mpcost	10
 	offset	21 43
@@ -205,12 +212,14 @@ anim	freespecial11
 	frame	data/chars/RMXCM-X/93.gif
 		
 anim	freespecial2
+	@cmd	isavailable 3
+	mpcost	20
 	delay	7
 	offset	19 43
 	frame	data/chars/RMXCM-X/299.gif
 	offset	20 46
+	@cmd	spawnbind "fireSword" 5 -5 0
 	frame	data/chars/RMXCM-X/300.gif
-	attack	0 0 0 0 0 0 0 0 0 0
 	offset	21 44
 	frame	data/chars/RMXCM-X/301.gif
 	offset	22 35
@@ -223,50 +232,21 @@ anim	freespecial2
 	frame	data/chars/RMXCM-X/305.gif
 		
 anim	freespecial3
+	@cmd	isavailable 4
 	delay	7
-	mpcost	15
+	mpcost	2
 	offset	18 44
 	frame	data/chars/RMXCM-X/195.gif
 	offset	18 43
 	frame	data/chars/RMXCM-X/196.gif
-	@cmd	projectile 1 "powerShot" 55 5 35 1 0
+	@cmd	projectile 1 "regShot" 55 5 35 1 0
 	offset	18 41
 	frame	data/chars/RMXCM-X/197.gif
-		
-anim	freespecial4
-	delay	7
-	offset	18 37
-	frame	data/chars/RMXCM-X/138.gif
-	offset	27 40
-	frame	data/chars/RMXCM-X/139.gif
-	offset	33 69
-	frame	data/chars/RMXCM-X/140.gif
-	offset	29 69
-	frame	data/chars/RMXCM-X/141.gif
-	offset	26 69
-	frame	data/chars/RMXCM-X/142.gif
-	offset	6 69
-	frame	data/chars/RMXCM-X/143.gif
-	offset	18 39
-	frame	data/chars/RMXCM-X/144.gif
-	offset	27 40
-	frame	data/chars/RMXCM-X/145.gif
 		
 anim	freespecial5
-	delay	7
-	offset	18 44
-	frame	data/chars/RMXCM-X/195.gif
-	offset	18 43
-	frame	data/chars/RMXCM-X/196.gif
-	offset	18 41
-	frame	data/chars/RMXCM-X/197.gif
-	offset	20 50
-	frame	data/chars/RMXCM-X/325.gif
-	offset	20 50
-	frame	data/chars/RMXCM-X/326.gif
-		
-anim	freespecial6
-	delay	7
+	@cmd	isavailable 5
+	mpcost	50
+	delay	20
 	offset	18 44
 	frame	data/chars/RMXCM-X/195.gif
 	offset	18 43
@@ -276,7 +256,45 @@ anim	freespecial6
 	offset	18 41
 	frame	data/chars/RMXCM-X/198.gif
 	offset	18 43
+	@cmd	spawnbind "powerBeam" 43 30 0
 	frame	data/chars/RMXCM-X/199.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/199.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/199.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/199.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/199.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/199.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/199.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/199.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/199.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/199.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/199.gif
+		
+anim	freespecial6
+	@cmd	isavailable 6
+	mponly	1
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	delay	7
+	offset	18 44
+	frame	data/chars/RMXCM-X/195.gif
+	offset	18 43
+	frame	data/chars/RMXCM-X/196.gif
+	@cmd	projectile 1 "fullPower" 50 5 45 1 0
+	offset	18 41
+	frame	data/chars/RMXCM-X/197.gif
+	offset	20 50
+	frame	data/chars/RMXCM-X/325.gif
+	offset	20 50
+	frame	data/chars/RMXCM-X/326.gif
 		
 anim	idle
 	loop	1
