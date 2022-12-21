@@ -72,31 +72,136 @@ at 0
 spawn rock
 flip 1
 coords 530 215
-at 1200
+at 3200
 
 spawn rock
 flip 1
 coords 530 235
-at 1800
+at 5600
 
 
 spawn rock
 flip 1
 coords 530 215
-at 2400
+at 8000
 
 spawn rock
 flip 1
 coords 530 235
-at 3000
+at 10400
+
+spawn rock
+flip 1
+coords 530 215
+at 15400
+
+spawn rock
+flip 1
+coords 530 235
+at 17800
+
+
+spawn rock
+flip 1
+coords 530 215
+at 20200
+
+spawn rock
+flip 1
+coords 530 235
+at 22600
+
+spawn rock
+flip 1
+coords 530 215
+at 28600
+
+spawn rock
+flip 1
+coords 530 235
+at 29800
+
+
+spawn rock
+flip 1
+coords 530 215
+at 31000
+
+spawn rock
+flip 1
+coords 530 235
+at 32200
+
+spawn rock
+flip 1
+coords 530 215
+at 38200
+
+spawn rock
+flip 1
+coords 530 235
+at 39400
+
+
+spawn rock
+flip 1
+coords 530 215
+at 40600
+
+spawn rock
+flip 1
+coords 530 235
+at 41800
+
+spawn rock
+flip 1
+coords 530 215
+at 49800
+
+spawn rock
+flip 1
+coords 530 235
+at 50400
+
+
+spawn rock
+flip 1
+coords 530 215
+at 51000
+
+spawn rock
+flip 1
+coords 530 235
+at 51600
+
+spawn rock
+flip 1
+coords 530 215
+at 60600
+
+spawn rock
+flip 1
+coords 530 235
+at 61200
+
+
+spawn rock
+flip 1
+coords 530 215
+at 61800
+
+spawn rock
+flip 1
+coords 530 235
+at 62400
 
 shadowcolor -1
-at 4000
+at 66200
 
 shadowalpha 6
-at 4000
+at 66200
 
 shadowopacity 0
-at 4000
+at 66200
 
 

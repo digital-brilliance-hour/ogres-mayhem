@@ -17,6 +17,7 @@ void main() {
             p = getplayerproperty(i, "entity");
             num = i+1;
             if(p){
+            	changeentityproperty(p, "mp", 0);
                 executeanimation(p, openborconstant("ANI_IDLE"));
             }
         }

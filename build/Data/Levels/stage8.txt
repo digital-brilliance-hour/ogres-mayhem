@@ -8,7 +8,14 @@ updatescript data/scripts/levels/stage-engine.c
 spawn1 50 6
 spawn2 50 36
 
-
+spawn empty
+@script
+void main() {
+	setglobalvar("setupdate", 8);
+}
+@end_script
+coords 1 1
+at 0
 
 spawn ready
 	coords 240 136
@@ -27,7 +34,7 @@ void main() {
      changeentityproperty(self, "animation", openborconstant("ANI_IDLE"));
 }
 @end_script
-health 100
+health 2000
 2phealth 2500
 3phealth 3000
 4phealth 4000
