@@ -151,7 +151,7 @@ file	data/levels/stage7.txt
 next
 scene data/scenes/stage6-7ending.txt
 
-set stage_8
+set Stage_8
 typemp 0
 ifcomplete 3
 versusdamage 0
@@ -178,7 +178,7 @@ z 199 236 47
 file data/levels/bonus.txt
 
 branch Ending
-scene data/scenes/stage6-7ending.txt
+scene data/scenes/stage8ending.txt
 
 set Training_area
 versusdamage 0

@@ -244,6 +244,9 @@ void setUpdate() {
     if(currentStage == 6) {
       setnumber = 2;
     }
+    if(currentStage == 8) {
+      setnumber = 3;
+    }
     log(getsaveinfo(setnumber, "SCORE", 0));
     int checkScore = getglobalvar("checkSet1Score");
     if(checkScore != 1) {
@@ -272,6 +275,20 @@ void setUpdate() {
                     if(scoreExists(i, 2) < 1) {
                       if(scoreExists(i, 1) < 45000) {
                         changeplayerproperty(i, "score", 45500);
+                        lvup(i);
+
+                      }
+                      else {
+                        changeplayerproperty(i, "score", scoreExists(i, 0));
+                      lvup(i);
+
+                      }
+                    }
+                  }
+                  if(currentStage == 8) {
+                    if(scoreExists(i, 2) < 1) {
+                      if(scoreExists(i, 1) < 120000) {
+                        changeplayerproperty(i, "score", 120500);
                         lvup(i);
 
                       }
