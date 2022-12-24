@@ -217,6 +217,7 @@ coords  80 188
 at      1361
 
 spawn   Sogeking
+item statsItem
 2pitem mp_hundred
 coords  400 133
 at      1361

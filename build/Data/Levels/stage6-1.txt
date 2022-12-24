@@ -194,6 +194,7 @@ at 1950
 
 spawn tsuna
 health 30
+item statsItem
 coords 480 150
 at 1951
 

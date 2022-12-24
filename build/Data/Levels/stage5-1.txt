@@ -311,6 +311,7 @@ at 2000
 
 
 spawn lobster
+item statsItem
 coords 150 180
 at 2001
 

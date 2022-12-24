@@ -395,6 +395,7 @@ at      6021
 
 spawn   wolf
 health 100
+item statsItem
 coords  460 270
 at      6021
 

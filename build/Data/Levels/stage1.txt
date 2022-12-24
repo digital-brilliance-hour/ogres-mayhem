@@ -37,7 +37,7 @@ at 310
 wait
 at 310
 
-spawn mp_twentyfive
+spawn statsItem
 coords 600 220
 at 320
 

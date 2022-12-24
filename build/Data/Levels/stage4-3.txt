@@ -225,6 +225,7 @@ coords  80 228
 at      1861
 
 spawn   Ninja
+item statsItem
 2pitem mp_hundred
 coords  400 173
 at      1861

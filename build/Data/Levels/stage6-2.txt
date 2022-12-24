@@ -826,6 +826,10 @@ at 3512
 wait
 at 3728
 
+spawn statsItem
+coords 240 176
+at 3727
+
 ##Place reinforcements at 3527
 
 
