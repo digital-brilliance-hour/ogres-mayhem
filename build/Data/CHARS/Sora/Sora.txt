@@ -45,6 +45,8 @@ load sFireBlast1
 
 
 
+
+
 anim	attack1
 	delay	2
 	offset	29 34
@@ -170,7 +172,7 @@ anim	fall
 		
 anim	freespecial
 	@cmd	isavailable 2
-	delay 1
+	delay	1
 	mponly	1
 	offset	19 73
 	frame	data/chars/Sora/133.gif
@@ -450,7 +452,7 @@ anim	runattack
 	delay	25
 	offset	50 42
 	frame	data/chars/Sora/118.gif
-	delay	3
+	delay	7
 	offset	29 39
 	frame	data/chars/Sora/119.gif
 	delay	7
@@ -462,6 +464,26 @@ anim	runattack
 	offset	19 33
 	frame	data/chars/Sora/120.gif
 	attack	0 0 0 0 0 0 0 0 0 0
+	offset	19 35
+	frame	data/chars/Sora/121.gif
+	offset	50 42
+	frame	data/chars/Sora/118.gif
+	offset	29 39
+	frame	data/chars/Sora/119.gif
+	attack	44 2 42 23 12 1 0 1 0 0
+	dropv	2 4 0
+	offset	19 33
+	frame	data/chars/Sora/120.gif
+	offset	19 35
+	frame	data/chars/Sora/121.gif
+	offset	50 42
+	frame	data/chars/Sora/118.gif
+	offset	29 39
+	frame	data/chars/Sora/119.gif
+	attack	44 2 42 23 12 1 0 1 0 0
+	dropv	2 4 0
+	offset	19 33
+	frame	data/chars/Sora/120.gif
 	@cmd	dasher 1 0 0
 	offset	19 33
 	frame	data/chars/Sora/120.gif
