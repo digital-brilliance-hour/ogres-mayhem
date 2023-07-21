@@ -1,0 +1,1466 @@
+name 
+
+
+
+
+anim	0006
+	delay	7
+	offset	15 35
+	frame	data/chars/Luffy_Gear_2/8.gif
+	offset	18 30
+	frame	data/chars/Luffy_Gear_2/9.gif
+		
+anim	0040
+	delay	7
+	offset	19 44
+	frame	data/chars/Luffy_Gear_2/18.gif
+	offset	19 44
+	frame	data/chars/Luffy_Gear_2/19.gif
+	offset	20 44
+	frame	data/chars/Luffy_Gear_2/20.gif
+	offset	19 44
+	frame	data/chars/Luffy_Gear_2/21.gif
+	offset	19 44
+	frame	data/chars/Luffy_Gear_2/22.gif
+		
+anim	0056
+	delay	7
+	offset	320 480
+	frame	data/chars/Luffy_Gear_2/620.gif
+	offset	5 9
+	frame	data/chars/Luffy_Gear_2/621.gif
+	offset	8 15
+	frame	data/chars/Luffy_Gear_2/622.gif
+	offset	11 19
+	frame	data/chars/Luffy_Gear_2/623.gif
+	offset	13 23
+	frame	data/chars/Luffy_Gear_2/624.gif
+	offset	15 26
+	frame	data/chars/Luffy_Gear_2/625.gif
+	offset	17 29
+	frame	data/chars/Luffy_Gear_2/626.gif
+	offset	19 32
+	frame	data/chars/Luffy_Gear_2/627.gif
+	offset	20 33
+	frame	data/chars/Luffy_Gear_2/628.gif
+	offset	20 36
+	frame	data/chars/Luffy_Gear_2/629.gif
+	offset	19 44
+	frame	data/chars/Luffy_Gear_2/630.gif
+	offset	19 48
+	frame	data/chars/Luffy_Gear_2/631.gif
+	offset	19 53
+	frame	data/chars/Luffy_Gear_2/632.gif
+	offset	21 59
+	frame	data/chars/Luffy_Gear_2/633.gif
+	offset	20 61
+	frame	data/chars/Luffy_Gear_2/634.gif
+	offset	18 56
+	frame	data/chars/Luffy_Gear_2/635.gif
+	offset	17 47
+	frame	data/chars/Luffy_Gear_2/636.gif
+	offset	18 50
+	frame	data/chars/Luffy_Gear_2/637.gif
+	offset	17 54
+	frame	data/chars/Luffy_Gear_2/638.gif
+	offset	18 57
+	frame	data/chars/Luffy_Gear_2/639.gif
+	offset	17 58
+	frame	data/chars/Luffy_Gear_2/640.gif
+	offset	18 51
+	frame	data/chars/Luffy_Gear_2/641.gif
+	offset	17 52
+	frame	data/chars/Luffy_Gear_2/642.gif
+		
+anim	0161
+	delay	7
+	offset	24 20
+	frame	data/chars/Luffy_Gear_2/457.gif
+	offset	24 57
+	frame	data/chars/Luffy_Gear_2/458.gif
+	offset	23 96
+	frame	data/chars/Luffy_Gear_2/459.gif
+	offset	23 96
+	frame	data/chars/Luffy_Gear_2/460.gif
+	offset	2 92
+	frame	data/chars/Luffy_Gear_2/461.gif
+	offset	3 88
+	frame	data/chars/Luffy_Gear_2/462.gif
+	offset	-11 87
+	frame	data/chars/Luffy_Gear_2/463.gif
+		
+anim	0950
+	delay	7
+	offset	105 294
+	frame	data/chars/Luffy_Gear_2/464.gif
+	offset	300 290
+	frame	data/chars/Luffy_Gear_2/465.gif
+	offset	300 288
+	frame	data/chars/Luffy_Gear_2/466.gif
+	offset	300 296
+	frame	data/chars/Luffy_Gear_2/467.gif
+	offset	300 325
+	frame	data/chars/Luffy_Gear_2/468.gif
+	offset	300 354
+	frame	data/chars/Luffy_Gear_2/469.gif
+	offset	300 382
+	frame	data/chars/Luffy_Gear_2/470.gif
+	offset	300 400
+	frame	data/chars/Luffy_Gear_2/471.gif
+	offset	300 384
+	frame	data/chars/Luffy_Gear_2/472.gif
+	offset	300 400
+	frame	data/chars/Luffy_Gear_2/473.gif
+	offset	300 400
+	frame	data/chars/Luffy_Gear_2/474.gif
+	offset	293 384
+	frame	data/chars/Luffy_Gear_2/475.gif
+	offset	233 391
+	frame	data/chars/Luffy_Gear_2/476.gif
+	offset	214 399
+	frame	data/chars/Luffy_Gear_2/477.gif
+	offset	208 391
+	frame	data/chars/Luffy_Gear_2/478.gif
+	offset	183 365
+	frame	data/chars/Luffy_Gear_2/479.gif
+	offset	158 341
+	frame	data/chars/Luffy_Gear_2/480.gif
+	offset	151 338
+	frame	data/chars/Luffy_Gear_2/481.gif
+	offset	148 337
+	frame	data/chars/Luffy_Gear_2/482.gif
+	offset	147 338
+	frame	data/chars/Luffy_Gear_2/483.gif
+	offset	146 336
+	frame	data/chars/Luffy_Gear_2/484.gif
+	offset	142 333
+	frame	data/chars/Luffy_Gear_2/485.gif
+	offset	137 332
+	frame	data/chars/Luffy_Gear_2/486.gif
+	offset	136 332
+	frame	data/chars/Luffy_Gear_2/487.gif
+	offset	134 332
+	frame	data/chars/Luffy_Gear_2/488.gif
+	offset	132 331
+	frame	data/chars/Luffy_Gear_2/489.gif
+	offset	125 330
+	frame	data/chars/Luffy_Gear_2/490.gif
+	offset	110 328
+	frame	data/chars/Luffy_Gear_2/491.gif
+	offset	67 323
+	frame	data/chars/Luffy_Gear_2/492.gif
+	offset	62 314
+	frame	data/chars/Luffy_Gear_2/493.gif
+	offset	100 292
+	frame	data/chars/Luffy_Gear_2/494.gif
+	offset	273 289
+	frame	data/chars/Luffy_Gear_2/495.gif
+	offset	273 287
+	frame	data/chars/Luffy_Gear_2/496.gif
+	offset	273 295
+	frame	data/chars/Luffy_Gear_2/497.gif
+	offset	273 324
+	frame	data/chars/Luffy_Gear_2/498.gif
+	offset	273 353
+	frame	data/chars/Luffy_Gear_2/499.gif
+	offset	273 382
+	frame	data/chars/Luffy_Gear_2/500.gif
+	offset	273 396
+	frame	data/chars/Luffy_Gear_2/501.gif
+	offset	273 384
+	frame	data/chars/Luffy_Gear_2/502.gif
+	offset	273 396
+	frame	data/chars/Luffy_Gear_2/503.gif
+	offset	273 396
+	frame	data/chars/Luffy_Gear_2/504.gif
+	offset	273 383
+	frame	data/chars/Luffy_Gear_2/505.gif
+	offset	236 390
+	frame	data/chars/Luffy_Gear_2/506.gif
+	offset	214 396
+	frame	data/chars/Luffy_Gear_2/507.gif
+	offset	208 390
+	frame	data/chars/Luffy_Gear_2/508.gif
+	offset	182 365
+	frame	data/chars/Luffy_Gear_2/509.gif
+	offset	157 340
+	frame	data/chars/Luffy_Gear_2/510.gif
+	offset	145 332
+	frame	data/chars/Luffy_Gear_2/511.gif
+	offset	141 331
+	frame	data/chars/Luffy_Gear_2/512.gif
+	offset	137 330
+	frame	data/chars/Luffy_Gear_2/513.gif
+	offset	133 329
+	frame	data/chars/Luffy_Gear_2/514.gif
+	offset	133 327
+	frame	data/chars/Luffy_Gear_2/515.gif
+	offset	129 327
+	frame	data/chars/Luffy_Gear_2/516.gif
+	offset	128 324
+	frame	data/chars/Luffy_Gear_2/517.gif
+	offset	122 323
+	frame	data/chars/Luffy_Gear_2/518.gif
+	offset	118 320
+	frame	data/chars/Luffy_Gear_2/519.gif
+	offset	106 319
+	frame	data/chars/Luffy_Gear_2/520.gif
+	offset	71 314
+	frame	data/chars/Luffy_Gear_2/521.gif
+	offset	59 305
+	frame	data/chars/Luffy_Gear_2/522.gif
+	offset	55 287
+	frame	data/chars/Luffy_Gear_2/523.gif
+		
+anim	7000
+	delay	7
+	offset	24 24
+	frame	data/chars/Luffy_Gear_2/394.gif
+	offset	19 19
+	frame	data/chars/Luffy_Gear_2/395.gif
+	offset	14 15
+	frame	data/chars/Luffy_Gear_2/396.gif
+	offset	9 16
+	frame	data/chars/Luffy_Gear_2/397.gif
+	offset	11 19
+	frame	data/chars/Luffy_Gear_2/398.gif
+	offset	12 22
+	frame	data/chars/Luffy_Gear_2/399.gif
+	offset	7 25
+	frame	data/chars/Luffy_Gear_2/400.gif
+	offset	11 23
+	frame	data/chars/Luffy_Gear_2/401.gif
+	offset	12 23
+	frame	data/chars/Luffy_Gear_2/402.gif
+	offset	12 24
+	frame	data/chars/Luffy_Gear_2/403.gif
+	offset	13 31
+	frame	data/chars/Luffy_Gear_2/404.gif
+	offset	13 32
+	frame	data/chars/Luffy_Gear_2/405.gif
+	offset	13 33
+	frame	data/chars/Luffy_Gear_2/406.gif
+	offset	13 35
+	frame	data/chars/Luffy_Gear_2/407.gif
+	offset	13 36
+	frame	data/chars/Luffy_Gear_2/408.gif
+	offset	13 36
+	frame	data/chars/Luffy_Gear_2/409.gif
+	offset	11 37
+	frame	data/chars/Luffy_Gear_2/410.gif
+	offset	10 38
+	frame	data/chars/Luffy_Gear_2/411.gif
+	offset	7 40
+	frame	data/chars/Luffy_Gear_2/412.gif
+	offset	8 41
+	frame	data/chars/Luffy_Gear_2/413.gif
+	offset	2 43
+	frame	data/chars/Luffy_Gear_2/414.gif
+		
+anim	7052
+	delay	7
+	offset	179 41
+	frame	data/chars/Luffy_Gear_2/433.gif
+	offset	178 43
+	frame	data/chars/Luffy_Gear_2/434.gif
+	offset	219 45
+	frame	data/chars/Luffy_Gear_2/435.gif
+	offset	225 59
+	frame	data/chars/Luffy_Gear_2/436.gif
+	offset	222 62
+	frame	data/chars/Luffy_Gear_2/437.gif
+	offset	223 59
+	frame	data/chars/Luffy_Gear_2/438.gif
+	offset	226 60
+	frame	data/chars/Luffy_Gear_2/439.gif
+	offset	219 63
+	frame	data/chars/Luffy_Gear_2/440.gif
+	offset	209 63
+	frame	data/chars/Luffy_Gear_2/441.gif
+		
+anim	7053
+	delay	7
+	offset	0 -102
+	frame	data/chars/Luffy_Gear_2/442.gif
+	offset	0 -92
+	frame	data/chars/Luffy_Gear_2/443.gif
+	offset	0 -70
+	frame	data/chars/Luffy_Gear_2/444.gif
+	offset	0 -3
+	frame	data/chars/Luffy_Gear_2/445.gif
+	offset	0 -3
+	frame	data/chars/Luffy_Gear_2/446.gif
+	offset	0 -3
+	frame	data/chars/Luffy_Gear_2/447.gif
+	offset	0 -3
+	frame	data/chars/Luffy_Gear_2/448.gif
+	offset	0 0
+	frame	data/chars/Luffy_Gear_2/449.gif
+	offset	0 0
+	frame	data/chars/Luffy_Gear_2/450.gif
+	offset	0 0
+	frame	data/chars/Luffy_Gear_2/451.gif
+	offset	0 0
+	frame	data/chars/Luffy_Gear_2/452.gif
+	offset	0 -1
+	frame	data/chars/Luffy_Gear_2/453.gif
+	offset	0 -8
+	frame	data/chars/Luffy_Gear_2/454.gif
+	offset	0 -6
+	frame	data/chars/Luffy_Gear_2/455.gif
+		
+anim	8200
+	delay	7
+	offset	108 237
+	frame	data/chars/Luffy_Gear_2/415.gif
+	offset	114 256
+	frame	data/chars/Luffy_Gear_2/416.gif
+	offset	121 276
+	frame	data/chars/Luffy_Gear_2/417.gif
+	offset	128 193
+	frame	data/chars/Luffy_Gear_2/418.gif
+	offset	135 198
+	frame	data/chars/Luffy_Gear_2/419.gif
+	offset	126 199
+	frame	data/chars/Luffy_Gear_2/420.gif
+	offset	125 186
+	frame	data/chars/Luffy_Gear_2/421.gif
+	offset	127 180
+	frame	data/chars/Luffy_Gear_2/422.gif
+	offset	124 124
+	frame	data/chars/Luffy_Gear_2/423.gif
+	offset	115 109
+	frame	data/chars/Luffy_Gear_2/424.gif
+		
+anim	8230
+	delay	7
+	offset	68 31
+	frame	data/chars/Luffy_Gear_2/252.gif
+	offset	83 92
+	frame	data/chars/Luffy_Gear_2/253.gif
+	offset	99 149
+	frame	data/chars/Luffy_Gear_2/254.gif
+	offset	98 178
+	frame	data/chars/Luffy_Gear_2/255.gif
+	offset	100 196
+	frame	data/chars/Luffy_Gear_2/256.gif
+	offset	100 203
+	frame	data/chars/Luffy_Gear_2/257.gif
+	offset	98 210
+	frame	data/chars/Luffy_Gear_2/258.gif
+	offset	98 219
+	frame	data/chars/Luffy_Gear_2/259.gif
+	offset	97 226
+	frame	data/chars/Luffy_Gear_2/260.gif
+	offset	96 230
+	frame	data/chars/Luffy_Gear_2/261.gif
+	offset	97 232
+	frame	data/chars/Luffy_Gear_2/262.gif
+	offset	99 234
+	frame	data/chars/Luffy_Gear_2/263.gif
+	offset	100 232
+	frame	data/chars/Luffy_Gear_2/264.gif
+	offset	101 236
+	frame	data/chars/Luffy_Gear_2/265.gif
+	offset	100 222
+	frame	data/chars/Luffy_Gear_2/266.gif
+	offset	88 224
+	frame	data/chars/Luffy_Gear_2/267.gif
+	offset	88 224
+	frame	data/chars/Luffy_Gear_2/268.gif
+	offset	89 224
+	frame	data/chars/Luffy_Gear_2/269.gif
+	offset	89 226
+	frame	data/chars/Luffy_Gear_2/270.gif
+	offset	90 227
+	frame	data/chars/Luffy_Gear_2/271.gif
+	offset	90 231
+	frame	data/chars/Luffy_Gear_2/272.gif
+	offset	90 232
+	frame	data/chars/Luffy_Gear_2/273.gif
+	offset	93 232
+	frame	data/chars/Luffy_Gear_2/274.gif
+	offset	95 232
+	frame	data/chars/Luffy_Gear_2/275.gif
+	offset	96 232
+	frame	data/chars/Luffy_Gear_2/276.gif
+	offset	96 233
+	frame	data/chars/Luffy_Gear_2/277.gif
+	offset	97 232
+	frame	data/chars/Luffy_Gear_2/278.gif
+	offset	98 233
+	frame	data/chars/Luffy_Gear_2/279.gif
+	offset	99 233
+	frame	data/chars/Luffy_Gear_2/280.gif
+	offset	101 234
+	frame	data/chars/Luffy_Gear_2/281.gif
+	offset	101 234
+	frame	data/chars/Luffy_Gear_2/282.gif
+	offset	103 240
+	frame	data/chars/Luffy_Gear_2/283.gif
+	offset	103 235
+	frame	data/chars/Luffy_Gear_2/284.gif
+	offset	105 217
+	frame	data/chars/Luffy_Gear_2/285.gif
+	offset	105 217
+	frame	data/chars/Luffy_Gear_2/286.gif
+	offset	106 219
+	frame	data/chars/Luffy_Gear_2/287.gif
+	offset	105 221
+	frame	data/chars/Luffy_Gear_2/288.gif
+	offset	106 224
+	frame	data/chars/Luffy_Gear_2/289.gif
+	offset	98 226
+	frame	data/chars/Luffy_Gear_2/290.gif
+	offset	98 227
+	frame	data/chars/Luffy_Gear_2/291.gif
+	offset	98 229
+	frame	data/chars/Luffy_Gear_2/292.gif
+	offset	98 229
+	frame	data/chars/Luffy_Gear_2/293.gif
+	offset	97 228
+	frame	data/chars/Luffy_Gear_2/294.gif
+	offset	97 223
+	frame	data/chars/Luffy_Gear_2/295.gif
+	offset	94 222
+	frame	data/chars/Luffy_Gear_2/296.gif
+	offset	93 195
+	frame	data/chars/Luffy_Gear_2/297.gif
+	offset	91 194
+	frame	data/chars/Luffy_Gear_2/298.gif
+	offset	90 194
+	frame	data/chars/Luffy_Gear_2/299.gif
+	offset	76 192
+	frame	data/chars/Luffy_Gear_2/300.gif
+	offset	76 191
+	frame	data/chars/Luffy_Gear_2/301.gif
+	offset	76 191
+	frame	data/chars/Luffy_Gear_2/302.gif
+	offset	76 188
+	frame	data/chars/Luffy_Gear_2/303.gif
+	offset	76 187
+	frame	data/chars/Luffy_Gear_2/304.gif
+	offset	74 186
+	frame	data/chars/Luffy_Gear_2/305.gif
+	offset	67 168
+	frame	data/chars/Luffy_Gear_2/306.gif
+	offset	55 157
+	frame	data/chars/Luffy_Gear_2/307.gif
+	offset	39 128
+	frame	data/chars/Luffy_Gear_2/308.gif
+		
+anim	8240
+	delay	7
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/309.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/310.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/311.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/312.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/313.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/314.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/315.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/316.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/317.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/318.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/319.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/320.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/321.gif
+	offset	197 29
+	frame	data/chars/Luffy_Gear_2/322.gif
+	offset	198 29
+	frame	data/chars/Luffy_Gear_2/323.gif
+	offset	197 29
+	frame	data/chars/Luffy_Gear_2/324.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/325.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/326.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/327.gif
+	offset	198 30
+	frame	data/chars/Luffy_Gear_2/328.gif
+		
+anim	8250
+	delay	7
+	offset	57 10
+	frame	data/chars/Luffy_Gear_2/329.gif
+	offset	91 20
+	frame	data/chars/Luffy_Gear_2/330.gif
+	offset	122 29
+	frame	data/chars/Luffy_Gear_2/331.gif
+	offset	150 38
+	frame	data/chars/Luffy_Gear_2/332.gif
+	offset	174 45
+	frame	data/chars/Luffy_Gear_2/333.gif
+	offset	195 50
+	frame	data/chars/Luffy_Gear_2/334.gif
+	offset	212 53
+	frame	data/chars/Luffy_Gear_2/335.gif
+	offset	226 54
+	frame	data/chars/Luffy_Gear_2/336.gif
+	offset	237 54
+	frame	data/chars/Luffy_Gear_2/337.gif
+	offset	245 54
+	frame	data/chars/Luffy_Gear_2/338.gif
+	offset	252 53
+	frame	data/chars/Luffy_Gear_2/339.gif
+	offset	266 52
+	frame	data/chars/Luffy_Gear_2/340.gif
+	offset	284 50
+	frame	data/chars/Luffy_Gear_2/341.gif
+	offset	298 48
+	frame	data/chars/Luffy_Gear_2/342.gif
+	offset	313 49
+	frame	data/chars/Luffy_Gear_2/343.gif
+	offset	328 50
+	frame	data/chars/Luffy_Gear_2/344.gif
+	offset	343 50
+	frame	data/chars/Luffy_Gear_2/345.gif
+	offset	359 51
+	frame	data/chars/Luffy_Gear_2/346.gif
+	offset	373 51
+	frame	data/chars/Luffy_Gear_2/347.gif
+	offset	388 51
+	frame	data/chars/Luffy_Gear_2/348.gif
+	offset	404 51
+	frame	data/chars/Luffy_Gear_2/349.gif
+	offset	418 51
+	frame	data/chars/Luffy_Gear_2/350.gif
+	offset	411 50
+	frame	data/chars/Luffy_Gear_2/351.gif
+	offset	421 50
+	frame	data/chars/Luffy_Gear_2/352.gif
+	offset	431 49
+	frame	data/chars/Luffy_Gear_2/353.gif
+	offset	446 48
+	frame	data/chars/Luffy_Gear_2/354.gif
+	offset	462 47
+	frame	data/chars/Luffy_Gear_2/355.gif
+	offset	446 45
+	frame	data/chars/Luffy_Gear_2/356.gif
+	offset	443 44
+	frame	data/chars/Luffy_Gear_2/357.gif
+	offset	456 42
+	frame	data/chars/Luffy_Gear_2/358.gif
+	offset	468 40
+	frame	data/chars/Luffy_Gear_2/359.gif
+	offset	482 38
+	frame	data/chars/Luffy_Gear_2/360.gif
+	offset	392 36
+	frame	data/chars/Luffy_Gear_2/361.gif
+	offset	345 34
+	frame	data/chars/Luffy_Gear_2/362.gif
+	offset	319 31
+	frame	data/chars/Luffy_Gear_2/363.gif
+	offset	322 29
+	frame	data/chars/Luffy_Gear_2/364.gif
+	offset	327 27
+	frame	data/chars/Luffy_Gear_2/365.gif
+	offset	336 20
+	frame	data/chars/Luffy_Gear_2/366.gif
+	offset	339 20
+	frame	data/chars/Luffy_Gear_2/367.gif
+	offset	343 13
+	frame	data/chars/Luffy_Gear_2/368.gif
+	offset	348 12
+	frame	data/chars/Luffy_Gear_2/369.gif
+	offset	346 -14
+	frame	data/chars/Luffy_Gear_2/370.gif
+	offset	389 -73
+	frame	data/chars/Luffy_Gear_2/371.gif
+	offset	298 -92
+	frame	data/chars/Luffy_Gear_2/372.gif
+	offset	399 -85
+	frame	data/chars/Luffy_Gear_2/373.gif
+	offset	299 -100
+	frame	data/chars/Luffy_Gear_2/374.gif
+	offset	409 -102
+	frame	data/chars/Luffy_Gear_2/375.gif
+	offset	414 -116
+	frame	data/chars/Luffy_Gear_2/376.gif
+	offset	308 -111
+	frame	data/chars/Luffy_Gear_2/377.gif
+	offset	342 -126
+	frame	data/chars/Luffy_Gear_2/378.gif
+	offset	370 -116
+	frame	data/chars/Luffy_Gear_2/379.gif
+	offset	433 -132
+	frame	data/chars/Luffy_Gear_2/380.gif
+	offset	438 -127
+	frame	data/chars/Luffy_Gear_2/381.gif
+	offset	443 -135
+	frame	data/chars/Luffy_Gear_2/382.gif
+	offset	448 -155
+	frame	data/chars/Luffy_Gear_2/383.gif
+	offset	453 -148
+	frame	data/chars/Luffy_Gear_2/384.gif
+	offset	458 -148
+	frame	data/chars/Luffy_Gear_2/385.gif
+	offset	339 -150
+	frame	data/chars/Luffy_Gear_2/386.gif
+	offset	344 -164
+	frame	data/chars/Luffy_Gear_2/387.gif
+	offset	345 -169
+	frame	data/chars/Luffy_Gear_2/388.gif
+	offset	351 -187
+	frame	data/chars/Luffy_Gear_2/389.gif
+	offset	351 -184
+	frame	data/chars/Luffy_Gear_2/390.gif
+	offset	365 -182
+	frame	data/chars/Luffy_Gear_2/391.gif
+	offset	359 -200
+	frame	data/chars/Luffy_Gear_2/392.gif
+	offset	365 -197
+	frame	data/chars/Luffy_Gear_2/393.gif
+		
+anim	9000
+	delay	7
+	offset	0 0
+	frame	data/chars/Luffy_Gear_2/0.gif
+	offset	0 0
+	frame	data/chars/Luffy_Gear_2/1.gif
+	offset	0 -32
+	frame	data/chars/Luffy_Gear_2/2.gif
+		
+anim	9007
+	delay	7
+	offset	75 10
+	frame	data/chars/Luffy_Gear_2/425.gif
+	offset	93 12
+	frame	data/chars/Luffy_Gear_2/426.gif
+	offset	111 14
+	frame	data/chars/Luffy_Gear_2/427.gif
+	offset	124 16
+	frame	data/chars/Luffy_Gear_2/428.gif
+	offset	122 16
+	frame	data/chars/Luffy_Gear_2/429.gif
+		
+anim	9008
+	delay	7
+	offset	110 8
+	frame	data/chars/Luffy_Gear_2/430.gif
+		
+anim	9021
+	delay	7
+	offset	320 240
+	frame	data/chars/Luffy_Gear_2/431.gif
+		
+anim	9022
+	delay	7
+	offset	88 130
+	frame	data/chars/Luffy_Gear_2/578.gif
+	offset	93 218
+	frame	data/chars/Luffy_Gear_2/579.gif
+	offset	80 250
+	frame	data/chars/Luffy_Gear_2/580.gif
+	offset	63 249
+	frame	data/chars/Luffy_Gear_2/581.gif
+	offset	55 248
+	frame	data/chars/Luffy_Gear_2/582.gif
+	offset	58 242
+	frame	data/chars/Luffy_Gear_2/583.gif
+	offset	53 250
+	frame	data/chars/Luffy_Gear_2/584.gif
+	offset	62 259
+	frame	data/chars/Luffy_Gear_2/585.gif
+	offset	64 258
+	frame	data/chars/Luffy_Gear_2/586.gif
+	offset	66 258
+	frame	data/chars/Luffy_Gear_2/587.gif
+	offset	34 257
+	frame	data/chars/Luffy_Gear_2/588.gif
+	offset	21 258
+	frame	data/chars/Luffy_Gear_2/589.gif
+	offset	36 255
+	frame	data/chars/Luffy_Gear_2/590.gif
+	offset	36 250
+	frame	data/chars/Luffy_Gear_2/591.gif
+	offset	34 246
+	frame	data/chars/Luffy_Gear_2/592.gif
+	offset	-92 226
+	frame	data/chars/Luffy_Gear_2/593.gif
+		
+anim	9025
+	delay	7
+	offset	46 83
+	frame	data/chars/Luffy_Gear_2/594.gif
+	offset	43 111
+	frame	data/chars/Luffy_Gear_2/595.gif
+	offset	44 125
+	frame	data/chars/Luffy_Gear_2/596.gif
+	offset	41 134
+	frame	data/chars/Luffy_Gear_2/597.gif
+	offset	34 135
+	frame	data/chars/Luffy_Gear_2/598.gif
+	offset	10 134
+	frame	data/chars/Luffy_Gear_2/599.gif
+	offset	6 68
+	frame	data/chars/Luffy_Gear_2/600.gif
+		
+anim	9026
+	delay	7
+	offset	90 202
+	frame	data/chars/Luffy_Gear_2/601.gif
+	offset	165 218
+	frame	data/chars/Luffy_Gear_2/602.gif
+	offset	182 233
+	frame	data/chars/Luffy_Gear_2/603.gif
+	offset	192 249
+	frame	data/chars/Luffy_Gear_2/604.gif
+	offset	192 260
+	frame	data/chars/Luffy_Gear_2/605.gif
+	offset	169 226
+	frame	data/chars/Luffy_Gear_2/606.gif
+	offset	155 129
+	frame	data/chars/Luffy_Gear_2/607.gif
+	offset	138 106
+	frame	data/chars/Luffy_Gear_2/608.gif
+	offset	121 82
+	frame	data/chars/Luffy_Gear_2/609.gif
+	offset	104 59
+	frame	data/chars/Luffy_Gear_2/610.gif
+		
+anim	9027
+	delay	7
+	offset	40 83
+	frame	data/chars/Luffy_Gear_2/611.gif
+	offset	48 116
+	frame	data/chars/Luffy_Gear_2/612.gif
+	offset	52 122
+	frame	data/chars/Luffy_Gear_2/613.gif
+	offset	53 123
+	frame	data/chars/Luffy_Gear_2/614.gif
+	offset	52 120
+	frame	data/chars/Luffy_Gear_2/615.gif
+	offset	45 118
+	frame	data/chars/Luffy_Gear_2/616.gif
+	offset	41 116
+	frame	data/chars/Luffy_Gear_2/617.gif
+	offset	41 108
+	frame	data/chars/Luffy_Gear_2/618.gif
+	offset	38 103
+	frame	data/chars/Luffy_Gear_2/619.gif
+		
+anim	attack200
+	delay	7
+	offset	9 50
+	frame	data/chars/Luffy_Gear_2/108.gif
+	offset	9 48
+	frame	data/chars/Luffy_Gear_2/109.gif
+	offset	9 46
+	frame	data/chars/Luffy_Gear_2/110.gif
+	offset	15 49
+	frame	data/chars/Luffy_Gear_2/111.gif
+	offset	16 41
+	frame	data/chars/Luffy_Gear_2/112.gif
+	offset	16 42
+	frame	data/chars/Luffy_Gear_2/113.gif
+	offset	16 43
+	frame	data/chars/Luffy_Gear_2/114.gif
+	offset	15 35
+	frame	data/chars/Luffy_Gear_2/115.gif
+	offset	15 36
+	frame	data/chars/Luffy_Gear_2/116.gif
+	offset	15 35
+	frame	data/chars/Luffy_Gear_2/117.gif
+	offset	15 34
+	frame	data/chars/Luffy_Gear_2/118.gif
+	offset	15 33
+	frame	data/chars/Luffy_Gear_2/119.gif
+	offset	15 33
+	frame	data/chars/Luffy_Gear_2/120.gif
+	offset	15 33
+	frame	data/chars/Luffy_Gear_2/121.gif
+	offset	15 34
+	frame	data/chars/Luffy_Gear_2/122.gif
+	offset	15 36
+	frame	data/chars/Luffy_Gear_2/123.gif
+	offset	15 35
+	frame	data/chars/Luffy_Gear_2/124.gif
+	offset	15 33
+	frame	data/chars/Luffy_Gear_2/125.gif
+	offset	16 28
+	frame	data/chars/Luffy_Gear_2/126.gif
+	offset	15 40
+	frame	data/chars/Luffy_Gear_2/127.gif
+	offset	16 40
+	frame	data/chars/Luffy_Gear_2/128.gif
+	offset	19 34
+	frame	data/chars/Luffy_Gear_2/129.gif
+	offset	19 34
+	frame	data/chars/Luffy_Gear_2/130.gif
+	offset	18 39
+	frame	data/chars/Luffy_Gear_2/131.gif
+	offset	24 38
+	frame	data/chars/Luffy_Gear_2/132.gif
+	offset	19 40
+	frame	data/chars/Luffy_Gear_2/133.gif
+	offset	19 40
+	frame	data/chars/Luffy_Gear_2/134.gif
+	offset	16 40
+	frame	data/chars/Luffy_Gear_2/135.gif
+	offset	21 41
+	frame	data/chars/Luffy_Gear_2/136.gif
+	offset	27 31
+	frame	data/chars/Luffy_Gear_2/137.gif
+	offset	25 27
+	frame	data/chars/Luffy_Gear_2/138.gif
+	offset	25 27
+	frame	data/chars/Luffy_Gear_2/139.gif
+	offset	24 28
+	frame	data/chars/Luffy_Gear_2/140.gif
+	offset	20 33
+	frame	data/chars/Luffy_Gear_2/141.gif
+	offset	12 41
+	frame	data/chars/Luffy_Gear_2/142.gif
+	offset	24 39
+	frame	data/chars/Luffy_Gear_2/143.gif
+	offset	22 68
+	frame	data/chars/Luffy_Gear_2/144.gif
+	offset	22 55
+	frame	data/chars/Luffy_Gear_2/145.gif
+	offset	19 42
+	frame	data/chars/Luffy_Gear_2/146.gif
+	offset	16 42
+	frame	data/chars/Luffy_Gear_2/147.gif
+	offset	19 23
+	frame	data/chars/Luffy_Gear_2/148.gif
+	offset	16 25
+	frame	data/chars/Luffy_Gear_2/149.gif
+	offset	15 29
+	frame	data/chars/Luffy_Gear_2/150.gif
+	offset	34 41
+	frame	data/chars/Luffy_Gear_2/151.gif
+	offset	34 42
+	frame	data/chars/Luffy_Gear_2/152.gif
+	offset	20 44
+	frame	data/chars/Luffy_Gear_2/153.gif
+	offset	20 27
+	frame	data/chars/Luffy_Gear_2/154.gif
+	offset	18 30
+	frame	data/chars/Luffy_Gear_2/155.gif
+	offset	15 35
+	frame	data/chars/Luffy_Gear_2/156.gif
+	offset	19 40
+	frame	data/chars/Luffy_Gear_2/157.gif
+	offset	19 41
+	frame	data/chars/Luffy_Gear_2/158.gif
+	offset	19 39
+	frame	data/chars/Luffy_Gear_2/159.gif
+	offset	19 40
+	frame	data/chars/Luffy_Gear_2/160.gif
+	offset	19 40
+	frame	data/chars/Luffy_Gear_2/161.gif
+	offset	19 40
+	frame	data/chars/Luffy_Gear_2/162.gif
+	offset	22 37
+	frame	data/chars/Luffy_Gear_2/163.gif
+	offset	22 36
+	frame	data/chars/Luffy_Gear_2/164.gif
+	offset	21 48
+	frame	data/chars/Luffy_Gear_2/165.gif
+	offset	21 29
+	frame	data/chars/Luffy_Gear_2/166.gif
+	offset	21 28
+	frame	data/chars/Luffy_Gear_2/167.gif
+	offset	16 51
+	frame	data/chars/Luffy_Gear_2/168.gif
+	offset	16 45
+	frame	data/chars/Luffy_Gear_2/169.gif
+	offset	21 40
+	frame	data/chars/Luffy_Gear_2/170.gif
+	offset	47 40
+	frame	data/chars/Luffy_Gear_2/171.gif
+	offset	79 40
+	frame	data/chars/Luffy_Gear_2/172.gif
+	offset	102 40
+	frame	data/chars/Luffy_Gear_2/173.gif
+	offset	61 38
+	frame	data/chars/Luffy_Gear_2/174.gif
+	offset	48 34
+	frame	data/chars/Luffy_Gear_2/175.gif
+	offset	18 33
+	frame	data/chars/Luffy_Gear_2/176.gif
+	offset	17 34
+	frame	data/chars/Luffy_Gear_2/177.gif
+	offset	18 39
+	frame	data/chars/Luffy_Gear_2/178.gif
+	offset	21 41
+	frame	data/chars/Luffy_Gear_2/179.gif
+	offset	30 40
+	frame	data/chars/Luffy_Gear_2/180.gif
+	offset	26 90
+	frame	data/chars/Luffy_Gear_2/181.gif
+	offset	18 97
+	frame	data/chars/Luffy_Gear_2/182.gif
+	offset	18 87
+	frame	data/chars/Luffy_Gear_2/183.gif
+	offset	18 57
+	frame	data/chars/Luffy_Gear_2/184.gif
+	offset	16 45
+	frame	data/chars/Luffy_Gear_2/185.gif
+	offset	17 45
+	frame	data/chars/Luffy_Gear_2/186.gif
+	offset	17 46
+	frame	data/chars/Luffy_Gear_2/187.gif
+	offset	17 97
+	frame	data/chars/Luffy_Gear_2/188.gif
+	offset	17 109
+	frame	data/chars/Luffy_Gear_2/189.gif
+	offset	17 122
+	frame	data/chars/Luffy_Gear_2/190.gif
+	offset	17 116
+	frame	data/chars/Luffy_Gear_2/191.gif
+	offset	17 120
+	frame	data/chars/Luffy_Gear_2/192.gif
+	offset	17 117
+	frame	data/chars/Luffy_Gear_2/193.gif
+	offset	19 69
+	frame	data/chars/Luffy_Gear_2/194.gif
+	offset	19 44
+	frame	data/chars/Luffy_Gear_2/195.gif
+	offset	11 43
+	frame	data/chars/Luffy_Gear_2/196.gif
+	offset	16 41
+	frame	data/chars/Luffy_Gear_2/197.gif
+	offset	15 41
+	frame	data/chars/Luffy_Gear_2/198.gif
+	offset	22 68
+	frame	data/chars/Luffy_Gear_2/199.gif
+	offset	24 107
+	frame	data/chars/Luffy_Gear_2/200.gif
+	offset	24 122
+	frame	data/chars/Luffy_Gear_2/201.gif
+	offset	24 114
+	frame	data/chars/Luffy_Gear_2/202.gif
+	offset	27 99
+	frame	data/chars/Luffy_Gear_2/203.gif
+	offset	19 26
+	frame	data/chars/Luffy_Gear_2/204.gif
+	offset	19 26
+	frame	data/chars/Luffy_Gear_2/205.gif
+	offset	16 38
+	frame	data/chars/Luffy_Gear_2/206.gif
+	offset	16 38
+	frame	data/chars/Luffy_Gear_2/207.gif
+	offset	23 28
+	frame	data/chars/Luffy_Gear_2/208.gif
+	offset	18 32
+	frame	data/chars/Luffy_Gear_2/209.gif
+	offset	18 33
+	frame	data/chars/Luffy_Gear_2/210.gif
+	offset	22 34
+	frame	data/chars/Luffy_Gear_2/211.gif
+	offset	22 34
+	frame	data/chars/Luffy_Gear_2/212.gif
+	offset	23 28
+	frame	data/chars/Luffy_Gear_2/213.gif
+	offset	18 30
+	frame	data/chars/Luffy_Gear_2/214.gif
+	offset	16 42
+	frame	data/chars/Luffy_Gear_2/215.gif
+	offset	45 36
+	frame	data/chars/Luffy_Gear_2/216.gif
+	offset	65 36
+	frame	data/chars/Luffy_Gear_2/217.gif
+	offset	82 38
+	frame	data/chars/Luffy_Gear_2/218.gif
+	offset	96 41
+	frame	data/chars/Luffy_Gear_2/219.gif
+	offset	201 53
+	frame	data/chars/Luffy_Gear_2/220.gif
+	offset	66 37
+	frame	data/chars/Luffy_Gear_2/221.gif
+	offset	19 44
+	frame	data/chars/Luffy_Gear_2/222.gif
+	offset	18 39
+	frame	data/chars/Luffy_Gear_2/223.gif
+	offset	16 38
+	frame	data/chars/Luffy_Gear_2/224.gif
+	offset	22 36
+	frame	data/chars/Luffy_Gear_2/225.gif
+	offset	18 37
+	frame	data/chars/Luffy_Gear_2/226.gif
+	offset	18 38
+	frame	data/chars/Luffy_Gear_2/227.gif
+	offset	22 37
+	frame	data/chars/Luffy_Gear_2/228.gif
+	offset	18 37
+	frame	data/chars/Luffy_Gear_2/229.gif
+	offset	18 37
+	frame	data/chars/Luffy_Gear_2/230.gif
+	offset	16 33
+	frame	data/chars/Luffy_Gear_2/231.gif
+	offset	17 4
+	frame	data/chars/Luffy_Gear_2/232.gif
+	offset	14 4
+	frame	data/chars/Luffy_Gear_2/233.gif
+	offset	27 9
+	frame	data/chars/Luffy_Gear_2/234.gif
+	offset	29 10
+	frame	data/chars/Luffy_Gear_2/235.gif
+	offset	10 6
+	frame	data/chars/Luffy_Gear_2/236.gif
+	offset	16 43
+	frame	data/chars/Luffy_Gear_2/237.gif
+	offset	16 43
+	frame	data/chars/Luffy_Gear_2/238.gif
+	offset	16 36
+	frame	data/chars/Luffy_Gear_2/239.gif
+	offset	37 49
+	frame	data/chars/Luffy_Gear_2/240.gif
+	offset	40 53
+	frame	data/chars/Luffy_Gear_2/241.gif
+	offset	47 66
+	frame	data/chars/Luffy_Gear_2/242.gif
+	offset	32 63
+	frame	data/chars/Luffy_Gear_2/243.gif
+	offset	36 52
+	frame	data/chars/Luffy_Gear_2/244.gif
+	offset	42 48
+	frame	data/chars/Luffy_Gear_2/245.gif
+	offset	25 49
+	frame	data/chars/Luffy_Gear_2/246.gif
+		
+anim	attack330
+	delay	7
+	offset	72 81
+	frame	data/chars/Luffy_Gear_2/247.gif
+	offset	88 98
+	frame	data/chars/Luffy_Gear_2/248.gif
+	offset	104 107
+	frame	data/chars/Luffy_Gear_2/249.gif
+	offset	108 114
+	frame	data/chars/Luffy_Gear_2/250.gif
+	offset	95 118
+	frame	data/chars/Luffy_Gear_2/251.gif
+		
+anim	block120
+	delay	7
+	offset	14 32
+	frame	data/chars/Luffy_Gear_2/25.gif
+	offset	14 32
+	frame	data/chars/Luffy_Gear_2/26.gif
+	offset	14 32
+	frame	data/chars/Luffy_Gear_2/27.gif
+		
+anim	block121
+	delay	7
+	offset	14 32
+	frame	data/chars/Luffy_Gear_2/28.gif
+	offset	14 32
+	frame	data/chars/Luffy_Gear_2/29.gif
+		
+anim	block122
+	delay	7
+	offset	15 36
+	frame	data/chars/Luffy_Gear_2/30.gif
+	offset	15 36
+	frame	data/chars/Luffy_Gear_2/31.gif
+	offset	15 36
+	frame	data/chars/Luffy_Gear_2/32.gif
+		
+anim	faint
+	delay	7
+	offset	14 45
+	frame	data/chars/Luffy_Gear_2/107.gif
+		
+anim	fall5030
+	delay	7
+	offset	24 43
+	frame	data/chars/Luffy_Gear_2/57.gif
+	offset	33 20
+	frame	data/chars/Luffy_Gear_2/58.gif
+	offset	20 30
+	frame	data/chars/Luffy_Gear_2/59.gif
+	offset	20 30
+	frame	data/chars/Luffy_Gear_2/60.gif
+	offset	20 30
+	frame	data/chars/Luffy_Gear_2/61.gif
+	offset	26 25
+	frame	data/chars/Luffy_Gear_2/62.gif
+	offset	26 25
+	frame	data/chars/Luffy_Gear_2/63.gif
+		
+anim	fall5031
+	delay	7
+	offset	24 22
+	frame	data/chars/Luffy_Gear_2/64.gif
+	offset	33 15
+	frame	data/chars/Luffy_Gear_2/65.gif
+	offset	20 16
+	frame	data/chars/Luffy_Gear_2/66.gif
+	offset	20 16
+	frame	data/chars/Luffy_Gear_2/67.gif
+	offset	26 14
+	frame	data/chars/Luffy_Gear_2/68.gif
+	offset	26 14
+	frame	data/chars/Luffy_Gear_2/69.gif
+		
+anim	fall5032
+	delay	7
+	offset	24 -2
+	frame	data/chars/Luffy_Gear_2/70.gif
+	offset	33 0
+	frame	data/chars/Luffy_Gear_2/71.gif
+	offset	20 0
+	frame	data/chars/Luffy_Gear_2/72.gif
+	offset	20 0
+	frame	data/chars/Luffy_Gear_2/73.gif
+	offset	26 0
+	frame	data/chars/Luffy_Gear_2/74.gif
+	offset	26 0
+	frame	data/chars/Luffy_Gear_2/75.gif
+		
+anim	fall5040
+	delay	7
+	offset	20 30
+	frame	data/chars/Luffy_Gear_2/76.gif
+	offset	20 30
+	frame	data/chars/Luffy_Gear_2/77.gif
+	offset	30 11
+	frame	data/chars/Luffy_Gear_2/78.gif
+	offset	17 25
+	frame	data/chars/Luffy_Gear_2/79.gif
+	offset	24 23
+	frame	data/chars/Luffy_Gear_2/80.gif
+	offset	21 33
+	frame	data/chars/Luffy_Gear_2/81.gif
+	offset	33 20
+	frame	data/chars/Luffy_Gear_2/82.gif
+		
+anim	fall5041
+	delay	7
+	offset	20 16
+	frame	data/chars/Luffy_Gear_2/83.gif
+	offset	30 7
+	frame	data/chars/Luffy_Gear_2/84.gif
+	offset	26 14
+	frame	data/chars/Luffy_Gear_2/85.gif
+		
+anim	fall5042
+	delay	7
+	offset	20 0
+	frame	data/chars/Luffy_Gear_2/86.gif
+	offset	30 -2
+	frame	data/chars/Luffy_Gear_2/87.gif
+	offset	26 0
+	frame	data/chars/Luffy_Gear_2/88.gif
+		
+anim	fall5060
+	delay	7
+	offset	10 47
+	frame	data/chars/Luffy_Gear_2/89.gif
+	offset	10 47
+	frame	data/chars/Luffy_Gear_2/90.gif
+	offset	21 43
+	frame	data/chars/Luffy_Gear_2/91.gif
+		
+anim	fall5061
+	delay	7
+	offset	10 27
+	frame	data/chars/Luffy_Gear_2/92.gif
+	offset	21 23
+	frame	data/chars/Luffy_Gear_2/93.gif
+		
+anim	fall5062
+	delay	7
+	offset	10 4
+	frame	data/chars/Luffy_Gear_2/94.gif
+	offset	21 0
+	frame	data/chars/Luffy_Gear_2/95.gif
+		
+anim	fall5070
+	delay	7
+	offset	10 47
+	frame	data/chars/Luffy_Gear_2/96.gif
+	offset	8 22
+	frame	data/chars/Luffy_Gear_2/97.gif
+	offset	40 25
+	frame	data/chars/Luffy_Gear_2/98.gif
+	offset	8 22
+	frame	data/chars/Luffy_Gear_2/99.gif
+		
+anim	fall5071
+	delay	7
+	offset	10 27
+	frame	data/chars/Luffy_Gear_2/100.gif
+	offset	8 15
+	frame	data/chars/Luffy_Gear_2/101.gif
+	offset	40 13
+	frame	data/chars/Luffy_Gear_2/102.gif
+	offset	40 13
+	frame	data/chars/Luffy_Gear_2/103.gif
+		
+anim	fall5072
+	delay	7
+	offset	10 4
+	frame	data/chars/Luffy_Gear_2/104.gif
+	offset	8 0
+	frame	data/chars/Luffy_Gear_2/105.gif
+	offset	40 -2
+	frame	data/chars/Luffy_Gear_2/106.gif
+		
+anim	freespecial
+	delay	7
+	offset	16 43
+	frame	data/chars/Luffy_Gear_2/237.gif
+	offset	16 43
+	frame	data/chars/Luffy_Gear_2/238.gif
+	offset	16 36
+	frame	data/chars/Luffy_Gear_2/239.gif
+	offset	37 49
+	frame	data/chars/Luffy_Gear_2/240.gif
+	offset	40 53
+	frame	data/chars/Luffy_Gear_2/241.gif
+	offset	47 66
+	frame	data/chars/Luffy_Gear_2/242.gif
+	offset	32 63
+	frame	data/chars/Luffy_Gear_2/243.gif
+	offset	36 52
+	frame	data/chars/Luffy_Gear_2/244.gif
+	offset	42 48
+	frame	data/chars/Luffy_Gear_2/245.gif
+	offset	25 49
+	frame	data/chars/Luffy_Gear_2/246.gif
+		
+anim	freespecial3051
+	delay	7
+	offset	86 90
+	frame	data/chars/Luffy_Gear_2/524.gif
+	offset	86 90
+	frame	data/chars/Luffy_Gear_2/525.gif
+	offset	88 96
+	frame	data/chars/Luffy_Gear_2/526.gif
+	offset	92 100
+	frame	data/chars/Luffy_Gear_2/527.gif
+	offset	100 101
+	frame	data/chars/Luffy_Gear_2/528.gif
+	offset	100 104
+	frame	data/chars/Luffy_Gear_2/529.gif
+	offset	104 118
+	frame	data/chars/Luffy_Gear_2/530.gif
+	offset	114 121
+	frame	data/chars/Luffy_Gear_2/531.gif
+	offset	126 122
+	frame	data/chars/Luffy_Gear_2/532.gif
+	offset	138 113
+	frame	data/chars/Luffy_Gear_2/533.gif
+	offset	137 122
+	frame	data/chars/Luffy_Gear_2/534.gif
+	offset	125 147
+	frame	data/chars/Luffy_Gear_2/535.gif
+	offset	130 217
+	frame	data/chars/Luffy_Gear_2/536.gif
+	offset	154 230
+	frame	data/chars/Luffy_Gear_2/537.gif
+	offset	170 254
+	frame	data/chars/Luffy_Gear_2/538.gif
+	offset	182 268
+	frame	data/chars/Luffy_Gear_2/539.gif
+	offset	188 270
+	frame	data/chars/Luffy_Gear_2/540.gif
+	offset	193 254
+	frame	data/chars/Luffy_Gear_2/541.gif
+	offset	162 265
+	frame	data/chars/Luffy_Gear_2/542.gif
+	offset	176 273
+	frame	data/chars/Luffy_Gear_2/543.gif
+	offset	186 260
+	frame	data/chars/Luffy_Gear_2/544.gif
+	offset	190 266
+	frame	data/chars/Luffy_Gear_2/545.gif
+	offset	198 270
+	frame	data/chars/Luffy_Gear_2/546.gif
+	offset	202 274
+	frame	data/chars/Luffy_Gear_2/547.gif
+	offset	208 254
+	frame	data/chars/Luffy_Gear_2/548.gif
+	offset	212 264
+	frame	data/chars/Luffy_Gear_2/549.gif
+	offset	214 272
+	frame	data/chars/Luffy_Gear_2/550.gif
+	offset	215 274
+	frame	data/chars/Luffy_Gear_2/551.gif
+	offset	224 259
+	frame	data/chars/Luffy_Gear_2/552.gif
+	offset	224 263
+	frame	data/chars/Luffy_Gear_2/553.gif
+	offset	224 255
+	frame	data/chars/Luffy_Gear_2/554.gif
+	offset	224 261
+	frame	data/chars/Luffy_Gear_2/555.gif
+	offset	227 267
+	frame	data/chars/Luffy_Gear_2/556.gif
+	offset	230 271
+	frame	data/chars/Luffy_Gear_2/557.gif
+	offset	231 264
+	frame	data/chars/Luffy_Gear_2/558.gif
+	offset	232 270
+	frame	data/chars/Luffy_Gear_2/559.gif
+	offset	232 274
+	frame	data/chars/Luffy_Gear_2/560.gif
+	offset	233 264
+	frame	data/chars/Luffy_Gear_2/561.gif
+	offset	233 270
+	frame	data/chars/Luffy_Gear_2/562.gif
+	offset	233 276
+	frame	data/chars/Luffy_Gear_2/563.gif
+	offset	232 281
+	frame	data/chars/Luffy_Gear_2/564.gif
+	offset	226 269
+	frame	data/chars/Luffy_Gear_2/565.gif
+	offset	226 267
+	frame	data/chars/Luffy_Gear_2/566.gif
+	offset	228 268
+	frame	data/chars/Luffy_Gear_2/567.gif
+	offset	228 266
+	frame	data/chars/Luffy_Gear_2/568.gif
+	offset	228 266
+	frame	data/chars/Luffy_Gear_2/569.gif
+	offset	221 268
+	frame	data/chars/Luffy_Gear_2/570.gif
+	offset	198 263
+	frame	data/chars/Luffy_Gear_2/571.gif
+	offset	199 265
+	frame	data/chars/Luffy_Gear_2/572.gif
+	offset	199 265
+	frame	data/chars/Luffy_Gear_2/573.gif
+	offset	199 265
+	frame	data/chars/Luffy_Gear_2/574.gif
+	offset	196 264
+	frame	data/chars/Luffy_Gear_2/575.gif
+	offset	185 262
+	frame	data/chars/Luffy_Gear_2/576.gif
+	offset	166 260
+	frame	data/chars/Luffy_Gear_2/577.gif
+		
+anim	idle
+	delay	7
+	offset	16 41
+	frame	data/chars/Luffy_Gear_2/3.gif
+	offset	16 40
+	frame	data/chars/Luffy_Gear_2/4.gif
+	offset	16 39
+	frame	data/chars/Luffy_Gear_2/5.gif
+	offset	16 38
+	frame	data/chars/Luffy_Gear_2/6.gif
+		
+anim	jumpattack
+	delay	7
+	offset	23 28
+	frame	data/chars/Luffy_Gear_2/208.gif
+	attack	-31 32 102 81 0 0 1 0 0 0
+	offset	18 32
+	frame	data/chars/Luffy_Gear_2/209.gif
+	offset	18 33
+	frame	data/chars/Luffy_Gear_2/210.gif
+	offset	22 34
+	frame	data/chars/Luffy_Gear_2/211.gif
+	offset	22 34
+	frame	data/chars/Luffy_Gear_2/212.gif
+	offset	23 28
+	frame	data/chars/Luffy_Gear_2/213.gif
+		
+anim	freespecial2
+	delay	7
+	offset	31 40
+	frame	data/chars/Luffy_Gear_2/170.gif
+	offset	47 40
+	frame	data/chars/Luffy_Gear_2/171.gif
+	offset	79 40
+	frame	data/chars/Luffy_Gear_2/172.gif
+	offset	102 40
+	frame	data/chars/Luffy_Gear_2/173.gif
+	offset	61 38
+	frame	data/chars/Luffy_Gear_2/174.gif
+	offset	19 41
+	frame	data/chars/Luffy_Gear_2/158.gif
+	offset	19 39
+	frame	data/chars/Luffy_Gear_2/159.gif
+		
+anim	freespecial3
+	delay	7
+	offset	11 43
+	frame	data/chars/Luffy_Gear_2/196.gif
+	offset	16 41
+	frame	data/chars/Luffy_Gear_2/197.gif
+	offset	15 41
+	frame	data/chars/Luffy_Gear_2/198.gif
+	offset	22 68
+	frame	data/chars/Luffy_Gear_2/199.gif
+	offset	24 107
+	frame	data/chars/Luffy_Gear_2/200.gif
+	offset	24 122
+	frame	data/chars/Luffy_Gear_2/201.gif
+	offset	24 114
+	frame	data/chars/Luffy_Gear_2/202.gif
+	offset	27 99
+	frame	data/chars/Luffy_Gear_2/203.gif
+	offset	19 26
+	frame	data/chars/Luffy_Gear_2/204.gif
+	offset	19 26
+	frame	data/chars/Luffy_Gear_2/205.gif
+	offset	16 38
+	frame	data/chars/Luffy_Gear_2/206.gif
+	offset	16 38
+	frame	data/chars/Luffy_Gear_2/207.gif
+		
+anim	pain
+	delay	7
+	offset	15 35
+	frame	data/chars/Luffy_Gear_2/33.gif
+	offset	15 35
+	frame	data/chars/Luffy_Gear_2/34.gif
+	offset	19 36
+	frame	data/chars/Luffy_Gear_2/35.gif
+	offset	19 36
+	frame	data/chars/Luffy_Gear_2/36.gif
+	offset	19 36
+	frame	data/chars/Luffy_Gear_2/37.gif
+		
+anim	run
+	delay	7
+	offset	20 38
+	frame	data/chars/Luffy_Gear_2/23.gif
+	offset	20 38
+	frame	data/chars/Luffy_Gear_2/24.gif
+		
+anim	turn
+	delay	7
+	offset	16 45
+	frame	data/chars/Luffy_Gear_2/7.gif
+		
+anim	walk
+	delay	7
+	offset	18 44
+	frame	data/chars/Luffy_Gear_2/10.gif
+	offset	25 46
+	frame	data/chars/Luffy_Gear_2/11.gif
+	offset	22 42
+	frame	data/chars/Luffy_Gear_2/12.gif
+	offset	12 42
+	frame	data/chars/Luffy_Gear_2/13.gif
+	offset	18 43
+	frame	data/chars/Luffy_Gear_2/14.gif
+	offset	25 45
+	frame	data/chars/Luffy_Gear_2/15.gif
+	offset	17 43
+	frame	data/chars/Luffy_Gear_2/16.gif
+	offset	13 44
+	frame	data/chars/Luffy_Gear_2/17.gif
+		
+#|edited by openBor Stats v 0.67
+		
