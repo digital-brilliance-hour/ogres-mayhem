@@ -133,6 +133,9 @@ anim	fall
 	frame	data/chars/Gear/down03.GIF
 		
 anim	freespecial
+	@cmd	isavailable 2
+	mponly	1
+	@cmd	mpcost 10
 	attack	0 0 0 0 0 0 0 0 0 0
 	delay	7
 	offset	20 33
@@ -193,6 +196,9 @@ anim	freespecial11
 	frame	data/chars/Gear/run03.gif
 		
 anim	freespecial2
+	@cmd	isavailable 3
+	mponly	1
+	@cmd	mpcost 20
 	delay	7
 	offset	11 43
 	frame	data/chars/gear/Luffy_Gear_2/196.gif
@@ -226,6 +232,9 @@ anim	freespecial2
 	frame	data/chars/gear/Luffy_Gear_2/207.gif
 		
 anim	freespecial3
+	@cmd	isavailable 4
+	mponly	1
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	loop	0
 	offset	84 78
 	bbox	79 51 11 16
@@ -251,6 +260,9 @@ anim	freespecial3
 	frame	data/chars/Gear/jetb08.gif
 		
 anim	freespecial4
+	@cmd	isavailable 7
+	mponly	1
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	delay	7
 	offset	31 40
 	frame	data/chars/gear/Luffy_Gear_2/170.gif
@@ -269,6 +281,9 @@ anim	freespecial4
 	frame	data/chars/gear/Luffy_Gear_2/159.gif
 		
 anim	freespecial5
+	@cmd	isavailable 5
+	mponly	1
+	@cmd	mpcost 30
 	attack	0 0 0 0 0 0 0 0 0 0
 	@cmd	mpcost	10
 	fastattack	1
@@ -277,6 +292,7 @@ anim	freespecial5
 	offset	75 77
 	delay	10
 	sound	data/chars/Luffy/ki.wav
+	@cmd	pause_all 1 800
 	frame	data/chars/Gear/JetG01.gif
 	frame	data/chars/Gear/JetG02.gif
 	frame	data/chars/Gear/JetG03.gif
@@ -431,19 +447,28 @@ anim	freespecial5
 	frame	data/chars/Gear/JetGa08.gif
 		
 anim	freespecial6
+	@cmd	isavailable 6
+	mponly	1
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	delay	7
 	@cmd	pause_all 1 300
 	offset	16 43
+	@cmd	changeopenborvariant "slowmotion" 1
 	frame	data/chars/gear/Luffy_Gear_2/237.gif
 	offset	16 43
+	@cmd	spawnbind "zoomin" 0 0 0
 	frame	data/chars/gear/Luffy_Gear_2/238.gif
 	offset	16 36
+	@cmd	changeopenborvariant "slowmotion" 0
 	frame	data/chars/gear/Luffy_Gear_2/239.gif
 	offset	37 49
+	@cmd	changeopenborvariant "slowmotion" 2
 	frame	data/chars/gear/Luffy_Gear_2/240.gif
 	offset	40 53
+	@cmd	changeopenborvariant "slowmotion" 0
 	frame	data/chars/gear/Luffy_Gear_2/241.gif
 	offset	47 66
+	@cmd	spawnbind "zoomout" 0 0 0
 	frame	data/chars/gear/Luffy_Gear_2/242.gif
 	@cmd	unpause
 	offset	32 63
