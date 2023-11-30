@@ -1,0 +1,3821 @@
+name Ulquiorra-old
+type none
+health 100
+speed 12
+shadow	2
+
+
+anim 9000
+ delay 7
+ offset 0 0
+ frame data/chars/Ulquiorra/0.gif
+ offset 0 0
+ frame data/chars/Ulquiorra/1.gif
+ offset 460 170
+ frame data/chars/Ulquiorra/2.gif
+ offset 450 170
+ frame data/chars/Ulquiorra/3.gif
+ offset 450 170
+ frame data/chars/Ulquiorra/4.gif
+
+anim idle
+ delay 7
+ offset 19 51
+ frame data/chars/Ulquiorra/5.gif
+ offset 21 51
+ frame data/chars/Ulquiorra/6.gif
+ offset 23 51
+ frame data/chars/Ulquiorra/7.gif
+ offset 21 51
+ frame data/chars/Ulquiorra/8.gif
+ offset 18 51
+ frame data/chars/Ulquiorra/9.gif
+ offset 18 51
+ frame data/chars/Ulquiorra/10.gif
+ offset 18 51
+ frame data/chars/Ulquiorra/11.gif
+
+anim 0001
+ delay 7
+ offset 94 78
+ frame data/chars/Ulquiorra/12.gif
+ offset 94 77
+ frame data/chars/Ulquiorra/13.gif
+ offset 94 77
+ frame data/chars/Ulquiorra/14.gif
+ offset 94 77
+ frame data/chars/Ulquiorra/15.gif
+
+anim 0002
+ delay 7
+ offset 92 75
+ frame data/chars/Ulquiorra/16.gif
+ offset 92 75
+ frame data/chars/Ulquiorra/17.gif
+ offset 92 75
+ frame data/chars/Ulquiorra/18.gif
+ offset 92 75
+ frame data/chars/Ulquiorra/19.gif
+
+anim 0006
+ delay 7
+ offset 26 43
+ frame data/chars/Ulquiorra/20.gif
+
+anim 0007
+ delay 7
+ offset 67 79
+ frame data/chars/Ulquiorra/21.gif
+
+anim 0008
+ delay 7
+ offset 67 78
+ frame data/chars/Ulquiorra/22.gif
+
+anim walk
+ delay 7
+ offset 19 40
+ frame data/chars/Ulquiorra/23.gif
+ offset 19 40
+ frame data/chars/Ulquiorra/24.gif
+ offset 21 40
+ frame data/chars/Ulquiorra/25.gif
+ offset 23 40
+ frame data/chars/Ulquiorra/26.gif
+ offset 20 46
+ frame data/chars/Ulquiorra/27.gif
+ offset 21 40
+ frame data/chars/Ulquiorra/28.gif
+
+anim backwalk
+ delay 7
+ offset 49 82
+ frame data/chars/Ulquiorra/29.gif
+ offset 33 52
+ frame data/chars/Ulquiorra/30.gif
+ offset 32 47
+ frame data/chars/Ulquiorra/31.gif
+
+anim 0022
+ delay 7
+ offset 43 68
+ frame data/chars/Ulquiorra/32.gif
+ offset 32 44
+ frame data/chars/Ulquiorra/33.gif
+ offset 27 44
+ frame data/chars/Ulquiorra/34.gif
+ offset 32 44
+ frame data/chars/Ulquiorra/35.gif
+
+anim 0040
+ delay 7
+ offset 25 58
+ frame data/chars/Ulquiorra/36.gif
+ offset 22 58
+ frame data/chars/Ulquiorra/37.gif
+ offset 24 64
+ frame data/chars/Ulquiorra/38.gif
+ offset 27 55
+ frame data/chars/Ulquiorra/39.gif
+
+anim jump
+ delay 7
+ offset 44 125
+ frame data/chars/Ulquiorra/40.gif
+ offset 69 93
+ frame data/chars/Ulquiorra/41.gif
+ offset 54 62
+ frame data/chars/Ulquiorra/42.gif
+ offset 43 57
+ frame data/chars/Ulquiorra/43.gif
+ offset 55 64
+ frame data/chars/Ulquiorra/44.gif
+ offset 69 93
+ frame data/chars/Ulquiorra/45.gif
+
+anim jumpforward
+ delay 7
+ offset 46 123
+ frame data/chars/Ulquiorra/46.gif
+ offset 72 95
+ frame data/chars/Ulquiorra/47.gif
+ offset 56 73
+ frame data/chars/Ulquiorra/48.gif
+ offset 48 73
+ frame data/chars/Ulquiorra/49.gif
+
+anim block120
+ delay 7
+ offset 19 51
+ frame data/chars/Ulquiorra/50.gif
+
+anim block121
+ delay 7
+ offset 94 77
+ frame data/chars/Ulquiorra/51.gif
+ offset 93 77
+ frame data/chars/Ulquiorra/52.gif
+ offset 94 77
+ frame data/chars/Ulquiorra/53.gif
+
+anim block122
+ delay 7
+ offset 68 87
+ frame data/chars/Ulquiorra/54.gif
+ offset 53 64
+ frame data/chars/Ulquiorra/55.gif
+
+anim attack200
+ delay 7
+ offset 16 51
+ frame data/chars/Ulquiorra/56.gif
+ offset 26 50
+ frame data/chars/Ulquiorra/57.gif
+ offset 24 50
+ frame data/chars/Ulquiorra/58.gif
+ offset 24 50
+ frame data/chars/Ulquiorra/59.gif
+ offset 21 51
+ frame data/chars/Ulquiorra/60.gif
+ offset 27 53
+ frame data/chars/Ulquiorra/61.gif
+ offset 31 45
+ frame data/chars/Ulquiorra/62.gif
+ offset 23 50
+ frame data/chars/Ulquiorra/63.gif
+ offset 34 36
+ frame data/chars/Ulquiorra/64.gif
+ offset 19 84
+ frame data/chars/Ulquiorra/65.gif
+ offset 40 37
+ frame data/chars/Ulquiorra/66.gif
+ offset 35 33
+ frame data/chars/Ulquiorra/67.gif
+ offset 31 38
+ frame data/chars/Ulquiorra/68.gif
+ offset 16 53
+ frame data/chars/Ulquiorra/69.gif
+ offset 18 54
+ frame data/chars/Ulquiorra/70.gif
+ offset 32 50
+ frame data/chars/Ulquiorra/71.gif
+ offset 31 42
+ frame data/chars/Ulquiorra/72.gif
+ offset 24 45
+ frame data/chars/Ulquiorra/73.gif
+ offset 14 41
+ frame data/chars/Ulquiorra/74.gif
+ offset 22 51
+ frame data/chars/Ulquiorra/75.gif
+ offset 26 52
+ frame data/chars/Ulquiorra/76.gif
+ offset 19 52
+ frame data/chars/Ulquiorra/77.gif
+ offset 14 52
+ frame data/chars/Ulquiorra/78.gif
+ offset 27 51
+ frame data/chars/Ulquiorra/79.gif
+ offset 21 52
+ frame data/chars/Ulquiorra/80.gif
+ offset 27 51
+ frame data/chars/Ulquiorra/81.gif
+ offset 27 44
+ frame data/chars/Ulquiorra/82.gif
+ offset 27 39
+ frame data/chars/Ulquiorra/83.gif
+ offset 18 51
+ frame data/chars/Ulquiorra/84.gif
+
+anim attack201
+ delay 7
+ offset 94 77
+ frame data/chars/Ulquiorra/85.gif
+ offset 88 76
+ frame data/chars/Ulquiorra/86.gif
+ offset 92 99
+ frame data/chars/Ulquiorra/87.gif
+ offset 21 117
+ frame data/chars/Ulquiorra/88.gif
+ offset 64 81
+ frame data/chars/Ulquiorra/89.gif
+ offset 59 84
+ frame data/chars/Ulquiorra/90.gif
+ offset 82 57
+ frame data/chars/Ulquiorra/91.gif
+ offset 82 55
+ frame data/chars/Ulquiorra/92.gif
+ offset 95 77
+ frame data/chars/Ulquiorra/93.gif
+ offset 68 54
+ frame data/chars/Ulquiorra/94.gif
+ offset 18 53
+ frame data/chars/Ulquiorra/95.gif
+ offset 17 53
+ frame data/chars/Ulquiorra/96.gif
+ offset 56 64
+ frame data/chars/Ulquiorra/97.gif
+ offset 70 52
+ frame data/chars/Ulquiorra/98.gif
+ offset 83 52
+ frame data/chars/Ulquiorra/99.gif
+ offset 96 76
+ frame data/chars/Ulquiorra/100.gif
+ offset 97 76
+ frame data/chars/Ulquiorra/101.gif
+ offset 53 57
+ frame data/chars/Ulquiorra/102.gif
+ offset 24 55
+ frame data/chars/Ulquiorra/103.gif
+ offset 53 57
+ frame data/chars/Ulquiorra/104.gif
+ offset 94 77
+ frame data/chars/Ulquiorra/105.gif
+ offset 95 77
+ frame data/chars/Ulquiorra/106.gif
+ offset 94 77
+ frame data/chars/Ulquiorra/107.gif
+ offset 95 77
+ frame data/chars/Ulquiorra/108.gif
+ offset 94 77
+ frame data/chars/Ulquiorra/109.gif
+ offset 94 77
+ frame data/chars/Ulquiorra/110.gif
+ offset 85 53
+ frame data/chars/Ulquiorra/111.gif
+ offset 92 82
+ frame data/chars/Ulquiorra/112.gif
+ offset 54 101
+ frame data/chars/Ulquiorra/113.gif
+ offset 74 74
+ frame data/chars/Ulquiorra/114.gif
+ offset 101 87
+ frame data/chars/Ulquiorra/115.gif
+ offset 64 84
+ frame data/chars/Ulquiorra/116.gif
+ offset 64 80
+ frame data/chars/Ulquiorra/117.gif
+ offset 59 83
+ frame data/chars/Ulquiorra/118.gif
+ offset 84 57
+ frame data/chars/Ulquiorra/119.gif
+ offset 84 56
+ frame data/chars/Ulquiorra/120.gif
+ offset 94 77
+ frame data/chars/Ulquiorra/121.gif
+ offset 92 77
+ frame data/chars/Ulquiorra/122.gif
+ offset 92 77
+ frame data/chars/Ulquiorra/123.gif
+ offset 93 77
+ frame data/chars/Ulquiorra/124.gif
+ offset 83 51
+ frame data/chars/Ulquiorra/125.gif
+ offset 97 74
+ frame data/chars/Ulquiorra/126.gif
+ offset 97 74
+ frame data/chars/Ulquiorra/127.gif
+ offset 69 50
+ frame data/chars/Ulquiorra/128.gif
+ offset 94 74
+ frame data/chars/Ulquiorra/129.gif
+ offset 75 63
+ frame data/chars/Ulquiorra/130.gif
+ offset 67 86
+ frame data/chars/Ulquiorra/131.gif
+ offset 24 54
+ frame data/chars/Ulquiorra/132.gif
+ offset 56 55
+ frame data/chars/Ulquiorra/133.gif
+ offset 94 74
+ frame data/chars/Ulquiorra/134.gif
+ offset 94 74
+ frame data/chars/Ulquiorra/135.gif
+ offset 94 74
+ frame data/chars/Ulquiorra/136.gif
+
+anim attack202
+ delay 7
+ offset 67 78
+ frame data/chars/Ulquiorra/137.gif
+ offset 67 78
+ frame data/chars/Ulquiorra/138.gif
+ offset 68 77
+ frame data/chars/Ulquiorra/139.gif
+ offset 68 77
+ frame data/chars/Ulquiorra/140.gif
+ offset 73 89
+ frame data/chars/Ulquiorra/141.gif
+ offset 89 63
+ frame data/chars/Ulquiorra/142.gif
+ offset 42 82
+ frame data/chars/Ulquiorra/143.gif
+ offset 33 102
+ frame data/chars/Ulquiorra/144.gif
+ offset 57 103
+ frame data/chars/Ulquiorra/145.gif
+ offset 84 76
+ frame data/chars/Ulquiorra/146.gif
+ offset 91 59
+ frame data/chars/Ulquiorra/147.gif
+ offset 66 70
+ frame data/chars/Ulquiorra/148.gif
+ offset 92 75
+ frame data/chars/Ulquiorra/149.gif
+ offset 92 71
+ frame data/chars/Ulquiorra/150.gif
+ offset 87 72
+ frame data/chars/Ulquiorra/151.gif
+ offset 89 69
+ frame data/chars/Ulquiorra/152.gif
+ offset 88 67
+ frame data/chars/Ulquiorra/153.gif
+ offset 88 67
+ frame data/chars/Ulquiorra/154.gif
+ offset 89 72
+ frame data/chars/Ulquiorra/155.gif
+ offset 94 75
+ frame data/chars/Ulquiorra/156.gif
+ offset 94 75
+ frame data/chars/Ulquiorra/157.gif
+ offset 94 75
+ frame data/chars/Ulquiorra/158.gif
+ offset 94 75
+ frame data/chars/Ulquiorra/159.gif
+ offset 70 84
+ frame data/chars/Ulquiorra/160.gif
+ offset 79 57
+ frame data/chars/Ulquiorra/161.gif
+ offset 62 81
+ frame data/chars/Ulquiorra/162.gif
+ offset 68 52
+ frame data/chars/Ulquiorra/163.gif
+ offset 23 50
+ frame data/chars/Ulquiorra/164.gif
+ offset 52 65
+ frame data/chars/Ulquiorra/165.gif
+ offset 56 66
+ frame data/chars/Ulquiorra/166.gif
+ offset 45 65
+ frame data/chars/Ulquiorra/167.gif
+ offset 52 71
+ frame data/chars/Ulquiorra/168.gif
+ offset 52 71
+ frame data/chars/Ulquiorra/169.gif
+ offset 68 77
+ frame data/chars/Ulquiorra/170.gif
+ offset 94 75
+ frame data/chars/Ulquiorra/171.gif
+ offset 98 81
+ frame data/chars/Ulquiorra/172.gif
+ offset 92 86
+ frame data/chars/Ulquiorra/173.gif
+ offset 19 69
+ frame data/chars/Ulquiorra/174.gif
+ offset 4 69
+ frame data/chars/Ulquiorra/175.gif
+ offset 33 76
+ frame data/chars/Ulquiorra/176.gif
+ offset 19 72
+ frame data/chars/Ulquiorra/177.gif
+
+anim pain5000
+ delay 7
+ offset 18 50
+ frame data/chars/Ulquiorra/178.gif
+ offset 26 43
+ frame data/chars/Ulquiorra/179.gif
+ offset 16 45
+ frame data/chars/Ulquiorra/180.gif
+ offset 16 45
+ frame data/chars/Ulquiorra/181.gif
+ offset 20 37
+ frame data/chars/Ulquiorra/182.gif
+ offset 20 37
+ frame data/chars/Ulquiorra/183.gif
+ offset 19 45
+ frame data/chars/Ulquiorra/184.gif
+ offset 19 45
+ frame data/chars/Ulquiorra/185.gif
+ offset 20 36
+ frame data/chars/Ulquiorra/186.gif
+ offset 28 10
+ frame data/chars/Ulquiorra/187.gif
+ offset 39 57
+ frame data/chars/Ulquiorra/188.gif
+ offset 45 14
+ frame data/chars/Ulquiorra/189.gif
+ offset 20 42
+ frame data/chars/Ulquiorra/190.gif
+ offset 23 44
+ frame data/chars/Ulquiorra/191.gif
+ offset 23 44
+ frame data/chars/Ulquiorra/192.gif
+ offset 25 42
+ frame data/chars/Ulquiorra/193.gif
+
+anim fall5100
+ delay 7
+ offset 53 59
+ frame data/chars/Ulquiorra/194.gif
+ offset 56 56
+ frame data/chars/Ulquiorra/195.gif
+ offset 29 83
+ frame data/chars/Ulquiorra/196.gif
+ offset 30 42
+ frame data/chars/Ulquiorra/197.gif
+ offset 30 42
+ frame data/chars/Ulquiorra/198.gif
+ offset 27 85
+ frame data/chars/Ulquiorra/199.gif
+ offset 26 84
+ frame data/chars/Ulquiorra/200.gif
+ offset 56 62
+ frame data/chars/Ulquiorra/201.gif
+ offset 53 73
+ frame data/chars/Ulquiorra/202.gif
+ offset 32 15
+ frame data/chars/Ulquiorra/203.gif
+ offset 41 44
+ frame data/chars/Ulquiorra/204.gif
+ offset 53 60
+ frame data/chars/Ulquiorra/205.gif
+ offset 52 49
+ frame data/chars/Ulquiorra/206.gif
+ offset 33 75
+ frame data/chars/Ulquiorra/207.gif
+ offset 25 86
+ frame data/chars/Ulquiorra/208.gif
+ offset 58 41
+ frame data/chars/Ulquiorra/209.gif
+ offset 53 59
+ frame data/chars/Ulquiorra/210.gif
+
+anim 5200
+ delay 7
+ offset 36 51
+ frame data/chars/Ulquiorra/211.gif
+ offset 36 51
+ frame data/chars/Ulquiorra/212.gif
+ offset 38 50
+ frame data/chars/Ulquiorra/213.gif
+ offset 38 50
+ frame data/chars/Ulquiorra/214.gif
+ offset 29 48
+ frame data/chars/Ulquiorra/215.gif
+ offset 29 48
+ frame data/chars/Ulquiorra/216.gif
+ offset 37 60
+ frame data/chars/Ulquiorra/217.gif
+ offset 37 60
+ frame data/chars/Ulquiorra/218.gif
+ offset 31 47
+ frame data/chars/Ulquiorra/219.gif
+ offset 36 29
+ frame data/chars/Ulquiorra/220.gif
+ offset 31 46
+ frame data/chars/Ulquiorra/221.gif
+ offset 31 48
+ frame data/chars/Ulquiorra/222.gif
+ offset 43 57
+ frame data/chars/Ulquiorra/223.gif
+ offset 57 23
+ frame data/chars/Ulquiorra/224.gif
+ offset 27 78
+ frame data/chars/Ulquiorra/225.gif
+ offset 37 54
+ frame data/chars/Ulquiorra/226.gif
+ offset 35 26
+ frame data/chars/Ulquiorra/227.gif
+ offset 36 51
+ frame data/chars/Ulquiorra/228.gif
+
+anim 8230
+ delay 7
+ offset 68 31
+ frame data/chars/Ulquiorra/229.gif
+ offset 83 92
+ frame data/chars/Ulquiorra/230.gif
+ offset 99 149
+ frame data/chars/Ulquiorra/231.gif
+ offset 98 178
+ frame data/chars/Ulquiorra/232.gif
+ offset 100 196
+ frame data/chars/Ulquiorra/233.gif
+ offset 100 203
+ frame data/chars/Ulquiorra/234.gif
+ offset 98 210
+ frame data/chars/Ulquiorra/235.gif
+ offset 98 219
+ frame data/chars/Ulquiorra/236.gif
+ offset 97 226
+ frame data/chars/Ulquiorra/237.gif
+ offset 96 230
+ frame data/chars/Ulquiorra/238.gif
+ offset 97 232
+ frame data/chars/Ulquiorra/239.gif
+ offset 99 234
+ frame data/chars/Ulquiorra/240.gif
+ offset 100 232
+ frame data/chars/Ulquiorra/241.gif
+ offset 101 236
+ frame data/chars/Ulquiorra/242.gif
+ offset 100 222
+ frame data/chars/Ulquiorra/243.gif
+ offset 88 224
+ frame data/chars/Ulquiorra/244.gif
+ offset 88 224
+ frame data/chars/Ulquiorra/245.gif
+ offset 89 224
+ frame data/chars/Ulquiorra/246.gif
+ offset 89 226
+ frame data/chars/Ulquiorra/247.gif
+ offset 90 227
+ frame data/chars/Ulquiorra/248.gif
+ offset 90 231
+ frame data/chars/Ulquiorra/249.gif
+ offset 90 232
+ frame data/chars/Ulquiorra/250.gif
+ offset 93 232
+ frame data/chars/Ulquiorra/251.gif
+ offset 95 232
+ frame data/chars/Ulquiorra/252.gif
+ offset 96 232
+ frame data/chars/Ulquiorra/253.gif
+ offset 96 233
+ frame data/chars/Ulquiorra/254.gif
+ offset 97 232
+ frame data/chars/Ulquiorra/255.gif
+ offset 98 233
+ frame data/chars/Ulquiorra/256.gif
+ offset 99 233
+ frame data/chars/Ulquiorra/257.gif
+ offset 101 234
+ frame data/chars/Ulquiorra/258.gif
+ offset 101 234
+ frame data/chars/Ulquiorra/259.gif
+ offset 103 240
+ frame data/chars/Ulquiorra/260.gif
+ offset 103 235
+ frame data/chars/Ulquiorra/261.gif
+ offset 105 217
+ frame data/chars/Ulquiorra/262.gif
+ offset 105 217
+ frame data/chars/Ulquiorra/263.gif
+ offset 106 219
+ frame data/chars/Ulquiorra/264.gif
+ offset 105 221
+ frame data/chars/Ulquiorra/265.gif
+ offset 106 224
+ frame data/chars/Ulquiorra/266.gif
+ offset 98 226
+ frame data/chars/Ulquiorra/267.gif
+ offset 98 227
+ frame data/chars/Ulquiorra/268.gif
+ offset 98 229
+ frame data/chars/Ulquiorra/269.gif
+ offset 98 229
+ frame data/chars/Ulquiorra/270.gif
+ offset 97 228
+ frame data/chars/Ulquiorra/271.gif
+ offset 97 223
+ frame data/chars/Ulquiorra/272.gif
+ offset 94 222
+ frame data/chars/Ulquiorra/273.gif
+ offset 93 195
+ frame data/chars/Ulquiorra/274.gif
+ offset 91 194
+ frame data/chars/Ulquiorra/275.gif
+ offset 90 194
+ frame data/chars/Ulquiorra/276.gif
+ offset 76 192
+ frame data/chars/Ulquiorra/277.gif
+ offset 76 191
+ frame data/chars/Ulquiorra/278.gif
+ offset 76 191
+ frame data/chars/Ulquiorra/279.gif
+ offset 76 188
+ frame data/chars/Ulquiorra/280.gif
+ offset 76 187
+ frame data/chars/Ulquiorra/281.gif
+ offset 74 186
+ frame data/chars/Ulquiorra/282.gif
+ offset 67 168
+ frame data/chars/Ulquiorra/283.gif
+ offset 55 157
+ frame data/chars/Ulquiorra/284.gif
+ offset 39 128
+ frame data/chars/Ulquiorra/285.gif
+
+anim 8240
+ delay 7
+ offset 198 30
+ frame data/chars/Ulquiorra/286.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/287.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/288.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/289.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/290.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/291.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/292.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/293.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/294.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/295.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/296.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/297.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/298.gif
+ offset 197 29
+ frame data/chars/Ulquiorra/299.gif
+ offset 198 29
+ frame data/chars/Ulquiorra/300.gif
+ offset 197 29
+ frame data/chars/Ulquiorra/301.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/302.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/303.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/304.gif
+ offset 198 30
+ frame data/chars/Ulquiorra/305.gif
+
+anim 9008
+ delay 7
+ offset 110 8
+ frame data/chars/Ulquiorra/306.gif
+
+anim 9021
+ delay 7
+ offset 320 240
+ frame data/chars/Ulquiorra/307.gif
+
+anim 7016
+ delay 7
+ offset 29 36
+ frame data/chars/Ulquiorra/308.gif
+ offset 67 66
+ frame data/chars/Ulquiorra/309.gif
+ offset 68 62
+ frame data/chars/Ulquiorra/310.gif
+ offset 66 56
+ frame data/chars/Ulquiorra/311.gif
+ offset 57 41
+ frame data/chars/Ulquiorra/312.gif
+ offset 41 21
+ frame data/chars/Ulquiorra/313.gif
+
+anim 7200
+ delay 7
+ offset 75 68
+ frame data/chars/Ulquiorra/314.gif
+ offset 72 68
+ frame data/chars/Ulquiorra/315.gif
+ offset 78 67
+ frame data/chars/Ulquiorra/316.gif
+ offset 51 12
+ frame data/chars/Ulquiorra/317.gif
+ offset 51 12
+ frame data/chars/Ulquiorra/318.gif
+ offset 50 14
+ frame data/chars/Ulquiorra/319.gif
+ offset 88 16
+ frame data/chars/Ulquiorra/320.gif
+ offset 87 16
+ frame data/chars/Ulquiorra/321.gif
+ offset 87 17
+ frame data/chars/Ulquiorra/322.gif
+ offset 64 43
+ frame data/chars/Ulquiorra/323.gif
+ offset 65 46
+ frame data/chars/Ulquiorra/324.gif
+ offset 70 43
+ frame data/chars/Ulquiorra/325.gif
+ offset 73 88
+ frame data/chars/Ulquiorra/326.gif
+ offset 70 87
+ frame data/chars/Ulquiorra/327.gif
+ offset 76 88
+ frame data/chars/Ulquiorra/328.gif
+ offset 47 36
+ frame data/chars/Ulquiorra/329.gif
+ offset 51 39
+ frame data/chars/Ulquiorra/330.gif
+ offset 56 35
+ frame data/chars/Ulquiorra/331.gif
+ offset 97 91
+ frame data/chars/Ulquiorra/332.gif
+ offset 97 87
+ frame data/chars/Ulquiorra/333.gif
+ offset 88 85
+ frame data/chars/Ulquiorra/334.gif
+ offset 51 48
+ frame data/chars/Ulquiorra/335.gif
+ offset 52 48
+ frame data/chars/Ulquiorra/336.gif
+ offset 55 50
+ frame data/chars/Ulquiorra/337.gif
+ offset 65 33
+ frame data/chars/Ulquiorra/338.gif
+ offset 64 31
+ frame data/chars/Ulquiorra/339.gif
+ offset 64 36
+ frame data/chars/Ulquiorra/340.gif
+
+anim 7001
+ delay 7
+ offset 167 121
+ frame data/chars/Ulquiorra/341.gif
+
+anim 7006
+ delay 7
+ offset 170 45
+ frame data/chars/Ulquiorra/342.gif
+ offset 164 -5
+ frame data/chars/Ulquiorra/343.gif
+ offset 155 -23
+ frame data/chars/Ulquiorra/344.gif
+ offset 147 -47
+ frame data/chars/Ulquiorra/345.gif
+
+anim jumpattack666
+ delay 7
+ offset 60 59
+ frame data/chars/Ulquiorra/346.gif
+ offset 70 51
+ frame data/chars/Ulquiorra/347.gif
+ offset 77 51
+ frame data/chars/Ulquiorra/348.gif
+ offset 83 45
+ frame data/chars/Ulquiorra/349.gif
+ offset 88 35
+ frame data/chars/Ulquiorra/350.gif
+ offset 91 29
+ frame data/chars/Ulquiorra/351.gif
+ offset 91 22
+ frame data/chars/Ulquiorra/352.gif
+
+anim freespecial1067
+ delay 7
+ offset 444 250
+ frame data/chars/Ulquiorra/353.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/354.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/355.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/356.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/357.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/358.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/359.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/360.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/361.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/362.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/363.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/364.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/365.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/366.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/367.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/368.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/369.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/370.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/371.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/372.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/373.gif
+ offset 444 250
+ frame data/chars/Ulquiorra/374.gif
+
+anim freespecial1050
+ delay 7
+ offset 10 -54
+ frame data/chars/Ulquiorra/375.gif
+ offset 12 -20
+ frame data/chars/Ulquiorra/376.gif
+ offset 18 24
+ frame data/chars/Ulquiorra/377.gif
+ offset 22 83
+ frame data/chars/Ulquiorra/378.gif
+ offset 25 63
+ frame data/chars/Ulquiorra/379.gif
+ offset 31 95
+ frame data/chars/Ulquiorra/380.gif
+ offset 26 110
+ frame data/chars/Ulquiorra/381.gif
+ offset 23 104
+ frame data/chars/Ulquiorra/382.gif
+ offset 20 122
+ frame data/chars/Ulquiorra/383.gif
+ offset 31 145
+ frame data/chars/Ulquiorra/384.gif
+ offset 31 160
+ frame data/chars/Ulquiorra/385.gif
+ offset 31 167
+ frame data/chars/Ulquiorra/386.gif
+ offset 31 178
+ frame data/chars/Ulquiorra/387.gif
+ offset 30 183
+ frame data/chars/Ulquiorra/388.gif
+
+anim freespecial1550
+ delay 7
+ offset 75 238
+ frame data/chars/Ulquiorra/389.gif
+ offset 79 238
+ frame data/chars/Ulquiorra/390.gif
+ offset 79 238
+ frame data/chars/Ulquiorra/391.gif
+ offset 60 238
+ frame data/chars/Ulquiorra/392.gif
+ offset 59 238
+ frame data/chars/Ulquiorra/393.gif
+ offset 60 238
+ frame data/chars/Ulquiorra/394.gif
+ offset 60 238
+ frame data/chars/Ulquiorra/395.gif
+ offset 59 238
+ frame data/chars/Ulquiorra/396.gif
+ offset 59 238
+ frame data/chars/Ulquiorra/397.gif
+ offset 60 238
+ frame data/chars/Ulquiorra/398.gif
+ offset 41 238
+ frame data/chars/Ulquiorra/399.gif
+ offset 34 238
+ frame data/chars/Ulquiorra/400.gif
+
+anim 7007
+ delay 7
+ offset 80 57
+ frame data/chars/Ulquiorra/401.gif
+ offset 86 64
+ frame data/chars/Ulquiorra/402.gif
+ offset 76 56
+ frame data/chars/Ulquiorra/403.gif
+ offset 57 5
+ frame data/chars/Ulquiorra/404.gif
+
+anim attack300
+ delay 7
+ offset 47 46
+ frame data/chars/Ulquiorra/405.gif
+ offset 45 45
+ frame data/chars/Ulquiorra/406.gif
+ offset 45 45
+ frame data/chars/Ulquiorra/407.gif
+ offset 47 48
+ frame data/chars/Ulquiorra/408.gif
+ offset 48 47
+ frame data/chars/Ulquiorra/409.gif
+
+anim freespecial3030
+ delay 7
+ offset 88 89
+ frame data/chars/Ulquiorra/410.gif
+ offset 87 88
+ frame data/chars/Ulquiorra/411.gif
+ offset 83 85
+ frame data/chars/Ulquiorra/412.gif
+ offset 81 81
+ frame data/chars/Ulquiorra/413.gif
+ offset 82 83
+ frame data/chars/Ulquiorra/414.gif
+ offset 82 82
+ frame data/chars/Ulquiorra/415.gif
+ offset 83 84
+ frame data/chars/Ulquiorra/416.gif
+ offset 82 83
+ frame data/chars/Ulquiorra/417.gif
+ offset 83 84
+ frame data/chars/Ulquiorra/418.gif
+ offset 86 87
+ frame data/chars/Ulquiorra/419.gif
+
+anim freespecial1052
+ delay 7
+ offset 50 87
+ frame data/chars/Ulquiorra/420.gif
+ offset 72 112
+ frame data/chars/Ulquiorra/421.gif
+ offset 85 124
+ frame data/chars/Ulquiorra/422.gif
+ offset 94 117
+ frame data/chars/Ulquiorra/423.gif
+ offset 100 126
+ frame data/chars/Ulquiorra/424.gif
+ offset 104 131
+ frame data/chars/Ulquiorra/425.gif
+ offset 106 151
+ frame data/chars/Ulquiorra/426.gif
+ offset 107 153
+ frame data/chars/Ulquiorra/427.gif
+ offset 111 155
+ frame data/chars/Ulquiorra/428.gif
+ offset 116 156
+ frame data/chars/Ulquiorra/429.gif
+ offset 116 156
+ frame data/chars/Ulquiorra/430.gif
+ offset 77 156
+ frame data/chars/Ulquiorra/431.gif
+ offset 104 116
+ frame data/chars/Ulquiorra/432.gif
+ offset 105 -47
+ frame data/chars/Ulquiorra/433.gif
+ offset 106 -48
+ frame data/chars/Ulquiorra/434.gif
+
+anim freespecial1068
+ delay 7
+ offset 120 125
+ frame data/chars/Ulquiorra/435.gif
+ offset 116 115
+ frame data/chars/Ulquiorra/436.gif
+ offset 116 119
+ frame data/chars/Ulquiorra/437.gif
+ offset 116 119
+ frame data/chars/Ulquiorra/438.gif
+ offset 112 108
+ frame data/chars/Ulquiorra/439.gif
+ offset 97 81
+ frame data/chars/Ulquiorra/440.gif
+ offset 87 69
+ frame data/chars/Ulquiorra/441.gif
+ offset 63 58
+ frame data/chars/Ulquiorra/442.gif
+ offset 46 21
+ frame data/chars/Ulquiorra/443.gif
+ offset 4 18
+ frame data/chars/Ulquiorra/444.gif
+
+anim freespecial2064
+ delay 7
+ offset 83 78
+ frame data/chars/Ulquiorra/445.gif
+ offset 83 76
+ frame data/chars/Ulquiorra/446.gif
+ offset 74 76
+ frame data/chars/Ulquiorra/447.gif
+ offset 68 74
+ frame data/chars/Ulquiorra/448.gif
+ offset 64 78
+ frame data/chars/Ulquiorra/449.gif
+ offset 83 78
+ frame data/chars/Ulquiorra/450.gif
+ offset 59 78
+ frame data/chars/Ulquiorra/451.gif
+ offset 54 72
+ frame data/chars/Ulquiorra/452.gif
+ offset 38 67
+ frame data/chars/Ulquiorra/453.gif
+ offset 28 59
+ frame data/chars/Ulquiorra/454.gif
+ offset 15 52
+ frame data/chars/Ulquiorra/455.gif
+ offset 12 49
+ frame data/chars/Ulquiorra/456.gif
+ offset 9 50
+ frame data/chars/Ulquiorra/457.gif
+ offset 8 51
+ frame data/chars/Ulquiorra/458.gif
+ offset 3 53
+ frame data/chars/Ulquiorra/459.gif
+ offset 5 54
+ frame data/chars/Ulquiorra/460.gif
+
+anim 7083
+ delay 7
+ offset 45 98
+ frame data/chars/Ulquiorra/461.gif
+ offset 45 98
+ frame data/chars/Ulquiorra/462.gif
+ offset 44 97
+ frame data/chars/Ulquiorra/463.gif
+ offset 40 96
+ frame data/chars/Ulquiorra/464.gif
+ offset 36 85
+ frame data/chars/Ulquiorra/465.gif
+ offset 33 -11
+ frame data/chars/Ulquiorra/466.gif
+
+anim attack325
+ delay 7
+ offset 77 69
+ frame data/chars/Ulquiorra/467.gif
+ offset 72 67
+ frame data/chars/Ulquiorra/468.gif
+ offset 70 60
+ frame data/chars/Ulquiorra/469.gif
+ offset 56 37
+ frame data/chars/Ulquiorra/470.gif
+ offset 34 7
+ frame data/chars/Ulquiorra/471.gif
+
+anim freespecial1064
+ delay 7
+ offset 148 114
+ frame data/chars/Ulquiorra/472.gif
+ offset 320 286
+ frame data/chars/Ulquiorra/473.gif
+ offset 320 281
+ frame data/chars/Ulquiorra/474.gif
+
+anim freespecial3488
+ delay 7
+ offset 30 76
+ frame data/chars/Ulquiorra/475.gif
+ offset 29 76
+ frame data/chars/Ulquiorra/476.gif
+ offset 28 71
+ frame data/chars/Ulquiorra/477.gif
+
+anim freespecial1056
+ delay 7
+ offset 128 85
+ frame data/chars/Ulquiorra/478.gif
+ offset 120 79
+ frame data/chars/Ulquiorra/479.gif
+ offset 109 63
+ frame data/chars/Ulquiorra/480.gif
+ offset 114 55
+ frame data/chars/Ulquiorra/481.gif
+ offset 115 43
+ frame data/chars/Ulquiorra/482.gif
+ offset 107 29
+ frame data/chars/Ulquiorra/483.gif
+
+anim freespecial3008
+ delay 7
+ offset 28 12
+ frame data/chars/Ulquiorra/484.gif
+ offset 29 12
+ frame data/chars/Ulquiorra/485.gif
+ offset 41 16
+ frame data/chars/Ulquiorra/486.gif
+ offset 38 16
+ frame data/chars/Ulquiorra/487.gif
+ offset 36 16
+ frame data/chars/Ulquiorra/488.gif
+ offset 37 16
+ frame data/chars/Ulquiorra/489.gif
+ offset 32 16
+ frame data/chars/Ulquiorra/490.gif
+ offset 30 16
+ frame data/chars/Ulquiorra/491.gif
+
+anim freespecial3010
+ delay 7
+ offset 128 128
+ frame data/chars/Ulquiorra/492.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/493.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/494.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/495.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/496.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/497.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/498.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/499.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/500.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/501.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/502.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/503.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/504.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/505.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/506.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/507.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/508.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/509.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/510.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/511.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/512.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/513.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/514.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/515.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/516.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/517.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/518.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/519.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/520.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/521.gif
+
+anim 6101
+ delay 7
+ offset 174 122
+ frame data/chars/Ulquiorra/522.gif
+ offset 174 122
+ frame data/chars/Ulquiorra/523.gif
+ offset 174 122
+ frame data/chars/Ulquiorra/524.gif
+ offset 174 122
+ frame data/chars/Ulquiorra/525.gif
+ offset 174 122
+ frame data/chars/Ulquiorra/526.gif
+ offset 174 122
+ frame data/chars/Ulquiorra/527.gif
+ offset 174 122
+ frame data/chars/Ulquiorra/528.gif
+ offset 174 122
+ frame data/chars/Ulquiorra/529.gif
+
+anim freespecial3001
+ delay 7
+ offset 128 189
+ frame data/chars/Ulquiorra/530.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/531.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/532.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/533.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/534.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/535.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/536.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/537.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/538.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/539.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/540.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/541.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/542.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/543.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/544.gif
+ offset 128 189
+ frame data/chars/Ulquiorra/545.gif
+
+anim freespecial1154
+ delay 7
+ offset 80 57
+ frame data/chars/Ulquiorra/546.gif
+ offset 86 64
+ frame data/chars/Ulquiorra/547.gif
+ offset 76 56
+ frame data/chars/Ulquiorra/548.gif
+ offset 57 5
+ frame data/chars/Ulquiorra/549.gif
+
+anim freespecial1058
+ delay 7
+ offset 168 -81
+ frame data/chars/Ulquiorra/550.gif
+ offset 169 -36
+ frame data/chars/Ulquiorra/551.gif
+ offset 172 -16
+ frame data/chars/Ulquiorra/552.gif
+ offset 170 127
+ frame data/chars/Ulquiorra/553.gif
+ offset 169 61
+ frame data/chars/Ulquiorra/554.gif
+ offset 169 88
+ frame data/chars/Ulquiorra/555.gif
+ offset 168 101
+ frame data/chars/Ulquiorra/556.gif
+ offset 167 127
+ frame data/chars/Ulquiorra/557.gif
+ offset 168 117
+ frame data/chars/Ulquiorra/558.gif
+ offset 171 119
+ frame data/chars/Ulquiorra/559.gif
+ offset 173 124
+ frame data/chars/Ulquiorra/560.gif
+ offset 174 125
+ frame data/chars/Ulquiorra/561.gif
+ offset 101 126
+ frame data/chars/Ulquiorra/562.gif
+ offset 102 127
+ frame data/chars/Ulquiorra/563.gif
+ offset 95 126
+ frame data/chars/Ulquiorra/564.gif
+ offset 94 124
+ frame data/chars/Ulquiorra/565.gif
+ offset 94 123
+ frame data/chars/Ulquiorra/566.gif
+ offset 22 105
+ frame data/chars/Ulquiorra/567.gif
+
+anim freespecial1151
+ delay 7
+ offset 66 67
+ frame data/chars/Ulquiorra/568.gif
+ offset 68 69
+ frame data/chars/Ulquiorra/569.gif
+ offset 76 76
+ frame data/chars/Ulquiorra/570.gif
+ offset 79 79
+ frame data/chars/Ulquiorra/571.gif
+ offset 83 83
+ frame data/chars/Ulquiorra/572.gif
+ offset 84 84
+ frame data/chars/Ulquiorra/573.gif
+ offset 85 85
+ frame data/chars/Ulquiorra/574.gif
+ offset 85 85
+ frame data/chars/Ulquiorra/575.gif
+ offset 85 85
+ frame data/chars/Ulquiorra/576.gif
+ offset 84 85
+ frame data/chars/Ulquiorra/577.gif
+ offset 84 85
+ frame data/chars/Ulquiorra/578.gif
+ offset 84 85
+ frame data/chars/Ulquiorra/579.gif
+ offset 84 85
+ frame data/chars/Ulquiorra/580.gif
+ offset 84 85
+ frame data/chars/Ulquiorra/581.gif
+ offset 84 85
+ frame data/chars/Ulquiorra/582.gif
+ offset 83 85
+ frame data/chars/Ulquiorra/583.gif
+ offset 83 85
+ frame data/chars/Ulquiorra/584.gif
+ offset 82 84
+ frame data/chars/Ulquiorra/585.gif
+ offset 83 85
+ frame data/chars/Ulquiorra/586.gif
+ offset 82 83
+ frame data/chars/Ulquiorra/587.gif
+ offset 81 82
+ frame data/chars/Ulquiorra/588.gif
+ offset 42 70
+ frame data/chars/Ulquiorra/589.gif
+
+anim freespecial1063
+ delay 7
+ offset 87 144
+ frame data/chars/Ulquiorra/590.gif
+ offset 94 144
+ frame data/chars/Ulquiorra/591.gif
+ offset 101 142
+ frame data/chars/Ulquiorra/592.gif
+ offset 107 137
+ frame data/chars/Ulquiorra/593.gif
+ offset 114 132
+ frame data/chars/Ulquiorra/594.gif
+ offset 119 125
+ frame data/chars/Ulquiorra/595.gif
+ offset 113 116
+ frame data/chars/Ulquiorra/596.gif
+ offset 126 113
+ frame data/chars/Ulquiorra/597.gif
+
+anim 0016
+ delay 7
+ offset 175 175
+ frame data/chars/Ulquiorra/598.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/599.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/600.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/601.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/602.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/603.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/604.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/605.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/606.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/607.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/608.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/609.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/610.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/611.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/612.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/613.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/614.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/615.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/616.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/617.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/618.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/619.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/620.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/621.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/622.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/623.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/624.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/625.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/626.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/627.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/628.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/629.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/630.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/631.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/632.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/633.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/634.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/635.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/636.gif
+ offset 175 175
+ frame data/chars/Ulquiorra/637.gif
+
+anim jumpattack712
+ delay 7
+ offset 250 450
+ frame data/chars/Ulquiorra/638.gif
+ offset 250 450
+ frame data/chars/Ulquiorra/639.gif
+ offset 250 450
+ frame data/chars/Ulquiorra/640.gif
+ offset 250 450
+ frame data/chars/Ulquiorra/641.gif
+ offset 250 450
+ frame data/chars/Ulquiorra/642.gif
+ offset 250 450
+ frame data/chars/Ulquiorra/643.gif
+ offset 250 450
+ frame data/chars/Ulquiorra/644.gif
+ offset 250 450
+ frame data/chars/Ulquiorra/645.gif
+ offset 250 450
+ frame data/chars/Ulquiorra/646.gif
+
+anim freespecial1149
+ delay 7
+ offset 344 460
+ frame data/chars/Ulquiorra/647.gif
+
+anim freespecial1217
+ delay 7
+ offset 30 11
+ frame data/chars/Ulquiorra/648.gif
+ offset 28 10
+ frame data/chars/Ulquiorra/649.gif
+ offset 30 11
+ frame data/chars/Ulquiorra/650.gif
+
+anim 7086
+ delay 7
+ offset 360 1057
+ frame data/chars/Ulquiorra/651.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/652.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/653.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/654.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/655.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/656.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/657.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/658.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/659.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/660.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/661.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/662.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/663.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/664.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/665.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/666.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/667.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/668.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/669.gif
+ offset 360 1057
+ frame data/chars/Ulquiorra/670.gif
+
+anim 7060
+ delay 7
+ offset 139 63
+ frame data/chars/Ulquiorra/671.gif
+ offset 171 72
+ frame data/chars/Ulquiorra/672.gif
+ offset 233 104
+ frame data/chars/Ulquiorra/673.gif
+ offset 233 125
+ frame data/chars/Ulquiorra/674.gif
+ offset 232 138
+ frame data/chars/Ulquiorra/675.gif
+ offset 233 138
+ frame data/chars/Ulquiorra/676.gif
+ offset 233 145
+ frame data/chars/Ulquiorra/677.gif
+ offset 233 146
+ frame data/chars/Ulquiorra/678.gif
+ offset 234 150
+ frame data/chars/Ulquiorra/679.gif
+ offset 250 146
+ frame data/chars/Ulquiorra/680.gif
+ offset 249 147
+ frame data/chars/Ulquiorra/681.gif
+ offset 232 119
+ frame data/chars/Ulquiorra/682.gif
+
+anim freespecial1065
+ delay 7
+ offset 29 31
+ frame data/chars/Ulquiorra/683.gif
+ offset 104 83
+ frame data/chars/Ulquiorra/684.gif
+ offset 111 95
+ frame data/chars/Ulquiorra/685.gif
+ offset 173 147
+ frame data/chars/Ulquiorra/686.gif
+ offset 168 144
+ frame data/chars/Ulquiorra/687.gif
+ offset 154 155
+ frame data/chars/Ulquiorra/688.gif
+ offset 144 150
+ frame data/chars/Ulquiorra/689.gif
+ offset 141 152
+ frame data/chars/Ulquiorra/690.gif
+ offset 147 161
+ frame data/chars/Ulquiorra/691.gif
+ offset 165 143
+ frame data/chars/Ulquiorra/692.gif
+ offset 142 146
+ frame data/chars/Ulquiorra/693.gif
+ offset 142 141
+ frame data/chars/Ulquiorra/694.gif
+ offset 120 107
+ frame data/chars/Ulquiorra/695.gif
+ offset 65 89
+ frame data/chars/Ulquiorra/696.gif
+
+anim freespecial1060
+ delay 7
+ offset 233 98
+ frame data/chars/Ulquiorra/697.gif
+ offset 260 98
+ frame data/chars/Ulquiorra/698.gif
+ offset 260 97
+ frame data/chars/Ulquiorra/699.gif
+ offset 242 80
+ frame data/chars/Ulquiorra/700.gif
+ offset 231 98
+ frame data/chars/Ulquiorra/701.gif
+ offset 210 98
+ frame data/chars/Ulquiorra/702.gif
+ offset 238 97
+ frame data/chars/Ulquiorra/703.gif
+ offset 149 43
+ frame data/chars/Ulquiorra/704.gif
+
+anim 7048
+ delay 7
+ offset 375 592
+ frame data/chars/Ulquiorra/705.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/706.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/707.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/708.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/709.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/710.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/711.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/712.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/713.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/714.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/715.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/716.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/717.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/718.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/719.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/720.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/721.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/722.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/723.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/724.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/725.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/726.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/727.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/728.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/729.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/730.gif
+ offset 375 592
+ frame data/chars/Ulquiorra/731.gif
+
+anim freespecial2000
+ delay 7
+ offset 165 273
+ frame data/chars/Ulquiorra/732.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/733.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/734.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/735.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/736.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/737.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/738.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/739.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/740.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/741.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/742.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/743.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/744.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/745.gif
+ offset 165 273
+ frame data/chars/Ulquiorra/746.gif
+ offset 117 106
+ frame data/chars/Ulquiorra/747.gif
+ offset 117 106
+ frame data/chars/Ulquiorra/748.gif
+ offset 117 106
+ frame data/chars/Ulquiorra/749.gif
+ offset 117 106
+ frame data/chars/Ulquiorra/750.gif
+ offset 117 106
+ frame data/chars/Ulquiorra/751.gif
+ offset 117 106
+ frame data/chars/Ulquiorra/752.gif
+ offset 117 106
+ frame data/chars/Ulquiorra/753.gif
+ offset 117 106
+ frame data/chars/Ulquiorra/754.gif
+ offset 117 106
+ frame data/chars/Ulquiorra/755.gif
+ offset 117 106
+ frame data/chars/Ulquiorra/756.gif
+ offset 142 165
+ frame data/chars/Ulquiorra/757.gif
+ offset 142 165
+ frame data/chars/Ulquiorra/758.gif
+ offset 142 165
+ frame data/chars/Ulquiorra/759.gif
+ offset 142 165
+ frame data/chars/Ulquiorra/760.gif
+ offset 142 165
+ frame data/chars/Ulquiorra/761.gif
+ offset 142 165
+ frame data/chars/Ulquiorra/762.gif
+ offset 142 165
+ frame data/chars/Ulquiorra/763.gif
+ offset 142 165
+ frame data/chars/Ulquiorra/764.gif
+ offset 142 165
+ frame data/chars/Ulquiorra/765.gif
+ offset 142 165
+ frame data/chars/Ulquiorra/766.gif
+ offset 142 165
+ frame data/chars/Ulquiorra/767.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/768.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/769.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/770.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/771.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/772.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/773.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/774.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/775.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/776.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/777.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/778.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/779.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/780.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/781.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/782.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/783.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/784.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/785.gif
+ offset 200 143
+ frame data/chars/Ulquiorra/786.gif
+ offset 153 89
+ frame data/chars/Ulquiorra/787.gif
+ offset 153 89
+ frame data/chars/Ulquiorra/788.gif
+ offset 153 89
+ frame data/chars/Ulquiorra/789.gif
+ offset 153 89
+ frame data/chars/Ulquiorra/790.gif
+ offset 153 89
+ frame data/chars/Ulquiorra/791.gif
+ offset 153 89
+ frame data/chars/Ulquiorra/792.gif
+ offset 153 89
+ frame data/chars/Ulquiorra/793.gif
+ offset 153 89
+ frame data/chars/Ulquiorra/794.gif
+ offset 153 89
+ frame data/chars/Ulquiorra/795.gif
+ offset 153 89
+ frame data/chars/Ulquiorra/796.gif
+ offset 153 89
+ frame data/chars/Ulquiorra/797.gif
+
+anim 0070
+ delay 7
+ offset 123 70
+ frame data/chars/Ulquiorra/798.gif
+
+anim freespecial1056
+ delay 7
+ offset 289 23
+ frame data/chars/Ulquiorra/799.gif
+ offset 252 51
+ frame data/chars/Ulquiorra/800.gif
+ offset 250 64
+ frame data/chars/Ulquiorra/801.gif
+ offset 209 75
+ frame data/chars/Ulquiorra/802.gif
+ offset 213 85
+ frame data/chars/Ulquiorra/803.gif
+
+anim 9008
+ delay 7
+ offset 295 14
+ frame data/chars/Ulquiorra/804.gif
+
+anim 7054
+ delay 7
+ offset 81 83
+ frame data/chars/Ulquiorra/805.gif
+ offset 62 81
+ frame data/chars/Ulquiorra/806.gif
+ offset 238 91
+ frame data/chars/Ulquiorra/807.gif
+ offset 238 81
+ frame data/chars/Ulquiorra/808.gif
+ offset 162 90
+ frame data/chars/Ulquiorra/809.gif
+ offset 239 81
+ frame data/chars/Ulquiorra/810.gif
+ offset 184 92
+ frame data/chars/Ulquiorra/811.gif
+ offset 239 81
+ frame data/chars/Ulquiorra/812.gif
+ offset 229 94
+ frame data/chars/Ulquiorra/813.gif
+ offset 202 93
+ frame data/chars/Ulquiorra/814.gif
+ offset 225 94
+ frame data/chars/Ulquiorra/815.gif
+ offset 236 91
+ frame data/chars/Ulquiorra/816.gif
+ offset 237 91
+ frame data/chars/Ulquiorra/817.gif
+ offset 47 80
+ frame data/chars/Ulquiorra/818.gif
+ offset 235 91
+ frame data/chars/Ulquiorra/819.gif
+ offset 239 81
+ frame data/chars/Ulquiorra/820.gif
+ offset 24 77
+ frame data/chars/Ulquiorra/821.gif
+ offset 232 94
+ frame data/chars/Ulquiorra/822.gif
+ offset 127 87
+ frame data/chars/Ulquiorra/823.gif
+ offset 240 81
+ frame data/chars/Ulquiorra/824.gif
+ offset 217 94
+ frame data/chars/Ulquiorra/825.gif
+ offset 32 79
+ frame data/chars/Ulquiorra/826.gif
+ offset 240 81
+ frame data/chars/Ulquiorra/827.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/828.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/829.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/830.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/831.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/832.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/833.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/834.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/835.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/836.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/837.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/838.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/839.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/840.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/841.gif
+
+anim freespecial1063
+ delay 7
+ offset 265 146
+ frame data/chars/Ulquiorra/842.gif
+ offset 269 146
+ frame data/chars/Ulquiorra/843.gif
+ offset 273 146
+ frame data/chars/Ulquiorra/844.gif
+ offset 273 146
+ frame data/chars/Ulquiorra/845.gif
+ offset 264 146
+ frame data/chars/Ulquiorra/846.gif
+ offset 269 146
+ frame data/chars/Ulquiorra/847.gif
+ offset 269 146
+ frame data/chars/Ulquiorra/848.gif
+ offset 269 146
+ frame data/chars/Ulquiorra/849.gif
+ offset 273 137
+ frame data/chars/Ulquiorra/850.gif
+ offset 273 146
+ frame data/chars/Ulquiorra/851.gif
+ offset 273 146
+ frame data/chars/Ulquiorra/852.gif
+ offset 273 146
+ frame data/chars/Ulquiorra/853.gif
+ offset 261 146
+ frame data/chars/Ulquiorra/854.gif
+ offset 269 146
+ frame data/chars/Ulquiorra/855.gif
+ offset 273 146
+ frame data/chars/Ulquiorra/856.gif
+ offset 273 146
+ frame data/chars/Ulquiorra/857.gif
+ offset 271 146
+ frame data/chars/Ulquiorra/858.gif
+ offset 269 146
+ frame data/chars/Ulquiorra/859.gif
+ offset 269 146
+ frame data/chars/Ulquiorra/860.gif
+ offset 269 146
+ frame data/chars/Ulquiorra/861.gif
+ offset 269 146
+ frame data/chars/Ulquiorra/862.gif
+ offset 269 146
+ frame data/chars/Ulquiorra/863.gif
+ offset 269 146
+ frame data/chars/Ulquiorra/864.gif
+ offset 250 140
+ frame data/chars/Ulquiorra/865.gif
+ offset 202 107
+ frame data/chars/Ulquiorra/866.gif
+ offset 208 108
+ frame data/chars/Ulquiorra/867.gif
+ offset 230 123
+ frame data/chars/Ulquiorra/868.gif
+ offset 191 92
+ frame data/chars/Ulquiorra/869.gif
+ offset 167 67
+ frame data/chars/Ulquiorra/870.gif
+ offset 172 76
+ frame data/chars/Ulquiorra/871.gif
+ offset 191 92
+ frame data/chars/Ulquiorra/872.gif
+ offset 162 68
+ frame data/chars/Ulquiorra/873.gif
+ offset 134 42
+ frame data/chars/Ulquiorra/874.gif
+ offset 106 18
+ frame data/chars/Ulquiorra/875.gif
+
+anim 6075
+ delay 7
+ offset 62 31
+ frame data/chars/Ulquiorra/876.gif
+ offset 63 31
+ frame data/chars/Ulquiorra/877.gif
+ offset 63 31
+ frame data/chars/Ulquiorra/878.gif
+ offset 63 31
+ frame data/chars/Ulquiorra/879.gif
+ offset 63 30
+ frame data/chars/Ulquiorra/880.gif
+ offset 63 31
+ frame data/chars/Ulquiorra/881.gif
+ offset 62 31
+ frame data/chars/Ulquiorra/882.gif
+ offset 63 31
+ frame data/chars/Ulquiorra/883.gif
+ offset 63 31
+ frame data/chars/Ulquiorra/884.gif
+ offset 62 30
+ frame data/chars/Ulquiorra/885.gif
+ offset 63 30
+ frame data/chars/Ulquiorra/886.gif
+ offset 63 31
+ frame data/chars/Ulquiorra/887.gif
+
+anim 7000
+ delay 7
+ offset 24 24
+ frame data/chars/Ulquiorra/888.gif
+ offset 19 19
+ frame data/chars/Ulquiorra/889.gif
+ offset 14 15
+ frame data/chars/Ulquiorra/890.gif
+ offset 9 16
+ frame data/chars/Ulquiorra/891.gif
+ offset 11 19
+ frame data/chars/Ulquiorra/892.gif
+ offset 12 22
+ frame data/chars/Ulquiorra/893.gif
+ offset 7 25
+ frame data/chars/Ulquiorra/894.gif
+ offset 11 23
+ frame data/chars/Ulquiorra/895.gif
+ offset 12 23
+ frame data/chars/Ulquiorra/896.gif
+ offset 12 24
+ frame data/chars/Ulquiorra/897.gif
+ offset 13 31
+ frame data/chars/Ulquiorra/898.gif
+ offset 13 32
+ frame data/chars/Ulquiorra/899.gif
+ offset 13 33
+ frame data/chars/Ulquiorra/900.gif
+ offset 13 35
+ frame data/chars/Ulquiorra/901.gif
+ offset 13 36
+ frame data/chars/Ulquiorra/902.gif
+ offset 13 36
+ frame data/chars/Ulquiorra/903.gif
+ offset 11 37
+ frame data/chars/Ulquiorra/904.gif
+ offset 10 38
+ frame data/chars/Ulquiorra/905.gif
+ offset 7 40
+ frame data/chars/Ulquiorra/906.gif
+ offset 8 41
+ frame data/chars/Ulquiorra/907.gif
+ offset 2 43
+ frame data/chars/Ulquiorra/908.gif
+
+anim 7011
+ delay 7
+ offset 39 37
+ frame data/chars/Ulquiorra/909.gif
+ offset 47 43
+ frame data/chars/Ulquiorra/910.gif
+ offset 51 46
+ frame data/chars/Ulquiorra/911.gif
+ offset 57 49
+ frame data/chars/Ulquiorra/912.gif
+ offset 58 50
+ frame data/chars/Ulquiorra/913.gif
+ offset 63 56
+ frame data/chars/Ulquiorra/914.gif
+ offset 65 55
+ frame data/chars/Ulquiorra/915.gif
+ offset 67 58
+ frame data/chars/Ulquiorra/916.gif
+
+anim 7357
+ delay 7
+ offset 84 47
+ frame data/chars/Ulquiorra/917.gif
+ offset 84 47
+ frame data/chars/Ulquiorra/918.gif
+ offset 106 47
+ frame data/chars/Ulquiorra/919.gif
+ offset 125 52
+ frame data/chars/Ulquiorra/920.gif
+ offset 147 61
+ frame data/chars/Ulquiorra/921.gif
+ offset 173 72
+ frame data/chars/Ulquiorra/922.gif
+ offset 197 80
+ frame data/chars/Ulquiorra/923.gif
+ offset 216 90
+ frame data/chars/Ulquiorra/924.gif
+ offset 238 99
+ frame data/chars/Ulquiorra/925.gif
+ offset 255 106
+ frame data/chars/Ulquiorra/926.gif
+ offset 274 111
+ frame data/chars/Ulquiorra/927.gif
+ offset 286 118
+ frame data/chars/Ulquiorra/928.gif
+ offset 303 125
+ frame data/chars/Ulquiorra/929.gif
+ offset 310 128
+ frame data/chars/Ulquiorra/930.gif
+ offset 313 129
+ frame data/chars/Ulquiorra/931.gif
+
+anim freespecial1015
+ delay 7
+ offset 128 128
+ frame data/chars/Ulquiorra/932.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/933.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/934.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/935.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/936.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/937.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/938.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/939.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/940.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/941.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/942.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/943.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/944.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/945.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/946.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/947.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/948.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/949.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/950.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/951.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/952.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/953.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/954.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/955.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/956.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/957.gif
+
+anim 8502
+ delay 7
+ offset 50 47
+ frame data/chars/Ulquiorra/958.gif
+ offset 40 40
+ frame data/chars/Ulquiorra/959.gif
+ offset 61 60
+ frame data/chars/Ulquiorra/960.gif
+ offset 69 67
+ frame data/chars/Ulquiorra/961.gif
+ offset 67 68
+ frame data/chars/Ulquiorra/962.gif
+ offset 64 64
+ frame data/chars/Ulquiorra/963.gif
+ offset 61 61
+ frame data/chars/Ulquiorra/964.gif
+ offset 59 62
+ frame data/chars/Ulquiorra/965.gif
+ offset 62 62
+ frame data/chars/Ulquiorra/966.gif
+ offset 62 63
+ frame data/chars/Ulquiorra/967.gif
+ offset 62 63
+ frame data/chars/Ulquiorra/968.gif
+ offset 61 62
+ frame data/chars/Ulquiorra/969.gif
+ offset 61 62
+ frame data/chars/Ulquiorra/970.gif
+ offset 61 62
+ frame data/chars/Ulquiorra/971.gif
+ offset 62 62
+ frame data/chars/Ulquiorra/972.gif
+ offset 63 63
+ frame data/chars/Ulquiorra/973.gif
+ offset 62 61
+ frame data/chars/Ulquiorra/974.gif
+ offset 63 61
+ frame data/chars/Ulquiorra/975.gif
+ offset 63 62
+ frame data/chars/Ulquiorra/976.gif
+ offset 62 60
+ frame data/chars/Ulquiorra/977.gif
+ offset 62 61
+ frame data/chars/Ulquiorra/978.gif
+ offset 62 61
+ frame data/chars/Ulquiorra/979.gif
+ offset 62 61
+ frame data/chars/Ulquiorra/980.gif
+ offset 62 60
+ frame data/chars/Ulquiorra/981.gif
+ offset 62 61
+ frame data/chars/Ulquiorra/982.gif
+ offset 62 60
+ frame data/chars/Ulquiorra/983.gif
+ offset 62 60
+ frame data/chars/Ulquiorra/984.gif
+ offset 61 60
+ frame data/chars/Ulquiorra/985.gif
+ offset 62 62
+ frame data/chars/Ulquiorra/986.gif
+ offset 64 64
+ frame data/chars/Ulquiorra/987.gif
+ offset 66 66
+ frame data/chars/Ulquiorra/988.gif
+ offset 68 68
+ frame data/chars/Ulquiorra/989.gif
+ offset 70 70
+ frame data/chars/Ulquiorra/990.gif
+ offset 72 72
+ frame data/chars/Ulquiorra/991.gif
+ offset 72 72
+ frame data/chars/Ulquiorra/992.gif
+ offset 58 56
+ frame data/chars/Ulquiorra/993.gif
+ offset 58 56
+ frame data/chars/Ulquiorra/994.gif
+ offset 57 56
+ frame data/chars/Ulquiorra/995.gif
+ offset 57 54
+ frame data/chars/Ulquiorra/996.gif
+ offset 56 52
+ frame data/chars/Ulquiorra/997.gif
+ offset 55 51
+ frame data/chars/Ulquiorra/998.gif
+ offset 54 51
+ frame data/chars/Ulquiorra/999.gif
+ offset 53 51
+ frame data/chars/Ulquiorra/1000.gif
+ offset 53 50
+ frame data/chars/Ulquiorra/1001.gif
+ offset 57 51
+ frame data/chars/Ulquiorra/1002.gif
+ offset 54 52
+ frame data/chars/Ulquiorra/1003.gif
+ offset 54 53
+ frame data/chars/Ulquiorra/1004.gif
+ offset 55 53
+ frame data/chars/Ulquiorra/1005.gif
+ offset 54 53
+ frame data/chars/Ulquiorra/1006.gif
+ offset 54 53
+ frame data/chars/Ulquiorra/1007.gif
+ offset 54 54
+ frame data/chars/Ulquiorra/1008.gif
+ offset 54 54
+ frame data/chars/Ulquiorra/1009.gif
+ offset 53 52
+ frame data/chars/Ulquiorra/1010.gif
+ offset 50 52
+ frame data/chars/Ulquiorra/1011.gif
+ offset 49 50
+ frame data/chars/Ulquiorra/1012.gif
+
+anim 0013
+ delay 7
+ offset 26 26
+ frame data/chars/Ulquiorra/1013.gif
+ offset 36 36
+ frame data/chars/Ulquiorra/1014.gif
+ offset 47 48
+ frame data/chars/Ulquiorra/1015.gif
+ offset 60 60
+ frame data/chars/Ulquiorra/1016.gif
+ offset 66 66
+ frame data/chars/Ulquiorra/1017.gif
+ offset 70 70
+ frame data/chars/Ulquiorra/1018.gif
+ offset 74 74
+ frame data/chars/Ulquiorra/1019.gif
+ offset 75 75
+ frame data/chars/Ulquiorra/1020.gif
+ offset 76 76
+ frame data/chars/Ulquiorra/1021.gif
+ offset 78 78
+ frame data/chars/Ulquiorra/1022.gif
+
+anim freespecial1500
+ delay 7
+ offset 41 52
+ frame data/chars/Ulquiorra/1023.gif
+ offset 46 82
+ frame data/chars/Ulquiorra/1024.gif
+ offset 48 96
+ frame data/chars/Ulquiorra/1025.gif
+ offset 53 115
+ frame data/chars/Ulquiorra/1026.gif
+ offset 54 115
+ frame data/chars/Ulquiorra/1027.gif
+ offset 61 138
+ frame data/chars/Ulquiorra/1028.gif
+
+anim freespecial2063
+ delay 7
+ offset 148 114
+ frame data/chars/Ulquiorra/1029.gif
+ offset 320 286
+ frame data/chars/Ulquiorra/1030.gif
+ offset 320 281
+ frame data/chars/Ulquiorra/1031.gif
+
+anim attack220
+ delay 7
+ offset 20 138
+ frame data/chars/Ulquiorra/1032.gif
+ offset 20 138
+ frame data/chars/Ulquiorra/1033.gif
+ offset 17 141
+ frame data/chars/Ulquiorra/1034.gif
+ offset 24 150
+ frame data/chars/Ulquiorra/1035.gif
+ offset 27 156
+ frame data/chars/Ulquiorra/1036.gif
+ offset 24 153
+ frame data/chars/Ulquiorra/1037.gif
+ offset 25 153
+ frame data/chars/Ulquiorra/1038.gif
+ offset 20 141
+ frame data/chars/Ulquiorra/1039.gif
+ offset 25 139
+ frame data/chars/Ulquiorra/1040.gif
+ offset 24 139
+ frame data/chars/Ulquiorra/1041.gif
+ offset 31 145
+ frame data/chars/Ulquiorra/1042.gif
+ offset 27 148
+ frame data/chars/Ulquiorra/1043.gif
+ offset 27 149
+ frame data/chars/Ulquiorra/1044.gif
+ offset 26 151
+ frame data/chars/Ulquiorra/1045.gif
+ offset 26 154
+ frame data/chars/Ulquiorra/1046.gif
+ offset 26 156
+ frame data/chars/Ulquiorra/1047.gif
+ offset 26 155
+ frame data/chars/Ulquiorra/1048.gif
+ offset 30 159
+ frame data/chars/Ulquiorra/1049.gif
+ offset 31 164
+ frame data/chars/Ulquiorra/1050.gif
+ offset 35 140
+ frame data/chars/Ulquiorra/1051.gif
+ offset 35 140
+ frame data/chars/Ulquiorra/1052.gif
+ offset 23 134
+ frame data/chars/Ulquiorra/1053.gif
+ offset 30 135
+ frame data/chars/Ulquiorra/1054.gif
+ offset 34 138
+ frame data/chars/Ulquiorra/1055.gif
+ offset 33 138
+ frame data/chars/Ulquiorra/1056.gif
+ offset 35 136
+ frame data/chars/Ulquiorra/1057.gif
+ offset 29 117
+ frame data/chars/Ulquiorra/1058.gif
+
+anim 7025
+ delay 7
+ offset 181 276
+ frame data/chars/Ulquiorra/1059.gif
+ offset 235 259
+ frame data/chars/Ulquiorra/1060.gif
+ offset 200 262
+ frame data/chars/Ulquiorra/1061.gif
+ offset 235 257
+ frame data/chars/Ulquiorra/1062.gif
+ offset 233 282
+ frame data/chars/Ulquiorra/1063.gif
+
+anim freespecial1055
+ delay 7
+ offset 89 91
+ frame data/chars/Ulquiorra/1064.gif
+
+anim freespecial1080
+ delay 7
+ offset 92 177
+ frame data/chars/Ulquiorra/1065.gif
+ offset 90 175
+ frame data/chars/Ulquiorra/1066.gif
+ offset 86 180
+ frame data/chars/Ulquiorra/1067.gif
+ offset 85 173
+ frame data/chars/Ulquiorra/1068.gif
+ offset 84 173
+ frame data/chars/Ulquiorra/1069.gif
+ offset 83 174
+ frame data/chars/Ulquiorra/1070.gif
+ offset 85 177
+ frame data/chars/Ulquiorra/1071.gif
+ offset 86 180
+ frame data/chars/Ulquiorra/1072.gif
+ offset 87 178
+ frame data/chars/Ulquiorra/1073.gif
+ offset 89 181
+ frame data/chars/Ulquiorra/1074.gif
+ offset 89 182
+ frame data/chars/Ulquiorra/1075.gif
+ offset 87 179
+ frame data/chars/Ulquiorra/1076.gif
+ offset 89 173
+ frame data/chars/Ulquiorra/1077.gif
+ offset 91 175
+ frame data/chars/Ulquiorra/1078.gif
+ offset 93 178
+ frame data/chars/Ulquiorra/1079.gif
+ offset 95 179
+ frame data/chars/Ulquiorra/1080.gif
+ offset 97 175
+ frame data/chars/Ulquiorra/1081.gif
+ offset 96 180
+ frame data/chars/Ulquiorra/1082.gif
+ offset 91 177
+ frame data/chars/Ulquiorra/1083.gif
+ offset 88 176
+ frame data/chars/Ulquiorra/1084.gif
+ offset 90 176
+ frame data/chars/Ulquiorra/1085.gif
+ offset 90 178
+ frame data/chars/Ulquiorra/1086.gif
+ offset 92 183
+ frame data/chars/Ulquiorra/1087.gif
+ offset 94 171
+ frame data/chars/Ulquiorra/1088.gif
+ offset 95 174
+ frame data/chars/Ulquiorra/1089.gif
+ offset 95 171
+ frame data/chars/Ulquiorra/1090.gif
+ offset 91 173
+ frame data/chars/Ulquiorra/1091.gif
+ offset 89 173
+ frame data/chars/Ulquiorra/1092.gif
+ offset 88 172
+ frame data/chars/Ulquiorra/1093.gif
+ offset 84 173
+ frame data/chars/Ulquiorra/1094.gif
+ offset 83 178
+ frame data/chars/Ulquiorra/1095.gif
+ offset 83 185
+ frame data/chars/Ulquiorra/1096.gif
+
+anim freespecial1402
+ delay 7
+ offset 288 515
+ frame data/chars/Ulquiorra/1097.gif
+ offset 288 515
+ frame data/chars/Ulquiorra/1098.gif
+ offset 287 515
+ frame data/chars/Ulquiorra/1099.gif
+ offset 288 515
+ frame data/chars/Ulquiorra/1100.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1101.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1102.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1103.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1104.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1105.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1106.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1107.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1108.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1109.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1110.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1111.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1112.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1113.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1114.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1115.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1116.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1117.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1118.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1119.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1120.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1121.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1122.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1123.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1124.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1125.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1126.gif
+ offset 290 515
+ frame data/chars/Ulquiorra/1127.gif
+
+anim attack310
+ delay 7
+ offset 94 98
+ frame data/chars/Ulquiorra/1128.gif
+ offset 110 116
+ frame data/chars/Ulquiorra/1129.gif
+ offset 117 118
+ frame data/chars/Ulquiorra/1130.gif
+ offset 126 123
+ frame data/chars/Ulquiorra/1131.gif
+ offset 127 126
+ frame data/chars/Ulquiorra/1132.gif
+ offset 125 122
+ frame data/chars/Ulquiorra/1133.gif
+
+anim freespecial1014
+ delay 7
+ offset 237 223
+ frame data/chars/Ulquiorra/1134.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1135.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1136.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1137.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1138.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1139.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1140.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1141.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1142.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1143.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1144.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1145.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1146.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1147.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1148.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1149.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1150.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1151.gif
+ offset 237 223
+ frame data/chars/Ulquiorra/1152.gif
+
+anim freespecial1015
+ delay 7
+ offset 128 128
+ frame data/chars/Ulquiorra/1153.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1154.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1155.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1156.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1157.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1158.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1159.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1160.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1161.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1162.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1163.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1164.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1165.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1166.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1167.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1168.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1169.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1170.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1171.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1172.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1173.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1174.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1175.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1176.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1177.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1178.gif
+
+anim freespecial1022
+ delay 7
+ offset 264 136
+ frame data/chars/Ulquiorra/1179.gif
+ offset 279 140
+ frame data/chars/Ulquiorra/1180.gif
+ offset 289 135
+ frame data/chars/Ulquiorra/1181.gif
+ offset 287 131
+ frame data/chars/Ulquiorra/1182.gif
+ offset 283 129
+ frame data/chars/Ulquiorra/1183.gif
+ offset 248 128
+ frame data/chars/Ulquiorra/1184.gif
+ offset 235 128
+ frame data/chars/Ulquiorra/1185.gif
+ offset 235 134
+ frame data/chars/Ulquiorra/1186.gif
+ offset 244 134
+ frame data/chars/Ulquiorra/1187.gif
+ offset 261 139
+ frame data/chars/Ulquiorra/1188.gif
+ offset 278 141
+ frame data/chars/Ulquiorra/1189.gif
+ offset 284 142
+ frame data/chars/Ulquiorra/1190.gif
+ offset 265 142
+ frame data/chars/Ulquiorra/1191.gif
+ offset 258 144
+ frame data/chars/Ulquiorra/1192.gif
+ offset 253 145
+ frame data/chars/Ulquiorra/1193.gif
+ offset 259 134
+ frame data/chars/Ulquiorra/1194.gif
+
+anim freespecial1070
+ delay 7
+ offset 122 114
+ frame data/chars/Ulquiorra/1195.gif
+ offset 180 169
+ frame data/chars/Ulquiorra/1196.gif
+ offset 191 181
+ frame data/chars/Ulquiorra/1197.gif
+ offset 172 164
+ frame data/chars/Ulquiorra/1198.gif
+ offset 173 154
+ frame data/chars/Ulquiorra/1199.gif
+ offset 194 172
+ frame data/chars/Ulquiorra/1200.gif
+ offset 222 198
+ frame data/chars/Ulquiorra/1201.gif
+ offset 239 216
+ frame data/chars/Ulquiorra/1202.gif
+ offset 262 239
+ frame data/chars/Ulquiorra/1203.gif
+ offset 182 239
+ frame data/chars/Ulquiorra/1204.gif
+ offset 192 239
+ frame data/chars/Ulquiorra/1205.gif
+ offset 194 239
+ frame data/chars/Ulquiorra/1206.gif
+ offset 203 239
+ frame data/chars/Ulquiorra/1207.gif
+ offset 212 201
+ frame data/chars/Ulquiorra/1208.gif
+ offset 153 136
+ frame data/chars/Ulquiorra/1209.gif
+ offset 152 135
+ frame data/chars/Ulquiorra/1210.gif
+ offset 149 132
+ frame data/chars/Ulquiorra/1211.gif
+ offset 146 129
+ frame data/chars/Ulquiorra/1212.gif
+ offset 145 133
+ frame data/chars/Ulquiorra/1213.gif
+ offset 146 135
+ frame data/chars/Ulquiorra/1214.gif
+ offset 149 139
+ frame data/chars/Ulquiorra/1215.gif
+ offset 150 140
+ frame data/chars/Ulquiorra/1216.gif
+ offset 152 136
+ frame data/chars/Ulquiorra/1217.gif
+ offset 144 129
+ frame data/chars/Ulquiorra/1218.gif
+
+anim freespecial1016
+ delay 7
+ offset 145 164
+ frame data/chars/Ulquiorra/1219.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1220.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1221.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1222.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1223.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1224.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1225.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1226.gif
+
+anim freespecial1054
+ delay 7
+ offset 344 532
+ frame data/chars/Ulquiorra/1227.gif
+
+anim 7021
+ delay 7
+ offset 90 50
+ frame data/chars/Ulquiorra/1228.gif
+ offset 90 50
+ frame data/chars/Ulquiorra/1229.gif
+ offset 90 50
+ frame data/chars/Ulquiorra/1230.gif
+ offset 90 50
+ frame data/chars/Ulquiorra/1231.gif
+ offset 90 50
+ frame data/chars/Ulquiorra/1232.gif
+ offset 90 50
+ frame data/chars/Ulquiorra/1233.gif
+
+anim freespecial1045
+ delay 7
+ offset 120 179
+ frame data/chars/Ulquiorra/1234.gif
+ offset 245 260
+ frame data/chars/Ulquiorra/1235.gif
+ offset 246 301
+ frame data/chars/Ulquiorra/1236.gif
+ offset 247 317
+ frame data/chars/Ulquiorra/1237.gif
+ offset 248 323
+ frame data/chars/Ulquiorra/1238.gif
+ offset 249 325
+ frame data/chars/Ulquiorra/1239.gif
+ offset 250 324
+ frame data/chars/Ulquiorra/1240.gif
+ offset 251 204
+ frame data/chars/Ulquiorra/1241.gif
+ offset 252 202
+ frame data/chars/Ulquiorra/1242.gif
+ offset 252 203
+ frame data/chars/Ulquiorra/1243.gif
+ offset 253 115
+ frame data/chars/Ulquiorra/1244.gif
+ offset 254 115
+ frame data/chars/Ulquiorra/1245.gif
+ offset 251 115
+ frame data/chars/Ulquiorra/1246.gif
+ offset 232 115
+ frame data/chars/Ulquiorra/1247.gif
+
+anim freespecial1047
+ delay 7
+ offset 98 126
+ frame data/chars/Ulquiorra/1248.gif
+ offset 110 119
+ frame data/chars/Ulquiorra/1249.gif
+ offset 113 132
+ frame data/chars/Ulquiorra/1250.gif
+ offset 116 139
+ frame data/chars/Ulquiorra/1251.gif
+ offset 98 142
+ frame data/chars/Ulquiorra/1252.gif
+ offset 100 98
+ frame data/chars/Ulquiorra/1253.gif
+ offset 102 100
+ frame data/chars/Ulquiorra/1254.gif
+ offset 100 99
+ frame data/chars/Ulquiorra/1255.gif
+
+anim freespecial3051
+ delay 7
+ offset 125 147
+ frame data/chars/Ulquiorra/1256.gif
+ offset 130 217
+ frame data/chars/Ulquiorra/1257.gif
+ offset 154 230
+ frame data/chars/Ulquiorra/1258.gif
+ offset 170 254
+ frame data/chars/Ulquiorra/1259.gif
+ offset 182 268
+ frame data/chars/Ulquiorra/1260.gif
+ offset 188 270
+ frame data/chars/Ulquiorra/1261.gif
+ offset 193 254
+ frame data/chars/Ulquiorra/1262.gif
+ offset 162 265
+ frame data/chars/Ulquiorra/1263.gif
+ offset 176 273
+ frame data/chars/Ulquiorra/1264.gif
+ offset 186 260
+ frame data/chars/Ulquiorra/1265.gif
+ offset 190 266
+ frame data/chars/Ulquiorra/1266.gif
+ offset 198 270
+ frame data/chars/Ulquiorra/1267.gif
+ offset 202 274
+ frame data/chars/Ulquiorra/1268.gif
+ offset 208 254
+ frame data/chars/Ulquiorra/1269.gif
+ offset 212 264
+ frame data/chars/Ulquiorra/1270.gif
+ offset 214 272
+ frame data/chars/Ulquiorra/1271.gif
+ offset 215 274
+ frame data/chars/Ulquiorra/1272.gif
+ offset 224 259
+ frame data/chars/Ulquiorra/1273.gif
+ offset 224 263
+ frame data/chars/Ulquiorra/1274.gif
+ offset 224 255
+ frame data/chars/Ulquiorra/1275.gif
+ offset 224 261
+ frame data/chars/Ulquiorra/1276.gif
+ offset 227 267
+ frame data/chars/Ulquiorra/1277.gif
+ offset 230 271
+ frame data/chars/Ulquiorra/1278.gif
+ offset 231 264
+ frame data/chars/Ulquiorra/1279.gif
+ offset 232 270
+ frame data/chars/Ulquiorra/1280.gif
+ offset 232 274
+ frame data/chars/Ulquiorra/1281.gif
+ offset 233 264
+ frame data/chars/Ulquiorra/1282.gif
+ offset 233 270
+ frame data/chars/Ulquiorra/1283.gif
+ offset 233 276
+ frame data/chars/Ulquiorra/1284.gif
+ offset 232 281
+ frame data/chars/Ulquiorra/1285.gif
+ offset 226 269
+ frame data/chars/Ulquiorra/1286.gif
+ offset 226 267
+ frame data/chars/Ulquiorra/1287.gif
+ offset 228 268
+ frame data/chars/Ulquiorra/1288.gif
+ offset 228 266
+ frame data/chars/Ulquiorra/1289.gif
+ offset 228 266
+ frame data/chars/Ulquiorra/1290.gif
+ offset 221 268
+ frame data/chars/Ulquiorra/1291.gif
+ offset 198 263
+ frame data/chars/Ulquiorra/1292.gif
+ offset 199 265
+ frame data/chars/Ulquiorra/1293.gif
+ offset 199 265
+ frame data/chars/Ulquiorra/1294.gif
+ offset 199 265
+ frame data/chars/Ulquiorra/1295.gif
+ offset 196 264
+ frame data/chars/Ulquiorra/1296.gif
+ offset 185 262
+ frame data/chars/Ulquiorra/1297.gif
+ offset 166 260
+ frame data/chars/Ulquiorra/1298.gif
+
+anim freespecial1071
+ delay 7
+ offset 109 -172
+ frame data/chars/Ulquiorra/1299.gif
+ offset 130 -102
+ frame data/chars/Ulquiorra/1300.gif
+ offset 96 22
+ frame data/chars/Ulquiorra/1301.gif
+ offset 77 246
+ frame data/chars/Ulquiorra/1302.gif
+ offset 67 282
+ frame data/chars/Ulquiorra/1303.gif
+ offset 68 287
+ frame data/chars/Ulquiorra/1304.gif
+ offset 62 290
+ frame data/chars/Ulquiorra/1305.gif
+ offset 76 287
+ frame data/chars/Ulquiorra/1306.gif
+ offset 76 290
+ frame data/chars/Ulquiorra/1307.gif
+ offset 76 288
+ frame data/chars/Ulquiorra/1308.gif
+ offset 76 288
+ frame data/chars/Ulquiorra/1309.gif
+ offset 76 285
+ frame data/chars/Ulquiorra/1310.gif
+
+anim freespecial1070
+ delay 7
+ offset 81 289
+ frame data/chars/Ulquiorra/1311.gif
+ offset 77 288
+ frame data/chars/Ulquiorra/1312.gif
+ offset 75 282
+ frame data/chars/Ulquiorra/1313.gif
+ offset 76 290
+ frame data/chars/Ulquiorra/1314.gif
+ offset 102 283
+ frame data/chars/Ulquiorra/1315.gif
+ offset 97 274
+ frame data/chars/Ulquiorra/1316.gif
+ offset 98 269
+ frame data/chars/Ulquiorra/1317.gif
+ offset 97 272
+ frame data/chars/Ulquiorra/1318.gif
+ offset 98 268
+ frame data/chars/Ulquiorra/1319.gif
+ offset 97 276
+ frame data/chars/Ulquiorra/1320.gif
+ offset 97 277
+ frame data/chars/Ulquiorra/1321.gif
+ offset 96 277
+ frame data/chars/Ulquiorra/1322.gif
+ offset 95 284
+ frame data/chars/Ulquiorra/1323.gif
+ offset 95 286
+ frame data/chars/Ulquiorra/1324.gif
+ offset 102 286
+ frame data/chars/Ulquiorra/1325.gif
+ offset 105 283
+ frame data/chars/Ulquiorra/1326.gif
+ offset 99 287
+ frame data/chars/Ulquiorra/1327.gif
+ offset 102 286
+ frame data/chars/Ulquiorra/1328.gif
+ offset 104 279
+ frame data/chars/Ulquiorra/1329.gif
+ offset 89 277
+ frame data/chars/Ulquiorra/1330.gif
+ offset 89 275
+ frame data/chars/Ulquiorra/1331.gif
+ offset 98 259
+ frame data/chars/Ulquiorra/1332.gif
+ offset 89 258
+ frame data/chars/Ulquiorra/1333.gif
+ offset 89 255
+ frame data/chars/Ulquiorra/1334.gif
+ offset 81 266
+ frame data/chars/Ulquiorra/1335.gif
+ offset 81 267
+ frame data/chars/Ulquiorra/1336.gif
+ offset 69 245
+ frame data/chars/Ulquiorra/1337.gif
+ offset 62 244
+ frame data/chars/Ulquiorra/1338.gif
+ offset 70 159
+ frame data/chars/Ulquiorra/1339.gif
+ offset 70 138
+ frame data/chars/Ulquiorra/1340.gif
+ offset 51 83
+ frame data/chars/Ulquiorra/1341.gif
+ offset 38 95
+ frame data/chars/Ulquiorra/1342.gif
+ offset 38 -58
+ frame data/chars/Ulquiorra/1343.gif
+
+anim 6999
+ delay 7
+ offset 50 162
+ frame data/chars/Ulquiorra/1344.gif
+
+anim 7001
+ delay 7
+ offset 170 417
+ frame data/chars/Ulquiorra/1345.gif
+ offset 175 468
+ frame data/chars/Ulquiorra/1346.gif
+ offset 172 496
+ frame data/chars/Ulquiorra/1347.gif
+ offset 163 487
+ frame data/chars/Ulquiorra/1348.gif
+ offset 155 474
+ frame data/chars/Ulquiorra/1349.gif
+ offset 122 435
+ frame data/chars/Ulquiorra/1350.gif
+
+anim 7160
+ delay 7
+ offset -17 42
+ frame data/chars/Ulquiorra/1351.gif
+ offset 23 47
+ frame data/chars/Ulquiorra/1352.gif
+ offset 50 47
+ frame data/chars/Ulquiorra/1353.gif
+ offset 58 47
+ frame data/chars/Ulquiorra/1354.gif
+ offset 70 47
+ frame data/chars/Ulquiorra/1355.gif
+ offset 70 46
+ frame data/chars/Ulquiorra/1356.gif
+ offset 70 46
+ frame data/chars/Ulquiorra/1357.gif
+ offset 70 46
+ frame data/chars/Ulquiorra/1358.gif
+ offset 70 42
+ frame data/chars/Ulquiorra/1359.gif
+ offset 69 32
+ frame data/chars/Ulquiorra/1360.gif
+ offset 69 28
+ frame data/chars/Ulquiorra/1361.gif
+
+anim 7100
+ delay 7
+ offset 613 54
+ frame data/chars/Ulquiorra/1362.gif
+ offset 541 45
+ frame data/chars/Ulquiorra/1363.gif
+ offset 419 12
+ frame data/chars/Ulquiorra/1364.gif
+ offset 326 38
+ frame data/chars/Ulquiorra/1365.gif
+
+anim 7367
+ delay 7
+ offset 84 47
+ frame data/chars/Ulquiorra/1366.gif
+ offset 84 47
+ frame data/chars/Ulquiorra/1367.gif
+ offset 106 47
+ frame data/chars/Ulquiorra/1368.gif
+ offset 125 52
+ frame data/chars/Ulquiorra/1369.gif
+ offset 147 61
+ frame data/chars/Ulquiorra/1370.gif
+ offset 173 72
+ frame data/chars/Ulquiorra/1371.gif
+ offset 197 80
+ frame data/chars/Ulquiorra/1372.gif
+ offset 216 90
+ frame data/chars/Ulquiorra/1373.gif
+ offset 238 99
+ frame data/chars/Ulquiorra/1374.gif
+ offset 255 106
+ frame data/chars/Ulquiorra/1375.gif
+ offset 274 111
+ frame data/chars/Ulquiorra/1376.gif
+ offset 286 118
+ frame data/chars/Ulquiorra/1377.gif
+ offset 303 125
+ frame data/chars/Ulquiorra/1378.gif
+ offset 310 128
+ frame data/chars/Ulquiorra/1379.gif
+ offset 313 129
+ frame data/chars/Ulquiorra/1380.gif
+
+anim freespecial1413
+ delay 7
+ offset 410 280
+ frame data/chars/Ulquiorra/1381.gif
+ offset 410 280
+ frame data/chars/Ulquiorra/1382.gif
+ offset 410 280
+ frame data/chars/Ulquiorra/1383.gif
+ offset 410 280
+ frame data/chars/Ulquiorra/1384.gif
+ offset 410 280
+ frame data/chars/Ulquiorra/1385.gif
+ offset 410 280
+ frame data/chars/Ulquiorra/1386.gif
+ offset 410 280
+ frame data/chars/Ulquiorra/1387.gif
+
+anim freespecial1061
+ delay 7
+ offset 277 213
+ frame data/chars/Ulquiorra/1388.gif
+ offset 277 213
+ frame data/chars/Ulquiorra/1389.gif
+ offset 277 213
+ frame data/chars/Ulquiorra/1390.gif
+ offset 277 213
+ frame data/chars/Ulquiorra/1391.gif
+ offset 277 213
+ frame data/chars/Ulquiorra/1392.gif
+ offset 277 213
+ frame data/chars/Ulquiorra/1393.gif
+ offset 277 213
+ frame data/chars/Ulquiorra/1394.gif
+ offset 277 213
+ frame data/chars/Ulquiorra/1395.gif
+
+anim 7020
+ delay 7
+ offset 82 20
+ frame data/chars/Ulquiorra/1396.gif
+ offset 86 20
+ frame data/chars/Ulquiorra/1397.gif
+ offset 79 15
+ frame data/chars/Ulquiorra/1398.gif
+ offset 79 15
+ frame data/chars/Ulquiorra/1399.gif
+ offset 78 15
+ frame data/chars/Ulquiorra/1400.gif
+ offset 79 15
+ frame data/chars/Ulquiorra/1401.gif
+ offset 78 15
+ frame data/chars/Ulquiorra/1402.gif
+ offset 79 15
+ frame data/chars/Ulquiorra/1403.gif
+ offset 77 15
+ frame data/chars/Ulquiorra/1404.gif
+ offset 77 14
+ frame data/chars/Ulquiorra/1405.gif
+
+anim 9024
+ delay 7
+ offset 18 24
+ frame data/chars/Ulquiorra/1406.gif
+ offset 26 36
+ frame data/chars/Ulquiorra/1407.gif
+ offset 13 20
+ frame data/chars/Ulquiorra/1408.gif
+ offset 14 16
+ frame data/chars/Ulquiorra/1409.gif
+
+anim freespecial1059
+ delay 7
+ offset 382 94
+ frame data/chars/Ulquiorra/1410.gif
+ offset 382 158
+ frame data/chars/Ulquiorra/1411.gif
+ offset 378 218
+ frame data/chars/Ulquiorra/1412.gif
+ offset 370 227
+ frame data/chars/Ulquiorra/1413.gif
+ offset 364 229
+ frame data/chars/Ulquiorra/1414.gif
+ offset 355 231
+ frame data/chars/Ulquiorra/1415.gif
+ offset 348 231
+ frame data/chars/Ulquiorra/1416.gif
+ offset 339 234
+ frame data/chars/Ulquiorra/1417.gif
+ offset 279 201
+ frame data/chars/Ulquiorra/1418.gif
+ offset 241 200
+ frame data/chars/Ulquiorra/1419.gif
+ offset 142 151
+ frame data/chars/Ulquiorra/1420.gif
+ offset 114 13
+ frame data/chars/Ulquiorra/1421.gif
+ offset 114 13
+ frame data/chars/Ulquiorra/1422.gif
+
+anim freespecial1005
+ delay 7
+ offset 145 164
+ frame data/chars/Ulquiorra/1423.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1424.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1425.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1426.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1427.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1428.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1429.gif
+ offset 145 164
+ frame data/chars/Ulquiorra/1430.gif
+
+anim freespecial1059
+ delay 7
+ offset 120 125
+ frame data/chars/Ulquiorra/1431.gif
+ offset 116 115
+ frame data/chars/Ulquiorra/1432.gif
+ offset 116 119
+ frame data/chars/Ulquiorra/1433.gif
+ offset 116 119
+ frame data/chars/Ulquiorra/1434.gif
+ offset 112 108
+ frame data/chars/Ulquiorra/1435.gif
+ offset 97 81
+ frame data/chars/Ulquiorra/1436.gif
+ offset 87 69
+ frame data/chars/Ulquiorra/1437.gif
+ offset 63 58
+ frame data/chars/Ulquiorra/1438.gif
+ offset 46 21
+ frame data/chars/Ulquiorra/1439.gif
+ offset 4 18
+ frame data/chars/Ulquiorra/1440.gif
+
+anim freespecial1011
+ delay 7
+ offset 94 170
+ frame data/chars/Ulquiorra/1441.gif
+ offset 94 170
+ frame data/chars/Ulquiorra/1442.gif
+ offset 94 170
+ frame data/chars/Ulquiorra/1443.gif
+ offset 94 170
+ frame data/chars/Ulquiorra/1444.gif
+ offset 94 170
+ frame data/chars/Ulquiorra/1445.gif
+ offset 94 170
+ frame data/chars/Ulquiorra/1446.gif
+ offset 99 170
+ frame data/chars/Ulquiorra/1447.gif
+ offset 102 170
+ frame data/chars/Ulquiorra/1448.gif
+
+anim freespecial1012
+ delay 7
+ offset 94 170
+ frame data/chars/Ulquiorra/1449.gif
+ offset 94 170
+ frame data/chars/Ulquiorra/1450.gif
+ offset 94 170
+ frame data/chars/Ulquiorra/1451.gif
+ offset 94 170
+ frame data/chars/Ulquiorra/1452.gif
+ offset 94 170
+ frame data/chars/Ulquiorra/1453.gif
+ offset 94 170
+ frame data/chars/Ulquiorra/1454.gif
+ offset 99 170
+ frame data/chars/Ulquiorra/1455.gif
+ offset 102 170
+ frame data/chars/Ulquiorra/1456.gif
+
+anim freespecial1016
+ delay 7
+ offset 128 128
+ frame data/chars/Ulquiorra/1457.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1458.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1459.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1460.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1461.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1462.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1463.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1464.gif
+
+anim freespecial1017
+ delay 7
+ offset 128 128
+ frame data/chars/Ulquiorra/1465.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1466.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1467.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1468.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1469.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1470.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1471.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1472.gif
+
+anim freespecial1016
+ delay 7
+ offset 128 128
+ frame data/chars/Ulquiorra/1473.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1474.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1475.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1476.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1477.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1478.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1479.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1480.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1481.gif
+ offset 128 128
+ frame data/chars/Ulquiorra/1482.gif
+
+anim 8255
+ delay 7
+ offset 178 57
+ frame data/chars/Ulquiorra/1483.gif
+ offset 148 94
+ frame data/chars/Ulquiorra/1484.gif
+ offset 140 132
+ frame data/chars/Ulquiorra/1485.gif
+ offset 135 151
+ frame data/chars/Ulquiorra/1486.gif
+ offset 120 158
+ frame data/chars/Ulquiorra/1487.gif
+ offset 126 207
+ frame data/chars/Ulquiorra/1488.gif
+ offset 126 206
+ frame data/chars/Ulquiorra/1489.gif
+ offset 126 204
+ frame data/chars/Ulquiorra/1490.gif
+ offset 126 202
+ frame data/chars/Ulquiorra/1491.gif
+ offset 126 199
+ frame data/chars/Ulquiorra/1492.gif
+ offset 126 197
+ frame data/chars/Ulquiorra/1493.gif
+ offset 126 193
+ frame data/chars/Ulquiorra/1494.gif
+ offset 126 189
+ frame data/chars/Ulquiorra/1495.gif
+ offset 126 184
+ frame data/chars/Ulquiorra/1496.gif
+ offset 126 179
+ frame data/chars/Ulquiorra/1497.gif
+ offset 126 174
+ frame data/chars/Ulquiorra/1498.gif
+ offset 126 168
+ frame data/chars/Ulquiorra/1499.gif
+ offset 126 161
+ frame data/chars/Ulquiorra/1500.gif
+ offset 126 155
+ frame data/chars/Ulquiorra/1501.gif
+ offset 126 147
+ frame data/chars/Ulquiorra/1502.gif
+ offset 126 139
+ frame data/chars/Ulquiorra/1503.gif
+ offset 126 131
+ frame data/chars/Ulquiorra/1504.gif
+ offset 126 122
+ frame data/chars/Ulquiorra/1505.gif
+ offset 126 112
+ frame data/chars/Ulquiorra/1506.gif
+ offset 126 102
+ frame data/chars/Ulquiorra/1507.gif
+ offset 126 92
+ frame data/chars/Ulquiorra/1508.gif
+ offset 126 81
+ frame data/chars/Ulquiorra/1509.gif
+ offset 126 69
+ frame data/chars/Ulquiorra/1510.gif
+
+anim freespecial1044
+ delay 7
+ offset 450 483
+ frame data/chars/Ulquiorra/1511.gif
+ offset 450 483
+ frame data/chars/Ulquiorra/1512.gif
+ offset 450 483
+ frame data/chars/Ulquiorra/1513.gif
+ offset 450 483
+ frame data/chars/Ulquiorra/1514.gif
+ offset 450 483
+ frame data/chars/Ulquiorra/1515.gif
+ offset 450 483
+ frame data/chars/Ulquiorra/1516.gif
+ offset 450 483
+ frame data/chars/Ulquiorra/1517.gif
+ offset 450 483
+ frame data/chars/Ulquiorra/1518.gif
+ offset 450 483
+ frame data/chars/Ulquiorra/1519.gif
+ offset 450 483
+ frame data/chars/Ulquiorra/1520.gif
+ offset 450 483
+ frame data/chars/Ulquiorra/1521.gif
+
+anim 7055
+ delay 7
+ offset 320 150
+ frame data/chars/Ulquiorra/1522.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/1523.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/1524.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/1525.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/1526.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/1527.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/1528.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/1529.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/1530.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/1531.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/1532.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/1533.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/1534.gif
+ offset 320 150
+ frame data/chars/Ulquiorra/1535.gif
+
+anim 10630
+ delay 7
+ offset 117 -97
+ frame data/chars/Ulquiorra/1536.gif
+ offset 134 -2
+ frame data/chars/Ulquiorra/1537.gif
+ offset 133 -3
+ frame data/chars/Ulquiorra/1538.gif
+ offset 161 30
+ frame data/chars/Ulquiorra/1539.gif
+ offset 153 143
+ frame data/chars/Ulquiorra/1540.gif
+ offset 176 133
+ frame data/chars/Ulquiorra/1541.gif
+ offset 199 335
+ frame data/chars/Ulquiorra/1542.gif
+ offset 199 335
+ frame data/chars/Ulquiorra/1543.gif
+ offset 209 335
+ frame data/chars/Ulquiorra/1544.gif
+ offset 195 335
+ frame data/chars/Ulquiorra/1545.gif
+ offset 181 335
+ frame data/chars/Ulquiorra/1546.gif
+ offset 178 335
+ frame data/chars/Ulquiorra/1547.gif
+ offset 187 335
+ frame data/chars/Ulquiorra/1548.gif
+ offset 180 335
+ frame data/chars/Ulquiorra/1549.gif
+ offset 179 335
+ frame data/chars/Ulquiorra/1550.gif
+ offset 181 335
+ frame data/chars/Ulquiorra/1551.gif
+ offset 183 335
+ frame data/chars/Ulquiorra/1552.gif
+ offset 171 335
+ frame data/chars/Ulquiorra/1553.gif
+ offset 169 335
+ frame data/chars/Ulquiorra/1554.gif
+ offset 168 335
+ frame data/chars/Ulquiorra/1555.gif
+ offset 181 335
+ frame data/chars/Ulquiorra/1556.gif
+ offset 181 335
+ frame data/chars/Ulquiorra/1557.gif
+ offset 169 335
+ frame data/chars/Ulquiorra/1558.gif
+ offset 168 327
+ frame data/chars/Ulquiorra/1559.gif
+ offset 165 331
+ frame data/chars/Ulquiorra/1560.gif
+ offset 152 333
+ frame data/chars/Ulquiorra/1561.gif
+ offset 158 328
+ frame data/chars/Ulquiorra/1562.gif
+ offset 159 330
+ frame data/chars/Ulquiorra/1563.gif
+ offset 159 334
+ frame data/chars/Ulquiorra/1564.gif
+ offset 163 335
+ frame data/chars/Ulquiorra/1565.gif
+
+anim freespecial1519
+ delay 7
+ offset 60 102
+ frame data/chars/Ulquiorra/1566.gif
+ offset 58 95
+ frame data/chars/Ulquiorra/1567.gif
+ offset 54 91
+ frame data/chars/Ulquiorra/1568.gif
+ offset 53 132
+ frame data/chars/Ulquiorra/1569.gif
+ offset 51 165
+ frame data/chars/Ulquiorra/1570.gif
+ offset 52 179
+ frame data/chars/Ulquiorra/1571.gif
+ offset 52 183
+ frame data/chars/Ulquiorra/1572.gif
+ offset 51 160
+ frame data/chars/Ulquiorra/1573.gif
+ offset 53 162
+ frame data/chars/Ulquiorra/1574.gif
+ offset 53 156
+ frame data/chars/Ulquiorra/1575.gif
+ offset 54 148
+ frame data/chars/Ulquiorra/1576.gif
+ offset 54 161
+ frame data/chars/Ulquiorra/1577.gif
+ offset 54 165
+ frame data/chars/Ulquiorra/1578.gif
+ offset 52 141
+ frame data/chars/Ulquiorra/1579.gif
+
+anim freespecial1049
+ delay 7
+ offset 14 53
+ frame data/chars/Ulquiorra/1580.gif
+ offset 16 18
+ frame data/chars/Ulquiorra/1581.gif
+ offset 17 18
+ frame data/chars/Ulquiorra/1582.gif
+ offset 17 17
+ frame data/chars/Ulquiorra/1583.gif
+ offset 16 17
+ frame data/chars/Ulquiorra/1584.gif
+ offset 4 17
+ frame data/chars/Ulquiorra/1585.gif
+
+anim freespecial1066
+ delay 7
+ offset 148 114
+ frame data/chars/Ulquiorra/1586.gif
+ offset 320 286
+ frame data/chars/Ulquiorra/1587.gif
+
+anim freespecial1064
+ delay 7
+ offset 320 281
+ frame data/chars/Ulquiorra/1588.gif
+
+anim freespecial1084
+ delay 7
+ offset 66 -9
+ frame data/chars/Ulquiorra/1589.gif
+ offset 86 8
+ frame data/chars/Ulquiorra/1590.gif
+ offset 93 20
+ frame data/chars/Ulquiorra/1591.gif
+ offset 106 32
+ frame data/chars/Ulquiorra/1592.gif
+ offset 118 41
+ frame data/chars/Ulquiorra/1593.gif
+ offset 122 49
+ frame data/chars/Ulquiorra/1594.gif
+ offset 131 57
+ frame data/chars/Ulquiorra/1595.gif
+ offset 140 63
+ frame data/chars/Ulquiorra/1596.gif
+ offset 141 68
+ frame data/chars/Ulquiorra/1597.gif
+ offset 144 72
+ frame data/chars/Ulquiorra/1598.gif
+ offset 148 76
+ frame data/chars/Ulquiorra/1599.gif
+ offset 160 78
+ frame data/chars/Ulquiorra/1600.gif
+ offset 158 81
+ frame data/chars/Ulquiorra/1601.gif
+ offset 159 83
+ frame data/chars/Ulquiorra/1602.gif
+ offset 164 85
+ frame data/chars/Ulquiorra/1603.gif
+ offset 165 90
+ frame data/chars/Ulquiorra/1604.gif
+ offset 165 92
+ frame data/chars/Ulquiorra/1605.gif
+ offset 168 92
+ frame data/chars/Ulquiorra/1606.gif
+ offset 167 94
+ frame data/chars/Ulquiorra/1607.gif
+ offset 162 95
+ frame data/chars/Ulquiorra/1608.gif
+ offset 165 97
+ frame data/chars/Ulquiorra/1609.gif
+ offset 178 98
+ frame data/chars/Ulquiorra/1610.gif
+ offset 174 97
+ frame data/chars/Ulquiorra/1611.gif
+ offset 171 96
+ frame data/chars/Ulquiorra/1612.gif
+ offset 173 96
+ frame data/chars/Ulquiorra/1613.gif
+ offset 172 100
+ frame data/chars/Ulquiorra/1614.gif
+ offset 175 101
+ frame data/chars/Ulquiorra/1615.gif
+ offset 179 100
+ frame data/chars/Ulquiorra/1616.gif
+
+anim freespecial1055
+ delay 7
+ offset 245 121
+ frame data/chars/Ulquiorra/1617.gif
+
+anim freespecial1062
+ delay 7
+ offset 245 114
+ frame data/chars/Ulquiorra/1618.gif
+
+anim freespecial1055
+ delay 7
+ offset 244 105
+ frame data/chars/Ulquiorra/1619.gif
+ offset 243 41
+ frame data/chars/Ulquiorra/1620.gif
+ offset 243 26
+ frame data/chars/Ulquiorra/1621.gif
+ offset 241 17
+ frame data/chars/Ulquiorra/1622.gif
+ offset 236 15
+ frame data/chars/Ulquiorra/1623.gif
+
+anim freespecial1066
+ delay 7
+ offset 86 87
+ frame data/chars/Ulquiorra/1624.gif
+
+anim 10660
+ delay 7
+ offset 209 188
+ frame data/chars/Ulquiorra/1625.gif
+ offset 287 223
+ frame data/chars/Ulquiorra/1626.gif
+
+anim freespecial1251
+ delay 7
+ offset 25 24
+ frame data/chars/Ulquiorra/1627.gif
+ offset 41 69
+ frame data/chars/Ulquiorra/1628.gif
+ offset 63 108
+ frame data/chars/Ulquiorra/1629.gif
+ offset 99 8
+ frame data/chars/Ulquiorra/1630.gif
+ offset 187 18
+ frame data/chars/Ulquiorra/1631.gif
+ offset 266 43
+ frame data/chars/Ulquiorra/1632.gif
+ offset 279 31
+ frame data/chars/Ulquiorra/1633.gif
+ offset 219 24
+ frame data/chars/Ulquiorra/1634.gif
+ offset 267 27
+ frame data/chars/Ulquiorra/1635.gif
+
+anim 10650
+ delay 7
+ offset 384 540
+ frame data/chars/Ulquiorra/1636.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1637.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1638.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1639.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1640.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1641.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1642.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1643.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1644.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1645.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1646.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1647.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1648.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1649.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1650.gif
+ offset 384 540
+ frame data/chars/Ulquiorra/1651.gif
+
+anim 7024
+ delay 7
+ offset 46 88
+ frame data/chars/Ulquiorra/1652.gif
+ offset 59 177
+ frame data/chars/Ulquiorra/1653.gif
+ offset 71 308
+ frame data/chars/Ulquiorra/1654.gif
+ offset 72 299
+ frame data/chars/Ulquiorra/1655.gif
+ offset 74 294
+ frame data/chars/Ulquiorra/1656.gif
+ offset 77 304
+ frame data/chars/Ulquiorra/1657.gif
+ offset 82 305
+ frame data/chars/Ulquiorra/1658.gif
+ offset 73 308
+ frame data/chars/Ulquiorra/1659.gif
+ offset 75 301
+ frame data/chars/Ulquiorra/1660.gif
+ offset 76 303
+ frame data/chars/Ulquiorra/1661.gif
+ offset 71 218
+ frame data/chars/Ulquiorra/1662.gif
+ offset 67 218
+ frame data/chars/Ulquiorra/1663.gif
+ offset 52 214
+ frame data/chars/Ulquiorra/1664.gif
+ offset 53 195
+ frame data/chars/Ulquiorra/1665.gif
+ offset 55 194
+ frame data/chars/Ulquiorra/1666.gif
+ offset 35 190
+ frame data/chars/Ulquiorra/1667.gif
+
+anim 10600
+ delay 7
+ offset 63 32
+ frame data/chars/Ulquiorra/1668.gif
+ offset 63 30
+ frame data/chars/Ulquiorra/1669.gif
+ offset 63 30
+ frame data/chars/Ulquiorra/1670.gif
+ offset 63 34
+ frame data/chars/Ulquiorra/1671.gif
+ offset 72 42
+ frame data/chars/Ulquiorra/1672.gif
+ offset 76 46
+ frame data/chars/Ulquiorra/1673.gif
+ offset 79 50
+ frame data/chars/Ulquiorra/1674.gif
+ offset 81 53
+ frame data/chars/Ulquiorra/1675.gif
+
+anim freespecial1060
+ delay 7
+ offset 82 82
+ frame data/chars/Ulquiorra/1676.gif
+ offset 91 127
+ frame data/chars/Ulquiorra/1677.gif
+ offset 95 138
+ frame data/chars/Ulquiorra/1678.gif
+ offset 97 151
+ frame data/chars/Ulquiorra/1679.gif
+ offset 102 138
+ frame data/chars/Ulquiorra/1680.gif
+ offset 99 150
+ frame data/chars/Ulquiorra/1681.gif
+ offset 101 160
+ frame data/chars/Ulquiorra/1682.gif
+ offset 99 133
+ frame data/chars/Ulquiorra/1683.gif
+ offset 81 150
+ frame data/chars/Ulquiorra/1684.gif
+ offset 90 155
+ frame data/chars/Ulquiorra/1685.gif
+ offset 94 129
+ frame data/chars/Ulquiorra/1686.gif
+ offset 96 126
+ frame data/chars/Ulquiorra/1687.gif
+ offset 101 130
+ frame data/chars/Ulquiorra/1688.gif
+ offset 99 141
+ frame data/chars/Ulquiorra/1689.gif
+ offset 101 150
+ frame data/chars/Ulquiorra/1690.gif
+ offset 98 177
+ frame data/chars/Ulquiorra/1691.gif
+ offset 81 158
+ frame data/chars/Ulquiorra/1692.gif
+ offset 91 133
+ frame data/chars/Ulquiorra/1693.gif
+ offset 94 131
+ frame data/chars/Ulquiorra/1694.gif
+ offset 97 109
+ frame data/chars/Ulquiorra/1695.gif
+ offset 100 120
+ frame data/chars/Ulquiorra/1696.gif
+ offset 99 126
+ frame data/chars/Ulquiorra/1697.gif
+ offset 101 131
+ frame data/chars/Ulquiorra/1698.gif
+
+anim 10570
+ delay 7
+ offset 10 -37
+ frame data/chars/Ulquiorra/1699.gif
+ offset 18 -31
+ frame data/chars/Ulquiorra/1700.gif
+ offset 22 -13
+ frame data/chars/Ulquiorra/1701.gif
+ offset 24 20
+ frame data/chars/Ulquiorra/1702.gif
+ offset 29 50
+ frame data/chars/Ulquiorra/1703.gif
+ offset 38 53
+ frame data/chars/Ulquiorra/1704.gif
+ offset 42 54
+ frame data/chars/Ulquiorra/1705.gif
+ offset 43 49
+ frame data/chars/Ulquiorra/1706.gif
+
+anim idle
+ delay 7
+ offset 0 0
+ frame data/chars/Ulquiorra/1707.gif
