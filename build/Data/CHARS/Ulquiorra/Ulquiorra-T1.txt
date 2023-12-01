@@ -3,10 +3,13 @@ type none
 health 100
 speed 12
 shadow	2
+palette none
+icon data/chars/Ulquiorra/0.gif
 
 
 
-anim	0001
+anim	idle
+	loop	1
 	delay	7
 	offset	94 78
 	frame	data/chars/Ulquiorra/12.gif
@@ -17,25 +20,22 @@ anim	0001
 	offset	94 77
 	frame	data/chars/Ulquiorra/15.gif
 		
-anim	0007
+anim	freespecial5
 	delay	7
 	offset	67 79
 	frame	data/chars/Ulquiorra/21.gif
+	offset	69 93
+	frame	data/chars/Ulquiorra/41.gif
+	offset	54 62
+	frame	data/chars/Ulquiorra/42.gif
+	offset	69 93
+	frame	data/chars/Ulquiorra/41.gif
+	offset	44 125
+	frame	data/chars/Ulquiorra/40.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
 		
-anim	9000
-	delay	7
-	offset	0 0
-	frame	data/chars/Ulquiorra/0.gif
-	offset	0 0
-	frame	data/chars/Ulquiorra/1.gif
-	offset	460 170
-	frame	data/chars/Ulquiorra/2.gif
-	offset	450 170
-	frame	data/chars/Ulquiorra/3.gif
-	offset	450 170
-	frame	data/chars/Ulquiorra/4.gif
-		
-anim	attack201
+anim	attack1
 	delay	7
 	offset	94 77
 	frame	data/chars/Ulquiorra/85.gif
@@ -45,6 +45,9 @@ anim	attack201
 	frame	data/chars/Ulquiorra/87.gif
 	offset	21 117
 	frame	data/chars/Ulquiorra/88.gif
+		
+anim	attack2
+	delay	7
 	offset	64 81
 	frame	data/chars/Ulquiorra/89.gif
 	offset	59 84
@@ -53,6 +56,9 @@ anim	attack201
 	frame	data/chars/Ulquiorra/91.gif
 	offset	82 55
 	frame	data/chars/Ulquiorra/92.gif
+		
+anim	attack3
+	delay	7
 	offset	95 77
 	frame	data/chars/Ulquiorra/93.gif
 	offset	68 54
@@ -61,141 +67,57 @@ anim	attack201
 	frame	data/chars/Ulquiorra/95.gif
 	offset	17 53
 	frame	data/chars/Ulquiorra/96.gif
+		
+anim	chargeattack
+		
+anim	freespecial11
+	delay	7
 	offset	56 64
 	frame	data/chars/Ulquiorra/97.gif
-	offset	70 52
-	frame	data/chars/Ulquiorra/98.gif
-	offset	83 52
-	frame	data/chars/Ulquiorra/99.gif
-	offset	96 76
-	frame	data/chars/Ulquiorra/100.gif
-	offset	97 76
-	frame	data/chars/Ulquiorra/101.gif
-	offset	53 57
-	frame	data/chars/Ulquiorra/102.gif
-	offset	24 55
-	frame	data/chars/Ulquiorra/103.gif
-	offset	53 57
-	frame	data/chars/Ulquiorra/104.gif
-	offset	94 77
-	frame	data/chars/Ulquiorra/105.gif
-	offset	95 77
-	frame	data/chars/Ulquiorra/106.gif
-	offset	94 77
-	frame	data/chars/Ulquiorra/107.gif
-	offset	95 77
-	frame	data/chars/Ulquiorra/108.gif
-	offset	94 77
-	frame	data/chars/Ulquiorra/109.gif
-	offset	94 77
-	frame	data/chars/Ulquiorra/110.gif
-	offset	85 53
-	frame	data/chars/Ulquiorra/111.gif
-	offset	92 82
-	frame	data/chars/Ulquiorra/112.gif
-	offset	54 101
-	frame	data/chars/Ulquiorra/113.gif
-	offset	74 74
-	frame	data/chars/Ulquiorra/114.gif
-	offset	101 87
-	frame	data/chars/Ulquiorra/115.gif
-	offset	64 84
-	frame	data/chars/Ulquiorra/116.gif
-	offset	64 80
-	frame	data/chars/Ulquiorra/117.gif
-	offset	59 83
-	frame	data/chars/Ulquiorra/118.gif
-	offset	84 57
-	frame	data/chars/Ulquiorra/119.gif
-	offset	84 56
-	frame	data/chars/Ulquiorra/120.gif
-	offset	94 77
-	frame	data/chars/Ulquiorra/121.gif
-	offset	92 77
-	frame	data/chars/Ulquiorra/122.gif
-	offset	92 77
-	frame	data/chars/Ulquiorra/123.gif
-	offset	93 77
-	frame	data/chars/Ulquiorra/124.gif
-	offset	83 51
-	frame	data/chars/Ulquiorra/125.gif
-	offset	97 74
-	frame	data/chars/Ulquiorra/126.gif
-	offset	97 74
-	frame	data/chars/Ulquiorra/127.gif
-	offset	69 50
-	frame	data/chars/Ulquiorra/128.gif
-	offset	94 74
-	frame	data/chars/Ulquiorra/129.gif
-	offset	75 63
-	frame	data/chars/Ulquiorra/130.gif
-	offset	67 86
-	frame	data/chars/Ulquiorra/131.gif
-	offset	24 54
-	frame	data/chars/Ulquiorra/132.gif
-	offset	56 55
-	frame	data/chars/Ulquiorra/133.gif
-	offset	94 74
-	frame	data/chars/Ulquiorra/134.gif
-	offset	94 74
-	frame	data/chars/Ulquiorra/135.gif
-	offset	94 74
-	frame	data/chars/Ulquiorra/136.gif
-		
-anim	backwalk
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	@cmd	stop
+	@cmd	dasher 7 0 0
 	delay	7
-	offset	49 82
-	frame	data/chars/Ulquiorra/29.gif
-	offset	33 52
-	frame	data/chars/Ulquiorra/30.gif
-	offset	32 47
-	frame	data/chars/Ulquiorra/31.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	@cmd	stop
 		
-anim	block121
-	delay	7
-	offset	94 77
-	frame	data/chars/Ulquiorra/51.gif
-	offset	93 77
-	frame	data/chars/Ulquiorra/52.gif
-	offset	94 77
-	frame	data/chars/Ulquiorra/53.gif
-		
-anim	fall5100
+anim	fall
 	delay	7
 	offset	53 59
 	frame	data/chars/Ulquiorra/194.gif
-	offset	56 56
-	frame	data/chars/Ulquiorra/195.gif
 	offset	29 83
 	frame	data/chars/Ulquiorra/196.gif
 	offset	30 42
 	frame	data/chars/Ulquiorra/197.gif
-	offset	30 42
-	frame	data/chars/Ulquiorra/198.gif
-	offset	27 85
-	frame	data/chars/Ulquiorra/199.gif
-	offset	26 84
-	frame	data/chars/Ulquiorra/200.gif
-	offset	56 62
-	frame	data/chars/Ulquiorra/201.gif
 	offset	53 73
 	frame	data/chars/Ulquiorra/202.gif
 	offset	32 15
 	frame	data/chars/Ulquiorra/203.gif
-	offset	41 44
-	frame	data/chars/Ulquiorra/204.gif
-	offset	53 60
-	frame	data/chars/Ulquiorra/205.gif
-	offset	52 49
-	frame	data/chars/Ulquiorra/206.gif
-	offset	33 75
-	frame	data/chars/Ulquiorra/207.gif
-	offset	25 86
-	frame	data/chars/Ulquiorra/208.gif
-	offset	58 41
-	frame	data/chars/Ulquiorra/209.gif
-	offset	53 59
-	frame	data/chars/Ulquiorra/210.gif
 		
 anim	jump
 	delay	7
@@ -212,27 +134,190 @@ anim	jump
 	offset	69 93
 	frame	data/chars/Ulquiorra/45.gif
 		
-				
-anim	chargeattack
-		
-anim	fall
-		
 anim	jumpattack
+	delay	7
+	offset	64 84
+	frame	data/chars/Ulquiorra/116.gif
+	offset	64 80
+	frame	data/chars/Ulquiorra/117.gif
+	offset	59 83
+	frame	data/chars/Ulquiorra/118.gif
+	offset	84 57
+	frame	data/chars/Ulquiorra/119.gif
+	offset	84 56
+	frame	data/chars/Ulquiorra/120.gif
 		
-anim	rise
+anim	freespecial
+	delay	7
+	offset	64 84
+	frame	data/chars/Ulquiorra/116.gif
+	offset	64 80
+	frame	data/chars/Ulquiorra/117.gif
+	offset	59 83
+	frame	data/chars/Ulquiorra/118.gif
+	offset	84 57
+	frame	data/chars/Ulquiorra/119.gif
+	offset	59 83
+	frame	data/chars/Ulquiorra/118.gif
+	offset	84 57
+	frame	data/chars/Ulquiorra/119.gif
+	offset	59 83
+	frame	data/chars/Ulquiorra/118.gif
+	offset	84 57
+	frame	data/chars/Ulquiorra/119.gif
+	offset	59 83
+	frame	data/chars/Ulquiorra/118.gif
+	offset	84 57
+	frame	data/chars/Ulquiorra/119.gif
+	offset	59 83
+	frame	data/chars/Ulquiorra/118.gif
+	offset	84 57
+	frame	data/chars/Ulquiorra/119.gif
+	offset	59 83
+	frame	data/chars/Ulquiorra/118.gif
+	offset	84 57
+	frame	data/chars/Ulquiorra/119.gif
+	offset	59 83
+	frame	data/chars/Ulquiorra/118.gif
+	offset	84 57
+	frame	data/chars/Ulquiorra/119.gif
+	offset	59 83
+	frame	data/chars/Ulquiorra/118.gif
+	offset	84 57
+	frame	data/chars/Ulquiorra/119.gif
+	offset	59 83
+	frame	data/chars/Ulquiorra/118.gif
+	offset	84 57
+	frame	data/chars/Ulquiorra/119.gif
+	delay	13
+	offset	84 56
+	frame	data/chars/Ulquiorra/120.gif
 		
-anim	run
+anim	freespecial3
+	delay	20
+	offset	75 63
+	frame	data/chars/Ulquiorra/130.gif
+	offset	64 81
+	frame	data/chars/Ulquiorra/89.gif
+	offset	94 77
+	frame	data/chars/Ulquiorra/85.gif
 		
-anim	dodge
-		
-anim	runattack
+anim	freespecial2
+	delay	7
+	offset	94 77
+	frame	data/chars/Ulquiorra/85.gif
+	offset	56 64
+	frame	data/chars/Ulquiorra/97.gif
+	offset	70 52
+	frame	data/chars/Ulquiorra/98.gif
+	offset	83 52
+	frame	data/chars/Ulquiorra/99.gif
+	offset	96 76
+	frame	data/chars/Ulquiorra/100.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
 		
 anim	spawn
+	delay	7
+	offset	94 78
+	frame	data/chars/Ulquiorra/12.gif
+	offset	67 86
+	frame	data/chars/Ulquiorra/131.gif
+	offset	24 54
+	frame	data/chars/Ulquiorra/132.gif
+	offset	56 55
+	frame	data/chars/Ulquiorra/133.gif
+	offset	94 74
+	frame	data/chars/Ulquiorra/134.gif
+	offset	94 74
+	frame	data/chars/Ulquiorra/135.gif
+	offset	94 74
+	frame	data/chars/Ulquiorra/136.gif
+	delay	7
+	offset	94 78
+	frame	data/chars/Ulquiorra/12.gif
 		
-anim	attack1
+anim	freespecial6
+	delay	7
+	offset	94 77
+	frame	data/chars/Ulquiorra/105.gif
+	offset	95 77
+	frame	data/chars/Ulquiorra/106.gif
+	offset	94 77
+	frame	data/chars/Ulquiorra/107.gif
+	offset	95 77
+	frame	data/chars/Ulquiorra/108.gif
+	offset	94 77
+	frame	data/chars/Ulquiorra/109.gif
+	offset	94 77
+	frame	data/chars/Ulquiorra/110.gif
 		
-anim	attack2
+anim	freespecial4
+	delay	7
+	offset	94 77
+	frame	data/chars/Ulquiorra/14.gif
 		
-anim	attack3
+anim	rise
+	delay	10
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+		
+anim	run
+	loop	1
+	delay	12
+	offset	48 82
+	frame	data/chars/Ulquiorra/29.gif
+	delay	6
+	offset	33 52
+	frame	data/chars/Ulquiorra/30.gif
+	offset	32 47
+	frame	data/chars/Ulquiorra/31.gif
+	offset	33 52
+	frame	data/chars/Ulquiorra/30.gif
+		
+anim	runattack
+	delay	7
+	offset	95 77
+	frame	data/chars/Ulquiorra/93.gif
+	offset	68 54
+	frame	data/chars/Ulquiorra/94.gif
+	offset	18 53
+	frame	data/chars/Ulquiorra/95.gif
+	offset	17 53
+	frame	data/chars/Ulquiorra/96.gif
+		
+anim	spawn
+	delay	7
+	offset	94 78
+	frame	data/chars/Ulquiorra/12.gif
+	offset	67 86
+	frame	data/chars/Ulquiorra/131.gif
+	offset	24 54
+	frame	data/chars/Ulquiorra/132.gif
+	offset	56 55
+	frame	data/chars/Ulquiorra/133.gif
+	offset	94 74
+	frame	data/chars/Ulquiorra/134.gif
+	offset	94 74
+	frame	data/chars/Ulquiorra/135.gif
+	offset	94 74
+	frame	data/chars/Ulquiorra/136.gif
+	delay	7
+	offset	94 78
+	frame	data/chars/Ulquiorra/12.gif
+		
+anim	walk
+	loop	1
+	delay	25
+	offset	48 82
+	frame	data/chars/Ulquiorra/29.gif
+	delay	12
+	offset	33 52
+	frame	data/chars/Ulquiorra/30.gif
+	offset	32 47
+	frame	data/chars/Ulquiorra/31.gif
+	offset	33 52
+	frame	data/chars/Ulquiorra/30.gif
+		
 #|edited by openBor Stats v 0.67
 		
