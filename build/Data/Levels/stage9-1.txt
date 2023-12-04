@@ -8,9 +8,9 @@ stagenumber 9
 levelscript data/scripts/levels/pspawn.c
 
 spawn1 110 20
-spawn2 120 40
+spawn2 140 20
 spawn3 110 60
-spawn4 120 80
+spawn4 140 60
 
 spawn ready
 	coords 240 136
@@ -120,7 +120,7 @@ at 200
 
 spawn crate
 item hp_hundred
-coords 490 198
+coords 490 204
 at 210
 
 spawn crate
@@ -130,7 +130,7 @@ at 210
 
 2pspawn crate
 item hp_hundred
-coords 500 198
+coords 500 204
 at 210
 
 2pspawn crate
@@ -140,7 +140,7 @@ at 210
 
 3pspawn crate
 item hp_hundred
-coords 520 198
+coords 520 204
 at 210
 
 3pspawn crate
@@ -150,7 +150,7 @@ at 210
 
 4pspawn crate
 item hp_hundred
-coords 540 198
+coords 540 204
 at 210
 
 4pspawn crate
@@ -256,7 +256,7 @@ at 1913
 spawn tsuna
 health 30
 item statsItem
-coords 480 198
+coords 480 204
 at 1913
 
 spawn tsuna
@@ -271,7 +271,7 @@ at 1913
 
 spawn tsuna
 health 30
-coords 480 198
+coords 480 204
 at 1913
 
 spawn menos
@@ -297,7 +297,7 @@ at 1913
 spawn tsuna
 health 30
 item statsItem
-coords 480 198
+coords 480 204
 at 1913
 
 spawn tsuna
@@ -312,7 +312,7 @@ at 1913
 
 spawn tsuna
 health 30
-coords 480 198
+coords 480 204
 at 1913
 
 spawn emptystar

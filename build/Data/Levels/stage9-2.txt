@@ -8,9 +8,9 @@ levelscript data/scripts/levels/pspawn.c
 updatescript data/scripts/levels/stage-engine.c
 
 spawn1 110 20
-spawn2 120 40
+spawn2 140 20
 spawn3 110 60
-spawn4 110 80
+spawn4 140 60
 
 spawn ready
 	coords 240 136

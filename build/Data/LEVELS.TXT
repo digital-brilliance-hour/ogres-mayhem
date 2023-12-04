@@ -189,7 +189,7 @@ file data/levels/tutorial.txt
 
 set stage_9
 file 	data/levels/scenes/intro/stage9-intro.txt
-z 189 241 53
+z 198 241 42
 file	data/levels/stage9-1.txt
 z 203 242 39
 file	data/levels/stage9-2.txt
