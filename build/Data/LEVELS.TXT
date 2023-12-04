@@ -195,3 +195,8 @@ file data/levels/tutorial.txt
 #next
 #z 120 226 106
 #file	data/levels/stage9.txt
+
+
+set stage_10
+z 154 226 72
+file data/levels/stage10-1.txt
