@@ -1,0 +1,321 @@
+music data/music/stage9-1.ogg
+background data/bgs/9-1/1.gif
+panel data/bgs/9-1/1.gif none none
+order a
+#nofadeout 1
+
+stagenumber 9
+levelscript data/scripts/levels/pspawn.c
+
+spawn1 110 20
+spawn2 140 20
+spawn3 110 60
+spawn4 140 60
+
+spawn ready
+	coords 240 136
+	at 0
+
+wait
+at 200
+
+group 4 4
+at 200
+
+spawn facce
+coords 450 204
+at 200
+
+spawn facce
+coords 450 227
+at 200
+
+spawn shrieker
+coords 30 204
+at 200
+
+spawn shrieker
+coords 30 227
+at 200
+
+spawn facce
+coords 20 204
+at 200
+
+spawn facce
+coords 20 227
+at 200
+
+spawn shrieker
+coords 450 204
+at 200
+
+spawn shrieker
+coords 450 227
+at 200
+
+spawn facce
+coords 20 204
+at 200
+
+spawn facce
+coords 20 227
+at 200
+
+spawn shrieker
+coords 450 204
+at 200
+
+spawn shrieker
+coords 450 227
+at 200
+
+spawn facce
+coords 20 204
+at 200
+
+spawn facce
+coords 20 227
+at 200
+
+spawn shrieker
+coords 450 204
+at 200
+
+spawn shrieker
+coords 450 227
+at 200
+
+spawn facce
+coords 20 204
+at 200
+
+spawn facce
+coords 20 227
+at 200
+
+spawn shrieker
+coords 450 204
+at 200
+
+spawn shrieker
+coords 450 227
+at 200
+
+spawn facce
+coords 20 204
+at 200
+
+spawn facce
+coords 20 227
+at 200
+
+spawn shrieker
+coords 450 204
+at 200
+
+spawn shrieker
+coords 450 227
+at 200
+
+spawn crate
+item hp_hundred
+coords 490 204
+at 210
+
+spawn crate
+item mp_hundred
+coords 490 227
+at 210
+
+2pspawn crate
+item hp_hundred
+coords 500 204
+at 210
+
+2pspawn crate
+item mp_hundred
+coords 500 224
+at 210
+
+3pspawn crate
+item hp_hundred
+coords 520 204
+at 210
+
+3pspawn crate
+item mp_hundred
+coords 520 227
+at 210
+
+4pspawn crate
+item hp_hundred
+coords 540 204
+at 210
+
+4pspawn crate
+item mp_hundred
+coords 540 224
+at 210
+
+wait
+at 1000
+
+group 4 4
+at 1000
+
+spawn grand_fisher
+coords 450 204
+at 1000
+
+spawn grand_fisher
+coords 450 227
+at 1000
+
+spawn grand_fisher
+coords 30 204
+at 1000
+
+spawn grand_fisher
+coords 30 227
+at 1000
+
+
+spawn harpy
+coords 120 204
+at 1000
+
+spawn harpy
+coords 20 227
+at 1000
+
+spawn harpy
+coords 450 204
+at 1000
+
+spawn harpy
+coords 450 227
+at 1000
+
+spawn Tsukaima
+coords 450 204
+at 1000
+
+spawn Tsukaima
+coords 450 227
+at 1000
+
+spawn Tsukaima
+coords 30 204
+at 1000
+
+spawn Tsukaima
+coords 30 227
+at 1000
+
+music data/music/stage9-1-boss.ogg
+at 1913
+
+
+shadowcolor -1
+at 1913
+
+shadowalpha 6
+at 1913
+
+shadowopacity 0
+at 1913
+
+wait
+at 1913
+
+# boss help
+group 5 6
+at 1913
+
+spawn menos
+health 600
+coords 450 204
+at 1913
+
+spawn menos
+health 600
+coords 450 227
+at 1913
+
+spawn menos
+health 600
+coords 30 204
+at 1913
+
+spawn menos
+health 600
+coords 30 227
+at 1913
+
+spawn tsuna
+health 30
+item statsItem
+coords 480 204
+at 1913
+
+spawn tsuna
+health 30
+coords 480 224
+at 1913
+
+spawn tsuna
+health 30
+coords 480 224
+at 1913
+
+spawn tsuna
+health 30
+coords 480 204
+at 1913
+
+spawn menos
+health 600
+coords 450 204
+at 1913
+
+spawn menos
+health 600
+coords 450 227
+at 1913
+
+spawn menos
+health 600
+coords 30 204
+at 1913
+
+spawn menos
+health 600
+coords 30 227
+at 1913
+
+spawn tsuna
+health 30
+item statsItem
+coords 480 204
+at 1913
+
+spawn tsuna
+health 30
+coords 480 224
+at 1913
+
+spawn tsuna
+health 30
+coords 480 224
+at 1913
+
+spawn tsuna
+health 30
+coords 480 204
+at 1913
+
+spawn emptystar
+health 1000000
+coords 1000 224
+at 1913

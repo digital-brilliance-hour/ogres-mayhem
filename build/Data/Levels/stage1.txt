@@ -5,6 +5,7 @@ panel data/bgs/stage-1/n.gif none none
 order a
 
 updatescript data/scripts/levels/stage-engine.c
+levelscript data/scripts/levels/pspawn.c
 
 spawn1 110 20
 spawn2 120 40

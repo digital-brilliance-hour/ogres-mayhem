@@ -9,7 +9,7 @@ void main()
 		 p = getplayerproperty(i, "entity");
 		num = i+1;
 		 if(p){
-		 	
+		 	setglobalvar("p"+num+"_spawned", 1);
 		 	score=getplayerproperty(i,"score");
 		 	changeentityproperty(p, "maxhealth", getglobalvar("maxhealth_"+num+"P"));
 			stage = openborvariant("current_stage");
