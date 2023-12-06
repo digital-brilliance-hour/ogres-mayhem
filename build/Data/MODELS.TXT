@@ -48,7 +48,6 @@ load 	pdust		data/chars/misc/dust.txt
 load 	h_card		data/chars/hisoka/card.txt
 load 	e_spawn 	data/chars/misc/espawn/espawn.txt
 load 	pspawn 	data/chars/misc/pspawn.txt
-load 	ispawn 	data/chars/misc/ispawn.txt
 load 	quake 		data/chars/misc/quake.txt
 load deku_redcharge data/chars/deku/red_charge.txt
 load deku_greencharge data/chars/deku/green_charge.txt
@@ -268,7 +267,6 @@ know	Knife2		data/chars/misc/knife-2.txt
 know	Knife3		data/chars/misc/knife-3.txt
 know	Shot		data/chars/misc/shot.txt
 know	Star		data/chars/misc/star.txt
-know    emptystar   data/chars/misc/emptystar.txt
 know	Steam		data/chars/misc/steam.txt
 know	Steamer		data/chars/misc/steamer.txt
 know	Furnace		data/chars/misc/furnace.txt
@@ -410,3 +408,8 @@ know rock data/chars/misc/rock.txt
 Know soulsocietyIntro Data/CHARS/misc/soulsociety-intro/soulsociety-intro.txt
 Know sFireBlast1 Data/CHARS/Bakugou/bFireBlast1/sFireBlast1.txt
 know Luffy_Gear_2  data/chars/Luffy_Gear_2/Luffy_Gear_2.txt
+know  data/chars//.txt
+know  data/chars//.txt
+know  data/chars//.txt
+know Tanjiro data/chars/Tanjiro/Tanjiro.txt
+know  data/chars//.txt
