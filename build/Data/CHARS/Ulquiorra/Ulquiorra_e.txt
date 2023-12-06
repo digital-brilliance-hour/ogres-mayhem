@@ -47,6 +47,7 @@ weaploss 3
 
 
 
+
 anim	attack1
 	delay	7
 	offset	16 51
@@ -148,7 +149,6 @@ anim	freespecial2
 		
 anim	freespecial3
 	delay	7
-	@cmd	pause_all 1 100
 	offset	22 51
 	frame	data/chars/Ulquiorra/75.gif
 	offset	26 52
