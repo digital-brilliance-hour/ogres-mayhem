@@ -5,6 +5,7 @@ panel data/bgs/10-1/0.gif none none
 order a
 
 stagenumber 10
+levelscript data/scripts/levels/pspawn.c
 updatescript data/scripts/levels/stage-engine.c
 
 
@@ -16,12 +17,45 @@ spawn1 180 39
 
 spawn2 300 39
 
+wall 0 272 0 0 38 38 272 200
+wall 0 272 442 442 480 480 272 200
 
-group 4 4
-at 540
+
+spawn empty
+@script
+void main() {
+setglobalvar("bossInterlude", 1);
+setglobalvar("bossStopX", 180);
+setglobalvar("bossStopY0", 193);
+setglobalvar("bossDialog", "shanksdialog"); //This is whatever the dialog alias is for the stage
+}
+@end_script
+coords 1 1
+at 0
+
+spawn shreke
+alias Shrek
+boss 1
+@script
+void main() {
+     void self = getlocalvar("self");
+     changeentityproperty(self, "noaicontrol", 1);
+     changeentityproperty(self, "subject_to_screen", 0);
+     changeentityproperty(self, "aiflag", "walking", 0);
+     changeentityproperty(self, "aiflag", "idling", 0);
+     changeentityproperty(self, "aiflag", "attacking", 0);
+     changeentityproperty(self, "animation", openborconstant("ANI_IDLE"));
+}
+@end_script
+health 1300
+coords	238 154
+at 0
+
+group 2 3
+at 0
 
 wait
-at 540
+at 0
 
 spawn menos
 coords	-30 200
