@@ -45,6 +45,7 @@ weaploss 3
 
 
 
+
 anim	attack1
 	delay	7
 	offset	16 51
@@ -96,6 +97,7 @@ anim	fall
 	frame	data/chars/Ulquiorra/182.gif
 	offset	20 37
 	frame	data/chars/Ulquiorra/183.gif
+	bbox	1 0 56 14
 	offset	28 10
 	frame	data/chars/Ulquiorra/187.gif
 		
@@ -145,6 +147,7 @@ anim	freespecial2
 		
 anim	freespecial3
 	delay	7
+	@cmd	pause_all 1 100
 	offset	22 51
 	frame	data/chars/Ulquiorra/75.gif
 	offset	26 52
@@ -152,7 +155,6 @@ anim	freespecial3
 	offset	19 52
 	frame	data/chars/Ulquiorra/77.gif
 	@cmd	spawnbind "Rblast" 43 30 0
-	@cmd	pause_all 1 100
 	offset	14 52
 	frame	data/chars/Ulquiorra/78.gif
 		

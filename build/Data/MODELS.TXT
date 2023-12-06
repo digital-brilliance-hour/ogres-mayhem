@@ -416,4 +416,5 @@ know Ulquiorra-old data/chars/Ulquiorra-old/Ulquiorra.txt
 load Rblast data/chars/Ulquiorra/Rblast.txt
 load Rshot data/chars/Ulquiorra/Rshot.txt
 load f_punch data/chars/Ulquiorra/Fpunch.txt
+load final_blast data/chars/Ulquiorra/Finalblast.txt
 

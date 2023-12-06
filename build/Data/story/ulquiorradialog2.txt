@@ -1,26 +1,22 @@
-Ulquiorra 0 I_can’t_believe_that_green_oaf_bested_me._I_won’t
-Ulquiorra 0 let_it_happen_again._You_won’t_get_the_better_of
-Ulquiorra 0 me_like_he_did.
+Ulquiorra 0 I_never_expected_to_cross_paths_with_you_again.
 
-Ulquiorra 0 I never expected to cross paths with you again.
+Hero 0 Ulquiorra,_why_have_you_joined_forces_with_Shrek?_He's_ensnaring_powerful_beings_for_his_cause.
 
-Hero 0 Ulquiorra, why have you joined forces with Shrek? He's ensnaring powerful beings for his cause.
+Ulquiorra 0 Shrek's_power_is_beyond_comprehension._He's_misunderstood,_just_as_I_once_was.
 
-Ulquiorra 0 Shrek's power is beyond comprehension. He's misunderstood, just as I once was.
+Hero 0 Misunderstood?_He's_manipulating_powerful_beings_to_create_his_world.
 
-Hero 0 Misunderstood? He's manipulating powerful beings to create his world.
+Ulquiorra 0 His_world_isn't_about_domination—it's_about_finding_solace_for_those_who've_lost_everything._Shrek_lost_everyone_he_loved.
 
-Ulquiorra 0 His world isn't about domination—it's about finding solace for those who've lost everything. Shrek lost everyone he loved.
+Hero 0 But_his_methods_are_extreme!
 
-Hero 0 But his methods are extreme!
-
-Ulquiorra 0 Extreme, perhaps, but born of profound loss. His power draws in those seeking understanding, offering a haven for the disheartened.
+Ulquiorra 0 Extreme,_perhaps,_but_born_of_profound_loss._His_power_draws_in_those_seeking_understanding,_offering_a_haven_for_the_disheartened.
 
 Hero 0 I cannot let his vision become reality if it means chaos and upheaval.
 
-Ulquiorra 0 Your resolve is unwavering, but in our clash, understand this—Shrek's motives might be misunderstood. His strength stems from the pain of losing everything he held dear.
+Ulquiorra 0 Your_resolve_is_unwavering,_but_in_our_clash,_understand_this—Shrek's_motives_might_be_misunderstood._His_strength_stems_from_the_pain_of_losing_everything he held dear.
 
-Hero 0 Our battle is inevitable, Ulquiorra. But I fight for what's right.
+Hero 0 Our_battle_is_inevitable,_Ulquiorra._But_I_fight_for_what's_right.
 
-Ulquiorra 0 And I, for what I've come to understand. Our clash will be legendary, but even in opposition, perhaps there's room for empathy and understanding.”
+Ulquiorra 0 And_I,_for_what_I've_come_to_understand._Our_clash_will_be_legendary,_but_even_in_opposition,_perhaps_there's_room_for_empathy_and_understanding.”
 end
