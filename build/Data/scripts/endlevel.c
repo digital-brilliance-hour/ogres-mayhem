@@ -25,22 +25,6 @@ void main()
 			setglobalvar("defense_"+num+"P", getentityproperty(p,"defense",openborconstant("ATK_NORMAL")));
 
 			setglobalvar("maxhealth_"+num+"P", getentityproperty(p, "maxhealth"));
-			if(snum == 9) {
-				void subent;
-				loadmodel("pspawn"); // name of the entity to be loaded
-                clearspawnentry(); // clean the spawn entry
-                setspawnentry("name", "pspawn"); // define the entity to be spawn
-                setspawnentry("coords", -1,-1,200); // set the position of the entity
-                subent=spawn();  //  spawn the entity
-                bindentity(subent, p, 0, 0, 0, 0, 0);
-                changeentityproperty(subent, "parent", p); //Set caller as parent.
-                changeentityproperty(subent, "setlayer", 200);
-                changeentityproperty(subent, "position", 0, 0, 200);
-			 	int  iETime     = openborvariant("elapsed_time");       //Current time.
-		        changeentityproperty(p, "frozen", 1);               //Toggle frozen.
-		        changeentityproperty(p, "freezetime", iETime + 400);    //Toggle frozen time.
-                setentityvar(subent, "jumpTo", "");
-			}
 
 		 }
 	 } 
