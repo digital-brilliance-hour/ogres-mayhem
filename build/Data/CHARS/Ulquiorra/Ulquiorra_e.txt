@@ -44,6 +44,7 @@ weaploss 3
 
 
 
+
 anim	attack1
 	delay	7
 	offset	16 51
@@ -100,10 +101,25 @@ anim	fall
 		
 anim	follow1
 	delay	7
+	offset	24 45
+	frame	data/chars/Ulquiorra/73.gif
+	delay	60
+	offset	18 51
+	frame	data/chars/Ulquiorra/84.gif
+	delay	7
 	offset	24 54
 	frame	data/chars/Ulquiorra/132.gif
 	offset	56 55
 	frame	data/chars/Ulquiorra/133.gif
+	offset	94 74
+	frame	data/chars/Ulquiorra/134.gif
+	offset	94 74
+	frame	data/chars/Ulquiorra/135.gif
+	offset	94 74
+	frame	data/chars/Ulquiorra/136.gif
+	delay	50
+	offset	94 78
+	frame	data/chars/Ulquiorra/12.gif
 		
 anim	freespecial
 	delay	7

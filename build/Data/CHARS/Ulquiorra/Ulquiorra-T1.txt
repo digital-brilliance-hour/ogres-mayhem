@@ -9,6 +9,7 @@ icon data/chars/Ulquiorra/0.gif
 
 
 
+
 anim	attack1
 	delay	7
 	offset	94 77
@@ -274,6 +275,23 @@ anim	jumpattack
 	offset	84 56
 	frame	data/chars/Ulquiorra/120.gif
 		
+anim	follow1
+	delay	7
+	offset	94 78
+	frame	data/chars/Ulquiorra/12.gif
+	offset	94 78
+	frame	data/chars/Ulquiorra/12.gif
+	offset	94 78
+	frame	data/chars/Ulquiorra/12.gif
+	offset	94 78
+	frame	data/chars/Ulquiorra/12.gif
+	offset	94 78
+	frame	data/chars/Ulquiorra/12.gif
+	offset	94 78
+	frame	data/chars/Ulquiorra/12.gif
+	offset	94 78
+	frame	data/chars/Ulquiorra/12.gif
+		
 anim	rise
 	delay	10
 	offset	67 79
@@ -307,26 +325,6 @@ anim	runattack
 	frame	data/chars/Ulquiorra/95.gif
 	offset	17 53
 	frame	data/chars/Ulquiorra/96.gif
-		
-anim	spawn
-	delay	7
-	offset	94 78
-	frame	data/chars/Ulquiorra/12.gif
-	offset	67 86
-	frame	data/chars/Ulquiorra/131.gif
-	offset	24 54
-	frame	data/chars/Ulquiorra/132.gif
-	offset	56 55
-	frame	data/chars/Ulquiorra/133.gif
-	offset	94 74
-	frame	data/chars/Ulquiorra/134.gif
-	offset	94 74
-	frame	data/chars/Ulquiorra/135.gif
-	offset	94 74
-	frame	data/chars/Ulquiorra/136.gif
-	delay	7
-	offset	94 78
-	frame	data/chars/Ulquiorra/12.gif
 		
 anim	walk
 	bbox	39 25 39 61

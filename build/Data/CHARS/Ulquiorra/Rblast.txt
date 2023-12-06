@@ -13,6 +13,7 @@ animationscript data/scripts/spawns.c
 
 
 
+
 anim	idle
 	delay	3
 	offset	60 102
