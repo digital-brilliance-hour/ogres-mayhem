@@ -1,7 +1,7 @@
 name Ulquiorra_e
 type enemy
-health 100
-speed 12
+health 500
+speed 15
 shadow	2
 palette none
 icon data/chars/Ulquiorra/0.gif
@@ -33,6 +33,7 @@ load f_punch
 
 weapons Ulquiorra-T1 Ulquiorra_e
 weaploss 3
+
 
 
 
@@ -197,7 +198,7 @@ anim	jumpattack
 	frame	data/chars/Ulquiorra/73.gif
 	offset	14 41
 	frame	data/chars/Ulquiorra/74.gif
-	attack	50 1 20 38 5 0 1 0 0 0
+	attack	50 1 20 38 10 0 1 0 0 0
 	offset	31 38
 	frame	data/chars/Ulquiorra/68.gif
 		
@@ -239,7 +240,7 @@ anim	runattack
 	@cmd	stop
 	offset	31 38
 	frame	data/chars/Ulquiorra/68.gif
-	attack	51 2 20 39 5 0 1 0 0 0
+	attack	51 2 20 39 10 0 1 0 0 0
 	offset	31 38
 	frame	data/chars/Ulquiorra/68.gif
 		

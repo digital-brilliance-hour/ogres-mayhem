@@ -1,7 +1,7 @@
 name Ulquiorra-T1
 type enemy
-health 100
-speed 12
+health 600
+speed 15
 shadow	2
 palette none
 icon data/chars/Ulquiorra/0.gif
@@ -349,14 +349,12 @@ anim	run
 		
 anim	runattack
 	delay	7
-	move	20
 	offset	95 77
 	frame	data/chars/Ulquiorra/93.gif
-	attack	1 0 118 57 10 1 1 0 0 0
 	offset	68 54
 	frame	data/chars/Ulquiorra/94.gif
+	attack	71 1 30 62 20 1 1 0 0 0
 	offset	18 53
-	move	0
 	frame	data/chars/Ulquiorra/95.gif
 	offset	17 53
 	frame	data/chars/Ulquiorra/96.gif

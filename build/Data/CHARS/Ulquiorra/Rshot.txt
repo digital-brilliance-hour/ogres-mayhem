@@ -11,8 +11,9 @@ candamage player
 
 
 
+
 anim	idle
-	attack	376 200 151 164 0 1 1 0 0 0
+	attack	376 200 151 164 20 1 1 0 0 0
 	loop	1
 	drawmethod	scale 0.25
 	delay	7
@@ -20,17 +21,17 @@ anim	idle
 	frame	data/chars/Ulquiorra/1381.gif
 	offset	410 280
 	frame	data/chars/Ulquiorra/1382.gif
-	attack	406 198 127 167 0 1 1 0 0 0
+	attack	406 198 127 167 20 1 1 0 0 0
 	offset	410 280
 	frame	data/chars/Ulquiorra/1383.gif
 	offset	410 280
 	frame	data/chars/Ulquiorra/1384.gif
-	attack	420 196 117 169 0 1 1 0 0 0
+	attack	420 196 117 169 20 1 1 0 0 0
 	offset	410 280
 	frame	data/chars/Ulquiorra/1385.gif
 	offset	410 280
 	frame	data/chars/Ulquiorra/1386.gif
-	attack	409 197 121 170 0 1 1 0 0 0
+	attack	409 197 121 170 20 1 1 0 0 0
 	offset	410 280
 	frame	data/chars/Ulquiorra/1387.gif
 		

@@ -14,11 +14,12 @@ animationscript data/scripts/spawns.c
 
 
 
+
 anim	idle
 	delay	3
 	offset	60 102
 	frame	data/chars/Ulquiorra/1566.gif
-	@cmd	damage_all_players 40 1 0 "ATK_NORMAL"
+	@cmd	damage_all_players 200 1 0 "ATK_NORMAL"
 	offset	58 95
 	frame	data/chars/Ulquiorra/1567.gif
 	offset	54 91
