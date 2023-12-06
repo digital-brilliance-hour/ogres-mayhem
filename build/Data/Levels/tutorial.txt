@@ -12,6 +12,7 @@ settime 0
 direction both
 type 1
 updatescript data/scripts/levels/freeenergy.c
+levelscript data/scripts/levels/pspawn.c
 
 # Ready?-----
 

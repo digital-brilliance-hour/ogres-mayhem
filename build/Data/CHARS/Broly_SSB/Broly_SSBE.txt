@@ -52,6 +52,7 @@ script data/scripts/bosses/broly.c
 
 
 
+
 anim	attack1
 	fastattack	1
 	delay	7

@@ -7,6 +7,7 @@ candamage player npc
 hostile npc player
 onblocksscript data/scripts/enemy/screenedge.c
 
+
 anim	idle
 	loop	1
 	delay	5
