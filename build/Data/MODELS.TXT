@@ -408,3 +408,7 @@ know rock data/chars/misc/rock.txt
 Know soulsocietyIntro Data/CHARS/misc/soulsociety-intro/soulsociety-intro.txt
 Know sFireBlast1 Data/CHARS/Bakugou/bFireBlast1/sFireBlast1.txt
 know Luffy_Gear_2  data/chars/Luffy_Gear_2/Luffy_Gear_2.txt
+
+Load wormhole-animation Data/CHARS/misc/wormhole-animation/wormhole-animation.txt
+Load wormhole Data/CHARS/misc/wormhole/wormhole.txt
+Load wormholesprite Data/CHARS/misc/wormholesprite/wormholesprite.txt

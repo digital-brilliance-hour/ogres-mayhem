@@ -1,0 +1,167 @@
+name  wormhole
+health	 1
+speed 10
+type     panel
+shadow  0
+setlayer -2000
+
+anim	idle
+	loop	1 1
+	delay	10
+	offset	313 192
+	@cmd	changeentityproperty getlocalvar("self") "direction" 1
+	frame	data/chars/misc/wormhole/frame_000_delay-0.03s.png
+	@cmd	changeentityproperty getlocalvar("self") "setlayer" -2000
+	frame	data/chars/misc/wormhole/frame_000_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_001_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_002_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_003_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_004_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_005_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_006_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_007_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_008_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_009_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_010_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_011_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_012_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_013_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_014_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_015_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_016_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_017_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_018_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_019_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_020_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_021_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_022_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_023_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_024_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_025_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_026_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_027_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_028_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_029_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_030_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_031_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_032_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_033_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_034_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_035_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_036_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_037_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_038_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_039_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_040_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_041_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_042_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_043_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_044_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_045_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_046_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_047_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_048_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_049_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_050_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_051_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_052_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_053_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_054_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_055_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_056_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_057_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_058_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_059_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_060_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_061_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_062_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_063_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_064_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_065_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_066_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_067_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_068_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_069_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_070_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_071_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_072_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_073_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_074_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_075_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_076_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_077_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_078_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_079_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_080_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_081_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_082_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_083_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_084_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_085_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_086_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_087_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_088_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_089_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_090_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_091_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_092_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_093_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_094_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_095_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_096_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_097_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_098_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_099_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_100_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_101_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_102_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_103_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_104_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_105_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_106_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_107_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_108_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_109_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_110_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_111_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_112_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_113_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_114_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_115_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_116_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_117_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_118_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_119_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_120_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_121_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_122_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_123_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_124_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_125_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_126_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_127_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_128_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_129_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_130_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_131_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_132_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_133_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_134_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_135_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_136_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_137_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_138_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_139_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_140_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_141_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_142_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_143_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_144_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_145_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_146_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_147_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_148_delay-0.03s.png
+	frame	data/chars/misc/wormhole/frame_149_delay-0.03s.png
+		
+#|edited by openBor Stats v 0.67
+		
