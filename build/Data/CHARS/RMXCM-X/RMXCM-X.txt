@@ -146,6 +146,7 @@ anim	dodge
 		
 anim	fall
 	delay	7
+	sound	data/chars/RMXCM-X/Megaman_5150-3.wav
 	offset	19 14
 	frame	data/chars/RMXCM-X/425.gif
 	offset	12 10
