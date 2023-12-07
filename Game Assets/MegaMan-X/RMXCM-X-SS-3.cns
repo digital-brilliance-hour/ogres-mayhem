@@ -1,0 +1,292 @@
+;===============================================================================
+; Statedef -3 por Alex. D. X4                 Fabricado no Brasil/Made in Brazil
+;===============================================================================
+[Statedef -3]
+
+[State -3, AttackMulSet]
+type = AttackMulSet
+trigger1 = numhelper(430) > 0
+value = .5
+ignorehitpause = 1
+
+[State -3, AttackMulSet]
+type = AttackMulSet
+triggerall = numhelper(430) = 0
+trigger1 = time = 0
+value = 1
+ignorehitpause = 1
+
+;===============================================================================
+;-| X's Charge Shot |-----------------------------------------------------------
+;===============================================================================
+; Reset a variavel de controle do número de tiros.
+[State -3, VarSet]
+type = VarSet
+trigger1 = stateno != [410,429]
+trigger1 = NumHelper(1410) = 0
+v = 30
+value = 0
+
+; Reset a variavel do chargeshot quando:
+; (estiver apanhando) ou (não estiver em batalha)
+[State -3, VarSet]
+type = VarSet
+trigger1 = Stateno = [5000,5999]
+trigger2 = stateno = [170,199]
+trigger3 = stateno = [10620,10699]
+trigger4 = movetype = H
+v = 29
+value = 0
+ignorehitpause = 1
+persistent = 1
+
+; Carrega a variavel 29 durante o chargeshot.
+[State -3, Varadd]
+type = VarAdd
+triggerall = Var(58) = 0
+triggerall = (Stateno = 300 && Time > 6) || (Stateno = 320 && Time > 6)
+trigger1 = Var(29) <= 100
+v = 29
+value = 2
+ignorehitpause = 1
+persistent = 1
+
+; Carrega a variavel 29 durante o chargeshot.
+[State -3, Varadd]
+type = VarAdd
+triggerall = Var(58) > 0
+triggerall = (Stateno = 300 && Time > 6) || (Stateno = 320 && Time > 6)
+trigger1 = Var(29) <= 100
+v = 29
+value = 3
+ignorehitpause = 1
+persistent = 1
+
+; Set a variavel 29 impedindo que ela fique maior do que 100.
+[State -3, VarSet]
+type = VarSet
+trigger1 = Var(29) > 100
+v = 29
+value = 100
+
+; Grito de carga do X-Buster
+[State -3, PlaySnd]
+type = PlaySnd
+trigger1 = command = "hold_a" && Var(29) = 95
+value = 2,14
+volume = 0
+
+; Som de carga maxima do X-Buster.
+[State -3, PlaySnd]
+type = PlaySnd
+triggerall = Var(29) >= 100
+trigger1 = (Time % 10) = 0
+channel = 3
+value = 1,27
+ignorehitpause = 1
+
+; Efeito de carregando o X-Buster.
+[State -3, Explod]
+type = Explod
+trigger1 = numexplod(6103) = 0
+trigger1 = command = "hold_a" && Var(29) = 100
+anim = 6103
+ID = 6103
+pos = 0,-20
+postype = p1
+bindtime = -1
+removetime = -1
+sprpriority = 7
+ownpal = 1
+
+; Efeito de carga maxima do X-Buster.
+[State -3, Explod]
+type = Explod
+trigger1 = numexplod(6104) = 0
+trigger1 = command = "hold_a" && Var(29) = 100
+anim = 6104
+ID = 6104
+pos = 0,-20
+postype = p1
+bindtime = -1
+removetime = -1
+sprpriority = 6
+ownpal = 1
+
+; Interrompe o som de carga.
+[State -3, StopSnd]
+type = StopSnd
+trigger1 = Var(29) = 0
+channel = 3
+
+; Interrompe o som de carga.
+[State -3, StopSnd]
+type = StopSnd
+trigger1 = command != "hold_a"
+channel = 2
+[State -3, StopSnd]
+type = StopSnd
+trigger1 = stateno != 410 && stateno != 420
+channel = 1
+
+; Remove o explod/efeito de carregando o X-Buster.
+[State -3, Removeexplod]
+type = Removeexplod
+trigger1 = Var(29) = 0
+ID = 6103
+ignorehitpause = 1
+persistent = 1
+
+; Remove o explod/efeito de carga maxima o X-Buster.
+[State -3, Removeexplod]
+type = Removeexplod
+trigger1 = Var(29) = 0
+ID = 6104
+ignorehitpause = 1
+persistent = 1
+
+;===============================================================================
+[State -3, PowerSet]
+type = PowerSet
+triggerall = RoundNo = 1
+trigger1 = RoundState = 0
+value = 1000
+
+; TAG MODE Ctrl & Switch -------------------------------------------------------
+[State -3, VarSet]
+type = VarSet
+triggerall = RoundState = 2
+triggerall = var(55) = 1 && NumPartner = 1
+triggerall = life > 0
+triggerall = Statetype != A
+triggerall = Movetype != H
+triggerall = stateno != [5000,5999]
+triggerall = stateno = [200,699]
+triggerall = partner, var(55) = 0
+triggerall = partner, Stateno = 999
+triggerall = partner, NumExplod(1900) = 0
+triggerall = partner, life > 0
+trigger1 = !var(59)
+trigger1 = command = "s"
+trigger1 = ctrl = 0
+trigger2 = var(59)
+trigger2 = ((Random < AILevel * 70) && ((life < partner, life) || (enemy, movetype = A)))
+trigger2 = ctrl = 0
+v = 55
+value = 0
+
+[State -3, TAG MODE - Is Dead]
+type = VarSet
+triggerall = TeamMode != Single
+triggerall = NumPartner = 1
+triggerall = var(55) = 1
+triggerall = partner, life > 0
+trigger1 = life = 0 || !alive
+v = 55
+value = 0
+
+[State -3, TAG MODE - Partner ctrlset]
+type = VarSet
+triggerall = TeamMode != Single
+triggerall = NumPartner = 1
+triggerall = NumPartner && ID > Partner, ID
+trigger1 = RoundState = 0
+v = 55
+value = 0
+
+[State -3, TAG MODE - Lead ctrlset]
+type = VarSet
+triggerall = TeamMode != Single
+triggerall = NumPartner = 1
+triggerall = NumPartner && ID < Partner, ID
+trigger1 = RoundState = 0
+v = 55
+value = 1
+
+[State -3, TAG MODE - Partner TAGOUT]
+type = ChangeState
+triggerall = Stateno != [900,999]
+triggerall = Stateno != [5000,5999]
+triggerall = TeamMode != Single
+triggerall = NumPartner = 1
+triggerall = Statetype != A && Movetype != H
+trigger1 = partner, Var(55) = 1
+;trigger1 = partner, life > 0
+trigger1 = ctrl = 1
+trigger1 = Var(55) = 0
+value = 900
+ctrl = 0
+
+[State -3, RemoveExplod]
+type = RemoveExplod
+triggerall = TeamMode != Single
+triggerall = NumPartner = 1
+trigger1 = NumExplod(1900) > 0
+trigger1 = Var(55) = 1
+ID = 1900
+persistent = 1
+
+[State -3, DefenceMulSet]
+type = DefenceMulSet
+triggerall = TeamMode != Single
+triggerall = NumPartner = 1
+trigger1 = partner, life > 0
+value = 1.5
+ignorehitpause = 1
+persistent = 1
+
+[State -3, DefenceMulSet]
+type = DefenceMulSet
+triggerall = TeamMode != Single
+triggerall = NumPartner = 1
+trigger1 = partner, life = 0
+value = .8
+ignorehitpause = 1
+persistent = 1
+
+;-------------------------------------------------------------------------------
+[State -3, VarSet]
+type = VarSet
+triggerall = RoundNo = 1
+trigger1 = RoundState = 0
+fv = 0
+value = IfElse(Command = "hold_s", 270, 0)
+
+[State -3]
+type = Explod
+triggerall = time = 1
+trigger1 = stateno = 52
+persistent = 1
+anim = F6050
+scale = 1,1
+sprpriority = 2
+postype = p1
+pos = 0, 0
+removetime = -2
+ownpal = 1
+
+[State -3]
+type = Explod
+triggerall = time = 1
+trigger1 = stateno = 40
+persistent = 1
+anim = F6050
+scale = 1,1
+sprpriority = 2
+postype = p1
+pos = 0, 0
+removetime = -2
+ownpal = 1
+
+[State -3, Landing Sound]
+type = PlaySnd
+triggerall = Time = 1
+trigger1 = stateno = 52
+trigger2 = stateno = 106
+value = 1,2
+
+;===============================================================================
+;-------------------------------------------------------------------------------
+;http://megamugenbrasil.ucoz.com/             Fabricado no Brasil/Made in Brazil
+;-------------------------------------------------------------------------------
+;===============================================================================

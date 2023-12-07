@@ -1,0 +1,1462 @@
+;===============================================================================
+; Statedef -2 by Alex. D. X4                  Fabricado no Brasil/Made in Brazil
+;===============================================================================
+[Statedef -2]
+
+[State -2, ChangeState]
+type = ChangeState
+triggerall = !Alive && Stateno != [5150,5159]
+trigger1 = !DrawGame
+trigger1 = Life = 0
+trigger1 = Lose
+value = 5150
+
+[State -2, RemoveAfterImage]
+type = AfterImageTime
+trigger1 = movetype = H
+time = 0
+
+[State -2, RemoveAfterImage Dash]
+type = Afterimage
+ID = 100
+triggerall = stateno != 100 && stateno != 101
+trigger1 = time = 0
+time = 0
+
+[State -2, AssertSpecial]
+type = AssertSpecial
+trigger1 = 1
+flag = nokoslow
+ignorehitpause = 1
+
+[State -2, AssertSpecial]
+type = AssertSpecial
+trigger1 = Win
+ignorehitpause = 1
+persistent = 1
+flag = nowalk
+
+[State -2, RemoveExplod]
+type = RemoveExplod
+trigger1 = stateno != 300
+ID = 300
+
+[State -2, RemoveExplod]
+type = RemoveExplod
+trigger1 = stateno != 320
+ID = 320
+
+[State -2, RemoveExplod]
+type = RemoveExplod
+trigger1 = stateno != 420
+ID = 420
+
+[State -2, RemoveExplod]
+type = RemoveExplod
+trigger1 = stateno != 520
+ID = 520
+
+; X-Buster's Disarm
+[State -2, VarSet]
+type = VarSet
+triggerall = var(1) = 1
+trigger1 = stateno = [20,160]
+v = 1
+value = 0
+
+[State -2, VarSet]
+type = VarSet
+triggerall = stateno != [40,45]
+trigger1 = Statetype != A
+var(9) = 0
+
+[State -2, VarSet]
+type = VarSet
+trigger1 = stateno = [0,21]
+trigger2 = stateno = 52
+var(10) = 0
+
+[State -2, VarSet]
+type = VarSet
+trigger1 = Statetype != A
+trigger1 = P2MoveType != H
+var(11) = 0
+
+[State -2, VarSet]
+type = VarSet
+trigger1 = stateno = [0,21]
+trigger2 = stateno = 52
+var(12) = 0
+
+; ReAct's Heal Mechanics--------------------------------------------------------
+[State -2, VarSet]
+type = VarSet
+trigger1 = RoundState = 0
+trigger2 = MoveType = H
+var(19) = 0
+
+[State -2, LifeAdd]
+type = LifeAdd
+triggerall = Stateno != [400,499]
+triggerall = Var(19) > 0
+trigger1 = (time % 5) = 0
+value = 1
+
+[State -2, VarAdd]
+type = VarAdd
+triggerall = Stateno != [400,499]
+triggerall = Var(19) > 0
+trigger1 = (time % 5) = 0
+v = 19
+value = -1
+
+;-------------------------------------------------------------------------------
+[State -2, VarSet]
+type = VarSet
+trigger1 = numhelper(1900) < 1
+FV = 3
+value = 1
+
+[State -2, PowerAdd]
+type = PowerAdd
+triggerall = Life <= 300
+triggerall = Stateno != [170,189]
+triggerall = Stateno != 5150
+trigger1 = (Time % 1) = 0
+value = 2
+ignorehitpause = 1
+persistent = 1
+
+[State -2, HitOverride]
+type = HitOverride
+triggerall = command = "ST-Blast"
+triggerall = Power >= 2000 && FVar(0) >= 135
+triggerall = Var(58) = 0
+trigger1 = MoveType != A
+trigger1 = MoveType = H
+attr = SCA, NA, NP, SA, SP
+stateno = 500
+
+;-------------------------------------------------------------------------------
+[State -2, VarAdd]
+type = VarAdd
+triggerall = Var(58) = 10000
+triggerall = FVar(0) != 0
+triggerall = Stateno != [170,189]
+triggerall = Stateno != 700
+triggerall = Stateno != 5150
+trigger1 = (GameTime & 3) = 0
+fv = 0
+value = -.75
+ignorehitpause = 0
+
+[State -2, VarSet]
+type = VarSet
+trigger1 = FVar(0) < 0
+fv = 0
+value = 0
+ignorehitpause = 1
+persistent = 1
+
+[State -2, ChangeState]
+type = ChangeState
+triggerall = Var(58) = 10000
+triggerall = FVar(0) <= 0
+trigger1 = statetype != A
+trigger1 = ctrl
+value = 710
+
+[State -2, ChangeState]
+type = ChangeState
+triggerall = Var(58) = 10000
+triggerall = FVar(0) <= 0
+trigger1 = statetype = A
+trigger1 = ctrl
+value = 711
+
+[State -2, OverDrive Gauge]
+type = VarAdd
+triggerall = Life <= 250
+triggerall = Var(58) = 0
+triggerall = FVar(0) != [270,999.9]
+triggerall = Stateno != [170,189]
+triggerall = Stateno != 5150
+trigger1 = timemod = 5,0
+fv = 0
+value = .5
+
+[State -2, VarAdd If Get Hit]
+type = VarAdd
+triggerall = var(58) = 0
+triggerall = FVar(0) != [270,999.9]
+triggerall = GetHitVar(HitCount)
+trigger1 = alive
+fvar(0) = floor(GetHitVar(damage) / 2.25)
+persistent = 0
+ignorehitpause = 1
+
+; TAG MODE - OverDrive Gauge ---------------------------------------------------
+[State -2, TAG MODE OverDrive Gauge Synchronize]
+type = VarSet
+triggerall = NumPartner = 1
+triggerall = partner, life > 0
+triggerall = FVar(0) != partner, FVar(0)
+triggerall = Stateno != [170,189]
+triggerall = Stateno != 5150
+trigger1 = 1
+fv = 0
+value = partner, FVar(0)
+
+[State -2, TAG MODE Remove P1 OverClock if not alive]
+type = RemoveExplod
+triggerall = NumExplod(1000) > 0
+triggerall = TeamMode != Single
+triggerall = NumPartner = 1
+triggerall = partner, life != 0
+trigger1 = life = 0
+trigger1 = 1
+id = 1000
+persistent = 1
+ignorehitpause = 1
+
+[State -2, TAG MODE Remove P2 OverClock if not alive]
+type = RemoveExplod
+triggerall = NumExplod(1001) > 0
+triggerall = TeamMode != Single
+triggerall = NumPartner = 1
+triggerall = partner, life != 0
+trigger1 = life = 0
+trigger1 = 1
+id = 1001
+persistent = 1
+ignorehitpause = 1
+
+; TAG MODE - HP Recover Mechanic -----------------------------------------------
+[State -2, VarAdd If Get Hit]
+type = VarAdd
+triggerall = NumPartner = 1
+triggerall = partner, life != 0
+triggerall = var(55) = 1
+triggerall = GetHitVar(HitCount)
+trigger1 = alive
+var(54) = floor(GetHitVar(damage) / 4)
+persistent = 0
+ignorehitpause = 1
+
+[State -2, LifeAdd]
+type = LifeAdd
+triggerall = var(55) = 0
+triggerall = Stateno = 999
+triggerall = var(54) > 0
+trigger1 = (time % 5) = 0
+value = 1
+
+[State -2, VarAdd]
+type = VarAdd
+triggerall = var(55) = 0
+triggerall = Stateno = 999
+triggerall = var(54) > 0
+trigger1 = (time % 5) = 0
+v = 54
+value = -1
+
+;-------------------------------------------------------------------------------
+[State -2, OverClock Gauge VarSet]
+type = VarSet
+triggerall = Var(58) = 0
+triggerall = FVar(0) >= 270.5
+trigger1 = 1
+fv = 0
+value = 270
+
+[State -2, P1 OverClock Gauge]
+type = Explod
+triggerall = numexplod(1000) = 0
+triggerall = teamside = 1
+trigger1 = 1
+sprpriority = 10
+ID = 1000
+anim = F1000
+pos = 18,163
+angle = -(fvar(0))
+postype = left
+facing = 1
+bindtime = -1
+removetime = -1
+scale = .5,.5
+ontop = 1
+ownpal = 1
+pausemovetime = 9999999
+supermovetime = 9999999
+
+[State -2, P1 OverClock Modify Gauge]
+type = ModifyExplod
+trigger1 = 1
+angle = -ceil(fvar(0))
+id = 1000
+ignorehitpause = 1
+
+[State -2, P2 OverClock Gauge]
+type = Explod
+triggerall = numexplod(1001) = 0
+triggerall = teamside = 2
+trigger1 = 1
+sprpriority = 10
+ID = 1001
+anim = F1000
+pos = 302,163
+angle = (fvar(0))
+postype = left
+facing = 1
+bindtime = -1
+removetime = -1
+scale = .5,.5
+ontop = 1
+ownpal = 1
+pausemovetime = 9999999
+supermovetime = 9999999
+
+[State -2, P2 OverClock Modify Gauge]
+type = ModifyExplod
+trigger1 = 1
+angle = ceil(fvar(0))
+id = 1001
+ignorehitpause = 1
+
+[State -2, P1 OverClock]
+type = Explod
+triggerall = Var(58) = 10000
+triggerall = numexplod(1100) = 0
+triggerall = teamside = 1
+trigger1 = 1
+sprpriority = 10
+ID = 1100
+anim = F1100
+pos = 62,173
+postype = left
+facing = 1
+bindtime = -1
+removetime = -1
+scale = .5,.5
+ontop = 1
+ownpal = 1
+pausemovetime = 9999999
+supermovetime = 9999999
+
+[State -2, RemoveExplod]
+type = RemoveExplod
+triggerall = Var(58) = 0
+trigger1 = 1
+id = 1100
+
+[State -2, P2 OverClock]
+type = Explod
+triggerall = Var(58) = 10000
+triggerall = numexplod(1101) = 0
+triggerall = teamside = 2
+trigger1 = 1
+sprpriority = 10
+ID = 1101
+anim = F1100
+pos = 261,173
+postype = left
+facing = 1
+bindtime = -1
+removetime = -1
+scale = .5,.5
+ontop = 1
+ownpal = 1
+pausemovetime = 9999999
+supermovetime = 9999999
+
+[State -2, RemoveExplod]
+type = RemoveExplod
+triggerall = Var(58) = 0
+trigger1 = 1
+id = 1101
+
+;===============================================================================
+; OverClock Buff
+;[State -2, AttackMulSet]
+;type = AttackMulSet
+;trigger1 = Var(58) = 0
+;value = 1
+;
+[State -2, DefenceMulSet]
+type = DefenceMulSet
+trigger1 = Var(58) = 0
+value = 1
+
+;[State -2, AttackMulSet]
+;type = AttackMulSet
+;trigger1 = Var(58) = 10000
+;value = 1.25
+
+[State -2, DefenceMulSet]
+type = DefenceMulSet
+trigger1 = Var(58) = 10000
+value = 1.25
+
+; Lifebar Face Switch ==========================================================
+[State -2, Face Tag In - P1]
+type = Explod
+triggerall = teamside = 1
+triggerall = NumPartner = 1
+triggerall = NumExplod(9000) = 0
+trigger1 = Var(55) = 1
+trigger1 = life > 0
+anim = 9000
+ID = 9000
+pos = 0,0
+postype = left
+facing = 1
+vfacing = 1
+bindtime = -1
+removetime = -1
+scale = .25,.25
+sprpriority = -3
+ontop = 0
+ownpal = 1
+
+[State -2, Face Tag In - P2]
+type = Explod
+triggerall = teamside = 2
+triggerall = NumPartner = 1
+triggerall = NumExplod(9000) = 0
+trigger1 = Var(55) = 1
+trigger1 = life > 0
+anim = 9000
+ID = 9000
+pos = 320,0
+postype = left
+facing = -1
+vfacing = 1
+bindtime = -1
+removetime = -1
+scale = .25,.25
+sprpriority = -3
+ontop = 0
+ownpal = 1
+
+[State -2, Remove Face Tag In]
+type = RemoveExplod
+triggerall = NumPartner = 1
+trigger1 = var(55) = 0
+trigger2 = Life = 0 && partner, life > 0
+ID = 9000
+ignorehitpause = 1
+persistent = 1
+
+[State -2, Face Tag Out - P1]
+type = Explod
+triggerall = teamside = 1
+triggerall = NumPartner = 1
+triggerall = NumExplod(9001) = 0
+trigger1 = Var(55) = 0
+trigger2 = life = 0
+anim = 9001
+ID = 9001
+pos = 0,0
+postype = left
+facing = 1
+vfacing = 1
+bindtime = -1
+removetime = -1
+scale = .25,.25
+sprpriority = -3
+ontop = 0
+ownpal = 1
+
+[State -2, Face Tag Out - P2]
+type = Explod
+triggerall = teamside = 2
+triggerall = NumPartner = 1
+triggerall = NumExplod(9001) = 0
+trigger1 = Var(55) = 0
+trigger2 = life = 0
+anim = 9001
+ID = 9001
+pos = 320,0
+postype = left
+facing = -1
+vfacing = 1
+bindtime = -1
+removetime = -1
+scale = .25,.25
+sprpriority = -3
+ontop = 0
+ownpal = 1
+
+[State -2, Remove Face Tag Out]
+type = RemoveExplod
+triggerall = NumPartner = 1
+trigger1 = var(55) = 1
+ID = 9001
+ignorehitpause = 1
+persistent = 1
+
+; Lifebar Alert ================================================================
+[State -2, Danger P1]
+type = Explod
+triggerall = teamside = 1
+triggerall = NumExplod(1910) = 0
+triggerall = Life <= 300
+trigger1 = alive
+trigger1 = 1
+trigger2 = Var(55) = 1
+trigger2 = 1
+anim = F910
+ID = 1910
+pos = 15,16
+postype = left
+facing = 1
+bindtime = -1
+removetime = -1
+scale = .35,.35
+ontop = 1
+ownpal = 1
+
+[State -2, Danger P1]
+type = Explod
+triggerall = teamside = 2
+triggerall = NumExplod(1910) = 0
+triggerall = Life <= 300
+trigger1 = alive
+trigger1 = 1
+trigger2 = Var(55) = 1
+trigger2 = 1
+anim = F910
+ID = 1910
+pos = 305,16
+postype = left
+facing = 1
+bindtime = -1
+removetime = -1
+scale = .35,.35
+ontop = 1
+ownpal = 1
+
+[State -2, Remove Danger]
+type = RemoveExplod
+triggerall = NumExplod(1910) > 0
+trigger1 = life = 0 || life > 300
+trigger2 = NumPartner = 1
+trigger2 = Partner, var(55) = 1
+trigger2 = Var(55) = 0
+ID = 1910
+ignorehitpause = 1
+persistent = 1
+
+;-------------------------------------------------------------------------------
+[State -2, Max Clock P1]
+type = Explod
+triggerall = teamside = 1
+triggerall = NumExplod(1200) = 0
+triggerall = FVar(0) >= 270
+triggerall = alive
+trigger1 = 1
+trigger2 = NumPartner = 1
+trigger2 = Partner, var(55) = 0
+trigger2 = Var(55) = 1
+anim = F1200
+ID = 1200
+pos = 17,162
+postype = left
+facing = 1
+bindtime = -1
+removetime = -1
+scale = .4,.4
+ontop = 1
+ownpal = 1
+
+[State -2, Max Clock P2]
+type = Explod
+triggerall = teamside = 2
+triggerall = NumExplod(1200) = 0
+triggerall = FVar(0) >= 270
+triggerall = alive
+trigger1 = 1
+trigger2 = NumPartner = 1
+trigger2 = Partner, var(55) = 0
+trigger2 = Var(55) = 1
+anim = F1200
+ID = 1200
+pos = 303,162
+postype = left
+facing = 1
+bindtime = -1
+removetime = -1
+scale = .4,.4
+ontop = 1
+ownpal = 1
+
+[State -2, Remove Max Clock]
+type = RemoveExplod
+triggerall = NumExplod(1200) > 0
+trigger1 = life = 0 || FVar(0) < 270
+trigger2 = NumPartner = 1
+trigger2 = Partner, var(55) = 1
+trigger2 = Var(55) = 0
+ID = 1200
+ignorehitpause = 1
+persistent = 1
+
+;-------------------------------------------------------------------------------
+[State -2, Blast Ready P1 - Full Power]
+type = Explod
+triggerall = teamside = 1
+triggerall = NumExplod(1930) = 0
+triggerall = (Power = 4000) && FVar(0) >= 135
+triggerall = Var(58) = 0
+triggerall = MoveType != A
+triggerall = GetHitVar(damage) && MoveType = H
+trigger1 = alive
+trigger2 = NumPartner = 1
+trigger2 = Partner, Var(55) = 0
+trigger2 = Var(55) = 1
+trigger2 = alive
+anim = F930
+ID = 1930
+pos = 82,173
+postype = left
+facing = 1
+bindtime = -1
+removetime = -2
+scale = .5,.5
+ontop = 1
+ownpal = 1
+
+[State -2, Blast Ready P1 - Half Power]
+type = Explod
+triggerall = teamside = 1
+triggerall = NumExplod(1931) = 0
+triggerall = (Power >= 2000 && Power < 4000) && FVar(0) >= 135
+triggerall = Var(58) = 0
+triggerall = MoveType != A
+triggerall = GetHitVar(damage) && MoveType = H
+trigger1 = alive
+trigger2 = NumPartner = 1
+trigger2 = Partner, Var(55) = 0
+trigger2 = Var(55) = 1
+trigger2 = alive
+anim = F930
+ID = 1931
+pos = 40,173
+postype = left
+facing = 1
+bindtime = -1
+removetime = -2
+scale = .5,.5
+ontop = 1
+ownpal = 1
+
+[State -2, Blast Ready P2 - Full Power]
+type = Explod
+triggerall = teamside = 2
+triggerall = NumExplod(1930) = 0
+triggerall = (Power = 4000) && FVar(0) >= 135
+triggerall = Var(58) = 0
+triggerall = MoveType != A
+triggerall = GetHitVar(damage) && MoveType = H
+trigger1 = alive
+trigger2 = NumPartner = 1
+trigger2 = Partner, Var(55) = 0
+trigger2 = Var(55) = 1
+trigger2 = alive
+anim = F930
+ID = 1930
+pos = 238,173
+postype = left
+facing = 1
+bindtime = -1
+removetime = -2
+scale = .5,.5
+ontop = 1
+ownpal = 1
+
+[State -2, Blast Ready P2 - Half Power]
+type = Explod
+triggerall = teamside = 2
+triggerall = NumExplod(1931) = 0
+triggerall = (Power >= 2000 && Power < 4000) && FVar(0) >= 135
+triggerall = Var(58) = 0
+triggerall = MoveType != A
+triggerall = GetHitVar(damage) && MoveType = H
+trigger1 = alive
+trigger2 = NumPartner = 1
+trigger2 = Partner, Var(55) = 0
+trigger2 = Var(55) = 1
+trigger2 = alive
+anim = F930
+ID = 1931
+pos = 280,173
+postype = left
+facing = 1
+bindtime = -1
+removetime = -2
+scale = .5,.5
+ontop = 1
+ownpal = 1
+
+[State -2, Remove Blast Ready - Full Power]
+type = RemoveExplod
+triggerall = (Power != 4000) && FVar(0) < 135
+trigger1 = NumExplod(1930) > 0
+trigger2 = NumPartner = 1
+trigger2 = Var(55) = 0
+trigger3 = var(58) > 0
+ID = 1930
+ignorehitpause = 1
+persistent = 1
+
+[State -2, Remove Blast Ready - Half Power]
+type = RemoveExplod
+triggerall != (Power >= 2000 && Power < 4000) && FVar(0) >= 135
+trigger1 = NumExplod(1930) > 0
+trigger2 = NumPartner = 1
+trigger2 = Var(55) = 0
+trigger3 = var(58) > 0
+ID = 1931
+ignorehitpause = 1
+persistent = 1
+
+; TAG MODE - Down Alert --------------------------------------------------------
+[State -2, Partner DOWN - P1]
+type = Explod
+triggerall = teamside = 1
+triggerall = NumExplod(1920) = 0
+triggerall = NumPartner = 1
+triggerall = NumPartner && ID > Partner, ID
+trigger1 = life = 0
+anim = F920
+ID = 1920
+pos = 50,28
+postype = left
+facing = 1
+bindtime = -1
+removetime = -1
+scale = .5,.5
+ontop = 1
+ownpal = 1
+
+[State -2, Lead DOWN - P1]
+type = Explod
+triggerall = teamside = 1
+triggerall = NumExplod(1920) = 0
+triggerall = NumPartner = 1
+triggerall = NumPartner && ID < Partner, ID
+trigger1 = life = 0
+anim = F920
+ID = 1920
+pos = 50,4
+postype = left
+facing = 1
+bindtime = -1
+removetime = -1
+scale = .5,.5
+ontop = 1
+ownpal = 1
+
+[State -2, Partner DOWN - P2]
+type = Explod
+triggerall = teamside = 2
+triggerall = NumExplod(1920) = 0
+triggerall = NumPartner = 1
+triggerall = NumPartner && ID > Partner, ID
+trigger1 = life = 0
+anim = F920
+ID = 1920
+pos = 271,28
+postype = left
+facing = 1
+bindtime = -1
+removetime = -1
+scale = .5,.5
+ontop = 1
+ownpal = 1
+
+[State -2, Lead DOWN - P2]
+type = Explod
+triggerall = teamside = 2
+triggerall = NumExplod(1920) = 0
+triggerall = NumPartner = 1
+triggerall = NumPartner && ID < Partner, ID
+trigger1 = life = 0
+anim = F920
+ID = 1920
+pos = 271,4
+postype = left
+facing = 1
+bindtime = -1
+removetime = -1
+scale = .5,.5
+ontop = 1
+ownpal = 1
+
+[State -2, Remove DOWN Alert]
+type = RemoveExplod
+triggerall = NumExplod(1920) > 0
+trigger1 = life > 0
+ID = 1920
+
+;===============================================================================
+; Ultimate Armor
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 0
+value = 10000
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 2
+value = 10002
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5
+value = 10005
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 6
+value = 10006
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 10
+value = 10010
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 11
+value = 10011
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 12
+value = 10012
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 20
+value = 10020
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 21
+value = 10021
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 40
+value = 10040
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 41
+value = 10041
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 42
+value = 10042
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 43
+value = 10043
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 44
+value = 10044
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 45
+value = 10045
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 46
+value = 10046
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 47
+value = 10047
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 100
+value = 10100
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 101
+value = 10101
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 105
+value = 10105
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 110
+value = 10110
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 120
+value = 10120
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 121
+value = 10121
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 122
+value = 10122
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 130
+value = 10130
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 131
+value = 10131
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 132
+value = 10132
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 140
+value = 10140
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 141
+value = 10141
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 142
+value = 10142
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 150
+value = 10150
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 151
+value = 10151
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 152
+value = 10152
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 170
+value = 10170
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 180
+value = 10180
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5000
+value = 15000
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5001
+value = 15001
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5002
+value = 15002
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5005
+value = 15005
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5006
+value = 15006
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5007
+value = 15007
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5010
+value = 15010
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5011
+value = 15011
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5012
+value = 15012
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5015
+value = 15015
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5016
+value = 15016
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5017
+value = 15017
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5020
+value = 15020
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5021
+value = 15021
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5022
+value = 15022
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5025
+value = 15025
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5026
+value = 15026
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5027
+value = 15027
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5030
+value = 15030
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5035
+value = 15035
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5040
+value = 15040
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5050
+value = 15050
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5051
+value = 15051
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5052
+value = 15052
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5060
+value = 15060
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5061
+value = 15061
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5062
+value = 15062
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5070
+value = 15070
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5080
+value = 15080
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5090
+value = 15090
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5100
+value = 15100
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5160
+value = 15160
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5170
+value = 15170
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5110
+value = 15110
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5120
+value = 15120
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5150
+value = 15150
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5200
+value = 15200
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5210
+value = 15210
+
+[state -2]
+type = changeanim
+triggerall = Var(58) = 10000
+trigger1 = Anim = 5300
+value = 15300
+
+; Scarf Remove |----------------------------------------------------------------
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = anim != 20
+trigger2 = Movetype = H
+ID = 20
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = anim != 20
+trigger2 = Movetype = H
+ID = 22
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = anim != 21
+trigger2 = Movetype = H
+ID = 21
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = anim != 21
+trigger2 = Movetype = H
+ID = 23
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = time = 0
+trigger1 = Stateno != 40
+trigger2 = Movetype = H
+ID = 40
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 52
+trigger2 = Movetype = H
+ID = 52
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 100
+trigger2 = Movetype = H
+ID = 110
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 101
+trigger2 = Movetype = H
+ID = 111
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 110
+trigger2 = Movetype = H
+ID = 112
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 115
+trigger2 = Movetype = H
+ID = 115
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 105
+trigger2 = Movetype = H
+ID = 105
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 106
+trigger2 = Movetype = H
+ID = 106
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 212
+trigger2 = Movetype = H
+ID = 212
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 220
+trigger2 = Movetype = H
+ID = 220
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 221
+trigger2 = Movetype = H
+ID = 221
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 222
+trigger2 = Movetype = H
+ID = 222
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 401
+trigger2 = Movetype = H
+ID = 401
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 450
+trigger2 = Movetype = H
+ID = 450
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 460
+trigger2 = Movetype = H
+ID = 460
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 462
+trigger2 = Movetype = H
+ID = 462
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 465
+trigger2 = Movetype = H
+ID = 465
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 466
+trigger2 = Movetype = H
+ID = 466
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 470
+trigger2 = Movetype = H
+ID = 470
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 520
+trigger2 = Movetype = H
+ID = 520
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 570
+trigger2 = Movetype = H
+ID = 570
+persistent = 1
+
+[State -2]
+type = RemoveExplod
+triggerall = var(58) = 0
+trigger1 = Stateno != 605
+trigger2 = Movetype = H
+ID = 605
+persistent = 1
+
+;===============================================================================
+;-------------------------------------------------------------------------------
+;http://megamugenbrasil.ucoz.com/             Fabricado no Brasil/Made in Brazil
+;-------------------------------------------------------------------------------
+;===============================================================================
