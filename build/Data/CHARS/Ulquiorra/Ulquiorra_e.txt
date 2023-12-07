@@ -48,6 +48,7 @@ weaploss 3
 
 
 
+
 anim	attack1
 	delay	7
 	offset	16 51

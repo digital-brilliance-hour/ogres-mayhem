@@ -32,6 +32,7 @@ load final_blast
 
 
 
+
 anim	attack1
 	delay	7
 	offset	94 77
@@ -262,6 +263,7 @@ anim	freespecial5
 	frame	data/chars/Ulquiorra/42.gif
 	offset	69 93
 	frame	data/chars/Ulquiorra/41.gif
+	@cmd	leaper 0 -5 0
 	offset	44 125
 	frame	data/chars/Ulquiorra/40.gif
 	offset	67 79
