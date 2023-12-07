@@ -1,5 +1,46 @@
 _playmusic 0 data/music/dialog.ogg
-Shrek 0 This_power,_it’s_more_than_you_can_possibly_comprehend.
-Shrek 0 I’ve_lost_everyone,_everything._You_will_not_beat_me,_and_I_will
-Shrek 0 show_you_what_true_pain_is!
+Hero 1 Shrek!_What_have_you_done?_Bringing_chaos_to_countless_worlds,_
+Hero 1 enslaving_powerful_beings..._For_what_purpose?
+
+Shrek 0 Ah,_my_dear_adversary._You_see,_I've_gone_to_great_lengths_to_
+Shrek 0 bring_my_lost_ones_back._Fiona,_Donkey,_Puss_in_Boots..._
+Shrek 0 they're_gone.
+
+Hero 1 But_this?_This_is_madness!_You've_created_a_world_fueled_by_
+Hero 1 pain_and_enslavement.
+
+Shrek 0 It's_the_only_way!_I've_discovered_the_secrets_of_alternate_
+Shrek 0 realities._I_can_draw_characters_from_across_timelines,_
+Shrek 0 across_worlds._All_to_recreate_my_perfect_world,_to_
+Shrek 0 retrieve_what_I've_lost!
+
+Hero 1 Enslaving_beings,_causing_chaos—this_is_not_the_answer!
+
+Shrek 0 You_don't_understand!_The_loneliness..._the_ache_of_
+Shrek 0 losing_everyone_you_hold_dear._Broly_understood._
+Shrek 0 His_life,_filled_with_manipulation_and_isolation,_
+Shrek 0 mirrored_my_own._He'd_give_anything_for_me,_even_his_life.
+
+Hero 1 Broly_may_have_suffered_but_enslaving_him_and_others_is_
+Hero 1 not_the_solution!
+
+Shrek 0 They're_not_enslaved!_They're_given_power,_offered_
+Shrek 0 a_chance_to_fulfill_their_desires_in_exchange_for
+Shrek 0 making_this_world_mine.
+
+Hero 1 Your_desires_are_driving_you_to_madness!
+
+Shrek 0 Madness?_No!_A_desperate_quest_for_what_I've_lost._
+Shrek 0 Can't_you_see?_I've_tasted_the_depths_of_despair._This_world,_
+Shrek 0 these_beings—they're_my_chance_to_make_things_right.
+
+Hero 1 Even_if_it_means_tearing_apart_countless_lives_and_worlds
+Shrek 0 in_the_process?
+
+Shrek 0 Sacrifices_must_be_made_for_what_truly_matters!_
+Shrek 0 Now,_prepare_yourself,_for_I'll_protect_this_world_
+Shrek 0 at_any_cost!
+
+Hero 1 I_won't_let_your_misguided_quest_continue._If_fighting_
+Hero 1 is_the_only_way_to_stop_this_madness,_then_so_be_it.
 end
