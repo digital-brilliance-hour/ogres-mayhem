@@ -6,6 +6,7 @@ void main()
 
 	void p;
 	 int i, hp, maxhp, mp, num;
+	 int snum = openborvariant("current_stage");
 	 for(i=0; i<4; i++){
 		 p = getplayerproperty(i, "entity");
 		 hp = getentityproperty(p, "health");
@@ -24,7 +25,6 @@ void main()
 			setglobalvar("defense_"+num+"P", getentityproperty(p,"defense",openborconstant("ATK_NORMAL")));
 
 			setglobalvar("maxhealth_"+num+"P", getentityproperty(p, "maxhealth"));
-
 
 		 }
 	 } 

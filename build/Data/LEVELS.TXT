@@ -187,11 +187,30 @@ select  data/scenes/main-select.txt
 z 148 298 150
 file data/levels/tutorial.txt
 
-#set stage_9
-#z 120 226 106
-#file	data/levels/stage9.txt
+set stage_9
+typemp 0
+versusdamage 0
+lives 3
+credits 5
+continuescore 2
+cansave 2
+noshare 1
+skipselect blankP
+file 	data/levels/scenes/story/interlude-shrek.txt
+skipselect
+select  data/scenes/main-select.txt
+file 	data/levels/scenes/intro/stage9-intro.txt
+z 198 241 42
+file	data/levels/stage9-1.txt
+z 203 242 39
+file	data/levels/stage9-2.txt
 #next
 #file	data/levels/stage8.txt
 #next
 #z 120 226 106
 #file	data/levels/stage9.txt
+
+
+set stage_10
+z 154 226 72
+file data/levels/stage10-1.txt
