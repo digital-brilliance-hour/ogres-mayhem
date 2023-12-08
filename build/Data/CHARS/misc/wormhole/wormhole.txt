@@ -1,14 +1,16 @@
 name  wormhole
 health	 1
-speed 10
 type     panel
+speed -1
 shadow  0
 setlayer -2000
+facing 1
+
 
 anim	idle
 	loop	1 1
-	delay	10
-	offset	313 192
+	delay	3
+	offset	250 140
 	@cmd	changeentityproperty getlocalvar("self") "direction" 1
 	frame	data/chars/misc/wormhole/frame_000_delay-0.03s.png
 	@cmd	changeentityproperty getlocalvar("self") "setlayer" -2000

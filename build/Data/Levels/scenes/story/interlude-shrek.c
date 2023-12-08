@@ -2,7 +2,7 @@
 
 void main()
 {	
-	scrollText("interlude-shrek.txt",91,0.3,"back1",0.09);
+	scrollText("interlude-shrek.txt",81,0.3,"back1",0.09);
 	drawstring(0360,253,1000,"Press Start To Skip");
   
 	float y = getlayerproperty("background", 0, "zoffset");
@@ -34,7 +34,7 @@ void main()
 	    changedrawmethod(NULL(), "channelb", opacity);
 	    changedrawmethod(NULL(), "channelg", opacity);
 	    changedrawmethod(NULL(), "channelr", opacity);
-	    drawsprite(blackMask, 0, 0, -1); 
+	    //drawsprite(blackMask, 0, 0, -1); 
 	}
 	changelayerproperty("background", 0, "zratio", 0.1);
 	changelayerproperty("background", 0, "zoffset", y); 

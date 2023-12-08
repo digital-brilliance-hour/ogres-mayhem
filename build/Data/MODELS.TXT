@@ -146,6 +146,7 @@ know	Story_Box	data/chars/misc/box_entity.txt
 # Story entities
 load	Story	data/chars/misc/story/story.txt	
 know	Stop	data/chars/misc/story/stop.txt
+know	scroll	data/chars/misc/story/scroll.txt
 
 
 # Obstacles (item containers)
@@ -411,9 +412,7 @@ Know soulsocietyIntro Data/CHARS/misc/soulsociety-intro/soulsociety-intro.txt
 Know sFireBlast1 Data/CHARS/Bakugou/bFireBlast1/sFireBlast1.txt
 know Luffy_Gear_2  data/chars/Luffy_Gear_2/Luffy_Gear_2.txt
 
-Load wormhole-animation Data/CHARS/misc/wormhole-animation/wormhole-animation.txt
 Load wormhole Data/CHARS/misc/wormhole/wormhole.txt
-Load wormholesprite Data/CHARS/misc/wormholesprite/wormholesprite.txt
 know Ulquiorra data/chars/Ulquiorra/Ulquiorra.txt
 load Ulquiorra_e data/chars/Ulquiorra/Ulquiorra_e.txt
 know Ulquiorra-T1 data/chars/Ulquiorra/Ulquiorra-T1.txt
