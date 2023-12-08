@@ -53,6 +53,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	7
 	sound	data/chars/RMXCM-X/Megaman_2-13.wav
@@ -100,6 +101,7 @@ anim	chargeattack
 	bbox	6 2 30 39
 	delay	7
 	offset	19 41
+	sound	data/chars/RMXCM-X/Megaman_2-19.wav
 	frame	data/chars/RMXCM-X/251.gif
 	offset	19 41
 	frame	data/chars/RMXCM-X/252.gif
@@ -165,6 +167,7 @@ anim	freespecial
 	offset	18 42
 	frame	data/chars/RMXCM-X/341.gif
 	offset	18 43
+	sound	data/chars/RMXCM-X/Megaman_2-13.wav
 	frame	data/chars/RMXCM-X/343.gif
 	offset	18 43
 	frame	data/chars/RMXCM-X/344.gif
@@ -172,6 +175,7 @@ anim	freespecial
 	offset	18 44
 	frame	data/chars/RMXCM-X/345.gif
 	offset	18 45
+	sound	data/chars/RMXCM-X/Megaman_2-13.wav
 	frame	data/chars/RMXCM-X/346.gif
 	offset	15 41
 	frame	data/chars/RMXCM-X/231.gif
@@ -179,10 +183,12 @@ anim	freespecial
 	offset	21 42
 	frame	data/chars/RMXCM-X/232.gif
 	offset	22 43
+	sound	data/chars/RMXCM-X/Megaman_2-13.wav
 	frame	data/chars/RMXCM-X/233.gif
 	attack	9 20 43 26 15 1 0 0 0 0
 	offset	18 42
 	frame	data/chars/RMXCM-X/234.gif
+	sound	data/chars/RMXCM-X/Megaman_2-13.wav
 		
 anim	freespecial11
 	delay	1
@@ -243,7 +249,8 @@ anim	freespecial2
 anim	freespecial3
 	@cmd	isavailable 4
 	delay	7
-	mpcost	2
+	mponly	1
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	offset	18 44
 	frame	data/chars/RMXCM-X/195.gif
 	offset	18 43
@@ -279,6 +286,7 @@ anim	freespecial5
 	offset	18 43
 	frame	data/chars/RMXCM-X/199.gif
 	offset	18 43
+	sound	data/chars/RMXCM-X/Megaman_1-47.wav
 	frame	data/chars/RMXCM-X/199.gif
 	offset	18 43
 	frame	data/chars/RMXCM-X/199.gif
@@ -297,6 +305,7 @@ anim	freespecial6
 	offset	18 44
 	frame	data/chars/RMXCM-X/195.gif
 	offset	18 43
+	sound	data/chars/RMXCM-X/Megaman_2-23.wav
 	frame	data/chars/RMXCM-X/196.gif
 	@cmd	projectile 1 "fullPower" 50 5 45 1 0
 	offset	18 41
@@ -304,6 +313,7 @@ anim	freespecial6
 	offset	20 50
 	frame	data/chars/RMXCM-X/325.gif
 	offset	20 50
+	sound	data/chars/RMXCM-X/Megaman_1-47.wav
 	frame	data/chars/RMXCM-X/326.gif
 		
 anim	idle
@@ -350,7 +360,7 @@ anim	jumpattack
 		
 anim	pain
 	delay	7
-	sound	data/chars/RMXCM-X/Megaman_5150-3.wav
+	sound	data/chars/RMXCM-X/Megaman_5150-2.wav
 	offset	15 40
 	frame	data/chars/RMXCM-X/466.gif
 	offset	19 40
@@ -365,6 +375,7 @@ anim	rise
 	offset	25 32
 	frame	data/chars/RMXCM-X/113.gif
 	offset	18 40
+	sound	data/chars/RMXCM-X/Megaman_2-1.wav
 	frame	data/chars/RMXCM-X/110.gif
 	offset	18 42
 	frame	data/chars/RMXCM-X/109.gif
