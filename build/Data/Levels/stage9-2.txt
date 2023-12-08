@@ -1,4 +1,4 @@
-music data/music/stage9-2-boss.ogg
+music data/music/wind.ogg
 background data/bgs/9-2/1.gif
 panel data/bgs/9-2/1.gif none none
 order a

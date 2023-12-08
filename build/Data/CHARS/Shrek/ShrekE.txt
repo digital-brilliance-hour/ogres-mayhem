@@ -10,6 +10,7 @@ subtype chase
 escapehits 1
 riseinv 2 0
 cantgrab  1
+escapehits 3
 candamage player npc
 hostile npc player
 subject_to_screen 1
@@ -121,6 +122,25 @@ anim	fall
 		
 anim	freespecial
 	delay	7
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/Shrek/Deku_950-3.wav
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
 	@cmd	dasher 2 0 0
 	offset	21 36
 	frame	data/chars/Shrek/26.gif
@@ -210,6 +230,25 @@ anim	freespecial11
 		
 anim	freespecial2
 	fastattack	1
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/Shrek/Deku_950-3.wav
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
 	attack	13 1 37 44 20 0 1 0 0 0
 	delay	7
 	@cmd	leaper 2 0 0
@@ -245,6 +284,25 @@ anim	freespecial2
 		
 anim	freespecial3
 	delay	7
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/Shrek/Deku_950-3.wav
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
 	@cmd	damage_all_players 80 1 0 "ATK_NORMAL"
 	offset	21 43
 	frame	data/chars/Shrek/165.gif
@@ -280,13 +338,32 @@ anim	freespecial3
 	frame	data/chars/Shrek/180.gif
 		
 anim	freespecial4
+	delay	7
 	offset	20 41
 	frame	data/chars/Shrek/186.gif
 	delay	7
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/Shrek/Deku_950-3.wav
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
+	offset	23 38
+	frame	data/chars/Shrek/187.gif
 	offset	23 38
 	frame	data/chars/Shrek/187.gif
 	offset	22 39
 	frame	data/chars/Shrek/188.gif
+	sound	data/chars/Shrek/shrek_11-0.wav
 	offset	22 46
 	frame	data/chars/Shrek/189.gif
 	offset	26 46

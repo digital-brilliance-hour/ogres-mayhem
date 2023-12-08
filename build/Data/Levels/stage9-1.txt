@@ -6,6 +6,16 @@ order a
 
 stagenumber 9
 levelscript data/scripts/levels/pspawn.c
+updatescript data/scripts/levels/stage-engine.c
+
+spawn empty
+@script
+void main() {
+     setglobalvar("setupdate", 10);
+}
+@end_script
+coords 1 1
+at 0
 
 spawn1 110 20
 spawn2 140 20
@@ -23,98 +33,122 @@ group 4 4
 at 200
 
 spawn facce
+health 400
 coords 450 204
 at 200
 
 spawn facce
+health 400
 coords 450 227
 at 200
 
 spawn shrieker
+health 450
 coords 30 204
 at 200
 
 spawn shrieker
+health 450
 coords 30 227
 at 200
 
 spawn facce
+health 400
 coords 20 204
 at 200
 
 spawn facce
+health 400
 coords 20 227
 at 200
 
 spawn shrieker
+health 450
 coords 450 204
 at 200
 
 spawn shrieker
+health 450
 coords 450 227
 at 200
 
 spawn facce
+health 400
 coords 20 204
 at 200
 
 spawn facce
+health 400
 coords 20 227
 at 200
 
 spawn shrieker
+health 450
 coords 450 204
 at 200
 
 spawn shrieker
+health 450
 coords 450 227
 at 200
 
 spawn facce
+health 400
 coords 20 204
 at 200
 
 spawn facce
+health 400
 coords 20 227
 at 200
 
 spawn shrieker
+health 450
 coords 450 204
 at 200
 
 spawn shrieker
+health 450
 coords 450 227
 at 200
 
 spawn facce
+health 400
 coords 20 204
 at 200
 
 spawn facce
+health 400
 coords 20 227
 at 200
 
 spawn shrieker
+health 450
 coords 450 204
 at 200
 
 spawn shrieker
+health 450
 coords 450 227
 at 200
 
 spawn facce
+health 400
 coords 20 204
 at 200
 
 spawn facce
+health 400
 coords 20 227
 at 200
 
 spawn shrieker
+health 450
 coords 450 204
 at 200
 
 spawn shrieker
+health 450
 coords 450 227
 at 200
 
@@ -165,51 +199,63 @@ group 4 4
 at 1000
 
 spawn grand_fisher
+health 500
 coords 450 204
 at 1000
 
 spawn grand_fisher
+health 500
 coords 450 227
 at 1000
 
 spawn grand_fisher
+health 500
 coords 30 204
 at 1000
 
 spawn grand_fisher
+health 500
 coords 30 227
 at 1000
 
 
 spawn harpy
+health 450
 coords 120 204
 at 1000
 
 spawn harpy
+health 450
 coords 20 227
 at 1000
 
 spawn harpy
+health 450
 coords 450 204
 at 1000
 
 spawn harpy
+health 450
 coords 450 227
 at 1000
 
 spawn Tsukaima
+health 410
 coords 450 204
 at 1000
 
 spawn Tsukaima
+health 410
 coords 450 227
 at 1000
 
 spawn Tsukaima
+health 410
 coords 30 204
 at 1000
 
 spawn Tsukaima
+health 410
 coords 30 227
 at 1000
 
