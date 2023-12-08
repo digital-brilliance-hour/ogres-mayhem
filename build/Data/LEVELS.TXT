@@ -214,3 +214,80 @@ file	data/levels/stage9-2.txt
 set stage_10
 z 154 226 72
 file data/levels/stage10-1.txt
+
+set Stages_1-10
+typemp 0
+versusdamage 0
+lives 3
+credits 5
+continuescore 2
+cansave 2
+noshare 1
+skipselect blankP
+scene 	data/scenes/howto.txt
+file 	data/levels/scenes/story/story.txt
+skipselect
+select  data/scenes/main-select.txt
+file 	data/levels/scenes/intro/stage1-intro.txt
+z 105 265 160
+file 	data/levels/stage1.txt
+next
+select  data/scenes/main-select.txt
+file 	data/levels/scenes/intro/stage2-intro.txt
+z 121 265 160
+file	data/levels/stage2.txt
+next
+select  data/scenes/main-select.txt
+file 	data/levels/scenes/intro/stage3-intro.txt
+z 160 265 160
+file	data/levels/stage3.txt
+next
+select  data/scenes/main-select.txt
+file 	data/levels/scenes/intro/stage4-intro.txt
+z 130 227 97
+file	data/levels/stage4-1.txt
+z 122 238 116
+file	data/levels/stage4-2.txt
+z 152 235 118
+file	data/levels/stage4-3.txt
+next
+select  data/scenes/main-select.txt
+file 	data/levels/scenes/intro/stage5-intro.txt
+z 157 240 240
+file	data/levels/stage5-1.txt
+z 160 270 110
+file	data/levels/stage5-2.txt
+next
+select  data/scenes/main-select.txt
+file 	data/levels/scenes/intro/stage6-intro.txt
+z 110 270 160
+file	data/levels/stage6-1.txt
+file	data/levels/stage6-2.txt
+next
+select  data/scenes/main-select.txt
+file 	data/levels/scenes/intro/stage7-intro.txt
+z 173 220 47
+file	data/levels/stage7.txt
+next
+select  data/scenes/main-select.txt
+file 	data/levels/scenes/intro/stage8-intro.txt
+z 275 508 233
+file	data/levels/stage8.txt
+branch SIntro
+file 	data/levels/scenes/story/soul-story.txt
+
+branch	SSociety
+z 199 236 47
+file data/levels/bonus.txt
+branch	SSociety
+z 199 236 47
+file data/levels/bonus.txt
+next
+file 	data/levels/scenes/intro/stage9-intro.txt
+z 198 241 42
+file	data/levels/stage9-1.txt
+z 203 242 39
+file	data/levels/stage9-2.txt
+next
+z 154 226 72
+file data/levels/stage10-1.txt
