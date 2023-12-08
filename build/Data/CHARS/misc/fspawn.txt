@@ -37,7 +37,7 @@ anim	idle
                setglobalvar("bossInterlude", 1);
 	       setglobalvar("bossStopX", 180);
  	       setglobalvar("bossStopY0", 193);
- 	       setglobalvar("bossDialog", "shanksdialog");
+ 	       setglobalvar("bossDialog", "shrekdialog");
 	}
 	@end_script	
 	sound	data/sounds/spawner.wav
