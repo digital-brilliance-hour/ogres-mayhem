@@ -1,6 +1,6 @@
 name Ulquiorra-T1
 type enemy
-health 600
+health 15000
 speed 15
 shadow	2
 palette none
@@ -33,6 +33,8 @@ load final_blast
 
 
 
+
+
 anim	attack1
 	delay	7
 	offset	94 77
@@ -41,7 +43,7 @@ anim	attack1
 	frame	data/chars/Ulquiorra/86.gif
 	offset	92 99
 	frame	data/chars/Ulquiorra/87.gif
-	attack	55 0 50 145 15 0 1 0 0 0
+	attack	30 0 47 145 15 0 1 0 0 0
 	offset	21 117
 	frame	data/chars/Ulquiorra/88.gif
 		
@@ -91,6 +93,7 @@ anim	fall
 	frame	data/chars/Ulquiorra/197.gif
 	offset	53 73
 	frame	data/chars/Ulquiorra/202.gif
+	bbox	1 1 85 25
 	offset	32 15
 	frame	data/chars/Ulquiorra/203.gif
 		
@@ -281,7 +284,7 @@ anim	freespecial6
 	frame	data/chars/Ulquiorra/108.gif
 	offset	94 77
 	frame	data/chars/Ulquiorra/109.gif
-	@cmd	spawnbind "final_blast" 43 20 0
+	@cmd	spawnbind "final_blast" 35 20 0
 	offset	94 77
 	frame	data/chars/Ulquiorra/110.gif
 		
