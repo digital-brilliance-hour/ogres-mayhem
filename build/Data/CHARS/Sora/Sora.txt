@@ -48,9 +48,11 @@ load sFireBlast1
 
 
 
+
 anim	attack1
 	delay	2
 	offset	29 34
+	sound	data/chars/Sora/Sora_0-0.wav
 	frame	data/chars/Sora/81.gif
 	offset	16 51
 	frame	data/chars/Sora/82.gif
@@ -65,6 +67,7 @@ anim	attack1
 anim	attack2
 	delay	4
 	offset	8 44
+	sound	data/chars/Sora/Sora_0-1.wav
 	frame	data/chars/Sora/86.gif
 	offset	19 37
 	frame	data/chars/Sora/87.gif
@@ -77,6 +80,7 @@ anim	attack2
 anim	attack3
 	delay	9
 	offset	16 42
+	sound	data/chars/Sora/Sora_0-2.wav
 	frame	data/chars/Sora/90.gif
 	offset	19 31
 	frame	data/chars/Sora/91.gif
@@ -159,6 +163,7 @@ anim	dodge
 anim	fall
 	delay	7
 	offset	21 37
+	sound	data/chars/Sora/Sora_11-0.wav
 	frame	data/chars/Sora/29.gif
 	offset	16 43
 	frame	data/chars/Sora/30.gif
@@ -176,6 +181,7 @@ anim	freespecial
 	delay	1
 	mponly	1
 	offset	19 73
+	sound	data/chars/Sora/Sora_0-19.wav
 	frame	data/chars/Sora/133.gif
 	attack	12 0 22 75 20 1 1 0 0 0
 	delay	40
@@ -264,6 +270,7 @@ anim	freespecial3
 	@cmd	spawnbind "zoomin" 0 0 0
 	offset	13 53
 	frame	data/chars/Sora/100.gif
+	sound	data/chars/Sora/Sora_0-14.wav
 	offset	15 46
 	frame	data/chars/Sora/101.gif
 	offset	15 44
@@ -277,6 +284,7 @@ anim	freespecial3
 	@cmd	changedrawmethod getlocalvar("currentSpawn") "scaley" 256
 	@cmd	damage_all_enemies 40 1 0 "ATK_NORMAL"
 	offset	20 77
+	sound	data/chars/Sora/Sora_1-8.wav
 	frame	data/chars/Sora/103.gif
 	offset	20 77
 	frame	data/chars/Sora/104.gif
@@ -285,6 +293,7 @@ anim	freespecial4
 	delay	14
 	@cmd	isavailable 7
 	offset	45 39
+	sound	data/chars/Sora/Sora_0-4.wav
 	frame	data/chars/Sora/224.gif
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomin" 0 0 0
@@ -347,6 +356,7 @@ anim	freespecial6
 	delay	7
 	@cmd	isavailable 6
 	offset	14 45
+	sound	data/chars/Sora/Sora_0-12.wav
 	frame	data/chars/Sora/209.gif
 	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	pause_all 1 999
@@ -362,6 +372,7 @@ anim	freespecial6
 	@cmd	changedrawmethod getlocalvar("currentSpawn") "scaley" 512
 	@cmd	damage_all_enemies 100 1 0 "ATK_NORMAL"
 	offset	15 56
+	sound	data/chars/Sora/Sora_1-17.wav
 	frame	data/chars/Sora/212.gif
 	offset	15 56
 	frame	data/chars/Sora/213.gif
@@ -398,6 +409,7 @@ anim	jump
 anim	jumpattack
 	delay	7
 	offset	16 51
+	sound	data/chars/Sora/Sora0-2.wav
 	frame	data/chars/Sora/148.gif
 	offset	23 50
 	frame	data/chars/Sora/149.gif
@@ -412,6 +424,7 @@ anim	jumpattack
 anim	pain
 	delay	7
 	offset	26 41
+	sound	data/chars/Sora/Sora_5000-1.wav
 	frame	data/chars/Sora/28.gif
 		
 anim	rise
