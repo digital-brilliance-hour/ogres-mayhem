@@ -1,0 +1,61 @@
+name Rblast
+type none
+
+speed 12
+shadow	2
+palette none
+remove 0
+alpha 1
+candamage player
+
+animationscript data/scripts/spawns.c
+
+
+
+
+
+
+
+
+
+
+
+
+anim	idle
+	delay	3
+	offset	60 102
+	frame	data/chars/Ulquiorra/1566.gif
+	attack	47 39 178 101 60 1 1 0 0 100
+	offset	58 95
+	frame	data/chars/Ulquiorra/1567.gif
+	offset	54 91
+	frame	data/chars/Ulquiorra/1568.gif
+	attack	111 40 357 181 60 1 0 0 0 100
+	offset	53 132
+	frame	data/chars/Ulquiorra/1569.gif
+	offset	51 165
+	frame	data/chars/Ulquiorra/1570.gif
+	attack	158 48 336 229 60 1 1 0 0 100
+	offset	52 179
+	frame	data/chars/Ulquiorra/1571.gif
+	offset	52 183
+	frame	data/chars/Ulquiorra/1572.gif
+	attack	210 42 322 204 60 1 1 0 0 100
+	offset	53 156
+	frame	data/chars/Ulquiorra/1575.gif
+	offset	54 148
+	frame	data/chars/Ulquiorra/1576.gif
+	attack	264 48 271 204 60 1 1 0 0 100
+	offset	54 161
+	frame	data/chars/Ulquiorra/1577.gif
+	offset	54 165
+	frame	data/chars/Ulquiorra/1578.gif
+	attack	221 41 326 214 60 1 1 0 0 100
+	offset	52 141
+	frame	data/chars/Ulquiorra/1579.gif
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

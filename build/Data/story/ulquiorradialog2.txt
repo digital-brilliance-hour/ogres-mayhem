@@ -1,0 +1,35 @@
+Ulquiorra 0 I_never_expected_to_cross_paths_with_you_again.
+Hero 1 Ulquiorra,_why_have_you_joined_forces_with_Shrek?
+Hero 1 He's_ensnaring_powerful_beings_for_his_cause.
+
+Ulquiorra 0 Shrek's_power_is_beyond_comprehension._He's
+Ulquiorra 0 misunderstood,_just_as_I_once_was.
+
+Hero 1 Misunderstood?_He's_manipulating_powerful_beings
+Hero 1 to_create_his_world.
+
+Ulquiorra 0 His_world_isn't_about_domination—it's_about
+Ulquiorra 0 finding_solace_for_those_who've_lost_everything.
+Ulquiorra 0 Shrek_lost_everyone_he_loved.
+
+Hero 1 But_his_methods_are_extreme!
+
+Ulquiorra 0 Extreme,_perhaps,_but_born_of_profound_loss.
+Ulquiorra 0 His_power_draws_in_those_seeking_understanding,
+Ulquiorra 0 offering_a_haven_for_the_disheartened.
+
+Hero 1 I_cannot_let_his_vision_become_reality_if_it_means
+Hero 1 chaos_and_upheaval.
+
+Ulquiorra 0 Your_resolve_is_unwavering,_but_in_our_clash,
+Ulquiorra 0 understand_this—Shrek's_motives_might_be
+Ulquiorra 0 misunderstood._His_strength_stems_from_the_pain
+Ulquiorra 0 of_losing_everything he held dear.
+
+Hero 1 Our_battle_is_inevitable,_Ulquiorra._But_I_fight
+Hero 1 for_what's_right.
+
+Ulquiorra 0 And_I,_for_what_I've_come_to_understand._Our
+Ulquiorra 0 clash_will_be_legendary,_but_even_in_opposition,
+Ulquiorra 0 perhaps_there's_room_for_empathy_and_understanding.
+end
