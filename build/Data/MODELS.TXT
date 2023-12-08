@@ -185,7 +185,7 @@ know King_Piccolo2 data/chars/King_Piccolo/King_PiccoloE.txt
 know	EIkkaku		data/chars/Ikkaku/Ikkakue.txt
 know	ERenji		data/chars/Renji/ERenji.txt
 know	EKenpachi	data/chars/Kenpachi/EKen.txt
-know	Ulquiorra	data/chars/Ulq/Ulq.txt  
+know	Ulquiorra2	data/chars/Ulq/Ulq.txt  
 know    Shanks          data/chars/Shanks/Shanks.txt
 know	Aceb	        data/chars/Ace/Aceb.txt
 
@@ -268,7 +268,7 @@ know	Knife2		data/chars/misc/knife-2.txt
 know	Knife3		data/chars/misc/knife-3.txt
 know	Shot		data/chars/misc/shot.txt
 know	Star		data/chars/misc/star.txt
-know    emptystar   data/chars/misc/emptystar.txt
+know  emptystar   data/chars/misc/emptystar.txt
 know	Steam		data/chars/misc/steam.txt
 know	Steamer		data/chars/misc/steamer.txt
 know	Furnace		data/chars/misc/furnace.txt
@@ -414,3 +414,12 @@ know Luffy_Gear_2  data/chars/Luffy_Gear_2/Luffy_Gear_2.txt
 Load wormhole-animation Data/CHARS/misc/wormhole-animation/wormhole-animation.txt
 Load wormhole Data/CHARS/misc/wormhole/wormhole.txt
 Load wormholesprite Data/CHARS/misc/wormholesprite/wormholesprite.txt
+know Ulquiorra data/chars/Ulquiorra/Ulquiorra.txt
+load Ulquiorra_e data/chars/Ulquiorra/Ulquiorra_e.txt
+know Ulquiorra-T1 data/chars/Ulquiorra/Ulquiorra-T1.txt
+know Ulquiorra-T2 data/chars/Ulquiorra/Ulquiorra-T2.txt
+know Ulquiorra-old data/chars/Ulquiorra-old/Ulquiorra.txt
+load Rblast data/chars/Ulquiorra/Rblast.txt
+load Rshot data/chars/Ulquiorra/Rshot.txt
+load f_punch data/chars/Ulquiorra/Fpunch.txt
+load final_blast data/chars/Ulquiorra/Finalblast.txt
