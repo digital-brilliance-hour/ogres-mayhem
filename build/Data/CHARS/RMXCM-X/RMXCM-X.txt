@@ -6,6 +6,7 @@ running	24	4	2	1    1
 type player
 shadow 3
 icon data/chars/RMXCM-X/0.gif
+secret 0 1
 
 com  a3  freespecial
 com u a3 freespecial2

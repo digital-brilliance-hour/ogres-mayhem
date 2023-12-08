@@ -1,0 +1,105 @@
+name	fspawn
+type	none
+shadow	0
+remove 0
+type	none
+lifespan	2
+alpha	1
+
+
+
+
+
+
+
+
+
+anim	idle
+	delay	3
+	offset	81 347
+	@script
+	void self = getlocalvar("self");
+	int frame = getlocalvar("frame");
+	void parent = getentityproperty(self, "parent");
+        if(frame == 7) {
+	    changedrawmethod(parent, "enabled", 1);
+	    changedrawmethod(parent, "alpha", 0);
+	    changedrawmethod(parent, "channelr", 255);
+	    changedrawmethod(parent, "channelg", 255);
+	    changedrawmethod(parent, "channelb", 255);
+	    changeentityproperty(parent, "gfxshadow", 0);
+	    changeentityproperty(parent, "shadowbase", 2);
+	    changedrawmethod(parent, "enabled", 0);
+	    //killentity(parent);
+	}
+	
+	if(frame == 45) {
+               setglobalvar("bossInterlude", 1);
+	       setglobalvar("bossStopX", 180);
+ 	       setglobalvar("bossStopY0", 193);
+ 	       setglobalvar("bossDialog", "shrekdialog");
+	}
+	@end_script	
+	sound	data/sounds/spawner.wav
+	frame	data/chars/misc/spawn/maif00.png
+	frame	data/chars/misc/spawn/maif01.png
+	frame	data/chars/misc/spawn/maif02.png
+	frame	data/chars/misc/spawn/maif03.png
+	frame	data/chars/misc/spawn/maif04.png
+	frame	data/chars/misc/spawn/maif05.png
+	frame	data/chars/misc/spawn/maif06.png
+	frame	data/chars/misc/spawn/maif07.png
+	frame	data/chars/misc/spawn/maif08.png
+	frame	data/chars/misc/spawn/maif09.png
+	frame	data/chars/misc/spawn/maif10.png
+	frame	data/chars/misc/spawn/maif11.png
+	frame	data/chars/misc/spawn/maif12.png
+	frame	data/chars/misc/spawn/maif13.png
+	frame	data/chars/misc/spawn/maif14.png
+	frame	data/chars/misc/spawn/maif15.png
+	frame	data/chars/misc/spawn/maif16.png
+	frame	data/chars/misc/spawn/maif17.png
+	frame	data/chars/misc/spawn/maif18.png
+	frame	data/chars/misc/spawn/maif19.png
+	frame	data/chars/misc/spawn/maif20.png
+	frame	data/chars/misc/spawn/maif21.png
+	frame	data/chars/misc/spawn/maif22.png
+	frame	data/chars/misc/spawn/maif23.png
+	frame	data/chars/misc/spawn/maif24.png
+	frame	data/chars/misc/spawn/maif25.png
+	frame	data/chars/misc/spawn/maif26.png
+	frame	data/chars/misc/spawn/maif27.png
+	frame	data/chars/misc/spawn/maif28.png
+	frame	data/chars/misc/spawn/maif29.png
+	frame	data/chars/misc/spawn/maif30.png
+	frame	data/chars/misc/spawn/maif31.png
+	frame	data/chars/misc/spawn/maif32.png
+	frame	data/chars/misc/spawn/maif33.png
+	frame	data/chars/misc/spawn/maif34.png
+	frame	data/chars/misc/spawn/maif35.png
+	frame	data/chars/misc/spawn/maif36.png
+	frame	data/chars/misc/spawn/maif37.png
+	frame	data/chars/misc/spawn/maif38.png
+	frame	data/chars/misc/spawn/maif39.png
+	frame	data/chars/misc/spawn/maif40.png
+	frame	data/chars/misc/spawn/maif41.png
+	frame	data/chars/misc/spawn/maif42.png
+	frame	data/chars/misc/spawn/maif43.png
+	frame	data/chars/misc/spawn/maif44.png
+	frame	data/chars/misc/spawn/maif45.png
+	frame	data/chars/misc/empty.gif
+	@cmd	killentity getlocalvar("self")
+	frame	data/chars/misc/empty.gif
+		
+anim	spawn
+	delay	1
+	loop	0
+	@script
+	void self = getlocalvar("self");
+     	executeanimation(self, openborconstant("ANI_IDLE"));
+	@end_script	
+	offset	0 0
+	frame	data/chars/misc/empty.gif
+		
+#|edited by openBor Stats v 0.67
+		

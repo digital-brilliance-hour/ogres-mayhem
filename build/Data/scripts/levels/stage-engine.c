@@ -86,6 +86,7 @@ void main() {
                 setlocalvar("dialogcounter", 0); 
                 setlocalvar("walkcounter"+i, 0);
                 setlocalvar("idlecounter"+i, 0);
+                int c_stage = openborvariant("current_stage");
                 changeplayerproperty(i, "disablekeys", 0);
                 int holder = getlocalvar("holdcounter");
                 if(holder == 220 && getlevelproperty("cameraxoffset") == 120) {
@@ -109,8 +110,23 @@ void main() {
                                 changeentityproperty(vEntity, "destx", getentityproperty(p, "x")+10);
                                 changeentityproperty(vEntity, "destz", getentityproperty(p, "z"));
                                 changeentityproperty(vEntity, "takeaction", "common_attack_proc");
-                                setlocalvar("holdcounter", 0);
+                                if(c_stage < 10) {
+                                    setlocalvar("holdcounter", 0);
+                                }
                                 //executeanimation(vEntity, openborconstant("ANI_RUN"));
+                            }
+
+                            if(c_stage == 10 && getentityproperty(vEntity, "name") == "Broly") {
+                                changeentityproperty(vEntity, "noaicontrol", 0);
+                                changeentityproperty(vEntity, "subject_to_screen", 1);
+                                changeentityproperty(vEntity, "aiflag", "walking", 1);
+                                changeentityproperty(vEntity, "aiflag", "idling", 1);
+                                changeentityproperty(vEntity, "aiflag", "attacking", 1);
+                                changeentityproperty(vEntity, "destx", getentityproperty(p, "x")+10);
+                                changeentityproperty(vEntity, "destz", getentityproperty(p, "z"));
+                                changeentityproperty(vEntity, "takeaction", "common_attack_proc");
+                                setlocalvar("holdcounter", 0);
+
                             }   
                         }
                     } 
