@@ -38,6 +38,8 @@ void setLevel()
 void setAbi2(void plIndex, void ent, int delta)
 {
 	int num = plIndex + 1;
+	log("player"+plIndex+" delta: "+delta);
+	log(" player"+plIndex+" new health: " +getentityproperty(ent,"maxhealth")+25*delta);
 	float off = 0.10*delta;
 	if (openborvariant("in_level")) {
 		changeentityproperty(ent,"maxhealth",getentityproperty(ent,"maxhealth")+25*delta);

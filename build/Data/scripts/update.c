@@ -161,7 +161,7 @@ void main()
              //HP text script
              hp = getentityproperty(p, "health"); if(hp<0) hp=0;
              //settextobj(10*i, 6+120*i, 221, 0, -10, getentityproperty(p,"offense",openborconstant("ATK_NORMAL"))+"/"+getglobalvar("offense_"+num+"P"));
-             //settextobj(10*i, 6+120*i, 221, 0, -10, hp+"/"+getentityproperty(p, "maxhealth"));
+             settextobj(10*i, 6+120*i, 221, 0, -10, hp+"/"+getentityproperty(p, "maxhealth"));
              //MP text script
              mp = getentityproperty(p, "mp"); if(mp<0) mp=0;
              //settextobj(11*i, 6+120*i, 236, 0, -10,  mp+"/"+getentityproperty(p, "maxmp"));
@@ -247,6 +247,9 @@ void setUpdate() {
     if(currentStage == 8) {
       setnumber = 3;
     }
+    if(currentStage == 10) {
+      setnumber = 6;
+    }
     log(getsaveinfo(setnumber, "SCORE", 0));
     int checkScore = getglobalvar("checkSet1Score");
     if(checkScore != 1) {
@@ -299,6 +302,21 @@ void setUpdate() {
                       }
                     }
                   }
+                  if(currentStage == 10) {
+                    if(scoreExists(i, 2) < 1) {
+                      if(scoreExists(i, 1) < 190000) {
+                        changeplayerproperty(i, "score", 190500);
+                        lvup(i);
+
+                      }
+                      else {
+                        changeplayerproperty(i, "score", scoreExists(i, 0));
+                      lvup(i);
+
+                      }
+                    }
+                  }
+                  
                 }
             }
         }

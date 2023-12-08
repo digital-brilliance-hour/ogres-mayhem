@@ -85,6 +85,7 @@ didhitscript data/scripts/didhit/didhit.c
 
 
 
+
 anim	attack1
 	delay	7
 	sound	data/chars/deku/deku_0-0.wav
@@ -465,6 +466,7 @@ anim	idle
 	bbox	2 1 27 44
 	delay	14
 	loop	1
+	range	0 25
 	offset	15 45
 	frame	data/chars/Deku/3.gif
 	offset	15 44
