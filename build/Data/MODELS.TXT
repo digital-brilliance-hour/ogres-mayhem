@@ -49,6 +49,7 @@ load 	h_card		data/chars/hisoka/card.txt
 load 	e_spawn 	data/chars/misc/espawn/espawn.txt
 load 	pspawn 	data/chars/misc/pspawn.txt
 load 	ispawn 	data/chars/misc/ispawn.txt
+load 	fspawn 	data/chars/misc/fspawn.txt
 load 	quake 		data/chars/misc/quake.txt
 load deku_redcharge data/chars/deku/red_charge.txt
 load deku_greencharge data/chars/deku/green_charge.txt
@@ -179,9 +180,10 @@ know	lab14       data/bgs/stage-5/lab14.txt
 Know Hisoka_E data/chars/Hisoka/HisokaE.txt
 Know hiei_E data/chars/hiei/hieiE.txt
 Know Sasuke_E data/chars/Sasuke/SasukeE.txt
-Know Shrek_E data/chars/Shrek/ShrekE.txt
+Know ShrekE data/chars/Shrek/ShrekE.txt
 Know samjack_E data/chars/samjack/samjackE.txt
 know BrolyE data/chars/Broly_SSB/Broly_SSBE.txt  
+know BrolyH data/chars/Broly_SSB/Broly_SSBH.txt  
 know King_Piccolo2 data/chars/King_Piccolo/King_PiccoloE.txt  
 know	EIkkaku		data/chars/Ikkaku/Ikkakue.txt
 know	ERenji		data/chars/Renji/ERenji.txt

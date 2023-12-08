@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Sora"
+displayname = "Sora"
+versiondate = 16/09/2018
+mugenversion = 1.0
+author = "Salah"
+pal.defaults = 1
+
+[Files]
+sprite = Sora.sff
+anim = Sora.air
+sound = Sora.snd
+cmd = Sora.cmd
+cns = Sora.cns
+stcommon = common1.cns
+st = Sora.cns
+st1 = IA.cns
+st2 = Specials.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

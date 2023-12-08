@@ -1,5 +1,5 @@
 name Ulquiorra-T1
-type enemy
+type none
 health 15000
 speed 15
 shadow	2

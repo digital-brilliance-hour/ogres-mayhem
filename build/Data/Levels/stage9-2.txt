@@ -1,4 +1,4 @@
-music data/music/stage6-2.ogg
+music data/music/stage9-2-boss.ogg
 background data/bgs/9-2/1.gif
 panel data/bgs/9-2/1.gif none none
 order a
@@ -16,669 +16,60 @@ spawn ready
 	coords 240 136
 	at 0
 
-wait
-at 1061
-
-group 5 4
-at 1061
-
-
-spawn tsuna
-health 50
-coords 250 130
-at  1061
-
-spawn tsuna
-health 50
-coords 250 170
-at  1061
-
-spawn tsuna
-health 50
-coords 530 191
-at  1061
-
-spawn soldier
-health 50
-coords 43 158
-at 1061
-
-spawn soldier
-health 50
-coords 130 140
-at 1061
-
-spawn soldier
-health 50
-coords 43 158
-at 1061
-
-spawn soldier
-health 50
-coords 130 140
-at 1061
-
-spawn soldier
-health 50
-coords 43 158
-at 1061
-
-spawn soldier
-health 50
-coords 130 140
-at 1061
-
-spawn tsuna
-health 50
-coords 530 130
-at  1061
-
-spawn tsuna
-health 50
-coords 530 170
-at  1061
-
-
-wait
-at 1532
-
-spawn leona
-health 800
-coords 450 150
-at 1532
-
-spawn harpy
-health 150
-coords 450 99
-at 1532
-
-spawn harpy
-health 150
-coords 450 182
-at 1532
-
-spawn harpy
-health 150
-coords 30 99
-at 1532
-
-spawn harpy
-health 150
-coords 30 182
-at 1532
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 110
-at 1532
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 130
-at 1532
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 150
-at 1532
-
-spawn harpy
-health 150
-coords 450 182
-at 1532
-
-spawn harpy
-health 150
-coords 30 99
-at 1532
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 170
-at 1532
-
-
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 190
-at 1532
-
-spawn harpy
-health 150
+spawn crate
 item hp_hundred
-coords 450 182
-at 1532
+coords 490 204
+at 210
 
-spawn harpy
-health 150
+spawn crate
 item mp_hundred
-coords 30 99
-at 1532
+coords 490 227
+at 210
 
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 210
-at 1532
+2pspawn crate
+item hp_hundred
+coords 500 204
+at 210
 
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 230
-at 1532
+2pspawn crate
+item mp_hundred
+coords 500 224
+at 210
 
-spawn harpy
-health 150
-2pitem hp_hundred
-coords 450 182
-at 1532
+3pspawn crate
+item hp_hundred
+coords 520 204
+at 210
 
-spawn harpy
-health 150
-2pitem mp_hundred
-coords 30 99
-at 1532
+3pspawn crate
+item mp_hundred
+coords 520 227
+at 210
 
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 250
-at 1532
+4pspawn crate
+item hp_hundred
+coords 540 204
+at 210
 
-group 100 100
-at 2000
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 110
-at 2212
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 130
-at 2212
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 150
-at 2212
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 170
-at 2212
-
-
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 190
-at 2452
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 210
-at 2452
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 230
-at 2452
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 250
-at 2452
-
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 110
-at 2572
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 130
-at 2572
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 150
-at 2572
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 170
-at 2572
-
-
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 190
-at 2692
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 210
-at 2692
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 230
-at 2692
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 250
-at 2692
-
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 110
-at 2812
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 130
-at 2812
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 150
-at 2812
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 170
-at 2812
-
-
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 190
-at 2812
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 210
-at 2812
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 230
-at 2812
-
-spawn soldier
-@script
-void main() {
-     void self = getlocalvar("self");
-     changeentityproperty(self, "noaicontrol", 0);
-     changeentityproperty(self, "subject_to_screen", 0);
-     changeentityproperty(self, "aiflag", "walking", 0);
-     changeentityproperty(self, "aiflag", "idling", 0);
-     changeentityproperty(self, "aiflag", "attacking", 0);
-     changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
-}
-@end_script
-noatk_duration 900
-coords 530 250
-at 2812
+4pspawn crate
+item mp_hundred
+coords 540 224
+at 210
 
 spawn empty
 @script
 void main() {
 setglobalvar("bossInterlude", 1);
-setglobalvar("bossStopX", 3846);
-setglobalvar("bossStopY0", 107);
-setglobalvar("bossDialog", "bakugodialog");
+setglobalvar("bossStopX", 1230);
+setglobalvar("bossStopY0", 225);
+setglobalvar("bossDialog", "ulquiorradialog2");
 }
 @end_script
 coords 1 1
-at 3346
+at 900
 
-spawn bakugou
+spawn Ulquiorra_e
+health  10000
 boss 1
 @script
 void main() {
@@ -691,17 +82,9 @@ void main() {
      changeentityproperty(self, "animation", openborconstant("ANI_IDLE"));
 }
 @end_script
-alias  Bakugo
-health 1100
-coords	530 156
-at 3512
-
-wait
-at 3728
-
-spawn statsItem
-coords 240 176
-at 3727
+alias  Ulquiorra
+coords	530 225
+at 910
 
 ##Place reinforcements at 3527
 

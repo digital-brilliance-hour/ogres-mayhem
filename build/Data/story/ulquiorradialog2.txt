@@ -8,7 +8,7 @@ Ulquiorra 0 misunderstood,_just_as_I_once_was.
 Hero 1 Misunderstood?_He's_manipulating_powerful_beings
 Hero 1 to_create_his_world.
 
-Ulquiorra 0 His_world_isn't_about_domination—it's_about
+Ulquiorra 0 His_world_isn't_about_domination,_it's_about
 Ulquiorra 0 finding_solace_for_those_who've_lost_everything.
 Ulquiorra 0 Shrek_lost_everyone_he_loved.
 
@@ -22,9 +22,9 @@ Hero 1 I_cannot_let_his_vision_become_reality_if_it_means
 Hero 1 chaos_and_upheaval.
 
 Ulquiorra 0 Your_resolve_is_unwavering,_but_in_our_clash,
-Ulquiorra 0 understand_this—Shrek's_motives_might_be
+Ulquiorra 0 understand_this,_Shrek's_motives_might_be
 Ulquiorra 0 misunderstood._His_strength_stems_from_the_pain
-Ulquiorra 0 of_losing_everything he held dear.
+Ulquiorra 0 of_losing_everything_he_held_dear.
 
 Hero 1 Our_battle_is_inevitable,_Ulquiorra._But_I_fight
 Hero 1 for_what's_right.
