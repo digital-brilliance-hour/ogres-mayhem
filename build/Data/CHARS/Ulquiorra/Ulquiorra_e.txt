@@ -31,8 +31,10 @@ load Rshot
 load Rblast
 load f_punch
 
-weapons Ulquiorra-T1 Ulquiorra_e
+weapons UlquiorraT1 Ulquiorra_e
 weaploss 3
+
+
 
 
 
@@ -53,6 +55,7 @@ weaploss 3
 
 anim	attack1
 	delay	7
+	range	0 30
 	offset	16 51
 	frame	data/chars/Ulquiorra/56.gif
 	offset	26 50
@@ -108,6 +111,10 @@ anim	fall
 		
 anim	follow1
 	delay	7
+	weaponframe	7 1
+	@cmd	pause_all 1 400
+	@cmd	pause_self 1 400
+	@cmd	spawnbind "g_charge2" -10 0 -20
 	offset	24 45
 	frame	data/chars/Ulquiorra/73.gif
 	delay	60

@@ -3,6 +3,8 @@ background data/bgs/9-2/1.gif
 panel data/bgs/9-2/1.gif none none
 order a
 
+direction both
+
 stagenumber 9
 levelscript data/scripts/levels/pspawn.c
 updatescript data/scripts/levels/stage-engine.c
@@ -69,8 +71,7 @@ coords 1 1
 at 900
 
 spawn Ulquiorra_e
-health  10000
-boss 1
+health  100
 @script
 void main() {
      void self = getlocalvar("self");
@@ -86,7 +87,26 @@ alias  Ulquiorra
 coords	530 225
 at 910
 
-##Place reinforcements at 3527
+wait
+at 1110
+
+group  1 2
+at 1110
+
+shadowcolor -1
+at 1110
+
+shadowalpha 6
+at 1110
+
+shadowopacity 0
+at 1110
+
+spawn emptystar
+health 1000000
+coords 1000 224
+at 1110
+
 
 
 
