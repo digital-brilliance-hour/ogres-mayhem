@@ -1,6 +1,5 @@
-name		stop
-type  text
-subtype		noskip
+name		scroll
+type  panel
 
 anim	spawn
 	loop	1
