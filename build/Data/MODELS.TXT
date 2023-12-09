@@ -415,9 +415,9 @@ Know sFireBlast1 Data/CHARS/Bakugou/bFireBlast1/sFireBlast1.txt
 know Luffy_Gear_2  data/chars/Luffy_Gear_2/Luffy_Gear_2.txt
 
 Load wormhole Data/CHARS/misc/wormhole/wormhole.txt
-know Ulquiorra data/chars/Ulquiorra/Ulquiorra.txt
+#know Ulquiorra data/chars/Ulquiorra/Ulquiorra.txt
 load Ulquiorra_e data/chars/Ulquiorra/Ulquiorra_e.txt
-know Ulquiorra-T1 data/chars/Ulquiorra/Ulquiorra-T1.txt
+load UlquiorraT1 data/chars/Ulquiorra/Ulquiorra-T1.txt
 know Ulquiorra-T2 data/chars/Ulquiorra/Ulquiorra-T2.txt
 know Ulquiorra-old data/chars/Ulquiorra-old/Ulquiorra.txt
 load Rblast data/chars/Ulquiorra/Rblast.txt

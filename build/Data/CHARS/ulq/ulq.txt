@@ -1,4 +1,4 @@
-name	Ulquiorra
+name	UlquiorraX
 health	300
 speed	20
 type	enemy

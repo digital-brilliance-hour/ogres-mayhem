@@ -128,6 +128,18 @@ void main() {
                                 setlocalvar("holdcounter", 0);
 
                             }   
+                            if(c_stage == 9 && getentityproperty(vEntity, "name") == "Ulquiorra") {
+                                changeentityproperty(vEntity, "noaicontrol", 0);
+                                changeentityproperty(vEntity, "subject_to_screen", 1);
+                                changeentityproperty(vEntity, "aiflag", "walking", 1);
+                                changeentityproperty(vEntity, "aiflag", "idling", 1);
+                                changeentityproperty(vEntity, "aiflag", "attacking", 1);
+                                changeentityproperty(vEntity, "destx", getentityproperty(p, "x")+10);
+                                changeentityproperty(vEntity, "destz", getentityproperty(p, "z"));
+                                changeentityproperty(vEntity, "takeaction", "common_attack_proc");
+                                setlocalvar("holdcounter", 0);
+
+                            }
                         }
                     } 
                 }  

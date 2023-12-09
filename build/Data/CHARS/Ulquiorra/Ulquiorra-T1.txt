@@ -1,4 +1,4 @@
-name Ulquiorra-T1
+name UlquiorraT1
 type none
 health 15000
 speed 15
@@ -8,7 +8,7 @@ icon data/chars/Ulquiorra/0.gif
 
 subtype chase
 aimove chase
-aggression  20
+aggression  70
 escapehits 2
 riseinv 2 0
 candamage player npc
@@ -26,17 +26,19 @@ ondeathscript data/scripts/bossdeath.c
 script data/scripts/bosses/update.c
 atchain 1 1 2 3
 onblocksscript data/scripts/enemy/screenedge.c
+running	18	3	2	1
 
 load final_blast
 
-
-
+weaploss 3
+modelflag 3
 
 
 
 
 anim	attack1
 	delay	7
+	range	0	30
 	offset	94 77
 	frame	data/chars/Ulquiorra/85.gif
 	offset	88 76
@@ -48,14 +50,17 @@ anim	attack1
 	frame	data/chars/Ulquiorra/88.gif
 		
 anim	attack2
+	fastattack	1
 	delay	7
 	offset	64 81
 	frame	data/chars/Ulquiorra/89.gif
+	attack	-4 0 140 104 15 0 0 1 0 0
 	offset	59 84
 	frame	data/chars/Ulquiorra/90.gif
-	attack	-7 0 168 63 15 0 1 0 0 0
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	82 57
 	frame	data/chars/Ulquiorra/91.gif
+	attack	-7 0 168 59 15 0 0 1 0 0
 	offset	82 55
 	frame	data/chars/Ulquiorra/92.gif
 		
@@ -77,7 +82,7 @@ anim	chargeattack
 	frame	data/chars/Ulquiorra/93.gif
 	offset	68 54
 	frame	data/chars/Ulquiorra/94.gif
-	attack	71 1 30 62 20 1 1 0 0 0
+	attack	29 1 71 62 40 1 1 0 0 0
 	offset	18 53
 	frame	data/chars/Ulquiorra/95.gif
 	offset	17 53
@@ -117,6 +122,23 @@ anim	follow1
 anim	freespecial
 	delay	7
 	fastattack	1
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/Shrek/Deku_950-3.wav
+	offset	64 84
+	frame	data/chars/Ulquiorra/116.gif
+	offset	64 84
+	frame	data/chars/Ulquiorra/116.gif
+	offset	64 84
+	frame	data/chars/Ulquiorra/116.gif
+	offset	64 84
+	frame	data/chars/Ulquiorra/116.gif
+	offset	64 84
+	frame	data/chars/Ulquiorra/116.gif
+	offset	64 84
+	frame	data/chars/Ulquiorra/116.gif
+	offset	64 84
+	frame	data/chars/Ulquiorra/116.gif
 	offset	64 84
 	frame	data/chars/Ulquiorra/116.gif
 	offset	64 80
@@ -216,13 +238,64 @@ anim	freespecial11
 		
 anim	freespecial2
 	delay	7
+	range	0 200
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/Shrek/Deku_950-3.wav
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
 	offset	94 77
 	frame	data/chars/Ulquiorra/85.gif
 	@cmd	dasher 3 0 0
 	offset	56 64
 	frame	data/chars/Ulquiorra/97.gif
+	@cmd	target2 3 3
+	@cmd	dash
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	2
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	delay	7
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
 	attack	89 0 53 68 25 1 1 0 0 0
 	dropv	2 10 0
+	delay	20
 	offset	70 52
 	frame	data/chars/Ulquiorra/98.gif
 	offset	83 52
@@ -235,6 +308,23 @@ anim	freespecial2
 		
 anim	freespecial3
 	delay	10
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/Shrek/Deku_950-3.wav
+	offset	75 63
+	frame	data/chars/Ulquiorra/130.gif
+	offset	75 63
+	frame	data/chars/Ulquiorra/130.gif
+	offset	75 63
+	frame	data/chars/Ulquiorra/130.gif
+	offset	75 63
+	frame	data/chars/Ulquiorra/130.gif
+	offset	75 63
+	frame	data/chars/Ulquiorra/130.gif
+	offset	75 63
+	frame	data/chars/Ulquiorra/130.gif
+	offset	75 63
+	frame	data/chars/Ulquiorra/130.gif
 	offset	75 63
 	frame	data/chars/Ulquiorra/130.gif
 	offset	94 77
@@ -257,6 +347,23 @@ anim	freespecial4
 		
 anim	freespecial5
 	delay	7
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/Shrek/Deku_950-3.wav
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
 	offset	67 79
 	frame	data/chars/Ulquiorra/21.gif
 	offset	69 93
@@ -274,6 +381,25 @@ anim	freespecial5
 		
 anim	freespecial6
 	delay	7
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/Shrek/Deku_950-3.wav
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
+	offset	97 76
+	frame	data/chars/Ulquiorra/101.gif
 	offset	94 77
 	frame	data/chars/Ulquiorra/105.gif
 	offset	95 77

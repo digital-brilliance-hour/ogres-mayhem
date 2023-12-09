@@ -32,4 +32,5 @@ Hero 1 for_what's_right.
 Ulquiorra 0 And_I,_for_what_I've_come_to_understand._Our
 Ulquiorra 0 clash_will_be_legendary,_but_even_in_opposition,
 Ulquiorra 0 perhaps_there's_room_for_empathy_and_understanding.
+_playmusic 0 data/music/stage9-2-boss.ogg
 end
