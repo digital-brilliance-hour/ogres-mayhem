@@ -26,12 +26,14 @@ ondeathscript data/scripts/bossdeath.c
 script data/scripts/bosses/update.c
 atchain 1 1 2 3
 onblocksscript data/scripts/enemy/screenedge.c
-running	18	3	2	1
+running	24	3	2	1
 
 load final_blast
 
 weaploss 3
 modelflag 3
+
+
 
 
 
@@ -45,7 +47,7 @@ anim	attack1
 	frame	data/chars/Ulquiorra/86.gif
 	offset	92 99
 	frame	data/chars/Ulquiorra/87.gif
-	attack	30 0 47 145 15 0 1 0 0 0
+	attack	15 0 69 145 15 0 1 0 0 2
 	offset	21 117
 	frame	data/chars/Ulquiorra/88.gif
 		
@@ -70,9 +72,13 @@ anim	attack3
 	frame	data/chars/Ulquiorra/93.gif
 	offset	68 54
 	frame	data/chars/Ulquiorra/94.gif
-	attack	29 1 71 62 20 1 1 0 0 0
+	attack	12 1 88 62 20 1 1 0 0 5
 	offset	18 53
 	frame	data/chars/Ulquiorra/95.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	17 53
+	frame	data/chars/Ulquiorra/96.gif
+	attack	12 1 88 62 20 1 1 0 0 5
 	offset	17 53
 	frame	data/chars/Ulquiorra/96.gif
 		
@@ -335,7 +341,7 @@ anim	freespecial3
 	frame	data/chars/Ulquiorra/86.gif
 	offset	93 102
 	frame	data/chars/Ulquiorra/87.gif
-	attack	50 8 45 134 50 1 1 0 0 0
+	attack	50 8 45 134 50 1 1 0 0 7
 	dropv	2 10 0
 	offset	24 120
 	frame	data/chars/Ulquiorra/88.gif
@@ -366,16 +372,50 @@ anim	freespecial5
 	frame	data/chars/Ulquiorra/21.gif
 	offset	67 79
 	frame	data/chars/Ulquiorra/21.gif
+	@cmd	leaper 0 6 0
 	offset	69 93
 	frame	data/chars/Ulquiorra/41.gif
-	@cmd	leaper 0 3 0
 	offset	54 62
 	frame	data/chars/Ulquiorra/42.gif
 	offset	69 93
 	frame	data/chars/Ulquiorra/41.gif
-	@cmd	leaper 0 -5 0
+	offset	69 93
+	frame	data/chars/Ulquiorra/41.gif
+	offset	54 62
+	frame	data/chars/Ulquiorra/42.gif
+	offset	69 93
+	frame	data/chars/Ulquiorra/41.gif
+	offset	69 93
+	frame	data/chars/Ulquiorra/41.gif
+	offset	54 62
+	frame	data/chars/Ulquiorra/42.gif
+	offset	69 93
+	frame	data/chars/Ulquiorra/41.gif
+	@cmd	leaper 0 -8 0
 	offset	44 125
 	frame	data/chars/Ulquiorra/40.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	@cmd	spawn01 "quake" 0 0 4
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
+	@cmd	damage_all_players 100 1 0 "ATK_NORMAL"
+	offset	67 79
+	frame	data/chars/Ulquiorra/21.gif
 	offset	67 79
 	frame	data/chars/Ulquiorra/21.gif
 		
@@ -408,9 +448,25 @@ anim	freespecial6
 	frame	data/chars/Ulquiorra/107.gif
 	offset	95 77
 	frame	data/chars/Ulquiorra/108.gif
+	@cmd	spawnbind "final_blast" 35 20 0
 	offset	94 77
 	frame	data/chars/Ulquiorra/109.gif
-	@cmd	spawnbind "final_blast" 35 20 0
+	offset	94 77
+	frame	data/chars/Ulquiorra/110.gif
+	offset	94 77
+	frame	data/chars/Ulquiorra/109.gif
+	offset	94 77
+	frame	data/chars/Ulquiorra/110.gif
+	offset	94 77
+	frame	data/chars/Ulquiorra/109.gif
+	offset	94 77
+	frame	data/chars/Ulquiorra/110.gif
+	offset	94 77
+	frame	data/chars/Ulquiorra/109.gif
+	offset	94 77
+	frame	data/chars/Ulquiorra/110.gif
+	offset	94 77
+	frame	data/chars/Ulquiorra/109.gif
 	offset	94 77
 	frame	data/chars/Ulquiorra/110.gif
 		

@@ -1,5 +1,5 @@
 name	Goku_SSJ
-health	500
+health	300
 speed 20
 running 28 4 2 1 1
 type none

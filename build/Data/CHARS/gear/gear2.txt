@@ -1,5 +1,5 @@
 name	Gear2
-health 5000
+health 200
 mp 200
 speed	30
 type	none

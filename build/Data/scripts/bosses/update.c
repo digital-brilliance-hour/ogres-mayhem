@@ -8,6 +8,9 @@ void main() {
 	if(hp <= percentage) {
 		if(animationcount < 1) {
 			changeentityproperty(self, "animation", openborconstant("ANI_FOLLOW1"));
+			if(getentityproperty(self, "name") == "Ulquiorra") {
+				changeentityproperty(self, "health", 8000);
+			}
 			animationcount = setlocalvar("animationcount", 1);
 		}
 	}
