@@ -29,11 +29,6 @@ health  2047483647
 coords	400 180
 at 0
 
-spawn Ulquiorra-T1
-health  2047483647
-coords	450 200
-at 0
-
 
 spawn statsitem
 coords 300 240
