@@ -14,6 +14,8 @@ spawn2 140 20
 spawn3 110 60
 spawn4 140 60
 
+wall -30 238 25 0 75 50 50 180
+
 spawn ready
 	coords 240 136
 	at 0
@@ -71,7 +73,10 @@ coords 1 1
 at 900
 
 spawn Ulquiorra_e
-health  100
+health 4000
+2phealth 5000
+3phealth 6000
+4phealth 7000
 @script
 void main() {
      void self = getlocalvar("self");

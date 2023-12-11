@@ -97,7 +97,7 @@ void addLine(int cr)
 				//
 				//You can place additional font numbers here as well, especially
 				//if you want to place more fonts.
-				if(font==1)
+				if(font==1 || font==2)
 				{
 					x=res_x*0.25;
 				}else{

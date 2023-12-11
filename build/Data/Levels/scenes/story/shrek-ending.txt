@@ -1,0 +1,34 @@
+music		data/music/shrek-ending.ogg 940527
+
+background	data/bgs/shrek-ending.png 1 1
+
+#frontpanel	data/bgs/story.gif
+
+#fglayer path                         z xratio zratio xposition zposition xspacing zspacing xrepeat zrepeat transparency alpha watermode amplitude wavelength wavespeed bgspeedratio
+#fglayer	 data/bgs/ogres-story.png  0  1     1        0         0       1000      1       -1       1         0         0       0         0         0          0         -1.5
+
+panel		data/bgs/fullscreen.gif none none
+
+order	        aaa
+settime         0
+notime          1
+nopause		1
+nolife 1
+type 2
+stagenumber 13
+#direction left
+bgspeed 10 1
+
+spawn1 500 -20 0
+spawn2 250 20
+spawn3 250 20
+spawn4 250 20
+
+updatedscript	data/levels/scenes/story/shrek-ending.c
+
+shadowcolor -1
+at 0
+
+spawn	stop
+coords	1 1
+at	0

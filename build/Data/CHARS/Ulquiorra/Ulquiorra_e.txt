@@ -5,6 +5,7 @@ speed 15
 shadow	2
 palette none
 icon data/chars/Ulquiorra/0.gif
+running	18	3	2	1
 
 subtype chase
 aimove chase
@@ -137,6 +138,23 @@ anim	follow1
 		
 anim	freespecial
 	delay	7
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/Shrek/Deku_950-3.wav
+	offset	16 51
+	frame	data/chars/Ulquiorra/56.gif
+	offset	16 51
+	frame	data/chars/Ulquiorra/56.gif
+	offset	16 51
+	frame	data/chars/Ulquiorra/56.gif
+	offset	16 51
+	frame	data/chars/Ulquiorra/56.gif
+	offset	16 51
+	frame	data/chars/Ulquiorra/56.gif
+	offset	16 51
+	frame	data/chars/Ulquiorra/56.gif
+	offset	16 51
+	frame	data/chars/Ulquiorra/56.gif
 	offset	16 51
 	frame	data/chars/Ulquiorra/56.gif
 	offset	26 50
@@ -151,23 +169,74 @@ anim	freespecial
 		
 anim	freespecial2
 	delay	7
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/Shrek/Deku_950-3.wav
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
 	offset	22 51
 	frame	data/chars/Ulquiorra/75.gif
 	@cmd	projectile 1 "Rshot" 55 5 35 1 0
 	offset	26 52
 	frame	data/chars/Ulquiorra/76.gif
+	offset	26 52
+	frame	data/chars/Ulquiorra/76.gif
+	offset	26 52
+	frame	data/chars/Ulquiorra/76.gif
 		
 anim	freespecial3
 	delay	7
+	@cmd	pause_all 1 100
+	@cmd	spawnbind "g_charge2" -10 0 -20
+	sound	data/chars/Shrek/Deku_950-3.wav
 	offset	22 51
 	frame	data/chars/Ulquiorra/75.gif
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
+	offset	22 51
+	frame	data/chars/Ulquiorra/75.gif
+	@cmd	spawnbind "Rblast" 35 30 0
+	delay	4
 	offset	26 52
 	frame	data/chars/Ulquiorra/76.gif
 	offset	19 52
 	frame	data/chars/Ulquiorra/77.gif
-	@cmd	spawnbind "Rblast" 35 30 0
 	offset	14 52
 	frame	data/chars/Ulquiorra/78.gif
+	offset	19 52
+	frame	data/chars/Ulquiorra/77.gif
+	offset	26 52
+	frame	data/chars/Ulquiorra/76.gif
+	offset	19 52
+	frame	data/chars/Ulquiorra/77.gif
+	offset	14 52
+	frame	data/chars/Ulquiorra/78.gif
+	offset	19 52
+	frame	data/chars/Ulquiorra/77.gif
+	offset	26 52
+	frame	data/chars/Ulquiorra/76.gif
 		
 anim	idle
 	loop	1

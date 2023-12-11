@@ -2,7 +2,7 @@ name	Luffy
 health	100
 mp 100
 speed	10
-type	Player
+type	player
 shadow 3
 
 icon	data/chars/Luffy/icon.gif

@@ -1,5 +1,5 @@
 name   kyuubiNaruto
-health	100
+health	200
 speed 10
 running	22	4	2	1    1
 type none
