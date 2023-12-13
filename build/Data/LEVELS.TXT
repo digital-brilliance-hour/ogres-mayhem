@@ -85,6 +85,7 @@ file	data/levels/stage9-2.txt
 next
 skipselect blankP
 file 	data/levels/scenes/story/interlude-shrek.txt
+skipselect
 select  data/scenes/main-select.txt
 file 	data/levels/scenes/intro/stage10-intro.txt
 z 154 226 72
@@ -173,6 +174,7 @@ file	data/levels/stage9-2.txt
 next
 skipselect blankP
 file 	data/levels/scenes/story/interlude-shrek.txt
+skipselect
 select  data/scenes/main-select.txt
 file 	data/levels/scenes/intro/stage10-intro.txt
 z 154 226 72
